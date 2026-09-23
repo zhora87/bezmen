@@ -110,9 +110,21 @@ ML Kit on Latin scripts, it is dropped and the flavors differ only in store meta
 | ONNX Runtime (Android) | inference | MIT |
 | ML Kit Text Recognition v2 | Latin recognition, `play` flavor only | proprietary |
 
-Model files are not committed. A Gradle task downloads them by pinned URL, verifies the sha256
-recorded in `models.lock` and places them in assets. Desktop tooling (`tools/ml/ocr_dump.py`) uses
-the same ONNX files through RapidOCR, so corpus dumps match what the app sees.
+Model files are not committed. The `fetchModels` Gradle task downloads them by pinned URL,
+verifies the sha256 recorded in `models.lock` and places them in assets; a build with the files
+already present needs no network.
+
+The shipped files are the RapidOCR ONNX exports with every `HardSwish` node rewritten to the
+numerically identical `HardSigmoid` + `Mul` pair (`tools/ml/rewrite_hardswish.py`): the ONNX
+Runtime native library in the Maven artifact computes `HardSwish` incorrectly, which made every
+PP-OCRv5 model return an input-independent result on the JVM. The rewritten files are hosted as
+static release assets of this repository with a provenance notice. Desktop tooling
+(`tools/ml/ocr_dump.py`) runs the unmodified upstream files through RapidOCR; both produce the
+same numbers.
+
+The `core/ocr` JVM tests run the real models against rendered text and, when corpus photos are
+present locally, against a real price tag, so the engine that ships in the app is exercised on
+every CI run.
 
 ## Locale packs
 
@@ -141,6 +153,9 @@ before installation, in a release that adds the network permission explicitly an
   dumps, must stay at 100%) and `--engine rapidocr` (real OCR dumps, regression floor that is
   raised as the corpus grows). Both run in CI.
 - Documentation and metadata changes do not trigger CI.
+- APKs are split per ABI (arm64-v8a, armeabi-v7a, x86_64): ONNX Runtime carries 22 to 38 MB of
+  native code per architecture, the models add about 20 MB. A release APK for arm64-v8a is
+  about 50 MB.
 - Releases: a tag builds release variants, signing happens outside CI, APKs and checksums are
   attached to GitHub Releases. `fastlane/metadata` carries store listings for F-Droid and Play.
 

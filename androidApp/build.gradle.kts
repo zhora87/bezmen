@@ -47,6 +47,16 @@ android {
         buildConfig = true
     }
 
+    // ONNX Runtime ships native code for every ABI; one APK per ABI keeps the download honest.
+    splits {
+        abi {
+            isEnable = true
+            reset()
+            include("arm64-v8a", "armeabi-v7a", "x86_64")
+            isUniversalApk = false
+        }
+    }
+
     buildTypes {
         getByName("release") {
             isMinifyEnabled = true
@@ -94,6 +104,10 @@ abstract class VerifyNoInternetPermission : DefaultTask() {
 
 androidComponents {
     onVariants { variant ->
+        // OCR models are fetched by :fetchModels (models.lock) and packed as assets/models/*.onnx.
+        val fetchModels = rootProject.tasks.named("fetchModels", FetchModelsTask::class.java)
+        variant.sources.assets?.addGeneratedSourceDirectory(fetchModels, FetchModelsTask::outputDir)
+
         val taskName = "verifyNoInternet" + variant.name.replaceFirstChar { it.uppercase() }
         val verify = tasks.register<VerifyNoInternetPermission>(taskName) {
             mergedManifest.set(variant.artifacts.get(SingleArtifact.MERGED_MANIFEST))

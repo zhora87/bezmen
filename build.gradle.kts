@@ -28,3 +28,13 @@ tasks.withType<io.gitlab.arturbosch.detekt.Detekt>().configureEach {
 dependencies {
     detektPlugins(libs.detekt.formatting)
 }
+
+// OCR models from models.lock: downloaded and verified once per build tree, consumed by
+// :androidApp (APK assets) and :core:ocr (JVM tests). Registered on the root project so that
+// subprojects can reference it regardless of evaluation order.
+tasks.register<FetchModelsTask>("fetchModels") {
+    group = "build setup"
+    description = "Downloads and verifies the OCR models from models.lock"
+    lockFile.set(layout.projectDirectory.file("models.lock"))
+    outputDir.set(layout.buildDirectory.dir("models"))
+}

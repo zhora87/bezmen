@@ -17,5 +17,11 @@ Then measure the parser on the real dumps:
 
     ./gradlew :tools:parser-cli:run --args="corpus --engine rapidocr --verbose"
 
-Model conversion scripts, `models.lock` with sha256 and licences, and device benchmarks come next
-(see docs/architecture.md, Models and licences).
+## rewrite_hardswish.py
+
+Produces the model files listed in `models.lock`: replaces every `HardSwish` node with the
+numerically identical `HardSigmoid` + `Mul` pair and verifies the outputs match the original.
+Needed because the ONNX Runtime native library in the Maven artifact computes `HardSwish`
+incorrectly. Run it on the upstream RapidOCR exports and publish the results as release assets.
+
+    tools/ml/.venv/bin/python tools/ml/rewrite_hardswish.py in.onnx out-nohs.onnx

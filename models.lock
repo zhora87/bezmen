@@ -1,0 +1,35 @@
+{
+  "version": 2,
+  "notes": "PaddleOCR PP-OCRv5 mobile models (Apache-2.0) as exported to ONNX by the RapidOCR project, with every HardSwish node rewritten to HardSigmoid + Mul by tools/ml/rewrite_hardswish.py (numerically identical; the ONNX Runtime native library in the Maven artifact computes HardSwish incorrectly). Hosted as static release assets of this repository; provenance and source checksums are in the release's NOTICE.md. Downloaded at build time by :fetchModels, verified against sha256 and packed into the APK under assets/models/. Recognition models carry their character dictionary in ONNX metadata (key 'character').",
+  "models": [
+    {
+      "name": "ch_PP-OCRv5_det_mobile-nohs.onnx",
+      "role": "detection",
+      "url": "https://github.com/zhora87/bezmen/releases/download/models-2026-09-23/ch_PP-OCRv5_det_mobile-nohs.onnx",
+      "sha256": "da9f3bdedffd6b60983689944956e050029e481445e5f26b04b8b1e6e909d346",
+      "sizeBytes": 4823596,
+      "license": "Apache-2.0",
+      "upstream": "PaddlePaddle/PaddleOCR PP-OCRv5 mobile det; ONNX export RapidAI/RapidOCR v3.9.2 (sha256 4d97c44a20d30a81aad087d6a396b08f786c4635742afc391f6621f5c6ae78ae); HardSwish rewritten"
+    },
+    {
+      "name": "cyrillic_PP-OCRv5_rec_mobile-nohs.onnx",
+      "role": "recognition",
+      "script": "CYRILLIC",
+      "url": "https://github.com/zhora87/bezmen/releases/download/models-2026-09-23/cyrillic_PP-OCRv5_rec_mobile-nohs.onnx",
+      "sha256": "f1b61415692c1c175cf3d90dcdf194a48fc512dc2a554f06c6deaa7699869329",
+      "sizeBytes": 8078788,
+      "license": "Apache-2.0",
+      "upstream": "PaddlePaddle/PaddleOCR PP-OCRv5 mobile rec (Cyrillic); ONNX export RapidAI/RapidOCR v3.9.2 (sha256 90f761b4bfcce0c8c561c0cb5c887b0971d3ec01c32164bdf7374a35b0982711); HardSwish rewritten"
+    },
+    {
+      "name": "latin_PP-OCRv5_rec_mobile-nohs.onnx",
+      "role": "recognition",
+      "script": "LATIN",
+      "url": "https://github.com/zhora87/bezmen/releases/download/models-2026-09-23/latin_PP-OCRv5_rec_mobile-nohs.onnx",
+      "sha256": "22da5f1c8465186eb6a91ad22150eae76c41edb1b9c95f618601dd71f366bd9e",
+      "sizeBytes": 7909209,
+      "license": "Apache-2.0",
+      "upstream": "PaddlePaddle/PaddleOCR PP-OCRv5 mobile rec (Latin); ONNX export RapidAI/RapidOCR v3.9.2 (sha256 b20bd37c168a570f583afbc8cd7925603890efbcdc000a59e22c269d160b5f5a); HardSwish rewritten"
+    }
+  ]
+}

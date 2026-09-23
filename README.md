@@ -25,7 +25,8 @@ Offline price tag scanner for Android. Point the camera at a shelf tag, get the 
 ./gradlew build
 ```
 
-JDK 21 and an Android SDK with platform 37. See [CONTRIBUTING.md](CONTRIBUTING.md).
+JDK 21 and an Android SDK with platform 37. The first build downloads about 20 MB of OCR models
+listed in `models.lock` and verifies their checksums. See [CONTRIBUTING.md](CONTRIBUTING.md).
 
 ## Documentation
 

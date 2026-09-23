@@ -1,4 +1,5 @@
 rapidocr>=3.9
+onnx>=1.17
 onnxruntime>=1.30
 pillow>=10
 pillow-avif-plugin>=1.5

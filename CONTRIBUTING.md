@@ -19,7 +19,8 @@ alive after its predecessors did not.
 ./gradlew :androidApp:installFossDebug
 ```
 
-JDK 21 and an Android SDK with platform 37 are required. Gradle downloads everything else.
+JDK 21 and an Android SDK with platform 37 are required. Gradle downloads everything else,
+including the OCR models pinned in `models.lock`.
 
 ## Reporting a misrecognised price tag
 
