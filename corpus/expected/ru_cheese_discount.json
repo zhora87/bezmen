@@ -1,0 +1,16 @@
+{
+  "pack": "ru",
+  "price": {
+    "minor": 24990,
+    "currency": "RUB"
+  },
+  "oldPrice": {
+    "minor": 34990,
+    "currency": "RUB"
+  },
+  "quantity": {
+    "value": 230.0,
+    "unit": "GRAM"
+  },
+  "note": "discount, old price small"
+}

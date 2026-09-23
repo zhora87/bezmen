@@ -1,0 +1,12 @@
+{
+  "pack": "ru",
+  "price": {
+    "minor": 24990,
+    "currency": "RUB"
+  },
+  "quantity": {
+    "value": 900.0,
+    "unit": "MILLILITRE"
+  },
+  "note": "plain tag"
+}

@@ -1,0 +1,22 @@
+[
+  {
+    "text": "Бананы",
+    "box": {
+      "left": 0.05,
+      "top": 0.05,
+      "right": 0.95,
+      "bottom": 0.17
+    },
+    "confidence": 0.95
+  },
+  {
+    "text": "89,90 ₽ за 1 кг",
+    "box": {
+      "left": 0.05,
+      "top": 0.5,
+      "right": 0.95,
+      "bottom": 0.75
+    },
+    "confidence": 0.95
+  }
+]

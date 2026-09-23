@@ -1,0 +1,35 @@
+# Project overrides on top of detekt's default config (buildUponDefaultConfig = true).
+build:
+  maxIssues: 0
+
+formatting:
+  active: true
+  android: true
+  MaximumLineLength:
+    maxLineLength: 120
+
+style:
+  MaxLineLength:
+    maxLineLength: 120
+  MagicNumber:
+    ignorePropertyDeclaration: true
+    ignoreCompanionObjectPropertyDeclaration: true
+    ignoreEnums: true
+  ReturnCount:
+    max: 3
+    excludeGuardClauses: true
+
+naming:
+  FunctionNaming:
+    # Composables are PascalCase by convention.
+    ignoreAnnotated: ["Composable"]
+  MatchingDeclarationName:
+    active: true
+
+complexity:
+  LongParameterList:
+    functionThreshold: 7
+    constructorThreshold: 8
+  TooManyFunctions:
+    thresholdInFiles: 20
+    thresholdInClasses: 20

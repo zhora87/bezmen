@@ -1,0 +1,102 @@
+[
+  {
+    "text": "251",
+    "box": {
+      "left": 0.0896,
+      "top": 0.0354,
+      "right": 0.1552,
+      "bottom": 0.0646
+    },
+    "confidence": 0.9501
+  },
+  {
+    "text": "19:0320",
+    "box": {
+      "left": 0.6537,
+      "top": 0.0354,
+      "right": 0.791,
+      "bottom": 0.075
+    },
+    "confidence": 0.8829
+  },
+  {
+    "text": "Буряк",
+    "box": {
+      "left": 0.2657,
+      "top": 0.1583,
+      "right": 0.6119,
+      "bottom": 0.2667
+    },
+    "confidence": 0.7688
+  },
+  {
+    "text": "перший",
+    "box": {
+      "left": 0.2119,
+      "top": 0.25,
+      "right": 0.6209,
+      "bottom": 0.3375
+    },
+    "confidence": 0.9634
+  },
+  {
+    "text": "ґатунок",
+    "box": {
+      "left": 0.2209,
+      "top": 0.3271,
+      "right": 0.6358,
+      "bottom": 0.425
+    },
+    "confidence": 0.917
+  },
+  {
+    "text": "Україна",
+    "box": {
+      "left": 0.2567,
+      "top": 0.475,
+      "right": 0.5821,
+      "bottom": 0.5583
+    },
+    "confidence": 0.9452
+  },
+  {
+    "text": "1 Kr",
+    "box": {
+      "left": 0.3463,
+      "top": 0.5458,
+      "right": 0.4955,
+      "bottom": 0.6083
+    },
+    "confidence": 0.7374
+  },
+  {
+    "text": "8",
+    "box": {
+      "left": 0.1761,
+      "top": 0.6,
+      "right": 0.5015,
+      "bottom": 0.9104
+    },
+    "confidence": 0.9999
+  },
+  {
+    "text": "35",
+    "box": {
+      "left": 0.594,
+      "top": 0.6146,
+      "right": 0.7731,
+      "bottom": 0.7375
+    },
+    "confidence": 0.9995
+  },
+  {
+    "text": "ррн.",
+    "box": {
+      "left": 0.5761,
+      "top": 0.8146,
+      "right": 0.7522,
+      "bottom": 0.8896
+    },
+    "confidence": 0.704
+  }
+]

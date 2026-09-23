@@ -1,0 +1,12 @@
+{
+  "pack": "en-generic",
+  "price": {
+    "minor": 349,
+    "currency": "EUR"
+  },
+  "quantity": {
+    "value": 400.0,
+    "unit": "GRAM"
+  },
+  "note": "printed unit price"
+}

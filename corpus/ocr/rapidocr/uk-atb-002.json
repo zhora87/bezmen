@@ -1,0 +1,52 @@
+[
+  {
+    "text": "ТИЛЬКИ",
+    "box": {
+      "left": 0.66,
+      "top": 0.2083,
+      "right": 0.89,
+      "bottom": 0.3438
+    },
+    "confidence": 0.9122
+  },
+  {
+    "text": "BHUMЦ 81",
+    "box": {
+      "left": 0.65,
+      "top": 0.3333,
+      "right": 0.91,
+      "bottom": 0.4479
+    },
+    "confidence": 0.553
+  },
+  {
+    "text": "3НИЖKA31%",
+    "box": {
+      "left": 0.475,
+      "top": 0.4375,
+      "right": 0.99,
+      "bottom": 0.6667
+    },
+    "confidence": 0.7527
+  },
+  {
+    "text": "06",
+    "box": {
+      "left": 0.325,
+      "top": 0.6667,
+      "right": 0.425,
+      "bottom": 0.7917
+    },
+    "confidence": 0.9982
+  },
+  {
+    "text": "50",
+    "box": {
+      "left": 0.095,
+      "top": 0.6771,
+      "right": 0.275,
+      "bottom": 0.9375
+    },
+    "confidence": 0.9998
+  }
+]

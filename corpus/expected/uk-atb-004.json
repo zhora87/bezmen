@@ -1,0 +1,14 @@
+{
+  "pack": "uk",
+  "price": {
+    "minor": 9990,
+    "currency": "UAH"
+  },
+  "oldPrice": null,
+  "quantity": {
+    "value": 180.0,
+    "unit": "GRAM"
+  },
+  "isWeighted": false,
+  "note": "АТБ, orange: Масло Білоцерківське ж.72,6%, -50% тільки 27.09.25, 99/90 грн/180 г; barcode and 'Код: 128718' present"
+}

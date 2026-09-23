@@ -1,0 +1,14 @@
+{
+  "pack": "uk",
+  "price": {
+    "minor": 5090,
+    "currency": "UAH"
+  },
+  "oldPrice": null,
+  "quantity": {
+    "value": 250.0,
+    "unit": "GRAM"
+  },
+  "isWeighted": false,
+  "note": "АТБ, orange promo tag: Сулугуні ж.45%, ЗНИЖКА 31%, ТІЛЬКИ 18 липня, 50/90 ГРН; small print looks like 250 г, verify on a sharper photo"
+}

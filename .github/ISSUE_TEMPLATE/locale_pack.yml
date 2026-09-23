@@ -1,0 +1,32 @@
+name: New locale pack
+description: Add support for price tags of another country or region.
+labels: ["locale-pack"]
+body:
+  - type: input
+    id: region
+    attributes:
+      label: Country / region and script
+      placeholder: e.g. Poland, Latin
+    validations:
+      required: true
+  - type: textarea
+    id: specifics
+    attributes:
+      label: What is specific about price tags there
+      description: Currency spelling, decimal separator, unit spellings, how "price per kg" is printed, discount markers.
+    validations:
+      required: true
+  - type: textarea
+    id: stores
+    attributes:
+      label: Store chains you can photograph
+      description: A pack needs at least 20 annotated tags from at least 2 chains for the corpus.
+    validations:
+      required: true
+  - type: checkboxes
+    id: license
+    attributes:
+      label: Licensing
+      options:
+        - label: I can contribute the pack and corpus annotations under AGPL-3.0
+          required: true

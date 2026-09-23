@@ -1,0 +1,14 @@
+{
+  "pack": "uk",
+  "price": {
+    "minor": 1795,
+    "currency": "UAH"
+  },
+  "oldPrice": null,
+  "quantity": {
+    "value": 1.0,
+    "unit": "KILOGRAM"
+  },
+  "isWeighted": false,
+  "note": "АТБ, white, small tag: Цибуля ріпчаста перший ґатунок, Україна, 1 кг, 17/95 грн.; low resolution"
+}

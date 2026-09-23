@@ -1,0 +1,54 @@
+name: Price tag recognised incorrectly
+description: The app read a wrong price, quantity or unit price from a tag.
+labels: ["recognition", "corpus"]
+body:
+  - type: markdown
+    attributes:
+      value: |
+        Every report with a photo becomes a corpus case and a regression test before the parser is fixed.
+        Please make sure the photo shows no people, receipts or personal data.
+  - type: input
+    id: store
+    attributes:
+      label: Store chain and country
+      placeholder: e.g. Пятёрочка, Russia
+    validations:
+      required: true
+  - type: input
+    id: pack
+    attributes:
+      label: Locale pack used
+      placeholder: e.g. ru
+    validations:
+      required: true
+  - type: textarea
+    id: photo
+    attributes:
+      label: Photo of the price tag
+      description: Drag the image here. Crop roughly to the tag, as the viewfinder would.
+    validations:
+      required: true
+  - type: textarea
+    id: recognised
+    attributes:
+      label: What the app showed
+      placeholder: price 249.90, quantity 900 g, unit price 27.77 per 100 g
+    validations:
+      required: true
+  - type: textarea
+    id: expected
+    attributes:
+      label: What is actually printed on the tag
+      placeholder: price 249.90, quantity 0.9 l
+    validations:
+      required: true
+  - type: input
+    id: version
+    attributes:
+      label: App version and flavor
+      placeholder: 0.1.0 foss
+  - type: input
+    id: device
+    attributes:
+      label: Device and Android version
+      placeholder: Pixel 6a, Android 15

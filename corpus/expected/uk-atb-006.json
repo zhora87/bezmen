@@ -1,0 +1,14 @@
+{
+  "pack": "uk",
+  "price": {
+    "minor": 3360,
+    "currency": "UAH"
+  },
+  "oldPrice": null,
+  "quantity": {
+    "value": 1.0,
+    "unit": "KILOGRAM"
+  },
+  "isWeighted": false,
+  "note": "АТБ, white: Крупа Розумний вибір гречана, 33/60 ГРН., 1 кг pack, 'КОД 53640' and barcode present"
+}

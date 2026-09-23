@@ -1,0 +1,32 @@
+[
+  {
+    "text": "Сок Добрый 1 л",
+    "box": {
+      "left": 0.05,
+      "top": 0.05,
+      "right": 0.95,
+      "bottom": 0.15
+    },
+    "confidence": 0.95
+  },
+  {
+    "text": "249",
+    "box": {
+      "left": 0.1,
+      "top": 0.5,
+      "right": 0.5,
+      "bottom": 0.8
+    },
+    "confidence": 0.95
+  },
+  {
+    "text": "90",
+    "box": {
+      "left": 0.52,
+      "top": 0.5,
+      "right": 0.62,
+      "bottom": 0.62
+    },
+    "confidence": 0.9
+  }
+]

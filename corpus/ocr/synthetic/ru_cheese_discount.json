@@ -1,0 +1,42 @@
+[
+  {
+    "text": "АКЦИЯ",
+    "box": {
+      "left": 0.05,
+      "top": 0.02,
+      "right": 0.95,
+      "bottom": 0.1
+    },
+    "confidence": 0.95
+  },
+  {
+    "text": "349,90",
+    "box": {
+      "left": 0.05,
+      "top": 0.15,
+      "right": 0.95,
+      "bottom": 0.23
+    },
+    "confidence": 0.95
+  },
+  {
+    "text": "249,90 ₽",
+    "box": {
+      "left": 0.05,
+      "top": 0.45,
+      "right": 0.95,
+      "bottom": 0.8
+    },
+    "confidence": 0.95
+  },
+  {
+    "text": "Сыр Ламбер 230 г",
+    "box": {
+      "left": 0.05,
+      "top": 0.85,
+      "right": 0.95,
+      "bottom": 0.93
+    },
+    "confidence": 0.95
+  }
+]

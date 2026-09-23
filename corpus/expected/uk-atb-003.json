@@ -1,0 +1,17 @@
+{
+  "pack": "uk",
+  "price": {
+    "minor": 32300,
+    "currency": "UAH"
+  },
+  "oldPrice": {
+    "minor": 46140,
+    "currency": "UAH"
+  },
+  "quantity": {
+    "value": 1.0,
+    "unit": "PIECE"
+  },
+  "isWeighted": false,
+  "note": "АТБ, orange: Бритва Gillette Venus Smooth Start, станок + 3 змінні картриджі; ЦІНА при скануванні додатка АТБ 290/70 (app price, alternative), crossed 461/40, current 323/00 грн / 1 наб-р (набір = 1 piece), Знижка 29%"
+}

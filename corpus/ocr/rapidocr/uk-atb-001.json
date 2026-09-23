@@ -1,0 +1,82 @@
+[
+  {
+    "text": "50",
+    "box": {
+      "left": 0.3692,
+      "top": 0.0729,
+      "right": 0.6808,
+      "bottom": 0.7396
+    },
+    "confidence": 0.9998
+  },
+  {
+    "text": "190620",
+    "box": {
+      "left": 0.0462,
+      "top": 0.1042,
+      "right": 0.1423,
+      "bottom": 0.1979
+    },
+    "confidence": 0.8743
+  },
+  {
+    "text": "40",
+    "box": {
+      "left": 0.6692,
+      "top": 0.2292,
+      "right": 0.7577,
+      "bottom": 0.4062
+    },
+    "confidence": 0.9997
+  },
+  {
+    "text": "Сирм'який",
+    "box": {
+      "left": 0.1192,
+      "top": 0.2396,
+      "right": 0.3231,
+      "bottom": 0.3542
+    },
+    "confidence": 0.9389
+  },
+  {
+    "text": "\"Золотий Резерв\"",
+    "box": {
+      "left": 0.0577,
+      "top": 0.3333,
+      "right": 0.3731,
+      "bottom": 0.4688
+    },
+    "confidence": 0.8666
+  },
+  {
+    "text": "Моцарелла",
+    "box": {
+      "left": 0.1154,
+      "top": 0.4583,
+      "right": 0.3231,
+      "bottom": 0.5833
+    },
+    "confidence": 0.6766
+  },
+  {
+    "text": "FPH",
+    "box": {
+      "left": 0.6577,
+      "top": 0.4896,
+      "right": 0.7538,
+      "bottom": 0.6146
+    },
+    "confidence": 0.5972
+  },
+  {
+    "text": "x.45%",
+    "box": {
+      "left": 0.1577,
+      "top": 0.5625,
+      "right": 0.2808,
+      "bottom": 0.6771
+    },
+    "confidence": 0.9069
+  }
+]

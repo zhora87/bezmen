@@ -1,0 +1,12 @@
+{
+  "pack": "ru",
+  "price": {
+    "minor": 19900,
+    "currency": "RUB"
+  },
+  "quantity": {
+    "value": 460.0,
+    "unit": "GRAM"
+  },
+  "note": "multipack"
+}

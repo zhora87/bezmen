@@ -1,0 +1,22 @@
+[
+  {
+    "text": "Кефир 1 л",
+    "box": {
+      "left": 0.05,
+      "top": 0.05,
+      "right": 0.95,
+      "bottom": 0.15
+    },
+    "confidence": 0.95
+  },
+  {
+    "text": "89⁹⁰ ₽",
+    "box": {
+      "left": 0.05,
+      "top": 0.5,
+      "right": 0.95,
+      "bottom": 0.8
+    },
+    "confidence": 0.95
+  }
+]

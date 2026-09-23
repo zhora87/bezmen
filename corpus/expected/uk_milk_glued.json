@@ -1,0 +1,12 @@
+{
+  "pack": "uk",
+  "price": {
+    "minor": 5499,
+    "currency": "UAH"
+  },
+  "quantity": {
+    "value": 870.0,
+    "unit": "GRAM"
+  },
+  "note": "uk superscript"
+}

@@ -1,0 +1,4 @@
+rapidocr>=3.9
+onnxruntime>=1.30
+pillow>=10
+pillow-avif-plugin>=1.5

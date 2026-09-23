@@ -1,0 +1,14 @@
+{
+  "pack": "uk",
+  "price": {
+    "minor": 5040,
+    "currency": "UAH"
+  },
+  "oldPrice": null,
+  "quantity": {
+    "value": 250.0,
+    "unit": "GRAM"
+  },
+  "isWeighted": false,
+  "note": "АТБ, white tag: Сир м'який Золотий Резерв Моцарелла ж.45%, superscript kopecks 50/40, 250 г small print"
+}

@@ -1,0 +1,12 @@
+{
+  "pack": "ru",
+  "price": {
+    "minor": 8990,
+    "currency": "RUB"
+  },
+  "quantity": {
+    "value": 1.0,
+    "unit": "LITRE"
+  },
+  "note": "superscript kopecks"
+}

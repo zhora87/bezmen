@@ -1,0 +1,32 @@
+[
+  {
+    "text": "Молоко Простоквашино 2,5%",
+    "box": {
+      "left": 0.05,
+      "top": 0.05,
+      "right": 0.95,
+      "bottom": 0.15
+    },
+    "confidence": 0.95
+  },
+  {
+    "text": "900 мл",
+    "box": {
+      "left": 0.05,
+      "top": 0.2,
+      "right": 0.95,
+      "bottom": 0.26
+    },
+    "confidence": 0.95
+  },
+  {
+    "text": "249,90 ₽",
+    "box": {
+      "left": 0.05,
+      "top": 0.5,
+      "right": 0.95,
+      "bottom": 0.8
+    },
+    "confidence": 0.95
+  }
+]

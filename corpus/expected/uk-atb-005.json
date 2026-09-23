@@ -1,0 +1,14 @@
+{
+  "pack": "uk",
+  "price": {
+    "minor": 835,
+    "currency": "UAH"
+  },
+  "oldPrice": null,
+  "quantity": {
+    "value": 1.0,
+    "unit": "KILOGRAM"
+  },
+  "isWeighted": false,
+  "note": "АТБ, white: Буряк перший ґатунок, Україна, 1 кг, 8/35 грн.; sold by weight but the tag prints plain '1 кг' without a per-kg marker"
+}

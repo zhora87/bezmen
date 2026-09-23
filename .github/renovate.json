@@ -1,0 +1,19 @@
+{
+  "$schema": "https://docs.renovatebot.com/renovate-schema.json",
+  "extends": ["config:recommended", ":semanticCommits"],
+  "labels": ["dependencies"],
+  "schedule": ["before 6am on monday"],
+  "packageRules": [
+    {
+      "description": "Patch updates merge themselves once CI is green",
+      "matchUpdateTypes": ["patch"],
+      "automerge": true
+    },
+    {
+      "description": "Kotlin, Compose compiler and AGP move together; review by hand",
+      "matchPackagePatterns": ["^org\\.jetbrains\\.kotlin", "^com\\.android\\.tools\\.build", "^org\\.jetbrains\\.compose"],
+      "groupName": "kotlin-compose-agp",
+      "automerge": false
+    }
+  ]
+}

@@ -1,0 +1,32 @@
+[
+  {
+    "text": "Nutella 400 g",
+    "box": {
+      "left": 0.05,
+      "top": 0.05,
+      "right": 0.95,
+      "bottom": 0.15
+    },
+    "confidence": 0.95
+  },
+  {
+    "text": "3.49 €",
+    "box": {
+      "left": 0.05,
+      "top": 0.4,
+      "right": 0.95,
+      "bottom": 0.7
+    },
+    "confidence": 0.95
+  },
+  {
+    "text": "1 kg = 8.73 €",
+    "box": {
+      "left": 0.05,
+      "top": 0.85,
+      "right": 0.95,
+      "bottom": 0.9
+    },
+    "confidence": 0.95
+  }
+]

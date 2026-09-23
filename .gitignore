@@ -1,0 +1,35 @@
+# Gradle
+.gradle/
+build/
+.kotlin/
+local.properties
+
+# IDE
+.idea/
+*.iml
+.vscode/
+.DS_Store
+
+# Downloaded ML models: fetched at build time by checksum, never committed
+**/src/*/assets/models/
+*.onnx
+
+# Signing
+*.jks
+*.keystore
+keystore.properties
+
+# Corpus photos are not versioned
+corpus/images/*
+!corpus/images/README.md
+
+# Python
+__pycache__/
+*.pyc
+tools/ml/.venv/
+
+# OCR visualisations written by tools/ml/ocr_dump.py --vis
+corpus/ocr/**/*.vis.jpg
+
+# Private planning notes (PRD, roadmap, decision log) live outside the public repository
+notes/

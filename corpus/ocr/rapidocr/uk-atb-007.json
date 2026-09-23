@@ -1,0 +1,72 @@
+[
+  {
+    "text": "Цибуля",
+    "box": {
+      "left": 0.2308,
+      "top": 0.1056,
+      "right": 0.7231,
+      "bottom": 0.2833
+    },
+    "confidence": 0.9747
+  },
+  {
+    "text": "рипчаста",
+    "box": {
+      "left": 0.2,
+      "top": 0.2,
+      "right": 0.7231,
+      "bottom": 0.3611
+    },
+    "confidence": 0.7247
+  },
+  {
+    "text": "перший",
+    "box": {
+      "left": 0.2077,
+      "top": 0.2889,
+      "right": 0.6769,
+      "bottom": 0.4444
+    },
+    "confidence": 0.9446
+  },
+  {
+    "text": "ратунок",
+    "box": {
+      "left": 0.2,
+      "top": 0.3778,
+      "right": 0.6538,
+      "bottom": 0.5333
+    },
+    "confidence": 0.8459
+  },
+  {
+    "text": "Украіна",
+    "box": {
+      "left": 0.2231,
+      "top": 0.4889,
+      "right": 0.5923,
+      "bottom": 0.6111
+    },
+    "confidence": 0.8351
+  },
+  {
+    "text": "17",
+    "box": {
+      "left": 0.0,
+      "top": 0.55,
+      "right": 0.6462,
+      "bottom": 0.9611
+    },
+    "confidence": 0.9995
+  },
+  {
+    "text": "95",
+    "box": {
+      "left": 0.5615,
+      "top": 0.6722,
+      "right": 0.7769,
+      "bottom": 0.7944
+    },
+    "confidence": 0.9999
+  }
+]
