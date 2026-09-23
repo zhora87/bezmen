@@ -1,5 +1,6 @@
 import com.android.build.api.artifact.SingleArtifact
 import org.jetbrains.kotlin.gradle.dsl.JvmTarget
+import javax.inject.Inject
 
 plugins {
     alias(libs.plugins.androidApplication)
@@ -15,6 +16,11 @@ dependencies {
     implementation(libs.compose.foundation)
     implementation(libs.compose.material3)
     implementation(libs.compose.ui)
+
+    androidTestImplementation(libs.androidx.test.runner)
+    androidTestImplementation(libs.androidx.test.ext.junit)
+    androidTestImplementation(libs.kotlinx.coroutines.core)
+    androidTestImplementation(libs.onnxruntime.android) // the HardSwish probe talks to ONNX Runtime directly
 }
 
 android {
@@ -27,6 +33,7 @@ android {
         targetSdk = libs.versions.android.targetSdk.get().toInt()
         versionCode = 1
         versionName = "0.1.0-dev"
+        testInstrumentationRunner = "androidx.test.runner.AndroidJUnitRunner"
     }
 
     // Distribution channels. `foss` carries no Google dependencies and is what F-Droid builds.
@@ -102,11 +109,62 @@ abstract class VerifyNoInternetPermission : DefaultTask() {
     }
 }
 
+/**
+ * Assets for on-device tests: locale packs, the local corpus (photos never enter git, they are read
+ * from the working tree) and optional probe models. Everything lands in the test APK only.
+ */
+abstract class PrepareDeviceCorpusTask : DefaultTask() {
+    @get:InputFiles
+    @get:PathSensitive(PathSensitivity.RELATIVE)
+    abstract val localePacks: ConfigurableFileCollection
+
+    @get:InputFiles
+    @get:PathSensitive(PathSensitivity.RELATIVE)
+    abstract val expected: ConfigurableFileCollection
+
+    @get:InputFiles
+    @get:PathSensitive(PathSensitivity.RELATIVE)
+    abstract val images: ConfigurableFileCollection
+
+    @get:InputFiles
+    @get:PathSensitive(PathSensitivity.RELATIVE)
+    abstract val probeModels: ConfigurableFileCollection
+
+    @get:OutputDirectory
+    abstract val outputDir: DirectoryProperty
+
+    @get:Inject
+    abstract val fs: FileSystemOperations
+
+    @TaskAction
+    fun prepare() {
+        fs.sync {
+            into(outputDir)
+            from(localePacks) { into("locale-packs") }
+            from(expected) { into("corpus/expected") }
+            from(images) { into("corpus/images") }
+            from(probeModels) { into("probe") }
+        }
+    }
+}
+
+val prepareDeviceCorpus = tasks.register<PrepareDeviceCorpusTask>("prepareDeviceCorpus") {
+    localePacks.from(fileTree(rootProject.file("locale-packs")) { include("*.json") })
+    expected.from(fileTree(rootProject.file("corpus/expected")) { include("uk-atb-*.json") })
+    images.from(fileTree(rootProject.file("corpus/images/uk/atb")) { include("*.jpg") })
+    probeModels.from(fileTree(rootProject.file("build/models-original")) { include("*.onnx") })
+    outputDir.set(layout.buildDirectory.dir("deviceCorpus"))
+}
+
 androidComponents {
     onVariants { variant ->
         // OCR models are fetched by :fetchModels (models.lock) and packed as assets/models/*.onnx.
         val fetchModels = rootProject.tasks.named("fetchModels", FetchModelsTask::class.java)
         variant.sources.assets?.addGeneratedSourceDirectory(fetchModels, FetchModelsTask::outputDir)
+        variant.androidTest?.sources?.assets?.addGeneratedSourceDirectory(
+            prepareDeviceCorpus,
+            PrepareDeviceCorpusTask::outputDir,
+        )
 
         val taskName = "verifyNoInternet" + variant.name.replaceFirstChar { it.uppercase() }
         val verify = tasks.register<VerifyNoInternetPermission>(taskName) {

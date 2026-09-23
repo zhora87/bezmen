@@ -100,6 +100,23 @@ The flavor difference is confined to one optional engine implementation wired th
 flavor-scoped dependency and `BuildConfig.DISTRIBUTION`. If benchmarks show no advantage for
 ML Kit on Latin scripts, it is dropped and the flavors differ only in store metadata.
 
+### Execution provider
+
+`PaddleOnnxOcrEngine` runs ONNX Runtime on its CPU execution provider with up to four intra-op
+threads. XNNPACK and NNAPI are selectable for measurements only. Median latency per corpus photo
+(2048 px on the long side, 79 photos) on an 8-core arm64 phone running Android 16:
+
+| provider | threads | photo median | photo p90 | model load |
+|----------|---------|--------------|-----------|------------|
+| CPU      | 2       | 519 ms       | 759 ms    | 246 ms     |
+| CPU      | 4       | 450 ms       | 656 ms    | 212 ms     |
+| XNNPACK  | 4       | 764 ms       | 1158 ms   | 228 ms     |
+
+NNAPI, checked on a five-photo sample and on a rendered tag, was no faster than CPU with four
+threads and slower to start; it is also deprecated since Android 15. The instrumented test
+`OcrDeviceTest` in `androidApp` reproduces the table and rewrites its report after every
+configuration.
+
 ## Models and licences
 
 | component | purpose | licence |
@@ -158,6 +175,9 @@ before installation, in a release that adds the network permission explicitly an
   about 50 MB.
 - Releases: a tag builds release variants, signing happens outside CI, APKs and checksums are
   attached to GitHub Releases. `fastlane/metadata` carries store listings for F-Droid and Play.
+- `:androidApp:connectedFossDebugAndroidTest` runs `OcrDeviceTest` on an attached phone: the
+  models load from the APK, execution providers are benchmarked and, when `corpus/images/` is
+  present locally, the whole pipeline is scored over the corpus. It is not part of CI.
 
 ## Decisions
 
@@ -166,6 +186,8 @@ before installation, in a release that adds the network permission explicitly an
 - Two flavors, `foss` without any Google dependency.
 - AGPL-3.0 for the code.
 - PaddleOCR through ONNX Runtime as the primary engine; ML Kit optional and Latin-only.
+- ONNX Runtime on the CPU execution provider with up to four threads; XNNPACK and NNAPI were
+  measured on a device and rejected.
 - No network permission in any variant.
 - No shelf-level price tag detector in the first version: the user frames one tag in the
   viewfinder. Whole-shelf mode is a later addition.

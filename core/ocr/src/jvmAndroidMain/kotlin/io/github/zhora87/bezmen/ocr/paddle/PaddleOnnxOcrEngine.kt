@@ -24,16 +24,34 @@ import kotlin.math.roundToInt
 class PaddleOnnxOcrEngine(
     store: ModelStore,
     private val script: Script,
-    threads: Int = DEFAULT_THREADS,
+    threads: Int = defaultThreads(),
+    accelerator: Accelerator = Accelerator.CPU,
     private val postProcessor: DbPostProcessor = DbPostProcessor(),
 ) : OcrEngine {
-    override val id: String = "paddle-onnx-${script.name.lowercase()}"
+    /**
+     * Where ONNX Runtime executes the graph. CPU is the default: measured on an 8-core arm64 phone,
+     * XNNPACK was slower on the detector and NNAPI no faster, while both add start-up cost.
+     * XNNPACK and NNAPI only exist in the Android build and stay available for benchmarking.
+     */
+    enum class Accelerator { CPU, XNNPACK, NNAPI }
+
+    override val id: String = "paddle-onnx-${script.name.lowercase()}-${accelerator.name.lowercase()}"
     override val supportedScripts: Set<Script> = setOf(script)
 
     private val env: OrtEnvironment = OrtEnvironment.getEnvironment()
     private val options = OrtSession.SessionOptions().apply {
-        setIntraOpNumThreads(threads)
         setOptimizationLevel(OrtSession.SessionOptions.OptLevel.ALL_OPT)
+        when (accelerator) {
+            Accelerator.CPU -> setIntraOpNumThreads(threads)
+            Accelerator.XNNPACK -> {
+                addXnnpack(mapOf("intra_op_num_threads" to threads.toString()))
+                setIntraOpNumThreads(1)
+            }
+            Accelerator.NNAPI -> {
+                addNnapi()
+                setIntraOpNumThreads(threads)
+            }
+        }
     }
     private val detector: OrtSession = env.createSession(store.read(Models.DETECTION), options)
     private val recognizer: OrtSession = env.createSession(store.read(Models.recognitionFor(script)), options)
@@ -141,7 +159,12 @@ class PaddleOnnxOcrEngine(
 
     private companion object {
         const val DICTIONARY_KEY = "character"
-        const val DEFAULT_THREADS = 2
+
+        /** Four intra-op threads saturate a mobile SoC on the detector; more only adds scheduling noise. */
+        const val MAX_DEFAULT_THREADS = 4
+
+        fun defaultThreads(): Int = Runtime.getRuntime().availableProcessors().coerceIn(1, MAX_DEFAULT_THREADS)
+
         const val CHANNELS = 3L
         const val MULTIPLE = 32
         const val DET_MAX_SIDE = 960f
