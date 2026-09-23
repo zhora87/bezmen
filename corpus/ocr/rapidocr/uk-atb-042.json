@@ -1,0 +1,262 @@
+[
+  {
+    "text": "РАФИНОВАНА",
+    "box": {
+      "left": 0.6566,
+      "top": 0.0,
+      "right": 0.7958,
+      "bottom": 0.0674
+    },
+    "confidence": 0.9343
+  },
+  {
+    "text": "3 HMX",
+    "box": {
+      "left": 0.4871,
+      "top": 0.0063,
+      "right": 0.5265,
+      "bottom": 0.0405
+    },
+    "confidence": 0.5429
+  },
+  {
+    "text": "3HMK",
+    "box": {
+      "left": 0.4932,
+      "top": 0.0782,
+      "right": 0.531,
+      "bottom": 0.1115
+    },
+    "confidence": 0.5114
+  },
+  {
+    "text": "n(L)",
+    "box": {
+      "left": 0.0,
+      "top": 0.0827,
+      "right": 0.0371,
+      "bottom": 0.1214
+    },
+    "confidence": 0.6807
+  },
+  {
+    "text": "ЖЕНА МАРКИ П",
+    "box": {
+      "left": 0.789,
+      "top": 0.0953,
+      "right": 0.9281,
+      "bottom": 0.1358
+    },
+    "confidence": 0.9376
+  },
+  {
+    "text": "2",
+    "box": {
+      "left": 0.9871,
+      "top": 0.1025,
+      "right": 0.9992,
+      "bottom": 0.1259
+    },
+    "confidence": 0.5762
+  },
+  {
+    "text": "TO:",
+    "box": {
+      "left": 0.0,
+      "top": 0.107,
+      "right": 0.034,
+      "bottom": 0.1376
+    },
+    "confidence": 0.7181
+  },
+  {
+    "text": "ge",
+    "box": {
+      "left": 0.0,
+      "top": 0.1106,
+      "right": 0.0681,
+      "bottom": 0.1978
+    },
+    "confidence": 0.9528
+  },
+  {
+    "text": "ЕКСТРАКЦИЙНОЙ ОЛИЙ)",
+    "box": {
+      "left": 0.7874,
+      "top": 0.1187,
+      "right": 0.9569,
+      "bottom": 0.1574
+    },
+    "confidence": 0.8827
+  },
+  {
+    "text": "82",
+    "box": {
+      "left": 0.969,
+      "top": 0.1232,
+      "right": 0.9992,
+      "bottom": 0.1736
+    },
+    "confidence": 0.9869
+  },
+  {
+    "text": "06am:09n",
+    "box": {
+      "left": 0.1263,
+      "top": 0.1439,
+      "right": 0.2466,
+      "bottom": 0.1942
+    },
+    "confidence": 0.5969
+  },
+  {
+    "text": "в рекоменденому інтервали",
+    "box": {
+      "left": 0.2814,
+      "top": 0.1637,
+      "right": 0.4644,
+      "bottom": 0.2284
+    },
+    "confidence": 0.5389
+  },
+  {
+    "text": "Маса нетто.",
+    "box": {
+      "left": 0.1362,
+      "top": 0.1673,
+      "right": 0.2436,
+      "bottom": 0.214
+    },
+    "confidence": 0.7652
+  },
+  {
+    "text": "ЗРОБЛЕНО",
+    "box": {
+      "left": 0.7073,
+      "top": 0.1817,
+      "right": 0.7776,
+      "bottom": 0.2185
+    },
+    "confidence": 0.9683
+  },
+  {
+    "text": "828",
+    "box": {
+      "left": 0.1271,
+      "top": 0.1826,
+      "right": 0.2753,
+      "bottom": 0.2707
+    },
+    "confidence": 0.6223
+  },
+  {
+    "text": "темератрвд0д30",
+    "box": {
+      "left": 0.2882,
+      "top": 0.1844,
+      "right": 0.4637,
+      "bottom": 0.2518
+    },
+    "confidence": 0.5536
+  },
+  {
+    "text": "UA OліЯ",
+    "box": {
+      "left": 0.382,
+      "top": 0.5827,
+      "right": 0.5303,
+      "bottom": 0.6331
+    },
+    "confidence": 0.7144
+  },
+  {
+    "text": "87",
+    "box": {
+      "left": 0.6082,
+      "top": 0.5845,
+      "right": 0.792,
+      "bottom": 0.7473
+    },
+    "confidence": 0.9996
+  },
+  {
+    "text": "84",
+    "box": {
+      "left": 0.7632,
+      "top": 0.5944,
+      "right": 0.8533,
+      "bottom": 0.6745
+    },
+    "confidence": 0.9997
+  },
+  {
+    "text": "соняшникова",
+    "box": {
+      "left": 0.3343,
+      "top": 0.6349,
+      "right": 0.5794,
+      "bottom": 0.6772
+    },
+    "confidence": 0.9498
+  },
+  {
+    "text": "рpн/",
+    "box": {
+      "left": 0.7799,
+      "top": 0.6646,
+      "right": 0.8366,
+      "bottom": 0.6996
+    },
+    "confidence": 0.5512
+  },
+  {
+    "text": "\"Своя Лінія\"",
+    "box": {
+      "left": 0.3434,
+      "top": 0.67,
+      "right": 0.5703,
+      "bottom": 0.7248
+    },
+    "confidence": 0.949
+  },
+  {
+    "text": "0,9n",
+    "box": {
+      "left": 0.7867,
+      "top": 0.6915,
+      "right": 0.8313,
+      "bottom": 0.7185
+    },
+    "confidence": 0.6884
+  },
+  {
+    "text": "рафинована",
+    "box": {
+      "left": 0.357,
+      "top": 0.7149,
+      "right": 0.5598,
+      "bottom": 0.7725
+    },
+    "confidence": 0.751
+  },
+  {
+    "text": "2999300060150",
+    "box": {
+      "left": 0.6475,
+      "top": 0.8255,
+      "right": 0.8343,
+      "bottom": 0.8579
+    },
+    "confidence": 0.9926
+  },
+  {
+    "text": "1.09.26 КОд: 138357 2.3.5",
+    "box": {
+      "left": 0.3306,
+      "top": 0.8309,
+      "right": 0.5144,
+      "bottom": 0.857
+    },
+    "confidence": 0.9412
+  }
+]

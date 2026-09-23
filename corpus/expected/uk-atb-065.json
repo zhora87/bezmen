@@ -1,0 +1,14 @@
+{
+  "pack": "uk",
+  "price": {
+    "minor": 4990,
+    "currency": "UAH"
+  },
+  "oldPrice": null,
+  "quantity": {
+    "value": 500.0,
+    "unit": "GRAM"
+  },
+  "isWeighted": false,
+  "note": "АТБ 2026-09-23 own photo; Рис Своя Лінія пропарений; грн/4 x 125 г multipack"
+}

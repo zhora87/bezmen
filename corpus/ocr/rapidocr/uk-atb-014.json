@@ -1,0 +1,212 @@
+[
+  {
+    "text": "цей товар ваговий- вартість вказана за 100 г",
+    "box": {
+      "left": 0.3533,
+      "top": 0.1404,
+      "right": 0.8276,
+      "bottom": 0.2426
+    },
+    "confidence": 0.9643
+  },
+  {
+    "text": "AHIT",
+    "box": {
+      "left": 0.6056,
+      "top": 0.2596,
+      "right": 0.6918,
+      "bottom": 0.3553
+    },
+    "confidence": 0.5484
+  },
+  {
+    "text": "0",
+    "box": {
+      "left": 0.0,
+      "top": 0.2617,
+      "right": 0.0481,
+      "bottom": 0.4426
+    },
+    "confidence": 0.7053
+  },
+  {
+    "text": "при скануванні",
+    "box": {
+      "left": 0.3797,
+      "top": 0.266,
+      "right": 0.5916,
+      "bottom": 0.3447
+    },
+    "confidence": 0.9228
+  },
+  {
+    "text": "3Hижka",
+    "box": {
+      "left": 0.7376,
+      "top": 0.2936,
+      "right": 0.8393,
+      "bottom": 0.383
+    },
+    "confidence": 0.5927
+  },
+  {
+    "text": "додатка АТБ",
+    "box": {
+      "left": 0.3944,
+      "top": 0.3277,
+      "right": 0.5683,
+      "bottom": 0.4085
+    },
+    "confidence": 0.9243
+  },
+  {
+    "text": "30",
+    "box": {
+      "left": 0.5916,
+      "top": 0.334,
+      "right": 0.6685,
+      "bottom": 0.4809
+    },
+    "confidence": 0.9992
+  },
+  {
+    "text": "23",
+    "box": {
+      "left": 0.663,
+      "top": 0.3532,
+      "right": 0.6972,
+      "bottom": 0.434
+    },
+    "confidence": 0.9994
+  },
+  {
+    "text": "10%",
+    "box": {
+      "left": 0.7407,
+      "top": 0.3617,
+      "right": 0.8307,
+      "bottom": 0.4851
+    },
+    "confidence": 0.9996
+  },
+  {
+    "text": "на касі",
+    "box": {
+      "left": 0.4348,
+      "top": 0.4,
+      "right": 0.5311,
+      "bottom": 0.466
+    },
+    "confidence": 0.8458
+  },
+  {
+    "text": "H/",
+    "box": {
+      "left": 0.0,
+      "top": 0.4298,
+      "right": 0.0342,
+      "bottom": 0.4915
+    },
+    "confidence": 0.8615
+  },
+  {
+    "text": "11.9.1",
+    "box": {
+      "left": 0.3408,
+      "top": 0.4511,
+      "right": 0.354,
+      "bottom": 0.5489
+    },
+    "confidence": 0.9932
+  },
+  {
+    "text": "WT",
+    "box": {
+      "left": 0.0,
+      "top": 0.4851,
+      "right": 0.0202,
+      "bottom": 0.5362
+    },
+    "confidence": 0.5833
+  },
+  {
+    "text": "37",
+    "box": {
+      "left": 0.7089,
+      "top": 0.5149,
+      "right": 0.8082,
+      "bottom": 0.6787
+    },
+    "confidence": 0.9993
+  },
+  {
+    "text": "Сардельки з сиром",
+    "box": {
+      "left": 0.3835,
+      "top": 0.5298,
+      "right": 0.6925,
+      "bottom": 0.6532
+    },
+    "confidence": 0.9522
+  },
+  {
+    "text": "'Своя лінія/",
+    "box": {
+      "left": 0.4534,
+      "top": 0.6234,
+      "right": 0.632,
+      "bottom": 0.7234
+    },
+    "confidence": 0.9493
+  },
+  {
+    "text": "Код: 39479",
+    "box": {
+      "left": 0.337,
+      "top": 0.6362,
+      "right": 0.3564,
+      "bottom": 0.8362
+    },
+    "confidence": 0.8056
+  },
+  {
+    "text": "15.09.26",
+    "box": {
+      "left": 0.3214,
+      "top": 0.683,
+      "right": 0.3385,
+      "bottom": 0.8298
+    },
+    "confidence": 0.9363
+  },
+  {
+    "text": "33",
+    "box": {
+      "left": 0.7205,
+      "top": 0.6851,
+      "right": 0.8005,
+      "bottom": 0.8511
+    },
+    "confidence": 0.9987
+  },
+  {
+    "text": "59",
+    "box": {
+      "left": 0.7888,
+      "top": 0.6979,
+      "right": 0.8292,
+      "bottom": 0.7957
+    },
+    "confidence": 0.9946
+  },
+  {
+    "text": "М'ясна лавка",
+    "box": {
+      "left": 0.4325,
+      "top": 0.7128,
+      "right": 0.6304,
+      "bottom": 0.8213
+    },
+    "confidence": 0.8865
+  }
+]

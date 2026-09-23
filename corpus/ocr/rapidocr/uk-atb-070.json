@@ -1,0 +1,182 @@
+[
+  {
+    "text": "ЦИHA",
+    "box": {
+      "left": 0.5266,
+      "top": 0.1448,
+      "right": 0.6664,
+      "bottom": 0.2521
+    },
+    "confidence": 0.5948
+  },
+  {
+    "text": "при скануванні",
+    "box": {
+      "left": 0.1486,
+      "top": 0.158,
+      "right": 0.4997,
+      "bottom": 0.2618
+    },
+    "confidence": 0.9231
+  },
+  {
+    "text": "3Hu*Ka",
+    "box": {
+      "left": 0.7102,
+      "top": 0.1653,
+      "right": 0.8709,
+      "bottom": 0.2618
+    },
+    "confidence": 0.5851
+  },
+  {
+    "text": "додатка АТБ",
+    "box": {
+      "left": 0.1769,
+      "top": 0.2232,
+      "right": 0.464,
+      "bottom": 0.3366
+    },
+    "confidence": 0.9415
+  },
+  {
+    "text": "93",
+    "box": {
+      "left": 0.5017,
+      "top": 0.234,
+      "right": 0.6247,
+      "bottom": 0.3848
+    },
+    "confidence": 0.9998
+  },
+  {
+    "text": "41",
+    "box": {
+      "left": 0.6126,
+      "top": 0.2425,
+      "right": 0.6678,
+      "bottom": 0.3233
+    },
+    "confidence": 0.9991
+  },
+  {
+    "text": "10%",
+    "box": {
+      "left": 0.7176,
+      "top": 0.2449,
+      "right": 0.8648,
+      "bottom": 0.3764
+    },
+    "confidence": 0.9992
+  },
+  {
+    "text": "рпн",
+    "box": {
+      "left": 0.618,
+      "top": 0.3016,
+      "right": 0.6678,
+      "bottom": 0.3583
+    },
+    "confidence": 0.5496
+  },
+  {
+    "text": "на касi",
+    "box": {
+      "left": 0.2434,
+      "top": 0.3124,
+      "right": 0.4035,
+      "bottom": 0.3945
+    },
+    "confidence": 0.6572
+  },
+  {
+    "text": "Гель для душу",
+    "box": {
+      "left": 0.2206,
+      "top": 0.4451,
+      "right": 0.5938,
+      "bottom": 0.5525
+    },
+    "confidence": 0.9766
+  },
+  {
+    "text": "103",
+    "box": {
+      "left": 0.6315,
+      "top": 0.5199,
+      "right": 0.7996,
+      "bottom": 0.6936
+    },
+    "confidence": 0.9996
+  },
+  {
+    "text": "\"Melado Energy/",
+    "box": {
+      "left": 0.1997,
+      "top": 0.5235,
+      "right": 0.614,
+      "bottom": 0.649
+    },
+    "confidence": 0.9964
+  },
+  {
+    "text": "90",
+    "box": {
+      "left": 0.7888,
+      "top": 0.5356,
+      "right": 0.8527,
+      "bottom": 0.6297
+    },
+    "confidence": 0.9635
+  },
+  {
+    "text": "Код 186016",
+    "box": {
+      "left": 0.1601,
+      "top": 0.6224,
+      "right": 0.2038,
+      "bottom": 0.8577
+    },
+    "confidence": 0.8739
+  },
+  {
+    "text": "Ice Dragon'",
+    "box": {
+      "left": 0.2724,
+      "top": 0.6273,
+      "right": 0.5306,
+      "bottom": 0.7346
+    },
+    "confidence": 0.9664
+  },
+  {
+    "text": "500M",
+    "box": {
+      "left": 0.7835,
+      "top": 0.6478,
+      "right": 0.8554,
+      "bottom": 0.6888
+    },
+    "confidence": 0.8354
+  },
+  {
+    "text": "01.09.26",
+    "box": {
+      "left": 0.1446,
+      "top": 0.6996,
+      "right": 0.1762,
+      "bottom": 0.8552
+    },
+    "confidence": 0.9964
+  },
+  {
+    "text": "чоловічий, 3 в 1",
+    "box": {
+      "left": 0.226,
+      "top": 0.7129,
+      "right": 0.5911,
+      "bottom": 0.8239
+    },
+    "confidence": 0.9129
+  }
+]

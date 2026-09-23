@@ -4,7 +4,9 @@ import io.github.zhora87.bezmen.domain.LocalePack
 import io.github.zhora87.bezmen.domain.Money
 import io.github.zhora87.bezmen.domain.OcrLine
 import io.github.zhora87.bezmen.domain.Quantity
+import io.github.zhora87.bezmen.domain.parser.Field
 import io.github.zhora87.bezmen.domain.parser.ParseResult
+import io.github.zhora87.bezmen.domain.parser.ParsedTag
 import io.github.zhora87.bezmen.domain.parser.PriceTagParser
 import kotlinx.serialization.Serializable
 import kotlinx.serialization.builtins.ListSerializer
@@ -33,6 +35,8 @@ data class Options(
     val packsDir: File?,
     val minAccuracy: Double,
     val verbose: Boolean,
+    /** Print the OCR lines and the full parse result of this case instead of the report. */
+    val explain: String?,
 )
 
 data class CaseResult(
@@ -42,6 +46,8 @@ data class CaseResult(
     val quantityOk: Boolean,
     val weightedOk: Boolean,
     val kind: String,
+    /** "got ... / expected ..." for the report. */
+    val detail: String,
 ) {
     val allOk: Boolean get() = priceOk && quantityOk && weightedOk
 }
@@ -63,6 +69,7 @@ usage: parser-cli <corpus-dir> [--engine <id>] [--packs-dir <dir>] [--min-accura
   --packs-dir       load locale packs from this directory instead of the bundled ones
   --min-accuracy    exit with code 1 if the share of fully correct cases is below this
   --verbose         print every case, not only the failures
+  --explain <id>    print the OCR lines and the parse result of one case
 """
 
 fun main(args: Array<String>) {
@@ -72,6 +79,10 @@ fun main(args: Array<String>) {
         println(e.message)
         println(USAGE.trimIndent())
         exitProcess(EXIT_USAGE)
+    }
+    if (options.explain != null) {
+        explain(options, options.explain)
+        return
     }
     val results = runCorpus(options)
     if (results.isEmpty()) {
@@ -97,6 +108,7 @@ private fun parseArgs(args: Array<String>): Options {
         packsDir = reader.string("--packs-dir")?.let(::File),
         minAccuracy = reader.double("--min-accuracy") ?: 0.0,
         verbose = reader.flag("--verbose"),
+        explain = reader.string("--explain"),
     )
     reader.rejectUnknown()
     return options
@@ -155,6 +167,50 @@ private fun runCorpus(options: Options): List<CaseResult> {
     }
 }
 
+private fun explain(options: Options, id: String) {
+    val expectedFile = File(options.corpusDir, "expected/$id.json")
+    val ocrFile = File(options.corpusDir, "ocr/${options.engine}/$id.json")
+    val expected = json.decodeFromString(ExpectedTag.serializer(), expectedFile.readText())
+    val lines = json.decodeFromString(ListSerializer(OcrLine.serializer()), ocrFile.readText())
+    val pack = loadPack(expected.pack, options.packsDir)
+    val summary = describe(expected.price, expected.oldPrice, expected.quantity)
+    println("== $id [${expected.pack}] expected $summary weighted=${expected.isWeighted}")
+    lines.forEachIndexed { i, l ->
+        val b = l.box
+        val geometry = "y %.2f-%.2f  x %.2f-%.2f  h %.2f"
+            .format(Locale.ROOT, b.top, b.bottom, b.left, b.right, b.height)
+        println("  %2d  %s  c %.2f  %s".format(Locale.ROOT, i, geometry, l.confidence, l.text))
+    }
+    when (val result = PriceTagParser(pack).parse(lines)) {
+        is ParseResult.Success -> {
+            val overall = "%.2f".format(Locale.ROOT, result.overall)
+            println("-> Success overall=$overall\n${result.tag.pretty()}")
+        }
+        is ParseResult.NeedsInput -> println("-> NeedsInput missing=${result.missing}\n${result.tag.pretty()}")
+        ParseResult.Nothing -> println("-> Nothing")
+    }
+}
+
+private fun ParsedTag.pretty(): String = buildString {
+    fun <T> row(label: String, field: Field<T>?, show: (T) -> String) {
+        append("   $label: ")
+        if (field == null) {
+            append("-\n")
+            return
+        }
+        val confidence = "%.2f".format(Locale.ROOT, field.confidence)
+        append("${show(field.value)} conf=$confidence lines=${field.sourceLines}")
+        if (field.alternatives.isNotEmpty()) append(" alt=${field.alternatives.map(show)}")
+        append('\n')
+    }
+    row("price", price) { it.format() }
+    row("old", oldPrice) { it.format() }
+    row("quantity", quantity) { "${it.value} ${it.unit.code}" }
+    row("printedUnitPrice", printedUnitPrice) { "%.4f minor per base".format(Locale.ROOT, it.minorPerBaseUnit) }
+    row("name", name) { it }
+    append("   weighted: $isWeighted")
+}
+
 private fun loadPack(id: String, packsDir: File?): LocalePack {
     val text = if (packsDir != null) {
         File(packsDir, "$id.json").readText()
@@ -177,7 +233,16 @@ private fun compare(id: String, expected: ExpectedTag, result: ParseResult): Cas
     val priceOk = tag?.price?.value == expected.price
     val quantityOk = sameQuantity(tag?.quantity?.value, expected.quantity)
     val weightedOk = (tag?.isWeighted ?: false) == expected.isWeighted
-    return CaseResult(id, expected.pack, priceOk, quantityOk, weightedOk, result::class.simpleName ?: "?")
+    val detail = "got ${describe(tag?.price?.value, tag?.oldPrice?.value, tag?.quantity?.value)} / " +
+        "expected ${describe(expected.price, expected.oldPrice, expected.quantity)}"
+    return CaseResult(id, expected.pack, priceOk, quantityOk, weightedOk, result::class.simpleName ?: "?", detail)
+}
+
+private fun describe(price: Money?, old: Money?, quantity: Quantity?): String {
+    val p = price?.format() ?: "-"
+    val o = old?.let { " (old ${it.format()})" } ?: ""
+    val q = quantity?.let { "${it.value} ${it.unit.code}" } ?: "-"
+    return "$p$o @ $q"
 }
 
 private fun sameQuantity(actual: Quantity?, expected: Quantity?): Boolean {
@@ -190,7 +255,8 @@ private fun printReport(results: List<CaseResult>, verbose: Boolean) {
     results.filter { verbose || !it.allOk }.forEach { r ->
         val marks = listOf("price" to r.priceOk, "quantity" to r.quantityOk, "weighted" to r.weightedOk)
             .joinToString(" ") { (name, ok) -> if (ok) "$name:ok" else "$name:FAIL" }
-        println("${if (r.allOk) "ok  " else "FAIL"} ${r.id} [${r.pack}] ${r.kind} $marks")
+        val detail = if (r.allOk) "" else "  ${r.detail}"
+        println("${if (r.allOk) "ok  " else "FAIL"} ${r.id} [${r.pack}] ${r.kind} $marks$detail")
     }
     println()
     println("pack        cases  price   quantity  all")

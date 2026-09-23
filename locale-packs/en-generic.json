@@ -5,28 +5,134 @@
   "ocrModel": "latin",
   "currency": {
     "code": "EUR",
-    "symbols": ["€", "eur", "euro"],
-    "decimalSeparators": [",", "."]
+    "symbols": [
+      "€",
+      "eur",
+      "euro"
+    ],
+    "decimalSeparators": [
+      ",",
+      "."
+    ]
   },
   "units": {
-    "mg": ["mg"],
-    "g": ["g", "gr", "gram", "grams", "gramm"],
-    "kg": ["kg", "kilo", "kilogram"],
-    "lb": ["lb", "lbs"],
-    "ml": ["ml"],
-    "cl": ["cl"],
-    "l": ["l", "ltr", "litre", "liter", "lt"],
-    "pc": ["pc", "pcs", "piece", "pieces", "st", "stk", "pz", "ct", "each"]
+    "mg": [
+      "mg"
+    ],
+    "g": [
+      "g",
+      "gr",
+      "gram",
+      "grams",
+      "gramm"
+    ],
+    "kg": [
+      "kg",
+      "kilo",
+      "kilogram"
+    ],
+    "lb": [
+      "lb",
+      "lbs"
+    ],
+    "ml": [
+      "ml"
+    ],
+    "cl": [
+      "cl"
+    ],
+    "l": [
+      "l",
+      "ltr",
+      "litre",
+      "liter",
+      "lt"
+    ],
+    "pc": [
+      "pc",
+      "pcs",
+      "piece",
+      "pieces",
+      "st",
+      "stk",
+      "pz",
+      "ct",
+      "each"
+    ]
   },
-  "multipack": ["x", "×", "*"],
-  "unitPriceMarkers": [
-    "price per kg", "price per 100 g", "price per litre", "price per 100 ml",
-    "per 1 kg", "per kg", "per 100 g", "per 100g", "per 1 l", "per litre", "per liter", "per 100 ml", "per 100ml",
-    "1 kg =", "1 l =", "100 g =", "100 ml =", "/kg", "/l", "/100 g", "/100 ml", "/100g", "/100ml"
+  "multipack": [
+    "x",
+    "×",
+    "*"
   ],
-  "discountMarkers": ["sale", "offer", "promo", "special", "deal", "save"],
-  "oldPriceMarkers": ["was", "before", "regular price", "rrp"],
-  "loyaltyMarkers": ["with card", "club price", "member price", "clubcard price", "nectar price"],
-  "charFixes": { "O": "0", "o": "0", "l": "1", "I": "1", "B": "8", "S": "5" },
-  "priceHints": { "superscriptCents": true }
+  "unitPriceMarkers": [
+    "price per kg",
+    "price per 100 g",
+    "price per litre",
+    "price per 100 ml",
+    "per 1 kg",
+    "per kg",
+    "per 100 g",
+    "per 100g",
+    "per 1 l",
+    "per litre",
+    "per liter",
+    "per 100 ml",
+    "per 100ml",
+    "1 kg =",
+    "1 l =",
+    "100 g =",
+    "100 ml =",
+    "/kg",
+    "/l",
+    "/100 g",
+    "/100 ml",
+    "/100g",
+    "/100ml"
+  ],
+  "discountMarkers": [
+    "sale",
+    "offer",
+    "promo",
+    "special",
+    "deal",
+    "save"
+  ],
+  "oldPriceMarkers": [
+    "was",
+    "before",
+    "regular price",
+    "rrp"
+  ],
+  "loyaltyMarkers": [
+    "with card",
+    "club price",
+    "member price",
+    "clubcard price",
+    "nectar price"
+  ],
+  "charFixes": {
+    "O": "0",
+    "o": "0",
+    "l": "1",
+    "I": "1",
+    "B": "8",
+    "S": "5",
+    "Q": "0",
+    "q": "0"
+  },
+  "priceHints": {
+    "superscriptCents": true
+  },
+  "weightedMarkers": [
+    "sold by weight",
+    "price per 100 g",
+    "price per kg"
+  ],
+  "codeMarkers": [
+    "sku",
+    "art.",
+    "item no",
+    "ean"
+  ]
 }

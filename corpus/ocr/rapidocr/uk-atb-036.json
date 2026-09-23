@@ -1,0 +1,142 @@
+[
+  {
+    "text": "на сайтиаттагкет.сот або за телефоном безкоштовной",
+    "box": {
+      "left": 0.0,
+      "top": 0.0,
+      "right": 0.059,
+      "bottom": 0.8296
+    },
+    "confidence": 0.8729
+  },
+  {
+    "text": "3.09.26",
+    "box": {
+      "left": 0.1018,
+      "top": 0.1413,
+      "right": 0.1991,
+      "bottom": 0.1995
+    },
+    "confidence": 0.9949
+  },
+  {
+    "text": "од:187961",
+    "box": {
+      "left": 0.1049,
+      "top": 0.1929,
+      "right": 0.2443,
+      "bottom": 0.2483
+    },
+    "confidence": 0.8479
+  },
+  {
+    "text": "Оливки зелені",
+    "box": {
+      "left": 0.4257,
+      "top": 0.214,
+      "right": 0.8652,
+      "bottom": 0.354
+    },
+    "confidence": 0.9406
+  },
+  {
+    "text": ".6.2",
+    "box": {
+      "left": 0.1103,
+      "top": 0.2444,
+      "right": 0.1585,
+      "bottom": 0.3012
+    },
+    "confidence": 0.9804
+  },
+  {
+    "text": "\"De Luxe\" F&G",
+    "box": {
+      "left": 0.4342,
+      "top": 0.3276,
+      "right": 0.8492,
+      "bottom": 0.4531
+    },
+    "confidence": 0.9403
+  },
+  {
+    "text": "3Hижкa",
+    "box": {
+      "left": 0.1133,
+      "top": 0.3329,
+      "right": 0.3377,
+      "bottom": 0.4637
+    },
+    "confidence": 0.5439
+  },
+  {
+    "text": "без кісточок",
+    "box": {
+      "left": 0.4678,
+      "top": 0.4293,
+      "right": 0.8155,
+      "bottom": 0.5588
+    },
+    "confidence": 0.8765
+  },
+  {
+    "text": "20%",
+    "box": {
+      "left": 0.1309,
+      "top": 0.4386,
+      "right": 0.3415,
+      "bottom": 0.6116
+    },
+    "confidence": 0.9978
+  },
+  {
+    "text": "78",
+    "box": {
+      "left": 0.4969,
+      "top": 0.576,
+      "right": 0.7351,
+      "bottom": 0.856
+    },
+    "confidence": 0.9989
+  },
+  {
+    "text": "90",
+    "box": {
+      "left": 0.6761,
+      "top": 0.6063,
+      "right": 0.8017,
+      "bottom": 0.7556
+    },
+    "confidence": 0.9974
+  },
+  {
+    "text": "989",
+    "box": {
+      "left": 0.1217,
+      "top": 0.6196,
+      "right": 0.3867,
+      "bottom": 0.8587
+    },
+    "confidence": 0.9741
+  },
+  {
+    "text": "рпн/",
+    "box": {
+      "left": 0.7083,
+      "top": 0.7318,
+      "right": 0.7864,
+      "bottom": 0.7873
+    },
+    "confidence": 0.5399
+  },
+  {
+    "text": "400r",
+    "box": {
+      "left": 0.706,
+      "top": 0.782,
+      "right": 0.7795,
+      "bottom": 0.8375
+    },
+    "confidence": 0.8912
+  }
+]

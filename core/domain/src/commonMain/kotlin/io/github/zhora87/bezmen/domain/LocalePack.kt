@@ -40,6 +40,10 @@ data class LocalePack(
     val oldPriceMarkers: List<String> = emptyList(),
     /** Words that label a loyalty-card price. */
     val loyaltyMarkers: List<String> = emptyList(),
+    /** Phrases meaning the goods are sold by weight and the price is per the printed reference. */
+    val weightedMarkers: List<String> = emptyList(),
+    /** Labels of article codes and similar numbers that are never prices ("Код:"). */
+    val codeMarkers: List<String> = emptyList(),
     /** OCR look-alike characters to fix inside numbers: O to 0, З to 3. */
     val charFixes: Map<String, String> = emptyMap(),
     val priceHints: PriceHints = PriceHints(),
@@ -79,7 +83,9 @@ data class LocalePack(
             .forEach { problems += "unsupported decimal separator '$it'" }
         if (units.isEmpty()) problems += "units must not be empty"
         problems += validateUnits()
-        (unitPriceMarkers + discountMarkers + oldPriceMarkers + loyaltyMarkers + multipack)
+        val markers = unitPriceMarkers + discountMarkers + oldPriceMarkers + loyaltyMarkers + weightedMarkers +
+            codeMarkers + multipack
+        markers
             .filter { it.isBlank() }
             .forEach { _ -> problems += "markers must not contain blank strings" }
         return problems

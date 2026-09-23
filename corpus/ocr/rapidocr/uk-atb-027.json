@@ -1,0 +1,142 @@
+[
+  {
+    "text": "ПИЛЬКИ В",
+    "box": {
+      "left": 0.0,
+      "top": 0.145,
+      "right": 0.5207,
+      "bottom": 0.3338
+    },
+    "confidence": 0.7806
+  },
+  {
+    "text": "ATG",
+    "box": {
+      "left": 0.5536,
+      "top": 0.1466,
+      "right": 0.7653,
+      "bottom": 0.2701
+    },
+    "confidence": 0.9417
+  },
+  {
+    "text": "6vol]",
+    "box": {
+      "left": 0.8166,
+      "top": 0.2233,
+      "right": 0.8744,
+      "bottom": 0.2655
+    },
+    "confidence": 0.6961
+  },
+  {
+    "text": "179549",
+    "box": {
+      "left": 0.8383,
+      "top": 0.4351,
+      "right": 0.9086,
+      "bottom": 0.4559
+    },
+    "confidence": 0.9601
+  },
+  {
+    "text": "3.3.6",
+    "box": {
+      "left": 0.8619,
+      "top": 0.4705,
+      "right": 0.9112,
+      "bottom": 0.495
+    },
+    "confidence": 0.9788
+  },
+  {
+    "text": "64",
+    "box": {
+      "left": 0.6437,
+      "top": 0.5388,
+      "right": 0.8468,
+      "bottom": 0.7045
+    },
+    "confidence": 0.9997
+  },
+  {
+    "text": "60",
+    "box": {
+      "left": 0.8212,
+      "top": 0.5541,
+      "right": 0.9158,
+      "bottom": 0.6355
+    },
+    "confidence": 0.9987
+  },
+  {
+    "text": "Пиво",
+    "box": {
+      "left": 0.2334,
+      "top": 0.5556,
+      "right": 0.3537,
+      "bottom": 0.6094
+    },
+    "confidence": 0.5892
+  },
+  {
+    "text": "Kronenbourg",
+    "box": {
+      "left": 0.1525,
+      "top": 0.6124,
+      "right": 0.4372,
+      "bottom": 0.6792
+    },
+    "confidence": 0.9966
+  },
+  {
+    "text": "рпн/",
+    "box": {
+      "left": 0.8343,
+      "top": 0.637,
+      "right": 0.9014,
+      "bottom": 0.6723
+    },
+    "confidence": 0.5077
+  },
+  {
+    "text": "0,5n",
+    "box": {
+      "left": 0.8383,
+      "top": 0.6654,
+      "right": 0.9014,
+      "bottom": 0.6953
+    },
+    "confidence": 0.7478
+  },
+  {
+    "text": "1664",
+    "box": {
+      "left": 0.2413,
+      "top": 0.6761,
+      "right": 0.3537,
+      "bottom": 0.7322
+    },
+    "confidence": 0.9994
+  },
+  {
+    "text": "Blanc",
+    "box": {
+      "left": 0.2406,
+      "top": 0.7352,
+      "right": 0.3557,
+      "bottom": 0.7928
+    },
+    "confidence": 0.9981
+  },
+  {
+    "text": "4 \"820000\"455985",
+    "box": {
+      "left": 0.6318,
+      "top": 0.8127,
+      "right": 0.8968,
+      "bottom": 0.858
+    },
+    "confidence": 0.9649
+  }
+]

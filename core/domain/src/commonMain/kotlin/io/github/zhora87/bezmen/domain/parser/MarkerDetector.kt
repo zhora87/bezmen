@@ -23,6 +23,8 @@ internal class MarkerDetector(
         /** Reference of a unit-price marker that had no price of its own ("цена за 1 кг" alone). */
         val weightedReference: Quantity?,
         val markerLines: Set<Int>,
+        /** The tag says the goods are sold by weight ("ваговий"). */
+        val weightedByMarker: Boolean,
     )
 
     /** One line that contained a unit-price marker. */
@@ -35,6 +37,8 @@ internal class MarkerDetector(
     private val discount = pack.discountMarkers.prepared()
     private val oldPrice = pack.oldPriceMarkers.prepared()
     private val loyalty = pack.loyaltyMarkers.prepared()
+    private val weighted = pack.weightedMarkers.prepared()
+    private val codes = pack.codeMarkers.prepared()
 
     fun detect(ctx: TagContext): Result {
         val flags = ctx.lower.mapIndexed { line, text ->
@@ -45,6 +49,10 @@ internal class MarkerDetector(
             )
         }
         val consumed = mutableSetOf<TokenId>()
+        // Article codes and barcodes: nothing on such a line is a price or a quantity.
+        ctx.lines.indices.filter { line -> codes.any(ctx.lower[line]::contains) }.forEach { line ->
+            consumed += ctx.tokens[line].map { it.id }
+        }
         val outcomes = ctx.lines.indices.mapNotNull { line -> processLine(ctx, line, consumed) }
         return Result(
             unitPrices = outcomes.mapNotNull { it.toUnitPrice(ctx) },
@@ -52,6 +60,7 @@ internal class MarkerDetector(
             consumed = consumed,
             weightedReference = outcomes.firstOrNull { it.reference != null && it.money == null }?.reference,
             markerLines = outcomes.map { it.line }.toSet(),
+            weightedByMarker = ctx.lower.any { text -> weighted.any(text::contains) },
         )
     }
 

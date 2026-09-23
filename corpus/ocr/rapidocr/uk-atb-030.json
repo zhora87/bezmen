@@ -1,0 +1,122 @@
+[
+  {
+    "text": "22.09.26",
+    "box": {
+      "left": 0.1218,
+      "top": 0.1446,
+      "right": 0.225,
+      "bottom": 0.1961
+    },
+    "confidence": 0.9971
+  },
+  {
+    "text": "Код:177558",
+    "box": {
+      "left": 0.1218,
+      "top": 0.1905,
+      "right": 0.2706,
+      "bottom": 0.2462
+    },
+    "confidence": 0.887
+  },
+  {
+    "text": "Ниво",
+    "box": {
+      "left": 0.5695,
+      "top": 0.2045,
+      "right": 0.7287,
+      "bottom": 0.3143
+    },
+    "confidence": 0.5983
+  },
+  {
+    "text": "3.4.3",
+    "box": {
+      "left": 0.1241,
+      "top": 0.2434,
+      "right": 0.1876,
+      "bottom": 0.3018
+    },
+    "confidence": 0.9954
+  },
+  {
+    "text": "\"Вепр Лютий\"",
+    "box": {
+      "left": 0.4514,
+      "top": 0.2949,
+      "right": 0.855,
+      "bottom": 0.4437
+    },
+    "confidence": 0.9579
+  },
+  {
+    "text": "3Hижка",
+    "box": {
+      "left": 0.1495,
+      "top": 0.3449,
+      "right": 0.3587,
+      "bottom": 0.4562
+    },
+    "confidence": 0.5496
+  },
+  {
+    "text": "Медова Вишня",
+    "box": {
+      "left": 0.4522,
+      "top": 0.4075,
+      "right": 0.849,
+      "bottom": 0.5452
+    },
+    "confidence": 0.9791
+  },
+  {
+    "text": "33%",
+    "box": {
+      "left": 0.1659,
+      "top": 0.4423,
+      "right": 0.3655,
+      "bottom": 0.6147
+    },
+    "confidence": 0.9972
+  },
+  {
+    "text": "299",
+    "box": {
+      "left": 0.5135,
+      "top": 0.5549,
+      "right": 0.7444,
+      "bottom": 0.8526
+    },
+    "confidence": 0.8247
+  },
+  {
+    "text": "90",
+    "box": {
+      "left": 0.6943,
+      "top": 0.5772,
+      "right": 0.8109,
+      "bottom": 0.7385
+    },
+    "confidence": 0.999
+  },
+  {
+    "text": "449",
+    "box": {
+      "left": 0.1592,
+      "top": 0.6175,
+      "right": 0.4133,
+      "bottom": 0.8748
+    },
+    "confidence": 0.9724
+  },
+  {
+    "text": "0.5n",
+    "box": {
+      "left": 0.722,
+      "top": 0.7663,
+      "right": 0.7862,
+      "bottom": 0.8206
+    },
+    "confidence": 0.7893
+  }
+]

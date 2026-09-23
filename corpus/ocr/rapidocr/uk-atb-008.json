@@ -1,0 +1,122 @@
+[
+  {
+    "text": "28",
+    "box": {
+      "left": 0.5965,
+      "top": 0.1462,
+      "right": 0.7749,
+      "bottom": 0.3743
+    },
+    "confidence": 0.9993
+  },
+  {
+    "text": "09",
+    "box": {
+      "left": 0.7612,
+      "top": 0.1569,
+      "right": 0.8411,
+      "bottom": 0.2656
+    },
+    "confidence": 0.9987
+  },
+  {
+    "text": "карткою АТБ",
+    "box": {
+      "left": 0.2076,
+      "top": 0.2068,
+      "right": 0.5,
+      "bottom": 0.3084
+    },
+    "confidence": 0.941
+  },
+  {
+    "text": "-5%",
+    "box": {
+      "left": 0.2973,
+      "top": 0.2745,
+      "right": 0.4201,
+      "bottom": 0.3939
+    },
+    "confidence": 0.9907
+  },
+  {
+    "text": "7\"0000",
+    "box": {
+      "left": 0.1452,
+      "top": 0.3779,
+      "right": 0.1784,
+      "bottom": 0.5936
+    },
+    "confidence": 0.9333
+  },
+  {
+    "text": "Вода мінеральна",
+    "box": {
+      "left": 0.2212,
+      "top": 0.4635,
+      "right": 0.5906,
+      "bottom": 0.5633
+    },
+    "confidence": 0.9491
+  },
+  {
+    "text": "29",
+    "box": {
+      "left": 0.6667,
+      "top": 0.4831,
+      "right": 0.807,
+      "bottom": 0.672
+    },
+    "confidence": 0.9986
+  },
+  {
+    "text": "60",
+    "box": {
+      "left": 0.7895,
+      "top": 0.4991,
+      "right": 0.8596,
+      "bottom": 0.5918
+    },
+    "confidence": 0.9854
+  },
+  {
+    "text": "1.3n",
+    "box": {
+      "left": 0.7982,
+      "top": 0.6185,
+      "right": 0.8538,
+      "bottom": 0.6613
+    },
+    "confidence": 0.7423
+  },
+  {
+    "text": "негазована",
+    "box": {
+      "left": 0.2953,
+      "top": 0.6381,
+      "right": 0.5205,
+      "bottom": 0.7077
+    },
+    "confidence": 0.9471
+  },
+  {
+    "text": "2.6.6",
+    "box": {
+      "left": 0.4211,
+      "top": 0.7968,
+      "right": 0.4727,
+      "bottom": 0.8449
+    },
+    "confidence": 0.983
+  },
+  {
+    "text": "04.07.25 КОД:17520",
+    "box": {
+      "left": 0.1881,
+      "top": 0.7986,
+      "right": 0.3889,
+      "bottom": 0.8538
+    },
+    "confidence": 0.913
+  }
+]

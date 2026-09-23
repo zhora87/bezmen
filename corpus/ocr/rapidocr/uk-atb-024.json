@@ -1,0 +1,162 @@
+[
+  {
+    "text": "при скануванні",
+    "box": {
+      "left": 0.1595,
+      "top": 0.1397,
+      "right": 0.4922,
+      "bottom": 0.2436
+    },
+    "confidence": 0.9448
+  },
+  {
+    "text": "ЦИHA",
+    "box": {
+      "left": 0.5155,
+      "top": 0.1414,
+      "right": 0.6569,
+      "bottom": 0.2624
+    },
+    "confidence": 0.5577
+  },
+  {
+    "text": "3Hижкa",
+    "box": {
+      "left": 0.7009,
+      "top": 0.1738,
+      "right": 0.869,
+      "bottom": 0.2879
+    },
+    "confidence": 0.5488
+  },
+  {
+    "text": "додатка АТБ",
+    "box": {
+      "left": 0.1853,
+      "top": 0.2181,
+      "right": 0.456,
+      "bottom": 0.3152
+    },
+    "confidence": 0.9552
+  },
+  {
+    "text": "79 38",
+    "box": {
+      "left": 0.4914,
+      "top": 0.2351,
+      "right": 0.6672,
+      "bottom": 0.402
+    },
+    "confidence": 0.7926
+  },
+  {
+    "text": "10%",
+    "box": {
+      "left": 0.7069,
+      "top": 0.2658,
+      "right": 0.8569,
+      "bottom": 0.4123
+    },
+    "confidence": 0.9982
+  },
+  {
+    "text": "на касі",
+    "box": {
+      "left": 0.2466,
+      "top": 0.3015,
+      "right": 0.3974,
+      "bottom": 0.3867
+    },
+    "confidence": 0.7287
+  },
+  {
+    "text": "Пиво \"Dinkel\"",
+    "box": {
+      "left": 0.2293,
+      "top": 0.477,
+      "right": 0.569,
+      "bottom": 0.6031
+    },
+    "confidence": 0.9283
+  },
+  {
+    "text": "2.5.4",
+    "box": {
+      "left": 0.1612,
+      "top": 0.4974,
+      "right": 0.1879,
+      "bottom": 0.6031
+    },
+    "confidence": 0.9549
+  },
+  {
+    "text": "88",
+    "box": {
+      "left": 0.6405,
+      "top": 0.5639,
+      "right": 0.7724,
+      "bottom": 0.7496
+    },
+    "confidence": 0.9992
+  },
+  {
+    "text": "Acker Privat",
+    "box": {
+      "left": 0.2526,
+      "top": 0.5792,
+      "right": 0.544,
+      "bottom": 0.7036
+    },
+    "confidence": 0.9936
+  },
+  {
+    "text": "30",
+    "box": {
+      "left": 0.7509,
+      "top": 0.5877,
+      "right": 0.8164,
+      "bottom": 0.6882
+    },
+    "confidence": 0.9982
+  },
+  {
+    "text": "Код 53702",
+    "box": {
+      "left": 0.1612,
+      "top": 0.6457,
+      "right": 0.1914,
+      "bottom": 0.8552
+    },
+    "confidence": 0.8221
+  },
+  {
+    "text": "Світле",
+    "box": {
+      "left": 0.3198,
+      "top": 0.6814,
+      "right": 0.475,
+      "bottom": 0.7956
+    },
+    "confidence": 0.9211
+  },
+  {
+    "text": "08.09.26",
+    "box": {
+      "left": 0.1448,
+      "top": 0.6917,
+      "right": 0.1664,
+      "bottom": 0.8501
+    },
+    "confidence": 0.9985
+  },
+  {
+    "text": "0,5π",
+    "box": {
+      "left": 0.7569,
+      "top": 0.7155,
+      "right": 0.8086,
+      "bottom": 0.7598
+    },
+    "confidence": 0.7016
+  }
+]

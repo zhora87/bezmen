@@ -1,0 +1,172 @@
+[
+  {
+    "text": "ЦИHA",
+    "box": {
+      "left": 0.6491,
+      "top": 0.1427,
+      "right": 0.8063,
+      "bottom": 0.2497
+    },
+    "confidence": 0.5389
+  },
+  {
+    "text": "прискануванни",
+    "box": {
+      "left": 0.226,
+      "top": 0.1527,
+      "right": 0.6161,
+      "bottom": 0.2408
+    },
+    "confidence": 0.7457
+  },
+  {
+    "text": "додаткаАТБ",
+    "box": {
+      "left": 0.2537,
+      "top": 0.2219,
+      "right": 0.5749,
+      "bottom": 0.3255
+    },
+    "confidence": 0.9576
+  },
+  {
+    "text": "374",
+    "box": {
+      "left": 0.5574,
+      "top": 0.2263,
+      "right": 0.7537,
+      "bottom": 0.3913
+    },
+    "confidence": 0.9996
+  },
+  {
+    "text": "13",
+    "box": {
+      "left": 0.7409,
+      "top": 0.2386,
+      "right": 0.8084,
+      "bottom": 0.3712
+    },
+    "confidence": 0.5324
+  },
+  {
+    "text": "накасі",
+    "box": {
+      "left": 0.3279,
+      "top": 0.3155,
+      "right": 0.502,
+      "bottom": 0.3868
+    },
+    "confidence": 0.7477
+  },
+  {
+    "text": "Засібмиючий",
+    "box": {
+      "left": 0.1896,
+      "top": 0.4091,
+      "right": 0.5931,
+      "bottom": 0.5351
+    },
+    "confidence": 0.9741
+  },
+  {
+    "text": "\"Ariel\" Aqua",
+    "box": {
+      "left": 0.2186,
+      "top": 0.5084,
+      "right": 0.5634,
+      "bottom": 0.6455
+    },
+    "confidence": 0.9777
+  },
+  {
+    "text": "530",
+    "box": {
+      "left": 0.1221,
+      "top": 0.5585,
+      "right": 0.1478,
+      "bottom": 0.66
+    },
+    "confidence": 0.9996
+  },
+  {
+    "text": "415",
+    "box": {
+      "left": 0.6451,
+      "top": 0.5674,
+      "right": 0.9076,
+      "bottom": 0.7915
+    },
+    "confidence": 0.9985
+  },
+  {
+    "text": "70",
+    "box": {
+      "left": 0.8772,
+      "top": 0.5942,
+      "right": 0.9582,
+      "bottom": 0.6901
+    },
+    "confidence": 0.9821
+  },
+  {
+    "text": "Puder Color",
+    "box": {
+      "left": 0.2443,
+      "top": 0.6154,
+      "right": 0.5452,
+      "bottom": 0.7168
+    },
+    "confidence": 0.9867
+  },
+  {
+    "text": "рпн/",
+    "box": {
+      "left": 0.8792,
+      "top": 0.6834,
+      "right": 0.9541,
+      "bottom": 0.7313
+    },
+    "confidence": 0.6133
+  },
+  {
+    "text": "синтетичний",
+    "box": {
+      "left": 0.2287,
+      "top": 0.7168,
+      "right": 0.5594,
+      "bottom": 0.8071
+    },
+    "confidence": 0.9779
+  },
+  {
+    "text": "3 Kr",
+    "box": {
+      "left": 0.8866,
+      "top": 0.7258,
+      "right": 0.9426,
+      "bottom": 0.7737
+    },
+    "confidence": 0.6404
+  },
+  {
+    "text": "22.09.26 KOд:200950",
+    "box": {
+      "left": 0.1586,
+      "top": 0.806,
+      "right": 0.3806,
+      "bottom": 0.8584
+    },
+    "confidence": 0.9004
+  },
+  {
+    "text": "3.3.4",
+    "box": {
+      "left": 0.4082,
+      "top": 0.8227,
+      "right": 0.4629,
+      "bottom": 0.854
+    },
+    "confidence": 0.9191
+  }
+]

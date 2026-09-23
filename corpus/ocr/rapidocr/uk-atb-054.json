@@ -1,0 +1,112 @@
+[
+  {
+    "text": "22g",
+    "box": {
+      "left": 0.2721,
+      "top": 0.0,
+      "right": 0.4603,
+      "bottom": 0.0618
+    },
+    "confidence": 0.9298
+  },
+  {
+    "text": "БИГИДНА",
+    "box": {
+      "left": 0.7695,
+      "top": 0.0151,
+      "right": 0.9993,
+      "bottom": 0.0793
+    },
+    "confidence": 0.7143
+  },
+  {
+    "text": "YПAKОBK",
+    "box": {
+      "left": 0.7305,
+      "top": 0.0806,
+      "right": 0.9993,
+      "bottom": 0.129
+    },
+    "confidence": 0.5704
+  },
+  {
+    "text": "20",
+    "box": {
+      "left": 0.4492,
+      "top": 0.5148,
+      "right": 0.7279,
+      "bottom": 0.7099
+    },
+    "confidence": 0.9994
+  },
+  {
+    "text": "30",
+    "box": {
+      "left": 0.6973,
+      "top": 0.5239,
+      "right": 0.8392,
+      "bottom": 0.6305
+    },
+    "confidence": 0.9996
+  },
+  {
+    "text": "UА Дріжджі",
+    "box": {
+      "left": 0.0143,
+      "top": 0.5542,
+      "right": 0.373,
+      "bottom": 0.6245
+    },
+    "confidence": 0.8186
+  },
+  {
+    "text": "\"Saf-instant\"",
+    "box": {
+      "left": 0.0189,
+      "top": 0.6124,
+      "right": 0.373,
+      "bottom": 0.6705
+    },
+    "confidence": 0.9961
+  },
+  {
+    "text": "rpн/",
+    "box": {
+      "left": 0.7214,
+      "top": 0.6172,
+      "right": 0.8066,
+      "bottom": 0.6554
+    },
+    "confidence": 0.5552
+  },
+  {
+    "text": "22r",
+    "box": {
+      "left": 0.7318,
+      "top": 0.6487,
+      "right": 0.791,
+      "bottom": 0.6766
+    },
+    "confidence": 0.9454
+  },
+  {
+    "text": "p.09.26 Код:176311 1.8.1",
+    "box": {
+      "left": 0.0124,
+      "top": 0.7959,
+      "right": 0.2884,
+      "bottom": 0.8262
+    },
+    "confidence": 0.8903
+  },
+  {
+    "text": "\"820074\"79040",
+    "box": {
+      "left": 0.5293,
+      "top": 0.8098,
+      "right": 0.7585,
+      "bottom": 0.8322
+    },
+    "confidence": 0.957
+  }
+]

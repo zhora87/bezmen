@@ -2,6 +2,7 @@ package io.github.zhora87.bezmen.domain.parser
 
 import io.github.zhora87.bezmen.domain.Box
 import io.github.zhora87.bezmen.domain.LocalePack
+import io.github.zhora87.bezmen.domain.MeasureUnit
 import io.github.zhora87.bezmen.domain.Money
 import io.github.zhora87.bezmen.domain.OcrLine
 import io.github.zhora87.bezmen.domain.Quantity
@@ -28,14 +29,16 @@ class PriceTagParser(private val pack: LocalePack) {
         val consumed = markers.consumed + quantities.flatMap { it.tokens }
         val moneys = moneyDetector.detectAll(ctx, consumed)
         val prices = PriceSelector(ctx, markers.flags).select(moneys)
-        val quantity = quantityDetector.choose(quantities)
+        val quantity = quantityDetector.choose(quantities, prices.current?.box)
         val quantityField = quantity?.let { chosen ->
             val others = quantities.map { it.quantity } - chosen.quantity
             Field(chosen.quantity, chosen.confidence, others, listOf(chosen.line))
         }
         val printed = markers.unitPrices.maxByOrNull { it.confidence }
         val name = NameDetector.detect(ctx, markers, quantity)
-        return Assembler(prices, quantityField, printed, markers.weightedReference, name).assemble()
+        val weightedByBareUnit = quantity != null && quantity.isBareUnit && quantity.quantity.isWholeUnit()
+        val weighted = markers.weightedByMarker || weightedByBareUnit
+        return Assembler(prices, quantityField, printed, markers.weightedReference, name, weighted).assemble()
     }
 }
 
@@ -66,6 +69,21 @@ private class PriceSelector(private val ctx: TagContext, private val flags: List
                 current = minOf(current, second, compareBy { it.money.minor })
                 factor = SIMILAR_HEIGHT_PENALTY
             }
+        }
+        if (oldPrice != null && oldPrice.money.minor < current.money.minor) {
+            // A crossed-out price is never lower than the current one. If the cheaper candidate is set
+            // in bigger type it is the real price and the roles are swapped; otherwise it is a card or
+            // app price that escaped its label and only an alternative.
+            if (oldPrice.box.height > current.box.height) {
+                val swapped = current
+                current = oldPrice
+                oldPrice = swapped
+            } else {
+                oldPrice = null
+            }
+        }
+        if (oldPrice != null && oldPrice.money.minor > current.money.minor * MAX_OLD_PRICE_RATIO) {
+            oldPrice = null // a barcode fragment or a code, not a former price
         }
         val taken = setOf(current.money, oldPrice?.money)
         val alternatives = (pool + loyalty).map { it.money }.filter { it !in taken }.distinct()
@@ -98,6 +116,7 @@ private class PriceSelector(private val ctx: TagContext, private val flags: List
         const val POSITION_BONUS = 0.05f
         const val LOWER_HALF = 0.5f
         const val BAND_OVERLAP = 0.5f
+        const val MAX_OLD_PRICE_RATIO = 5
     }
 }
 
@@ -155,6 +174,7 @@ private class Assembler(
     private val printed: UnitPriceCandidate?,
     private val weightedReference: Quantity?,
     private val name: Field<String>?,
+    private val weightedByMarker: Boolean,
 ) {
     private class Resolved(val price: Field<Money>, val quantity: Field<Quantity>, val weighted: Boolean)
 
@@ -168,7 +188,8 @@ private class Assembler(
         if (printed != null && !resolved.weighted && unitPrice.relativeDifference(printed.unitPrice) > TOLERANCE) {
             overall *= MISMATCH_PENALTY
         }
-        val tag = ParsedTag(resolved.price, old, resolved.quantity, printedField, name, resolved.weighted)
+        val weighted = resolved.weighted || weightedByMarker
+        val tag = ParsedTag(resolved.price, old, resolved.quantity, printedField, name, weighted)
         return ParseResult.Success(tag, unitPrice, overall)
     }
 
@@ -201,7 +222,7 @@ private class Assembler(
         Resolved(price, Field(reference, price.confidence * WEIGHTED_MARKER_CONFIDENCE, emptyList(), emptyList()), true)
 
     private fun incomplete(price: Field<Money>?, old: Field<Money>?, printedField: Field<UnitPrice>?): ParseResult {
-        val tag = ParsedTag(price, old, quantity, printedField, name)
+        val tag = ParsedTag(price, old, quantity, printedField, name, weightedByMarker)
         return when {
             price != null -> ParseResult.NeedsInput(tag, setOf(FieldKind.QUANTITY))
             quantity != null -> ParseResult.NeedsInput(tag, setOf(FieldKind.PRICE))
@@ -216,3 +237,7 @@ private class Assembler(
         const val WEIGHTED_MARKER_CONFIDENCE = 0.85f
     }
 }
+
+/** One kilogram or one litre: the reference amount goods sold by weight are priced for. */
+private fun Quantity.isWholeUnit(): Boolean =
+    value == 1.0 && (unit == MeasureUnit.KILOGRAM || unit == MeasureUnit.LITRE)

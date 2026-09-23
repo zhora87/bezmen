@@ -1,0 +1,152 @@
+[
+  {
+    "text": "%ANЦЯ70",
+    "box": {
+      "left": 0.0507,
+      "top": 0.0,
+      "right": 0.8993,
+      "bottom": 0.19
+    },
+    "confidence": 0.5306
+  },
+  {
+    "text": "3.09.26",
+    "box": {
+      "left": 0.0216,
+      "top": 0.2733,
+      "right": 0.1075,
+      "bottom": 0.3156
+    },
+    "confidence": 0.9985
+  },
+  {
+    "text": "2\"999300025845",
+    "box": {
+      "left": 0.7809,
+      "top": 0.2833,
+      "right": 0.8316,
+      "bottom": 0.7478
+    },
+    "confidence": 0.9749
+  },
+  {
+    "text": "A:130210",
+    "box": {
+      "left": 0.025,
+      "top": 0.3078,
+      "right": 0.1501,
+      "bottom": 0.36
+    },
+    "confidence": 0.8394
+  },
+  {
+    "text": "UА ШпроТИ",
+    "box": {
+      "left": 0.3421,
+      "top": 0.3178,
+      "right": 0.6552,
+      "bottom": 0.4522
+    },
+    "confidence": 0.7299
+  },
+  {
+    "text": "1.2",
+    "box": {
+      "left": 0.0325,
+      "top": 0.3522,
+      "right": 0.073,
+      "bottom": 0.4033
+    },
+    "confidence": 0.9432
+  },
+  {
+    "text": "\"Своя лінія\"",
+    "box": {
+      "left": 0.3387,
+      "top": 0.4178,
+      "right": 0.6565,
+      "bottom": 0.5222
+    },
+    "confidence": 0.9509
+  },
+  {
+    "text": "3Hижка",
+    "box": {
+      "left": 0.0392,
+      "top": 0.44,
+      "right": 0.2285,
+      "bottom": 0.5267
+    },
+    "confidence": 0.5614
+  },
+  {
+    "text": "в олії",
+    "box": {
+      "left": 0.4246,
+      "top": 0.5033,
+      "right": 0.5693,
+      "bottom": 0.6056
+    },
+    "confidence": 0.6249
+  },
+  {
+    "text": "20%",
+    "box": {
+      "left": 0.0527,
+      "top": 0.5122,
+      "right": 0.2394,
+      "bottom": 0.6478
+    },
+    "confidence": 0.998
+  },
+  {
+    "text": "65",
+    "box": {
+      "left": 0.3725,
+      "top": 0.6278,
+      "right": 0.5727,
+      "bottom": 0.8589
+    },
+    "confidence": 0.999
+  },
+  {
+    "text": "50",
+    "box": {
+      "left": 0.5159,
+      "top": 0.64,
+      "right": 0.6484,
+      "bottom": 0.7933
+    },
+    "confidence": 0.9951
+  },
+  {
+    "text": "829",
+    "box": {
+      "left": 0.0514,
+      "top": 0.66,
+      "right": 0.2772,
+      "bottom": 0.8556
+    },
+    "confidence": 0.7716
+  },
+  {
+    "text": "рпн/",
+    "box": {
+      "left": 0.5592,
+      "top": 0.7567,
+      "right": 0.6281,
+      "bottom": 0.8044
+    },
+    "confidence": 0.5622
+  },
+  {
+    "text": "160r",
+    "box": {
+      "left": 0.5585,
+      "top": 0.7978,
+      "right": 0.6254,
+      "bottom": 0.8456
+    },
+    "confidence": 0.855
+  }
+]

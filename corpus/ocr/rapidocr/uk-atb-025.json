@@ -1,0 +1,192 @@
+[
+  {
+    "text": "ЦИHA",
+    "box": {
+      "left": 0.5132,
+      "top": 0.1458,
+      "right": 0.6517,
+      "bottom": 0.2515
+    },
+    "confidence": 0.5806
+  },
+  {
+    "text": "при скануванні",
+    "box": {
+      "left": 0.1556,
+      "top": 0.1518,
+      "right": 0.4884,
+      "bottom": 0.247
+    },
+    "confidence": 0.9475
+  },
+  {
+    "text": "3Huжka",
+    "box": {
+      "left": 0.6958,
+      "top": 0.1667,
+      "right": 0.8584,
+      "bottom": 0.2649
+    },
+    "confidence": 0.5761
+  },
+  {
+    "text": "додатка АТБ",
+    "box": {
+      "left": 0.1819,
+      "top": 0.2217,
+      "right": 0.4551,
+      "bottom": 0.3244
+    },
+    "confidence": 0.9581
+  },
+  {
+    "text": "37",
+    "box": {
+      "left": 0.4907,
+      "top": 0.2336,
+      "right": 0.6099,
+      "bottom": 0.3914
+    },
+    "confidence": 0.9998
+  },
+  {
+    "text": "6Z",
+    "box": {
+      "left": 0.6006,
+      "top": 0.247,
+      "right": 0.6525,
+      "bottom": 0.3259
+    },
+    "confidence": 0.8396
+  },
+  {
+    "text": "10%",
+    "box": {
+      "left": 0.7028,
+      "top": 0.2515,
+      "right": 0.8506,
+      "bottom": 0.3899
+    },
+    "confidence": 0.999
+  },
+  {
+    "text": "на касі",
+    "box": {
+      "left": 0.2446,
+      "top": 0.3021,
+      "right": 0.3955,
+      "bottom": 0.3854
+    },
+    "confidence": 0.7174
+  },
+  {
+    "text": "рпн",
+    "box": {
+      "left": 0.606,
+      "top": 0.311,
+      "right": 0.6525,
+      "bottom": 0.3631
+    },
+    "confidence": 0.5848
+  },
+  {
+    "text": "Ниво",
+    "box": {
+      "left": 0.3282,
+      "top": 0.433,
+      "right": 0.4683,
+      "bottom": 0.5387
+    },
+    "confidence": 0.6217
+  },
+  {
+    "text": "2.4.4",
+    "box": {
+      "left": 0.1618,
+      "top": 0.5074,
+      "right": 0.1858,
+      "bottom": 0.6443
+    },
+    "confidence": 0.9807
+  },
+  {
+    "text": "\"LOMZA\" Jasne",
+    "box": {
+      "left": 0.2183,
+      "top": 0.5283,
+      "right": 0.5797,
+      "bottom": 0.6324
+    },
+    "confidence": 0.9647
+  },
+  {
+    "text": "41",
+    "box": {
+      "left": 0.6385,
+      "top": 0.5387,
+      "right": 0.7632,
+      "bottom": 0.7232
+    },
+    "confidence": 0.9998
+  },
+  {
+    "text": "90",
+    "box": {
+      "left": 0.7546,
+      "top": 0.5625,
+      "right": 0.815,
+      "bottom": 0.6488
+    },
+    "confidence": 0.9951
+  },
+  {
+    "text": "Kод 187278",
+    "box": {
+      "left": 0.161,
+      "top": 0.6235,
+      "right": 0.192,
+      "bottom": 0.8586
+    },
+    "confidence": 0.8454
+  },
+  {
+    "text": "світле",
+    "box": {
+      "left": 0.3274,
+      "top": 0.6354,
+      "right": 0.4714,
+      "bottom": 0.7292
+    },
+    "confidence": 0.8714
+  },
+  {
+    "text": "0,33л",
+    "box": {
+      "left": 0.7531,
+      "top": 0.6815,
+      "right": 0.815,
+      "bottom": 0.7262
+    },
+    "confidence": 0.8199
+  },
+  {
+    "text": "10.09.26",
+    "box": {
+      "left": 0.1432,
+      "top": 0.6935,
+      "right": 0.1656,
+      "bottom": 0.8512
+    },
+    "confidence": 0.9948
+  },
+  {
+    "text": "пастеризоване",
+    "box": {
+      "left": 0.2268,
+      "top": 0.7455,
+      "right": 0.5735,
+      "bottom": 0.8408
+    },
+    "confidence": 0.9546
+  }
+]

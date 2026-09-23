@@ -1,0 +1,122 @@
+[
+  {
+    "text": "KAINAH",
+    "box": {
+      "left": 0.5768,
+      "top": 0.0,
+      "right": 0.847,
+      "bottom": 0.0464
+    },
+    "confidence": 0.6407
+  },
+  {
+    "text": "BILLI",
+    "box": {
+      "left": 0.7669,
+      "top": 0.0327,
+      "right": 0.9447,
+      "bottom": 0.1063
+    },
+    "confidence": 0.594
+  },
+  {
+    "text": "Макаронні",
+    "box": {
+      "left": 0.1335,
+      "top": 0.5194,
+      "right": 0.4036,
+      "bottom": 0.5896
+    },
+    "confidence": 0.6627
+  },
+  {
+    "text": "61",
+    "box": {
+      "left": 0.4668,
+      "top": 0.5331,
+      "right": 0.6953,
+      "bottom": 0.7246
+    },
+    "confidence": 0.9989
+  },
+  {
+    "text": "20",
+    "box": {
+      "left": 0.6641,
+      "top": 0.544,
+      "right": 0.7839,
+      "bottom": 0.6455
+    },
+    "confidence": 0.9995
+  },
+  {
+    "text": "вироби",
+    "box": {
+      "left": 0.1732,
+      "top": 0.5685,
+      "right": 0.3685,
+      "bottom": 0.6428
+    },
+    "confidence": 0.9521
+  },
+  {
+    "text": "\"De Luxe F&G\"",
+    "box": {
+      "left": 0.1146,
+      "top": 0.6305,
+      "right": 0.4349,
+      "bottom": 0.681
+    },
+    "confidence": 0.9626
+  },
+  {
+    "text": "рпн/",
+    "box": {
+      "left": 0.6908,
+      "top": 0.6333,
+      "right": 0.7598,
+      "bottom": 0.6653
+    },
+    "confidence": 0.5744
+  },
+  {
+    "text": "0,5Kr",
+    "box": {
+      "left": 0.6927,
+      "top": 0.6605,
+      "right": 0.7559,
+      "bottom": 0.6871
+    },
+    "confidence": 0.7583
+  },
+  {
+    "text": "Витки Amоrosi",
+    "box": {
+      "left": 0.1198,
+      "top": 0.6817,
+      "right": 0.4316,
+      "bottom": 0.7307
+    },
+    "confidence": 0.8268
+  },
+  {
+    "text": "5.09.26 Код:147484 3.5.3",
+    "box": {
+      "left": 0.1126,
+      "top": 0.8071,
+      "right": 0.3438,
+      "bottom": 0.8316
+    },
+    "confidence": 0.9124
+  },
+  {
+    "text": "2999200013089",
+    "box": {
+      "left": 0.5169,
+      "top": 0.8119,
+      "right": 0.7474,
+      "bottom": 0.8391
+    },
+    "confidence": 0.9964
+  }
+]

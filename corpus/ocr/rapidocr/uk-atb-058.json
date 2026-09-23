@@ -1,0 +1,122 @@
+[
+  {
+    "text": "РUЗУМНИЙ",
+    "box": {
+      "left": 0.3216,
+      "top": 0.0,
+      "right": 0.4633,
+      "bottom": 0.0168
+    },
+    "confidence": 0.6664
+  },
+  {
+    "text": "ВИБИРИ",
+    "box": {
+      "left": 0.2574,
+      "top": 0.0054,
+      "right": 0.4428,
+      "bottom": 0.0558
+    },
+    "confidence": 0.5363
+  },
+  {
+    "text": "КНСЛО",
+    "box": {
+      "left": 0.227,
+      "top": 0.0678,
+      "right": 0.4017,
+      "bottom": 0.1218
+    },
+    "confidence": 0.5227
+  },
+  {
+    "text": "харчова",
+    "box": {
+      "left": 0.2687,
+      "top": 0.1428,
+      "right": 0.413,
+      "bottom": 0.1872
+    },
+    "confidence": 0.9638
+  },
+  {
+    "text": "90",
+    "box": {
+      "left": 0.6744,
+      "top": 0.5687,
+      "right": 0.867,
+      "bottom": 0.7115
+    },
+    "confidence": 0.9915
+  },
+  {
+    "text": "18",
+    "box": {
+      "left": 0.5122,
+      "top": 0.5837,
+      "right": 0.7664,
+      "bottom": 0.7528
+    },
+    "confidence": 0.9969
+  },
+  {
+    "text": "Киcлоталимoннa",
+    "box": {
+      "left": 0.0953,
+      "top": 0.6137,
+      "right": 0.4844,
+      "bottom": 0.6569
+    },
+    "confidence": 0.5288
+  },
+  {
+    "text": "Розумний Вибір\"",
+    "box": {
+      "left": 0.096,
+      "top": 0.6449,
+      "right": 0.4851,
+      "bottom": 0.7091
+    },
+    "confidence": 0.9311
+  },
+  {
+    "text": "100r",
+    "box": {
+      "left": 0.7492,
+      "top": 0.6941,
+      "right": 0.8127,
+      "bottom": 0.7205
+    },
+    "confidence": 0.9236
+  },
+  {
+    "text": "eaondex",
+    "box": {
+      "left": 0.1979,
+      "top": 0.6977,
+      "right": 0.3786,
+      "bottom": 0.7373
+    },
+    "confidence": 0.7744
+  },
+  {
+    "text": "6.09.26 Код:110622 2.8.2",
+    "box": {
+      "left": 0.1284,
+      "top": 0.829,
+      "right": 0.37,
+      "bottom": 0.8512
+    },
+    "confidence": 0.9318
+  },
+  {
+    "text": "2999300\"022844",
+    "box": {
+      "left": 0.5539,
+      "top": 0.832,
+      "right": 0.8001,
+      "bottom": 0.856
+    },
+    "confidence": 0.9844
+  }
+]

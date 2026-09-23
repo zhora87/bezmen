@@ -1,0 +1,172 @@
+[
+  {
+    "text": "ЦИHA",
+    "box": {
+      "left": 0.5247,
+      "top": 0.1444,
+      "right": 0.6725,
+      "bottom": 0.2526
+    },
+    "confidence": 0.5716
+  },
+  {
+    "text": "прискануванни",
+    "box": {
+      "left": 0.1387,
+      "top": 0.156,
+      "right": 0.4967,
+      "bottom": 0.2573
+    },
+    "confidence": 0.9345
+  },
+  {
+    "text": "3Hижкa",
+    "box": {
+      "left": 0.7201,
+      "top": 0.1653,
+      "right": 0.8906,
+      "bottom": 0.2666
+    },
+    "confidence": 0.5502
+  },
+  {
+    "text": "додатка АТБ",
+    "box": {
+      "left": 0.1654,
+      "top": 0.2247,
+      "right": 0.459,
+      "bottom": 0.3306
+    },
+    "confidence": 0.9393
+  },
+  {
+    "text": "37",
+    "box": {
+      "left": 0.498,
+      "top": 0.2282,
+      "right": 0.6237,
+      "bottom": 0.3935
+    },
+    "confidence": 0.9998
+  },
+  {
+    "text": "10%",
+    "box": {
+      "left": 0.7266,
+      "top": 0.248,
+      "right": 0.8828,
+      "bottom": 0.3912
+    },
+    "confidence": 0.999
+  },
+  {
+    "text": "31",
+    "box": {
+      "left": 0.6204,
+      "top": 0.2515,
+      "right": 0.6719,
+      "bottom": 0.3225
+    },
+    "confidence": 0.9997
+  },
+  {
+    "text": "на касі",
+    "box": {
+      "left": 0.2337,
+      "top": 0.3097,
+      "right": 0.3958,
+      "bottom": 0.3912
+    },
+    "confidence": 0.6806
+  },
+  {
+    "text": "рпн",
+    "box": {
+      "left": 0.6224,
+      "top": 0.3108,
+      "right": 0.6725,
+      "bottom": 0.3632
+    },
+    "confidence": 0.6415
+  },
+  {
+    "text": "Пиво",
+    "box": {
+      "left": 0.3353,
+      "top": 0.4307,
+      "right": 0.4635,
+      "bottom": 0.5192
+    },
+    "confidence": 0.5673
+  },
+  {
+    "text": "\"Чернігівське",
+    "box": {
+      "left": 0.2311,
+      "top": 0.5006,
+      "right": 0.554,
+      "bottom": 0.6088
+    },
+    "confidence": 0.9371
+  },
+  {
+    "text": "4150",
+    "box": {
+      "left": 0.6582,
+      "top": 0.5274,
+      "right": 0.8613,
+      "bottom": 0.7276
+    },
+    "confidence": 0.9339
+  },
+  {
+    "text": "Kод 200700 1.7",
+    "box": {
+      "left": 0.1439,
+      "top": 0.5483,
+      "right": 0.1797,
+      "bottom": 0.8556
+    },
+    "confidence": 0.8628
+  },
+  {
+    "text": "Binе Fruter",
+    "box": {
+      "left": 0.2891,
+      "top": 0.5949,
+      "right": 0.513,
+      "bottom": 0.6775
+    },
+    "confidence": 0.8302
+  },
+  {
+    "text": "смак кави та",
+    "box": {
+      "left": 0.2721,
+      "top": 0.6938,
+      "right": 0.5286,
+      "bottom": 0.7579
+    },
+    "confidence": 0.9442
+  },
+  {
+    "text": "19.08.26",
+    "box": {
+      "left": 0.127,
+      "top": 0.695,
+      "right": 0.153,
+      "bottom": 0.851
+    },
+    "confidence": 0.9656
+  },
+  {
+    "text": "апельсину",
+    "box": {
+      "left": 0.2891,
+      "top": 0.7742,
+      "right": 0.5117,
+      "bottom": 0.851
+    },
+    "confidence": 0.9673
+  }
+]

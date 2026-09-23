@@ -1,0 +1,17 @@
+{
+  "pack": "uk",
+  "price": {
+    "minor": 3260,
+    "currency": "UAH"
+  },
+  "oldPrice": {
+    "minor": 3960,
+    "currency": "UAH"
+  },
+  "quantity": {
+    "value": 0.5,
+    "unit": "LITRE"
+  },
+  "isWeighted": false,
+  "note": "АТБ 2026-09-23 own photo; Пиво Зіберт 1906; app 29.34, Знижка 17%, crossed 39.60, грн/0,5 л; ТІЛЬКИ В АТБ banner above"
+}

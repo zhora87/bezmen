@@ -1,0 +1,162 @@
+[
+  {
+    "text": "4",
+    "box": {
+      "left": 0.9232,
+      "top": 0.037,
+      "right": 0.9993,
+      "bottom": 0.1337
+    },
+    "confidence": 0.5081
+  },
+  {
+    "text": "ЯЛАЗАНЫ",
+    "box": {
+      "left": 0.0,
+      "top": 0.0507,
+      "right": 0.5078,
+      "bottom": 0.169
+    },
+    "confidence": 0.9713
+  },
+  {
+    "text": "Ma",
+    "box": {
+      "left": 0.9245,
+      "top": 0.1433,
+      "right": 0.9993,
+      "bottom": 0.2101
+    },
+    "confidence": 0.7293
+  },
+  {
+    "text": "аказонні виоби",
+    "box": {
+      "left": 0.0,
+      "top": 0.1678,
+      "right": 0.4844,
+      "bottom": 0.2537
+    },
+    "confidence": 0.8724
+  },
+  {
+    "text": "KP",
+    "box": {
+      "left": 0.9583,
+      "top": 0.2633,
+      "right": 0.9993,
+      "bottom": 0.3051
+    },
+    "confidence": 0.7618
+  },
+  {
+    "text": "КРАЙН А ПОХОДЖЕ НЯ",
+    "box": {
+      "left": 0.0312,
+      "top": 0.2997,
+      "right": 0.4173,
+      "bottom": 0.3457
+    },
+    "confidence": 0.8743
+  },
+  {
+    "text": "500р(",
+    "box": {
+      "left": 0.4342,
+      "top": 0.3355,
+      "right": 0.5827,
+      "bottom": 0.3875
+    },
+    "confidence": 0.8182
+  },
+  {
+    "text": "ТАЛИЯ",
+    "box": {
+      "left": 0.1419,
+      "top": 0.3415,
+      "right": 0.3021,
+      "bottom": 0.3869
+    },
+    "confidence": 0.7723
+  },
+  {
+    "text": "Макаронні",
+    "box": {
+      "left": 0.0892,
+      "top": 0.5576,
+      "right": 0.3477,
+      "bottom": 0.6125
+    },
+    "confidence": 0.623
+  },
+  {
+    "text": "87",
+    "box": {
+      "left": 0.4342,
+      "top": 0.563,
+      "right": 0.7018,
+      "bottom": 0.7427
+    },
+    "confidence": 0.9994
+  },
+  {
+    "text": "70",
+    "box": {
+      "left": 0.6361,
+      "top": 0.5713,
+      "right": 0.7845,
+      "bottom": 0.6764
+    },
+    "confidence": 0.991
+  },
+  {
+    "text": "вироби",
+    "box": {
+      "left": 0.1289,
+      "top": 0.6042,
+      "right": 0.3099,
+      "bottom": 0.6561
+    },
+    "confidence": 0.9216
+  },
+  {
+    "text": "\"De Luxe F&G\"",
+    "box": {
+      "left": 0.0632,
+      "top": 0.6466,
+      "right": 0.3815,
+      "bottom": 0.6961
+    },
+    "confidence": 0.9726
+  },
+  {
+    "text": "0,5Kr",
+    "box": {
+      "left": 0.6784,
+      "top": 0.683,
+      "right": 0.7493,
+      "bottom": 0.7122
+    },
+    "confidence": 0.7435
+  },
+  {
+    "text": "Листи для лазаны",
+    "box": {
+      "left": 0.0365,
+      "top": 0.6878,
+      "right": 0.4108,
+      "bottom": 0.7427
+    },
+    "confidence": 0.9487
+  },
+  {
+    "text": "8.09.26 KOд:87315 2.6.2",
+    "box": {
+      "left": 0.0417,
+      "top": 0.8137,
+      "right": 0.2812,
+      "bottom": 0.8484
+    },
+    "confidence": 0.8758
+  }
+]

@@ -1,0 +1,122 @@
+[
+  {
+    "text": "22.09.26",
+    "box": {
+      "left": 0.1238,
+      "top": 0.1394,
+      "right": 0.2361,
+      "bottom": 0.1956
+    },
+    "confidence": 0.997
+  },
+  {
+    "text": "Ниво",
+    "box": {
+      "left": 0.596,
+      "top": 0.1601,
+      "right": 0.7763,
+      "bottom": 0.2812
+    },
+    "confidence": 0.6041
+  },
+  {
+    "text": "Код:27205",
+    "box": {
+      "left": 0.1238,
+      "top": 0.1834,
+      "right": 0.2678,
+      "bottom": 0.2469
+    },
+    "confidence": 0.8398
+  },
+  {
+    "text": "\"Hike\"",
+    "box": {
+      "left": 0.5836,
+      "top": 0.2677,
+      "right": 0.7879,
+      "bottom": 0.3851
+    },
+    "confidence": 0.9922
+  },
+  {
+    "text": "3Hижкa",
+    "box": {
+      "left": 0.144,
+      "top": 0.3264,
+      "right": 0.3684,
+      "bottom": 0.445
+    },
+    "confidence": 0.5261
+  },
+  {
+    "text": "Премиум",
+    "box": {
+      "left": 0.5519,
+      "top": 0.3729,
+      "right": 0.8119,
+      "bottom": 0.5086
+    },
+    "confidence": 0.882
+  },
+  {
+    "text": "36%",
+    "box": {
+      "left": 0.1548,
+      "top": 0.4169,
+      "right": 0.3738,
+      "bottom": 0.5941
+    },
+    "confidence": 0.999
+  },
+  {
+    "text": "світле",
+    "box": {
+      "left": 0.5859,
+      "top": 0.4804,
+      "right": 0.7701,
+      "bottom": 0.588
+    },
+    "confidence": 0.7934
+  },
+  {
+    "text": "30",
+    "box": {
+      "left": 0.5217,
+      "top": 0.5538,
+      "right": 0.7786,
+      "bottom": 0.8545
+    },
+    "confidence": 0.998
+  },
+  {
+    "text": "90",
+    "box": {
+      "left": 0.7252,
+      "top": 0.588,
+      "right": 0.8537,
+      "bottom": 0.7396
+    },
+    "confidence": 0.9993
+  },
+  {
+    "text": "рпн/",
+    "box": {
+      "left": 0.7515,
+      "top": 0.7274,
+      "right": 0.8313,
+      "bottom": 0.7787
+    },
+    "confidence": 0.6005
+  },
+  {
+    "text": "0,5n",
+    "box": {
+      "left": 0.7485,
+      "top": 0.7738,
+      "right": 0.8259,
+      "bottom": 0.8337
+    },
+    "confidence": 0.7576
+  }
+]

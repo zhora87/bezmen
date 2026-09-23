@@ -1,0 +1,132 @@
+[
+  {
+    "text": "500g",
+    "box": {
+      "left": 0.6777,
+      "top": 0.0694,
+      "right": 0.9883,
+      "bottom": 0.186
+    },
+    "confidence": 0.9711
+  },
+  {
+    "text": "04/09/26",
+    "box": {
+      "left": 0.7663,
+      "top": 0.2431,
+      "right": 0.875,
+      "bottom": 0.277
+    },
+    "confidence": 0.9621
+  },
+  {
+    "text": "2",
+    "box": {
+      "left": 0.8014,
+      "top": 0.2776,
+      "right": 0.8288,
+      "bottom": 0.3044
+    },
+    "confidence": 0.9996
+  },
+  {
+    "text": "L.28/08/28",
+    "box": {
+      "left": 0.7441,
+      "top": 0.3044,
+      "right": 0.8698,
+      "bottom": 0.3364
+    },
+    "confidence": 0.9828
+  },
+  {
+    "text": "82",
+    "box": {
+      "left": 0.5534,
+      "top": 0.5102,
+      "right": 0.8281,
+      "bottom": 0.709
+    },
+    "confidence": 0.9977
+  },
+  {
+    "text": "UAPNC",
+    "box": {
+      "left": 0.2168,
+      "top": 0.5166,
+      "right": 0.4193,
+      "bottom": 0.5738
+    },
+    "confidence": 0.6466
+  },
+  {
+    "text": "60",
+    "box": {
+      "left": 0.7747,
+      "top": 0.5195,
+      "right": 0.9128,
+      "bottom": 0.6245
+    },
+    "confidence": 0.9983
+  },
+  {
+    "text": "\"Trapeza\"",
+    "box": {
+      "left": 0.179,
+      "top": 0.5609,
+      "right": 0.4583,
+      "bottom": 0.6362
+    },
+    "confidence": 0.9821
+  },
+  {
+    "text": "Басматі Гімалаї",
+    "box": {
+      "left": 0.1217,
+      "top": 0.6134,
+      "right": 0.5202,
+      "bottom": 0.6828
+    },
+    "confidence": 0.9201
+  },
+  {
+    "text": "0,5Mr",
+    "box": {
+      "left": 0.8184,
+      "top": 0.6332,
+      "right": 0.8893,
+      "bottom": 0.663
+    },
+    "confidence": 0.715
+  },
+  {
+    "text": "пропарений",
+    "box": {
+      "left": 0.1471,
+      "top": 0.6606,
+      "right": 0.4935,
+      "bottom": 0.7464
+    },
+    "confidence": 0.9829
+  },
+  {
+    "text": "820179680164",
+    "box": {
+      "left": 0.653,
+      "top": 0.7953,
+      "right": 0.8997,
+      "bottom": 0.8338
+    },
+    "confidence": 0.9968
+  },
+  {
+    "text": "22.09.26 Код: 121722 1.8.5",
+    "box": {
+      "left": 0.1009,
+      "top": 0.8111,
+      "right": 0.4069,
+      "bottom": 0.8455
+    },
+    "confidence": 0.9335
+  }
+]

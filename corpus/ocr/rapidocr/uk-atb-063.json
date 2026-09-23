@@ -1,0 +1,202 @@
+[
+  {
+    "text": "L.07109/28",
+    "box": {
+      "left": 0.227,
+      "top": 0.0182,
+      "right": 0.4228,
+      "bottom": 0.0588
+    },
+    "confidence": 0.9685
+  },
+  {
+    "text": "ЦIHA",
+    "box": {
+      "left": 0.5481,
+      "top": 0.146,
+      "right": 0.6837,
+      "bottom": 0.207
+    },
+    "confidence": 0.5494
+  },
+  {
+    "text": "ануванн",
+    "box": {
+      "left": 0.337,
+      "top": 0.1503,
+      "right": 0.5211,
+      "bottom": 0.1866
+    },
+    "confidence": 0.6599
+  },
+  {
+    "text": "3Hu*ka",
+    "box": {
+      "left": 0.7239,
+      "top": 0.1649,
+      "right": 0.8858,
+      "bottom": 0.2309
+    },
+    "confidence": 0.6004
+  },
+  {
+    "text": "додатка АТБ",
+    "box": {
+      "left": 0.2159,
+      "top": 0.1765,
+      "right": 0.4865,
+      "bottom": 0.2266
+    },
+    "confidence": 0.9587
+  },
+  {
+    "text": "32",
+    "box": {
+      "left": 0.5156,
+      "top": 0.191,
+      "right": 0.6429,
+      "bottom": 0.281
+    },
+    "confidence": 0.9995
+  },
+  {
+    "text": "TE",
+    "box": {
+      "left": 0.6076,
+      "top": 0.2026,
+      "right": 0.6803,
+      "bottom": 0.2491
+    },
+    "confidence": 0.8232
+  },
+  {
+    "text": "17%",
+    "box": {
+      "left": 0.7273,
+      "top": 0.2106,
+      "right": 0.8747,
+      "bottom": 0.2919
+    },
+    "confidence": 0.9994
+  },
+  {
+    "text": "на касі",
+    "box": {
+      "left": 0.2754,
+      "top": 0.2186,
+      "right": 0.4277,
+      "bottom": 0.2665
+    },
+    "confidence": 0.8293
+  },
+  {
+    "text": "UA Булгуr",
+    "box": {
+      "left": 0.2886,
+      "top": 0.2796,
+      "right": 0.5599,
+      "bottom": 0.3755
+    },
+    "confidence": 0.7121
+  },
+  {
+    "text": "Koд 151096 1.9.7",
+    "box": {
+      "left": 0.1723,
+      "top": 0.3304,
+      "right": 0.2069,
+      "bottom": 0.52
+    },
+    "confidence": 0.8549
+  },
+  {
+    "text": "43",
+    "box": {
+      "left": 0.6567,
+      "top": 0.3362,
+      "right": 0.8235,
+      "bottom": 0.4328
+    },
+    "confidence": 0.9987
+  },
+  {
+    "text": "крупний",
+    "box": {
+      "left": 0.308,
+      "top": 0.35,
+      "right": 0.5343,
+      "bottom": 0.4161
+    },
+    "confidence": 0.9921
+  },
+  {
+    "text": "\"Trapeza'",
+    "box": {
+      "left": 0.2907,
+      "top": 0.3893,
+      "right": 0.5253,
+      "bottom": 0.4815
+    },
+    "confidence": 0.9414
+  },
+  {
+    "text": "41",
+    "box": {
+      "left": 0.508,
+      "top": 0.4154,
+      "right": 0.5329,
+      "bottom": 0.4415
+    },
+    "confidence": 0.6437
+  },
+  {
+    "text": "35",
+    "box": {
+      "left": 0.654,
+      "top": 0.4357,
+      "right": 0.7889,
+      "bottom": 0.5447
+    },
+    "confidence": 0.9995
+  },
+  {
+    "text": "90",
+    "box": {
+      "left": 0.764,
+      "top": 0.4444,
+      "right": 0.8429,
+      "bottom": 0.5323
+    },
+    "confidence": 0.8262
+  },
+  {
+    "text": "so0rp",
+    "box": {
+      "left": 0.7682,
+      "top": 0.5156,
+      "right": 0.836,
+      "bottom": 0.5476
+    },
+    "confidence": 0.7744
+  },
+  {
+    "text": "KIVJ",
+    "box": {
+      "left": 0.6471,
+      "top": 0.6376,
+      "right": 0.7204,
+      "bottom": 0.703
+    },
+    "confidence": 0.5605
+  },
+  {
+    "text": "РИСШЛИО",
+    "box": {
+      "left": 0.6381,
+      "top": 0.7211,
+      "right": 0.7772,
+      "bottom": 0.8301
+    },
+    "confidence": 0.5295
+  }
+]

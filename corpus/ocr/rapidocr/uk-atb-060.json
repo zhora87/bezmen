@@ -1,0 +1,102 @@
+[
+  {
+    "text": "Puc",
+    "box": {
+      "left": 0.2096,
+      "top": 0.1418,
+      "right": 0.3405,
+      "bottom": 0.28
+    },
+    "confidence": 0.7406
+  },
+  {
+    "text": "53",
+    "box": {
+      "left": 0.5462,
+      "top": 0.1455,
+      "right": 0.8711,
+      "bottom": 0.621
+    },
+    "confidence": 0.9989
+  },
+  {
+    "text": "90",
+    "box": {
+      "left": 0.8125,
+      "top": 0.1797,
+      "right": 0.9772,
+      "bottom": 0.4328
+    },
+    "confidence": 0.9964
+  },
+  {
+    "text": "\"Розумний",
+    "box": {
+      "left": 0.1035,
+      "top": 0.2567,
+      "right": 0.4577,
+      "bottom": 0.4169
+    },
+    "confidence": 0.9181
+  },
+  {
+    "text": "вибір\"",
+    "box": {
+      "left": 0.1777,
+      "top": 0.3839,
+      "right": 0.3932,
+      "bottom": 0.544
+    },
+    "confidence": 0.6847
+  },
+  {
+    "text": "рpH/",
+    "box": {
+      "left": 0.8451,
+      "top": 0.3924,
+      "right": 0.9382,
+      "bottom": 0.4743
+    },
+    "confidence": 0.5312
+  },
+  {
+    "text": "1Kr",
+    "box": {
+      "left": 0.8574,
+      "top": 0.4597,
+      "right": 0.9173,
+      "bottom": 0.5232
+    },
+    "confidence": 0.6957
+  },
+  {
+    "text": "пропарений",
+    "box": {
+      "left": 0.1139,
+      "top": 0.5049,
+      "right": 0.4707,
+      "bottom": 0.6553
+    },
+    "confidence": 0.9662
+  },
+  {
+    "text": "8.09.26 Код:69606 3.7.2",
+    "box": {
+      "left": 0.1016,
+      "top": 0.7958,
+      "right": 0.3724,
+      "bottom": 0.8435
+    },
+    "confidence": 0.9353
+  },
+  {
+    "text": "2\"999300020307",
+    "box": {
+      "left": 0.6048,
+      "top": 0.7958,
+      "right": 0.8958,
+      "bottom": 0.8594
+    },
+    "confidence": 0.9825
+  }
+]

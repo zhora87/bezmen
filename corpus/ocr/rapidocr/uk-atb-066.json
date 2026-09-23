@@ -1,0 +1,192 @@
+[
+  {
+    "text": "при скануванні",
+    "box": {
+      "left": 0.166,
+      "top": 0.1391,
+      "right": 0.5716,
+      "bottom": 0.2489
+    },
+    "confidence": 0.9516
+  },
+  {
+    "text": "ЦИHA",
+    "box": {
+      "left": 0.6029,
+      "top": 0.1446,
+      "right": 0.7728,
+      "bottom": 0.2717
+    },
+    "confidence": 0.5912
+  },
+  {
+    "text": "3Hижкa",
+    "box": {
+      "left": 0.821,
+      "top": 0.1902,
+      "right": 0.9993,
+      "bottom": 0.3022
+    },
+    "confidence": 0.5256
+  },
+  {
+    "text": "додатка АТБ",
+    "box": {
+      "left": 0.1992,
+      "top": 0.2163,
+      "right": 0.5273,
+      "bottom": 0.3239
+    },
+    "confidence": 0.9101
+  },
+  {
+    "text": "18",
+    "box": {
+      "left": 0.5781,
+      "top": 0.2435,
+      "right": 0.7188,
+      "bottom": 0.4076
+    },
+    "confidence": 0.9996
+  },
+  {
+    "text": "79",
+    "box": {
+      "left": 0.696,
+      "top": 0.2587,
+      "right": 0.7702,
+      "bottom": 0.3989
+    },
+    "confidence": 0.6439
+  },
+  {
+    "text": "10%",
+    "box": {
+      "left": 0.8236,
+      "top": 0.2772,
+      "right": 0.9993,
+      "bottom": 0.4337
+    },
+    "confidence": 0.9986
+  },
+  {
+    "text": "на касi",
+    "box": {
+      "left": 0.2741,
+      "top": 0.313,
+      "right": 0.4538,
+      "bottom": 0.3957
+    },
+    "confidence": 0.6698
+  },
+  {
+    "text": "Мило",
+    "box": {
+      "left": 0.3665,
+      "top": 0.4424,
+      "right": 0.5436,
+      "bottom": 0.562
+    },
+    "confidence": 0.9113
+  },
+  {
+    "text": "ZEE",
+    "box": {
+      "left": 0.1771,
+      "top": 0.513,
+      "right": 0.207,
+      "bottom": 0.613
+    },
+    "confidence": 0.9173
+  },
+  {
+    "text": "\"Своя Лінія'",
+    "box": {
+      "left": 0.2773,
+      "top": 0.5402,
+      "right": 0.6139,
+      "bottom": 0.6587
+    },
+    "confidence": 0.9306
+  },
+  {
+    "text": "20",
+    "box": {
+      "left": 0.7376,
+      "top": 0.5728,
+      "right": 0.89,
+      "bottom": 0.762
+    },
+    "confidence": 0.9991
+  },
+  {
+    "text": "90",
+    "box": {
+      "left": 0.8613,
+      "top": 0.6011,
+      "right": 0.9388,
+      "bottom": 0.6946
+    },
+    "confidence": 0.979
+  },
+  {
+    "text": "Активна свіжість",
+    "box": {
+      "left": 0.2272,
+      "top": 0.6217,
+      "right": 0.6823,
+      "bottom": 0.7717
+    },
+    "confidence": 0.9806
+  },
+  {
+    "text": "Код 139409",
+    "box": {
+      "left": 0.179,
+      "top": 0.6326,
+      "right": 0.2174,
+      "bottom": 0.8565
+    },
+    "confidence": 0.8596
+  },
+  {
+    "text": "666",
+    "box": {
+      "left": 0.1237,
+      "top": 0.6696,
+      "right": 0.1556,
+      "bottom": 0.8043
+    },
+    "confidence": 0.9945
+  },
+  {
+    "text": "02.09.26",
+    "box": {
+      "left": 0.1595,
+      "top": 0.6967,
+      "right": 0.1888,
+      "bottom": 0.8533
+    },
+    "confidence": 0.9967
+  },
+  {
+    "text": "1WT.",
+    "box": {
+      "left": 0.8646,
+      "top": 0.7196,
+      "right": 0.9251,
+      "bottom": 0.7674
+    },
+    "confidence": 0.6922
+  },
+  {
+    "text": "тверде",
+    "box": {
+      "left": 0.3555,
+      "top": 0.7565,
+      "right": 0.5469,
+      "bottom": 0.8609
+    },
+    "confidence": 0.9917
+  }
+]

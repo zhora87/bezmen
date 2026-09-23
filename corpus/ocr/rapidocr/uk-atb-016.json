@@ -1,0 +1,92 @@
+[
+  {
+    "text": "17",
+    "box": {
+      "left": 0.5169,
+      "top": 0.1444,
+      "right": 0.8092,
+      "bottom": 0.5922
+    },
+    "confidence": 0.9984
+  },
+  {
+    "text": "80",
+    "box": {
+      "left": 0.7389,
+      "top": 0.1631,
+      "right": 0.9095,
+      "bottom": 0.4318
+    },
+    "confidence": 0.9985
+  },
+  {
+    "text": "UA Xлі6",
+    "box": {
+      "left": 0.1328,
+      "top": 0.1698,
+      "right": 0.3711,
+      "bottom": 0.3075
+    },
+    "confidence": 0.7675
+  },
+  {
+    "text": "ЗЛЬОНОМ",
+    "box": {
+      "left": 0.1217,
+      "top": 0.3262,
+      "right": 0.3906,
+      "bottom": 0.4225
+    },
+    "confidence": 0.9221
+  },
+  {
+    "text": "рпH/",
+    "box": {
+      "left": 0.7871,
+      "top": 0.389,
+      "right": 0.8704,
+      "bottom": 0.4679
+    },
+    "confidence": 0.502
+  },
+  {
+    "text": "нарізаний",
+    "box": {
+      "left": 0.1211,
+      "top": 0.4184,
+      "right": 0.4004,
+      "bottom": 0.5561
+    },
+    "confidence": 0.9663
+  },
+  {
+    "text": "250r",
+    "box": {
+      "left": 0.791,
+      "top": 0.4545,
+      "right": 0.8587,
+      "bottom": 0.5134
+    },
+    "confidence": 0.899
+  },
+  {
+    "text": "10.08.26 Код: 133174",
+    "box": {
+      "left": 0.0638,
+      "top": 0.7674,
+      "right": 0.2904,
+      "bottom": 0.8302
+    },
+    "confidence": 0.9192
+  },
+  {
+    "text": "4 \"820158401346",
+    "box": {
+      "left": 0.5586,
+      "top": 0.7968,
+      "right": 0.8327,
+      "bottom": 0.857
+    },
+    "confidence": 0.965
+  }
+]

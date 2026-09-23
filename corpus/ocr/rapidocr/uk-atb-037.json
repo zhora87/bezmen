@@ -1,0 +1,142 @@
+[
+  {
+    "text": "3.09.26",
+    "box": {
+      "left": 0.0228,
+      "top": 0.1462,
+      "right": 0.1204,
+      "bottom": 0.2082
+    },
+    "confidence": 0.9846
+  },
+  {
+    "text": "Консерви",
+    "box": {
+      "left": 0.3919,
+      "top": 0.1871,
+      "right": 0.6719,
+      "bottom": 0.3383
+    },
+    "confidence": 0.9878
+  },
+  {
+    "text": "д:171689",
+    "box": {
+      "left": 0.0241,
+      "top": 0.1896,
+      "right": 0.166,
+      "bottom": 0.2664
+    },
+    "confidence": 0.8721
+  },
+  {
+    "text": "\"Своя Лінія'",
+    "box": {
+      "left": 0.3607,
+      "top": 0.29,
+      "right": 0.6771,
+      "bottom": 0.4275
+    },
+    "confidence": 0.9194
+  },
+  {
+    "text": "3Hижka",
+    "box": {
+      "left": 0.0449,
+      "top": 0.3432,
+      "right": 0.2467,
+      "bottom": 0.4659
+    },
+    "confidence": 0.5645
+  },
+  {
+    "text": "Тунець",
+    "box": {
+      "left": 0.4303,
+      "top": 0.3978,
+      "right": 0.6217,
+      "bottom": 0.5366
+    },
+    "confidence": 0.985
+  },
+  {
+    "text": "25%",
+    "box": {
+      "left": 0.0508,
+      "top": 0.43,
+      "right": 0.2559,
+      "bottom": 0.6171
+    },
+    "confidence": 0.9975
+  },
+  {
+    "text": "подрібнений в олії",
+    "box": {
+      "left": 0.2878,
+      "top": 0.4919,
+      "right": 0.7591,
+      "bottom": 0.6357
+    },
+    "confidence": 0.9822
+  },
+  {
+    "text": "42",
+    "box": {
+      "left": 0.3887,
+      "top": 0.5911,
+      "right": 0.5924,
+      "bottom": 0.8575
+    },
+    "confidence": 0.9982
+  },
+  {
+    "text": "575",
+    "box": {
+      "left": 0.0475,
+      "top": 0.5973,
+      "right": 0.2943,
+      "bottom": 0.8612
+    },
+    "confidence": 0.9825
+  },
+  {
+    "text": "90",
+    "box": {
+      "left": 0.5671,
+      "top": 0.6208,
+      "right": 0.6699,
+      "bottom": 0.7571
+    },
+    "confidence": 0.9996
+  },
+  {
+    "text": "\"Детальниу",
+    "box": {
+      "left": 0.0267,
+      "top": 0.6691,
+      "right": 0.056,
+      "bottom": 0.8278
+    },
+    "confidence": 0.8501
+  },
+  {
+    "text": "рпн/",
+    "box": {
+      "left": 0.5846,
+      "top": 0.7435,
+      "right": 0.6504,
+      "bottom": 0.7931
+    },
+    "confidence": 0.6248
+  },
+  {
+    "text": "185р",
+    "box": {
+      "left": 0.5827,
+      "top": 0.7881,
+      "right": 0.6471,
+      "bottom": 0.8401
+    },
+    "confidence": 0.8541
+  }
+]

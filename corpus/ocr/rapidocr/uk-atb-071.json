@@ -1,0 +1,172 @@
+[
+  {
+    "text": "ЦИHA",
+    "box": {
+      "left": 0.5154,
+      "top": 0.1406,
+      "right": 0.658,
+      "bottom": 0.2547
+    },
+    "confidence": 0.5916
+  },
+  {
+    "text": "при скануванні",
+    "box": {
+      "left": 0.1615,
+      "top": 0.1469,
+      "right": 0.4941,
+      "bottom": 0.2469
+    },
+    "confidence": 0.9462
+  },
+  {
+    "text": "3Hижкa",
+    "box": {
+      "left": 0.7013,
+      "top": 0.1703,
+      "right": 0.8645,
+      "bottom": 0.2766
+    },
+    "confidence": 0.5491
+  },
+  {
+    "text": "додатка АТБ",
+    "box": {
+      "left": 0.1875,
+      "top": 0.2203,
+      "right": 0.4571,
+      "bottom": 0.3187
+    },
+    "confidence": 0.9426
+  },
+  {
+    "text": "71",
+    "box": {
+      "left": 0.4949,
+      "top": 0.2328,
+      "right": 0.6147,
+      "bottom": 0.3953
+    },
+    "confidence": 0.9975
+  },
+  {
+    "text": "74",
+    "box": {
+      "left": 0.606,
+      "top": 0.2516,
+      "right": 0.658,
+      "bottom": 0.3375
+    },
+    "confidence": 0.8355
+  },
+  {
+    "text": "10%",
+    "box": {
+      "left": 0.7069,
+      "top": 0.2578,
+      "right": 0.8542,
+      "bottom": 0.4
+    },
+    "confidence": 0.9994
+  },
+  {
+    "text": "на касі",
+    "box": {
+      "left": 0.2514,
+      "top": 0.3063,
+      "right": 0.3964,
+      "bottom": 0.3797
+    },
+    "confidence": 0.6541
+  },
+  {
+    "text": "рпн",
+    "box": {
+      "left": 0.6091,
+      "top": 0.3109,
+      "right": 0.6556,
+      "bottom": 0.3688
+    },
+    "confidence": 0.5404
+  },
+  {
+    "text": "Мило рідке для рук",
+    "box": {
+      "left": 0.1954,
+      "top": 0.45,
+      "right": 0.6099,
+      "bottom": 0.5828
+    },
+    "confidence": 0.9577
+  },
+  {
+    "text": "Kод:187629 2.6.4",
+    "box": {
+      "left": 0.1631,
+      "top": 0.5,
+      "right": 0.1923,
+      "bottom": 0.8594
+    },
+    "confidence": 0.8826
+  },
+  {
+    "text": "79",
+    "box": {
+      "left": 0.6375,
+      "top": 0.5484,
+      "right": 0.766,
+      "bottom": 0.7406
+    },
+    "confidence": 0.9996
+  },
+  {
+    "text": "8Q",
+    "box": {
+      "left": 0.7557,
+      "top": 0.575,
+      "right": 0.8195,
+      "bottom": 0.6703
+    },
+    "confidence": 0.9211
+  },
+  {
+    "text": "Соковите манго/",
+    "box": {
+      "left": 0.2372,
+      "top": 0.6266,
+      "right": 0.565,
+      "bottom": 0.7391
+    },
+    "confidence": 0.9578
+  },
+  {
+    "text": "22.09.26",
+    "box": {
+      "left": 0.145,
+      "top": 0.6922,
+      "right": 0.1678,
+      "bottom": 0.8562
+    },
+    "confidence": 0.9949
+  },
+  {
+    "text": "500MЛ",
+    "box": {
+      "left": 0.7478,
+      "top": 0.6953,
+      "right": 0.8203,
+      "bottom": 0.7453
+    },
+    "confidence": 0.7247
+  },
+  {
+    "text": "Свіжий інжир",
+    "box": {
+      "left": 0.264,
+      "top": 0.7156,
+      "right": 0.5343,
+      "bottom": 0.8359
+    },
+    "confidence": 0.9578
+  }
+]

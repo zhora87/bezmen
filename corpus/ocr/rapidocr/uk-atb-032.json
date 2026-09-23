@@ -1,0 +1,272 @@
+[
+  {
+    "text": "ЦИHA",
+    "box": {
+      "left": 0.5534,
+      "top": 0.1445,
+      "right": 0.6862,
+      "bottom": 0.2519
+    },
+    "confidence": 0.5556
+  },
+  {
+    "text": "при скануванні",
+    "box": {
+      "left": 0.1973,
+      "top": 0.1471,
+      "right": 0.5273,
+      "bottom": 0.2404
+    },
+    "confidence": 0.9346
+  },
+  {
+    "text": "3Hижкa",
+    "box": {
+      "left": 0.7292,
+      "top": 0.1662,
+      "right": 0.8815,
+      "bottom": 0.2698
+    },
+    "confidence": 0.5623
+  },
+  {
+    "text": "*кa",
+    "box": {
+      "left": 0.0,
+      "top": 0.2046,
+      "right": 0.0755,
+      "bottom": 0.2749
+    },
+    "confidence": 0.5296
+  },
+  {
+    "text": "додатка АТБ",
+    "box": {
+      "left": 0.222,
+      "top": 0.2161,
+      "right": 0.4948,
+      "bottom": 0.3184
+    },
+    "confidence": 0.9497
+  },
+  {
+    "text": "45",
+    "box": {
+      "left": 0.5299,
+      "top": 0.2327,
+      "right": 0.6432,
+      "bottom": 0.3849
+    },
+    "confidence": 0.9999
+  },
+  {
+    "text": "Z6",
+    "box": {
+      "left": 0.6387,
+      "top": 0.2455,
+      "right": 0.6882,
+      "bottom": 0.3248
+    },
+    "confidence": 0.9307
+  },
+  {
+    "text": "10%",
+    "box": {
+      "left": 0.735,
+      "top": 0.2545,
+      "right": 0.8717,
+      "bottom": 0.39
+    },
+    "confidence": 0.9993
+  },
+  {
+    "text": "%",
+    "box": {
+      "left": 0.0,
+      "top": 0.2724,
+      "right": 0.0729,
+      "bottom": 0.3977
+    },
+    "confidence": 0.9962
+  },
+  {
+    "text": "ol",
+    "box": {
+      "left": 0.9453,
+      "top": 0.2775,
+      "right": 0.9993,
+      "bottom": 0.3913
+    },
+    "confidence": 0.9967
+  },
+  {
+    "text": "на касi",
+    "box": {
+      "left": 0.2839,
+      "top": 0.2967,
+      "right": 0.4355,
+      "bottom": 0.3811
+    },
+    "confidence": 0.5562
+  },
+  {
+    "text": "рпн",
+    "box": {
+      "left": 0.6406,
+      "top": 0.3082,
+      "right": 0.6862,
+      "bottom": 0.3619
+    },
+    "confidence": 0.5048
+  },
+  {
+    "text": "65",
+    "box": {
+      "left": 0.1491,
+      "top": 0.3133,
+      "right": 0.1673,
+      "bottom": 0.3964
+    },
+    "confidence": 0.6837
+  },
+  {
+    "text": "um",
+    "box": {
+      "left": 0.9408,
+      "top": 0.4118,
+      "right": 0.9993,
+      "bottom": 0.4987
+    },
+    "confidence": 0.9554
+  },
+  {
+    "text": "Пиво",
+    "box": {
+      "left": 0.3691,
+      "top": 0.4808,
+      "right": 0.5059,
+      "bottom": 0.5806
+    },
+    "confidence": 0.6856
+  },
+  {
+    "text": "CB",
+    "box": {
+      "left": 0.9512,
+      "top": 0.5166,
+      "right": 0.9993,
+      "bottom": 0.6087
+    },
+    "confidence": 0.7904
+  },
+  {
+    "text": "50",
+    "box": {
+      "left": 0.6797,
+      "top": 0.5345,
+      "right": 0.7962,
+      "bottom": 0.7123
+    },
+    "confidence": 0.9998
+  },
+  {
+    "text": "005666",
+    "box": {
+      "left": 0.1419,
+      "top": 0.5524,
+      "right": 0.1777,
+      "bottom": 0.8159
+    },
+    "confidence": 0.8377
+  },
+  {
+    "text": "9Q",
+    "box": {
+      "left": 0.7806,
+      "top": 0.5537,
+      "right": 0.8405,
+      "bottom": 0.6483
+    },
+    "confidence": 0.7478
+  },
+  {
+    "text": "50",
+    "box": {
+      "left": 0.0,
+      "top": 0.5652,
+      "right": 0.0501,
+      "bottom": 0.6509
+    },
+    "confidence": 0.9997
+  },
+  {
+    "text": "\"Carling'",
+    "box": {
+      "left": 0.3229,
+      "top": 0.5691,
+      "right": 0.5332,
+      "bottom": 0.7033
+    },
+    "confidence": 0.994
+  },
+  {
+    "text": "KOд 164574",
+    "box": {
+      "left": 0.1992,
+      "top": 0.6253,
+      "right": 0.2285,
+      "bottom": 0.8568
+    },
+    "confidence": 0.7929
+  },
+  {
+    "text": "0,5n",
+    "box": {
+      "left": 0.7858,
+      "top": 0.6688,
+      "right": 0.8333,
+      "bottom": 0.711
+    },
+    "confidence": 0.81
+  },
+  {
+    "text": "Світле",
+    "box": {
+      "left": 0.3633,
+      "top": 0.6777,
+      "right": 0.513,
+      "bottom": 0.7737
+    },
+    "confidence": 0.9245
+  },
+  {
+    "text": "0,5n",
+    "box": {
+      "left": 0.0,
+      "top": 0.6816,
+      "right": 0.0462,
+      "bottom": 0.7276
+    },
+    "confidence": 0.7479
+  },
+  {
+    "text": "14.09.26",
+    "box": {
+      "left": 0.1797,
+      "top": 0.6957,
+      "right": 0.2025,
+      "bottom": 0.8517
+    },
+    "confidence": 0.9968
+  },
+  {
+    "text": "575",
+    "box": {
+      "left": 0.9342,
+      "top": 0.7788,
+      "right": 0.9792,
+      "bottom": 0.8325
+    },
+    "confidence": 0.7655
+  }
+]

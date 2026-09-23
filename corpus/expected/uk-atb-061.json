@@ -1,0 +1,14 @@
+{
+  "pack": "uk",
+  "price": {
+    "minor": 9990,
+    "currency": "UAH"
+  },
+  "oldPrice": null,
+  "quantity": {
+    "value": 1.0,
+    "unit": "KILOGRAM"
+  },
+  "isWeighted": false,
+  "note": "АТБ 2026-09-23 own photo; Рис довгозернистий De Luxe F&G Selected Жасмін; грн/1 кг"
+}

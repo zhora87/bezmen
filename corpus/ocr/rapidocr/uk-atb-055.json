@@ -1,0 +1,102 @@
+[
+  {
+    "text": "50",
+    "box": {
+      "left": 0.7904,
+      "top": 0.1424,
+      "right": 0.9297,
+      "bottom": 0.4026
+    },
+    "confidence": 0.9992
+  },
+  {
+    "text": "Розпушувач тиста",
+    "box": {
+      "left": 0.0944,
+      "top": 0.2326,
+      "right": 0.5391,
+      "bottom": 0.3852
+    },
+    "confidence": 0.9343
+  },
+  {
+    "text": "Dr.Oekter",
+    "box": {
+      "left": 0.1882,
+      "top": 0.3547,
+      "right": 0.444,
+      "bottom": 0.4782
+    },
+    "confidence": 0.9844
+  },
+  {
+    "text": "10r",
+    "box": {
+      "left": 0.8294,
+      "top": 0.4302,
+      "right": 0.8809,
+      "bottom": 0.4913
+    },
+    "confidence": 0.8743
+  },
+  {
+    "text": "2112.2026",
+    "box": {
+      "left": 0.0,
+      "top": 0.6657,
+      "right": 0.0495,
+      "bottom": 0.6919
+    },
+    "confidence": 0.7821
+  },
+  {
+    "text": "bHOCTL ATE",
+    "box": {
+      "left": 0.002,
+      "top": 0.718,
+      "right": 0.0632,
+      "bottom": 0.75
+    },
+    "confidence": 0.7177
+  },
+  {
+    "text": "MARKETCOM",
+    "box": {
+      "left": 0.0,
+      "top": 0.7427,
+      "right": 0.0625,
+      "bottom": 0.7762
+    },
+    "confidence": 0.8545
+  },
+  {
+    "text": "НО ГАРЯНО",
+    "box": {
+      "left": 0.0,
+      "top": 0.7718,
+      "right": 0.0645,
+      "bottom": 0.8023
+    },
+    "confidence": 0.6153
+  },
+  {
+    "text": "8.09.26 Код: 113678 2.11.1",
+    "box": {
+      "left": 0.1302,
+      "top": 0.8038,
+      "right": 0.4128,
+      "bottom": 0.859
+    },
+    "confidence": 0.9138
+  },
+  {
+    "text": "\"94113",
+    "box": {
+      "left": 0.6309,
+      "top": 0.814,
+      "right": 0.7305,
+      "bottom": 0.8605
+    },
+    "confidence": 0.9781
+  }
+]

@@ -18,8 +18,11 @@ internal data class QuantityCandidate(
     val quantity: Quantity,
     val confidence: Float,
     val line: Int,
+    val box: Box,
     val tokens: List<TokenId>,
     val isMultipack: Boolean,
+    /** "грн/кг" without a number: one of the unit, and for kg or l goods sold by weight. */
+    val isBareUnit: Boolean = false,
 )
 
 internal data class UnitPriceCandidate(

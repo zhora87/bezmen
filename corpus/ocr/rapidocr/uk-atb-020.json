@@ -1,0 +1,192 @@
+[
+  {
+    "text": "ЦИHA",
+    "box": {
+      "left": 0.4987,
+      "top": 0.1434,
+      "right": 0.6348,
+      "bottom": 0.2637
+    },
+    "confidence": 0.5785
+  },
+  {
+    "text": "при скануванни",
+    "box": {
+      "left": 0.1341,
+      "top": 0.1516,
+      "right": 0.4701,
+      "bottom": 0.2514
+    },
+    "confidence": 0.9133
+  },
+  {
+    "text": "3Huжka",
+    "box": {
+      "left": 0.6771,
+      "top": 0.1694,
+      "right": 0.8379,
+      "bottom": 0.2787
+    },
+    "confidence": 0.6079
+  },
+  {
+    "text": "АТИ",
+    "box": {
+      "left": 0.8711,
+      "top": 0.1776,
+      "right": 0.9355,
+      "bottom": 0.2404
+    },
+    "confidence": 0.7462
+  },
+  {
+    "text": "додатка АТБ",
+    "box": {
+      "left": 0.1654,
+      "top": 0.2281,
+      "right": 0.4349,
+      "bottom": 0.3292
+    },
+    "confidence": 0.9755
+  },
+  {
+    "text": "16",
+    "box": {
+      "left": 0.4753,
+      "top": 0.2432,
+      "right": 0.5885,
+      "bottom": 0.4057
+    },
+    "confidence": 0.9994
+  },
+  {
+    "text": "74",
+    "box": {
+      "left": 0.5781,
+      "top": 0.2514,
+      "right": 0.6361,
+      "bottom": 0.347
+    },
+    "confidence": 0.9842
+  },
+  {
+    "text": "9%",
+    "box": {
+      "left": 0.6934,
+      "top": 0.2568,
+      "right": 0.8027,
+      "bottom": 0.403
+    },
+    "confidence": 0.9954
+  },
+  {
+    "text": "на касі",
+    "box": {
+      "left": 0.2279,
+      "top": 0.3197,
+      "right": 0.3763,
+      "bottom": 0.3962
+    },
+    "confidence": 0.6578
+  },
+  {
+    "text": "РАВАЙ",
+    "box": {
+      "left": 0.8626,
+      "top": 0.3238,
+      "right": 0.9974,
+      "bottom": 0.4221
+    },
+    "confidence": 0.9094
+  },
+  {
+    "text": "Kpyasan",
+    "box": {
+      "left": 0.2943,
+      "top": 0.4413,
+      "right": 0.4733,
+      "bottom": 0.5437
+    },
+    "confidence": 0.5408
+  },
+  {
+    "text": "20",
+    "box": {
+      "left": 0.6165,
+      "top": 0.4932,
+      "right": 0.8158,
+      "bottom": 0.6762
+    },
+    "confidence": 0.9711
+  },
+  {
+    "text": "День у День",
+    "box": {
+      "left": 0.2565,
+      "top": 0.5219,
+      "right": 0.5124,
+      "bottom": 0.6257
+    },
+    "confidence": 0.8891
+  },
+  {
+    "text": "50",
+    "box": {
+      "left": 0.847,
+      "top": 0.5492,
+      "right": 0.8932,
+      "bottom": 0.6052
+    },
+    "confidence": 0.7876
+  },
+  {
+    "text": "ПОДАРУН",
+    "box": {
+      "left": 0.8411,
+      "top": 0.5751,
+      "right": 0.9993,
+      "bottom": 0.6626
+    },
+    "confidence": 0.9635
+  },
+  {
+    "text": "з начинкою зі",
+    "box": {
+      "left": 0.2552,
+      "top": 0.6107,
+      "right": 0.513,
+      "bottom": 0.6926
+    },
+    "confidence": 0.9399
+  },
+  {
+    "text": "1850",
+    "box": {
+      "left": 0.6165,
+      "top": 0.6708,
+      "right": 0.7878,
+      "bottom": 0.8579
+    },
+    "confidence": 0.7202
+  },
+  {
+    "text": "cмаком",
+    "box": {
+      "left": 0.3158,
+      "top": 0.7008,
+      "right": 0.4583,
+      "bottom": 0.7691
+    },
+    "confidence": 0.6917
+  },
+  {
+    "text": "шоколаду",
+    "box": {
+      "left": 0.2956,
+      "top": 0.7746,
+      "right": 0.4818,
+      "bottom": 0.862
+    },
+    "confidence": 0.9895
+  }
+]

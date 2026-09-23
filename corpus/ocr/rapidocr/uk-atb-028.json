@@ -1,0 +1,212 @@
+[
+  {
+    "text": "5NL)",
+    "box": {
+      "left": 0.222,
+      "top": 0.0,
+      "right": 0.2891,
+      "bottom": 0.0565
+    },
+    "confidence": 0.7119
+  },
+  {
+    "text": "VCO",
+    "box": {
+      "left": 0.8529,
+      "top": 0.0,
+      "right": 0.9993,
+      "bottom": 0.0423
+    },
+    "confidence": 0.5255
+  },
+  {
+    "text": "GRAPEFRU",
+    "box": {
+      "left": 0.2786,
+      "top": 0.0953,
+      "right": 0.709,
+      "bottom": 0.204
+    },
+    "confidence": 0.9559
+  },
+  {
+    "text": "EFRUI",
+    "box": {
+      "left": 0.0,
+      "top": 0.0974,
+      "right": 0.2357,
+      "bottom": 0.2138
+    },
+    "confidence": 0.9052
+  },
+  {
+    "text": " ГРЕЙПФРУТ (ZIВЕRТ 0 GR",
+    "box": {
+      "left": 0.0,
+      "top": 0.1941,
+      "right": 0.2181,
+      "bottom": 0.2618
+    },
+    "confidence": 0.7146
+  },
+  {
+    "text": "ПИВО СПЕЦАЛЬНЕ БЕЗАЛКО",
+    "box": {
+      "left": 0.7572,
+      "top": 0.1955,
+      "right": 0.9993,
+      "bottom": 0.2583
+    },
+    "confidence": 0.9647
+  },
+  {
+    "text": "ПРАТ ОБОЛОНВ БОИРА",
+    "box": {
+      "left": 0.3112,
+      "top": 0.2152,
+      "right": 0.6686,
+      "bottom": 0.2773
+    },
+    "confidence": 0.5353
+  },
+  {
+    "text": "ОГАТИРСЬКА, 3, М. КИ, 0422",
+    "box": {
+      "left": 0.0,
+      "top": 0.2195,
+      "right": 0.2155,
+      "bottom": 0.2872
+    },
+    "confidence": 0.8122
+  },
+  {
+    "text": "ФАСТВ КИЇВСЬКОЙ ОБА0",
+    "box": {
+      "left": 0.0,
+      "top": 0.2378,
+      "right": 0.2201,
+      "bottom": 0.3133
+    },
+    "confidence": 0.702
+  },
+  {
+    "text": "УАПиВО",
+    "box": {
+      "left": 0.1966,
+      "top": 0.4912,
+      "right": 0.4036,
+      "bottom": 0.5498
+    },
+    "confidence": 0.6502
+  },
+  {
+    "text": "OHOBИ",
+    "box": {
+      "left": 0.9147,
+      "top": 0.4961,
+      "right": 0.9993,
+      "bottom": 0.5286
+    },
+    "confidence": 0.5765
+  },
+  {
+    "text": "42",
+    "box": {
+      "left": 0.5072,
+      "top": 0.4989,
+      "right": 0.752,
+      "bottom": 0.7064
+    },
+    "confidence": 0.9983
+  },
+  {
+    "text": "90",
+    "box": {
+      "left": 0.7142,
+      "top": 0.5173,
+      "right": 0.8327,
+      "bottom": 0.6217
+    },
+    "confidence": 0.9988
+  },
+  {
+    "text": "\"Zibert\"",
+    "box": {
+      "left": 0.2044,
+      "top": 0.5462,
+      "right": 0.3978,
+      "bottom": 0.6055
+    },
+    "confidence": 0.9873
+  },
+  {
+    "text": "Grapefruit",
+    "box": {
+      "left": 0.1816,
+      "top": 0.5999,
+      "right": 0.4284,
+      "bottom": 0.6662
+    },
+    "confidence": 0.9967
+  },
+  {
+    "text": "рpн/",
+    "box": {
+      "left": 0.7376,
+      "top": 0.609,
+      "right": 0.8092,
+      "bottom": 0.6471
+    },
+    "confidence": 0.5272
+  },
+  {
+    "text": "0,5π",
+    "box": {
+      "left": 0.7428,
+      "top": 0.6394,
+      "right": 0.8008,
+      "bottom": 0.6704
+    },
+    "confidence": 0.7661
+  },
+  {
+    "text": "безалкогольне",
+    "box": {
+      "left": 0.1413,
+      "top": 0.6493,
+      "right": 0.472,
+      "bottom": 0.7163
+    },
+    "confidence": 0.9916
+  },
+  {
+    "text": "0.09.26 Код:177187 1.24.4",
+    "box": {
+      "left": 0.1426,
+      "top": 0.789,
+      "right": 0.3861,
+      "bottom": 0.8215
+    },
+    "confidence": 0.9191
+  },
+  {
+    "text": "WWW.ATBMARK",
+    "box": {
+      "left": 0.8887,
+      "top": 0.7975,
+      "right": 0.9993,
+      "bottom": 0.82
+    },
+    "confidence": 0.9312
+  },
+  {
+    "text": "4 820193\"035971",
+    "box": {
+      "left": 0.5501,
+      "top": 0.801,
+      "right": 0.7923,
+      "bottom": 0.8342
+    },
+    "confidence": 0.9454
+  }
+]

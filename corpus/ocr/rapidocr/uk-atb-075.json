@@ -1,0 +1,172 @@
+[
+  {
+    "text": "OASIS",
+    "box": {
+      "left": 0.5102,
+      "top": 0.0482,
+      "right": 0.659,
+      "bottom": 0.113
+    },
+    "confidence": 0.9865
+  },
+  {
+    "text": "WITH SMOKED VANILLA SCENT",
+    "box": {
+      "left": 0.449,
+      "top": 0.1429,
+      "right": 0.7005,
+      "bottom": 0.1715
+    },
+    "confidence": 0.99
+  },
+  {
+    "text": "DEODORANT",
+    "box": {
+      "left": 0.5346,
+      "top": 0.1893,
+      "right": 0.6267,
+      "bottom": 0.2123
+    },
+    "confidence": 0.9904
+  },
+  {
+    "text": "STICK",
+    "box": {
+      "left": 0.5543,
+      "top": 0.2117,
+      "right": 0.6043,
+      "bottom": 0.2358
+    },
+    "confidence": 0.9941
+  },
+  {
+    "text": "49012202",
+    "box": {
+      "left": 0.6998,
+      "top": 0.2433,
+      "right": 0.7808,
+      "bottom": 0.2742
+    },
+    "confidence": 0.7563
+  },
+  {
+    "text": "96669712",
+    "box": {
+      "left": 0.0,
+      "top": 0.2467,
+      "right": 0.1073,
+      "bottom": 0.276
+    },
+    "confidence": 0.5873
+  },
+  {
+    "text": "109",
+    "box": {
+      "left": 0.5405,
+      "top": 0.5548,
+      "right": 0.7762,
+      "bottom": 0.6581
+    },
+    "confidence": 0.9996
+  },
+  {
+    "text": "карткою АТБ",
+    "box": {
+      "left": 0.2047,
+      "top": 0.5772,
+      "right": 0.4806,
+      "bottom": 0.6219
+    },
+    "confidence": 0.9523
+  },
+  {
+    "text": "-5%",
+    "box": {
+      "left": 0.2857,
+      "top": 0.6053,
+      "right": 0.4082,
+      "bottom": 0.6638
+    },
+    "confidence": 0.9812
+  },
+  {
+    "text": "006540839362",
+    "box": {
+      "left": 0.1442,
+      "top": 0.6265,
+      "right": 0.1824,
+      "bottom": 0.8325
+    },
+    "confidence": 0.9988
+  },
+  {
+    "text": "Дезодорант",
+    "box": {
+      "left": 0.266,
+      "top": 0.6936,
+      "right": 0.5161,
+      "bottom": 0.739
+    },
+    "confidence": 0.8343
+  },
+  {
+    "text": "114",
+    "box": {
+      "left": 0.6076,
+      "top": 0.7022,
+      "right": 0.7874,
+      "bottom": 0.7871
+    },
+    "confidence": 0.9985
+  },
+  {
+    "text": "90",
+    "box": {
+      "left": 0.763,
+      "top": 0.7085,
+      "right": 0.8328,
+      "bottom": 0.7522
+    },
+    "confidence": 0.7074
+  },
+  {
+    "text": "\"Old Spice\" Oasis",
+    "box": {
+      "left": 0.2251,
+      "top": 0.7258,
+      "right": 0.5543,
+      "bottom": 0.7711
+    },
+    "confidence": 0.994
+  },
+  {
+    "text": "антиперспірант",
+    "box": {
+      "left": 0.2416,
+      "top": 0.7619,
+      "right": 0.5398,
+      "bottom": 0.8055
+    },
+    "confidence": 0.8691
+  },
+  {
+    "text": "14.09.26 KOA:201813",
+    "box": {
+      "left": 0.1916,
+      "top": 0.8353,
+      "right": 0.3838,
+      "bottom": 0.8583
+    },
+    "confidence": 0.8944
+  },
+  {
+    "text": "3.7.2",
+    "box": {
+      "left": 0.4029,
+      "top": 0.8359,
+      "right": 0.4496,
+      "bottom": 0.8566
+    },
+    "confidence": 0.9518
+  }
+]

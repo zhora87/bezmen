@@ -1,0 +1,162 @@
+[
+  {
+    "text": "2in1",
+    "box": {
+      "left": 0.6191,
+      "top": 0.0244,
+      "right": 0.7383,
+      "bottom": 0.0995
+    },
+    "confidence": 0.9976
+  },
+  {
+    "text": "Shower Gel+",
+    "box": {
+      "left": 0.6204,
+      "top": 0.0861,
+      "right": 0.7812,
+      "bottom": 0.135
+    },
+    "confidence": 0.948
+  },
+  {
+    "text": "er Gel +",
+    "box": {
+      "left": 0.0,
+      "top": 0.0971,
+      "right": 0.1289,
+      "bottom": 0.1344
+    },
+    "confidence": 0.9221
+  },
+  {
+    "text": "Shampoo",
+    "box": {
+      "left": 0.6191,
+      "top": 0.121,
+      "right": 0.7441,
+      "bottom": 0.1635
+    },
+    "confidence": 0.9728
+  },
+  {
+    "text": "poo",
+    "box": {
+      "left": 0.0,
+      "top": 0.1332,
+      "right": 0.0768,
+      "bottom": 0.1734
+    },
+    "confidence": 0.9135
+  },
+  {
+    "text": "Refreshing Effet",
+    "box": {
+      "left": 0.6165,
+      "top": 0.153,
+      "right": 0.8014,
+      "bottom": 0.1955
+    },
+    "confidence": 0.967
+  },
+  {
+    "text": "eshing Effect",
+    "box": {
+      "left": 0.0,
+      "top": 0.1623,
+      "right": 0.1947,
+      "bottom": 0.2054
+    },
+    "confidence": 0.9712
+  },
+  {
+    "text": "109",
+    "box": {
+      "left": 0.4382,
+      "top": 0.5474,
+      "right": 0.7702,
+      "bottom": 0.7138
+    },
+    "confidence": 0.9971
+  },
+  {
+    "text": "30",
+    "box": {
+      "left": 0.6992,
+      "top": 0.555,
+      "right": 0.8574,
+      "bottom": 0.6702
+    },
+    "confidence": 0.9953
+  },
+  {
+    "text": "Шампунь Men cool та",
+    "box": {
+      "left": 0.0436,
+      "top": 0.5695,
+      "right": 0.4154,
+      "bottom": 0.6131
+    },
+    "confidence": 0.8821
+  },
+  {
+    "text": "Гель для душу Arко",
+    "box": {
+      "left": 0.0579,
+      "top": 0.6027,
+      "right": 0.4023,
+      "bottom": 0.6481
+    },
+    "confidence": 0.9087
+  },
+  {
+    "text": "ДЛЯ ВОЛОССЯ",
+    "box": {
+      "left": 0.1296,
+      "top": 0.6428,
+      "right": 0.3307,
+      "bottom": 0.6754
+    },
+    "confidence": 0.7436
+  },
+  {
+    "text": "2 в 1 освижаючий ефект",
+    "box": {
+      "left": 0.0436,
+      "top": 0.6661,
+      "right": 0.4199,
+      "bottom": 0.7091
+    },
+    "confidence": 0.9465
+  },
+  {
+    "text": "1на6-p",
+    "box": {
+      "left": 0.7363,
+      "top": 0.6672,
+      "right": 0.8281,
+      "bottom": 0.6987
+    },
+    "confidence": 0.6929
+  },
+  {
+    "text": "15.09.26 Код: 139098 2.3.3",
+    "box": {
+      "left": 0.056,
+      "top": 0.8092,
+      "right": 0.3314,
+      "bottom": 0.84
+    },
+    "confidence": 0.9293
+  },
+  {
+    "text": "8 \"690506\"490867",
+    "box": {
+      "left": 0.5365,
+      "top": 0.8249,
+      "right": 0.7969,
+      "bottom": 0.8476
+    },
+    "confidence": 0.9686
+  }
+]

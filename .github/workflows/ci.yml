@@ -63,7 +63,7 @@ jobs:
         run: ./gradlew :tools:parser-cli:run --no-daemon --args="corpus --engine synthetic --verbose --min-accuracy 1.0"
 
       - name: Parser accuracy on real OCR dumps (regression floor, raised as the corpus grows)
-        run: ./gradlew :tools:parser-cli:run --no-daemon --args="corpus --engine rapidocr --verbose --min-accuracy 0.4"
+        run: ./gradlew :tools:parser-cli:run --no-daemon --args="corpus --engine rapidocr --verbose --min-accuracy 0.65"
 
       - name: Upload debug APKs (main only)
         if: success() && github.ref == 'refs/heads/main'

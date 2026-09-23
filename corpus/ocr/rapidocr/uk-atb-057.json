@@ -1,0 +1,72 @@
+[
+  {
+    "text": "мрія",
+    "box": {
+      "left": 0.4414,
+      "top": 0.145,
+      "right": 0.7747,
+      "bottom": 0.3526
+    },
+    "confidence": 0.61
+  },
+  {
+    "text": "20",
+    "box": {
+      "left": 0.778,
+      "top": 0.5024,
+      "right": 0.9297,
+      "bottom": 0.6364
+    },
+    "confidence": 0.9965
+  },
+  {
+    "text": "5",
+    "box": {
+      "left": 0.6712,
+      "top": 0.5052,
+      "right": 0.8229,
+      "bottom": 0.7113
+    },
+    "confidence": 0.9992
+  },
+  {
+    "text": "кислота",
+    "box": {
+      "left": 0.1777,
+      "top": 0.5979,
+      "right": 0.4095,
+      "bottom": 0.6509
+    },
+    "confidence": 0.7056
+  },
+  {
+    "text": "\"Мрія\"",
+    "box": {
+      "left": 0.1914,
+      "top": 0.6399,
+      "right": 0.3991,
+      "bottom": 0.723
+    },
+    "confidence": 0.7652
+  },
+  {
+    "text": "25r",
+    "box": {
+      "left": 0.8242,
+      "top": 0.646,
+      "right": 0.8815,
+      "bottom": 0.6784
+    },
+    "confidence": 0.8667
+  },
+  {
+    "text": "15.09.26 Кд:996 2.9.1",
+    "box": {
+      "left": 0.0983,
+      "top": 0.8289,
+      "right": 0.3451,
+      "bottom": 0.8591
+    },
+    "confidence": 0.9102
+  }
+]

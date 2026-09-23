@@ -1,0 +1,192 @@
+[
+  {
+    "text": "ЦИHA",
+    "box": {
+      "left": 0.503,
+      "top": 0.1429,
+      "right": 0.6398,
+      "bottom": 0.2577
+    },
+    "confidence": 0.6126
+  },
+  {
+    "text": "3Hu*ka",
+    "box": {
+      "left": 0.6812,
+      "top": 0.1569,
+      "right": 0.8358,
+      "bottom": 0.2605
+    },
+    "confidence": 0.6026
+  },
+  {
+    "text": "прискануванні",
+    "box": {
+      "left": 0.1509,
+      "top": 0.1597,
+      "right": 0.4793,
+      "bottom": 0.2549
+    },
+    "confidence": 0.9592
+  },
+  {
+    "text": "додатка АТБ",
+    "box": {
+      "left": 0.1797,
+      "top": 0.2269,
+      "right": 0.446,
+      "bottom": 0.3305
+    },
+    "confidence": 0.9674
+  },
+  {
+    "text": "105",
+    "box": {
+      "left": 0.4371,
+      "top": 0.2353,
+      "right": 0.5932,
+      "bottom": 0.3838
+    },
+    "confidence": 0.9603
+  },
+  {
+    "text": "12",
+    "box": {
+      "left": 0.5851,
+      "top": 0.2367,
+      "right": 0.6413,
+      "bottom": 0.3277
+    },
+    "confidence": 0.9996
+  },
+  {
+    "text": "10%",
+    "box": {
+      "left": 0.6842,
+      "top": 0.2367,
+      "right": 0.824,
+      "bottom": 0.3641
+    },
+    "confidence": 0.8502
+  },
+  {
+    "text": "на касi",
+    "box": {
+      "left": 0.2389,
+      "top": 0.3067,
+      "right": 0.3898,
+      "bottom": 0.3922
+    },
+    "confidence": 0.672
+  },
+  {
+    "text": "ррн",
+    "box": {
+      "left": 0.5917,
+      "top": 0.3151,
+      "right": 0.6376,
+      "bottom": 0.3627
+    },
+    "confidence": 0.5955
+  },
+  {
+    "text": "Ковбаса варена",
+    "box": {
+      "left": 0.1975,
+      "top": 0.437,
+      "right": 0.5888,
+      "bottom": 0.5448
+    },
+    "confidence": 0.9585
+  },
+  {
+    "text": "129",
+    "box": {
+      "left": 0.6183,
+      "top": 0.4426,
+      "right": 0.855,
+      "bottom": 0.6359
+    },
+    "confidence": 0.9971
+  },
+  {
+    "text": "Своя лінія",
+    "box": {
+      "left": 0.2722,
+      "top": 0.6218,
+      "right": 0.5081,
+      "bottom": 0.7269
+    },
+    "confidence": 0.9334
+  },
+  {
+    "text": "1",
+    "box": {
+      "left": 0.4985,
+      "top": 0.6317,
+      "right": 0.5178,
+      "bottom": 0.6653
+    },
+    "confidence": 0.5502
+  },
+  {
+    "text": "116",
+    "box": {
+      "left": 0.6095,
+      "top": 0.6359,
+      "right": 0.7862,
+      "bottom": 0.8193
+    },
+    "confidence": 0.9991
+  },
+  {
+    "text": "Код 161464",
+    "box": {
+      "left": 0.159,
+      "top": 0.6373,
+      "right": 0.1953,
+      "bottom": 0.8557
+    },
+    "confidence": 0.8356
+  },
+  {
+    "text": "80",
+    "box": {
+      "left": 0.7707,
+      "top": 0.6499,
+      "right": 0.8299,
+      "bottom": 0.7339
+    },
+    "confidence": 0.9966
+  },
+  {
+    "text": "15.09.26",
+    "box": {
+      "left": 0.1413,
+      "top": 0.7017,
+      "right": 0.1709,
+      "bottom": 0.8515
+    },
+    "confidence": 0.9952
+  },
+  {
+    "text": "Тигреня",
+    "box": {
+      "left": 0.3033,
+      "top": 0.7213,
+      "right": 0.4948,
+      "bottom": 0.8333
+    },
+    "confidence": 0.9839
+  },
+  {
+    "text": "400r",
+    "box": {
+      "left": 0.7751,
+      "top": 0.7633,
+      "right": 0.8269,
+      "bottom": 0.8025
+    },
+    "confidence": 0.8913
+  }
+]

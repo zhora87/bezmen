@@ -1,0 +1,17 @@
+{
+  "pack": "uk",
+  "price": {
+    "minor": 6550,
+    "currency": "UAH"
+  },
+  "oldPrice": {
+    "minor": 8200,
+    "currency": "UAH"
+  },
+  "quantity": {
+    "value": 160.0,
+    "unit": "GRAM"
+  },
+  "isWeighted": false,
+  "note": "АТБ 2026-09-23 own photo; UA Шпроти Своя лінія в олії; Знижка 20%, crossed 82.00, грн/160 г"
+}

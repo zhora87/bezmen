@@ -1,0 +1,152 @@
+[
+  {
+    "text": "ATG",
+    "box": {
+      "left": 0.6504,
+      "top": 0.1432,
+      "right": 0.8639,
+      "bottom": 0.2677
+    },
+    "confidence": 0.9189
+  },
+  {
+    "text": "ТИЛЬКИВ",
+    "box": {
+      "left": 0.0,
+      "top": 0.1494,
+      "right": 0.6139,
+      "bottom": 0.3455
+    },
+    "confidence": 0.9493
+  },
+  {
+    "text": "03.09.26 К0д.196056",
+    "box": {
+      "left": 0.6406,
+      "top": 0.4545,
+      "right": 0.8555,
+      "bottom": 0.4856
+    },
+    "confidence": 0.8644
+  },
+  {
+    "text": "Спеціально для покупців АТБ",
+    "box": {
+      "left": 0.112,
+      "top": 0.4553,
+      "right": 0.612,
+      "bottom": 0.5206
+    },
+    "confidence": 0.9568
+  },
+  {
+    "text": "3.61",
+    "box": {
+      "left": 0.8086,
+      "top": 0.4872,
+      "right": 0.8542,
+      "bottom": 0.5152
+    },
+    "confidence": 0.9644
+  },
+  {
+    "text": "Дезодорант",
+    "box": {
+      "left": 0.125,
+      "top": 0.5556,
+      "right": 0.3711,
+      "bottom": 0.6132
+    },
+    "confidence": 0.9417
+  },
+  {
+    "text": "149",
+    "box": {
+      "left": 0.5352,
+      "top": 0.5572,
+      "right": 0.8073,
+      "bottom": 0.7253
+    },
+    "confidence": 0.9991
+  },
+  {
+    "text": "90",
+    "box": {
+      "left": 0.7786,
+      "top": 0.5665,
+      "right": 0.8594,
+      "bottom": 0.6661
+    },
+    "confidence": 0.998
+  },
+  {
+    "text": "\"Old Spice'",
+    "box": {
+      "left": 0.1361,
+      "top": 0.6062,
+      "right": 0.349,
+      "bottom": 0.6708
+    },
+    "confidence": 0.9527
+  },
+  {
+    "text": "рпн/",
+    "box": {
+      "left": 0.7832,
+      "top": 0.6506,
+      "right": 0.8529,
+      "bottom": 0.6887
+    },
+    "confidence": 0.5796
+  },
+  {
+    "text": "Captain",
+    "box": {
+      "left": 0.1732,
+      "top": 0.6646,
+      "right": 0.3301,
+      "bottom": 0.7268
+    },
+    "confidence": 0.9991
+  },
+  {
+    "text": "65mn",
+    "box": {
+      "left": 0.7832,
+      "top": 0.6778,
+      "right": 0.8529,
+      "bottom": 0.7105
+    },
+    "confidence": 0.746
+  },
+  {
+    "text": "антиперспірант",
+    "box": {
+      "left": 0.1068,
+      "top": 0.7214,
+      "right": 0.4004,
+      "bottom": 0.7805
+    },
+    "confidence": 0.8004
+  },
+  {
+    "text": "чоловічий стік",
+    "box": {
+      "left": 0.1243,
+      "top": 0.7774,
+      "right": 0.3906,
+      "bottom": 0.8288
+    },
+    "confidence": 0.7891
+  },
+  {
+    "text": "\"700216\"685535",
+    "box": {
+      "left": 0.6016,
+      "top": 0.8187,
+      "right": 0.8255,
+      "bottom": 0.8584
+    },
+    "confidence": 0.9627
+  }
+]

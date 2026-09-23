@@ -51,10 +51,26 @@ internal class MoneyDetector(private val pack: LocalePack) {
                 val currency = currencyNear || tokens.getOrNull(i + 2)?.kind == TokenKind.CURRENCY
                 Match(listOf(t, next), Money.of(t.text.toLong(), next.text.toInt(), code), SPLIT_CONFIDENCE, currency)
             }
-            currencyNear -> Match(listOf(t), whole(t), WHOLE_CONFIDENCE, true)
-            allowBare -> Match(listOf(t), whole(t), BARE_CONFIDENCE, false)
-            else -> null
+            else -> integerAlone(t, currencyNear, allowBare)
         }
+    }
+
+    private fun integerAlone(t: Token, currencyNear: Boolean, allowBare: Boolean): Match? = when {
+        currencyNear && t.digitCount <= MAX_WHOLE_DIGITS -> Match(listOf(t), whole(t), WHOLE_CONFIDENCE, true)
+        allowBare && merged(t) -> Match(listOf(t), splitCents(t), MERGED_CONFIDENCE, false)
+        allowBare -> Match(listOf(t), whole(t), BARE_CONFIDENCE, false)
+        else -> null
+    }
+
+    /**
+     * Tags with superscript kopecks print "294⁸⁰"; OCR often returns "29480" as one token. On such
+     * tags a bare integer of three or more digits is the major part glued to the two kopeck digits.
+     */
+    private fun merged(t: Token): Boolean = pack.priceHints.superscriptCents && t.digitCount >= MERGED_MIN_DIGITS
+
+    private fun splitCents(t: Token): Money {
+        val value = t.text.toLong()
+        return Money.of(value / Money.MINOR_PER_MAJOR, (value % Money.MINOR_PER_MAJOR).toInt(), code)
     }
 
     /** A line holding only a 1..6 digit integer next to a line holding only two digits, smaller and to the right. */
@@ -136,12 +152,15 @@ internal class MoneyDetector(private val pack: LocalePack) {
         const val SPLIT_LINE_CONFIDENCE = 0.85f
         const val WHOLE_CONFIDENCE = 0.7f
         const val BARE_CONFIDENCE = 0.5f
+        const val MERGED_CONFIDENCE = 0.6f
+        const val MERGED_MIN_DIGITS = 4
+        const val MAX_WHOLE_DIGITS = 4
         const val CURRENCY_BONUS = 0.05f
         const val BARE_MIN_REL_HEIGHT = 0.8f
         const val MAX_MAJOR_DIGITS = 6
         const val BARCODE_DIGITS = 8
         const val CENTS_MIN_START = 0.5f
         const val CENTS_VERTICAL_SLACK = 0.15f
-        const val CENTS_MAX_HEIGHT_RATIO = 0.75f
+        const val CENTS_MAX_HEIGHT_RATIO = 0.85f
     }
 }

@@ -1,0 +1,122 @@
+[
+  {
+    "text": "3.09.26",
+    "box": {
+      "left": 0.0,
+      "top": 0.1493,
+      "right": 0.0918,
+      "bottom": 0.2108
+    },
+    "confidence": 0.9969
+  },
+  {
+    "text": "oд:119264",
+    "box": {
+      "left": 0.0,
+      "top": 0.1945,
+      "right": 0.1353,
+      "bottom": 0.261
+    },
+    "confidence": 0.8145
+  },
+  {
+    "text": ".7.2",
+    "box": {
+      "left": 0.0127,
+      "top": 0.2535,
+      "right": 0.0569,
+      "bottom": 0.3137
+    },
+    "confidence": 0.9095
+  },
+  {
+    "text": "\"De Luxe F&G\"",
+    "box": {
+      "left": 0.3048,
+      "top": 0.2974,
+      "right": 0.6865,
+      "bottom": 0.4216
+    },
+    "confidence": 0.9475
+  },
+  {
+    "text": "3нижка",
+    "box": {
+      "left": 0.0241,
+      "top": 0.3513,
+      "right": 0.2204,
+      "bottom": 0.4592
+    },
+    "confidence": 0.6223
+  },
+  {
+    "text": "002666",
+    "box": {
+      "left": 0.7904,
+      "top": 0.3639,
+      "right": 0.8279,
+      "bottom": 0.6098
+    },
+    "confidence": 0.9799
+  },
+  {
+    "text": "без кісточки",
+    "box": {
+      "left": 0.3423,
+      "top": 0.404,
+      "right": 0.653,
+      "bottom": 0.522
+    },
+    "confidence": 0.9146
+  },
+  {
+    "text": "20%",
+    "box": {
+      "left": 0.0395,
+      "top": 0.4391,
+      "right": 0.2304,
+      "bottom": 0.6136
+    },
+    "confidence": 0.9983
+  },
+  {
+    "text": "69",
+    "box": {
+      "left": 0.3711,
+      "top": 0.542,
+      "right": 0.582,
+      "bottom": 0.8344
+    },
+    "confidence": 0.9991
+  },
+  {
+    "text": "90",
+    "box": {
+      "left": 0.5412,
+      "top": 0.5583,
+      "right": 0.6517,
+      "bottom": 0.7227
+    },
+    "confidence": 0.999
+  },
+  {
+    "text": "рпн/",
+    "box": {
+      "left": 0.5653,
+      "top": 0.6939,
+      "right": 0.6343,
+      "bottom": 0.7528
+    },
+    "confidence": 0.5212
+  },
+  {
+    "text": "400r",
+    "box": {
+      "left": 0.5646,
+      "top": 0.744,
+      "right": 0.633,
+      "bottom": 0.8005
+    },
+    "confidence": 0.8664
+  }
+]

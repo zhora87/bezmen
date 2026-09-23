@@ -1,0 +1,202 @@
+[
+  {
+    "text": "ЦИHA",
+    "box": {
+      "left": 0.4727,
+      "top": 0.1414,
+      "right": 0.6159,
+      "bottom": 0.2568
+    },
+    "confidence": 0.5769
+  },
+  {
+    "text": "при скануванні",
+    "box": {
+      "left": 0.0944,
+      "top": 0.1526,
+      "right": 0.4421,
+      "bottom": 0.2382
+    },
+    "confidence": 0.9315
+  },
+  {
+    "text": "O",
+    "box": {
+      "left": 0.9629,
+      "top": 0.16,
+      "right": 0.9993,
+      "bottom": 0.2295
+    },
+    "confidence": 0.9196
+  },
+  {
+    "text": "3Hижka",
+    "box": {
+      "left": 0.6641,
+      "top": 0.1663,
+      "right": 0.834,
+      "bottom": 0.2705
+    },
+    "confidence": 0.5809
+  },
+  {
+    "text": "додатка АТБ",
+    "box": {
+      "left": 0.1237,
+      "top": 0.2221,
+      "right": 0.4076,
+      "bottom": 0.3201
+    },
+    "confidence": 0.9432
+  },
+  {
+    "text": "140",
+    "box": {
+      "left": 0.3958,
+      "top": 0.2283,
+      "right": 0.5651,
+      "bottom": 0.3983
+    },
+    "confidence": 0.9954
+  },
+  {
+    "text": "22",
+    "box": {
+      "left": 0.5573,
+      "top": 0.2444,
+      "right": 0.6172,
+      "bottom": 0.3362
+    },
+    "confidence": 0.9993
+  },
+  {
+    "text": "22%",
+    "box": {
+      "left": 0.6589,
+      "top": 0.2457,
+      "right": 0.8158,
+      "bottom": 0.3933
+    },
+    "confidence": 0.964
+  },
+  {
+    "text": "на касі",
+    "box": {
+      "left": 0.1882,
+      "top": 0.3052,
+      "right": 0.3451,
+      "bottom": 0.3896
+    },
+    "confidence": 0.7565
+  },
+  {
+    "text": "Засіб миючий",
+    "box": {
+      "left": 0.1973,
+      "top": 0.4665,
+      "right": 0.5039,
+      "bottom": 0.5596
+    },
+    "confidence": 0.9381
+  },
+  {
+    "text": "200",
+    "box": {
+      "left": 0.5879,
+      "top": 0.4764,
+      "right": 0.8385,
+      "bottom": 0.6663
+    },
+    "confidence": 0.9902
+  },
+  {
+    "text": "3.6.4",
+    "box": {
+      "left": 0.1113,
+      "top": 0.5161,
+      "right": 0.1296,
+      "bottom": 0.6067
+    },
+    "confidence": 0.9555
+  },
+  {
+    "text": "\"LIOR\"",
+    "box": {
+      "left": 0.2786,
+      "top": 0.5521,
+      "right": 0.4271,
+      "bottom": 0.6439
+    },
+    "confidence": 0.9908
+  },
+  {
+    "text": "Koд 201486",
+    "box": {
+      "left": 0.11,
+      "top": 0.6253,
+      "right": 0.1471,
+      "bottom": 0.8573
+    },
+    "confidence": 0.8144
+  },
+  {
+    "text": "Florissima Universal",
+    "box": {
+      "left": 0.1654,
+      "top": 0.634,
+      "right": 0.5443,
+      "bottom": 0.7295
+    },
+    "confidence": 0.9978
+  },
+  {
+    "text": "155",
+    "box": {
+      "left": 0.5755,
+      "top": 0.6687,
+      "right": 0.7585,
+      "bottom": 0.8573
+    },
+    "confidence": 0.9995
+  },
+  {
+    "text": "8Q",
+    "box": {
+      "left": 0.7461,
+      "top": 0.6911,
+      "right": 0.806,
+      "bottom": 0.7792
+    },
+    "confidence": 0.8022
+  },
+  {
+    "text": "22.09.26",
+    "box": {
+      "left": 0.0938,
+      "top": 0.6948,
+      "right": 0.1204,
+      "bottom": 0.8524
+    },
+    "confidence": 0.9957
+  },
+  {
+    "text": "5 компонентів",
+    "box": {
+      "left": 0.2077,
+      "top": 0.7134,
+      "right": 0.5007,
+      "bottom": 0.8127
+    },
+    "confidence": 0.9132
+  },
+  {
+    "text": "FOH",
+    "box": {
+      "left": 0.7474,
+      "top": 0.7705,
+      "right": 0.7897,
+      "bottom": 0.8065
+    },
+    "confidence": 0.6295
+  }
+]

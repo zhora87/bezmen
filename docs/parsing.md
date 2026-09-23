@@ -48,15 +48,20 @@ An `overall` below `ParseResult.CONFIRM_THRESHOLD` (0.75) means the UI shows the
    `3НИЖKA`) and vice versa. Unit aliases, currency symbols and marker phrases are compared after
    folding both sides onto the pack's script. Displayed text is never folded.
 4. **Quantity candidates.** A number followed by a unit alias, in one line or glued (`900мл`,
-   `0.33 л`, `1.5кг`, `12 шт`). Multipacks multiply out: `6 x 200 г`, `2 шт по 90 г`. Percentages
-   are never quantities.
+   `0.33 л`, `1.5кг`, `12 шт`). Multipacks multiply out: `6 x 200 г`, `2 шт по 90 г`. A unit right
+   after the currency or a slash with no number means one of it (`грн/шт`; `грн/кг` means sold by
+   weight). Percentages are never quantities, nor is anything below one gram or millilitre. When
+   several candidates remain, the one closest to the price wins: package text in the background
+   carries its own numbers.
 5. **Printed unit price.** A marker phrase from the pack (`за 1 кг`, `per 100 g`, `1 kg =`) gives
    a reference quantity, taken from the phrase or the tokens right after it. The price belongs to
    the same line when present, otherwise to the nearest small-print line. A marker without a price
    marks weighted goods.
 6. **Money candidates.** `249.90`; `249 90`; a two-digit box to the right of a large integer box,
-   smaller and vertically inside it; `249 ₽`; and, only on the tallest lines, a bare integer.
-   Barcodes (8+ digits), dates, codes and numbers followed by `%` are excluded.
+   smaller and vertically inside it; `249 ₽`; and, only on the tallest lines, a bare integer. On
+   packs with superscript kopecks a bare integer of four or more digits is the price glued to its
+   kopecks (`29480` is 294.80). Barcodes (8+ digits), dates, codes, sideways text and numbers
+   followed by `%` are excluded.
 7. **Current and old price.** Labels apply to a price when they share a line or overlap it
    vertically. A price on an old-price label is the old price; a price on a loyalty label is an
    alternative, not the current price. Without labels, two prices whose heights differ by more than
@@ -119,7 +124,9 @@ dimensions are not compared; such items are marked as not comparable in a compar
 | `units` | `MeasureUnit` code (`mg g kg lb ml cl l pc pair dozen`) to spellings found on tags, including store-font misreads |
 | `multipack` | tokens between two numbers that multiply them |
 | `unitPriceMarkers` | phrases introducing a printed price per unit |
-| `discountMarkers`, `oldPriceMarkers`, `loyaltyMarkers` | promotion, crossed-out price and loyalty-card price labels |
+| `discountMarkers`, `oldPriceMarkers`, `loyaltyMarkers` | promotion, crossed-out price and loyalty-card or app price labels |
+| `weightedMarkers` | phrases meaning the goods are sold by weight ("ваговий") |
+| `codeMarkers` | labels of article codes; nothing on such a line is a price or a quantity |
 | `charFixes` | single-character look-alikes fixed inside numbers |
 
 Schema: `locale-packs/schema.json`. Every shipped pack is loaded and validated by a test.
@@ -141,8 +148,9 @@ pending cases are skipped by the accuracy gate.
 ```
 
 - `ocr/synthetic/` holds hand-written dumps mirroring the unit tests; CI requires 100% on them.
-- `ocr/rapidocr/` holds dumps produced by `tools/ml/ocr_dump.py` (RapidOCR, PP-OCRv5 mobile); CI
-  enforces a regression floor that is raised as the corpus grows.
+- `ocr/rapidocr/` holds dumps produced by `tools/ml/ocr_dump.py` (RapidOCR, PP-OCRv5 mobile) from
+  photos cropped to the tag by `tools/corpus/autocrop.py`; CI enforces a regression floor that is
+  raised as the corpus grows.
 - `./gradlew :tools:parser-cli:run --args="corpus --engine rapidocr --verbose"` prints a per-pack
   table of price, quantity and overall accuracy.
 

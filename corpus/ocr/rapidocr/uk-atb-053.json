@@ -1,0 +1,162 @@
+[
+  {
+    "text": "опейські",
+    "box": {
+      "left": 0.5156,
+      "top": 0.0,
+      "right": 0.5286,
+      "bottom": 0.0684
+    },
+    "confidence": 0.8451
+  },
+  {
+    "text": "Зразок сервиру",
+    "box": {
+      "left": 0.7663,
+      "top": 0.0902,
+      "right": 0.8353,
+      "bottom": 0.1519
+    },
+    "confidence": 0.6252
+  },
+  {
+    "text": "our(g)e",
+    "box": {
+      "left": 0.0,
+      "top": 0.1226,
+      "right": 0.2012,
+      "bottom": 0.2226
+    },
+    "confidence": 0.8821
+  },
+  {
+    "text": "400r",
+    "box": {
+      "left": 0.8698,
+      "top": 0.2195,
+      "right": 0.9486,
+      "bottom": 0.2729
+    },
+    "confidence": 0.9199
+  },
+  {
+    "text": "Вupo6макаронни. Вит",
+    "box": {
+      "left": 0.5475,
+      "top": 0.2271,
+      "right": 0.8307,
+      "bottom": 0.2782
+    },
+    "confidence": 0.6968
+  },
+  {
+    "text": "Макаронні",
+    "box": {
+      "left": 0.1732,
+      "top": 0.506,
+      "right": 0.4056,
+      "bottom": 0.5707
+    },
+    "confidence": 0.6751
+  },
+  {
+    "text": "47",
+    "box": {
+      "left": 0.4824,
+      "top": 0.5376,
+      "right": 0.709,
+      "bottom": 0.7301
+    },
+    "confidence": 0.9997
+  },
+  {
+    "text": "50",
+    "box": {
+      "left": 0.6712,
+      "top": 0.5466,
+      "right": 0.7891,
+      "bottom": 0.6534
+    },
+    "confidence": 0.9997
+  },
+  {
+    "text": "вироби",
+    "box": {
+      "left": 0.2083,
+      "top": 0.5579,
+      "right": 0.3724,
+      "bottom": 0.6203
+    },
+    "confidence": 0.9306
+  },
+  {
+    "text": "\"Своя Лінія'",
+    "box": {
+      "left": 0.1673,
+      "top": 0.6068,
+      "right": 0.4049,
+      "bottom": 0.6594
+    },
+    "confidence": 0.9286
+  },
+  {
+    "text": "рпн/",
+    "box": {
+      "left": 0.6966,
+      "top": 0.6398,
+      "right": 0.7624,
+      "bottom": 0.6752
+    },
+    "confidence": 0.5828
+  },
+  {
+    "text": "Casa della pasta",
+    "box": {
+      "left": 0.1491,
+      "top": 0.6504,
+      "right": 0.4401,
+      "bottom": 0.7158
+    },
+    "confidence": 0.9842
+  },
+  {
+    "text": "400r",
+    "box": {
+      "left": 0.6973,
+      "top": 0.6669,
+      "right": 0.7552,
+      "bottom": 0.6985
+    },
+    "confidence": 0.9239
+  },
+  {
+    "text": "Бuтки",
+    "box": {
+      "left": 0.2383,
+      "top": 0.7015,
+      "right": 0.3561,
+      "bottom": 0.7534
+    },
+    "confidence": 0.5497
+  },
+  {
+    "text": "8.09.26 Код:152453 3.3.3",
+    "box": {
+      "left": 0.1471,
+      "top": 0.8173,
+      "right": 0.3639,
+      "bottom": 0.8451
+    },
+    "confidence": 0.9496
+  },
+  {
+    "text": "2999200014468",
+    "box": {
+      "left": 0.5254,
+      "top": 0.8233,
+      "right": 0.7448,
+      "bottom": 0.8541
+    },
+    "confidence": 0.9982
+  }
+]

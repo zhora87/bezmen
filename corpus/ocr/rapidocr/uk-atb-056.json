@@ -1,0 +1,102 @@
+[
+  {
+    "text": "Розпушувач",
+    "box": {
+      "left": 0.0163,
+      "top": 0.1367,
+      "right": 0.4089,
+      "bottom": 0.3064
+    },
+    "confidence": 0.9453
+  },
+  {
+    "text": "70",
+    "box": {
+      "left": 0.7272,
+      "top": 0.205,
+      "right": 0.9036,
+      "bottom": 0.4613
+    },
+    "confidence": 0.9724
+  },
+  {
+    "text": "3",
+    "box": {
+      "left": 0.612,
+      "top": 0.2118,
+      "right": 0.776,
+      "bottom": 0.5888
+    },
+    "confidence": 0.9982
+  },
+  {
+    "text": "\"Розумний",
+    "box": {
+      "left": 0.0404,
+      "top": 0.3474,
+      "right": 0.3861,
+      "bottom": 0.5239
+    },
+    "confidence": 0.9307
+  },
+  {
+    "text": "18r",
+    "box": {
+      "left": 0.7826,
+      "top": 0.4681,
+      "right": 0.8444,
+      "bottom": 0.5319
+    },
+    "confidence": 0.8631
+  },
+  {
+    "text": "Вибір\"",
+    "box": {
+      "left": 0.1081,
+      "top": 0.4749,
+      "right": 0.3203,
+      "bottom": 0.6185
+    },
+    "confidence": 0.6378
+  },
+  {
+    "text": "5.09.26 Код: 111781 2.10.2",
+    "box": {
+      "left": 0.0163,
+      "top": 0.738,
+      "right": 0.319,
+      "bottom": 0.82
+    },
+    "confidence": 0.8966
+  },
+  {
+    "text": "ww",
+    "box": {
+      "left": 0.9564,
+      "top": 0.779,
+      "right": 0.9993,
+      "bottom": 0.8166
+    },
+    "confidence": 0.8635
+  },
+  {
+    "text": "\"090430",
+    "box": {
+      "left": 0.6934,
+      "top": 0.7995,
+      "right": 0.8346,
+      "bottom": 0.8554
+    },
+    "confidence": 0.8995
+  },
+  {
+    "text": "666",
+    "box": {
+      "left": 0.5638,
+      "top": 0.8018,
+      "right": 0.6361,
+      "bottom": 0.8428
+    },
+    "confidence": 0.9188
+  }
+]

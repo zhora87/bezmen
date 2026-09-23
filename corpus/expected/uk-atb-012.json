@@ -1,0 +1,17 @@
+{
+  "pack": "uk",
+  "price": {
+    "minor": 14970,
+    "currency": "UAH"
+  },
+  "oldPrice": {
+    "minor": 16629,
+    "currency": "UAH"
+  },
+  "quantity": {
+    "value": 330.0,
+    "unit": "GRAM"
+  },
+  "isWeighted": false,
+  "note": "АТБ 2026-09-23 own photo; Слайси яловичі Skott Smeat; Знижка 9%, crossed 166.29, грн/330 г"
+}

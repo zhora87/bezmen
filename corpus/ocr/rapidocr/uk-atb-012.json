@@ -1,0 +1,122 @@
+[
+  {
+    "text": "Слайси яловичі",
+    "box": {
+      "left": 0.3886,
+      "top": 0.1292,
+      "right": 0.7602,
+      "bottom": 0.2896
+    },
+    "confidence": 0.9457
+  },
+  {
+    "text": "15.09.26",
+    "box": {
+      "left": 0.1423,
+      "top": 0.1458,
+      "right": 0.2244,
+      "bottom": 0.2062
+    },
+    "confidence": 0.9978
+  },
+  {
+    "text": "Koд:201415",
+    "box": {
+      "left": 0.1439,
+      "top": 0.1958,
+      "right": 0.2642,
+      "bottom": 0.2562
+    },
+    "confidence": 0.818
+  },
+  {
+    "text": "\"Skott Smeat\"",
+    "box": {
+      "left": 0.4154,
+      "top": 0.2625,
+      "right": 0.7301,
+      "bottom": 0.3854
+    },
+    "confidence": 0.9747
+  },
+  {
+    "text": "3нижка",
+    "box": {
+      "left": 0.178,
+      "top": 0.3479,
+      "right": 0.3415,
+      "bottom": 0.4667
+    },
+    "confidence": 0.6788
+  },
+  {
+    "text": "в маринаді",
+    "box": {
+      "left": 0.4553,
+      "top": 0.3833,
+      "right": 0.6911,
+      "bottom": 0.5083
+    },
+    "confidence": 0.9367
+  },
+  {
+    "text": "9%",
+    "box": {
+      "left": 0.2171,
+      "top": 0.45,
+      "right": 0.3333,
+      "bottom": 0.6167
+    },
+    "confidence": 0.9986
+  },
+  {
+    "text": "охолоджені",
+    "box": {
+      "left": 0.4545,
+      "top": 0.4917,
+      "right": 0.6959,
+      "bottom": 0.6021
+    },
+    "confidence": 0.9732
+  },
+  {
+    "text": "149",
+    "box": {
+      "left": 0.4407,
+      "top": 0.5687,
+      "right": 0.6748,
+      "bottom": 0.8625
+    },
+    "confidence": 0.9988
+  },
+  {
+    "text": "70",
+    "box": {
+      "left": 0.6504,
+      "top": 0.5896,
+      "right": 0.7366,
+      "bottom": 0.7438
+    },
+    "confidence": 0.9977
+  },
+  {
+    "text": "16629",
+    "box": {
+      "left": 0.1878,
+      "top": 0.6312,
+      "right": 0.4106,
+      "bottom": 0.8604
+    },
+    "confidence": 0.9244
+  },
+  {
+    "text": "330r",
+    "box": {
+      "left": 0.6659,
+      "top": 0.7833,
+      "right": 0.7211,
+      "bottom": 0.8375
+    },
+    "confidence": 0.8714
+  }
+]

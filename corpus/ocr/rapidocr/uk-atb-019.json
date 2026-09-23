@@ -1,0 +1,142 @@
+[
+  {
+    "text": "ЦИHA",
+    "box": {
+      "left": 0.5279,
+      "top": 0.1393,
+      "right": 0.6861,
+      "bottom": 0.2713
+    },
+    "confidence": 0.5948
+  },
+  {
+    "text": "при скануванни",
+    "box": {
+      "left": 0.1223,
+      "top": 0.1467,
+      "right": 0.4986,
+      "bottom": 0.2565
+    },
+    "confidence": 0.8948
+  },
+  {
+    "text": "3Huжka",
+    "box": {
+      "left": 0.7344,
+      "top": 0.1751,
+      "right": 0.9151,
+      "bottom": 0.2861
+    },
+    "confidence": 0.5907
+  },
+  {
+    "text": "додатка АТБ",
+    "box": {
+      "left": 0.1522,
+      "top": 0.2269,
+      "right": 0.4579,
+      "bottom": 0.3305
+    },
+    "confidence": 0.9557
+  },
+  {
+    "text": "16",
+    "box": {
+      "left": 0.5027,
+      "top": 0.2441,
+      "right": 0.6318,
+      "bottom": 0.4032
+    },
+    "confidence": 0.9995
+  },
+  {
+    "text": "74",
+    "box": {
+      "left": 0.6236,
+      "top": 0.2552,
+      "right": 0.6834,
+      "bottom": 0.3416
+    },
+    "confidence": 0.8707
+  },
+  {
+    "text": "9%",
+    "box": {
+      "left": 0.7514,
+      "top": 0.2651,
+      "right": 0.8709,
+      "bottom": 0.3995
+    },
+    "confidence": 0.9989
+  },
+  {
+    "text": "на касі",
+    "box": {
+      "left": 0.2276,
+      "top": 0.3169,
+      "right": 0.3913,
+      "bottom": 0.3933
+    },
+    "confidence": 0.6926
+  },
+  {
+    "text": "Kpyasan",
+    "box": {
+      "left": 0.2819,
+      "top": 0.4414,
+      "right": 0.5163,
+      "bottom": 0.5697
+    },
+    "confidence": 0.6159
+  },
+  {
+    "text": "20",
+    "box": {
+      "left": 0.6624,
+      "top": 0.4932,
+      "right": 0.9015,
+      "bottom": 0.6658
+    },
+    "confidence": 0.9835
+  },
+  {
+    "text": "День у День",
+    "box": {
+      "left": 0.2344,
+      "top": 0.5277,
+      "right": 0.5673,
+      "bottom": 0.6621
+    },
+    "confidence": 0.8748
+  },
+  {
+    "text": "значинкою",
+    "box": {
+      "left": 0.2588,
+      "top": 0.6523,
+      "right": 0.5421,
+      "bottom": 0.7337
+    },
+    "confidence": 0.9494
+  },
+  {
+    "text": "18",
+    "box": {
+      "left": 0.661,
+      "top": 0.672,
+      "right": 0.8526,
+      "bottom": 0.8594
+    },
+    "confidence": 0.9897
+  },
+  {
+    "text": "зі смаком вишні",
+    "box": {
+      "left": 0.2106,
+      "top": 0.7349,
+      "right": 0.5924,
+      "bottom": 0.8323
+    },
+    "confidence": 0.9747
+  }
+]

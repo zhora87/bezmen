@@ -1,0 +1,152 @@
+[
+  {
+    "text": "ATG",
+    "box": {
+      "left": 0.6419,
+      "top": 0.1415,
+      "right": 0.8763,
+      "bottom": 0.2829
+    },
+    "confidence": 0.946
+  },
+  {
+    "text": "ТИЛЬКИ В",
+    "box": {
+      "left": 0.0,
+      "top": 0.1541,
+      "right": 0.6146,
+      "bottom": 0.385
+    },
+    "confidence": 0.8944
+  },
+  {
+    "text": "03.09.26 Код: 196057",
+    "box": {
+      "left": 0.5905,
+      "top": 0.4401,
+      "right": 0.8346,
+      "bottom": 0.4736
+    },
+    "confidence": 0.9141
+  },
+  {
+    "text": "Спеціально для покупців АТБ",
+    "box": {
+      "left": 0.0189,
+      "top": 0.4415,
+      "right": 0.5586,
+      "bottom": 0.5071
+    },
+    "confidence": 0.9615
+  },
+  {
+    "text": "3.5.1",
+    "box": {
+      "left": 0.7754,
+      "top": 0.4773,
+      "right": 0.8301,
+      "bottom": 0.5063
+    },
+    "confidence": 0.8954
+  },
+  {
+    "text": "Дезодорант",
+    "box": {
+      "left": 0.0384,
+      "top": 0.5436,
+      "right": 0.2975,
+      "bottom": 0.6016
+    },
+    "confidence": 0.9199
+  },
+  {
+    "text": "149",
+    "box": {
+      "left": 0.4668,
+      "top": 0.5473,
+      "right": 0.7695,
+      "bottom": 0.7238
+    },
+    "confidence": 0.9995
+  },
+  {
+    "text": "90",
+    "box": {
+      "left": 0.7441,
+      "top": 0.5637,
+      "right": 0.8294,
+      "bottom": 0.6485
+    },
+    "confidence": 0.9991
+  },
+  {
+    "text": "\"Oid Spice\"",
+    "box": {
+      "left": 0.0482,
+      "top": 0.5934,
+      "right": 0.2871,
+      "bottom": 0.6627
+    },
+    "confidence": 0.9546
+  },
+  {
+    "text": "рпн",
+    "box": {
+      "left": 0.7487,
+      "top": 0.653,
+      "right": 0.8079,
+      "bottom": 0.6858
+    },
+    "confidence": 0.6731
+  },
+  {
+    "text": "Wolfthorn",
+    "box": {
+      "left": 0.0729,
+      "top": 0.656,
+      "right": 0.2702,
+      "bottom": 0.7081
+    },
+    "confidence": 0.9984
+  },
+  {
+    "text": "65mn",
+    "box": {
+      "left": 0.7467,
+      "top": 0.6783,
+      "right": 0.8236,
+      "bottom": 0.7089
+    },
+    "confidence": 0.7283
+  },
+  {
+    "text": "антиперспірант",
+    "box": {
+      "left": 0.0221,
+      "top": 0.7178,
+      "right": 0.3301,
+      "bottom": 0.7692
+    },
+    "confidence": 0.6933
+  },
+  {
+    "text": "чоловічий стік",
+    "box": {
+      "left": 0.0417,
+      "top": 0.7699,
+      "right": 0.321,
+      "bottom": 0.8183
+    },
+    "confidence": 0.8345
+  },
+  {
+    "text": "8 \"700216\"685504",
+    "box": {
+      "left": 0.5221,
+      "top": 0.8213,
+      "right": 0.7897,
+      "bottom": 0.8578
+    },
+    "confidence": 0.9537
+  }
+]

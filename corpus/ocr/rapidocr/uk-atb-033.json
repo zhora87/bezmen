@@ -1,0 +1,142 @@
+[
+  {
+    "text": "shing&blaned",
+    "box": {
+      "left": 0.0,
+      "top": 0.0,
+      "right": 0.4245,
+      "bottom": 0.1314
+    },
+    "confidence": 0.721
+  },
+  {
+    "text": "0ml | Alc.6,0%vol",
+    "box": {
+      "left": 0.0,
+      "top": 0.1764,
+      "right": 0.3613,
+      "bottom": 0.2391
+    },
+    "confidence": 0.8032
+  },
+  {
+    "text": "500m / Ale.0",
+    "box": {
+      "left": 0.6719,
+      "top": 0.1795,
+      "right": 0.9421,
+      "bottom": 0.2472
+    },
+    "confidence": 0.8246
+  },
+  {
+    "text": "иво спеціальне світле пестеризвн",
+    "box": {
+      "left": 0.0,
+      "top": 0.2497,
+      "right": 0.3516,
+      "bottom": 0.2958
+    },
+    "confidence": 0.9142
+  },
+  {
+    "text": "«ГРИМБЕРГЕН БЛАНШ",
+    "box": {
+      "left": 0.0677,
+      "top": 0.274,
+      "right": 0.2884,
+      "bottom": 0.3104
+    },
+    "confidence": 0.924
+  },
+  {
+    "text": "Вміст спирту 6,0 % об. (% vl)",
+    "box": {
+      "left": 0.0293,
+      "top": 0.2861,
+      "right": 0.3281,
+      "bottom": 0.3377
+    },
+    "confidence": 0.7652
+  },
+  {
+    "text": "77",
+    "box": {
+      "left": 0.4993,
+      "top": 0.5283,
+      "right": 0.7949,
+      "bottom": 0.7144
+    },
+    "confidence": 0.9994
+  },
+  {
+    "text": "30",
+    "box": {
+      "left": 0.7161,
+      "top": 0.5298,
+      "right": 0.8835,
+      "bottom": 0.6431
+    },
+    "confidence": 0.9988
+  },
+  {
+    "text": "Пиво світле",
+    "box": {
+      "left": 0.0547,
+      "top": 0.5329,
+      "right": 0.4251,
+      "bottom": 0.5956
+    },
+    "confidence": 0.9532
+  },
+  {
+    "text": "\"Grimbergen\"",
+    "box": {
+      "left": 0.0339,
+      "top": 0.5809,
+      "right": 0.4492,
+      "bottom": 0.6481
+    },
+    "confidence": 0.9905
+  },
+  {
+    "text": "Blanche",
+    "box": {
+      "left": 0.1335,
+      "top": 0.635,
+      "right": 0.3613,
+      "bottom": 0.6886
+    },
+    "confidence": 0.9992
+  },
+  {
+    "text": "WY",
+    "box": {
+      "left": 0.7865,
+      "top": 0.6496,
+      "right": 0.8268,
+      "bottom": 0.6694
+    },
+    "confidence": 0.6164
+  },
+  {
+    "text": "специальне",
+    "box": {
+      "left": 0.0911,
+      "top": 0.681,
+      "right": 0.4082,
+      "bottom": 0.7386
+    },
+    "confidence": 0.9408
+  },
+  {
+    "text": "15.09.26 Код:201989 2.1.2",
+    "box": {
+      "left": 0.0293,
+      "top": 0.8028,
+      "right": 0.3405,
+      "bottom": 0.8337
+    },
+    "confidence": 0.9498
+  }
+]

@@ -15,10 +15,18 @@ Photos are not versioned. The parser and the CI gate need only the dumps and the
 
     tools/corpus/ingest.py --pack ru --store magnit ~/Pictures/IMG_0001.jpg ~/Pictures/IMG_0002.jpg
 
-The script resizes to 1024 px on the long side, re-encodes as JPEG q80, bakes in the orientation and
+The script resizes to 2048 px on the long side, re-encodes as JPEG q80, bakes in the orientation and
 strips every other EXIF field (GPS, timestamps, device). It names the files and writes a pending
 `expected/<id>.json` skeleton. Fill the skeleton by reading the tag with your own eyes, then delete
 `"pending": true`; cases still pending are skipped by the accuracy gate.
+
+Shelf photos are then cropped to the tag the way the viewfinder frames it, using the detector's own
+boxes around the tallest numeric line (the price):
+
+    tools/ml/.venv/bin/python tools/corpus/autocrop.py --pack uk
+
+Without the crop the small print under the price ("грн / 0,5 л") is a few pixels tall at the 960 px
+detection limit and is simply not found.
 
 `expected/<id>.json`:
 

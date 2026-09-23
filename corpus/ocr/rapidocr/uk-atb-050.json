@@ -1,0 +1,102 @@
+[
+  {
+    "text": "Макаронні",
+    "box": {
+      "left": 0.094,
+      "top": 0.1233,
+      "right": 0.4051,
+      "bottom": 0.289
+    },
+    "confidence": 0.7408
+  },
+  {
+    "text": "61",
+    "box": {
+      "left": 0.4863,
+      "top": 0.1252,
+      "right": 0.7464,
+      "bottom": 0.58
+    },
+    "confidence": 0.9991
+  },
+  {
+    "text": "20",
+    "box": {
+      "left": 0.7044,
+      "top": 0.1484,
+      "right": 0.8458,
+      "bottom": 0.3854
+    },
+    "confidence": 0.9993
+  },
+  {
+    "text": "вироби",
+    "box": {
+      "left": 0.1432,
+      "top": 0.2486,
+      "right": 0.3641,
+      "bottom": 0.4066
+    },
+    "confidence": 0.9696
+  },
+  {
+    "text": "rpн/",
+    "box": {
+      "left": 0.7418,
+      "top": 0.3487,
+      "right": 0.8212,
+      "bottom": 0.4335
+    },
+    "confidence": 0.5808
+  },
+  {
+    "text": "\"De Luxe F&G\"",
+    "box": {
+      "left": 0.0675,
+      "top": 0.3661,
+      "right": 0.4453,
+      "bottom": 0.5106
+    },
+    "confidence": 0.9577
+  },
+  {
+    "text": "0,5кr",
+    "box": {
+      "left": 0.7436,
+      "top": 0.4123,
+      "right": 0.8175,
+      "bottom": 0.4836
+    },
+    "confidence": 0.7634
+  },
+  {
+    "text": "Bитки Amоrosi",
+    "box": {
+      "left": 0.0812,
+      "top": 0.4875,
+      "right": 0.4416,
+      "bottom": 0.6185
+    },
+    "confidence": 0.7692
+  },
+  {
+    "text": "2999200013089",
+    "box": {
+      "left": 0.5493,
+      "top": 0.763,
+      "right": 0.8157,
+      "bottom": 0.8401
+    },
+    "confidence": 0.9985
+  },
+  {
+    "text": "8.09.26 Код:147484 3.5.3",
+    "box": {
+      "left": 0.0776,
+      "top": 0.7881,
+      "right": 0.3476,
+      "bottom": 0.8555
+    },
+    "confidence": 0.9098
+  }
+]

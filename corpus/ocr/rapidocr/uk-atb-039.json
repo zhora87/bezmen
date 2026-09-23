@@ -1,0 +1,142 @@
+[
+  {
+    "text": "3.09.26",
+    "box": {
+      "left": 0.0446,
+      "top": 0.1427,
+      "right": 0.1489,
+      "bottom": 0.208
+    },
+    "confidence": 0.9979
+  },
+  {
+    "text": "Oд:130211",
+    "box": {
+      "left": 0.0488,
+      "top": 0.1933,
+      "right": 0.1976,
+      "bottom": 0.2547
+    },
+    "confidence": 0.8097
+  },
+  {
+    "text": "UAШпротИ",
+    "box": {
+      "left": 0.4424,
+      "top": 0.232,
+      "right": 0.8352,
+      "bottom": 0.384
+    },
+    "confidence": 0.739
+  },
+  {
+    "text": "2.1",
+    "box": {
+      "left": 0.0538,
+      "top": 0.244,
+      "right": 0.1034,
+      "bottom": 0.3
+    },
+    "confidence": 0.9688
+  },
+  {
+    "text": "3Hижka",
+    "box": {
+      "left": 0.0563,
+      "top": 0.3387,
+      "right": 0.2994,
+      "bottom": 0.464
+    },
+    "confidence": 0.527
+  },
+  {
+    "text": "\"Своя лінія\"",
+    "box": {
+      "left": 0.4348,
+      "top": 0.3387,
+      "right": 0.8402,
+      "bottom": 0.4747
+    },
+    "confidence": 0.9433
+  },
+  {
+    "text": "20%",
+    "box": {
+      "left": 0.0757,
+      "top": 0.4307,
+      "right": 0.3154,
+      "bottom": 0.6093
+    },
+    "confidence": 0.9981
+  },
+  {
+    "text": "в олії",
+    "box": {
+      "left": 0.5458,
+      "top": 0.452,
+      "right": 0.7233,
+      "bottom": 0.5667
+    },
+    "confidence": 0.7369
+  },
+  {
+    "text": "на caйтiatbmar",
+    "box": {
+      "left": 0.0,
+      "top": 0.5787,
+      "right": 0.0303,
+      "bottom": 0.788
+    },
+    "confidence": 0.6649
+  },
+  {
+    "text": "93",
+    "box": {
+      "left": 0.4743,
+      "top": 0.5867,
+      "right": 0.7149,
+      "bottom": 0.8587
+    },
+    "confidence": 0.9997
+  },
+  {
+    "text": "11680",
+    "box": {
+      "left": 0.0496,
+      "top": 0.608,
+      "right": 0.3928,
+      "bottom": 0.852
+    },
+    "confidence": 0.9135
+  },
+  {
+    "text": "30",
+    "box": {
+      "left": 0.6897,
+      "top": 0.6173,
+      "right": 0.8158,
+      "bottom": 0.76
+    },
+    "confidence": 0.9991
+  },
+  {
+    "text": "рпн/",
+    "box": {
+      "left": 0.7098,
+      "top": 0.7453,
+      "right": 0.8032,
+      "bottom": 0.7933
+    },
+    "confidence": 0.55
+  },
+  {
+    "text": "240r",
+    "box": {
+      "left": 0.7082,
+      "top": 0.7893,
+      "right": 0.7881,
+      "bottom": 0.8453
+    },
+    "confidence": 0.8581
+  }
+]

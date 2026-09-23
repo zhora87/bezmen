@@ -1,0 +1,17 @@
+{
+  "pack": "uk",
+  "price": {
+    "minor": 2990,
+    "currency": "UAH"
+  },
+  "oldPrice": {
+    "minor": 4490,
+    "currency": "UAH"
+  },
+  "quantity": {
+    "value": 0.5,
+    "unit": "LITRE"
+  },
+  "isWeighted": false,
+  "note": "АТБ 2026-09-23 own photo; Пиво Вепр Лютий Медова Вишня; Знижка 33%, crossed 44.90, грн/0,5 л"
+}

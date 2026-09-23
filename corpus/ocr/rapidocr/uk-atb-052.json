@@ -1,0 +1,92 @@
+[
+  {
+    "text": "ачніідеї",
+    "box": {
+      "left": 0.0527,
+      "top": 0.1348,
+      "right": 0.3281,
+      "bottom": 0.2315
+    },
+    "confidence": 0.8357
+  },
+  {
+    "text": "UA Макаронні",
+    "box": {
+      "left": 0.2383,
+      "top": 0.5328,
+      "right": 0.5781,
+      "bottom": 0.6013
+    },
+    "confidence": 0.7841
+  },
+  {
+    "text": "46",
+    "box": {
+      "left": 0.61,
+      "top": 0.5498,
+      "right": 0.8359,
+      "bottom": 0.7269
+    },
+    "confidence": 0.9994
+  },
+  {
+    "text": "30",
+    "box": {
+      "left": 0.7969,
+      "top": 0.554,
+      "right": 0.9062,
+      "bottom": 0.6493
+    },
+    "confidence": 0.9995
+  },
+  {
+    "text": "вироби",
+    "box": {
+      "left": 0.3158,
+      "top": 0.5857,
+      "right": 0.5065,
+      "bottom": 0.6542
+    },
+    "confidence": 0.9725
+  },
+  {
+    "text": "\"День у День'",
+    "box": {
+      "left": 0.2454,
+      "top": 0.638,
+      "right": 0.5592,
+      "bottom": 0.71
+    },
+    "confidence": 0.8743
+  },
+  {
+    "text": "1Kr",
+    "box": {
+      "left": 0.8314,
+      "top": 0.6697,
+      "right": 0.873,
+      "bottom": 0.693
+    },
+    "confidence": 0.6467
+  },
+  {
+    "text": "Пружинка",
+    "box": {
+      "left": 0.2988,
+      "top": 0.6965,
+      "right": 0.5254,
+      "bottom": 0.7572
+    },
+    "confidence": 0.8789
+  },
+  {
+    "text": "4.09.26 Код:192765 4.2.4",
+    "box": {
+      "left": 0.2402,
+      "top": 0.8292,
+      "right": 0.4805,
+      "bottom": 0.8582
+    },
+    "confidence": 0.9442
+  }
+]

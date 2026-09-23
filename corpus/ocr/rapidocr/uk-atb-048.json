@@ -1,0 +1,152 @@
+[
+  {
+    "text": "HHR",
+    "box": {
+      "left": 0.1252,
+      "top": 0.0,
+      "right": 0.1498,
+      "bottom": 0.0373
+    },
+    "confidence": 0.9093
+  },
+  {
+    "text": "Макаронні",
+    "box": {
+      "left": 0.5704,
+      "top": 0.1415,
+      "right": 0.7676,
+      "bottom": 0.1944
+    },
+    "confidence": 0.6702
+  },
+  {
+    "text": "вироби довг",
+    "box": {
+      "left": 0.5491,
+      "top": 0.1866,
+      "right": 0.7725,
+      "bottom": 0.2379
+    },
+    "confidence": 0.9639
+  },
+  {
+    "text": "400 р (g)",
+    "box": {
+      "left": 0.5409,
+      "top": 0.2449,
+      "right": 0.784,
+      "bottom": 0.3258
+    },
+    "confidence": 0.8442
+  },
+  {
+    "text": "Макаронні",
+    "box": {
+      "left": 0.1072,
+      "top": 0.5467,
+      "right": 0.3797,
+      "bottom": 0.6042
+    },
+    "confidence": 0.7057
+  },
+  {
+    "text": "47",
+    "box": {
+      "left": 0.4787,
+      "top": 0.5645,
+      "right": 0.734,
+      "bottom": 0.7488
+    },
+    "confidence": 0.9995
+  },
+  {
+    "text": "50",
+    "box": {
+      "left": 0.68,
+      "top": 0.5677,
+      "right": 0.8282,
+      "bottom": 0.6804
+    },
+    "confidence": 0.9982
+  },
+  {
+    "text": "вироби",
+    "box": {
+      "left": 0.1498,
+      "top": 0.591,
+      "right": 0.3462,
+      "bottom": 0.6509
+    },
+    "confidence": 0.9337
+  },
+  {
+    "text": "\"Своя Лінія\"",
+    "box": {
+      "left": 0.1056,
+      "top": 0.6361,
+      "right": 0.3977,
+      "bottom": 0.6874
+    },
+    "confidence": 0.9178
+  },
+  {
+    "text": "рпн/",
+    "box": {
+      "left": 0.7144,
+      "top": 0.6547,
+      "right": 0.7962,
+      "bottom": 0.6967
+    },
+    "confidence": 0.513
+  },
+  {
+    "text": "Casa della pasta",
+    "box": {
+      "left": 0.0892,
+      "top": 0.6812,
+      "right": 0.4255,
+      "bottom": 0.7317
+    },
+    "confidence": 0.9715
+  },
+  {
+    "text": "400r",
+    "box": {
+      "left": 0.7201,
+      "top": 0.6827,
+      "right": 0.7889,
+      "bottom": 0.7131
+    },
+    "confidence": 0.8645
+  },
+  {
+    "text": "Cпаreтi",
+    "box": {
+      "left": 0.18,
+      "top": 0.724,
+      "right": 0.3429,
+      "bottom": 0.7706
+    },
+    "confidence": 0.5616
+  },
+  {
+    "text": "2999200014376",
+    "box": {
+      "left": 0.5319,
+      "top": 0.8266,
+      "right": 0.7791,
+      "bottom": 0.8561
+    },
+    "confidence": 0.998
+  },
+  {
+    "text": "8.09.26 Код: 150534 3.6.1",
+    "box": {
+      "left": 0.0867,
+      "top": 0.8297,
+      "right": 0.3429,
+      "bottom": 0.8585
+    },
+    "confidence": 0.94
+  }
+]

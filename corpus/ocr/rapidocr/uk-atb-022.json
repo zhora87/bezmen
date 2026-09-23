@@ -1,0 +1,132 @@
+[
+  {
+    "text": "Ниво",
+    "box": {
+      "left": 0.5385,
+      "top": 0.1187,
+      "right": 0.7129,
+      "bottom": 0.2374
+    },
+    "confidence": 0.5719
+  },
+  {
+    "text": "22.0",
+    "box": {
+      "left": 0.0655,
+      "top": 0.1381,
+      "right": 0.1241,
+      "bottom": 0.1897
+    },
+    "confidence": 0.8531
+  },
+  {
+    "text": "Код:",
+    "box": {
+      "left": 0.0655,
+      "top": 0.1884,
+      "right": 0.134,
+      "bottom": 0.24
+    },
+    "confidence": 0.8
+  },
+  {
+    "text": "\"Hike\" Blanche",
+    "box": {
+      "left": 0.4075,
+      "top": 0.2245,
+      "right": 0.8454,
+      "bottom": 0.351
+    },
+    "confidence": 0.9904
+  },
+  {
+    "text": "3.2.3",
+    "box": {
+      "left": 0.0663,
+      "top": 0.2361,
+      "right": 0.1333,
+      "bottom": 0.2929
+    },
+    "confidence": 0.9933
+  },
+  {
+    "text": "3нижкa",
+    "box": {
+      "left": 0.0952,
+      "top": 0.3368,
+      "right": 0.3138,
+      "bottom": 0.44
+    },
+    "confidence": 0.5401
+  },
+  {
+    "text": "світле",
+    "box": {
+      "left": 0.54,
+      "top": 0.3484,
+      "right": 0.7182,
+      "bottom": 0.4529
+    },
+    "confidence": 0.7889
+  },
+  {
+    "text": "36%",
+    "box": {
+      "left": 0.1074,
+      "top": 0.4232,
+      "right": 0.3229,
+      "bottom": 0.6077
+    },
+    "confidence": 0.999
+  },
+  {
+    "text": "нефільтроване",
+    "box": {
+      "left": 0.4181,
+      "top": 0.4516,
+      "right": 0.8439,
+      "bottom": 0.5729
+    },
+    "confidence": 0.9604
+  },
+  {
+    "text": "30",
+    "box": {
+      "left": 0.4836,
+      "top": 0.5355,
+      "right": 0.7334,
+      "bottom": 0.8439
+    },
+    "confidence": 0.9976
+  },
+  {
+    "text": "90",
+    "box": {
+      "left": 0.6771,
+      "top": 0.5484,
+      "right": 0.8096,
+      "bottom": 0.7213
+    },
+    "confidence": 0.9994
+  },
+  {
+    "text": "рпн/",
+    "box": {
+      "left": 0.7083,
+      "top": 0.6929,
+      "right": 0.7898,
+      "bottom": 0.7574
+    },
+    "confidence": 0.5708
+  },
+  {
+    "text": "0,5n",
+    "box": {
+      "left": 0.7121,
+      "top": 0.751,
+      "right": 0.7845,
+      "bottom": 0.809
+    },
+    "confidence": 0.7289
+  }
+]

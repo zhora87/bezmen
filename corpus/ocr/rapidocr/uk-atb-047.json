@@ -1,0 +1,92 @@
+[
+  {
+    "text": "30",
+    "box": {
+      "left": 0.4531,
+      "top": 0.0,
+      "right": 0.6061,
+      "bottom": 0.0813
+    },
+    "confidence": 0.6249
+  },
+  {
+    "text": "Макаронні",
+    "box": {
+      "left": 0.1107,
+      "top": 0.5053,
+      "right": 0.4349,
+      "bottom": 0.5836
+    },
+    "confidence": 0.6726
+  },
+  {
+    "text": "61",
+    "box": {
+      "left": 0.5065,
+      "top": 0.5216,
+      "right": 0.7715,
+      "bottom": 0.7164
+    },
+    "confidence": 0.9993
+  },
+  {
+    "text": "20",
+    "box": {
+      "left": 0.7422,
+      "top": 0.5316,
+      "right": 0.8763,
+      "bottom": 0.6363
+    },
+    "confidence": 0.998
+  },
+  {
+    "text": "вироби",
+    "box": {
+      "left": 0.1621,
+      "top": 0.5643,
+      "right": 0.3874,
+      "bottom": 0.6327
+    },
+    "confidence": 0.904
+  },
+  {
+    "text": "\"De Luxe F&G\"",
+    "box": {
+      "left": 0.0957,
+      "top": 0.6164,
+      "right": 0.4688,
+      "bottom": 0.6784
+    },
+    "confidence": 0.9587
+  },
+  {
+    "text": "0,5Kr",
+    "box": {
+      "left": 0.7734,
+      "top": 0.6485,
+      "right": 0.8451,
+      "bottom": 0.676
+    },
+    "confidence": 0.6992
+  },
+  {
+    "text": "Cнаreтi",
+    "box": {
+      "left": 0.1784,
+      "top": 0.6655,
+      "right": 0.3757,
+      "bottom": 0.7269
+    },
+    "confidence": 0.5369
+  },
+  {
+    "text": "8.09.26 Код:71224 2.7.2",
+    "box": {
+      "left": 0.0755,
+      "top": 0.8058,
+      "right": 0.3424,
+      "bottom": 0.8333
+    },
+    "confidence": 0.9217
+  }
+]

@@ -1,0 +1,202 @@
+[
+  {
+    "text": "ЦИHA",
+    "box": {
+      "left": 0.5132,
+      "top": 0.1136,
+      "right": 0.6532,
+      "bottom": 0.2328
+    },
+    "confidence": 0.5658
+  },
+  {
+    "text": "прискануванні",
+    "box": {
+      "left": 0.1504,
+      "top": 0.1266,
+      "right": 0.484,
+      "bottom": 0.2142
+    },
+    "confidence": 0.9354
+  },
+  {
+    "text": "3нижка",
+    "box": {
+      "left": 0.6964,
+      "top": 0.1508,
+      "right": 0.8553,
+      "bottom": 0.2495
+    },
+    "confidence": 0.5381
+  },
+  {
+    "text": "додатка АТБ",
+    "box": {
+      "left": 0.1795,
+      "top": 0.1955,
+      "right": 0.4521,
+      "bottom": 0.2998
+    },
+    "confidence": 0.9476
+  },
+  {
+    "text": "35",
+    "box": {
+      "left": 0.4859,
+      "top": 0.2104,
+      "right": 0.6034,
+      "bottom": 0.3743
+    },
+    "confidence": 0.9998
+  },
+  {
+    "text": "01",
+    "box": {
+      "left": 0.5968,
+      "top": 0.2197,
+      "right": 0.6504,
+      "bottom": 0.3073
+    },
+    "confidence": 0.9666
+  },
+  {
+    "text": "13%",
+    "box": {
+      "left": 0.6964,
+      "top": 0.2235,
+      "right": 0.844,
+      "bottom": 0.3724
+    },
+    "confidence": 0.9962
+  },
+  {
+    "text": "на касі",
+    "box": {
+      "left": 0.2415,
+      "top": 0.2831,
+      "right": 0.3938,
+      "bottom": 0.3706
+    },
+    "confidence": 0.7313
+  },
+  {
+    "text": "ррн",
+    "box": {
+      "left": 0.6015,
+      "top": 0.3035,
+      "right": 0.6485,
+      "bottom": 0.3594
+    },
+    "confidence": 0.5172
+  },
+  {
+    "text": "Пиво фільтроване",
+    "box": {
+      "left": 0.2152,
+      "top": 0.4544,
+      "right": 0.5808,
+      "bottom": 0.5661
+    },
+    "confidence": 0.9436
+  },
+  {
+    "text": "44",
+    "box": {
+      "left": 0.6306,
+      "top": 0.473,
+      "right": 0.7857,
+      "bottom": 0.648
+    },
+    "confidence": 0.9988
+  },
+  {
+    "text": "SEE",
+    "box": {
+      "left": 0.1607,
+      "top": 0.4991,
+      "right": 0.1852,
+      "bottom": 0.6238
+    },
+    "confidence": 0.9624
+  },
+  {
+    "text": "\"Розумний вибір\"",
+    "box": {
+      "left": 0.219,
+      "top": 0.5345,
+      "right": 0.5752,
+      "bottom": 0.6536
+    },
+    "confidence": 0.9633
+  },
+  {
+    "text": "Код 196303",
+    "box": {
+      "left": 0.1617,
+      "top": 0.622,
+      "right": 0.1945,
+      "bottom": 0.8603
+    },
+    "confidence": 0.8761
+  },
+  {
+    "text": "Старбар",
+    "box": {
+      "left": 0.3195,
+      "top": 0.6276,
+      "right": 0.4793,
+      "bottom": 0.7263
+    },
+    "confidence": 0.7889
+  },
+  {
+    "text": "38",
+    "box": {
+      "left": 0.6363,
+      "top": 0.6611,
+      "right": 0.7632,
+      "bottom": 0.8529
+    },
+    "confidence": 0.9991
+  },
+  {
+    "text": "90",
+    "box": {
+      "left": 0.7491,
+      "top": 0.6778,
+      "right": 0.8083,
+      "bottom": 0.7691
+    },
+    "confidence": 0.9989
+  },
+  {
+    "text": "22.09.26",
+    "box": {
+      "left": 0.1447,
+      "top": 0.6965,
+      "right": 0.1682,
+      "bottom": 0.8547
+    },
+    "confidence": 0.9937
+  },
+  {
+    "text": "світле пастеризоване",
+    "box": {
+      "left": 0.2068,
+      "top": 0.7151,
+      "right": 0.593,
+      "bottom": 0.8026
+    },
+    "confidence": 0.9758
+  },
+  {
+    "text": "0,9л",
+    "box": {
+      "left": 0.7519,
+      "top": 0.8007,
+      "right": 0.8017,
+      "bottom": 0.8492
+    },
+    "confidence": 0.746
+  }
+]

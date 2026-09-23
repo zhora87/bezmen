@@ -1,7 +1,7 @@
 #!/usr/bin/env python3
 """Add price tag photos to the corpus.
 
-Resizes to 1024 px on the long side, re-encodes as JPEG q80, applies and then strips all EXIF
+Resizes to 2048 px on the long side, re-encodes as JPEG q80, applies and then strips all EXIF
 (orientation is baked in, GPS and timestamps are gone), names files <pack>-<store>-<nnn>.jpg and
 writes a pending expected/<id>.json skeleton to fill in by hand.
 
@@ -35,7 +35,7 @@ except ImportError:  # pragma: no cover
 
 ROOT = Path(__file__).resolve().parents[2]
 CORPUS = ROOT / "corpus"
-LONG_SIDE = 1024
+LONG_SIDE = 2048
 JPEG_QUALITY = 80
 SLUG = re.compile(r"^[a-z0-9]+(-[a-z0-9]+)*$")
 

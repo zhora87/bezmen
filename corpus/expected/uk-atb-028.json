@@ -1,0 +1,14 @@
+{
+  "pack": "uk",
+  "price": {
+    "minor": 4290,
+    "currency": "UAH"
+  },
+  "oldPrice": null,
+  "quantity": {
+    "value": 0.5,
+    "unit": "LITRE"
+  },
+  "isWeighted": false,
+  "note": "АТБ 2026-09-23 own photo; UA Пиво Zibert Grapefruit безалкогольне; грн/0,5 л; QR sticker on the right"
+}

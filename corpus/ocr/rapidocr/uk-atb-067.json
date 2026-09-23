@@ -1,0 +1,192 @@
+[
+  {
+    "text": "при скануванни",
+    "box": {
+      "left": 0.1517,
+      "top": 0.1286,
+      "right": 0.5286,
+      "bottom": 0.2618
+    },
+    "confidence": 0.9118
+  },
+  {
+    "text": "ЦИHA",
+    "box": {
+      "left": 0.5514,
+      "top": 0.1412,
+      "right": 0.7005,
+      "bottom": 0.2572
+    },
+    "confidence": 0.5875
+  },
+  {
+    "text": "3Hu*ka",
+    "box": {
+      "left": 0.7461,
+      "top": 0.1757,
+      "right": 0.9108,
+      "bottom": 0.2675
+    },
+    "confidence": 0.5566
+  },
+  {
+    "text": "додатка АТБ",
+    "box": {
+      "left": 0.1855,
+      "top": 0.2204,
+      "right": 0.4863,
+      "bottom": 0.3272
+    },
+    "confidence": 0.9526
+  },
+  {
+    "text": "18",
+    "box": {
+      "left": 0.5339,
+      "top": 0.2377,
+      "right": 0.651,
+      "bottom": 0.3892
+    },
+    "confidence": 0.9998
+  },
+  {
+    "text": "Z9",
+    "box": {
+      "left": 0.6432,
+      "top": 0.2468,
+      "right": 0.6999,
+      "bottom": 0.3284
+    },
+    "confidence": 0.9435
+  },
+  {
+    "text": "10%",
+    "box": {
+      "left": 0.752,
+      "top": 0.2537,
+      "right": 0.903,
+      "bottom": 0.3927
+    },
+    "confidence": 0.9989
+  },
+  {
+    "text": "на касі",
+    "box": {
+      "left": 0.2546,
+      "top": 0.3077,
+      "right": 0.4206,
+      "bottom": 0.3869
+    },
+    "confidence": 0.6595
+  },
+  {
+    "text": "Мило тверде",
+    "box": {
+      "left": 0.2695,
+      "top": 0.4225,
+      "right": 0.5775,
+      "bottom": 0.5385
+    },
+    "confidence": 0.9255
+  },
+  {
+    "text": "\"Своя Лінія'",
+    "box": {
+      "left": 0.2826,
+      "top": 0.5052,
+      "right": 0.5488,
+      "bottom": 0.5936
+    },
+    "confidence": 0.8995
+  },
+  {
+    "text": "20",
+    "box": {
+      "left": 0.6862,
+      "top": 0.5385,
+      "right": 0.8138,
+      "bottom": 0.7118
+    },
+    "confidence": 0.9991
+  },
+  {
+    "text": "90",
+    "box": {
+      "left": 0.7956,
+      "top": 0.5568,
+      "right": 0.8587,
+      "bottom": 0.6487
+    },
+    "confidence": 0.9362
+  },
+  {
+    "text": "Дотик шовку/Масло",
+    "box": {
+      "left": 0.2038,
+      "top": 0.5626,
+      "right": 0.6432,
+      "bottom": 0.7153
+    },
+    "confidence": 0.9874
+  },
+  {
+    "text": "002666",
+    "box": {
+      "left": 0.1126,
+      "top": 0.5763,
+      "right": 0.1413,
+      "bottom": 0.8163
+    },
+    "confidence": 0.842
+  },
+  {
+    "text": "КОд139M11",
+    "box": {
+      "left": 0.1641,
+      "top": 0.6062,
+      "right": 0.2038,
+      "bottom": 0.8565
+    },
+    "confidence": 0.6913
+  },
+  {
+    "text": "Ши",
+    "box": {
+      "left": 0.3854,
+      "top": 0.6682,
+      "right": 0.4648,
+      "bottom": 0.7566
+    },
+    "confidence": 0.5745
+  },
+  {
+    "text": "100r",
+    "box": {
+      "left": 0.7975,
+      "top": 0.6705,
+      "right": 0.8529,
+      "bottom": 0.7107
+    },
+    "confidence": 0.9566
+  },
+  {
+    "text": "01.09.26",
+    "box": {
+      "left": 0.1465,
+      "top": 0.6958,
+      "right": 0.1751,
+      "bottom": 0.853
+    },
+    "confidence": 0.9976
+  },
+  {
+    "text": "та протеїни шовку",
+    "box": {
+      "left": 0.2305,
+      "top": 0.7532,
+      "right": 0.6185,
+      "bottom": 0.8611
+    },
+    "confidence": 0.9676
+  }
+]

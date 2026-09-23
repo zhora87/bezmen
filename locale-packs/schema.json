@@ -5,39 +5,164 @@
   "description": "Everything that varies between countries and store chains on price tags. Mirrors LocalePack in core/domain.",
   "type": "object",
   "additionalProperties": false,
-  "required": ["id", "version", "script", "ocrModel", "currency", "units"],
+  "required": [
+    "id",
+    "version",
+    "script",
+    "ocrModel",
+    "currency",
+    "units"
+  ],
   "properties": {
-    "id": { "type": "string", "pattern": "^[a-z]{2}(-[a-z0-9]+)?$" },
-    "version": { "type": "integer", "minimum": 1 },
-    "script": { "enum": ["LATIN", "CYRILLIC"] },
-    "ocrModel": { "type": "string", "minLength": 1, "description": "Recognition model group: cyrillic or latin." },
+    "id": {
+      "type": "string",
+      "pattern": "^[a-z]{2}(-[a-z0-9]+)?$"
+    },
+    "version": {
+      "type": "integer",
+      "minimum": 1
+    },
+    "script": {
+      "enum": [
+        "LATIN",
+        "CYRILLIC"
+      ]
+    },
+    "ocrModel": {
+      "type": "string",
+      "minLength": 1,
+      "description": "Recognition model group: cyrillic or latin."
+    },
     "currency": {
       "type": "object",
       "additionalProperties": false,
-      "required": ["code", "symbols"],
+      "required": [
+        "code",
+        "symbols"
+      ],
       "properties": {
-        "code": { "type": "string", "pattern": "^[A-Z]{3}$" },
-        "symbols": { "type": "array", "minItems": 1, "items": { "type": "string", "minLength": 1 } },
-        "decimalSeparators": { "type": "array", "items": { "enum": [",", "."] }, "default": [",", "."] }
+        "code": {
+          "type": "string",
+          "pattern": "^[A-Z]{3}$"
+        },
+        "symbols": {
+          "type": "array",
+          "minItems": 1,
+          "items": {
+            "type": "string",
+            "minLength": 1
+          }
+        },
+        "decimalSeparators": {
+          "type": "array",
+          "items": {
+            "enum": [
+              ",",
+              "."
+            ]
+          },
+          "default": [
+            ",",
+            "."
+          ]
+        }
       }
     },
     "units": {
       "type": "object",
       "minProperties": 1,
       "description": "MeasureUnit code to spellings found on tags.",
-      "propertyNames": { "enum": ["mg", "g", "kg", "lb", "ml", "cl", "l", "pc", "pair", "dozen"] },
-      "additionalProperties": { "type": "array", "minItems": 1, "items": { "type": "string", "minLength": 1 } }
+      "propertyNames": {
+        "enum": [
+          "mg",
+          "g",
+          "kg",
+          "lb",
+          "ml",
+          "cl",
+          "l",
+          "pc",
+          "pair",
+          "dozen"
+        ]
+      },
+      "additionalProperties": {
+        "type": "array",
+        "minItems": 1,
+        "items": {
+          "type": "string",
+          "minLength": 1
+        }
+      }
     },
-    "multipack": { "type": "array", "items": { "type": "string", "minLength": 1 } },
-    "unitPriceMarkers": { "type": "array", "items": { "type": "string", "minLength": 1 } },
-    "discountMarkers": { "type": "array", "items": { "type": "string", "minLength": 1 } },
-    "oldPriceMarkers": { "type": "array", "items": { "type": "string", "minLength": 1 } },
-    "loyaltyMarkers": { "type": "array", "items": { "type": "string", "minLength": 1 } },
-    "charFixes": { "type": "object", "additionalProperties": { "type": "string", "minLength": 1, "maxLength": 1 } },
+    "multipack": {
+      "type": "array",
+      "items": {
+        "type": "string",
+        "minLength": 1
+      }
+    },
+    "unitPriceMarkers": {
+      "type": "array",
+      "items": {
+        "type": "string",
+        "minLength": 1
+      }
+    },
+    "discountMarkers": {
+      "type": "array",
+      "items": {
+        "type": "string",
+        "minLength": 1
+      }
+    },
+    "oldPriceMarkers": {
+      "type": "array",
+      "items": {
+        "type": "string",
+        "minLength": 1
+      }
+    },
+    "loyaltyMarkers": {
+      "type": "array",
+      "items": {
+        "type": "string",
+        "minLength": 1
+      }
+    },
+    "charFixes": {
+      "type": "object",
+      "additionalProperties": {
+        "type": "string",
+        "minLength": 1,
+        "maxLength": 1
+      }
+    },
     "priceHints": {
       "type": "object",
       "additionalProperties": false,
-      "properties": { "superscriptCents": { "type": "boolean", "default": true } }
+      "properties": {
+        "superscriptCents": {
+          "type": "boolean",
+          "default": true
+        }
+      }
+    },
+    "weightedMarkers": {
+      "type": "array",
+      "items": {
+        "type": "string",
+        "minLength": 1
+      },
+      "description": "Phrases meaning the goods are sold by weight and the price is per the printed reference amount."
+    },
+    "codeMarkers": {
+      "type": "array",
+      "items": {
+        "type": "string",
+        "minLength": 1
+      },
+      "description": "Labels of article codes; nothing on such a line is a price or quantity."
     }
   }
 }

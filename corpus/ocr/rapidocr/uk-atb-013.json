@@ -1,0 +1,152 @@
+[
+  {
+    "text": "цей товар ваговии-вартість вказана за 100 г",
+    "box": {
+      "left": 0.0961,
+      "top": 0.0059,
+      "right": 0.8586,
+      "bottom": 0.1155
+    },
+    "confidence": 0.9719
+  },
+  {
+    "text": "ЦИHA",
+    "box": {
+      "left": 0.5005,
+      "top": 0.1409,
+      "right": 0.6428,
+      "bottom": 0.2564
+    },
+    "confidence": 0.5707
+  },
+  {
+    "text": "прискануванні",
+    "box": {
+      "left": 0.1423,
+      "top": 0.1487,
+      "right": 0.4816,
+      "bottom": 0.2427
+    },
+    "confidence": 0.7389
+  },
+  {
+    "text": "атка ATB",
+    "box": {
+      "left": 0.2507,
+      "top": 0.2192,
+      "right": 0.4439,
+      "bottom": 0.319
+    },
+    "confidence": 0.6287
+  },
+  {
+    "text": "21",
+    "box": {
+      "left": 0.4844,
+      "top": 0.2368,
+      "right": 0.5919,
+      "bottom": 0.3973
+    },
+    "confidence": 0.9995
+  },
+  {
+    "text": "47",
+    "box": {
+      "left": 0.5957,
+      "top": 0.2505,
+      "right": 0.6475,
+      "bottom": 0.3503
+    },
+    "confidence": 0.9995
+  },
+  {
+    "text": "kaci",
+    "box": {
+      "left": 0.2875,
+      "top": 0.3053,
+      "right": 0.3845,
+      "bottom": 0.3894
+    },
+    "confidence": 0.8335
+  },
+  {
+    "text": "рпн",
+    "box": {
+      "left": 0.5975,
+      "top": 0.317,
+      "right": 0.6475,
+      "bottom": 0.3836
+    },
+    "confidence": 0.5118
+  },
+  {
+    "text": "10%",
+    "box": {
+      "left": 0.7182,
+      "top": 0.364,
+      "right": 0.8511,
+      "bottom": 0.5225
+    },
+    "confidence": 0.9775
+  },
+  {
+    "text": "Биробифаршеві",
+    "box": {
+      "left": 0.2102,
+      "top": 0.4481,
+      "right": 0.5806,
+      "bottom": 0.5656
+    },
+    "confidence": 0.8366
+  },
+  {
+    "text": "\"Ковбасний ряд/",
+    "box": {
+      "left": 0.2111,
+      "top": 0.5382,
+      "right": 0.5749,
+      "bottom": 0.6654
+    },
+    "confidence": 0.9668
+  },
+  {
+    "text": "Розумний вибір",
+    "box": {
+      "left": 0.2205,
+      "top": 0.6301,
+      "right": 0.5533,
+      "bottom": 0.7671
+    },
+    "confidence": 0.9633
+  },
+  {
+    "text": "23",
+    "box": {
+      "left": 0.6861,
+      "top": 0.6517,
+      "right": 0.8134,
+      "bottom": 0.8474
+    },
+    "confidence": 0.9987
+  },
+  {
+    "text": "88",
+    "box": {
+      "left": 0.7955,
+      "top": 0.6673,
+      "right": 0.8596,
+      "bottom": 0.7691
+    },
+    "confidence": 0.9991
+  },
+  {
+    "text": "Домашні з сиром варені",
+    "box": {
+      "left": 0.148,
+      "top": 0.7241,
+      "right": 0.6381,
+      "bottom": 0.8571
+    },
+    "confidence": 0.9189
+  }
+]

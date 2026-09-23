@@ -1,0 +1,192 @@
+[
+  {
+    "text": "ЦИHA",
+    "box": {
+      "left": 0.5501,
+      "top": 0.1439,
+      "right": 0.6919,
+      "bottom": 0.2561
+    },
+    "confidence": 0.5852
+  },
+  {
+    "text": "прискануванні",
+    "box": {
+      "left": 0.1663,
+      "top": 0.1512,
+      "right": 0.5222,
+      "bottom": 0.239
+    },
+    "confidence": 0.9389
+  },
+  {
+    "text": "3Huжka",
+    "box": {
+      "left": 0.7362,
+      "top": 0.1817,
+      "right": 0.8937,
+      "bottom": 0.2695
+    },
+    "confidence": 0.5516
+  },
+  {
+    "text": "додатка АТБ",
+    "box": {
+      "left": 0.1915,
+      "top": 0.2195,
+      "right": 0.4853,
+      "bottom": 0.3207
+    },
+    "confidence": 0.9566
+  },
+  {
+    "text": "84",
+    "box": {
+      "left": 0.5215,
+      "top": 0.2329,
+      "right": 0.6476,
+      "bottom": 0.389
+    },
+    "confidence": 0.9997
+  },
+  {
+    "text": "06",
+    "box": {
+      "left": 0.6401,
+      "top": 0.2524,
+      "right": 0.6919,
+      "bottom": 0.3207
+    },
+    "confidence": 0.9778
+  },
+  {
+    "text": "10%",
+    "box": {
+      "left": 0.743,
+      "top": 0.2573,
+      "right": 0.8882,
+      "bottom": 0.389
+    },
+    "confidence": 0.9981
+  },
+  {
+    "text": "на касі",
+    "box": {
+      "left": 0.2597,
+      "top": 0.3024,
+      "right": 0.4219,
+      "bottom": 0.3805
+    },
+    "confidence": 0.6499
+  },
+  {
+    "text": "рпH",
+    "box": {
+      "left": 0.6421,
+      "top": 0.3122,
+      "right": 0.6905,
+      "bottom": 0.3622
+    },
+    "confidence": 0.5023
+  },
+  {
+    "text": "Гель для душу",
+    "box": {
+      "left": 0.2604,
+      "top": 0.4598,
+      "right": 0.5855,
+      "bottom": 0.5707
+    },
+    "confidence": 0.9508
+  },
+  {
+    "text": "3.4.2",
+    "box": {
+      "left": 0.1656,
+      "top": 0.5061,
+      "right": 0.1963,
+      "bottom": 0.6451
+    },
+    "confidence": 0.8906
+  },
+  {
+    "text": "93",
+    "box": {
+      "left": 0.6721,
+      "top": 0.5366,
+      "right": 0.7975,
+      "bottom": 0.7073
+    },
+    "confidence": 0.9998
+  },
+  {
+    "text": "\"On Line\"",
+    "box": {
+      "left": 0.317,
+      "top": 0.5427,
+      "right": 0.5317,
+      "bottom": 0.6354
+    },
+    "confidence": 0.9782
+  },
+  {
+    "text": "50",
+    "box": {
+      "left": 0.7887,
+      "top": 0.5537,
+      "right": 0.8494,
+      "bottom": 0.6463
+    },
+    "confidence": 0.9581
+  },
+  {
+    "text": "deep blue/fresh lime",
+    "box": {
+      "left": 0.2147,
+      "top": 0.622,
+      "right": 0.6292,
+      "bottom": 0.722
+    },
+    "confidence": 0.9987
+  },
+  {
+    "text": "Код:178986",
+    "box": {
+      "left": 0.1677,
+      "top": 0.6244,
+      "right": 0.2018,
+      "bottom": 0.8573
+    },
+    "confidence": 0.8431
+  },
+  {
+    "text": "400ML",
+    "box": {
+      "left": 0.7805,
+      "top": 0.6671,
+      "right": 0.85,
+      "bottom": 0.7085
+    },
+    "confidence": 0.7858
+  },
+  {
+    "text": "01.09.26",
+    "box": {
+      "left": 0.1486,
+      "top": 0.6976,
+      "right": 0.1745,
+      "bottom": 0.8549
+    },
+    "confidence": 0.9989
+  },
+  {
+    "text": "чоловічий 3 в 1",
+    "box": {
+      "left": 0.2624,
+      "top": 0.7098,
+      "right": 0.5774,
+      "bottom": 0.7976
+    },
+    "confidence": 0.8995
+  }
+]

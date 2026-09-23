@@ -1,0 +1,17 @@
+{
+  "pack": "uk",
+  "price": {
+    "minor": 3590,
+    "currency": "UAH"
+  },
+  "oldPrice": {
+    "minor": 4350,
+    "currency": "UAH"
+  },
+  "quantity": {
+    "value": 500.0,
+    "unit": "GRAM"
+  },
+  "isWeighted": false,
+  "note": "АТБ 2026-09-23 own photo; UA Булгур крупний Trapeza; app 32.31, Знижка 17%, crossed 43.50, грн/500 г (verify)"
+}
