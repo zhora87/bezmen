@@ -1,0 +1,292 @@
+[
+    {
+        "text": "shing&",
+        "box": {
+            "left": 0.0,
+            "top": 0.0,
+            "right": 0.2689,
+            "bottom": 0.1304
+        },
+        "confidence": 0.7061
+    },
+    {
+        "text": "Ree",
+        "box": {
+            "left": 0.5853,
+            "top": 0.0096,
+            "right": 1.0,
+            "bottom": 0.1522
+        },
+        "confidence": 0.5108
+    },
+    {
+        "text": "baland",
+        "box": {
+            "left": 0.2038,
+            "top": 0.0187,
+            "right": 0.3952,
+            "bottom": 0.1082
+        },
+        "confidence": 0.8556
+    },
+    {
+        "text": "Alc.6,0%oL",
+        "box": {
+            "left": 0.1465,
+            "top": 0.178,
+            "right": 0.3613,
+            "bottom": 0.2336
+        },
+        "confidence": 0.8904
+    },
+    {
+        "text": "500m",
+        "box": {
+            "left": 0.6738,
+            "top": 0.1815,
+            "right": 0.8288,
+            "bottom": 0.2406
+        },
+        "confidence": 0.9705
+    },
+    {
+        "text": "ml|",
+        "box": {
+            "left": 0.0501,
+            "top": 0.1825,
+            "right": 0.1536,
+            "bottom": 0.2321
+        },
+        "confidence": 0.7108
+    },
+    {
+        "text": "00",
+        "box": {
+            "left": 0.0,
+            "top": 0.1845,
+            "right": 0.0651,
+            "bottom": 0.23
+        },
+        "confidence": 0.7398
+    },
+    {
+        "text": "Mlc.6.0",
+        "box": {
+            "left": 0.8451,
+            "top": 0.1916,
+            "right": 0.944,
+            "bottom": 0.2366
+        },
+        "confidence": 0.6857
+    },
+    {
+        "text": "Поо сеаесе",
+        "box": {
+            "left": 0.6823,
+            "top": 0.2594,
+            "right": 0.875,
+            "bottom": 0.2887
+        },
+        "confidence": 0.3684
+    },
+    {
+        "text": "НБЛАНШ»",
+        "box": {
+            "left": 0.1914,
+            "top": 0.274,
+            "right": 0.2897,
+            "bottom": 0.3054
+        },
+        "confidence": 0.8277
+    },
+    {
+        "text": "«ГРИМБЕРГЕН",
+        "box": {
+            "left": 0.0749,
+            "top": 0.277,
+            "right": 0.2148,
+            "bottom": 0.3114
+        },
+        "confidence": 0.773
+    },
+    {
+        "text": ")",
+        "box": {
+            "left": 0.1536,
+            "top": 0.2821,
+            "right": 0.334,
+            "bottom": 0.3332
+        },
+        "confidence": 0.6098
+    },
+    {
+        "text": "4SEP",
+        "box": {
+            "left": 0.7988,
+            "top": 0.2867,
+            "right": 0.8398,
+            "bottom": 0.2988
+        },
+        "confidence": 0.3817
+    },
+    {
+        "text": "«",
+        "box": {
+            "left": 0.071,
+            "top": 0.2897,
+            "right": 0.0938,
+            "bottom": 0.3054
+        },
+        "confidence": 0.6583
+    },
+    {
+        "text": "Biet cpy",
+        "box": {
+            "left": 0.7161,
+            "top": 0.2988,
+            "right": 0.834,
+            "bottom": 0.3251
+        },
+        "confidence": 0.5751
+    },
+    {
+        "text": "Вміст спирту",
+        "box": {
+            "left": 0.0326,
+            "top": 0.3043,
+            "right": 0.1725,
+            "bottom": 0.3301
+        },
+        "confidence": 0.906
+    },
+    {
+        "text": "свіTле",
+        "box": {
+            "left": 0.2272,
+            "top": 0.5404,
+            "right": 0.4225,
+            "bottom": 0.5895
+        },
+        "confidence": 0.7314
+    },
+    {
+        "text": "Пиво",
+        "box": {
+            "left": 0.0638,
+            "top": 0.547,
+            "right": 0.2285,
+            "bottom": 0.5885
+        },
+        "confidence": 0.5812
+    },
+    {
+        "text": "30",
+        "box": {
+            "left": 0.7461,
+            "top": 0.547,
+            "right": 0.875,
+            "bottom": 0.6269
+        },
+        "confidence": 0.9987
+    },
+    {
+        "text": "77",
+        "box": {
+            "left": 0.5137,
+            "top": 0.549,
+            "right": 0.7624,
+            "bottom": 0.7012
+        },
+        "confidence": 0.9995
+    },
+    {
+        "text": "\"Grimbergen\"",
+        "box": {
+            "left": 0.0299,
+            "top": 0.5824,
+            "right": 0.4349,
+            "bottom": 0.6436
+        },
+        "confidence": 0.9805
+    },
+    {
+        "text": "ГОн/",
+        "box": {
+            "left": 0.765,
+            "top": 0.6168,
+            "right": 0.849,
+            "bottom": 0.6532
+        },
+        "confidence": 0.3548
+    },
+    {
+        "text": "Blanche",
+        "box": {
+            "left": 0.1348,
+            "top": 0.6345,
+            "right": 0.3613,
+            "bottom": 0.6866
+        },
+        "confidence": 0.9992
+    },
+    {
+        "text": "WY",
+        "box": {
+            "left": 0.7852,
+            "top": 0.6481,
+            "right": 0.8301,
+            "bottom": 0.6709
+        },
+        "confidence": 0.4347
+    },
+    {
+        "text": "специальне",
+        "box": {
+            "left": 0.0885,
+            "top": 0.6825,
+            "right": 0.4115,
+            "bottom": 0.7406
+        },
+        "confidence": 0.9475
+    },
+    {
+        "text": "944963",
+        "box": {
+            "left": 0.7148,
+            "top": 0.776,
+            "right": 0.8451,
+            "bottom": 0.8145
+        },
+        "confidence": 0.7996
+    },
+    {
+        "text": "820250",
+        "box": {
+            "left": 0.5911,
+            "top": 0.7821,
+            "right": 0.7285,
+            "bottom": 0.8241
+        },
+        "confidence": 0.9856
+    },
+    {
+        "text": "Код: 201989 2.1.2",
+        "box": {
+            "left": 0.125,
+            "top": 0.7978,
+            "right": 0.3464,
+            "bottom": 0.8352
+        },
+        "confidence": 0.889
+    },
+    {
+        "text": "15.09.26",
+        "box": {
+            "left": 0.0286,
+            "top": 0.8074,
+            "right": 0.1361,
+            "bottom": 0.8342
+        },
+        "confidence": 0.9955
+    }
+]

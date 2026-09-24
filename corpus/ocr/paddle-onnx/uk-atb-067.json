@@ -1,0 +1,192 @@
+[
+    {
+        "text": "ЦИНА",
+        "box": {
+            "left": 0.554,
+            "top": 0.1412,
+            "right": 0.7031,
+            "bottom": 0.2503
+        },
+        "confidence": 0.6891
+    },
+    {
+        "text": "прискануванни",
+        "box": {
+            "left": 0.1563,
+            "top": 0.1493,
+            "right": 0.5228,
+            "bottom": 0.2445
+        },
+        "confidence": 0.9491
+    },
+    {
+        "text": "3Hижka",
+        "box": {
+            "left": 0.7415,
+            "top": 0.1745,
+            "right": 0.9147,
+            "bottom": 0.2721
+        },
+        "confidence": 0.5865
+    },
+    {
+        "text": "ATB",
+        "box": {
+            "left": 0.3854,
+            "top": 0.2262,
+            "right": 0.4831,
+            "bottom": 0.3088
+        },
+        "confidence": 0.5832
+    },
+    {
+        "text": "додатка",
+        "box": {
+            "left": 0.1862,
+            "top": 0.2296,
+            "right": 0.3919,
+            "bottom": 0.3215
+        },
+        "confidence": 0.9956
+    },
+    {
+        "text": "1879",
+        "box": {
+            "left": 0.5273,
+            "top": 0.2296,
+            "right": 0.7116,
+            "bottom": 0.3938
+        },
+        "confidence": 0.7325
+    },
+    {
+        "text": "10%",
+        "box": {
+            "left": 0.7435,
+            "top": 0.248,
+            "right": 0.9049,
+            "bottom": 0.3984
+        },
+        "confidence": 0.9984
+    },
+    {
+        "text": "на каси",
+        "box": {
+            "left": 0.2539,
+            "top": 0.3031,
+            "right": 0.4232,
+            "bottom": 0.3892
+        },
+        "confidence": 0.8346
+    },
+    {
+        "text": "Мило тверде",
+        "box": {
+            "left": 0.2708,
+            "top": 0.4214,
+            "right": 0.5794,
+            "bottom": 0.535
+        },
+        "confidence": 0.9669
+    },
+    {
+        "text": "\"Своя Лінія\"",
+        "box": {
+            "left": 0.2799,
+            "top": 0.4983,
+            "right": 0.569,
+            "bottom": 0.5993
+        },
+        "confidence": 0.8794
+    },
+    {
+        "text": "A",
+        "box": {
+            "left": 0.1628,
+            "top": 0.5293,
+            "right": 0.1927,
+            "bottom": 0.6085
+        },
+        "confidence": 0.1525
+    },
+    {
+        "text": "20",
+        "box": {
+            "left": 0.6875,
+            "top": 0.5419,
+            "right": 0.8112,
+            "bottom": 0.7061
+        },
+        "confidence": 0.9973
+    },
+    {
+        "text": "90",
+        "box": {
+            "left": 0.8001,
+            "top": 0.5511,
+            "right": 0.8607,
+            "bottom": 0.6487
+        },
+        "confidence": 0.9935
+    },
+    {
+        "text": "Дотик шовку/Масло",
+        "box": {
+            "left": 0.2103,
+            "top": 0.5878,
+            "right": 0.6341,
+            "bottom": 0.6889
+        },
+        "confidence": 0.983
+    },
+    {
+        "text": "Грн/",
+        "box": {
+            "left": 0.8053,
+            "top": 0.6292,
+            "right": 0.8574,
+            "bottom": 0.6797
+        },
+        "confidence": 0.4409
+    },
+    {
+        "text": "Ши",
+        "box": {
+            "left": 0.3841,
+            "top": 0.6659,
+            "right": 0.4668,
+            "bottom": 0.7612
+        },
+        "confidence": 0.7601
+    },
+    {
+        "text": "100r",
+        "box": {
+            "left": 0.8001,
+            "top": 0.667,
+            "right": 0.8542,
+            "bottom": 0.7118
+        },
+        "confidence": 0.9394
+    },
+    {
+        "text": "та протеїни шовку",
+        "box": {
+            "left": 0.2331,
+            "top": 0.7623,
+            "right": 0.6146,
+            "bottom": 0.8507
+        },
+        "confidence": 0.9671
+    },
+    {
+        "text": "n",
+        "box": {
+            "left": 0.125,
+            "top": 0.8163,
+            "right": 0.1406,
+            "bottom": 0.8439
+        },
+        "confidence": 0.095
+    }
+]

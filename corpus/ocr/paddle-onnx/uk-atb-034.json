@@ -1,0 +1,132 @@
+[
+    {
+        "text": "Пиво",
+        "box": {
+            "left": 0.2188,
+            "top": 0.1561,
+            "right": 0.3971,
+            "bottom": 0.2717
+        },
+        "confidence": 0.6936
+    },
+    {
+        "text": "42",
+        "box": {
+            "left": 0.5833,
+            "top": 0.1618,
+            "right": 0.8574,
+            "bottom": 0.5399
+        },
+        "confidence": 0.9992
+    },
+    {
+        "text": "30",
+        "box": {
+            "left": 0.8294,
+            "top": 0.178,
+            "right": 0.9531,
+            "bottom": 0.3584
+        },
+        "confidence": 0.9997
+    },
+    {
+        "text": "\"Opillia\"",
+        "box": {
+            "left": 0.1654,
+            "top": 0.2405,
+            "right": 0.4512,
+            "bottom": 0.4173
+        },
+        "confidence": 0.8886
+    },
+    {
+        "text": "ррн/",
+        "box": {
+            "left": 0.847,
+            "top": 0.3457,
+            "right": 0.9303,
+            "bottom": 0.4231
+        },
+        "confidence": 0.5429
+    },
+    {
+        "text": "Zero",
+        "box": {
+            "left": 0.3405,
+            "top": 0.3803,
+            "right": 0.4779,
+            "bottom": 0.4983
+        },
+        "confidence": 0.997
+    },
+    {
+        "text": "Export",
+        "box": {
+            "left": 0.1393,
+            "top": 0.3827,
+            "right": 0.349,
+            "bottom": 0.5272
+        },
+        "confidence": 0.999
+    },
+    {
+        "text": "0,5n",
+        "box": {
+            "left": 0.8555,
+            "top": 0.4104,
+            "right": 0.9251,
+            "bottom": 0.4728
+        },
+        "confidence": 0.7098
+    },
+    {
+        "text": "безалкогольне",
+        "box": {
+            "left": 0.0905,
+            "top": 0.4913,
+            "right": 0.5365,
+            "bottom": 0.6301
+        },
+        "confidence": 0.993
+    },
+    {
+        "text": "672982",
+        "box": {
+            "left": 0.7832,
+            "top": 0.7283,
+            "right": 0.9154,
+            "bottom": 0.8012
+        },
+        "confidence": 0.9663
+    },
+    {
+        "text": "820158",
+        "box": {
+            "left": 0.6615,
+            "top": 0.7376,
+            "right": 0.8034,
+            "bottom": 0.8185
+        },
+        "confidence": 0.9666
+    },
+    {
+        "text": "Код: 185730",
+        "box": {
+            "left": 0.1888,
+            "top": 0.7792,
+            "right": 0.3477,
+            "bottom": 0.859
+        },
+        "confidence": 0.8994
+    },
+    {
+        "text": "15.09.26",
+        "box": {
+            "left": 0.0866,
+            "top": 0.7977,
+            "right": 0.194,
+            "bottom": 0.859
+        },
+        "confidence": 0.9913
+    }
+]

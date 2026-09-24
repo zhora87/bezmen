@@ -1,6 +1,7 @@
 package io.github.zhora87.bezmen.domain.parser
 
 import io.github.zhora87.bezmen.domain.LocalePack
+import io.github.zhora87.bezmen.domain.MeasureUnit
 import io.github.zhora87.bezmen.domain.Quantity
 import io.github.zhora87.bezmen.domain.ScriptFolding
 import io.github.zhora87.bezmen.domain.UnitPriceCalculator
@@ -53,12 +54,15 @@ internal class MarkerDetector(
         ctx.lines.indices.filter { line -> codes.any(ctx.lower[line]::contains) }.forEach { line ->
             consumed += ctx.tokens[line].map { it.id }
         }
+        consumed += percentsUnderDiscount(ctx)
         val outcomes = ctx.lines.indices.mapNotNull { line -> processLine(ctx, line, consumed) }
+        val reference = outcomes.firstOrNull { it.reference != null && it.money == null }?.reference
+            ?: weightedLabelReference(ctx, consumed)
         return Result(
             unitPrices = outcomes.mapNotNull { it.toUnitPrice(ctx) },
             flags = flags,
             consumed = consumed,
-            weightedReference = outcomes.firstOrNull { it.reference != null && it.money == null }?.reference,
+            weightedReference = reference,
             markerLines = outcomes.map { it.line }.toSet(),
             weightedByMarker = ctx.lower.any { text -> weighted.any(text::contains) },
         )
@@ -106,6 +110,46 @@ internal class MarkerDetector(
     }
 
     /** "1 кг" or "100 г" inside the tokens, or a bare unit ("за кг") meaning one of it. */
+    /**
+     * "Знижка" over "10" whose "%" was lost: a lone 1..99 right under the word, in its column and set
+     * at least as large, is the percentage. Kopecks are smaller than what sits above them.
+     */
+    private fun percentsUnderDiscount(ctx: TagContext): List<TokenId> =
+        ctx.lines.indices.mapNotNull { line ->
+            val above = ctx.lineAbove(line) ?: return@mapNotNull null
+            val sole = ctx.tokens[line].singleOrNull()
+                ?.takeIf { it.isInteger && it.digitCount <= MAX_PERCENT_DIGITS }
+                ?: return@mapNotNull null
+            val label = ctx.lines[above].box
+            val box = ctx.lines[line].box
+            val underLabel = discount.any(ctx.lower[above]::contains) &&
+                box.centerX in label.left..label.right &&
+                box.height >= label.height
+            sole.id.takeIf { underLabel }
+        }
+
+    /**
+     * "вартість вказана за 100 г" with the unit lost to OCR ("... за100"). Weighed goods are priced by
+     * mass, so a bare number after the label is grams from 10 up and kilograms below.
+     */
+    private fun weightedLabelReference(ctx: TagContext, consumed: MutableSet<TokenId>): Quantity? {
+        val found = ctx.lines.indices.firstNotNullOfOrNull { line -> labelReference(ctx, line, consumed) }
+        found?.let { consumed += it.second }
+        return found?.first
+    }
+
+    private fun labelReference(ctx: TagContext, line: Int, consumed: Set<TokenId>): Pair<Quantity, List<TokenId>>? {
+        val end = weighted.mapNotNull { marker ->
+            ctx.lower[line].indexOf(marker).takeIf { it >= 0 }?.let { it + marker.length }
+        }.maxOrNull() ?: return null
+        val after = ctx.tokens[line].filter { it.start >= end && it.id !in consumed }.take(REFERENCE_TOKENS)
+        val value = after.firstOrNull()?.takeIf { it.kind == TokenKind.NUMBER }?.number?.takeIf { it > 0 }
+            ?: return null
+        val unit = after.getOrNull(1)?.let { pack.unitFor(it.text) }
+            ?: if (value >= MIN_GRAMS_REFERENCE) MeasureUnit.GRAM else MeasureUnit.KILOGRAM
+        return Quantity(value, unit) to after.map { it.id }
+    }
+
     private fun referenceIn(tokens: List<Token>): Quantity? {
         val unitIndex = tokens.indexOfFirst { it.kind == TokenKind.WORD && pack.unitFor(it.text) != null }
         if (unitIndex < 0) return null
@@ -129,6 +173,8 @@ internal class MarkerDetector(
     }
 
     private companion object {
+        const val MIN_GRAMS_REFERENCE = 10.0
+        const val MAX_PERCENT_DIGITS = 2
         const val MARKER_CONFIDENCE = 0.9f
         const val SMALL_PRINT_MAX_REL_HEIGHT = 0.6f
         const val REFERENCE_TOKENS = 2

@@ -7,7 +7,8 @@ expected/<id>.json                               expected price, oldPrice, quant
 ```
 
 `<id>` is the file name without extension, e.g. `ru-magnit-007`. `pack` inside `expected/<id>.json`
-selects the locale pack. `ocr/synthetic/` holds hand-written dumps mirroring the parser's unit tests.
+selects the locale pack. `ocr/synthetic/` holds hand-written dumps mirroring the parser's unit tests,
+`ocr/paddle-onnx/` dumps of the engine the app ships and `ocr/rapidocr/` dumps of RapidOCR.
 
 Photos are not versioned. The parser and the CI gate need only the dumps and the expected values.
 
@@ -27,6 +28,11 @@ boxes around the tallest numeric line (the price):
 
 Without the crop the small print under the price ("грн / 0,5 л") is a few pixels tall at the 960 px
 detection limit and is simply not found.
+
+Then dump the cropped photos with the engine the app ships and check the parser on them:
+
+    ./gradlew :tools:ocr-dump:run --args="corpus --pack uk"
+    ./gradlew :tools:parser-cli:run --args="corpus --engine paddle-onnx --verbose"
 
 `expected/<id>.json`:
 

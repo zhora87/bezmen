@@ -1,0 +1,122 @@
+[
+    {
+        "text": "20.03.20",
+        "box": {
+            "left": 0.0086,
+            "top": 0.0,
+            "right": 0.1247,
+            "bottom": 0.1036
+        },
+        "confidence": 0.9898
+    },
+    {
+        "text": "33",
+        "box": {
+            "left": 0.3849,
+            "top": 0.0259,
+            "right": 0.6989,
+            "bottom": 0.6321
+        },
+        "confidence": 0.9995
+    },
+    {
+        "text": "Крупа",
+        "box": {
+            "left": 0.1269,
+            "top": 0.1036,
+            "right": 0.2796,
+            "bottom": 0.2798
+        },
+        "confidence": 0.9763
+    },
+    {
+        "text": "60",
+        "box": {
+            "left": 0.7032,
+            "top": 0.1503,
+            "right": 0.8,
+            "bottom": 0.3627
+        },
+        "confidence": 0.9993
+    },
+    {
+        "text": "\"Розумний",
+        "box": {
+            "left": 0.0731,
+            "top": 0.2228,
+            "right": 0.3183,
+            "bottom": 0.3938
+        },
+        "confidence": 0.9462
+    },
+    {
+        "text": "вибір\"",
+        "box": {
+            "left": 0.1204,
+            "top": 0.3523,
+            "right": 0.2817,
+            "bottom": 0.5337
+        },
+        "confidence": 0.7764
+    },
+    {
+        "text": "ГРН.",
+        "box": {
+            "left": 0.6882,
+            "top": 0.399,
+            "right": 0.8194,
+            "bottom": 0.5855
+        },
+        "confidence": 0.914
+    },
+    {
+        "text": "рречана",
+        "box": {
+            "left": 0.1075,
+            "top": 0.5078,
+            "right": 0.2903,
+            "bottom": 0.6632
+        },
+        "confidence": 0.8899
+    },
+    {
+        "text": "1k7",
+        "box": {
+            "left": 0.7419,
+            "top": 0.5855,
+            "right": 0.8215,
+            "bottom": 0.7098
+        },
+        "confidence": 0.4485
+    },
+    {
+        "text": "K0Д 5340",
+        "box": {
+            "left": 0.6989,
+            "top": 0.6891,
+            "right": 0.8194,
+            "bottom": 0.7876
+        },
+        "confidence": 0.7133
+    },
+    {
+        "text": "шо",
+        "box": {
+            "left": 0.7161,
+            "top": 0.8135,
+            "right": 0.7914,
+            "bottom": 0.8808
+        },
+        "confidence": 0.3031
+    },
+    {
+        "text": "444",
+        "box": {
+            "left": 0.0,
+            "top": 0.8446,
+            "right": 0.0753,
+            "bottom": 0.9534
+        },
+        "confidence": 0.9172
+    }
+]

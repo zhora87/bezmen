@@ -54,6 +54,7 @@ core/data/       Room and DataStore (added with the app screens)
 locale-packs/    JSON packs and their schema
 corpus/          OCR dumps and expected values used as a regression corpus
 tools/parser-cli JVM runner: parser accuracy over the corpus
+tools/ocr-dump   JVM runner: the shipped OCR engine over corpus photos, writes OcrLine dumps
 tools/ml/        Python: OCR dumps for the corpus, model conversion
 tools/corpus/    Python: photo intake
 ```
@@ -117,6 +118,15 @@ threads and slower to start; it is also deprecated since Android 15. The instrum
 `OcrDeviceTest` in `androidApp` reproduces the table and rewrites its report after every
 configuration.
 
+### Reading the recognition dictionary
+
+The character dictionary lives in the recognition model's ONNX metadata (`character`). The engine
+reads it straight from the model bytes (`OnnxMetadata`) instead of through ONNX Runtime's Java
+metadata getter: on the desktop JVM build that getter mangles the two dictionary entries outside the
+Basic Multilingual Plane (`𝑢`, `𝜓`) and swallows the newlines next to them, which shifted every
+class after them and dropped the space class. `CtcDecoder` also refuses a dictionary whose size
+does not match the model's class count.
+
 ## Models and licences
 
 | component | purpose | licence |
@@ -167,8 +177,9 @@ before installation, in a release that adds the network permission explicitly an
 - Gradle with a version catalog. `./gradlew build` assembles both flavors, runs unit tests and
   lint and verifies the manifests. `./gradlew detekt` runs static analysis and formatting rules.
 - `tools/parser-cli` measures parser accuracy on the corpus: `--engine synthetic` (hand-written
-  dumps, must stay at 100%) and `--engine rapidocr` (real OCR dumps, regression floor that is
-  raised as the corpus grows). Both run in CI.
+  dumps, must stay at 100%), `--engine paddle-onnx` (dumps of the shipped engine, at least 85% of
+  cases fully correct) and `--engine rapidocr` (a second engine's dumps, lower regression floor).
+  All three run in CI, together with `:core:domain:koverVerify` (80% line coverage).
 - Documentation and metadata changes do not trigger CI.
 - APKs are split per ABI (arm64-v8a, armeabi-v7a, x86_64): ONNX Runtime carries 22 to 38 MB of
   native code per architecture, the models add about 20 MB. A release APK for arm64-v8a is

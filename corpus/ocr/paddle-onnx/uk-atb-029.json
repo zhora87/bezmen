@@ -1,0 +1,202 @@
+[
+    {
+        "text": "I",
+        "box": {
+            "left": 0.2575,
+            "top": 0.0644,
+            "right": 0.2658,
+            "bottom": 0.0727
+        },
+        "confidence": 0.2435
+    },
+    {
+        "text": "0",
+        "box": {
+            "left": 0.2776,
+            "top": 0.0685,
+            "right": 0.2845,
+            "bottom": 0.0762
+        },
+        "confidence": 0.5002
+    },
+    {
+        "text": "е",
+        "box": {
+            "left": 0.2811,
+            "top": 0.1081,
+            "right": 0.2887,
+            "bottom": 0.1199
+        },
+        "confidence": 0.1932
+    },
+    {
+        "text": "БРМКСЛИМОН",
+        "box": {
+            "left": 0.0,
+            "top": 0.3071,
+            "right": 0.2464,
+            "bottom": 0.3656
+        },
+        "confidence": 0.5997
+    },
+    {
+        "text": "5Л(",
+        "box": {
+            "left": 0.0736,
+            "top": 0.3314,
+            "right": 0.2415,
+            "bottom": 0.3999
+        },
+        "confidence": 0.3819
+    },
+    {
+        "text": "YKPАIНA",
+        "box": {
+            "left": 0.0,
+            "top": 0.3509,
+            "right": 0.0791,
+            "bottom": 0.378
+        },
+        "confidence": 0.5517
+    },
+    {
+        "text": "МСТКИСТЬ",
+        "box": {
+            "left": 0.0,
+            "top": 0.3721,
+            "right": 0.0805,
+            "bottom": 0.3946
+        },
+        "confidence": 0.7992
+    },
+    {
+        "text": "Пиво",
+        "box": {
+            "left": 0.179,
+            "top": 0.5747,
+            "right": 0.3269,
+            "bottom": 0.6208
+        },
+        "confidence": 0.6385
+    },
+    {
+        "text": "90",
+        "box": {
+            "left": 0.7058,
+            "top": 0.5794,
+            "right": 0.8293,
+            "bottom": 0.6657
+        },
+        "confidence": 0.998
+    },
+    {
+        "text": "45",
+        "box": {
+            "left": 0.4962,
+            "top": 0.58,
+            "right": 0.7321,
+            "bottom": 0.7312
+        },
+        "confidence": 0.9997
+    },
+    {
+        "text": "\"Оболонь\"",
+        "box": {
+            "left": 0.1055,
+            "top": 0.6125,
+            "right": 0.4039,
+            "bottom": 0.671
+        },
+        "confidence": 0.9553
+    },
+    {
+        "text": "ррн",
+        "box": {
+            "left": 0.7287,
+            "top": 0.6509,
+            "right": 0.8078,
+            "bottom": 0.6875
+        },
+        "confidence": 0.5033
+    },
+    {
+        "text": "BeerMix",
+        "box": {
+            "left": 0.1575,
+            "top": 0.6633,
+            "right": 0.3643,
+            "bottom": 0.7159
+        },
+        "confidence": 0.9983
+    },
+    {
+        "text": "0,5n",
+        "box": {
+            "left": 0.7377,
+            "top": 0.6804,
+            "right": 0.7981,
+            "bottom": 0.7053
+        },
+        "confidence": 0.7368
+    },
+    {
+        "text": "Лимон",
+        "box": {
+            "left": 0.1756,
+            "top": 0.7165,
+            "right": 0.3484,
+            "bottom": 0.7572
+        },
+        "confidence": 0.7569
+    },
+    {
+        "text": "192101",
+        "box": {
+            "left": 0.6995,
+            "top": 0.8145,
+            "right": 0.7981,
+            "bottom": 0.8447
+        },
+        "confidence": 0.9718
+    },
+    {
+        "text": "820000",
+        "box": {
+            "left": 0.5697,
+            "top": 0.8157,
+            "right": 0.6898,
+            "bottom": 0.8529
+        },
+        "confidence": 0.9866
+    },
+    {
+        "text": "1",
+        "box": {
+            "left": 0.6912,
+            "top": 0.8216,
+            "right": 0.7113,
+            "bottom": 0.8364
+        },
+        "confidence": 0.3971
+    },
+    {
+        "text": "15.09.26 КОд: 33885 1.28.3",
+        "box": {
+            "left": 0.0625,
+            "top": 0.8252,
+            "right": 0.3498,
+            "bottom": 0.8612
+        },
+        "confidence": 0.8941
+    },
+    {
+        "text": "4",
+        "box": {
+            "left": 0.5448,
+            "top": 0.8311,
+            "right": 0.5586,
+            "bottom": 0.8447
+        },
+        "confidence": 0.9861
+    }
+]

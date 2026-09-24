@@ -1,0 +1,132 @@
+[
+    {
+        "text": "Кільце",
+        "box": {
+            "left": 0.153,
+            "top": 0.1934,
+            "right": 0.3887,
+            "bottom": 0.3514
+        },
+        "confidence": 0.9768
+    },
+    {
+        "text": "13",
+        "box": {
+            "left": 0.5768,
+            "top": 0.1934,
+            "right": 0.8659,
+            "bottom": 0.5896
+        },
+        "confidence": 0.999
+    },
+    {
+        "text": "90",
+        "box": {
+            "left": 0.8398,
+            "top": 0.2075,
+            "right": 0.9928,
+            "bottom": 0.421
+        },
+        "confidence": 0.9987
+    },
+    {
+        "text": "\"Лакомка\"",
+        "box": {
+            "left": 0.1029,
+            "top": 0.3125,
+            "right": 0.4408,
+            "bottom": 0.4517
+        },
+        "confidence": 0.9644
+    },
+    {
+        "text": "рпн/",
+        "box": {
+            "left": 0.8613,
+            "top": 0.408,
+            "right": 0.9551,
+            "bottom": 0.4764
+        },
+        "confidence": 0.5987
+    },
+    {
+        "text": "вищий",
+        "box": {
+            "left": 0.0697,
+            "top": 0.434,
+            "right": 0.2676,
+            "bottom": 0.5531
+        },
+        "confidence": 0.9021
+    },
+    {
+        "text": "ґатунок",
+        "box": {
+            "left": 0.2585,
+            "top": 0.4375,
+            "right": 0.5065,
+            "bottom": 0.5814
+        },
+        "confidence": 0.8614
+    },
+    {
+        "text": "130r",
+        "box": {
+            "left": 0.8646,
+            "top": 0.4705,
+            "right": 0.9447,
+            "bottom": 0.533
+        },
+        "confidence": 0.891
+    },
+    {
+        "text": "15.09.26",
+        "box": {
+            "left": 0.0768,
+            "top": 0.7465,
+            "right": 0.1751,
+            "bottom": 0.8066
+        },
+        "confidence": 0.9882
+    },
+    {
+        "text": "Код:132374",
+        "box": {
+            "left": 0.1686,
+            "top": 0.7476,
+            "right": 0.3197,
+            "bottom": 0.8196
+        },
+        "confidence": 0.8577
+    },
+    {
+        "text": "820158",
+        "box": {
+            "left": 0.6471,
+            "top": 0.7925,
+            "right": 0.7813,
+            "bottom": 0.8526
+        },
+        "confidence": 0.9989
+    },
+    {
+        "text": "401254",
+        "box": {
+            "left": 0.7793,
+            "top": 0.796,
+            "right": 0.9115,
+            "bottom": 0.8561
+        },
+        "confidence": 0.9965
+    },
+    {
+        "text": "*",
+        "box": {
+            "left": 0.7832,
+            "top": 0.8149,
+            "right": 0.7897,
+            "bottom": 0.8325
+        },
+        "confidence": 0.6674
+    }
+]

@@ -1,0 +1,162 @@
+[
+    {
+        "text": "ATG",
+        "box": {
+            "left": 0.627,
+            "top": 0.1482,
+            "right": 0.875,
+            "bottom": 0.2755
+        },
+        "confidence": 0.8458
+    },
+    {
+        "text": "ТИЛЬКИ В",
+        "box": {
+            "left": 0.0,
+            "top": 0.1586,
+            "right": 0.6126,
+            "bottom": 0.3879
+        },
+        "confidence": 0.7918
+    },
+    {
+        "text": "03.09.26 Код: 136057",
+        "box": {
+            "left": 0.5885,
+            "top": 0.4378,
+            "right": 0.8372,
+            "bottom": 0.4758
+        },
+        "confidence": 0.9258
+    },
+    {
+        "text": "Спеціально для покупців АТБ",
+        "box": {
+            "left": 0.0143,
+            "top": 0.4401,
+            "right": 0.5605,
+            "bottom": 0.5048
+        },
+        "confidence": 0.955
+    },
+    {
+        "text": "351",
+        "box": {
+            "left": 0.7747,
+            "top": 0.4751,
+            "right": 0.8353,
+            "bottom": 0.5086
+        },
+        "confidence": 0.9884
+    },
+    {
+        "text": "Дезодорант",
+        "box": {
+            "left": 0.0365,
+            "top": 0.5443,
+            "right": 0.2982,
+            "bottom": 0.6024
+        },
+        "confidence": 0.9418
+    },
+    {
+        "text": "149",
+        "box": {
+            "left": 0.4863,
+            "top": 0.5532,
+            "right": 0.7728,
+            "bottom": 0.7178
+        },
+        "confidence": 0.9992
+    },
+    {
+        "text": "90",
+        "box": {
+            "left": 0.7311,
+            "top": 0.5652,
+            "right": 0.8268,
+            "bottom": 0.6657
+        },
+        "confidence": 0.9966
+    },
+    {
+        "text": "\"Oid Spice\"",
+        "box": {
+            "left": 0.0488,
+            "top": 0.5964,
+            "right": 0.2813,
+            "bottom": 0.6597
+        },
+        "confidence": 0.9612
+    },
+    {
+        "text": "ррн",
+        "box": {
+            "left": 0.75,
+            "top": 0.6515,
+            "right": 0.8197,
+            "bottom": 0.6835
+        },
+        "confidence": 0.5897
+    },
+    {
+        "text": "Wolfthorn",
+        "box": {
+            "left": 0.0729,
+            "top": 0.6575,
+            "right": 0.2695,
+            "bottom": 0.7089
+        },
+        "confidence": 0.9984
+    },
+    {
+        "text": "65m",
+        "box": {
+            "left": 0.7461,
+            "top": 0.6746,
+            "right": 0.8262,
+            "bottom": 0.7104
+        },
+        "confidence": 0.8357
+    },
+    {
+        "text": "антиперспірант",
+        "box": {
+            "left": 0.0221,
+            "top": 0.7178,
+            "right": 0.3301,
+            "bottom": 0.7714
+        },
+        "confidence": 0.8426
+    },
+    {
+        "text": "чоловічий стік",
+        "box": {
+            "left": 0.0417,
+            "top": 0.7707,
+            "right": 0.3216,
+            "bottom": 0.8198
+        },
+        "confidence": 0.8785
+    },
+    {
+        "text": "700216685504",
+        "box": {
+            "left": 0.5417,
+            "top": 0.8161,
+            "right": 0.7956,
+            "bottom": 0.8615
+        },
+        "confidence": 0.9875
+    },
+    {
+        "text": "8",
+        "box": {
+            "left": 0.5247,
+            "top": 0.8317,
+            "right": 0.5404,
+            "bottom": 0.8548
+        },
+        "confidence": 0.9993
+    }
+]

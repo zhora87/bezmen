@@ -1,0 +1,242 @@
+[
+    {
+        "text": "ЦИНА",
+        "box": {
+            "left": 0.5138,
+            "top": 0.1422,
+            "right": 0.6635,
+            "bottom": 0.2563
+        },
+        "confidence": 0.6434
+    },
+    {
+        "text": "при скануванні",
+        "box": {
+            "left": 0.1623,
+            "top": 0.1453,
+            "right": 0.4917,
+            "bottom": 0.2391
+        },
+        "confidence": 0.9394
+    },
+    {
+        "text": "3Hижка",
+        "box": {
+            "left": 0.6958,
+            "top": 0.175,
+            "right": 0.8652,
+            "bottom": 0.2797
+        },
+        "confidence": 0.5915
+    },
+    {
+        "text": "додатка АТБ",
+        "box": {
+            "left": 0.1883,
+            "top": 0.2188,
+            "right": 0.4586,
+            "bottom": 0.3203
+        },
+        "confidence": 0.9555
+    },
+    {
+        "text": "71",
+        "box": {
+            "left": 0.4972,
+            "top": 0.2313,
+            "right": 0.6076,
+            "bottom": 0.3922
+        },
+        "confidence": 0.9993
+    },
+    {
+        "text": "74",
+        "box": {
+            "left": 0.602,
+            "top": 0.2453,
+            "right": 0.6604,
+            "bottom": 0.3797
+        },
+        "confidence": 0.888
+    },
+    {
+        "text": "10%",
+        "box": {
+            "left": 0.6982,
+            "top": 0.2484,
+            "right": 0.8582,
+            "bottom": 0.4109
+        },
+        "confidence": 0.9923
+    },
+    {
+        "text": "на касі",
+        "box": {
+            "left": 0.2498,
+            "top": 0.3047,
+            "right": 0.3987,
+            "bottom": 0.3859
+        },
+        "confidence": 0.8656
+    },
+    {
+        "text": "0",
+        "box": {
+            "left": 0.1166,
+            "top": 0.425,
+            "right": 0.1348,
+            "bottom": 0.4547
+        },
+        "confidence": 0.3226
+    },
+    {
+        "text": "2",
+        "box": {
+            "left": 0.1103,
+            "top": 0.4547,
+            "right": 0.1387,
+            "bottom": 0.5
+        },
+        "confidence": 0.9636
+    },
+    {
+        "text": "Мило",
+        "box": {
+            "left": 0.1986,
+            "top": 0.4563,
+            "right": 0.3239,
+            "bottom": 0.5563
+        },
+        "confidence": 0.9078
+    },
+    {
+        "text": "рідке для",
+        "box": {
+            "left": 0.3128,
+            "top": 0.4578,
+            "right": 0.5319,
+            "bottom": 0.575
+        },
+        "confidence": 0.9723
+    },
+    {
+        "text": "я рук",
+        "box": {
+            "left": 0.5028,
+            "top": 0.4813,
+            "right": 0.6084,
+            "bottom": 0.575
+        },
+        "confidence": 0.8748
+    },
+    {
+        "text": "M",
+        "box": {
+            "left": 0.1127,
+            "top": 0.4953,
+            "right": 0.1387,
+            "bottom": 0.5359
+        },
+        "confidence": 0.4593
+    },
+    {
+        "text": "2",
+        "box": {
+            "left": 0.1623,
+            "top": 0.4984,
+            "right": 0.1907,
+            "bottom": 0.6141
+        },
+        "confidence": 0.1956
+    },
+    {
+        "text": "\"Natigo\"",
+        "box": {
+            "left": 0.305,
+            "top": 0.5297,
+            "right": 0.4957,
+            "bottom": 0.6625
+        },
+        "confidence": 0.936
+    },
+    {
+        "text": "79",
+        "box": {
+            "left": 0.6415,
+            "top": 0.5563,
+            "right": 0.7604,
+            "bottom": 0.7328
+        },
+        "confidence": 0.9988
+    },
+    {
+        "text": "A",
+        "box": {
+            "left": 0.1143,
+            "top": 0.5578,
+            "right": 0.1316,
+            "bottom": 0.5891
+        },
+        "confidence": 0.6466
+    },
+    {
+        "text": "80",
+        "box": {
+            "left": 0.7565,
+            "top": 0.5734,
+            "right": 0.8195,
+            "bottom": 0.6672
+        },
+        "confidence": 0.8411
+    },
+    {
+        "text": "00",
+        "box": {
+            "left": 0.1127,
+            "top": 0.5891,
+            "right": 0.1395,
+            "bottom": 0.6359
+        },
+        "confidence": 0.6392
+    },
+    {
+        "text": "Соковите манго/",
+        "box": {
+            "left": 0.2333,
+            "top": 0.625,
+            "right": 0.5705,
+            "bottom": 0.7453
+        },
+        "confidence": 0.9775
+    },
+    {
+        "text": "ррн",
+        "box": {
+            "left": 0.7549,
+            "top": 0.6578,
+            "right": 0.8132,
+            "bottom": 0.7063
+        },
+        "confidence": 0.4886
+    },
+    {
+        "text": "500 мл",
+        "box": {
+            "left": 0.7486,
+            "top": 0.6938,
+            "right": 0.8219,
+            "bottom": 0.7484
+        },
+        "confidence": 0.7681
+    },
+    {
+        "text": "Свіжий інжир",
+        "box": {
+            "left": 0.2593,
+            "top": 0.7063,
+            "right": 0.5382,
+            "bottom": 0.8453
+        },
+        "confidence": 0.9566
+    }
+]

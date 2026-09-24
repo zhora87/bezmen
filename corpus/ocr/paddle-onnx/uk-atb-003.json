@@ -1,0 +1,152 @@
+[
+    {
+        "text": "при скануванни",
+        "box": {
+            "left": 0.0929,
+            "top": 0.1174,
+            "right": 0.5095,
+            "bottom": 0.2739
+        },
+        "confidence": 0.9151
+    },
+    {
+        "text": "ЦИНА",
+        "box": {
+            "left": 0.5286,
+            "top": 0.1478,
+            "right": 0.6929,
+            "bottom": 0.287
+        },
+        "confidence": 0.5602
+    },
+    {
+        "text": "Знижка",
+        "box": {
+            "left": 0.7262,
+            "top": 0.187,
+            "right": 0.931,
+            "bottom": 0.3522
+        },
+        "confidence": 0.6065
+    },
+    {
+        "text": "додатка АТБ",
+        "box": {
+            "left": 0.1333,
+            "top": 0.213,
+            "right": 0.4619,
+            "bottom": 0.3391
+        },
+        "confidence": 0.9197
+    },
+    {
+        "text": "290",
+        "box": {
+            "left": 0.431,
+            "top": 0.2261,
+            "right": 0.6405,
+            "bottom": 0.4391
+        },
+        "confidence": 0.9959
+    },
+    {
+        "text": "70",
+        "box": {
+            "left": 0.6119,
+            "top": 0.2609,
+            "right": 0.6905,
+            "bottom": 0.4261
+        },
+        "confidence": 0.9813
+    },
+    {
+        "text": "29%",
+        "box": {
+            "left": 0.7167,
+            "top": 0.2652,
+            "right": 0.9095,
+            "bottom": 0.4696
+        },
+        "confidence": 0.9738
+    },
+    {
+        "text": "на касі",
+        "box": {
+            "left": 0.2071,
+            "top": 0.313,
+            "right": 0.3881,
+            "bottom": 0.4087
+        },
+        "confidence": 0.8547
+    },
+    {
+        "text": "Бритва \"Gillette\"",
+        "box": {
+            "left": 0.1929,
+            "top": 0.4609,
+            "right": 0.6024,
+            "bottom": 0.6043
+        },
+        "confidence": 0.9364
+    },
+    {
+        "text": "461",
+        "box": {
+            "left": 0.6548,
+            "top": 0.5043,
+            "right": 0.919,
+            "bottom": 0.7043
+        },
+        "confidence": 0.8966
+    },
+    {
+        "text": "Venus Smooth Start",
+        "box": {
+            "left": 0.1643,
+            "top": 0.5435,
+            "right": 0.6286,
+            "bottom": 0.687
+        },
+        "confidence": 0.9781
+    },
+    {
+        "text": "станок + 3 змінні",
+        "box": {
+            "left": 0.2071,
+            "top": 0.6522,
+            "right": 0.5833,
+            "bottom": 0.7652
+        },
+        "confidence": 0.9657
+    },
+    {
+        "text": "323.00",
+        "box": {
+            "left": 0.6143,
+            "top": 0.687,
+            "right": 0.8857,
+            "bottom": 0.9217
+        },
+        "confidence": 0.9045
+    },
+    {
+        "text": "картриджі",
+        "box": {
+            "left": 0.2786,
+            "top": 0.7391,
+            "right": 0.5143,
+            "bottom": 0.8391
+        },
+        "confidence": 0.969
+    },
+    {
+        "text": "0",
+        "box": {
+            "left": 0.131,
+            "top": 0.8,
+            "right": 0.1476,
+            "bottom": 0.8261
+        },
+        "confidence": 0.1548
+    }
+]

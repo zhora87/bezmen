@@ -1,0 +1,122 @@
+[
+    {
+        "text": "17",
+        "box": {
+            "left": 0.5378,
+            "top": 0.1711,
+            "right": 0.793,
+            "bottom": 0.5628
+        },
+        "confidence": 0.9983
+    },
+    {
+        "text": "UA Xnі6",
+        "box": {
+            "left": 0.1341,
+            "top": 0.1751,
+            "right": 0.373,
+            "bottom": 0.3061
+        },
+        "confidence": 0.8207
+    },
+    {
+        "text": "80",
+        "box": {
+            "left": 0.7637,
+            "top": 0.1818,
+            "right": 0.9049,
+            "bottom": 0.4064
+        },
+        "confidence": 0.9966
+    },
+    {
+        "text": "ЗЛЬОНОМ",
+        "box": {
+            "left": 0.1185,
+            "top": 0.3235,
+            "right": 0.3919,
+            "bottom": 0.4251
+        },
+        "confidence": 0.8859
+    },
+    {
+        "text": "рпн/",
+        "box": {
+            "left": 0.7865,
+            "top": 0.385,
+            "right": 0.875,
+            "bottom": 0.4652
+        },
+        "confidence": 0.6434
+    },
+    {
+        "text": "нарізаний",
+        "box": {
+            "left": 0.1198,
+            "top": 0.4251,
+            "right": 0.3991,
+            "bottom": 0.5548
+        },
+        "confidence": 0.9687
+    },
+    {
+        "text": "250г",
+        "box": {
+            "left": 0.7897,
+            "top": 0.4519,
+            "right": 0.8613,
+            "bottom": 0.516
+        },
+        "confidence": 0.8627
+    },
+    {
+        "text": "10.08.26 КОд: 133174",
+        "box": {
+            "left": 0.0605,
+            "top": 0.762,
+            "right": 0.2936,
+            "bottom": 0.8356
+        },
+        "confidence": 0.9047
+    },
+    {
+        "text": "820158",
+        "box": {
+            "left": 0.5898,
+            "top": 0.7874,
+            "right": 0.7155,
+            "bottom": 0.8623
+        },
+        "confidence": 0.9988
+    },
+    {
+        "text": "01346",
+        "box": {
+            "left": 0.7311,
+            "top": 0.7941,
+            "right": 0.8366,
+            "bottom": 0.8623
+        },
+        "confidence": 0.9881
+    },
+    {
+        "text": "4",
+        "box": {
+            "left": 0.722,
+            "top": 0.7995,
+            "right": 0.7467,
+            "bottom": 0.8516
+        },
+        "confidence": 0.9947
+    },
+    {
+        "text": "4",
+        "box": {
+            "left": 0.5612,
+            "top": 0.8061,
+            "right": 0.5768,
+            "bottom": 0.8422
+        },
+        "confidence": 0.9983
+    }
+]

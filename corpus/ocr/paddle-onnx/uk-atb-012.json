@@ -1,0 +1,182 @@
+[
+    {
+        "text": "15.09.26",
+        "box": {
+            "left": 0.1415,
+            "top": 0.1417,
+            "right": 0.226,
+            "bottom": 0.2083
+        },
+        "confidence": 0.9977
+    },
+    {
+        "text": "Слайси",
+        "box": {
+            "left": 0.3927,
+            "top": 0.1542,
+            "right": 0.5618,
+            "bottom": 0.2729
+        },
+        "confidence": 0.9897
+    },
+    {
+        "text": "яловичі",
+        "box": {
+            "left": 0.5618,
+            "top": 0.1542,
+            "right": 0.7561,
+            "bottom": 0.2729
+        },
+        "confidence": 0.9244
+    },
+    {
+        "text": "Kon:201415",
+        "box": {
+            "left": 0.1447,
+            "top": 0.1938,
+            "right": 0.2659,
+            "bottom": 0.2604
+        },
+        "confidence": 0.8029
+    },
+    {
+        "text": "\"Skott",
+        "box": {
+            "left": 0.4146,
+            "top": 0.2604,
+            "right": 0.5618,
+            "bottom": 0.3833
+        },
+        "confidence": 0.9916
+    },
+    {
+        "text": "Smeat\"",
+        "box": {
+            "left": 0.5618,
+            "top": 0.2604,
+            "right": 0.7309,
+            "bottom": 0.3813
+        },
+        "confidence": 0.9964
+    },
+    {
+        "text": "0",
+        "box": {
+            "left": 0.8431,
+            "top": 0.3354,
+            "right": 0.8553,
+            "bottom": 0.3708
+        },
+        "confidence": 0.294
+    },
+    {
+        "text": "3Hижка",
+        "box": {
+            "left": 0.1748,
+            "top": 0.3521,
+            "right": 0.3447,
+            "bottom": 0.4708
+        },
+        "confidence": 0.6785
+    },
+    {
+        "text": "в маринаді",
+        "box": {
+            "left": 0.4569,
+            "top": 0.3875,
+            "right": 0.6935,
+            "bottom": 0.5063
+        },
+        "confidence": 0.9553
+    },
+    {
+        "text": "9",
+        "box": {
+            "left": 0.2154,
+            "top": 0.4583,
+            "right": 0.274,
+            "bottom": 0.6104
+        },
+        "confidence": 0.9997
+    },
+    {
+        "text": "2",
+        "box": {
+            "left": 0.8268,
+            "top": 0.4583,
+            "right": 0.8561,
+            "bottom": 0.6021
+        },
+        "confidence": 0.6014
+    },
+    {
+        "text": "%",
+        "box": {
+            "left": 0.2659,
+            "top": 0.475,
+            "right": 0.3285,
+            "bottom": 0.6104
+        },
+        "confidence": 0.999
+    },
+    {
+        "text": "охолоджені",
+        "box": {
+            "left": 0.4504,
+            "top": 0.4854,
+            "right": 0.7,
+            "bottom": 0.6125
+        },
+        "confidence": 0.9724
+    },
+    {
+        "text": "149",
+        "box": {
+            "left": 0.448,
+            "top": 0.5833,
+            "right": 0.6634,
+            "bottom": 0.8542
+        },
+        "confidence": 0.9995
+    },
+    {
+        "text": "70",
+        "box": {
+            "left": 0.6528,
+            "top": 0.5938,
+            "right": 0.7374,
+            "bottom": 0.7417
+        },
+        "confidence": 0.9987
+    },
+    {
+        "text": "16629",
+        "box": {
+            "left": 0.1862,
+            "top": 0.6271,
+            "right": 0.4106,
+            "bottom": 0.8646
+        },
+        "confidence": 0.8271
+    },
+    {
+        "text": "рпн/",
+        "box": {
+            "left": 0.6642,
+            "top": 0.7271,
+            "right": 0.726,
+            "bottom": 0.7938
+        },
+        "confidence": 0.5719
+    },
+    {
+        "text": "330г",
+        "box": {
+            "left": 0.6626,
+            "top": 0.7771,
+            "right": 0.7236,
+            "bottom": 0.8438
+        },
+        "confidence": 0.8244
+    }
+]

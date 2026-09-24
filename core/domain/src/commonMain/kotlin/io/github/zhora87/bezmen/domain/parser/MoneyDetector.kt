@@ -125,7 +125,12 @@ internal class MoneyDetector(private val pack: LocalePack) {
     }
 
     private fun isPriceLike(t: Token, next: Token?): Boolean =
-        t.kind == TokenKind.NUMBER && t.digitCount < BARCODE_DIGITS && next?.kind != TokenKind.PERCENT
+        t.kind == TokenKind.NUMBER && t.digitCount < BARCODE_DIGITS && next?.kind != TokenKind.PERCENT &&
+            !gluedToUnit(t, next)
+
+    /** "0,85л782ge" on packaging behind the tag: a number glued to a unit is a size, not a price. */
+    private fun gluedToUnit(t: Token, next: Token?): Boolean =
+        next != null && next.kind == TokenKind.WORD && next.start == t.end && pack.unitFor(next.text) != null
 
     private fun isCents(t: Token): Boolean = t.isInteger && t.text.length == 2
 

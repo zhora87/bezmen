@@ -1,0 +1,202 @@
+[
+    {
+        "text": "ИСТИ",
+        "box": {
+            "left": 0.0794,
+            "top": 0.0,
+            "right": 0.3216,
+            "bottom": 0.0699
+        },
+        "confidence": 0.9436
+    },
+    {
+        "text": "ЛАЗАНЫ",
+        "box": {
+            "left": 0.0859,
+            "top": 0.0507,
+            "right": 0.5078,
+            "bottom": 0.1636
+        },
+        "confidence": 0.9923
+    },
+    {
+        "text": "R",
+        "box": {
+            "left": 0.0033,
+            "top": 0.0794,
+            "right": 0.084,
+            "bottom": 0.1499
+        },
+        "confidence": 0.2529
+    },
+    {
+        "text": "M",
+        "box": {
+            "left": 0.9284,
+            "top": 0.1457,
+            "right": 1.0,
+            "bottom": 0.2096
+        },
+        "confidence": 0.9762
+    },
+    {
+        "text": "акаоонні ви оби",
+        "box": {
+            "left": 0.0,
+            "top": 0.169,
+            "right": 0.4857,
+            "bottom": 0.2585
+        },
+        "confidence": 0.8813
+    },
+    {
+        "text": "KP",
+        "box": {
+            "left": 0.9596,
+            "top": 0.2657,
+            "right": 1.0,
+            "bottom": 0.3033
+        },
+        "confidence": 0.8779
+    },
+    {
+        "text": "КРАЇН А ПОХОДЖЕ",
+        "box": {
+            "left": 0.0326,
+            "top": 0.3021,
+            "right": 0.3548,
+            "bottom": 0.3457
+        },
+        "confidence": 0.8937
+    },
+    {
+        "text": "HЯ",
+        "box": {
+            "left": 0.3626,
+            "top": 0.3033,
+            "right": 0.4128,
+            "bottom": 0.3385
+        },
+        "confidence": 0.5081
+    },
+    {
+        "text": "500р(",
+        "box": {
+            "left": 0.4329,
+            "top": 0.3367,
+            "right": 0.5951,
+            "bottom": 0.3887
+        },
+        "confidence": 0.8539
+    },
+    {
+        "text": "ИТАЛИЯ",
+        "box": {
+            "left": 0.1426,
+            "top": 0.3397,
+            "right": 0.3027,
+            "bottom": 0.3875
+        },
+        "confidence": 0.8447
+    },
+    {
+        "text": "Макаронні",
+        "box": {
+            "left": 0.0892,
+            "top": 0.5594,
+            "right": 0.347,
+            "bottom": 0.6137
+        },
+        "confidence": 0.9162
+    },
+    {
+        "text": "87",
+        "box": {
+            "left": 0.444,
+            "top": 0.5719,
+            "right": 0.6706,
+            "bottom": 0.7343
+        },
+        "confidence": 0.9997
+    },
+    {
+        "text": "70",
+        "box": {
+            "left": 0.653,
+            "top": 0.5779,
+            "right": 0.7793,
+            "bottom": 0.6687
+        },
+        "confidence": 0.9974
+    },
+    {
+        "text": "вироби",
+        "box": {
+            "left": 0.1296,
+            "top": 0.606,
+            "right": 0.3092,
+            "bottom": 0.6543
+        },
+        "confidence": 0.9887
+    },
+    {
+        "text": "\"De Luxe F&G\"",
+        "box": {
+            "left": 0.0645,
+            "top": 0.646,
+            "right": 0.3815,
+            "bottom": 0.6967
+        },
+        "confidence": 0.9499
+    },
+    {
+        "text": "рпн/",
+        "box": {
+            "left": 0.6764,
+            "top": 0.6585,
+            "right": 0.75,
+            "bottom": 0.6907
+        },
+        "confidence": 0.5793
+    },
+    {
+        "text": "0,5КГ",
+        "box": {
+            "left": 0.6777,
+            "top": 0.6824,
+            "right": 0.75,
+            "bottom": 0.7134
+        },
+        "confidence": 0.7525
+    },
+    {
+        "text": "Листи для лазаны",
+        "box": {
+            "left": 0.0371,
+            "top": 0.6866,
+            "right": 0.4141,
+            "bottom": 0.7439
+        },
+        "confidence": 0.9493
+    },
+    {
+        "text": "8.09.26 K:873152.6.2",
+        "box": {
+            "left": 0.0378,
+            "top": 0.8096,
+            "right": 0.2845,
+            "bottom": 0.8531
+        },
+        "confidence": 0.8602
+    },
+    {
+        "text": "999200002915",
+        "box": {
+            "left": 0.5124,
+            "top": 0.8304,
+            "right": 0.7487,
+            "bottom": 0.8627
+        },
+        "confidence": 0.9683
+    }
+]

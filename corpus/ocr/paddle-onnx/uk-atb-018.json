@@ -1,0 +1,122 @@
+[
+    {
+        "text": "20",
+        "box": {
+            "left": 0.5846,
+            "top": 0.1899,
+            "right": 0.873,
+            "bottom": 0.6042
+        },
+        "confidence": 0.9991
+    },
+    {
+        "text": "Пончик",
+        "box": {
+            "left": 0.1738,
+            "top": 0.2005,
+            "right": 0.4336,
+            "bottom": 0.3453
+        },
+        "confidence": 0.9871
+    },
+    {
+        "text": "90",
+        "box": {
+            "left": 0.847,
+            "top": 0.2151,
+            "right": 0.9844,
+            "bottom": 0.4316
+        },
+        "confidence": 0.9988
+    },
+    {
+        "text": "\"Миколаївхліб\"",
+        "box": {
+            "left": 0.056,
+            "top": 0.3147,
+            "right": 0.5521,
+            "bottom": 0.4714
+        },
+        "confidence": 0.9417
+    },
+    {
+        "text": "рпн",
+        "box": {
+            "left": 0.8633,
+            "top": 0.421,
+            "right": 0.9427,
+            "bottom": 0.4914
+        },
+        "confidence": 0.5411
+    },
+    {
+        "text": "3ryщене",
+        "box": {
+            "left": 0.071,
+            "top": 0.4502,
+            "right": 0.3229,
+            "bottom": 0.587
+        },
+        "confidence": 0.6532
+    },
+    {
+        "text": "МОЛОКО",
+        "box": {
+            "left": 0.3249,
+            "top": 0.4834,
+            "right": 0.5404,
+            "bottom": 0.571
+        },
+        "confidence": 0.9355
+    },
+    {
+        "text": "WT",
+        "box": {
+            "left": 0.877,
+            "top": 0.494,
+            "right": 0.9219,
+            "bottom": 0.5458
+        },
+        "confidence": 0.8063
+    },
+    {
+        "text": "15.09.26 КOд:186658",
+        "box": {
+            "left": 0.099,
+            "top": 0.7849,
+            "right": 0.3424,
+            "bottom": 0.8672
+        },
+        "confidence": 0.8661
+    },
+    {
+        "text": "820158",
+        "box": {
+            "left": 0.6582,
+            "top": 0.8207,
+            "right": 0.7793,
+            "bottom": 0.8818
+        },
+        "confidence": 0.9966
+    },
+    {
+        "text": "402190",
+        "box": {
+            "left": 0.7826,
+            "top": 0.8207,
+            "right": 0.9043,
+            "bottom": 0.8818
+        },
+        "confidence": 0.9947
+    },
+    {
+        "text": "4",
+        "box": {
+            "left": 0.625,
+            "top": 0.838,
+            "right": 0.6341,
+            "bottom": 0.8619
+        },
+        "confidence": 0.2237
+    }
+]

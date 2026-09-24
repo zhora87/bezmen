@@ -1,0 +1,142 @@
+[
+    {
+        "text": "ШВИДКОДІЮЧІ",
+        "box": {
+            "left": 0.0449,
+            "top": 0.0,
+            "right": 0.2982,
+            "bottom": 0.0575
+        },
+        "confidence": 0.7656
+    },
+    {
+        "text": "22g",
+        "box": {
+            "left": 0.319,
+            "top": 0.0,
+            "right": 0.4342,
+            "bottom": 0.0594
+        },
+        "confidence": 0.999
+    },
+    {
+        "text": "ВИГИДН",
+        "box": {
+            "left": 0.7702,
+            "top": 0.0127,
+            "right": 1.0,
+            "bottom": 0.0824
+        },
+        "confidence": 0.8802
+    },
+    {
+        "text": "YПAKOBK",
+        "box": {
+            "left": 0.7298,
+            "top": 0.0751,
+            "right": 1.0,
+            "bottom": 0.1302
+        },
+        "confidence": 0.7063
+    },
+    {
+        "text": "РИЖДЖИ",
+        "box": {
+            "left": 0.0,
+            "top": 0.1393,
+            "right": 0.627,
+            "bottom": 0.318
+        },
+        "confidence": 0.8071
+    },
+    {
+        "text": "20",
+        "box": {
+            "left": 0.459,
+            "top": 0.5227,
+            "right": 0.7246,
+            "bottom": 0.7032
+        },
+        "confidence": 0.9993
+    },
+    {
+        "text": "30",
+        "box": {
+            "left": 0.7012,
+            "top": 0.5257,
+            "right": 0.8392,
+            "bottom": 0.6239
+        },
+        "confidence": 0.9994
+    },
+    {
+        "text": "UА Дріжджі",
+        "box": {
+            "left": 0.0137,
+            "top": 0.5542,
+            "right": 0.3691,
+            "bottom": 0.6227
+        },
+        "confidence": 0.8834
+    },
+    {
+        "text": "\"Saf-instant\"",
+        "box": {
+            "left": 0.0143,
+            "top": 0.6093,
+            "right": 0.3737,
+            "bottom": 0.6711
+        },
+        "confidence": 0.9908
+    },
+    {
+        "text": "рпн/",
+        "box": {
+            "left": 0.7201,
+            "top": 0.6154,
+            "right": 0.8079,
+            "bottom": 0.6541
+        },
+        "confidence": 0.6286
+    },
+    {
+        "text": "22r",
+        "box": {
+            "left": 0.7324,
+            "top": 0.6481,
+            "right": 0.7923,
+            "bottom": 0.6772
+        },
+        "confidence": 0.8792
+    },
+    {
+        "text": "0.09.26 Код: 176311 1.8.1",
+        "box": {
+            "left": 0.0137,
+            "top": 0.7947,
+            "right": 0.2904,
+            "bottom": 0.828
+        },
+        "confidence": 0.8566
+    },
+    {
+        "text": "820074790401",
+        "box": {
+            "left": 0.5326,
+            "top": 0.8031,
+            "right": 0.778,
+            "bottom": 0.8353
+        },
+        "confidence": 0.9965
+    },
+    {
+        "text": "4",
+        "box": {
+            "left": 0.5059,
+            "top": 0.8159,
+            "right": 0.5156,
+            "bottom": 0.828
+        },
+        "confidence": 0.9451
+    }
+]

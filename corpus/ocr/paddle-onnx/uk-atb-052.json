@@ -1,0 +1,122 @@
+[
+    {
+        "text": "ачнііде",
+        "box": {
+            "left": 0.054,
+            "top": 0.1418,
+            "right": 0.2878,
+            "bottom": 0.2287
+        },
+        "confidence": 0.6764
+    },
+    {
+        "text": "5",
+        "box": {
+            "left": 0.0169,
+            "top": 0.2032,
+            "right": 0.0345,
+            "bottom": 0.2096
+        },
+        "confidence": 0.1376
+    },
+    {
+        "text": "Макаронні",
+        "box": {
+            "left": 0.3138,
+            "top": 0.5399,
+            "right": 0.5742,
+            "bottom": 0.5992
+        },
+        "confidence": 0.8621
+    },
+    {
+        "text": "UA",
+        "box": {
+            "left": 0.2435,
+            "top": 0.5427,
+            "right": 0.3294,
+            "bottom": 0.5935
+        },
+        "confidence": 0.9774
+    },
+    {
+        "text": "46",
+        "box": {
+            "left": 0.6133,
+            "top": 0.5547,
+            "right": 0.8281,
+            "bottom": 0.7255
+        },
+        "confidence": 0.9998
+    },
+    {
+        "text": "30",
+        "box": {
+            "left": 0.8021,
+            "top": 0.5547,
+            "right": 0.9082,
+            "bottom": 0.6507
+        },
+        "confidence": 0.9996
+    },
+    {
+        "text": "вироби",
+        "box": {
+            "left": 0.3177,
+            "top": 0.5914,
+            "right": 0.5033,
+            "bottom": 0.6521
+        },
+        "confidence": 0.9907
+    },
+    {
+        "text": "\"День у День\"",
+        "box": {
+            "left": 0.25,
+            "top": 0.6387,
+            "right": 0.5592,
+            "bottom": 0.7085
+        },
+        "confidence": 0.9245
+    },
+    {
+        "text": "рпн/",
+        "box": {
+            "left": 0.8197,
+            "top": 0.6387,
+            "right": 0.8867,
+            "bottom": 0.6733
+        },
+        "confidence": 0.6539
+    },
+    {
+        "text": "1kr",
+        "box": {
+            "left": 0.8314,
+            "top": 0.6676,
+            "right": 0.8737,
+            "bottom": 0.6951
+        },
+        "confidence": 0.7036
+    },
+    {
+        "text": "Пружинка",
+        "box": {
+            "left": 0.2956,
+            "top": 0.6944,
+            "right": 0.526,
+            "bottom": 0.7601
+        },
+        "confidence": 0.947
+    },
+    {
+        "text": "4.09.26 КОд: 192765 4.2.4",
+        "box": {
+            "left": 0.2396,
+            "top": 0.8257,
+            "right": 0.4844,
+            "bottom": 0.8603
+        },
+        "confidence": 0.911
+    }
+]

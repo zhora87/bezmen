@@ -1,0 +1,272 @@
+[
+    {
+        "text": "овнъъ",
+        "box": {
+            "left": 0.2122,
+            "top": 0.0,
+            "right": 0.2936,
+            "bottom": 0.0105
+        },
+        "confidence": 0.3357
+    },
+    {
+        "text": "пляшки.",
+        "box": {
+            "left": 0.2624,
+            "top": 0.0111,
+            "right": 0.3138,
+            "bottom": 0.0393
+        },
+        "confidence": 0.7661
+    },
+    {
+        "text": "Умовизберания:",
+        "box": {
+            "left": 0.2259,
+            "top": 0.0419,
+            "right": 0.347,
+            "bottom": 0.0832
+        },
+        "confidence": 0.7433
+    },
+    {
+        "text": "НEРАФНОВАНА",
+        "box": {
+            "left": 0.8646,
+            "top": 0.0426,
+            "right": 1.0,
+            "bottom": 0.0845
+        },
+        "confidence": 0.7566
+    },
+    {
+        "text": "3зра",
+        "box": {
+            "left": 0.2292,
+            "top": 0.0655,
+            "right": 0.3509,
+            "bottom": 0.1107
+        },
+        "confidence": 0.3533
+    },
+    {
+        "text": "за",
+        "box": {
+            "left": 0.2122,
+            "top": 0.0845,
+            "right": 0.3659,
+            "bottom": 0.1408
+        },
+        "confidence": 0.2859
+    },
+    {
+        "text": "Об'ем:0,9л",
+        "box": {
+            "left": 0.0,
+            "top": 0.093,
+            "right": 0.1654,
+            "bottom": 0.1408
+        },
+        "confidence": 0.7033
+    },
+    {
+        "text": "ОЛя Соно",
+        "box": {
+            "left": 0.7982,
+            "top": 0.1002,
+            "right": 1.0,
+            "bottom": 0.1519
+        },
+        "confidence": 0.4623
+    },
+    {
+        "text": "p",
+        "box": {
+            "left": 0.2012,
+            "top": 0.1041,
+            "right": 0.373,
+            "bottom": 0.169
+        },
+        "confidence": 0.2725
+    },
+    {
+        "text": "Маса нетто:",
+        "box": {
+            "left": 0.0052,
+            "top": 0.1218,
+            "right": 0.1602,
+            "bottom": 0.1624
+        },
+        "confidence": 0.9318
+    },
+    {
+        "text": "ВИОРОЖН",
+        "box": {
+            "left": 0.7552,
+            "top": 0.1251,
+            "right": 1.0,
+            "bottom": 0.1834
+        },
+        "confidence": 0.6621
+    },
+    {
+        "text": "300036",
+        "box": {
+            "left": 0.4427,
+            "top": 0.1284,
+            "right": 0.5378,
+            "bottom": 0.1676
+        },
+        "confidence": 0.6406
+    },
+    {
+        "text": "828(",
+        "box": {
+            "left": 0.0,
+            "top": 0.1415,
+            "right": 0.1927,
+            "bottom": 0.224
+        },
+        "confidence": 0.5825
+    },
+    {
+        "text": "3РОБЛЕH",
+        "box": {
+            "left": 0.9134,
+            "top": 0.2272,
+            "right": 0.9668,
+            "bottom": 0.258
+        },
+        "confidence": 0.6667
+    },
+    {
+        "text": "УРАН",
+        "box": {
+            "left": 0.9128,
+            "top": 0.2384,
+            "right": 0.9603,
+            "bottom": 0.2711
+        },
+        "confidence": 0.3114
+    },
+    {
+        "text": "UA Oлія",
+        "box": {
+            "left": 0.248,
+            "top": 0.5593,
+            "right": 0.4251,
+            "bottom": 0.6189
+        },
+        "confidence": 0.8238
+    },
+    {
+        "text": "87",
+        "box": {
+            "left": 0.5241,
+            "top": 0.594,
+            "right": 0.7259,
+            "bottom": 0.7354
+        },
+        "confidence": 0.9996
+    },
+    {
+        "text": "84",
+        "box": {
+            "left": 0.6999,
+            "top": 0.6012,
+            "right": 0.8092,
+            "bottom": 0.6824
+        },
+        "confidence": 0.9987
+    },
+    {
+        "text": "соняшникова",
+        "box": {
+            "left": 0.1895,
+            "top": 0.6097,
+            "right": 0.4844,
+            "bottom": 0.6634
+        },
+        "confidence": 0.927
+    },
+    {
+        "text": "\"Своя",
+        "box": {
+            "left": 0.2018,
+            "top": 0.6451,
+            "right": 0.3457,
+            "bottom": 0.7007
+        },
+        "confidence": 0.9335
+    },
+    {
+        "text": "Лінія\"",
+        "box": {
+            "left": 0.3301,
+            "top": 0.6562,
+            "right": 0.4674,
+            "bottom": 0.7007
+        },
+        "confidence": 0.9335
+    },
+    {
+        "text": "ррн/",
+        "box": {
+            "left": 0.722,
+            "top": 0.6752,
+            "right": 0.7852,
+            "bottom": 0.7033
+        },
+        "confidence": 0.6729
+    },
+    {
+        "text": "нepa",
+        "box": {
+            "left": 0.2012,
+            "top": 0.6935,
+            "right": 0.3086,
+            "bottom": 0.7407
+        },
+        "confidence": 0.5169
+    },
+    {
+        "text": "афінована",
+        "box": {
+            "left": 0.2813,
+            "top": 0.6948,
+            "right": 0.4759,
+            "bottom": 0.7498
+        },
+        "confidence": 0.8507
+    },
+    {
+        "text": "0,9л",
+        "box": {
+            "left": 0.7253,
+            "top": 0.6961,
+            "right": 0.7793,
+            "bottom": 0.7236
+        },
+        "confidence": 0.7363
+    },
+    {
+        "text": "8.0926К1397482.1.4",
+        "box": {
+            "left": 0.1823,
+            "top": 0.7898,
+            "right": 0.4049,
+            "bottom": 0.8363
+        },
+        "confidence": 0.7616
+    },
+    {
+        "text": "99300060136",
+        "box": {
+            "left": 0.5638,
+            "top": 0.8147,
+            "right": 0.776,
+            "bottom": 0.8625
+        },
+        "confidence": 0.8705
+    }
+]

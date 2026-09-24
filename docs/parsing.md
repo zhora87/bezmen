@@ -50,18 +50,26 @@ An `overall` below `ParseResult.CONFIRM_THRESHOLD` (0.75) means the UI shows the
 4. **Quantity candidates.** A number followed by a unit alias, in one line or glued (`900мл`,
    `0.33 л`, `1.5кг`, `12 шт`). Multipacks multiply out: `6 x 200 г`, `2 шт по 90 г`. A unit right
    after the currency or a slash with no number means one of it (`грн/шт`; `грн/кг` means sold by
-   weight). Percentages are never quantities, nor is anything below one gram or millilitre. When
-   several candidates remain, the one closest to the price wins: package text in the background
-   carries its own numbers.
+   weight); the unit may also open the line right under the currency line in the same column, since
+   the detector often cuts `грн /` and `шт` into two lines. A unit may be a run of glued tokens that
+   only together form a pack alias: store fonts turn `кг` into `k7` and `наб-р` into `на6-р`, and
+   packs list such misreads. A single letter wedged between digit runs (`82n214780361`) is a barcode.
+   Percentages are never quantities, nor is anything below one gram or millilitre. When several
+   candidates remain, the one closest to the price wins: package text in the background carries its
+   own numbers.
 5. **Printed unit price.** A marker phrase from the pack (`за 1 кг`, `per 100 g`, `1 kg =`) gives
    a reference quantity, taken from the phrase or the tokens right after it. The price belongs to
    the same line when present, otherwise to the nearest small-print line. A marker without a price
-   marks weighted goods.
+   marks weighted goods. A weighted-goods label whose unit OCR lost (`вартість вказана за100`)
+   still gives a reference: weighed goods are priced by mass, so the bare number is grams from 10
+   up and kilograms below.
 6. **Money candidates.** `249.90`; `249 90`; a two-digit box to the right of a large integer box,
    smaller and vertically inside it; `249 ₽`; and, only on the tallest lines, a bare integer. On
    packs with superscript kopecks a bare integer of four or more digits is the price glued to its
-   kopecks (`29480` is 294.80). Barcodes (8+ digits), dates, codes, sideways text and numbers
-   followed by `%` are excluded.
+   kopecks (`29480` is 294.80). Barcodes (8+ digits), dates, codes, sideways text, numbers
+   followed by `%` and numbers glued to a unit (`0,85л` on packaging behind the tag) are excluded,
+   as is a lone 1..99 set at least as large as a discount word right above it (`Знижка` over a `10`
+   that lost its `%`).
 7. **Current and old price.** Labels apply to a price when they share a line or overlap it
    vertically. A price on an old-price label is the old price; a price on a loyalty label is an
    alternative, not the current price. Without labels, two prices whose heights differ by more than
@@ -148,11 +156,14 @@ pending cases are skipped by the accuracy gate.
 ```
 
 - `ocr/synthetic/` holds hand-written dumps mirroring the unit tests; CI requires 100% on them.
-- `ocr/rapidocr/` holds dumps produced by `tools/ml/ocr_dump.py` (RapidOCR, PP-OCRv5 mobile) from
-  photos cropped to the tag by `tools/corpus/autocrop.py`; CI enforces a regression floor that is
-  raised as the corpus grows.
-- `./gradlew :tools:parser-cli:run --args="corpus --engine rapidocr --verbose"` prints a per-pack
-  table of price, quantity and overall accuracy.
+- `ocr/paddle-onnx/` holds dumps of the engine the app ships (`PaddleOnnxOcrEngine`, same code and
+  models) produced on the desktop by `./gradlew :tools:ocr-dump:run --args="corpus --pack uk"`
+  from photos cropped to the tag by `tools/corpus/autocrop.py`. This is the reference set: CI
+  requires 85% of cases fully correct on it.
+- `ocr/rapidocr/` holds dumps produced by `tools/ml/ocr_dump.py` (RapidOCR with the same models but
+  its own detector post-processing). It is kept as a second opinion with a lower regression floor.
+- `./gradlew :tools:parser-cli:run --args="corpus --engine paddle-onnx --verbose"` prints a per-pack
+  table of price, quantity and overall accuracy; `--explain <id>` prints one case in detail.
 
 ## Known hard cases
 

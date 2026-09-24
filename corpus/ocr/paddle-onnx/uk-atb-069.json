@@ -1,0 +1,202 @@
+[
+    {
+        "text": "2in1",
+        "box": {
+            "left": 0.6224,
+            "top": 0.025,
+            "right": 0.7363,
+            "bottom": 0.0971
+        },
+        "confidence": 0.9987
+    },
+    {
+        "text": "I",
+        "box": {
+            "left": 0.0026,
+            "top": 0.0657,
+            "right": 0.0234,
+            "bottom": 0.0873
+        },
+        "confidence": 0.3041
+    },
+    {
+        "text": "Shower Gel",
+        "box": {
+            "left": 0.6204,
+            "top": 0.0844,
+            "right": 0.7839,
+            "bottom": 0.1367
+        },
+        "confidence": 0.9259
+    },
+    {
+        "text": "er Gel +",
+        "box": {
+            "left": 0.0,
+            "top": 0.0937,
+            "right": 0.1283,
+            "bottom": 0.1385
+        },
+        "confidence": 0.9434
+    },
+    {
+        "text": "Shampo",
+        "box": {
+            "left": 0.6204,
+            "top": 0.1198,
+            "right": 0.7441,
+            "bottom": 0.1623
+        },
+        "confidence": 0.986
+    },
+    {
+        "text": "poo",
+        "box": {
+            "left": 0.0,
+            "top": 0.1355,
+            "right": 0.0762,
+            "bottom": 0.1716
+        },
+        "confidence": 0.7595
+    },
+    {
+        "text": "Refreshing Effet",
+        "box": {
+            "left": 0.6172,
+            "top": 0.1513,
+            "right": 0.7995,
+            "bottom": 0.196
+        },
+        "confidence": 0.8679
+    },
+    {
+        "text": "ehig Effect",
+        "box": {
+            "left": 0.0,
+            "top": 0.1553,
+            "right": 0.1992,
+            "bottom": 0.2106
+        },
+        "confidence": 0.8067
+    },
+    {
+        "text": "109",
+        "box": {
+            "left": 0.4525,
+            "top": 0.5573,
+            "right": 0.7467,
+            "bottom": 0.7022
+        },
+        "confidence": 0.9975
+    },
+    {
+        "text": "30",
+        "box": {
+            "left": 0.7246,
+            "top": 0.5654,
+            "right": 0.847,
+            "bottom": 0.651
+        },
+        "confidence": 0.9996
+    },
+    {
+        "text": "Шампунь Men cool тa",
+        "box": {
+            "left": 0.043,
+            "top": 0.5689,
+            "right": 0.4167,
+            "bottom": 0.6126
+        },
+        "confidence": 0.9463
+    },
+    {
+        "text": "Гель для душу Arkо",
+        "box": {
+            "left": 0.0553,
+            "top": 0.6033,
+            "right": 0.4017,
+            "bottom": 0.6469
+        },
+        "confidence": 0.9194
+    },
+    {
+        "text": "для волосСЯ",
+        "box": {
+            "left": 0.1296,
+            "top": 0.644,
+            "right": 0.3288,
+            "bottom": 0.6742
+        },
+        "confidence": 0.6294
+    },
+    {
+        "text": "ррн/",
+        "box": {
+            "left": 0.7428,
+            "top": 0.644,
+            "right": 0.8262,
+            "bottom": 0.6748
+        },
+        "confidence": 0.431
+    },
+    {
+        "text": "2 в 1 освижаючий ефект",
+        "box": {
+            "left": 0.0391,
+            "top": 0.6655,
+            "right": 0.4225,
+            "bottom": 0.7091
+        },
+        "confidence": 0.9259
+    },
+    {
+        "text": "1 нa6-p",
+        "box": {
+            "left": 0.735,
+            "top": 0.6678,
+            "right": 0.8307,
+            "bottom": 0.6992
+        },
+        "confidence": 0.6242
+    },
+    {
+        "text": "15.09.26 Код:139098 2.3.3",
+        "box": {
+            "left": 0.0495,
+            "top": 0.8051,
+            "right": 0.3366,
+            "bottom": 0.8447
+        },
+        "confidence": 0.8941
+    },
+    {
+        "text": "690506",
+        "box": {
+            "left": 0.5697,
+            "top": 0.8232,
+            "right": 0.6947,
+            "bottom": 0.8499
+        },
+        "confidence": 0.9878
+    },
+    {
+        "text": "1490867",
+        "box": {
+            "left": 0.6816,
+            "top": 0.8232,
+            "right": 0.7995,
+            "bottom": 0.8499
+        },
+        "confidence": 0.9606
+    },
+    {
+        "text": "8",
+        "box": {
+            "left": 0.5391,
+            "top": 0.8313,
+            "right": 0.5495,
+            "bottom": 0.8435
+        },
+        "confidence": 0.9508
+    }
+]

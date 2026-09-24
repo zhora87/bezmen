@@ -1,0 +1,182 @@
+[
+    {
+        "text": "22.09.26",
+        "box": {
+            "left": 0.1241,
+            "top": 0.146,
+            "right": 0.2257,
+            "bottom": 0.1975
+        },
+        "confidence": 0.9987
+    },
+    {
+        "text": "177558",
+        "box": {
+            "left": 0.1764,
+            "top": 0.1892,
+            "right": 0.2706,
+            "bottom": 0.2476
+        },
+        "confidence": 0.9871
+    },
+    {
+        "text": "Код:",
+        "box": {
+            "left": 0.1248,
+            "top": 0.1933,
+            "right": 0.1913,
+            "bottom": 0.2462
+        },
+        "confidence": 0.9522
+    },
+    {
+        "text": "Пиво",
+        "box": {
+            "left": 0.5717,
+            "top": 0.2072,
+            "right": 0.728,
+            "bottom": 0.3143
+        },
+        "confidence": 0.6623
+    },
+    {
+        "text": "3.4.3",
+        "box": {
+            "left": 0.1241,
+            "top": 0.242,
+            "right": 0.1876,
+            "bottom": 0.3032
+        },
+        "confidence": 0.9763
+    },
+    {
+        "text": "\"Вепр",
+        "box": {
+            "left": 0.4522,
+            "top": 0.3032,
+            "right": 0.6345,
+            "bottom": 0.4451
+        },
+        "confidence": 0.8335
+    },
+    {
+        "text": "Лютий\"",
+        "box": {
+            "left": 0.6278,
+            "top": 0.306,
+            "right": 0.843,
+            "bottom": 0.4298
+        },
+        "confidence": 0.9236
+    },
+    {
+        "text": "3нижка",
+        "box": {
+            "left": 0.151,
+            "top": 0.3533,
+            "right": 0.358,
+            "bottom": 0.4576
+        },
+        "confidence": 0.7243
+    },
+    {
+        "text": "Медова",
+        "box": {
+            "left": 0.4544,
+            "top": 0.42,
+            "right": 0.6674,
+            "bottom": 0.5452
+        },
+        "confidence": 0.9305
+    },
+    {
+        "text": "Вишня",
+        "box": {
+            "left": 0.6659,
+            "top": 0.4284,
+            "right": 0.843,
+            "bottom": 0.5229
+        },
+        "confidence": 0.9084
+    },
+    {
+        "text": "33",
+        "box": {
+            "left": 0.1622,
+            "top": 0.4395,
+            "right": 0.299,
+            "bottom": 0.6078
+        },
+        "confidence": 0.9996
+    },
+    {
+        "text": "%",
+        "box": {
+            "left": 0.2877,
+            "top": 0.4784,
+            "right": 0.358,
+            "bottom": 0.6022
+        },
+        "confidence": 0.9986
+    },
+    {
+        "text": "29",
+        "box": {
+            "left": 0.5217,
+            "top": 0.5688,
+            "right": 0.7205,
+            "bottom": 0.8414
+        },
+        "confidence": 0.9994
+    },
+    {
+        "text": "90",
+        "box": {
+            "left": 0.6981,
+            "top": 0.5814,
+            "right": 0.8072,
+            "bottom": 0.733
+        },
+        "confidence": 0.9982
+    },
+    {
+        "text": "4490",
+        "box": {
+            "left": 0.1637,
+            "top": 0.6217,
+            "right": 0.4096,
+            "bottom": 0.8512
+        },
+        "confidence": 0.9425
+    },
+    {
+        "text": "рпн/",
+        "box": {
+            "left": 0.7205,
+            "top": 0.7135,
+            "right": 0.7877,
+            "bottom": 0.7719
+        },
+        "confidence": 0.5435
+    },
+    {
+        "text": "рпн",
+        "box": {
+            "left": 0.3259,
+            "top": 0.7636,
+            "right": 0.3759,
+            "bottom": 0.8108
+        },
+        "confidence": 0.5663
+    },
+    {
+        "text": "0,5л",
+        "box": {
+            "left": 0.7205,
+            "top": 0.7636,
+            "right": 0.7885,
+            "bottom": 0.822
+        },
+        "confidence": 0.7335
+    }
+]

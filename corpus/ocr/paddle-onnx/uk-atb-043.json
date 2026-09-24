@@ -1,0 +1,262 @@
+[
+    {
+        "text": "899 КкАЛ (ксаі)",
+        "box": {
+            "left": 0.6576,
+            "top": 0.0,
+            "right": 0.737,
+            "bottom": 0.0155
+        },
+        "confidence": 0.7039
+    },
+    {
+        "text": "ОЛЙНОЕКСТРАКЦИЙНИЙ ЗАВО",
+        "box": {
+            "left": 0.7546,
+            "top": 0.0,
+            "right": 1.0,
+            "bottom": 0.0385
+        },
+        "confidence": 0.8183
+    },
+    {
+        "text": "9,9(g)",
+        "box": {
+            "left": 0.653,
+            "top": 0.0112,
+            "right": 0.7057,
+            "bottom": 0.046
+        },
+        "confidence": 0.7506
+    },
+    {
+        "text": "КЕРНЕЛ ГРУП».",
+        "box": {
+            "left": 0.7546,
+            "top": 0.0218,
+            "right": 0.873,
+            "bottom": 0.0566
+        },
+        "confidence": 0.9286
+    },
+    {
+        "text": "Мисеаож",
+        "box": {
+            "left": 0.7454,
+            "top": 0.0541,
+            "right": 1.0,
+            "bottom": 0.1094
+        },
+        "confidence": 0.452
+    },
+    {
+        "text": "109г(g)",
+        "box": {
+            "left": 0.6484,
+            "top": 0.0553,
+            "right": 0.7025,
+            "bottom": 0.0907
+        },
+        "confidence": 0.6309
+    },
+    {
+        "text": "0r(g)",
+        "box": {
+            "left": 0.6478,
+            "top": 0.0802,
+            "right": 0.6862,
+            "bottom": 0.1137
+        },
+        "confidence": 0.7999
+    },
+    {
+        "text": "виробництва:",
+        "box": {
+            "left": 0.7422,
+            "top": 0.1044,
+            "right": 0.8737,
+            "bottom": 0.1461
+        },
+        "confidence": 0.9605
+    },
+    {
+        "text": "са",
+        "box": {
+            "left": 0.3145,
+            "top": 0.1063,
+            "right": 0.5098,
+            "bottom": 0.1821
+        },
+        "confidence": 0.3328
+    },
+    {
+        "text": "0r(g)",
+        "box": {
+            "left": 0.6478,
+            "top": 0.1237,
+            "right": 0.6823,
+            "bottom": 0.1529
+        },
+        "confidence": 0.7517
+    },
+    {
+        "text": "0,85л782ge",
+        "box": {
+            "left": 0.0202,
+            "top": 0.1342,
+            "right": 0.513,
+            "bottom": 0.2648
+        },
+        "confidence": 0.6575
+    },
+    {
+        "text": "0r(g)",
+        "box": {
+            "left": 0.6465,
+            "top": 0.1467,
+            "right": 0.681,
+            "bottom": 0.1771
+        },
+        "confidence": 0.7781
+    },
+    {
+        "text": "(Одержана з суміші",
+        "box": {
+            "left": 0.0046,
+            "top": 0.1492,
+            "right": 0.222,
+            "bottom": 0.1821
+        },
+        "confidence": 0.906
+    },
+    {
+        "text": "3607",
+        "box": {
+            "left": 0.7337,
+            "top": 0.1635,
+            "right": 0.86,
+            "bottom": 0.2126
+        },
+        "confidence": 0.5666
+    },
+    {
+        "text": "0r(g)",
+        "box": {
+            "left": 0.6445,
+            "top": 0.1709,
+            "right": 0.679,
+            "bottom": 0.2001
+        },
+        "confidence": 0.8252
+    },
+    {
+        "text": "Олія",
+        "box": {
+            "left": 0.3548,
+            "top": 0.6029,
+            "right": 0.4486,
+            "bottom": 0.6426
+        },
+        "confidence": 0.9609
+    },
+    {
+        "text": "77",
+        "box": {
+            "left": 0.599,
+            "top": 0.6053,
+            "right": 0.7891,
+            "bottom": 0.7458
+        },
+        "confidence": 0.9995
+    },
+    {
+        "text": "17",
+        "box": {
+            "left": 0.7747,
+            "top": 0.606,
+            "right": 0.877,
+            "bottom": 0.683
+        },
+        "confidence": 0.9979
+    },
+    {
+        "text": "соняшникова",
+        "box": {
+            "left": 0.265,
+            "top": 0.6439,
+            "right": 0.5378,
+            "bottom": 0.683
+        },
+        "confidence": 0.8925
+    },
+    {
+        "text": "рпн/",
+        "box": {
+            "left": 0.7923,
+            "top": 0.6731,
+            "right": 0.8581,
+            "bottom": 0.7042
+        },
+        "confidence": 0.5173
+    },
+    {
+        "text": "Розумний вибір\"",
+        "box": {
+            "left": 0.2402,
+            "top": 0.675,
+            "right": 0.5723,
+            "bottom": 0.729
+        },
+        "confidence": 0.9227
+    },
+    {
+        "text": "0,85л",
+        "box": {
+            "left": 0.793,
+            "top": 0.6967,
+            "right": 0.8568,
+            "bottom": 0.7241
+        },
+        "confidence": 0.7875
+    },
+    {
+        "text": "рафінована",
+        "box": {
+            "left": 0.2923,
+            "top": 0.7178,
+            "right": 0.515,
+            "bottom": 0.7688
+        },
+        "confidence": 0.92
+    },
+    {
+        "text": "056153",
+        "box": {
+            "left": 0.7435,
+            "top": 0.8272,
+            "right": 0.8503,
+            "bottom": 0.8533
+        },
+        "confidence": 0.8445
+    },
+    {
+        "text": "999300",
+        "box": {
+            "left": 0.6563,
+            "top": 0.8278,
+            "right": 0.7585,
+            "bottom": 0.8552
+        },
+        "confidence": 0.9203
+    },
+    {
+        "text": "8.09.26 КОд:134069 2.2.9",
+        "box": {
+            "left": 0.2448,
+            "top": 0.8291,
+            "right": 0.4733,
+            "bottom": 0.8614
+        },
+        "confidence": 0.9107
+    }
+]

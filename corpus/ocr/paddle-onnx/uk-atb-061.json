@@ -1,0 +1,232 @@
+[
+    {
+        "text": "ШЛОВАНИЙ(",
+        "box": {
+            "left": 0.0859,
+            "top": 0.0,
+            "right": 0.3451,
+            "bottom": 0.0957
+        },
+        "confidence": 0.7029
+    },
+    {
+        "text": "(ДОВГОЗЕРНИСТИЙ)",
+        "box": {
+            "left": 0.3112,
+            "top": 0.0,
+            "right": 0.7109,
+            "bottom": 0.0623
+        },
+        "confidence": 0.9961
+    },
+    {
+        "text": "T8",
+        "box": {
+            "left": 0.7826,
+            "top": 0.0,
+            "right": 0.8763,
+            "bottom": 0.0554
+        },
+        "confidence": 0.4672
+    },
+    {
+        "text": "ГАТНОКВИЩИЙ",
+        "box": {
+            "left": 0.196,
+            "top": 0.0378,
+            "right": 0.5195,
+            "bottom": 0.1278
+        },
+        "confidence": 0.5311
+    },
+    {
+        "text": "40",
+        "box": {
+            "left": 0.7845,
+            "top": 0.0497,
+            "right": 0.873,
+            "bottom": 0.1096
+        },
+        "confidence": 0.5369
+    },
+    {
+        "text": "Роза",
+        "box": {
+            "left": 0.7858,
+            "top": 0.0831,
+            "right": 0.8704,
+            "bottom": 0.1373
+        },
+        "confidence": 0.4344
+    },
+    {
+        "text": "T10-3",
+        "box": {
+            "left": 0.7878,
+            "top": 0.119,
+            "right": 0.8685,
+            "bottom": 0.1644
+        },
+        "confidence": 0.6612
+    },
+    {
+        "text": "\"Jasmine\"",
+        "box": {
+            "left": 0.2728,
+            "top": 0.1272,
+            "right": 0.502,
+            "bottom": 0.2122
+        },
+        "confidence": 0.9861
+    },
+    {
+        "text": "Rice",
+        "box": {
+            "left": 0.1973,
+            "top": 0.1448,
+            "right": 0.2793,
+            "bottom": 0.2065
+        },
+        "confidence": 0.9987
+    },
+    {
+        "text": "1 кг (kg)",
+        "box": {
+            "left": 0.5456,
+            "top": 0.2676,
+            "right": 0.763,
+            "bottom": 0.3457
+        },
+        "confidence": 0.8654
+    },
+    {
+        "text": "OHO",
+        "box": {
+            "left": 0.9355,
+            "top": 0.5384,
+            "right": 1.0,
+            "bottom": 0.5668
+        },
+        "confidence": 0.6693
+    },
+    {
+        "text": "Puc",
+        "box": {
+            "left": 0.2168,
+            "top": 0.5416,
+            "right": 0.304,
+            "bottom": 0.5856
+        },
+        "confidence": 0.4665
+    },
+    {
+        "text": "90",
+        "box": {
+            "left": 0.6758,
+            "top": 0.5623,
+            "right": 0.7943,
+            "bottom": 0.653
+        },
+        "confidence": 0.9979
+    },
+    {
+        "text": "99",
+        "box": {
+            "left": 0.4766,
+            "top": 0.5649,
+            "right": 0.696,
+            "bottom": 0.7248
+        },
+        "confidence": 0.9989
+    },
+    {
+        "text": "довгозернистий",
+        "box": {
+            "left": 0.0872,
+            "top": 0.5831,
+            "right": 0.4408,
+            "bottom": 0.6373
+        },
+        "confidence": 0.9883
+    },
+    {
+        "text": "\"De Luxe",
+        "box": {
+            "left": 0.168,
+            "top": 0.6259,
+            "right": 0.3581,
+            "bottom": 0.6707
+        },
+        "confidence": 0.9387
+    },
+    {
+        "text": "rpH/",
+        "box": {
+            "left": 0.6973,
+            "top": 0.6417,
+            "right": 0.7728,
+            "bottom": 0.677
+        },
+        "confidence": 0.6251
+    },
+    {
+        "text": "F&G Selected\"",
+        "box": {
+            "left": 0.1302,
+            "top": 0.6656,
+            "right": 0.401,
+            "bottom": 0.7122
+        },
+        "confidence": 0.9554
+    },
+    {
+        "text": "1kr",
+        "box": {
+            "left": 0.709,
+            "top": 0.67,
+            "right": 0.7585,
+            "bottom": 0.699
+        },
+        "confidence": 0.5967
+    },
+    {
+        "text": "Жасмін",
+        "box": {
+            "left": 0.1927,
+            "top": 0.7116,
+            "right": 0.3405,
+            "bottom": 0.7531
+        },
+        "confidence": 0.9288
+    },
+    {
+        "text": "WWW.ATB",
+        "box": {
+            "left": 0.9225,
+            "top": 0.8054,
+            "right": 1.0,
+            "bottom": 0.8249
+        },
+        "confidence": 0.8983
+    },
+    {
+        "text": "2999300004703",
+        "box": {
+            "left": 0.5195,
+            "top": 0.8155,
+            "right": 0.763,
+            "bottom": 0.8489
+        },
+        "confidence": 0.9957
+    },
+    {
+        "text": "8.09.26 Код:72915 2.10.2",
+        "box": {
+            "left": 0.1055,
+            "top": 0.8199,
+            "right": 0.3372,
+            "bottom": 0.8426
+        },
+        "confidence": 0.8987
+    }
+]

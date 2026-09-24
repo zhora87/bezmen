@@ -1,0 +1,272 @@
+[
+    {
+        "text": "ЦИНА",
+        "box": {
+            "left": 0.5241,
+            "top": 0.1362,
+            "right": 0.6823,
+            "bottom": 0.248
+        },
+        "confidence": 0.7145
+    },
+    {
+        "text": "скануванні",
+        "box": {
+            "left": 0.2324,
+            "top": 0.156,
+            "right": 0.4961,
+            "bottom": 0.2445
+        },
+        "confidence": 0.9653
+    },
+    {
+        "text": "npi",
+        "box": {
+            "left": 0.1393,
+            "top": 0.1641,
+            "right": 0.2383,
+            "bottom": 0.2468
+        },
+        "confidence": 0.4344
+    },
+    {
+        "text": "3Hижкa",
+        "box": {
+            "left": 0.7155,
+            "top": 0.1676,
+            "right": 0.8919,
+            "bottom": 0.2666
+        },
+        "confidence": 0.5594
+    },
+    {
+        "text": "додатка",
+        "box": {
+            "left": 0.1667,
+            "top": 0.234,
+            "right": 0.3678,
+            "bottom": 0.3306
+        },
+        "confidence": 0.9953
+    },
+    {
+        "text": "ATB",
+        "box": {
+            "left": 0.3659,
+            "top": 0.234,
+            "right": 0.4564,
+            "bottom": 0.3085
+        },
+        "confidence": 0.6072
+    },
+    {
+        "text": "37",
+        "box": {
+            "left": 0.4987,
+            "top": 0.2352,
+            "right": 0.6198,
+            "bottom": 0.39
+        },
+        "confidence": 0.9999
+    },
+    {
+        "text": "31",
+        "box": {
+            "left": 0.6159,
+            "top": 0.2468,
+            "right": 0.6751,
+            "bottom": 0.369
+        },
+        "confidence": 0.6212
+    },
+    {
+        "text": "10",
+        "box": {
+            "left": 0.7227,
+            "top": 0.2538,
+            "right": 0.8301,
+            "bottom": 0.39
+        },
+        "confidence": 0.9989
+    },
+    {
+        "text": "%",
+        "box": {
+            "left": 0.8197,
+            "top": 0.2817,
+            "right": 0.8763,
+            "bottom": 0.3714
+        },
+        "confidence": 0.9991
+    },
+    {
+        "text": "на касі",
+        "box": {
+            "left": 0.2324,
+            "top": 0.305,
+            "right": 0.3958,
+            "bottom": 0.397
+        },
+        "confidence": 0.8782
+    },
+    {
+        "text": "Пиво",
+        "box": {
+            "left": 0.3353,
+            "top": 0.4319,
+            "right": 0.4635,
+            "bottom": 0.518
+        },
+        "confidence": 0.7114
+    },
+    {
+        "text": "\"Чернігівське\"",
+        "box": {
+            "left": 0.2311,
+            "top": 0.4983,
+            "right": 0.5664,
+            "bottom": 0.6054
+        },
+        "confidence": 0.9332
+    },
+    {
+        "text": "2",
+        "box": {
+            "left": 0.5436,
+            "top": 0.5297,
+            "right": 0.5534,
+            "bottom": 0.5402
+        },
+        "confidence": 0.3124
+    },
+    {
+        "text": "41",
+        "box": {
+            "left": 0.6647,
+            "top": 0.5425,
+            "right": 0.7936,
+            "bottom": 0.7148
+        },
+        "confidence": 0.9985
+    },
+    {
+        "text": "50",
+        "box": {
+            "left": 0.7793,
+            "top": 0.5518,
+            "right": 0.8477,
+            "bottom": 0.6542
+        },
+        "confidence": 0.999
+    },
+    {
+        "text": ".",
+        "box": {
+            "left": 0.9603,
+            "top": 0.5832,
+            "right": 0.974,
+            "bottom": 0.631
+        },
+        "confidence": 0.2758
+    },
+    {
+        "text": "Біле",
+        "box": {
+            "left": 0.2884,
+            "top": 0.5902,
+            "right": 0.3874,
+            "bottom": 0.6799
+        },
+        "confidence": 0.8678
+    },
+    {
+        "text": "Fruter",
+        "box": {
+            "left": 0.3854,
+            "top": 0.596,
+            "right": 0.5124,
+            "bottom": 0.6764
+        },
+        "confidence": 0.9997
+    },
+    {
+        "text": "я",
+        "box": {
+            "left": 0.9648,
+            "top": 0.6228,
+            "right": 0.9707,
+            "bottom": 0.6345
+        },
+        "confidence": 0.2863
+    },
+    {
+        "text": "ррH",
+        "box": {
+            "left": 0.7813,
+            "top": 0.6345,
+            "right": 0.8424,
+            "bottom": 0.6834
+        },
+        "confidence": 0.3548
+    },
+    {
+        "text": "0,5n",
+        "box": {
+            "left": 0.7832,
+            "top": 0.6705,
+            "right": 0.8398,
+            "bottom": 0.7206
+        },
+        "confidence": 0.815
+    },
+    {
+        "text": "кави та",
+        "box": {
+            "left": 0.3737,
+            "top": 0.6927,
+            "right": 0.5299,
+            "bottom": 0.759
+        },
+        "confidence": 0.9722
+    },
+    {
+        "text": "cмak",
+        "box": {
+            "left": 0.2708,
+            "top": 0.6962,
+            "right": 0.3789,
+            "bottom": 0.7579
+        },
+        "confidence": 0.6006
+    },
+    {
+        "text": "о",
+        "box": {
+            "left": 0.957,
+            "top": 0.7008,
+            "right": 0.9688,
+            "bottom": 0.7264
+        },
+        "confidence": 0.1255
+    },
+    {
+        "text": "0",
+        "box": {
+            "left": 0.9531,
+            "top": 0.7311,
+            "right": 0.9688,
+            "bottom": 0.7683
+        },
+        "confidence": 0.4089
+    },
+    {
+        "text": "апельсину",
+        "box": {
+            "left": 0.2865,
+            "top": 0.7683,
+            "right": 0.5124,
+            "bottom": 0.858
+        },
+        "confidence": 0.9602
+    }
+]

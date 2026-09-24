@@ -1,0 +1,302 @@
+[
+    {
+        "text": "РАФИНОВАНА",
+        "box": {
+            "left": 0.6543,
+            "top": 0.0,
+            "right": 0.795,
+            "bottom": 0.0674
+        },
+        "confidence": 0.7461
+    },
+    {
+        "text": "12",
+        "box": {
+            "left": 0.3533,
+            "top": 0.0054,
+            "right": 0.3888,
+            "bottom": 0.0252
+        },
+        "confidence": 0.5475
+    },
+    {
+        "text": "C",
+        "box": {
+            "left": 0.3858,
+            "top": 0.009,
+            "right": 0.3926,
+            "bottom": 0.0162
+        },
+        "confidence": 0.1497
+    },
+    {
+        "text": "3",
+        "box": {
+            "left": 0.4917,
+            "top": 0.0135,
+            "right": 0.5174,
+            "bottom": 0.036
+        },
+        "confidence": 0.7964
+    },
+    {
+        "text": "H20",
+        "box": {
+            "left": 0.4947,
+            "top": 0.036,
+            "right": 0.5212,
+            "bottom": 0.0585
+        },
+        "confidence": 0.2917
+    },
+    {
+        "text": "Впен",
+        "box": {
+            "left": 0.4811,
+            "top": 0.0477,
+            "right": 0.5416,
+            "bottom": 0.0971
+        },
+        "confidence": 0.3108
+    },
+    {
+        "text": "ПяшИ.",
+        "box": {
+            "left": 0.3336,
+            "top": 0.0746,
+            "right": 0.3926,
+            "bottom": 0.1097
+        },
+        "confidence": 0.4193
+    },
+    {
+        "text": "3BИT",
+        "box": {
+            "left": 0.4947,
+            "top": 0.08,
+            "right": 0.5295,
+            "bottom": 0.1124
+        },
+        "confidence": 0.4648
+    },
+    {
+        "text": "Yna",
+        "box": {
+            "left": 0.2935,
+            "top": 0.0971,
+            "right": 0.4365,
+            "bottom": 0.1565
+        },
+        "confidence": 0.3676
+    },
+    {
+        "text": "412",
+        "box": {
+            "left": 0.497,
+            "top": 0.1025,
+            "right": 0.5303,
+            "bottom": 0.1367
+        },
+        "confidence": 0.5754
+    },
+    {
+        "text": "TO",
+        "box": {
+            "left": 0.0023,
+            "top": 0.1124,
+            "right": 0.0303,
+            "bottom": 0.134
+        },
+        "confidence": 0.9389
+    },
+    {
+        "text": "ge",
+        "box": {
+            "left": 0.0,
+            "top": 0.1223,
+            "right": 0.0545,
+            "bottom": 0.1826
+        },
+        "confidence": 0.8971
+    },
+    {
+        "text": "82",
+        "box": {
+            "left": 0.9728,
+            "top": 0.1286,
+            "right": 0.997,
+            "bottom": 0.1664
+        },
+        "confidence": 0.9138
+    },
+    {
+        "text": "Ботка",
+        "box": {
+            "left": 0.4924,
+            "top": 0.1313,
+            "right": 0.5242,
+            "bottom": 0.1601
+        },
+        "confidence": 0.3489
+    },
+    {
+        "text": "6см.09",
+        "box": {
+            "left": 0.1241,
+            "top": 0.1403,
+            "right": 0.2504,
+            "bottom": 0.1987
+        },
+        "confidence": 0.3942
+    },
+    {
+        "text": "Cb",
+        "box": {
+            "left": 0.4947,
+            "top": 0.161,
+            "right": 0.5189,
+            "bottom": 0.1826
+        },
+        "confidence": 0.4723
+    },
+    {
+        "text": "Маса нело.",
+        "box": {
+            "left": 0.1354,
+            "top": 0.1646,
+            "right": 0.2458,
+            "bottom": 0.2158
+        },
+        "confidence": 0.6988
+    },
+    {
+        "text": "аРОБн",
+        "box": {
+            "left": 0.702,
+            "top": 0.1754,
+            "right": 0.7837,
+            "bottom": 0.2221
+        },
+        "confidence": 0.2906
+    },
+    {
+        "text": "828(",
+        "box": {
+            "left": 0.1301,
+            "top": 0.1835,
+            "right": 0.2716,
+            "bottom": 0.2671
+        },
+        "confidence": 0.4991
+    },
+    {
+        "text": "ВУКРЕНО",
+        "box": {
+            "left": 0.7065,
+            "top": 0.1915,
+            "right": 0.7761,
+            "bottom": 0.2302
+        },
+        "confidence": 0.3532
+    },
+    {
+        "text": "UA Oлія",
+        "box": {
+            "left": 0.3843,
+            "top": 0.5863,
+            "right": 0.5272,
+            "bottom": 0.6313
+        },
+        "confidence": 0.8187
+    },
+    {
+        "text": "87",
+        "box": {
+            "left": 0.6142,
+            "top": 0.5908,
+            "right": 0.7837,
+            "bottom": 0.7428
+        },
+        "confidence": 0.9996
+    },
+    {
+        "text": "84",
+        "box": {
+            "left": 0.7617,
+            "top": 0.5926,
+            "right": 0.8517,
+            "bottom": 0.6817
+        },
+        "confidence": 0.9953
+    },
+    {
+        "text": "соняшникова",
+        "box": {
+            "left": 0.3313,
+            "top": 0.6322,
+            "right": 0.5809,
+            "bottom": 0.6799
+        },
+        "confidence": 0.9189
+    },
+    {
+        "text": "\"Своя Лінія\"",
+        "box": {
+            "left": 0.3449,
+            "top": 0.6673,
+            "right": 0.5696,
+            "bottom": 0.7248
+        },
+        "confidence": 0.9517
+    },
+    {
+        "text": "рпн/",
+        "box": {
+            "left": 0.7814,
+            "top": 0.6673,
+            "right": 0.8343,
+            "bottom": 0.6978
+        },
+        "confidence": 0.6681
+    },
+    {
+        "text": "0,9л",
+        "box": {
+            "left": 0.7852,
+            "top": 0.6897,
+            "right": 0.8321,
+            "bottom": 0.7185
+        },
+        "confidence": 0.7671
+    },
+    {
+        "text": "рафінована",
+        "box": {
+            "left": 0.3593,
+            "top": 0.7185,
+            "right": 0.559,
+            "bottom": 0.7725
+        },
+        "confidence": 0.9298
+    },
+    {
+        "text": "999300060150",
+        "box": {
+            "left": 0.6657,
+            "top": 0.8228,
+            "right": 0.8374,
+            "bottom": 0.8588
+        },
+        "confidence": 0.9475
+    },
+    {
+        "text": "1.09.26 КОД: 138357 2.3.5",
+        "box": {
+            "left": 0.3321,
+            "top": 0.8291,
+            "right": 0.5159,
+            "bottom": 0.8597
+        },
+        "confidence": 0.9353
+    }
+]

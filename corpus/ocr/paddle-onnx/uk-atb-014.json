@@ -1,0 +1,262 @@
+[
+    {
+        "text": "цей товар ваговий- вартисть вказана за100",
+        "box": {
+            "left": 0.3486,
+            "top": 0.1298,
+            "right": 0.8323,
+            "bottom": 0.2553
+        },
+        "confidence": 0.8558
+    },
+    {
+        "text": "при скануванні",
+        "box": {
+            "left": 0.3789,
+            "top": 0.2596,
+            "right": 0.5916,
+            "bottom": 0.3468
+        },
+        "confidence": 0.9478
+    },
+    {
+        "text": "ЦИНА",
+        "box": {
+            "left": 0.6064,
+            "top": 0.2596,
+            "right": 0.6925,
+            "bottom": 0.3532
+        },
+        "confidence": 0.6352
+    },
+    {
+        "text": "0",
+        "box": {
+            "left": 0.0,
+            "top": 0.2766,
+            "right": 0.0466,
+            "bottom": 0.4319
+        },
+        "confidence": 0.8857
+    },
+    {
+        "text": "3нижка",
+        "box": {
+            "left": 0.7376,
+            "top": 0.2936,
+            "right": 0.8393,
+            "bottom": 0.3872
+        },
+        "confidence": 0.6722
+    },
+    {
+        "text": "додатка АТБ",
+        "box": {
+            "left": 0.3936,
+            "top": 0.3234,
+            "right": 0.5699,
+            "bottom": 0.4149
+        },
+        "confidence": 0.9301
+    },
+    {
+        "text": "30",
+        "box": {
+            "left": 0.5908,
+            "top": 0.3298,
+            "right": 0.6677,
+            "bottom": 0.4809
+        },
+        "confidence": 0.9996
+    },
+    {
+        "text": "23",
+        "box": {
+            "left": 0.6638,
+            "top": 0.3489,
+            "right": 0.6972,
+            "bottom": 0.4255
+        },
+        "confidence": 0.9994
+    },
+    {
+        "text": "10%",
+        "box": {
+            "left": 0.7368,
+            "top": 0.3574,
+            "right": 0.83,
+            "bottom": 0.4851
+        },
+        "confidence": 0.9985
+    },
+    {
+        "text": "на касі",
+        "box": {
+            "left": 0.4332,
+            "top": 0.3979,
+            "right": 0.5311,
+            "bottom": 0.4723
+        },
+        "confidence": 0.8695
+    },
+    {
+        "text": "ррн",
+        "box": {
+            "left": 0.6654,
+            "top": 0.4149,
+            "right": 0.6949,
+            "bottom": 0.4638
+        },
+        "confidence": 0.6554
+    },
+    {
+        "text": "H/",
+        "box": {
+            "left": 0.0,
+            "top": 0.4234,
+            "right": 0.0342,
+            "bottom": 0.4936
+        },
+        "confidence": 0.7946
+    },
+    {
+        "text": "9",
+        "box": {
+            "left": 0.3439,
+            "top": 0.4809,
+            "right": 0.3533,
+            "bottom": 0.5064
+        },
+        "confidence": 0.677
+    },
+    {
+        "text": "WT",
+        "box": {
+            "left": 0.0,
+            "top": 0.483,
+            "right": 0.021,
+            "bottom": 0.5404
+        },
+        "confidence": 0.6065
+    },
+    {
+        "text": "37",
+        "box": {
+            "left": 0.7081,
+            "top": 0.5191,
+            "right": 0.8012,
+            "bottom": 0.6766
+        },
+        "confidence": 0.9996
+    },
+    {
+        "text": "Сардельки з сиром",
+        "box": {
+            "left": 0.382,
+            "top": 0.5277,
+            "right": 0.6949,
+            "bottom": 0.6553
+        },
+        "confidence": 0.9816
+    },
+    {
+        "text": "36",
+        "box": {
+            "left": 0.7888,
+            "top": 0.5277,
+            "right": 0.8292,
+            "bottom": 0.6021
+        },
+        "confidence": 0.9679
+    },
+    {
+        "text": "рпн",
+        "box": {
+            "left": 0.7989,
+            "top": 0.5915,
+            "right": 0.8269,
+            "bottom": 0.6426
+        },
+        "confidence": 0.4454
+    },
+    {
+        "text": "'Своя",
+        "box": {
+            "left": 0.4534,
+            "top": 0.6255,
+            "right": 0.545,
+            "bottom": 0.7213
+        },
+        "confidence": 0.8833
+    },
+    {
+        "text": "W",
+        "box": {
+            "left": 0.4472,
+            "top": 0.634,
+            "right": 0.4604,
+            "bottom": 0.6638
+        },
+        "confidence": 0.2822
+    },
+    {
+        "text": "лінія",
+        "box": {
+            "left": 0.5311,
+            "top": 0.6362,
+            "right": 0.6304,
+            "bottom": 0.7213
+        },
+        "confidence": 0.7886
+    },
+    {
+        "text": "33",
+        "box": {
+            "left": 0.7174,
+            "top": 0.6872,
+            "right": 0.7997,
+            "bottom": 0.8489
+        },
+        "confidence": 0.9987
+    },
+    {
+        "text": "59",
+        "box": {
+            "left": 0.7865,
+            "top": 0.6979,
+            "right": 0.8261,
+            "bottom": 0.7894
+        },
+        "confidence": 0.998
+    },
+    {
+        "text": "М'ясна лавка\"",
+        "box": {
+            "left": 0.4293,
+            "top": 0.7043,
+            "right": 0.6436,
+            "bottom": 0.8319
+        },
+        "confidence": 0.9518
+    },
+    {
+        "text": "гри",
+        "box": {
+            "left": 0.7935,
+            "top": 0.7702,
+            "right": 0.8207,
+            "bottom": 0.8213
+        },
+        "confidence": 0.4171
+    },
+    {
+        "text": "16",
+        "box": {
+            "left": 0.0,
+            "top": 0.8064,
+            "right": 0.0388,
+            "bottom": 0.8638
+        },
+        "confidence": 0.9162
+    }
+]

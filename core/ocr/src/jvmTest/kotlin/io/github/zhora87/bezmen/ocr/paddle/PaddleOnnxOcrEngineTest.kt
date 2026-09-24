@@ -11,6 +11,7 @@ import java.awt.image.BufferedImage
 import java.io.File
 import javax.imageio.ImageIO
 import kotlin.test.Test
+import kotlin.test.assertEquals
 import kotlin.test.assertTrue
 
 /** Runs the real PP-OCRv5 models (fetched by :core:ocr:fetchModels) on the JVM. */
@@ -55,6 +56,29 @@ class PaddleOnnxOcrEngineTest {
             val cyrillic = lines.any { "мл" in it.text.lowercase() || "грн" in it.text.lowercase() }
             assertTrue(cyrillic, "no cyrillic unit/currency in: $text")
             assertTrue(lines.all { it.box.left in 0f..1f && it.box.bottom in 0f..1f }, "boxes must be normalised")
+        }
+    }
+
+    @Test
+    fun `dictionary from the model file matches the recognition classes`() {
+        // ONNX Runtime's Java metadata getter mangles characters outside the BMP ("𝑢", "𝜓") and
+        // swallows the newlines next to them, which shifted every class after them.
+        val bytes = File(modelsDir, Models.recognitionFor(Script.CYRILLIC)).readBytes()
+        val character = OnnxMetadata.read(bytes, "character") ?: error("no dictionary")
+        val entries = character.split('\n').dropLastWhile { it.isEmpty() }
+
+        assertEquals(850, entries.size)
+        assertEquals("𝑢", entries[227])
+    }
+
+    @Test
+    fun `spaces between words survive recognition`() {
+        PaddleOnnxOcrEngine(FileModelStore(modelsDir), Script.CYRILLIC).use { engine ->
+            val lines = engine.recognize(rendered("Ціна при оплаті" to 48))
+            val text = lines.joinToString(" | ") { it.text }
+
+            assertTrue(lines.any { " " in it.text }, "no spaces in: $text")
+            assertTrue(lines.any { "і" in it.text }, "Ukrainian і misread in: $text")
         }
     }
 

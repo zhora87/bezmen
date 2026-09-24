@@ -1,0 +1,272 @@
+[
+    {
+        "text": "ЦИНА",
+        "box": {
+            "left": 0.5259,
+            "top": 0.1399,
+            "right": 0.6678,
+            "bottom": 0.2461
+        },
+        "confidence": 0.6551
+    },
+    {
+        "text": "скануванні",
+        "box": {
+            "left": 0.2374,
+            "top": 0.158,
+            "right": 0.499,
+            "bottom": 0.2485
+        },
+        "confidence": 0.9661
+    },
+    {
+        "text": "3Hижка",
+        "box": {
+            "left": 0.7081,
+            "top": 0.1713,
+            "right": 0.8695,
+            "bottom": 0.2557
+        },
+        "confidence": 0.628
+    },
+    {
+        "text": "npn",
+        "box": {
+            "left": 0.152,
+            "top": 0.1761,
+            "right": 0.2448,
+            "bottom": 0.2461
+        },
+        "confidence": 0.4675
+    },
+    {
+        "text": "додатка",
+        "box": {
+            "left": 0.1762,
+            "top": 0.2316,
+            "right": 0.38,
+            "bottom": 0.3414
+        },
+        "confidence": 0.9916
+    },
+    {
+        "text": "ATB",
+        "box": {
+            "left": 0.3685,
+            "top": 0.2316,
+            "right": 0.4607,
+            "bottom": 0.3148
+        },
+        "confidence": 0.536
+    },
+    {
+        "text": "93",
+        "box": {
+            "left": 0.499,
+            "top": 0.2316,
+            "right": 0.6207,
+            "bottom": 0.3884
+        },
+        "confidence": 0.9998
+    },
+    {
+        "text": "41",
+        "box": {
+            "left": 0.6133,
+            "top": 0.2388,
+            "right": 0.6711,
+            "bottom": 0.3655
+        },
+        "confidence": 0.9139
+    },
+    {
+        "text": "10",
+        "box": {
+            "left": 0.7095,
+            "top": 0.2425,
+            "right": 0.8231,
+            "bottom": 0.38
+        },
+        "confidence": 0.9955
+    },
+    {
+        "text": "%",
+        "box": {
+            "left": 0.7956,
+            "top": 0.2606,
+            "right": 0.8628,
+            "bottom": 0.3643
+        },
+        "confidence": 0.994
+    },
+    {
+        "text": "на касі",
+        "box": {
+            "left": 0.2408,
+            "top": 0.3052,
+            "right": 0.4062,
+            "bottom": 0.4029
+        },
+        "confidence": 0.8795
+    },
+    {
+        "text": "0",
+        "box": {
+            "left": 0.1063,
+            "top": 0.4138,
+            "right": 0.1231,
+            "bottom": 0.4463
+        },
+        "confidence": 0.5042
+    },
+    {
+        "text": "Гель",
+        "box": {
+            "left": 0.2219,
+            "top": 0.4499,
+            "right": 0.349,
+            "bottom": 0.5464
+        },
+        "confidence": 0.8369
+    },
+    {
+        "text": "душу",
+        "box": {
+            "left": 0.4445,
+            "top": 0.4499,
+            "right": 0.5905,
+            "bottom": 0.5513
+        },
+        "confidence": 0.6754
+    },
+    {
+        "text": "для",
+        "box": {
+            "left": 0.3416,
+            "top": 0.456,
+            "right": 0.4512,
+            "bottom": 0.5513
+        },
+        "confidence": 0.8481
+    },
+    {
+        "text": "103",
+        "box": {
+            "left": 0.6301,
+            "top": 0.5259,
+            "right": 0.7983,
+            "bottom": 0.6912
+        },
+        "confidence": 0.9981
+    },
+    {
+        "text": "Energy/",
+        "box": {
+            "left": 0.4136,
+            "top": 0.5271,
+            "right": 0.6113,
+            "bottom": 0.6393
+        },
+        "confidence": 0.9778
+    },
+    {
+        "text": "\"Melado",
+        "box": {
+            "left": 0.2017,
+            "top": 0.5296,
+            "right": 0.425,
+            "bottom": 0.6345
+        },
+        "confidence": 0.9979
+    },
+    {
+        "text": "90",
+        "box": {
+            "left": 0.7949,
+            "top": 0.5392,
+            "right": 0.8534,
+            "bottom": 0.6176
+        },
+        "confidence": 0.9981
+    },
+    {
+        "text": "3",
+        "box": {
+            "left": 0.1607,
+            "top": 0.5464,
+            "right": 0.1876,
+            "bottom": 0.614
+        },
+        "confidence": 0.4577
+    },
+    {
+        "text": "ррн/",
+        "box": {
+            "left": 0.7915,
+            "top": 0.608,
+            "right": 0.8507,
+            "bottom": 0.6598
+        },
+        "confidence": 0.4053
+    },
+    {
+        "text": "00",
+        "box": {
+            "left": 0.1163,
+            "top": 0.6176,
+            "right": 0.1325,
+            "bottom": 0.6454
+        },
+        "confidence": 0.5762
+    },
+    {
+        "text": "Dragon'",
+        "box": {
+            "left": 0.3477,
+            "top": 0.62,
+            "right": 0.5346,
+            "bottom": 0.737
+        },
+        "confidence": 0.945
+    },
+    {
+        "text": "Ice",
+        "box": {
+            "left": 0.2757,
+            "top": 0.6357,
+            "right": 0.3544,
+            "bottom": 0.7322
+        },
+        "confidence": 0.9984
+    },
+    {
+        "text": "500мл",
+        "box": {
+            "left": 0.7861,
+            "top": 0.6466,
+            "right": 0.8561,
+            "bottom": 0.6888
+        },
+        "confidence": 0.7642
+    },
+    {
+        "text": "чоловічий, 3 в 1",
+        "box": {
+            "left": 0.2219,
+            "top": 0.7021,
+            "right": 0.6012,
+            "bottom": 0.8347
+        },
+        "confidence": 0.8319
+    },
+    {
+        "text": "S",
+        "box": {
+            "left": 0.1251,
+            "top": 0.8166,
+            "right": 0.1459,
+            "bottom": 0.8516
+        },
+        "confidence": 0.2691
+    }
+]

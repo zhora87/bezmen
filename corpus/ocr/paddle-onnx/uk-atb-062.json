@@ -1,0 +1,292 @@
+[
+    {
+        "text": "«БАСМАТ",
+        "box": {
+            "left": 0.0957,
+            "top": 0.0,
+            "right": 0.5664,
+            "bottom": 0.1054
+        },
+        "confidence": 0.8614
+    },
+    {
+        "text": "a",
+        "box": {
+            "left": 0.002,
+            "top": 0.0347,
+            "right": 0.0085,
+            "bottom": 0.0425
+        },
+        "confidence": 0.7622
+    },
+    {
+        "text": "СК.",
+        "box": {
+            "left": 0.7467,
+            "top": 0.0393,
+            "right": 0.7956,
+            "bottom": 0.0792
+        },
+        "confidence": 0.3503
+    },
+    {
+        "text": "ЛОВНИЙ(ГРНИСТ",
+        "box": {
+            "left": 0.0326,
+            "top": 0.0602,
+            "right": 0.6719,
+            "bottom": 0.1708
+        },
+        "confidence": 0.6249
+    },
+    {
+        "text": "P3",
+        "box": {
+            "left": 0.7428,
+            "top": 0.0753,
+            "right": 0.8145,
+            "bottom": 0.125
+        },
+        "confidence": 0.4219
+    },
+    {
+        "text": "R",
+        "box": {
+            "left": 0.0,
+            "top": 0.0864,
+            "right": 0.0137,
+            "bottom": 0.1041
+        },
+        "confidence": 0.2973
+    },
+    {
+        "text": "ХОДЖ",
+        "box": {
+            "left": 0.0,
+            "top": 0.1086,
+            "right": 0.0365,
+            "bottom": 0.1335
+        },
+        "confidence": 0.769
+    },
+    {
+        "text": "TOB",
+        "box": {
+            "left": 0.7448,
+            "top": 0.1093,
+            "right": 0.8105,
+            "bottom": 0.1518
+        },
+        "confidence": 0.5746
+    },
+    {
+        "text": "ГАТУНОК ВИЩИЙ",
+        "box": {
+            "left": 0.179,
+            "top": 0.125,
+            "right": 0.4805,
+            "bottom": 0.1976
+        },
+        "confidence": 0.9174
+    },
+    {
+        "text": "0,m.1",
+        "box": {
+            "left": 0.0,
+            "top": 0.1302,
+            "right": 0.0378,
+            "bottom": 0.1564
+        },
+        "confidence": 0.6552
+    },
+    {
+        "text": "прос",
+        "box": {
+            "left": 0.7448,
+            "top": 0.1427,
+            "right": 0.804,
+            "bottom": 0.176
+        },
+        "confidence": 0.4976
+    },
+    {
+        "text": "00-415",
+        "box": {
+            "left": 0.0,
+            "top": 0.1512,
+            "right": 0.043,
+            "bottom": 0.18
+        },
+        "confidence": 0.9506
+    },
+    {
+        "text": "490",
+        "box": {
+            "left": 0.7428,
+            "top": 0.1675,
+            "right": 0.8001,
+            "bottom": 0.2055
+        },
+        "confidence": 0.5343
+    },
+    {
+        "text": "Роза",
+        "box": {
+            "left": 0.7409,
+            "top": 0.1976,
+            "right": 0.7982,
+            "bottom": 0.2356
+        },
+        "confidence": 0.387
+    },
+    {
+        "text": "2013.",
+        "box": {
+            "left": 0.0,
+            "top": 0.2009,
+            "right": 0.0449,
+            "bottom": 0.231
+        },
+        "confidence": 0.9478
+    },
+    {
+        "text": "Rice \"Basmati\" Cut Long",
+        "box": {
+            "left": 0.1061,
+            "top": 0.2094,
+            "right": 0.6022,
+            "bottom": 0.2834
+        },
+        "confidence": 0.9979
+    },
+    {
+        "text": "TY10",
+        "box": {
+            "left": 0.7396,
+            "top": 0.2291,
+            "right": 0.7988,
+            "bottom": 0.2624
+        },
+        "confidence": 0.8716
+    },
+    {
+        "text": "1 кг (kg)",
+        "box": {
+            "left": 0.4967,
+            "top": 0.2945,
+            "right": 0.6999,
+            "bottom": 0.3698
+        },
+        "confidence": 0.8181
+    },
+    {
+        "text": "0",
+        "box": {
+            "left": 0.3626,
+            "top": 0.4856,
+            "right": 0.4115,
+            "bottom": 0.5157
+        },
+        "confidence": 0.0979
+    },
+    {
+        "text": "Puc",
+        "box": {
+            "left": 0.3451,
+            "top": 0.5576,
+            "right": 0.4388,
+            "bottom": 0.6106
+        },
+        "confidence": 0.5296
+    },
+    {
+        "text": "99",
+        "box": {
+            "left": 0.5938,
+            "top": 0.5726,
+            "right": 0.819,
+            "bottom": 0.7415
+        },
+        "confidence": 0.9989
+    },
+    {
+        "text": "90",
+        "box": {
+            "left": 0.7897,
+            "top": 0.5805,
+            "right": 0.8997,
+            "bottom": 0.6688
+        },
+        "confidence": 0.998
+    },
+    {
+        "text": "\"De Luxe F&G\"",
+        "box": {
+            "left": 0.224,
+            "top": 0.5982,
+            "right": 0.5534,
+            "bottom": 0.6597
+        },
+        "confidence": 0.9811
+    },
+    {
+        "text": "Басматі",
+        "box": {
+            "left": 0.3092,
+            "top": 0.6571,
+            "right": 0.4753,
+            "bottom": 0.7022
+        },
+        "confidence": 0.9389
+    },
+    {
+        "text": "рпн/",
+        "box": {
+            "left": 0.8073,
+            "top": 0.6597,
+            "right": 0.875,
+            "bottom": 0.6918
+        },
+        "confidence": 0.5008
+    },
+    {
+        "text": "1Kr",
+        "box": {
+            "left": 0.8177,
+            "top": 0.6865,
+            "right": 0.8633,
+            "bottom": 0.7114
+        },
+        "confidence": 0.6211
+    },
+    {
+        "text": "довгий",
+        "box": {
+            "left": 0.3092,
+            "top": 0.7022,
+            "right": 0.472,
+            "bottom": 0.7539
+        },
+        "confidence": 0.9102
+    },
+    {
+        "text": "8.09.26 Код:83834 2.12.3",
+        "box": {
+            "left": 0.2272,
+            "top": 0.8174,
+            "right": 0.4603,
+            "bottom": 0.8508
+        },
+        "confidence": 0.9277
+    },
+    {
+        "text": "2999300003034",
+        "box": {
+            "left": 0.6283,
+            "top": 0.8259,
+            "right": 0.8633,
+            "bottom": 0.8593
+        },
+        "confidence": 0.9838
+    }
+]

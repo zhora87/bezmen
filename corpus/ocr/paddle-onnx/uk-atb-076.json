@@ -1,0 +1,332 @@
+[
+    {
+        "text": "OTIUL",
+        "box": {
+            "left": 0.043,
+            "top": 0.0,
+            "right": 0.168,
+            "bottom": 0.0176
+        },
+        "confidence": 0.718
+    },
+    {
+        "text": "WHITEWATER",
+        "box": {
+            "left": 0.6204,
+            "top": 0.0,
+            "right": 0.9023,
+            "bottom": 0.0573
+        },
+        "confidence": 0.9977
+    },
+    {
+        "text": "MINT PERFUME",
+        "box": {
+            "left": 0.0,
+            "top": 0.0471,
+            "right": 0.1478,
+            "bottom": 0.0772
+        },
+        "confidence": 0.9921
+    },
+    {
+        "text": "CLEAN WATERY SCENT",
+        "box": {
+            "left": 0.6504,
+            "top": 0.0698,
+            "right": 0.8581,
+            "bottom": 0.1135
+        },
+        "confidence": 0.9719
+    },
+    {
+        "text": "TIPERSPIRANT",
+        "box": {
+            "left": 0.0,
+            "top": 0.0863,
+            "right": 0.1367,
+            "bottom": 0.1198
+        },
+        "confidence": 0.9992
+    },
+    {
+        "text": "CLEAR GEL",
+        "box": {
+            "left": 0.0039,
+            "top": 0.1146,
+            "right": 0.1068,
+            "bottom": 0.1447
+        },
+        "confidence": 0.9113
+    },
+    {
+        "text": "ANTIPERSPIRANT",
+        "box": {
+            "left": 0.6849,
+            "top": 0.1198,
+            "right": 0.821,
+            "bottom": 0.1498
+        },
+        "confidence": 0.998
+    },
+    {
+        "text": "CLEAR GEL",
+        "box": {
+            "left": 0.7103,
+            "top": 0.1447,
+            "right": 0.791,
+            "bottom": 0.1686
+        },
+        "confidence": 0.9883
+    },
+    {
+        "text": "21397035",
+        "box": {
+            "left": 0.2174,
+            "top": 0.2509,
+            "right": 0.3411,
+            "bottom": 0.2855
+        },
+        "confidence": 0.9824
+    },
+    {
+        "text": "21367869",
+        "box": {
+            "left": 0.8568,
+            "top": 0.2656,
+            "right": 0.9401,
+            "bottom": 0.294
+        },
+        "confidence": 0.7876
+    },
+    {
+        "text": "Де",
+        "box": {
+            "left": 0.9388,
+            "top": 0.4841,
+            "right": 1.0,
+            "bottom": 0.5284
+        },
+        "confidence": 0.9478
+    },
+    {
+        "text": "\"Re",
+        "box": {
+            "left": 0.9173,
+            "top": 0.5176,
+            "right": 1.0,
+            "bottom": 0.5636
+        },
+        "confidence": 0.916
+    },
+    {
+        "text": "Ціна при оплаті",
+        "box": {
+            "left": 0.1693,
+            "top": 0.546,
+            "right": 0.4902,
+            "bottom": 0.5823
+        },
+        "confidence": 0.9575
+    },
+    {
+        "text": "131",
+        "box": {
+            "left": 0.5299,
+            "top": 0.5488,
+            "right": 0.737,
+            "bottom": 0.6425
+        },
+        "confidence": 0.9994
+    },
+    {
+        "text": "He",
+        "box": {
+            "left": 0.9577,
+            "top": 0.5624,
+            "right": 1.0,
+            "bottom": 0.601
+        },
+        "confidence": 0.8534
+    },
+    {
+        "text": "карткою АТБ",
+        "box": {
+            "left": 0.1921,
+            "top": 0.5687,
+            "right": 0.4701,
+            "bottom": 0.6169
+        },
+        "confidence": 0.9441
+    },
+    {
+        "text": "рпн",
+        "box": {
+            "left": 0.7585,
+            "top": 0.5948,
+            "right": 0.7956,
+            "bottom": 0.6112
+        },
+        "confidence": 0.3218
+    },
+    {
+        "text": "-5%",
+        "box": {
+            "left": 0.2839,
+            "top": 0.6033,
+            "right": 0.3952,
+            "bottom": 0.6549
+        },
+        "confidence": 0.9895
+    },
+    {
+        "text": "C",
+        "box": {
+            "left": 0.9727,
+            "top": 0.6084,
+            "right": 1.0,
+            "bottom": 0.6385
+        },
+        "confidence": 0.912
+    },
+    {
+        "text": "КвАНт",
+        "box": {
+            "left": 0.8848,
+            "top": 0.6436,
+            "right": 0.9987,
+            "bottom": 0.6782
+        },
+        "confidence": 0.4809
+    },
+    {
+        "text": "Дезодорант",
+        "box": {
+            "left": 0.2611,
+            "top": 0.6708,
+            "right": 0.5013,
+            "bottom": 0.7106
+        },
+        "confidence": 0.9304
+    },
+    {
+        "text": "138",
+        "box": {
+            "left": 0.5983,
+            "top": 0.6918,
+            "right": 0.7695,
+            "bottom": 0.7753
+        },
+        "confidence": 0.9986
+    },
+    {
+        "text": "90",
+        "box": {
+            "left": 0.7585,
+            "top": 0.6998,
+            "right": 0.8164,
+            "bottom": 0.7372
+        },
+        "confidence": 0.9802
+    },
+    {
+        "text": "\"Old Spice'",
+        "box": {
+            "left": 0.2643,
+            "top": 0.7009,
+            "right": 0.4759,
+            "bottom": 0.7446
+        },
+        "confidence": 0.8499
+    },
+    {
+        "text": "1",
+        "box": {
+            "left": 0.4661,
+            "top": 0.7054,
+            "right": 0.4844,
+            "bottom": 0.7219
+        },
+        "confidence": 0.6405
+    },
+    {
+        "text": "рон",
+        "box": {
+            "left": 0.7643,
+            "top": 0.731,
+            "right": 0.8112,
+            "bottom": 0.7531
+        },
+        "confidence": 0.4179
+    },
+    {
+        "text": "Cold Spice / Whitewate",
+        "box": {
+            "left": 0.1719,
+            "top": 0.7321,
+            "right": 0.5879,
+            "bottom": 0.7855
+        },
+        "confidence": 0.9315
+    },
+    {
+        "text": "22.09.26 Ko",
+        "box": {
+            "left": 0.8809,
+            "top": 0.7406,
+            "right": 1.0,
+            "bottom": 0.7707
+        },
+        "confidence": 0.8983
+    },
+    {
+        "text": "70мл",
+        "box": {
+            "left": 0.7598,
+            "top": 0.748,
+            "right": 0.8151,
+            "bottom": 0.769
+        },
+        "confidence": 0.6513
+    },
+    {
+        "text": "гелевий стік",
+        "box": {
+            "left": 0.2643,
+            "top": 0.773,
+            "right": 0.5,
+            "bottom": 0.8167
+        },
+        "confidence": 0.9494
+    },
+    {
+        "text": "3.8.1",
+        "box": {
+            "left": 0.3919,
+            "top": 0.8303,
+            "right": 0.4401,
+            "bottom": 0.8553
+        },
+        "confidence": 0.9522
+    },
+    {
+        "text": "08.09.25 KOD:201814",
+        "box": {
+            "left": 0.1745,
+            "top": 0.8314,
+            "right": 0.3796,
+            "bottom": 0.8604
+        },
+        "confidence": 0.8802
+    },
+    {
+        "text": "8",
+        "box": {
+            "left": 0.1478,
+            "top": 0.8354,
+            "right": 0.1693,
+            "bottom": 0.8502
+        },
+        "confidence": 0.3749
+    }
+]

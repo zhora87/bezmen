@@ -1,0 +1,142 @@
+[
+    {
+        "text": "22.09.26",
+        "box": {
+            "left": 0.1269,
+            "top": 0.143,
+            "right": 0.2353,
+            "bottom": 0.1968
+        },
+        "confidence": 0.9984
+    },
+    {
+        "text": "Пиво",
+        "box": {
+            "left": 0.5983,
+            "top": 0.1626,
+            "right": 0.7763,
+            "bottom": 0.2812
+        },
+        "confidence": 0.684
+    },
+    {
+        "text": "Код:27205",
+        "box": {
+            "left": 0.1269,
+            "top": 0.1895,
+            "right": 0.267,
+            "bottom": 0.2421
+        },
+        "confidence": 0.9324
+    },
+    {
+        "text": "1.7.6",
+        "box": {
+            "left": 0.1316,
+            "top": 0.2335,
+            "right": 0.1935,
+            "bottom": 0.291
+        },
+        "confidence": 0.9884
+    },
+    {
+        "text": "\"Hike\"",
+        "box": {
+            "left": 0.5844,
+            "top": 0.2616,
+            "right": 0.7895,
+            "bottom": 0.3863
+        },
+        "confidence": 0.9809
+    },
+    {
+        "text": "3нижка",
+        "box": {
+            "left": 0.1447,
+            "top": 0.3325,
+            "right": 0.3676,
+            "bottom": 0.4438
+        },
+        "confidence": 0.6627
+    },
+    {
+        "text": "Преміум",
+        "box": {
+            "left": 0.5511,
+            "top": 0.3716,
+            "right": 0.8142,
+            "bottom": 0.511
+        },
+        "confidence": 0.9039
+    },
+    {
+        "text": "36%",
+        "box": {
+            "left": 0.1478,
+            "top": 0.4095,
+            "right": 0.3793,
+            "bottom": 0.599
+        },
+        "confidence": 0.9977
+    },
+    {
+        "text": "світле",
+        "box": {
+            "left": 0.5882,
+            "top": 0.489,
+            "right": 0.7678,
+            "bottom": 0.5844
+        },
+        "confidence": 0.8487
+    },
+    {
+        "text": "30",
+        "box": {
+            "left": 0.5279,
+            "top": 0.5758,
+            "right": 0.7601,
+            "bottom": 0.8374
+        },
+        "confidence": 0.9993
+    },
+    {
+        "text": "90",
+        "box": {
+            "left": 0.726,
+            "top": 0.599,
+            "right": 0.8467,
+            "bottom": 0.7323
+        },
+        "confidence": 0.999
+    },
+    {
+        "text": "4850",
+        "box": {
+            "left": 0.1385,
+            "top": 0.6039,
+            "right": 0.4118,
+            "bottom": 0.8374
+        },
+        "confidence": 0.7086
+    },
+    {
+        "text": "рпн/",
+        "box": {
+            "left": 0.7531,
+            "top": 0.7286,
+            "right": 0.8313,
+            "bottom": 0.7775
+        },
+        "confidence": 0.573
+    },
+    {
+        "text": "0,5л",
+        "box": {
+            "left": 0.75,
+            "top": 0.7751,
+            "right": 0.8259,
+            "bottom": 0.8325
+        },
+        "confidence": 0.8555
+    }
+]

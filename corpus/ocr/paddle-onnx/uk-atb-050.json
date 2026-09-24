@@ -1,0 +1,132 @@
+[
+    {
+        "text": "Макаронні",
+        "box": {
+            "left": 0.0949,
+            "top": 0.1272,
+            "right": 0.4042,
+            "bottom": 0.2909
+        },
+        "confidence": 0.8838
+    },
+    {
+        "text": "20",
+        "box": {
+            "left": 0.719,
+            "top": 0.158,
+            "right": 0.8449,
+            "bottom": 0.3757
+        },
+        "confidence": 0.9989
+    },
+    {
+        "text": "61",
+        "box": {
+            "left": 0.4991,
+            "top": 0.1638,
+            "right": 0.7263,
+            "bottom": 0.5511
+        },
+        "confidence": 0.9998
+    },
+    {
+        "text": "вироби",
+        "box": {
+            "left": 0.1442,
+            "top": 0.2505,
+            "right": 0.3631,
+            "bottom": 0.4085
+        },
+        "confidence": 0.9905
+    },
+    {
+        "text": "ррн/",
+        "box": {
+            "left": 0.7381,
+            "top": 0.341,
+            "right": 0.8239,
+            "bottom": 0.4355
+        },
+        "confidence": 0.6519
+    },
+    {
+        "text": "F&G\"",
+        "box": {
+            "left": 0.2965,
+            "top": 0.3565,
+            "right": 0.4471,
+            "bottom": 0.4952
+        },
+        "confidence": 0.9443
+    },
+    {
+        "text": "\"De Luxe",
+        "box": {
+            "left": 0.0657,
+            "top": 0.3815,
+            "right": 0.3111,
+            "bottom": 0.5067
+        },
+        "confidence": 0.9716
+    },
+    {
+        "text": "0,5 кГ",
+        "box": {
+            "left": 0.7436,
+            "top": 0.4143,
+            "right": 0.8166,
+            "bottom": 0.4817
+        },
+        "confidence": 0.6864
+    },
+    {
+        "text": "Amorosi",
+        "box": {
+            "left": 0.2336,
+            "top": 0.4875,
+            "right": 0.4443,
+            "bottom": 0.6108
+        },
+        "confidence": 0.9962
+    },
+    {
+        "text": "Витки",
+        "box": {
+            "left": 0.0812,
+            "top": 0.5067,
+            "right": 0.2372,
+            "bottom": 0.6108
+        },
+        "confidence": 0.6933
+    },
+    {
+        "text": "999200013089",
+        "box": {
+            "left": 0.5748,
+            "top": 0.7476,
+            "right": 0.8221,
+            "bottom": 0.8478
+        },
+        "confidence": 0.963
+    },
+    {
+        "text": "8.09.26 КOД:147484 3.5.3",
+        "box": {
+            "left": 0.0712,
+            "top": 0.7746,
+            "right": 0.3531,
+            "bottom": 0.8651
+        },
+        "confidence": 0.8882
+    },
+    {
+        "text": "2",
+        "box": {
+            "left": 0.5529,
+            "top": 0.7881,
+            "right": 0.5666,
+            "bottom": 0.8324
+        },
+        "confidence": 0.9951
+    }
+]

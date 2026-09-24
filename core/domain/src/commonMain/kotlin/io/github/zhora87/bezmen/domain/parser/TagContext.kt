@@ -27,6 +27,26 @@ internal class TagContext(
 
     fun confidence(line: Int): Float = lines[line].confidence
 
+    /**
+     * The line right above [line] in the same column: it overlaps horizontally and the vertical gap
+     * is at most one height of the upper line. Boxes may overlap a little (detector boxes are loose),
+     * never by more than [MAX_STACK_OVERLAP] of the smaller height. Used for small print split over
+     * two detector lines.
+     */
+    fun lineAbove(line: Int): Int? {
+        val box = lines[line].box
+        return lines.indices
+            .filter { it != line && !vertical[it] }
+            .filter { other ->
+                val o = lines[other].box
+                val gap = box.top - o.bottom
+                val maxOverlap = minOf(o.height, box.height) * MAX_STACK_OVERLAP
+                o.centerY < box.centerY && gap in -maxOverlap..o.height &&
+                    minOf(o.right, box.right) > maxOf(o.left, box.left)
+            }
+            .maxByOrNull { lines[it].box.bottom }
+    }
+
     fun tokensOf(line: Int, excluding: Set<TokenId>): List<Token> =
         if (vertical[line]) emptyList() else tokens[line].filter { it.id !in excluding }
 
@@ -34,6 +54,7 @@ internal class TagContext(
         private const val MIN_HEIGHT = 1e-6f
         private const val VERTICAL_RATIO = 2f
         private const val VERTICAL_MIN_CHARS = 4
+        private const val MAX_STACK_OVERLAP = 0.5f
 
         fun build(
             lines: List<OcrLine>,

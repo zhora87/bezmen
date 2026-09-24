@@ -1,0 +1,172 @@
+[
+    {
+        "text": "ATG",
+        "box": {
+            "left": 0.6289,
+            "top": 0.1447,
+            "right": 0.8613,
+            "bottom": 0.2677
+        },
+        "confidence": 0.9188
+    },
+    {
+        "text": "ТИЛЬКИВ",
+        "box": {
+            "left": 0.0,
+            "top": 0.1588,
+            "right": 0.6113,
+            "bottom": 0.3385
+        },
+        "confidence": 0.9176
+    },
+    {
+        "text": "03.09.26 Код.196056",
+        "box": {
+            "left": 0.6367,
+            "top": 0.4498,
+            "right": 0.8613,
+            "bottom": 0.4887
+        },
+        "confidence": 0.8781
+    },
+    {
+        "text": "Спеціально для покупців АТБ",
+        "box": {
+            "left": 0.1113,
+            "top": 0.4553,
+            "right": 0.6165,
+            "bottom": 0.5191
+        },
+        "confidence": 0.9538
+    },
+    {
+        "text": "3.61",
+        "box": {
+            "left": 0.8092,
+            "top": 0.4864,
+            "right": 0.8561,
+            "bottom": 0.5152
+        },
+        "confidence": 0.9677
+    },
+    {
+        "text": "Дезодорант",
+        "box": {
+            "left": 0.1237,
+            "top": 0.5525,
+            "right": 0.3737,
+            "bottom": 0.6171
+        },
+        "confidence": 0.9686
+    },
+    {
+        "text": "149",
+        "box": {
+            "left": 0.5417,
+            "top": 0.5588,
+            "right": 0.8021,
+            "bottom": 0.7198
+        },
+        "confidence": 0.9987
+    },
+    {
+        "text": "90",
+        "box": {
+            "left": 0.7773,
+            "top": 0.5696,
+            "right": 0.8561,
+            "bottom": 0.6747
+        },
+        "confidence": 0.9984
+    },
+    {
+        "text": "\"Old Spice\"",
+        "box": {
+            "left": 0.1341,
+            "top": 0.6047,
+            "right": 0.3522,
+            "bottom": 0.6716
+        },
+        "confidence": 0.9809
+    },
+    {
+        "text": "ррн/",
+        "box": {
+            "left": 0.7826,
+            "top": 0.6498,
+            "right": 0.8509,
+            "bottom": 0.6872
+        },
+        "confidence": 0.5844
+    },
+    {
+        "text": "Captain",
+        "box": {
+            "left": 0.1719,
+            "top": 0.6654,
+            "right": 0.3301,
+            "bottom": 0.7276
+        },
+        "confidence": 0.9992
+    },
+    {
+        "text": "65m",
+        "box": {
+            "left": 0.7813,
+            "top": 0.6739,
+            "right": 0.8561,
+            "bottom": 0.7113
+        },
+        "confidence": 0.8158
+    },
+    {
+        "text": "антиперспірант",
+        "box": {
+            "left": 0.1055,
+            "top": 0.716,
+            "right": 0.403,
+            "bottom": 0.786
+        },
+        "confidence": 0.8985
+    },
+    {
+        "text": "CTИK",
+        "box": {
+            "left": 0.3158,
+            "top": 0.779,
+            "right": 0.3906,
+            "bottom": 0.8226
+        },
+        "confidence": 0.7702
+    },
+    {
+        "text": "чоловічий",
+        "box": {
+            "left": 0.123,
+            "top": 0.7798,
+            "right": 0.3216,
+            "bottom": 0.8288
+        },
+        "confidence": 0.8247
+    },
+    {
+        "text": "700216685535",
+        "box": {
+            "left": 0.6009,
+            "top": 0.8086,
+            "right": 0.8346,
+            "bottom": 0.8654
+        },
+        "confidence": 0.9838
+    },
+    {
+        "text": "8",
+        "box": {
+            "left": 0.5814,
+            "top": 0.8366,
+            "right": 0.5924,
+            "bottom": 0.8521
+        },
+        "confidence": 0.9905
+    }
+]

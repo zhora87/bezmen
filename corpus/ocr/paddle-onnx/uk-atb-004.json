@@ -1,0 +1,162 @@
+[
+    {
+        "text": "Маслo",
+        "box": {
+            "left": 0.5518,
+            "top": 0.0857,
+            "right": 0.759,
+            "bottom": 0.2333
+        },
+        "confidence": 0.5671
+    },
+    {
+        "text": "21.09.25 КОД: 128718",
+        "box": {
+            "left": 0.0145,
+            "top": 0.0905,
+            "right": 0.306,
+            "bottom": 0.1762
+        },
+        "confidence": 0.916
+    },
+    {
+        "text": "1.21.6",
+        "box": {
+            "left": 0.0169,
+            "top": 0.1524,
+            "right": 0.106,
+            "bottom": 0.2238
+        },
+        "confidence": 0.9561
+    },
+    {
+        "text": "\"Білоцерківське\"",
+        "box": {
+            "left": 0.388,
+            "top": 0.1905,
+            "right": 0.9253,
+            "bottom": 0.381
+        },
+        "confidence": 0.979
+    },
+    {
+        "text": "-50",
+        "box": {
+            "left": 0.0602,
+            "top": 0.2905,
+            "right": 0.2458,
+            "bottom": 0.481
+        },
+        "confidence": 0.9966
+    },
+    {
+        "text": "солодковершкове",
+        "box": {
+            "left": 0.388,
+            "top": 0.3333,
+            "right": 0.9277,
+            "bottom": 0.5048
+        },
+        "confidence": 0.9941
+    },
+    {
+        "text": "%",
+        "box": {
+            "left": 0.2193,
+            "top": 0.3476,
+            "right": 0.3036,
+            "bottom": 0.4762
+        },
+        "confidence": 0.9882
+    },
+    {
+        "text": ",ж.72,6 %",
+        "box": {
+            "left": 0.6699,
+            "top": 0.4524,
+            "right": 0.9398,
+            "bottom": 0.6095
+        },
+        "confidence": 0.8865
+    },
+    {
+        "text": "селянське,",
+        "box": {
+            "left": 0.3759,
+            "top": 0.481,
+            "right": 0.7181,
+            "bottom": 0.6238
+        },
+        "confidence": 0.9897
+    },
+    {
+        "text": "ТИЛЬКИ",
+        "box": {
+            "left": 0.106,
+            "top": 0.4857,
+            "right": 0.2361,
+            "bottom": 0.5762
+        },
+        "confidence": 0.7109
+    },
+    {
+        "text": "27.09.25p",
+        "box": {
+            "left": 0.0627,
+            "top": 0.5714,
+            "right": 0.2651,
+            "bottom": 0.6714
+        },
+        "confidence": 0.9759
+    },
+    {
+        "text": "99",
+        "box": {
+            "left": 0.4843,
+            "top": 0.5762,
+            "right": 0.7373,
+            "bottom": 0.9571
+        },
+        "confidence": 0.9978
+    },
+    {
+        "text": "90",
+        "box": {
+            "left": 0.7133,
+            "top": 0.5952,
+            "right": 0.8361,
+            "bottom": 0.7667
+        },
+        "confidence": 0.9983
+    },
+    {
+        "text": "ррн/",
+        "box": {
+            "left": 0.7277,
+            "top": 0.7524,
+            "right": 0.8289,
+            "bottom": 0.8619
+        },
+        "confidence": 0.5293
+    },
+    {
+        "text": "180р",
+        "box": {
+            "left": 0.7325,
+            "top": 0.8286,
+            "right": 0.8289,
+            "bottom": 0.919
+        },
+        "confidence": 0.8576
+    },
+    {
+        "text": "20019492025",
+        "box": {
+            "left": 0.0313,
+            "top": 0.8429,
+            "right": 0.359,
+            "bottom": 0.9857
+        },
+        "confidence": 0.9853
+    }
+]

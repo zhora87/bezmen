@@ -18,9 +18,9 @@ internal class QuantityDetector(private val pack: LocalePack) {
         val out = mutableListOf<QuantityCandidate>()
         var i = 0
         while (i < tokens.size - 1) {
-            val unit = unitAfterNumber(tokens[i], tokens[i + 1], tokens.getOrNull(i + 2))
+            val unit = unitAfterNumber(tokens, i)
             if (unit != null) candidate(ctx, tokens, i, unit)?.let { out += it }
-            i += if (unit == null) 1 else 2
+            i += 1 + (unit?.tokens?.size ?: 0)
         }
         return out
     }
@@ -31,8 +31,11 @@ internal class QuantityDetector(private val pack: LocalePack) {
             val word = tokens[i]
             val previous = tokens.getOrNull(i - 1)
             val before = tokens.getOrNull(i - 2)
-            val afterSeparator = previous != null &&
-                (previous.kind == TokenKind.CURRENCY || (previous.text == "/" && before?.kind == TokenKind.CURRENCY))
+            val afterSeparator = if (previous == null) {
+                i == 0 && lineAboveEndsWithCurrency(ctx, word.lineIndex)
+            } else {
+                previous.kind == TokenKind.CURRENCY || (previous.text == "/" && before?.kind == TokenKind.CURRENCY)
+            }
             val unit = if (word.kind == TokenKind.WORD && afterSeparator) pack.unitFor(word.text) else null
             unit?.let {
                 val confidence = ctx.confidence(word.lineIndex) * BARE_UNIT_CONFIDENCE
@@ -66,19 +69,52 @@ internal class QuantityDetector(private val pack: LocalePack) {
         return dx + dy
     }
 
-    private fun unitAfterNumber(number: Token, word: Token, next: Token?): MeasureUnit? {
-        if (number.kind != TokenKind.NUMBER || number.number == null || word.kind != TokenKind.WORD) return null
+    /** "грн /" on one detector line and "шт" alone on the next one. */
+    private fun lineAboveEndsWithCurrency(ctx: TagContext, line: Int): Boolean {
+        val above = ctx.lineAbove(line) ?: return false
+        val tokens = ctx.tokens[above].filterNot { it.text == "/" }
+        return tokens.lastOrNull()?.kind == TokenKind.CURRENCY
+    }
+
+    private class UnitMatch(val unit: MeasureUnit, val tokens: List<Token>)
+
+    /**
+     * The unit after the number at [i]. The unit may be a run of glued tokens that only together form
+     * a pack alias: ATB's font turns "кг" into "k7" and "наб-р" into "на6-р".
+     */
+    private fun unitAfterNumber(tokens: List<Token>, i: Int): UnitMatch? {
+        val number = tokens[i]
+        val word = tokens.getOrNull(i + 1)
+        val starts = number.kind == TokenKind.NUMBER && number.number != null && word?.kind == TokenKind.WORD
+        return if (starts) unitInRun(gluedRun(tokens, i + 1)) else null
+    }
+
+    /** The token at [from] and up to [MAX_RUN] - 1 tokens glued to it without spaces. */
+    private fun gluedRun(tokens: List<Token>, from: Int): List<Token> {
+        val run = mutableListOf(tokens[from])
+        while (run.size < MAX_RUN) {
+            val next = tokens.getOrNull(from + run.size)?.takeIf { it.start == run.last().end } ?: break
+            run += next
+        }
+        return run
+    }
+
+    private fun unitInRun(run: List<Token>): UnitMatch? {
+        val joined = (run.size downTo 2).firstNotNullOfOrNull { size ->
+            pack.unitFor(run.take(size).joinToString("") { it.text })?.let { UnitMatch(it, run.take(size)) }
+        }
         // "82n214780361": a letter wedged between digit runs is a misread barcode, not a unit.
-        if (next != null && next.kind == TokenKind.NUMBER && next.start == word.end) return null
-        return pack.unitFor(word.text)
+        val wedged = run.getOrNull(1)?.kind == TokenKind.NUMBER
+        return joined ?: if (wedged) null else pack.unitFor(run.first().text)?.let { UnitMatch(it, run.take(1)) }
     }
 
     /** Null when OCR produced a number that cannot be a package size ("0 мл", "0,5 мг"). */
-    private fun candidate(ctx: TagContext, tokens: List<Token>, i: Int, unit: MeasureUnit): QuantityCandidate? {
+    private fun candidate(ctx: TagContext, tokens: List<Token>, i: Int, match: UnitMatch): QuantityCandidate? {
         val number = tokens[i]
-        val word = tokens[i + 1]
+        val word = match.tokens.first()
+        val unit = match.unit
         var value = number.number ?: 0.0
-        var used = listOf(number.id, word.id)
+        var used = listOf(number.id) + match.tokens.map { it.id }
         val multiplier = multiplierBefore(tokens, i)
         if (multiplier != null) {
             value *= multiplier.first
@@ -89,7 +125,7 @@ internal class QuantityDetector(private val pack: LocalePack) {
         if (quantity.toBase().value < MIN_BASE_VALUE) return null
         val glued = number.end == word.start
         val confidence = ctx.confidence(number.lineIndex) * if (glued) GLUED_CONFIDENCE else SPACED_CONFIDENCE
-        val box = number.box.union(word.box)
+        val box = match.tokens.fold(number.box) { b, t -> b.union(t.box) }
         return QuantityCandidate(quantity, confidence, number.lineIndex, box, used, multiplier != null)
     }
 
@@ -118,5 +154,8 @@ internal class QuantityDetector(private val pack: LocalePack) {
         const val MIN_BASE_VALUE = 1.0
         const val SPACED_CONFIDENCE = 0.9f
         const val PIECES_COUNT_OFFSET = 3
+
+        /** Longest glued run tried as one alias ("на", "6", "-р"). */
+        const val MAX_RUN = 3
     }
 }

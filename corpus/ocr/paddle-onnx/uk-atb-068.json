@@ -1,0 +1,222 @@
+[
+    {
+        "text": "ЦИНА",
+        "box": {
+            "left": 0.5508,
+            "top": 0.1439,
+            "right": 0.6905,
+            "bottom": 0.2524
+        },
+        "confidence": 0.6803
+    },
+    {
+        "text": "прискануванні",
+        "box": {
+            "left": 0.167,
+            "top": 0.1488,
+            "right": 0.5208,
+            "bottom": 0.2366
+        },
+        "confidence": 0.9428
+    },
+    {
+        "text": "3Hижка",
+        "box": {
+            "left": 0.7294,
+            "top": 0.1768,
+            "right": 0.8971,
+            "bottom": 0.2744
+        },
+        "confidence": 0.5996
+    },
+    {
+        "text": "додатка",
+        "box": {
+            "left": 0.1936,
+            "top": 0.2256,
+            "right": 0.396,
+            "bottom": 0.3183
+        },
+        "confidence": 0.9961
+    },
+    {
+        "text": "ATB",
+        "box": {
+            "left": 0.3899,
+            "top": 0.2256,
+            "right": 0.4826,
+            "bottom": 0.3037
+        },
+        "confidence": 0.5342
+    },
+    {
+        "text": "84",
+        "box": {
+            "left": 0.5242,
+            "top": 0.2366,
+            "right": 0.6449,
+            "bottom": 0.3866
+        },
+        "confidence": 0.9993
+    },
+    {
+        "text": "10%",
+        "box": {
+            "left": 0.7335,
+            "top": 0.2463,
+            "right": 0.8909,
+            "bottom": 0.3988
+        },
+        "confidence": 0.9985
+    },
+    {
+        "text": "06",
+        "box": {
+            "left": 0.6408,
+            "top": 0.2524,
+            "right": 0.6926,
+            "bottom": 0.3329
+        },
+        "confidence": 0.9812
+    },
+    {
+        "text": "ррн",
+        "box": {
+            "left": 0.6414,
+            "top": 0.3073,
+            "right": 0.6878,
+            "bottom": 0.3598
+        },
+        "confidence": 0.5932
+    },
+    {
+        "text": "kаci",
+        "box": {
+            "left": 0.3081,
+            "top": 0.3085,
+            "right": 0.4206,
+            "bottom": 0.3829
+        },
+        "confidence": 0.4503
+    },
+    {
+        "text": "нa",
+        "box": {
+            "left": 0.2638,
+            "top": 0.3146,
+            "right": 0.3292,
+            "bottom": 0.3793
+        },
+        "confidence": 0.5367
+    },
+    {
+        "text": "Гель для душу",
+        "box": {
+            "left": 0.2584,
+            "top": 0.4537,
+            "right": 0.5883,
+            "bottom": 0.5732
+        },
+        "confidence": 0.9672
+    },
+    {
+        "text": "2",
+        "box": {
+            "left": 0.1643,
+            "top": 0.5024,
+            "right": 0.197,
+            "bottom": 0.6085
+        },
+        "confidence": 0.3527
+    },
+    {
+        "text": "93",
+        "box": {
+            "left": 0.6728,
+            "top": 0.539,
+            "right": 0.7969,
+            "bottom": 0.7061
+        },
+        "confidence": 0.9996
+    },
+    {
+        "text": "\"On Line\"",
+        "box": {
+            "left": 0.3177,
+            "top": 0.5402,
+            "right": 0.5331,
+            "bottom": 0.6366
+        },
+        "confidence": 0.9802
+    },
+    {
+        "text": "50",
+        "box": {
+            "left": 0.7887,
+            "top": 0.5512,
+            "right": 0.8507,
+            "bottom": 0.6476
+        },
+        "confidence": 0.9988
+    },
+    {
+        "text": "ррн/",
+        "box": {
+            "left": 0.7873,
+            "top": 0.6256,
+            "right": 0.8466,
+            "bottom": 0.6768
+        },
+        "confidence": 0.5192
+    },
+    {
+        "text": "deep",
+        "box": {
+            "left": 0.2168,
+            "top": 0.6268,
+            "right": 0.332,
+            "bottom": 0.722
+        },
+        "confidence": 0.9992
+    },
+    {
+        "text": "blue/fresh",
+        "box": {
+            "left": 0.3238,
+            "top": 0.6268,
+            "right": 0.5487,
+            "bottom": 0.7171
+        },
+        "confidence": 0.9994
+    },
+    {
+        "text": "lime",
+        "box": {
+            "left": 0.5262,
+            "top": 0.6293,
+            "right": 0.6271,
+            "bottom": 0.7098
+        },
+        "confidence": 0.9482
+    },
+    {
+        "text": "400Mл",
+        "box": {
+            "left": 0.7812,
+            "top": 0.6634,
+            "right": 0.8534,
+            "bottom": 0.711
+        },
+        "confidence": 0.8095
+    },
+    {
+        "text": "чоловічий 3 в 1",
+        "box": {
+            "left": 0.2604,
+            "top": 0.7061,
+            "right": 0.5815,
+            "bottom": 0.8012
+        },
+        "confidence": 0.9306
+    }
+]

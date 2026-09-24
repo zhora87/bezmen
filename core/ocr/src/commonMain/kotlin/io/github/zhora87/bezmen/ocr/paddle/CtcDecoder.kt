@@ -10,8 +10,13 @@ class CtcDecoder(dictionary: List<String>) {
 
     class Decoded(val text: String, val confidence: Float)
 
+    /** Entries including the space: the model must emit exactly one more class, the blank. */
+    val dictionarySize: Int get() = chars.size
+
     /** [probabilities] is a flat [steps x classes] softmax output. */
     fun decode(probabilities: FloatArray, steps: Int, classes: Int): Decoded {
+        // A mismatch means the dictionary does not belong to the model: every character would be shifted.
+        check(classes == chars.size + 1) { "model has $classes classes, dictionary has ${chars.size} + blank" }
         val text = StringBuilder()
         var sum = 0f
         var kept = 0
@@ -40,7 +45,13 @@ class CtcDecoder(dictionary: List<String>) {
     companion object {
         const val BLANK = 0
 
-        /** Dictionary as stored in the ONNX metadata key `character`: one entry per line. */
-        fun fromMetadata(character: String): CtcDecoder = CtcDecoder(character.split('\n'))
+        /**
+         * Dictionary as stored in the ONNX metadata key `character`: one entry per line. PaddleOCR
+         * models carry one more class than the dictionary, a space, appended after the last entry.
+         * Whether the metadata ends with a newline depends on the runtime that reads it, so a
+         * trailing empty line is dropped and the space is added explicitly.
+         */
+        fun fromMetadata(character: String): CtcDecoder =
+            CtcDecoder(character.split('\n').dropLastWhile { it.isEmpty() } + " ")
     }
 }

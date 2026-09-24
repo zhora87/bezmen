@@ -1,0 +1,122 @@
+[
+    {
+        "text": "Ruc",
+        "box": {
+            "left": 0.2227,
+            "top": 0.1509,
+            "right": 0.3503,
+            "bottom": 0.2768
+        },
+        "confidence": 0.5175
+    },
+    {
+        "text": "49",
+        "box": {
+            "left": 0.5612,
+            "top": 0.1696,
+            "right": 0.8574,
+            "bottom": 0.5898
+        },
+        "confidence": 0.9996
+    },
+    {
+        "text": "90",
+        "box": {
+            "left": 0.821,
+            "top": 0.207,
+            "right": 0.957,
+            "bottom": 0.399
+        },
+        "confidence": 0.9991
+    },
+    {
+        "text": "Лінія\"",
+        "box": {
+            "left": 0.2852,
+            "top": 0.2656,
+            "right": 0.4811,
+            "bottom": 0.4002
+        },
+        "confidence": 0.9724
+    },
+    {
+        "text": "\"Своя",
+        "box": {
+            "left": 0.0957,
+            "top": 0.2756,
+            "right": 0.2865,
+            "bottom": 0.4002
+        },
+        "confidence": 0.9766
+    },
+    {
+        "text": "рпн/",
+        "box": {
+            "left": 0.8398,
+            "top": 0.3853,
+            "right": 0.9336,
+            "bottom": 0.4726
+        },
+        "confidence": 0.5232
+    },
+    {
+        "text": "пропарений",
+        "box": {
+            "left": 0.1029,
+            "top": 0.389,
+            "right": 0.4792,
+            "bottom": 0.5511
+        },
+        "confidence": 0.9944
+    },
+    {
+        "text": "4x125r",
+        "box": {
+            "left": 0.8249,
+            "top": 0.4551,
+            "right": 0.9408,
+            "bottom": 0.5175
+        },
+        "confidence": 0.8634
+    },
+    {
+        "text": "довгозернистий",
+        "box": {
+            "left": 0.0664,
+            "top": 0.5075,
+            "right": 0.5299,
+            "bottom": 0.6546
+        },
+        "confidence": 0.9967
+    },
+    {
+        "text": "999300052599",
+        "box": {
+            "left": 0.6387,
+            "top": 0.7756,
+            "right": 0.901,
+            "bottom": 0.8691
+        },
+        "confidence": 0.9575
+    },
+    {
+        "text": "8.09.26 Код:136739 2.7.3",
+        "box": {
+            "left": 0.0918,
+            "top": 0.7993,
+            "right": 0.3887,
+            "bottom": 0.8591
+        },
+        "confidence": 0.9451
+    },
+    {
+        "text": "2",
+        "box": {
+            "left": 0.6146,
+            "top": 0.818,
+            "right": 0.6283,
+            "bottom": 0.8541
+        },
+        "confidence": 0.999
+    }
+]

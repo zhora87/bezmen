@@ -1,0 +1,112 @@
+[
+    {
+        "text": "мрія",
+        "box": {
+            "left": 0.4531,
+            "top": 0.1519,
+            "right": 0.7689,
+            "bottom": 0.3402
+        },
+        "confidence": 0.8557
+    },
+    {
+        "text": "20",
+        "box": {
+            "left": 0.7878,
+            "top": 0.5086,
+            "right": 0.9258,
+            "bottom": 0.6227
+        },
+        "confidence": 0.9984
+    },
+    {
+        "text": "5",
+        "box": {
+            "left": 0.6751,
+            "top": 0.5134,
+            "right": 0.8125,
+            "bottom": 0.7045
+        },
+        "confidence": 0.9996
+    },
+    {
+        "text": "ЛимoHHa",
+        "box": {
+            "left": 0.1563,
+            "top": 0.5326,
+            "right": 0.4238,
+            "bottom": 0.5869
+        },
+        "confidence": 0.5135
+    },
+    {
+        "text": "кислота",
+        "box": {
+            "left": 0.1771,
+            "top": 0.5993,
+            "right": 0.4082,
+            "bottom": 0.6495
+        },
+        "confidence": 0.7757
+    },
+    {
+        "text": "грн",
+        "box": {
+            "left": 0.8138,
+            "top": 0.6103,
+            "right": 0.8971,
+            "bottom": 0.6515
+        },
+        "confidence": 0.4646
+    },
+    {
+        "text": "\"Мрія\"",
+        "box": {
+            "left": 0.1895,
+            "top": 0.6419,
+            "right": 0.3906,
+            "bottom": 0.721
+        },
+        "confidence": 0.828
+    },
+    {
+        "text": "25р",
+        "box": {
+            "left": 0.8242,
+            "top": 0.644,
+            "right": 0.8835,
+            "bottom": 0.6784
+        },
+        "confidence": 0.7995
+    },
+    {
+        "text": "820154830270",
+        "box": {
+            "left": 0.6302,
+            "top": 0.8192,
+            "right": 0.8822,
+            "bottom": 0.866
+        },
+        "confidence": 0.992
+    },
+    {
+        "text": "15.09.26",
+        "box": {
+            "left": 0.099,
+            "top": 0.8296,
+            "right": 0.1908,
+            "bottom": 0.8584
+        },
+        "confidence": 0.9903
+    },
+    {
+        "text": "Код:996 2.9.1",
+        "box": {
+            "left": 0.1895,
+            "top": 0.8296,
+            "right": 0.3457,
+            "bottom": 0.8605
+        },
+        "confidence": 0.9015
+    }
+]

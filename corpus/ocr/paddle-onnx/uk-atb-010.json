@@ -1,0 +1,122 @@
+[
+    {
+        "text": "Яйце куряче",
+        "box": {
+            "left": 0.1387,
+            "top": 0.1272,
+            "right": 0.4686,
+            "bottom": 0.2863
+        },
+        "confidence": 0.9598
+    },
+    {
+        "text": "79",
+        "box": {
+            "left": 0.5323,
+            "top": 0.1491,
+            "right": 0.7649,
+            "bottom": 0.5586
+        },
+        "confidence": 0.9984
+    },
+    {
+        "text": "50",
+        "box": {
+            "left": 0.7356,
+            "top": 0.1571,
+            "right": 0.8562,
+            "bottom": 0.3757
+        },
+        "confidence": 0.9996
+    },
+    {
+        "text": "Це-яйце!",
+        "box": {
+            "left": 0.1886,
+            "top": 0.2445,
+            "right": 0.4264,
+            "bottom": 0.3996
+        },
+        "confidence": 0.9757
+    },
+    {
+        "text": "ррн/",
+        "box": {
+            "left": 0.7554,
+            "top": 0.3479,
+            "right": 0.8312,
+            "bottom": 0.4394
+        },
+        "confidence": 0.5625
+    },
+    {
+        "text": "Полтавське",
+        "box": {
+            "left": 0.1731,
+            "top": 0.3837,
+            "right": 0.4488,
+            "bottom": 0.501
+        },
+        "confidence": 0.9853
+    },
+    {
+        "text": "10wT",
+        "box": {
+            "left": 0.758,
+            "top": 0.4155,
+            "right": 0.8269,
+            "bottom": 0.4911
+        },
+        "confidence": 0.7774
+    },
+    {
+        "text": "вища категорія",
+        "box": {
+            "left": 0.1326,
+            "top": 0.4831,
+            "right": 0.4935,
+            "bottom": 0.6402
+        },
+        "confidence": 0.9758
+    },
+    {
+        "text": "82n714780361",
+        "box": {
+            "left": 0.6021,
+            "top": 0.7674,
+            "right": 0.8269,
+            "bottom": 0.8509
+        },
+        "confidence": 0.9073
+    },
+    {
+        "text": "0.09.26 КОд:172455 1.2.1",
+        "box": {
+            "left": 0.1404,
+            "top": 0.7833,
+            "right": 0.3936,
+            "bottom": 0.8588
+        },
+        "confidence": 0.8932
+    },
+    {
+        "text": "п",
+        "box": {
+            "left": 0.6055,
+            "top": 0.8032,
+            "right": 0.6133,
+            "bottom": 0.8191
+        },
+        "confidence": 0.1605
+    },
+    {
+        "text": "4",
+        "box": {
+            "left": 0.5805,
+            "top": 0.8072,
+            "right": 0.5926,
+            "bottom": 0.835
+        },
+        "confidence": 0.8387
+    }
+]

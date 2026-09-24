@@ -1,0 +1,232 @@
+[
+    {
+        "text": "ЦИНА",
+        "box": {
+            "left": 0.6471,
+            "top": 0.1371,
+            "right": 0.8104,
+            "bottom": 0.2586
+        },
+        "confidence": 0.7179
+    },
+    {
+        "text": "скануванні",
+        "box": {
+            "left": 0.3252,
+            "top": 0.1494,
+            "right": 0.6147,
+            "bottom": 0.2341
+        },
+        "confidence": 0.8404
+    },
+    {
+        "text": "npi",
+        "box": {
+            "left": 0.2301,
+            "top": 0.1583,
+            "right": 0.332,
+            "bottom": 0.2341
+        },
+        "confidence": 0.3644
+    },
+    {
+        "text": "374",
+        "box": {
+            "left": 0.5574,
+            "top": 0.2252,
+            "right": 0.7524,
+            "bottom": 0.3924
+        },
+        "confidence": 0.9998
+    },
+    {
+        "text": "ATB",
+        "box": {
+            "left": 0.4669,
+            "top": 0.2274,
+            "right": 0.5742,
+            "bottom": 0.3122
+        },
+        "confidence": 0.5765
+    },
+    {
+        "text": "додатка",
+        "box": {
+            "left": 0.2571,
+            "top": 0.2308,
+            "right": 0.475,
+            "bottom": 0.3233
+        },
+        "confidence": 0.996
+    },
+    {
+        "text": "13",
+        "box": {
+            "left": 0.7524,
+            "top": 0.2486,
+            "right": 0.8009,
+            "bottom": 0.3144
+        },
+        "confidence": 0.9994
+    },
+    {
+        "text": "на касі",
+        "box": {
+            "left": 0.3273,
+            "top": 0.2988,
+            "right": 0.5054,
+            "bottom": 0.3924
+        },
+        "confidence": 0.8837
+    },
+    {
+        "text": "рн",
+        "box": {
+            "left": 0.7611,
+            "top": 0.3177,
+            "right": 0.7955,
+            "bottom": 0.3467
+        },
+        "confidence": 0.4265
+    },
+    {
+        "text": "Зaci6",
+        "box": {
+            "left": 0.195,
+            "top": 0.427,
+            "right": 0.3435,
+            "bottom": 0.5229
+        },
+        "confidence": 0.7271
+    },
+    {
+        "text": "МИЮЧИЙ",
+        "box": {
+            "left": 0.3489,
+            "top": 0.4337,
+            "right": 0.5864,
+            "bottom": 0.524
+        },
+        "confidence": 0.7089
+    },
+    {
+        "text": "\"Ariel\"",
+        "box": {
+            "left": 0.2247,
+            "top": 0.5229,
+            "right": 0.4123,
+            "bottom": 0.6265
+        },
+        "confidence": 0.9907
+    },
+    {
+        "text": "Aqua",
+        "box": {
+            "left": 0.4076,
+            "top": 0.5295,
+            "right": 0.5614,
+            "bottom": 0.6444
+        },
+        "confidence": 0.9869
+    },
+    {
+        "text": "а",
+        "box": {
+            "left": 0.2395,
+            "top": 0.5452,
+            "right": 0.247,
+            "bottom": 0.5574
+        },
+        "confidence": 0.1532
+    },
+    {
+        "text": "415",
+        "box": {
+            "left": 0.6498,
+            "top": 0.5764,
+            "right": 0.8981,
+            "bottom": 0.7882
+        },
+        "confidence": 0.9994
+    },
+    {
+        "text": "70",
+        "box": {
+            "left": 0.8812,
+            "top": 0.592,
+            "right": 0.9615,
+            "bottom": 0.6923
+        },
+        "confidence": 0.9985
+    },
+    {
+        "text": "Puder",
+        "box": {
+            "left": 0.2456,
+            "top": 0.6143,
+            "right": 0.4062,
+            "bottom": 0.7135
+        },
+        "confidence": 0.9994
+    },
+    {
+        "text": "Color",
+        "box": {
+            "left": 0.4008,
+            "top": 0.6232,
+            "right": 0.5459,
+            "bottom": 0.7168
+        },
+        "confidence": 0.9957
+    },
+    {
+        "text": "рпн/",
+        "box": {
+            "left": 0.8812,
+            "top": 0.6823,
+            "right": 0.9501,
+            "bottom": 0.7291
+        },
+        "confidence": 0.6124
+    },
+    {
+        "text": "синтетичний",
+        "box": {
+            "left": 0.2301,
+            "top": 0.7224,
+            "right": 0.5607,
+            "bottom": 0.806
+        },
+        "confidence": 0.9771
+    },
+    {
+        "text": "3КГ",
+        "box": {
+            "left": 0.8873,
+            "top": 0.7258,
+            "right": 0.9426,
+            "bottom": 0.7748
+        },
+        "confidence": 0.6401
+    },
+    {
+        "text": "22.0926 Код: 20950",
+        "box": {
+            "left": 0.1248,
+            "top": 0.786,
+            "right": 0.3866,
+            "bottom": 0.8718
+        },
+        "confidence": 0.8569
+    },
+    {
+        "text": "3.34",
+        "box": {
+            "left": 0.4096,
+            "top": 0.8172,
+            "right": 0.4636,
+            "bottom": 0.8573
+        },
+        "confidence": 0.9395
+    }
+]

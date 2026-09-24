@@ -29,19 +29,25 @@ internal object TestPacks {
         """
         {
           "id": "uk", "version": 1, "script": "CYRILLIC", "ocrModel": "cyrillic",
-          "currency": { "code": "UAH", "symbols": ["₴", "грн", "грн.", "ррн", "ррн."] },
-          "units": { "g": ["г", "гр", "гр.", "р", "g"], "kg": ["кг"], "ml": ["мл"], "l": ["л", "n"], "pc": ["шт", "шт.", "набір", "наб-р", "лоток"] },
+          "currency": { "code": "UAH", "symbols": ["₴", "грн", "грн.", "ррн", "ррн.", "рпн"] },
+          "units": {
+            "g": ["г", "гр", "гр.", "р", "g"], "kg": ["кг", "μг", "кр", "к7"], "ml": ["мл"], "l": ["л", "n"],
+            "pc": ["шт", "шт.", "набір", "наб-р", "на6-р", "лоток", "wт", "wу", "w7"]
+          },
           "multipack": ["x", "х", "×", "по"],
           "unitPriceMarkers": ["ціна за 1 кг", "за 1 кг", "за 100 г", "за 1 л", "за 100 мл", "ціна за"],
-          "discountMarkers": ["акція", "знижка", "акційна ціна"],
+          "discountMarkers": ["акція", "знижка", "зниж", "акційна ціна"],
           "oldPriceMarkers": ["стара ціна"],
           "loyaltyMarkers": ["з карткою", "за карткою", "скануванн", "додатка"],
-          "weightedMarkers": ["ваговий", "вартість вказана за"],
+          "weightedMarkers": ["ваговий", "вартість вказана за", "вказана за"],
           "codeMarkers": ["код:", "код "],
           "charFixes": { "O": "0", "О": "0", "З": "3", "І": "1" }
         }
         """.trimIndent(),
     )
+
+    /** The uk pack with the rest of ATB's loyalty label as markers. */
+    val ukWithAtbLabels: LocalePack = uk.copy(loyaltyMarkers = uk.loyaltyMarkers + listOf("атб", "касі"))
 
     val en: LocalePack = LocalePack.fromJson(
         """

@@ -4,6 +4,7 @@ plugins {
     alias(libs.plugins.kotlinMultiplatform)
     alias(libs.plugins.androidMultiplatformLibrary)
     alias(libs.plugins.kotlinxSerialization)
+    alias(libs.plugins.kover)
 }
 
 kotlin {
@@ -35,6 +36,17 @@ kotlin {
         // The real locale packs are test resources: every pack must parse and validate.
         jvmTest {
             resources.srcDir(rootProject.layout.projectDirectory.dir("locale-packs"))
+        }
+    }
+}
+
+// Coverage of the parser and unit-price core, measured on the JVM tests. `./gradlew :core:domain:koverVerify`
+kover {
+    reports {
+        verify {
+            rule {
+                minBound(80)
+            }
         }
     }
 }

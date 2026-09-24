@@ -1,0 +1,282 @@
+[
+    {
+        "text": "ЦИНА",
+        "box": {
+            "left": 0.554,
+            "top": 0.1419,
+            "right": 0.6908,
+            "bottom": 0.2481
+        },
+        "confidence": 0.7442
+    },
+    {
+        "text": "при скануванні",
+        "box": {
+            "left": 0.1966,
+            "top": 0.1496,
+            "right": 0.526,
+            "bottom": 0.2289
+        },
+        "confidence": 0.9086
+    },
+    {
+        "text": "3нижка",
+        "box": {
+            "left": 0.7272,
+            "top": 0.1765,
+            "right": 0.8815,
+            "bottom": 0.2673
+        },
+        "confidence": 0.6258
+    },
+    {
+        "text": "ИЕ",
+        "box": {
+            "left": 0.9544,
+            "top": 0.2046,
+            "right": 0.9987,
+            "bottom": 0.2775
+        },
+        "confidence": 0.5851
+    },
+    {
+        "text": "жка",
+        "box": {
+            "left": 0.0072,
+            "top": 0.2084,
+            "right": 0.0716,
+            "bottom": 0.2711
+        },
+        "confidence": 0.5453
+    },
+    {
+        "text": "ATB",
+        "box": {
+            "left": 0.4076,
+            "top": 0.2225,
+            "right": 0.4915,
+            "bottom": 0.3018
+        },
+        "confidence": 0.5296
+    },
+    {
+        "text": "додатка",
+        "box": {
+            "left": 0.224,
+            "top": 0.2251,
+            "right": 0.4095,
+            "bottom": 0.3146
+        },
+        "confidence": 0.9961
+    },
+    {
+        "text": "45",
+        "box": {
+            "left": 0.528,
+            "top": 0.2289,
+            "right": 0.6471,
+            "bottom": 0.3849
+        },
+        "confidence": 0.9995
+    },
+    {
+        "text": "76",
+        "box": {
+            "left": 0.6354,
+            "top": 0.2417,
+            "right": 0.6908,
+            "bottom": 0.3708
+        },
+        "confidence": 0.6825
+    },
+    {
+        "text": "10",
+        "box": {
+            "left": 0.7272,
+            "top": 0.2519,
+            "right": 0.8333,
+            "bottom": 0.3939
+        },
+        "confidence": 0.9981
+    },
+    {
+        "text": "ol",
+        "box": {
+            "left": 0.9512,
+            "top": 0.2711,
+            "right": 1.0,
+            "bottom": 0.3913
+        },
+        "confidence": 0.9647
+    },
+    {
+        "text": "%",
+        "box": {
+            "left": 0.8197,
+            "top": 0.2941,
+            "right": 0.8607,
+            "bottom": 0.3606
+        },
+        "confidence": 0.9917
+    },
+    {
+        "text": "%",
+        "box": {
+            "left": 0.0117,
+            "top": 0.298,
+            "right": 0.0716,
+            "bottom": 0.3836
+        },
+        "confidence": 0.9981
+    },
+    {
+        "text": "на касі",
+        "box": {
+            "left": 0.2852,
+            "top": 0.3005,
+            "right": 0.4355,
+            "bottom": 0.3836
+        },
+        "confidence": 0.899
+    },
+    {
+        "text": "um",
+        "box": {
+            "left": 0.9447,
+            "top": 0.4066,
+            "right": 1.0,
+            "bottom": 0.5064
+        },
+        "confidence": 0.7457
+    },
+    {
+        "text": "Пиво",
+        "box": {
+            "left": 0.3698,
+            "top": 0.4808,
+            "right": 0.5039,
+            "bottom": 0.5818
+        },
+        "confidence": 0.7639
+    },
+    {
+        "text": "CB",
+        "box": {
+            "left": 0.9531,
+            "top": 0.5166,
+            "right": 1.0,
+            "bottom": 0.6061
+        },
+        "confidence": 0.6534
+    },
+    {
+        "text": "50",
+        "box": {
+            "left": 0.681,
+            "top": 0.5422,
+            "right": 0.7936,
+            "bottom": 0.711
+        },
+        "confidence": 0.9997
+    },
+    {
+        "text": "90",
+        "box": {
+            "left": 0.7852,
+            "top": 0.5588,
+            "right": 0.8372,
+            "bottom": 0.6355
+        },
+        "confidence": 0.9921
+    },
+    {
+        "text": "\"Carling\"",
+        "box": {
+            "left": 0.3242,
+            "top": 0.5627,
+            "right": 0.5482,
+            "bottom": 0.7046
+        },
+        "confidence": 0.9827
+    },
+    {
+        "text": "50",
+        "box": {
+            "left": 0.0,
+            "top": 0.5665,
+            "right": 0.0501,
+            "bottom": 0.6483
+        },
+        "confidence": 1.0
+    },
+    {
+        "text": "ррн",
+        "box": {
+            "left": 0.7904,
+            "top": 0.6292,
+            "right": 0.8301,
+            "bottom": 0.679
+        },
+        "confidence": 0.4744
+    },
+    {
+        "text": "ррн",
+        "box": {
+            "left": 0.0,
+            "top": 0.6458,
+            "right": 0.0482,
+            "bottom": 0.6957
+        },
+        "confidence": 0.3597
+    },
+    {
+        "text": "0,5n",
+        "box": {
+            "left": 0.7852,
+            "top": 0.665,
+            "right": 0.8353,
+            "bottom": 0.7148
+        },
+        "confidence": 0.7803
+    },
+    {
+        "text": "Світле",
+        "box": {
+            "left": 0.3613,
+            "top": 0.6752,
+            "right": 0.5169,
+            "bottom": 0.7813
+        },
+        "confidence": 0.8354
+    },
+    {
+        "text": "0,5n",
+        "box": {
+            "left": 0.0,
+            "top": 0.679,
+            "right": 0.0469,
+            "bottom": 0.7289
+        },
+        "confidence": 0.8361
+    },
+    {
+        "text": "575",
+        "box": {
+            "left": 0.9375,
+            "top": 0.7788,
+            "right": 0.9779,
+            "bottom": 0.8338
+        },
+        "confidence": 0.819
+    },
+    {
+        "text": "с",
+        "box": {
+            "left": 0.1543,
+            "top": 0.821,
+            "right": 0.168,
+            "bottom": 0.844
+        },
+        "confidence": 0.4803
+    }
+]

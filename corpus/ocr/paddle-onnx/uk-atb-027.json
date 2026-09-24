@@ -1,0 +1,142 @@
+[
+    {
+        "text": "ATG",
+        "box": {
+            "left": 0.5345,
+            "top": 0.1504,
+            "right": 0.7627,
+            "bottom": 0.2678
+        },
+        "confidence": 0.9055
+    },
+    {
+        "text": "ПИЛЬКИ В",
+        "box": {
+            "left": 0.0,
+            "top": 0.1612,
+            "right": 0.5115,
+            "bottom": 0.3231
+        },
+        "confidence": 0.7823
+    },
+    {
+        "text": "vol.]",
+        "box": {
+            "left": 0.8337,
+            "top": 0.2256,
+            "right": 0.8738,
+            "bottom": 0.2617
+        },
+        "confidence": 0.6439
+    },
+    {
+        "text": "01.0926 Kom: 179549",
+        "box": {
+            "left": 0.6884,
+            "top": 0.429,
+            "right": 0.9145,
+            "bottom": 0.4666
+        },
+        "confidence": 0.8981
+    },
+    {
+        "text": "Стевально для покупців АТЬ",
+        "box": {
+            "left": 0.1512,
+            "top": 0.4336,
+            "right": 0.6654,
+            "bottom": 0.5035
+        },
+        "confidence": 0.8284
+    },
+    {
+        "text": "6460",
+        "box": {
+            "left": 0.6377,
+            "top": 0.5226,
+            "right": 0.9428,
+            "bottom": 0.7107
+        },
+        "confidence": 0.9704
+    },
+    {
+        "text": "Пиво",
+        "box": {
+            "left": 0.2354,
+            "top": 0.5587,
+            "right": 0.3524,
+            "bottom": 0.6078
+        },
+        "confidence": 0.6822
+    },
+    {
+        "text": "Kronenbourg\"",
+        "box": {
+            "left": 0.1565,
+            "top": 0.6155,
+            "right": 0.4471,
+            "bottom": 0.6746
+        },
+        "confidence": 0.9798
+    },
+    {
+        "text": "рпн",
+        "box": {
+            "left": 0.8363,
+            "top": 0.637,
+            "right": 0.9007,
+            "bottom": 0.6685
+        },
+        "confidence": 0.4941
+    },
+    {
+        "text": "0,5л",
+        "box": {
+            "left": 0.8376,
+            "top": 0.6608,
+            "right": 0.9053,
+            "bottom": 0.6969
+        },
+        "confidence": 0.8543
+    },
+    {
+        "text": "1664",
+        "box": {
+            "left": 0.2406,
+            "top": 0.6777,
+            "right": 0.3524,
+            "bottom": 0.7322
+        },
+        "confidence": 0.9996
+    },
+    {
+        "text": "Blanc",
+        "box": {
+            "left": 0.2406,
+            "top": 0.7368,
+            "right": 0.355,
+            "bottom": 0.7943
+        },
+        "confidence": 0.9975
+    },
+    {
+        "text": "820000455985",
+        "box": {
+            "left": 0.6456,
+            "top": 0.8043,
+            "right": 0.9053,
+            "bottom": 0.8626
+        },
+        "confidence": 0.9778
+    },
+    {
+        "text": "4",
+        "box": {
+            "left": 0.6351,
+            "top": 0.8327,
+            "right": 0.6542,
+            "bottom": 0.8496
+        },
+        "confidence": 0.992
+    }
+]

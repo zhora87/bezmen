@@ -1,0 +1,72 @@
+[
+    {
+        "text": "ТИПЬКИ",
+        "box": {
+            "left": 0.645,
+            "top": 0.1875,
+            "right": 0.89,
+            "bottom": 0.3542
+        },
+        "confidence": 0.8445
+    },
+    {
+        "text": "18 липня",
+        "box": {
+            "left": 0.635,
+            "top": 0.3021,
+            "right": 0.92,
+            "bottom": 0.4583
+        },
+        "confidence": 0.6506
+    },
+    {
+        "text": "CpV",
+        "box": {
+            "left": 0.195,
+            "top": 0.3229,
+            "right": 0.32,
+            "bottom": 0.4167
+        },
+        "confidence": 0.3822
+    },
+    {
+        "text": "ЗНИЖKA 31%",
+        "box": {
+            "left": 0.5,
+            "top": 0.3958,
+            "right": 0.995,
+            "bottom": 0.6667
+        },
+        "confidence": 0.7567
+    },
+    {
+        "text": "90",
+        "box": {
+            "left": 0.305,
+            "top": 0.6354,
+            "right": 0.43,
+            "bottom": 0.8125
+        },
+        "confidence": 0.9968
+    },
+    {
+        "text": "50",
+        "box": {
+            "left": 0.08,
+            "top": 0.6563,
+            "right": 0.285,
+            "bottom": 0.9583
+        },
+        "confidence": 0.9999
+    },
+    {
+        "text": "ГРН",
+        "box": {
+            "left": 0.305,
+            "top": 0.7917,
+            "right": 0.445,
+            "bottom": 0.9271
+        },
+        "confidence": 0.6619
+    }
+]

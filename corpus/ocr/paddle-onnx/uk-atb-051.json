@@ -1,0 +1,142 @@
+[
+    {
+        "text": "1",
+        "box": {
+            "left": 0.5853,
+            "top": 0.0075,
+            "right": 0.6139,
+            "bottom": 0.0198
+        },
+        "confidence": 0.1586
+    },
+    {
+        "text": "ерший",
+        "box": {
+            "left": 0.7624,
+            "top": 0.1159,
+            "right": 0.9622,
+            "bottom": 0.1842
+        },
+        "confidence": 0.9666
+    },
+    {
+        "text": "руаB|клас",
+        "box": {
+            "left": 0.3887,
+            "top": 0.1185,
+            "right": 0.7786,
+            "bottom": 0.2221
+        },
+        "confidence": 0.6152
+    },
+    {
+        "text": "і",
+        "box": {
+            "left": 0.7786,
+            "top": 0.1479,
+            "right": 0.7865,
+            "bottom": 0.1655
+        },
+        "confidence": 0.1828
+    },
+    {
+        "text": "90",
+        "box": {
+            "left": 0.7135,
+            "top": 0.5446,
+            "right": 0.8372,
+            "bottom": 0.6279
+        },
+        "confidence": 0.9978
+    },
+    {
+        "text": "36",
+        "box": {
+            "left": 0.5111,
+            "top": 0.5499,
+            "right": 0.7578,
+            "bottom": 0.7064
+        },
+        "confidence": 0.9995
+    },
+    {
+        "text": "Макаронні",
+        "box": {
+            "left": 0.1348,
+            "top": 0.5595,
+            "right": 0.4141,
+            "bottom": 0.6289
+        },
+        "confidence": 0.8773
+    },
+    {
+        "text": "вироби",
+        "box": {
+            "left": 0.1777,
+            "top": 0.6012,
+            "right": 0.3776,
+            "bottom": 0.67
+        },
+        "confidence": 0.921
+    },
+    {
+        "text": "рПн",
+        "box": {
+            "left": 0.7435,
+            "top": 0.6145,
+            "right": 0.8203,
+            "bottom": 0.6482
+        },
+        "confidence": 0.4342
+    },
+    {
+        "text": "Розуний ви\"",
+        "box": {
+            "left": 0.0651,
+            "top": 0.6231,
+            "right": 0.4987,
+            "bottom": 0.724
+        },
+        "confidence": 0.6565
+    },
+    {
+        "text": "1Kr",
+        "box": {
+            "left": 0.7598,
+            "top": 0.6428,
+            "right": 0.8073,
+            "bottom": 0.6636
+        },
+        "confidence": 0.6748
+    },
+    {
+        "text": "и",
+        "box": {
+            "left": 0.099,
+            "top": 0.67,
+            "right": 0.4701,
+            "bottom": 0.7571
+        },
+        "confidence": 0.4065
+    },
+    {
+        "text": "030279",
+        "box": {
+            "left": 0.7064,
+            "top": 0.7635,
+            "right": 0.8385,
+            "bottom": 0.8137
+        },
+        "confidence": 0.671
+    },
+    {
+        "text": "3.09.6К:110937.14",
+        "box": {
+            "left": 0.0859,
+            "top": 0.7998,
+            "right": 0.3887,
+            "bottom": 0.8623
+        },
+        "confidence": 0.5512
+    }
+]

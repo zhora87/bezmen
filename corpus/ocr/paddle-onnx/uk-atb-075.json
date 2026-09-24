@@ -1,0 +1,232 @@
+[
+    {
+        "text": "осс",
+        "box": {
+            "left": 0.6169,
+            "top": 0.0023,
+            "right": 0.6814,
+            "bottom": 0.0103
+        },
+        "confidence": 0.1672
+    },
+    {
+        "text": "—",
+        "box": {
+            "left": 0.6517,
+            "top": 0.0075,
+            "right": 0.6722,
+            "bottom": 0.0138
+        },
+        "confidence": 0.3365
+    },
+    {
+        "text": "OASIS",
+        "box": {
+            "left": 0.5122,
+            "top": 0.0488,
+            "right": 0.6577,
+            "bottom": 0.1124
+        },
+        "confidence": 0.9799
+    },
+    {
+        "text": "WITH SMOKED VANILLA SCENT",
+        "box": {
+            "left": 0.4496,
+            "top": 0.1406,
+            "right": 0.6998,
+            "bottom": 0.1727
+        },
+        "confidence": 0.9824
+    },
+    {
+        "text": "DEODORANT",
+        "box": {
+            "left": 0.5326,
+            "top": 0.1876,
+            "right": 0.6248,
+            "bottom": 0.2146
+        },
+        "confidence": 0.9978
+    },
+    {
+        "text": "STICK",
+        "box": {
+            "left": 0.5543,
+            "top": 0.2106,
+            "right": 0.6043,
+            "bottom": 0.2364
+        },
+        "confidence": 0.9971
+    },
+    {
+        "text": "20224084",
+        "box": {
+            "left": 0.6959,
+            "top": 0.2404,
+            "right": 0.7834,
+            "bottom": 0.276
+        },
+        "confidence": 0.7729
+    },
+    {
+        "text": "21164998",
+        "box": {
+            "left": 0.0,
+            "top": 0.2427,
+            "right": 0.1119,
+            "bottom": 0.28
+        },
+        "confidence": 0.9094
+    },
+    {
+        "text": "Ціна при оплаті",
+        "box": {
+            "left": 0.1745,
+            "top": 0.5491,
+            "right": 0.5063,
+            "bottom": 0.5915
+        },
+        "confidence": 0.9375
+    },
+    {
+        "text": "109",
+        "box": {
+            "left": 0.5444,
+            "top": 0.5582,
+            "right": 0.7643,
+            "bottom": 0.6563
+        },
+        "confidence": 0.9986
+    },
+    {
+        "text": "карткою АТБ",
+        "box": {
+            "left": 0.2054,
+            "top": 0.58,
+            "right": 0.4806,
+            "bottom": 0.6196
+        },
+        "confidence": 0.9362
+    },
+    {
+        "text": "ррн",
+        "box": {
+            "left": 0.7716,
+            "top": 0.6041,
+            "right": 0.8124,
+            "bottom": 0.6248
+        },
+        "confidence": 0.5947
+    },
+    {
+        "text": "-5%",
+        "box": {
+            "left": 0.2897,
+            "top": 0.6081,
+            "right": 0.4049,
+            "bottom": 0.6644
+        },
+        "confidence": 0.9908
+    },
+    {
+        "text": "11400",
+        "box": {
+            "left": 0.6037,
+            "top": 0.6936,
+            "right": 0.846,
+            "bottom": 0.7883
+        },
+        "confidence": 0.6573
+    },
+    {
+        "text": "Дезодорант",
+        "box": {
+            "left": 0.2679,
+            "top": 0.6959,
+            "right": 0.5142,
+            "bottom": 0.7355
+        },
+        "confidence": 0.946
+    },
+    {
+        "text": "0",
+        "box": {
+            "left": 0.154,
+            "top": 0.7051,
+            "right": 0.1731,
+            "bottom": 0.7206
+        },
+        "confidence": 0.4007
+    },
+    {
+        "text": "\"Old Spice\" Oasis",
+        "box": {
+            "left": 0.2258,
+            "top": 0.7258,
+            "right": 0.553,
+            "bottom": 0.7699
+        },
+        "confidence": 0.9885
+    },
+    {
+        "text": "ррн",
+        "box": {
+            "left": 0.7683,
+            "top": 0.743,
+            "right": 0.8242,
+            "bottom": 0.7676
+        },
+        "confidence": 0.4449
+    },
+    {
+        "text": "30Мл",
+        "box": {
+            "left": 0.7683,
+            "top": 0.7573,
+            "right": 0.8269,
+            "bottom": 0.7814
+        },
+        "confidence": 0.5743
+    },
+    {
+        "text": "антиперспірант",
+        "box": {
+            "left": 0.2429,
+            "top": 0.7648,
+            "right": 0.5372,
+            "bottom": 0.8044
+        },
+        "confidence": 0.8539
+    },
+    {
+        "text": "00",
+        "box": {
+            "left": 0.1573,
+            "top": 0.8336,
+            "right": 0.183,
+            "bottom": 0.852
+        },
+        "confidence": 0.5938
+    },
+    {
+        "text": "3.7.2",
+        "box": {
+            "left": 0.4016,
+            "top": 0.8336,
+            "right": 0.4516,
+            "bottom": 0.8583
+        },
+        "confidence": 0.9679
+    },
+    {
+        "text": "14.09.28 KOD:201813",
+        "box": {
+            "left": 0.1876,
+            "top": 0.8342,
+            "right": 0.3858,
+            "bottom": 0.8606
+        },
+        "confidence": 0.9128
+    }
+]

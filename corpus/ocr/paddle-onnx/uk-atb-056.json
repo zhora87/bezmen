@@ -1,0 +1,142 @@
+[
+    {
+        "text": "Розпушувач",
+        "box": {
+            "left": 0.0143,
+            "top": 0.1458,
+            "right": 0.4095,
+            "bottom": 0.3109
+        },
+        "confidence": 0.9725
+    },
+    {
+        "text": "70",
+        "box": {
+            "left": 0.7428,
+            "top": 0.2187,
+            "right": 0.8997,
+            "bottom": 0.4431
+        },
+        "confidence": 0.9906
+    },
+    {
+        "text": "3",
+        "box": {
+            "left": 0.6237,
+            "top": 0.2335,
+            "right": 0.7591,
+            "bottom": 0.5513
+        },
+        "confidence": 0.9955
+    },
+    {
+        "text": "тicta",
+        "box": {
+            "left": 0.1283,
+            "top": 0.2631,
+            "right": 0.2884,
+            "bottom": 0.3895
+        },
+        "confidence": 0.5278
+    },
+    {
+        "text": "\"Розумний",
+        "box": {
+            "left": 0.043,
+            "top": 0.3645,
+            "right": 0.3822,
+            "bottom": 0.5171
+        },
+        "confidence": 0.9676
+    },
+    {
+        "text": "рпн/",
+        "box": {
+            "left": 0.7689,
+            "top": 0.4043,
+            "right": 0.8646,
+            "bottom": 0.4795
+        },
+        "confidence": 0.6021
+    },
+    {
+        "text": "18r",
+        "box": {
+            "left": 0.7832,
+            "top": 0.4704,
+            "right": 0.8457,
+            "bottom": 0.5296
+        },
+        "confidence": 0.8505
+    },
+    {
+        "text": "Вибір\"",
+        "box": {
+            "left": 0.1094,
+            "top": 0.4761,
+            "right": 0.3034,
+            "bottom": 0.6173
+        },
+        "confidence": 0.7145
+    },
+    {
+        "text": "и",
+        "box": {
+            "left": 0.2845,
+            "top": 0.5171,
+            "right": 0.3008,
+            "bottom": 0.533
+        },
+        "confidence": 0.5513
+    },
+    {
+        "text": "5.09.25K:11781 2.10.2",
+        "box": {
+            "left": 0.0117,
+            "top": 0.7278,
+            "right": 0.3262,
+            "bottom": 0.8314
+        },
+        "confidence": 0.8479
+    },
+    {
+        "text": "www",
+        "box": {
+            "left": 0.9564,
+            "top": 0.7756,
+            "right": 1.0,
+            "bottom": 0.8178
+        },
+        "confidence": 0.724
+    },
+    {
+        "text": "999300",
+        "box": {
+            "left": 0.5729,
+            "top": 0.7882,
+            "right": 0.7096,
+            "bottom": 0.8474
+        },
+        "confidence": 0.9902
+    },
+    {
+        "text": "090430",
+        "box": {
+            "left": 0.7031,
+            "top": 0.7904,
+            "right": 0.8418,
+            "bottom": 0.8565
+        },
+        "confidence": 0.9732
+    },
+    {
+        "text": "2",
+        "box": {
+            "left": 0.5332,
+            "top": 0.7995,
+            "right": 0.5521,
+            "bottom": 0.8383
+        },
+        "confidence": 0.9965
+    }
+]

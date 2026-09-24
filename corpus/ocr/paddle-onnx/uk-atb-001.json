@@ -1,0 +1,92 @@
+[
+    {
+        "text": "190820",
+        "box": {
+            "left": 0.0423,
+            "top": 0.0833,
+            "right": 0.1462,
+            "bottom": 0.2083
+        },
+        "confidence": 0.7605
+    },
+    {
+        "text": "50",
+        "box": {
+            "left": 0.3769,
+            "top": 0.0938,
+            "right": 0.6731,
+            "bottom": 0.7083
+        },
+        "confidence": 0.9997
+    },
+    {
+        "text": "Сирм'який",
+        "box": {
+            "left": 0.1077,
+            "top": 0.2083,
+            "right": 0.3308,
+            "bottom": 0.3646
+        },
+        "confidence": 0.9555
+    },
+    {
+        "text": "40",
+        "box": {
+            "left": 0.6654,
+            "top": 0.2083,
+            "right": 0.7615,
+            "bottom": 0.4479
+        },
+        "confidence": 0.9978
+    },
+    {
+        "text": "Золотий Резерв\"",
+        "box": {
+            "left": 0.0577,
+            "top": 0.3229,
+            "right": 0.3769,
+            "bottom": 0.4792
+        },
+        "confidence": 0.9259
+    },
+    {
+        "text": "Моцарелла",
+        "box": {
+            "left": 0.0962,
+            "top": 0.4271,
+            "right": 0.3269,
+            "bottom": 0.5938
+        },
+        "confidence": 0.8577
+    },
+    {
+        "text": "ГРН",
+        "box": {
+            "left": 0.6538,
+            "top": 0.4479,
+            "right": 0.7615,
+            "bottom": 0.6354
+        },
+        "confidence": 0.8402
+    },
+    {
+        "text": "M.45%",
+        "box": {
+            "left": 0.1462,
+            "top": 0.5417,
+            "right": 0.2923,
+            "bottom": 0.6875
+        },
+        "confidence": 0.8068
+    },
+    {
+        "text": "250",
+        "box": {
+            "left": 0.6808,
+            "top": 0.6146,
+            "right": 0.7577,
+            "bottom": 0.7604
+        },
+        "confidence": 0.6362
+    }
+]

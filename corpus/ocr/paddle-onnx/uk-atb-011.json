@@ -1,0 +1,122 @@
+[
+    {
+        "text": "Стейкяловичий",
+        "box": {
+            "left": 0.0925,
+            "top": 0.1133,
+            "right": 0.4538,
+            "bottom": 0.2624
+        },
+        "confidence": 0.9871
+    },
+    {
+        "text": "294",
+        "box": {
+            "left": 0.4717,
+            "top": 0.159,
+            "right": 0.7705,
+            "bottom": 0.5268
+        },
+        "confidence": 0.9984
+    },
+    {
+        "text": "80",
+        "box": {
+            "left": 0.7312,
+            "top": 0.1769,
+            "right": 0.8545,
+            "bottom": 0.3936
+        },
+        "confidence": 0.9984
+    },
+    {
+        "text": "\"Глобино\"",
+        "box": {
+            "left": 0.1567,
+            "top": 0.2207,
+            "right": 0.3887,
+            "bottom": 0.3479
+        },
+        "confidence": 0.9743
+    },
+    {
+        "text": "натуральний",
+        "box": {
+            "left": 0.1413,
+            "top": 0.334,
+            "right": 0.4144,
+            "bottom": 0.4751
+        },
+        "confidence": 0.997
+    },
+    {
+        "text": "рпн/",
+        "box": {
+            "left": 0.7551,
+            "top": 0.3658,
+            "right": 0.8305,
+            "bottom": 0.4473
+        },
+        "confidence": 0.7059
+    },
+    {
+        "text": "WT",
+        "box": {
+            "left": 0.7705,
+            "top": 0.4334,
+            "right": 0.8091,
+            "bottom": 0.493
+        },
+        "confidence": 0.8418
+    },
+    {
+        "text": "Рібай",
+        "box": {
+            "left": 0.2252,
+            "top": 0.4453,
+            "right": 0.3399,
+            "bottom": 0.5408
+        },
+        "confidence": 0.9175
+    },
+    {
+        "text": "охолоджений",
+        "box": {
+            "left": 0.1481,
+            "top": 0.5268,
+            "right": 0.4264,
+            "bottom": 0.662
+        },
+        "confidence": 0.9936
+    },
+    {
+        "text": "820293571966",
+        "box": {
+            "left": 0.5865,
+            "top": 0.7793,
+            "right": 0.8125,
+            "bottom": 0.8549
+        },
+        "confidence": 0.9948
+    },
+    {
+        "text": "0.09.26 КОд: 202291",
+        "box": {
+            "left": 0.1387,
+            "top": 0.7833,
+            "right": 0.3365,
+            "bottom": 0.8668
+        },
+        "confidence": 0.9112
+    },
+    {
+        "text": "4",
+        "box": {
+            "left": 0.5676,
+            "top": 0.8052,
+            "right": 0.5848,
+            "bottom": 0.8429
+        },
+        "confidence": 0.9981
+    }
+]

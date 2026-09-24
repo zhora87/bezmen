@@ -1,0 +1,212 @@
+[
+    {
+        "text": "05NL)",
+        "box": {
+            "left": 0.222,
+            "top": 0.0014,
+            "right": 0.2884,
+            "bottom": 0.0543
+        },
+        "confidence": 0.6102
+    },
+    {
+        "text": "UA",
+        "box": {
+            "left": 0.8626,
+            "top": 0.0014,
+            "right": 0.9928,
+            "bottom": 0.0332
+        },
+        "confidence": 0.4456
+    },
+    {
+        "text": "EFRUI",
+        "box": {
+            "left": 0.0,
+            "top": 0.096,
+            "right": 0.2448,
+            "bottom": 0.2174
+        },
+        "confidence": 0.9627
+    },
+    {
+        "text": "GRAPEFRU",
+        "box": {
+            "left": 0.2813,
+            "top": 0.0995,
+            "right": 0.707,
+            "bottom": 0.1997
+        },
+        "confidence": 0.9758
+    },
+    {
+        "text": "EP",
+        "box": {
+            "left": 0.4147,
+            "top": 0.1905,
+            "right": 0.6803,
+            "bottom": 0.2491
+        },
+        "confidence": 0.4929
+    },
+    {
+        "text": "E",
+        "box": {
+            "left": 0.2533,
+            "top": 0.199,
+            "right": 0.4427,
+            "bottom": 0.2456
+        },
+        "confidence": 0.5185
+    },
+    {
+        "text": "ТИ",
+        "box": {
+            "left": 0.75,
+            "top": 0.2322,
+            "right": 1.0,
+            "bottom": 0.3225
+        },
+        "confidence": 0.4078
+    },
+    {
+        "text": "UА ПиВО",
+        "box": {
+            "left": 0.1947,
+            "top": 0.4898,
+            "right": 0.4063,
+            "bottom": 0.5526
+        },
+        "confidence": 0.6338
+    },
+    {
+        "text": "ОНОВИ",
+        "box": {
+            "left": 0.9147,
+            "top": 0.4968,
+            "right": 1.0,
+            "bottom": 0.5293
+        },
+        "confidence": 0.7892
+    },
+    {
+        "text": "42",
+        "box": {
+            "left": 0.5124,
+            "top": 0.5145,
+            "right": 0.7396,
+            "bottom": 0.7001
+        },
+        "confidence": 0.9989
+    },
+    {
+        "text": "90",
+        "box": {
+            "left": 0.7168,
+            "top": 0.5187,
+            "right": 0.8346,
+            "bottom": 0.6175
+        },
+        "confidence": 0.9989
+    },
+    {
+        "text": "\"Zibert\"",
+        "box": {
+            "left": 0.2064,
+            "top": 0.5448,
+            "right": 0.3971,
+            "bottom": 0.6048
+        },
+        "confidence": 0.9873
+    },
+    {
+        "text": "Grapefruit",
+        "box": {
+            "left": 0.1842,
+            "top": 0.6041,
+            "right": 0.4251,
+            "bottom": 0.6627
+        },
+        "confidence": 0.9811
+    },
+    {
+        "text": "рпн/",
+        "box": {
+            "left": 0.7363,
+            "top": 0.6083,
+            "right": 0.8092,
+            "bottom": 0.6464
+        },
+        "confidence": 0.5768
+    },
+    {
+        "text": "0,5л",
+        "box": {
+            "left": 0.7428,
+            "top": 0.6394,
+            "right": 0.8008,
+            "bottom": 0.6704
+        },
+        "confidence": 0.7473
+    },
+    {
+        "text": "безалкогольне",
+        "box": {
+            "left": 0.1393,
+            "top": 0.6528,
+            "right": 0.472,
+            "bottom": 0.7184
+        },
+        "confidence": 0.9907
+    },
+    {
+        "text": "0.09.26 КОД:177187 1.24.4",
+        "box": {
+            "left": 0.1393,
+            "top": 0.7869,
+            "right": 0.3887,
+            "bottom": 0.8229
+        },
+        "confidence": 0.9224
+    },
+    {
+        "text": "820193",
+        "box": {
+            "left": 0.5781,
+            "top": 0.7982,
+            "right": 0.6895,
+            "bottom": 0.8335
+        },
+        "confidence": 0.999
+    },
+    {
+        "text": "WWW.ATBMARK",
+        "box": {
+            "left": 0.8887,
+            "top": 0.7982,
+            "right": 1.0,
+            "bottom": 0.8193
+        },
+        "confidence": 0.9409
+    },
+    {
+        "text": "035971",
+        "box": {
+            "left": 0.6862,
+            "top": 0.8038,
+            "right": 0.7936,
+            "bottom": 0.8327
+        },
+        "confidence": 0.9984
+    },
+    {
+        "text": "4",
+        "box": {
+            "left": 0.5553,
+            "top": 0.8066,
+            "right": 0.5677,
+            "bottom": 0.825
+        },
+        "confidence": 0.9993
+    }
+]

@@ -1,0 +1,172 @@
+[
+    {
+        "text": "STICK",
+        "box": {
+            "left": 0.4883,
+            "top": 0.0029,
+            "right": 0.5475,
+            "bottom": 0.0324
+        },
+        "confidence": 0.996
+    },
+    {
+        "text": "3XACTNE",
+        "box": {
+            "left": 0.4401,
+            "top": 0.1386,
+            "right": 0.597,
+            "bottom": 0.2
+        },
+        "confidence": 0.581
+    },
+    {
+        "text": "21159291",
+        "box": {
+            "left": 0.6608,
+            "top": 0.2071,
+            "right": 0.778,
+            "bottom": 0.249
+        },
+        "confidence": 0.9922
+    },
+    {
+        "text": "1174354",
+        "box": {
+            "left": 0.0,
+            "top": 0.2206,
+            "right": 0.112,
+            "bottom": 0.2708
+        },
+        "confidence": 0.8022
+    },
+    {
+        "text": "Дезодорант",
+        "box": {
+            "left": 0.1224,
+            "top": 0.5622,
+            "right": 0.4193,
+            "bottom": 0.6094
+        },
+        "confidence": 0.9037
+    },
+    {
+        "text": "173",
+        "box": {
+            "left": 0.485,
+            "top": 0.5758,
+            "right": 0.7826,
+            "bottom": 0.7209
+        },
+        "confidence": 0.9988
+    },
+    {
+        "text": "00",
+        "box": {
+            "left": 0.7409,
+            "top": 0.5853,
+            "right": 0.8678,
+            "bottom": 0.6708
+        },
+        "confidence": 0.9718
+    },
+    {
+        "text": "Old Spice\"",
+        "box": {
+            "left": 0.1296,
+            "top": 0.5959,
+            "right": 0.4063,
+            "bottom": 0.6543
+        },
+        "confidence": 0.9774
+    },
+    {
+        "text": "Bearglove",
+        "box": {
+            "left": 0.1654,
+            "top": 0.6466,
+            "right": 0.3841,
+            "bottom": 0.695
+        },
+        "confidence": 0.998
+    },
+    {
+        "text": "рпн",
+        "box": {
+            "left": 0.7676,
+            "top": 0.6596,
+            "right": 0.8451,
+            "bottom": 0.6914
+        },
+        "confidence": 0.5361
+    },
+    {
+        "text": "85M",
+        "box": {
+            "left": 0.7682,
+            "top": 0.6832,
+            "right": 0.8411,
+            "bottom": 0.7103
+        },
+        "confidence": 0.7419
+    },
+    {
+        "text": "антиперспірант",
+        "box": {
+            "left": 0.1016,
+            "top": 0.6897,
+            "right": 0.4505,
+            "bottom": 0.7363
+        },
+        "confidence": 0.736
+    },
+    {
+        "text": "CTИK",
+        "box": {
+            "left": 0.2337,
+            "top": 0.731,
+            "right": 0.3255,
+            "bottom": 0.7752
+        },
+        "confidence": 0.762
+    },
+    {
+        "text": "aHT",
+        "box": {
+            "left": 0.9492,
+            "top": 0.7469,
+            "right": 1.0,
+            "bottom": 0.777
+        },
+        "confidence": 0.9343
+    },
+    {
+        "text": "955871",
+        "box": {
+            "left": 0.7142,
+            "top": 0.8271,
+            "right": 0.8288,
+            "bottom": 0.8572
+        },
+        "confidence": 0.9726
+    },
+    {
+        "text": "006540",
+        "box": {
+            "left": 0.5983,
+            "top": 0.8283,
+            "right": 0.7188,
+            "bottom": 0.8614
+        },
+        "confidence": 0.9894
+    },
+    {
+        "text": "15.09.26 КOд: 186400 3.2.1",
+        "box": {
+            "left": 0.1133,
+            "top": 0.8313,
+            "right": 0.3776,
+            "bottom": 0.8602
+        },
+        "confidence": 0.8733
+    }
+]

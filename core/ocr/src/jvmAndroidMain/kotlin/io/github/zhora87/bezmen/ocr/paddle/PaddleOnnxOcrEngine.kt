@@ -54,11 +54,17 @@ class PaddleOnnxOcrEngine(
         }
     }
     private val detector: OrtSession = env.createSession(store.read(Models.DETECTION), options)
-    private val recognizer: OrtSession = env.createSession(store.read(Models.recognitionFor(script)), options)
-    private val decoder: CtcDecoder = CtcDecoder.fromMetadata(
-        recognizer.metadata.customMetadata[DICTIONARY_KEY]
-            ?: error("recognition model has no '$DICTIONARY_KEY' metadata"),
-    )
+    private val recognizer: OrtSession
+    private val decoder: CtcDecoder
+
+    init {
+        val bytes = store.read(Models.recognitionFor(script))
+        recognizer = env.createSession(bytes, options)
+        // Parsed from the file bytes, not via recognizer.metadata: see OnnxMetadata for why.
+        val dictionary = OnnxMetadata.read(bytes, DICTIONARY_KEY)
+            ?: error("recognition model has no '$DICTIONARY_KEY' metadata")
+        decoder = CtcDecoder.fromMetadata(dictionary)
+    }
 
     override suspend fun recognize(image: OcrImage): List<OcrLine> = withContext(Dispatchers.Default) {
         recognize(toRgb(image))

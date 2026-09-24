@@ -1,0 +1,232 @@
+[
+    {
+        "text": "50",
+        "box": {
+            "left": 0.7904,
+            "top": 0.1424,
+            "right": 0.9303,
+            "bottom": 0.3866
+        },
+        "confidence": 0.9995
+    },
+    {
+        "text": "6",
+        "box": {
+            "left": 0.6966,
+            "top": 0.1628,
+            "right": 0.821,
+            "bottom": 0.5407
+        },
+        "confidence": 0.9997
+    },
+    {
+        "text": "озпушувач тиста",
+        "box": {
+            "left": 0.1165,
+            "top": 0.2311,
+            "right": 0.5384,
+            "bottom": 0.3794
+        },
+        "confidence": 0.9457
+    },
+    {
+        "text": "Dr. Oekter",
+        "box": {
+            "left": 0.1888,
+            "top": 0.3605,
+            "right": 0.444,
+            "bottom": 0.4782
+        },
+        "confidence": 0.9598
+    },
+    {
+        "text": "рпн",
+        "box": {
+            "left": 0.8197,
+            "top": 0.3605,
+            "right": 0.8945,
+            "bottom": 0.4448
+        },
+        "confidence": 0.5535
+    },
+    {
+        "text": "10r",
+        "box": {
+            "left": 0.8301,
+            "top": 0.423,
+            "right": 0.8874,
+            "bottom": 0.5
+        },
+        "confidence": 0.9764
+    },
+    {
+        "text": "МОТЬСР",
+        "box": {
+            "left": 0.0072,
+            "top": 0.4637,
+            "right": 0.0521,
+            "bottom": 0.5
+        },
+        "confidence": 0.7287
+    },
+    {
+        "text": "TYOANEE",
+        "box": {
+            "left": 0.0117,
+            "top": 0.4971,
+            "right": 0.0508,
+            "bottom": 0.5262
+        },
+        "confidence": 0.4288
+    },
+    {
+        "text": "МAРKET",
+        "box": {
+            "left": 0.0085,
+            "top": 0.5262,
+            "right": 0.0521,
+            "bottom": 0.5552
+        },
+        "confidence": 0.4623
+    },
+    {
+        "text": "A5 MA",
+        "box": {
+            "left": 0.0065,
+            "top": 0.5509,
+            "right": 0.056,
+            "bottom": 0.5872
+        },
+        "confidence": 0.5328
+    },
+    {
+        "text": "ATOBA",
+        "box": {
+            "left": 0.0039,
+            "top": 0.5814,
+            "right": 0.0436,
+            "bottom": 0.6105
+        },
+        "confidence": 0.687
+    },
+    {
+        "text": "C",
+        "box": {
+            "left": 0.0397,
+            "top": 0.5872,
+            "right": 0.054,
+            "bottom": 0.6003
+        },
+        "confidence": 0.1571
+    },
+    {
+        "text": "MКОM",
+        "box": {
+            "left": 0.0039,
+            "top": 0.6076,
+            "right": 0.0397,
+            "bottom": 0.6366
+        },
+        "confidence": 0.4276
+    },
+    {
+        "text": "3",
+        "box": {
+            "left": 0.043,
+            "top": 0.6105,
+            "right": 0.0586,
+            "bottom": 0.6352
+        },
+        "confidence": 0.3802
+    },
+    {
+        "text": "ААТЬНА",
+        "box": {
+            "left": 0.0033,
+            "top": 0.6323,
+            "right": 0.0592,
+            "bottom": 0.6686
+        },
+        "confidence": 0.5268
+    },
+    {
+        "text": "12.2026P",
+        "box": {
+            "left": 0.0033,
+            "top": 0.6613,
+            "right": 0.0625,
+            "bottom": 0.6977
+        },
+        "confidence": 0.765
+    },
+    {
+        "text": "ПРАВИЛЫ",
+        "box": {
+            "left": 0.0085,
+            "top": 0.6919,
+            "right": 0.0612,
+            "bottom": 0.7209
+        },
+        "confidence": 0.6997
+    },
+    {
+        "text": "HOCTL ATE",
+        "box": {
+            "left": 0.0033,
+            "top": 0.7166,
+            "right": 0.0645,
+            "bottom": 0.7529
+        },
+        "confidence": 0.8258
+    },
+    {
+        "text": "ARKET.OOM",
+        "box": {
+            "left": 0.0052,
+            "top": 0.7456,
+            "right": 0.0638,
+            "bottom": 0.7747
+        },
+        "confidence": 0.8896
+    },
+    {
+        "text": "НО ГАРЯНО",
+        "box": {
+            "left": 0.002,
+            "top": 0.7718,
+            "right": 0.0645,
+            "bottom": 0.8009
+        },
+        "confidence": 0.7894
+    },
+    {
+        "text": "941132002164",
+        "box": {
+            "left": 0.6393,
+            "top": 0.7878,
+            "right": 0.877,
+            "bottom": 0.8721
+        },
+        "confidence": 0.9929
+    },
+    {
+        "text": "8.09.26 Код: 113678 2.11.1",
+        "box": {
+            "left": 0.1263,
+            "top": 0.7936,
+            "right": 0.4147,
+            "bottom": 0.8677
+        },
+        "confidence": 0.9012
+    },
+    {
+        "text": "5",
+        "box": {
+            "left": 0.6126,
+            "top": 0.8169,
+            "right": 0.6263,
+            "bottom": 0.8634
+        },
+        "confidence": 0.9313
+    }
+]

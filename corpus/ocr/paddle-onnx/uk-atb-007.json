@@ -1,0 +1,92 @@
+[
+    {
+        "text": "Цибуля",
+        "box": {
+            "left": 0.2,
+            "top": 0.0833,
+            "right": 0.7538,
+            "bottom": 0.2944
+        },
+        "confidence": 0.9281
+    },
+    {
+        "text": "рпчаста",
+        "box": {
+            "left": 0.1615,
+            "top": 0.1833,
+            "right": 0.7615,
+            "bottom": 0.3778
+        },
+        "confidence": 0.5157
+    },
+    {
+        "text": "перший",
+        "box": {
+            "left": 0.1692,
+            "top": 0.2778,
+            "right": 0.7077,
+            "bottom": 0.4556
+        },
+        "confidence": 0.903
+    },
+    {
+        "text": "гатунок",
+        "box": {
+            "left": 0.1692,
+            "top": 0.3556,
+            "right": 0.6923,
+            "bottom": 0.5389
+        },
+        "confidence": 0.7179
+    },
+    {
+        "text": "україна",
+        "box": {
+            "left": 0.2,
+            "top": 0.4611,
+            "right": 0.6231,
+            "bottom": 0.6278
+        },
+        "confidence": 0.7222
+    },
+    {
+        "text": "tar",
+        "box": {
+            "left": 0.3154,
+            "top": 0.5667,
+            "right": 0.4769,
+            "bottom": 0.6389
+        },
+        "confidence": 0.632
+    },
+    {
+        "text": "17",
+        "box": {
+            "left": 0.0,
+            "top": 0.5778,
+            "right": 0.6231,
+            "bottom": 0.9056
+        },
+        "confidence": 0.9981
+    },
+    {
+        "text": "95",
+        "box": {
+            "left": 0.5462,
+            "top": 0.6778,
+            "right": 0.7538,
+            "bottom": 0.7944
+        },
+        "confidence": 0.9966
+    },
+    {
+        "text": "грн",
+        "box": {
+            "left": 0.5231,
+            "top": 0.85,
+            "right": 0.6923,
+            "bottom": 0.9167
+        },
+        "confidence": 0.2893
+    }
+]

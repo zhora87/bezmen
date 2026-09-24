@@ -1,0 +1,142 @@
+[
+    {
+        "text": "Макаронні",
+        "box": {
+            "left": 0.1172,
+            "top": 0.5175,
+            "right": 0.4258,
+            "bottom": 0.5789
+        },
+        "confidence": 0.8581
+    },
+    {
+        "text": "61",
+        "box": {
+            "left": 0.5221,
+            "top": 0.5345,
+            "right": 0.7559,
+            "bottom": 0.7023
+        },
+        "confidence": 0.9998
+    },
+    {
+        "text": "20",
+        "box": {
+            "left": 0.7513,
+            "top": 0.5374,
+            "right": 0.8763,
+            "bottom": 0.6251
+        },
+        "confidence": 0.9984
+    },
+    {
+        "text": "вироби",
+        "box": {
+            "left": 0.1621,
+            "top": 0.5655,
+            "right": 0.3867,
+            "bottom": 0.6322
+        },
+        "confidence": 0.9885
+    },
+    {
+        "text": "рпн",
+        "box": {
+            "left": 0.7676,
+            "top": 0.6187,
+            "right": 0.8483,
+            "bottom": 0.6544
+        },
+        "confidence": 0.5114
+    },
+    {
+        "text": "\"De",
+        "box": {
+            "left": 0.0833,
+            "top": 0.6216,
+            "right": 0.1992,
+            "bottom": 0.6737
+        },
+        "confidence": 0.994
+    },
+    {
+        "text": "F&G\"",
+        "box": {
+            "left": 0.3184,
+            "top": 0.6216,
+            "right": 0.4583,
+            "bottom": 0.6719
+        },
+        "confidence": 0.9298
+    },
+    {
+        "text": "Luxe",
+        "box": {
+            "left": 0.1816,
+            "top": 0.6263,
+            "right": 0.3255,
+            "bottom": 0.6719
+        },
+        "confidence": 0.9991
+    },
+    {
+        "text": "0,5μr",
+        "box": {
+            "left": 0.7734,
+            "top": 0.648,
+            "right": 0.8464,
+            "bottom": 0.676
+        },
+        "confidence": 0.6814
+    },
+    {
+        "text": "Cпагеті",
+        "box": {
+            "left": 0.1803,
+            "top": 0.6719,
+            "right": 0.3737,
+            "bottom": 0.724
+        },
+        "confidence": 0.6941
+    },
+    {
+        "text": "8.09.26 Код: 71224 2.7.2",
+        "box": {
+            "left": 0.0742,
+            "top": 0.8029,
+            "right": 0.3451,
+            "bottom": 0.8363
+        },
+        "confidence": 0.9002
+    },
+    {
+        "text": "1716",
+        "box": {
+            "left": 0.6992,
+            "top": 0.8064,
+            "right": 0.8092,
+            "bottom": 0.8333
+        },
+        "confidence": 0.7774
+    },
+    {
+        "text": "63",
+        "box": {
+            "left": 0.612,
+            "top": 0.8094,
+            "right": 0.6849,
+            "bottom": 0.8363
+        },
+        "confidence": 0.9968
+    },
+    {
+        "text": "2",
+        "box": {
+            "left": 0.6738,
+            "top": 0.8117,
+            "right": 0.6992,
+            "bottom": 0.8304
+        },
+        "confidence": 0.9452
+    }
+]

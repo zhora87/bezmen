@@ -1,0 +1,102 @@
+[
+    {
+        "text": "25",
+        "box": {
+            "left": 0.0925,
+            "top": 0.0333,
+            "right": 0.1463,
+            "bottom": 0.0625
+        },
+        "confidence": 0.9533
+    },
+    {
+        "text": "19:0320",
+        "box": {
+            "left": 0.6597,
+            "top": 0.0396,
+            "right": 0.7821,
+            "bottom": 0.0729
+        },
+        "confidence": 0.8404
+    },
+    {
+        "text": "Буряк",
+        "box": {
+            "left": 0.2687,
+            "top": 0.1583,
+            "right": 0.6179,
+            "bottom": 0.2688
+        },
+        "confidence": 0.9506
+    },
+    {
+        "text": "перший",
+        "box": {
+            "left": 0.203,
+            "top": 0.2438,
+            "right": 0.6269,
+            "bottom": 0.3479
+        },
+        "confidence": 0.9904
+    },
+    {
+        "text": "ґатунок",
+        "box": {
+            "left": 0.2119,
+            "top": 0.3229,
+            "right": 0.6418,
+            "bottom": 0.4292
+        },
+        "confidence": 0.9382
+    },
+    {
+        "text": "Україна",
+        "box": {
+            "left": 0.2507,
+            "top": 0.4688,
+            "right": 0.5881,
+            "bottom": 0.5604
+        },
+        "confidence": 0.9083
+    },
+    {
+        "text": "1 KГ",
+        "box": {
+            "left": 0.3313,
+            "top": 0.5375,
+            "right": 0.5015,
+            "bottom": 0.6146
+        },
+        "confidence": 0.645
+    },
+    {
+        "text": "8",
+        "box": {
+            "left": 0.1791,
+            "top": 0.6104,
+            "right": 0.4896,
+            "bottom": 0.9042
+        },
+        "confidence": 0.999
+    },
+    {
+        "text": "35",
+        "box": {
+            "left": 0.597,
+            "top": 0.6188,
+            "right": 0.7701,
+            "bottom": 0.725
+        },
+        "confidence": 0.9996
+    },
+    {
+        "text": "грн.",
+        "box": {
+            "left": 0.5761,
+            "top": 0.8125,
+            "right": 0.7522,
+            "bottom": 0.8875
+        },
+        "confidence": 0.9272
+    }
+]

@@ -62,8 +62,14 @@ jobs:
       - name: Parser accuracy on the synthetic corpus
         run: ./gradlew :tools:parser-cli:run --no-daemon --args="corpus --engine synthetic --verbose --min-accuracy 1.0"
 
-      - name: Parser accuracy on real OCR dumps (regression floor, raised as the corpus grows)
-        run: ./gradlew :tools:parser-cli:run --no-daemon --args="corpus --engine rapidocr --verbose --min-accuracy 0.65"
+      - name: Parser accuracy on the shipped engine's OCR dumps (end-to-end target)
+        run: ./gradlew :tools:parser-cli:run --no-daemon --args="corpus --engine paddle-onnx --verbose --min-accuracy 0.85"
+
+      - name: Parser accuracy on RapidOCR dumps (second opinion, regression floor)
+        run: ./gradlew :tools:parser-cli:run --no-daemon --args="corpus --engine rapidocr --min-accuracy 0.70"
+
+      - name: Coverage of core/domain (80% lines)
+        run: ./gradlew :core:domain:koverVerify --no-daemon
 
       - name: Upload debug APKs (main only)
         if: success() && github.ref == 'refs/heads/main'

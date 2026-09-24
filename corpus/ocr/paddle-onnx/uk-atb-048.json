@@ -1,0 +1,162 @@
+[
+    {
+        "text": "X",
+        "box": {
+            "left": 0.6694,
+            "top": 0.0093,
+            "right": 0.7782,
+            "bottom": 0.1135
+        },
+        "confidence": 0.3715
+    },
+    {
+        "text": "Макаронні",
+        "box": {
+            "left": 0.5679,
+            "top": 0.1376,
+            "right": 0.7717,
+            "bottom": 0.196
+        },
+        "confidence": 0.8917
+    },
+    {
+        "text": "вироби довг",
+        "box": {
+            "left": 0.545,
+            "top": 0.182,
+            "right": 0.7758,
+            "bottom": 0.2418
+        },
+        "confidence": 0.992
+    },
+    {
+        "text": "400р(g)e",
+        "box": {
+            "left": 0.5385,
+            "top": 0.2356,
+            "right": 0.8535,
+            "bottom": 0.3258
+        },
+        "confidence": 0.8224
+    },
+    {
+        "text": "Макаронні",
+        "box": {
+            "left": 0.1097,
+            "top": 0.5482,
+            "right": 0.3781,
+            "bottom": 0.6034
+        },
+        "confidence": 0.8385
+    },
+    {
+        "text": "47",
+        "box": {
+            "left": 0.4853,
+            "top": 0.5739,
+            "right": 0.7169,
+            "bottom": 0.7387
+        },
+        "confidence": 0.9996
+    },
+    {
+        "text": "50",
+        "box": {
+            "left": 0.6939,
+            "top": 0.5762,
+            "right": 0.82,
+            "bottom": 0.6711
+        },
+        "confidence": 0.9993
+    },
+    {
+        "text": "вироби",
+        "box": {
+            "left": 0.1506,
+            "top": 0.5918,
+            "right": 0.3429,
+            "bottom": 0.6477
+        },
+        "confidence": 0.9829
+    },
+    {
+        "text": "\"Своя Лінія\"",
+        "box": {
+            "left": 0.1047,
+            "top": 0.6322,
+            "right": 0.3985,
+            "bottom": 0.6897
+        },
+        "confidence": 0.9051
+    },
+    {
+        "text": "рпн/",
+        "box": {
+            "left": 0.7169,
+            "top": 0.6571,
+            "right": 0.793,
+            "bottom": 0.6936
+        },
+        "confidence": 0.661
+    },
+    {
+        "text": "Casa della pasta",
+        "box": {
+            "left": 0.0917,
+            "top": 0.682,
+            "right": 0.4239,
+            "bottom": 0.7325
+        },
+        "confidence": 0.9964
+    },
+    {
+        "text": "400г",
+        "box": {
+            "left": 0.7218,
+            "top": 0.6843,
+            "right": 0.7864,
+            "bottom": 0.7123
+        },
+        "confidence": 0.869
+    },
+    {
+        "text": "Cпаreті",
+        "box": {
+            "left": 0.1809,
+            "top": 0.7271,
+            "right": 0.3412,
+            "bottom": 0.7691
+        },
+        "confidence": 0.597
+    },
+    {
+        "text": "999200014376",
+        "box": {
+            "left": 0.5499,
+            "top": 0.8243,
+            "right": 0.7823,
+            "bottom": 0.8561
+        },
+        "confidence": 0.9946
+    },
+    {
+        "text": "8.09.26 КОд:150534 3.6.1",
+        "box": {
+            "left": 0.0859,
+            "top": 0.8274,
+            "right": 0.3445,
+            "bottom": 0.8593
+        },
+        "confidence": 0.9134
+    },
+    {
+        "text": "2",
+        "box": {
+            "left": 0.5336,
+            "top": 0.832,
+            "right": 0.5556,
+            "bottom": 0.8538
+        },
+        "confidence": 0.9987
+    }
+]

@@ -51,8 +51,32 @@ class CtcDecoderTest {
     @Test
     fun `metadata dictionary is split by newline`() {
         val d = CtcDecoder.fromMetadata("a\nb\n")
-        val steps = listOf(step(1, 0.8f), step(2, 0.8f), step(3, 0.8f))
+        val flat = listOf(1, 2).flatMap { best -> List(4) { if (it == best) 0.8f else 0.05f } }.toFloatArray()
 
-        assertEquals("ab", d.decode(steps.flatMap { it.asList() }.toFloatArray(), steps.size, classes).text)
+        assertEquals("ab", d.decode(flat, 2, 4).text)
+    }
+
+    @Test
+    fun `class after the last dictionary entry is the implicit space`() {
+        // PaddleOCR appends a space class after the dictionary; the metadata string may have no trailing newline.
+        val d = CtcDecoder.fromMetadata("a\nb")
+        val flat = listOf(1, 3, 2).flatMap { best -> List(4) { if (it == best) 0.9f else 0.03f } }.toFloatArray()
+
+        assertEquals("a b", d.decode(flat, 3, 4).text)
+    }
+
+    @Test
+    fun `trailing newline in metadata does not add a second space class`() {
+        val d = CtcDecoder.fromMetadata("a\nb\n")
+        val flat = listOf(1, 3, 2).flatMap { best -> List(4) { if (it == best) 0.9f else 0.03f } }.toFloatArray()
+
+        assertEquals("a b", d.decode(flat, 3, 4).text)
+    }
+
+    @Test
+    fun `class count that does not match the dictionary fails loudly`() {
+        val d = CtcDecoder.fromMetadata("a\nb")
+
+        kotlin.test.assertFailsWith<IllegalStateException> { d.decode(FloatArray(10), 2, 5) }
     }
 }
