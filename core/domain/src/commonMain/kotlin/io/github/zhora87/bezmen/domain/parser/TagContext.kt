@@ -9,7 +9,7 @@ internal class TagContext(
     val lines: List<OcrLine>,
     val normalized: List<String>,
     val tokens: List<List<Token>>,
-    pack: LocalePack,
+    val pack: LocalePack,
 ) {
     /** Lower-cased and script-folded copy of every line, for marker matching only. */
     val lower: List<String> = normalized.map { ScriptFolding.fold(it.lowercase(), pack.script) }

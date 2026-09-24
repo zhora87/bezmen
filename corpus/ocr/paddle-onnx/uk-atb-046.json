@@ -7,7 +7,7 @@
             "right": 0.3216,
             "bottom": 0.0699
         },
-        "confidence": 0.9436
+        "confidence": 0.9411
     },
     {
         "text": "ЛАЗАНЫ",
@@ -17,7 +17,7 @@
             "right": 0.5078,
             "bottom": 0.1636
         },
-        "confidence": 0.9923
+        "confidence": 0.9928
     },
     {
         "text": "R",
@@ -27,7 +27,7 @@
             "right": 0.084,
             "bottom": 0.1499
         },
-        "confidence": 0.2529
+        "confidence": 0.2545
     },
     {
         "text": "M",
@@ -37,17 +37,17 @@
             "right": 1.0,
             "bottom": 0.2096
         },
-        "confidence": 0.9762
+        "confidence": 0.9779
     },
     {
-        "text": "акаоонні ви оби",
+        "text": "акаронні ви оби",
         "box": {
             "left": 0.0,
             "top": 0.169,
             "right": 0.4857,
             "bottom": 0.2585
         },
-        "confidence": 0.8813
+        "confidence": 0.9131
     },
     {
         "text": "KP",
@@ -117,7 +117,7 @@
             "right": 0.6706,
             "bottom": 0.7343
         },
-        "confidence": 0.9997
+        "confidence": 0.9998
     },
     {
         "text": "70",
@@ -177,7 +177,7 @@
             "right": 0.4141,
             "bottom": 0.7439
         },
-        "confidence": 0.9493
+        "confidence": 0.951
     },
     {
         "text": "8.09.26 K:873152.6.2",

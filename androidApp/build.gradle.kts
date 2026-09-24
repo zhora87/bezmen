@@ -11,7 +11,15 @@ dependencies {
     implementation(projects.ui)
     implementation(projects.core.domain)
     implementation(projects.core.ocr)
+    implementation(libs.onnxruntime.android) // the view model tells model errors apart (OrtException)
     implementation(libs.androidx.activity.compose)
+    implementation(libs.androidx.lifecycle.viewmodel.compose)
+    implementation(libs.androidx.lifecycle.livedata.core)
+    implementation(libs.androidx.camera.core)
+    implementation(libs.androidx.camera.camera2)
+    implementation(libs.androidx.camera.lifecycle)
+    implementation(libs.androidx.camera.view)
+    implementation(libs.kotlinx.coroutines.core)
     implementation(libs.compose.runtime)
     implementation(libs.compose.foundation)
     implementation(libs.compose.material3)
@@ -20,7 +28,6 @@ dependencies {
     androidTestImplementation(libs.androidx.test.runner)
     androidTestImplementation(libs.androidx.test.ext.junit)
     androidTestImplementation(libs.kotlinx.coroutines.core)
-    androidTestImplementation(libs.onnxruntime.android) // the HardSwish probe talks to ONNX Runtime directly
 }
 
 android {
@@ -156,11 +163,43 @@ val prepareDeviceCorpus = tasks.register<PrepareDeviceCorpusTask>("prepareDevice
     outputDir.set(layout.buildDirectory.dir("deviceCorpus"))
 }
 
+/** Copies the JSON locale packs (without the schema) into assets/locale-packs/ of the app. */
+abstract class PackLocalePacksTask : DefaultTask() {
+    @get:InputFiles
+    @get:PathSensitive(PathSensitivity.RELATIVE)
+    abstract val packs: ConfigurableFileCollection
+
+    @get:OutputDirectory
+    abstract val outputDir: DirectoryProperty
+
+    @get:Inject
+    abstract val fs: FileSystemOperations
+
+    @TaskAction
+    fun pack() {
+        fs.sync {
+            into(outputDir)
+            from(packs) { into("locale-packs") }
+        }
+    }
+}
+
+val packLocalePacks = tasks.register<PackLocalePacksTask>("packLocalePacks") {
+    val jsonPacks = fileTree(rootProject.file("locale-packs")) {
+        include("*.json")
+        exclude("schema.json")
+    }
+    packs.from(jsonPacks)
+    outputDir.set(layout.buildDirectory.dir("localePacks"))
+}
+
 androidComponents {
     onVariants { variant ->
         // OCR models are fetched by :fetchModels (models.lock) and packed as assets/models/*.onnx.
         val fetchModels = rootProject.tasks.named("fetchModels", FetchModelsTask::class.java)
         variant.sources.assets?.addGeneratedSourceDirectory(fetchModels, FetchModelsTask::outputDir)
+        // Locale packs ship as assets/locale-packs/*.json.
+        variant.sources.assets?.addGeneratedSourceDirectory(packLocalePacks, PackLocalePacksTask::outputDir)
         variant.androidTest?.sources?.assets?.addGeneratedSourceDirectory(
             prepareDeviceCorpus,
             PrepareDeviceCorpusTask::outputDir,

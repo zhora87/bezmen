@@ -17,17 +17,17 @@
             "right": 0.4805,
             "bottom": 0.129
         },
-        "confidence": 0.4922
+        "confidence": 0.5027
     },
     {
-        "text": "ИМОННА",
+        "text": "АМОННА",
         "box": {
             "left": 0.227,
             "top": 0.0918,
             "right": 0.4871,
             "bottom": 0.1572
         },
-        "confidence": 0.6105
+        "confidence": 0.6219
     },
     {
         "text": "харчова",
@@ -57,7 +57,7 @@
             "right": 0.8458,
             "bottom": 0.6803
         },
-        "confidence": 0.9986
+        "confidence": 0.9985
     },
     {
         "text": "Киcлоталимонна",

@@ -26,6 +26,8 @@ internal class MarkerDetector(
         val markerLines: Set<Int>,
         /** The tag says the goods are sold by weight ("ваговий"). */
         val weightedByMarker: Boolean,
+        /** Lines holding a weighted-goods label or an article code: never part of the name. */
+        val labelLines: Set<Int> = emptySet(),
     )
 
     /** One line that contained a unit-price marker. */
@@ -65,6 +67,10 @@ internal class MarkerDetector(
             weightedReference = reference,
             markerLines = outcomes.map { it.line }.toSet(),
             weightedByMarker = ctx.lower.any { text -> weighted.any(text::contains) },
+            labelLines = ctx.lines.indices.filter { line ->
+                val text = ctx.lower[line]
+                weighted.any(text::contains) || codes.any(text::contains)
+            }.toSet(),
         )
     }
 

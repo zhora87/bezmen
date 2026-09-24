@@ -7,7 +7,7 @@
             "right": 0.2878,
             "bottom": 0.2287
         },
-        "confidence": 0.6764
+        "confidence": 0.7292
     },
     {
         "text": "5",
@@ -57,7 +57,7 @@
             "right": 0.9082,
             "bottom": 0.6507
         },
-        "confidence": 0.9996
+        "confidence": 0.9997
     },
     {
         "text": "вироби",
@@ -70,14 +70,14 @@
         "confidence": 0.9907
     },
     {
-        "text": "\"День у День\"",
+        "text": "\"День у День",
         "box": {
             "left": 0.25,
             "top": 0.6387,
             "right": 0.5592,
             "bottom": 0.7085
         },
-        "confidence": 0.9245
+        "confidence": 0.9699
     },
     {
         "text": "рпн/",

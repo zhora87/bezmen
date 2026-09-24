@@ -80,14 +80,14 @@
         "confidence": 0.9605
     },
     {
-        "text": "са",
+        "text": "кса",
         "box": {
             "left": 0.3145,
             "top": 0.1063,
             "right": 0.5098,
             "bottom": 0.1821
         },
-        "confidence": 0.3328
+        "confidence": 0.3387
     },
     {
         "text": "0r(g)",
@@ -107,7 +107,7 @@
             "right": 0.513,
             "bottom": 0.2648
         },
-        "confidence": 0.6575
+        "confidence": 0.6899
     },
     {
         "text": "0r(g)",
@@ -177,7 +177,7 @@
             "right": 0.877,
             "bottom": 0.683
         },
-        "confidence": 0.9979
+        "confidence": 0.9978
     },
     {
         "text": "соняшникова",

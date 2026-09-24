@@ -17,6 +17,8 @@ kotlin {
         }
         // Wires commonTest into an Android host (JVM) test compilation; UI logic tests land in phase 3.
         withHostTestBuilder {}
+        // Compose resources (strings) are packed through Android resources; off by default for KMP libraries.
+        androidResources.enable = true
     }
 
     sourceSets {
@@ -26,9 +28,17 @@ kotlin {
             implementation(libs.compose.foundation)
             implementation(libs.compose.material3)
             implementation(libs.compose.ui)
+            implementation(libs.compose.resources)
+            implementation(libs.kotlinx.coroutines.core)
         }
         commonTest.dependencies {
             implementation(kotlin("test"))
+            implementation(libs.kotlinx.coroutines.test)
         }
     }
+}
+
+compose.resources {
+    packageOfResClass = "io.github.zhora87.bezmen.ui.resources"
+    publicResClass = false
 }

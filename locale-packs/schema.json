@@ -163,6 +163,14 @@
         "minLength": 1
       },
       "description": "Labels of article codes; nothing on such a line is a price or quantity."
+    },
+    "labelWords": {
+      "type": "array",
+      "items": {
+        "type": "string",
+        "minLength": 1
+      },
+      "description": "Service words printed on tags (price labels, the chain's name); a line made only of them is never the product name."
     }
   }
 }

@@ -1,0 +1,39 @@
+<?xml version="1.0" encoding="utf-8"?>
+<resources>
+    <string name="status_loading">Готовлю распознавание…</string>
+    <string name="status_ready">Наведите рамку на ценник</string>
+    <string name="status_recognizing">Распознаю…</string>
+    <string name="status_blurry">Снимок размыт. Держите телефон ровнее и снимите ещё раз</string>
+    <string name="status_nothing">Цену не нашёл. Наведите рамку на ценник целиком</string>
+    <string name="error_camera">Камера не ответила. Попробуйте ещё раз</string>
+    <string name="error_models">Не удалось загрузить распознавание. Переустановите приложение</string>
+    <string name="action_shoot">Снять ценник</string>
+    <string name="action_retake">Переснять</string>
+    <string name="action_retry">Повторить</string>
+
+    <string name="result_per">за %1$s %2$s</string>
+    <string name="result_need_quantity">Укажите количество, чтобы посчитать цену за единицу</string>
+    <string name="result_need_price">Укажите цену</string>
+    <string name="result_check">Проверьте цену и количество: распознавание не уверено</string>
+    <string name="result_weighted">Весовой товар: цена указана за %1$s %2$s</string>
+    <string name="result_old_price">Старая цена: %1$s</string>
+    <string name="field_name">Название</string>
+    <string name="field_price">Цена</string>
+    <string name="field_quantity">Количество</string>
+
+    <string name="permission_title">Нужна камера</string>
+    <string name="permission_text">Безмен снимает ценник и считает цену за 100 г, 100 мл или штуку. Фото никуда не отправляются: распознавание работает на телефоне, у приложения нет доступа в интернет.</string>
+    <string name="permission_grant">Разрешить камеру</string>
+    <string name="permission_settings">Открыть настройки</string>
+
+    <string name="unit_mg">мг</string>
+    <string name="unit_g">г</string>
+    <string name="unit_kg">кг</string>
+    <string name="unit_lb">фунт</string>
+    <string name="unit_ml">мл</string>
+    <string name="unit_cl">сл</string>
+    <string name="unit_l">л</string>
+    <string name="unit_pc">шт</string>
+    <string name="unit_pair">пар</string>
+    <string name="unit_dozen">дюж</string>
+</resources>

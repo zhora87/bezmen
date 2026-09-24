@@ -77,7 +77,7 @@
             "right": 0.6711,
             "bottom": 0.3655
         },
-        "confidence": 0.9139
+        "confidence": 0.8873
     },
     {
         "text": "10",
@@ -87,7 +87,7 @@
             "right": 0.8231,
             "bottom": 0.38
         },
-        "confidence": 0.9955
+        "confidence": 0.9957
     },
     {
         "text": "%",
@@ -157,7 +157,7 @@
             "right": 0.7983,
             "bottom": 0.6912
         },
-        "confidence": 0.9981
+        "confidence": 0.9978
     },
     {
         "text": "Energy/",
@@ -227,7 +227,7 @@
             "right": 0.5346,
             "bottom": 0.737
         },
-        "confidence": 0.945
+        "confidence": 0.9412
     },
     {
         "text": "Ice",
@@ -257,7 +257,7 @@
             "right": 0.6012,
             "bottom": 0.8347
         },
-        "confidence": 0.8319
+        "confidence": 0.8282
     },
     {
         "text": "S",

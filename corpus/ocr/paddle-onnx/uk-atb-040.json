@@ -1,13 +1,13 @@
 [
     {
-        "text": "АNЦЯ",
+        "text": "АКЦЯ",
         "box": {
             "left": 0.1406,
             "top": 0.0,
             "right": 0.7208,
             "bottom": 0.1722
         },
-        "confidence": 0.5883
+        "confidence": 0.5858
     },
     {
         "text": "U",
@@ -57,7 +57,7 @@
             "right": 0.6518,
             "bottom": 0.4467
         },
-        "confidence": 0.9941
+        "confidence": 0.9939
     },
     {
         "text": "UA",
@@ -87,7 +87,7 @@
             "right": 0.501,
             "bottom": 0.5211
         },
-        "confidence": 0.9737
+        "confidence": 0.9762
     },
     {
         "text": "лінія\"",
@@ -160,6 +160,16 @@
         "confidence": 0.1679
     },
     {
+        "text": "!",
+        "box": {
+            "left": 0.0169,
+            "top": 0.6022,
+            "right": 0.0426,
+            "bottom": 0.8178
+        },
+        "confidence": 0.6025
+    },
+    {
         "text": "65",
         "box": {
             "left": 0.3773,
@@ -167,7 +177,7 @@
             "right": 0.5632,
             "bottom": 0.8522
         },
-        "confidence": 0.9998
+        "confidence": 0.9999
     },
     {
         "text": "50",
@@ -180,14 +190,14 @@
         "confidence": 0.9999
     },
     {
-        "text": "8290",
+        "text": "8200",
         "box": {
             "left": 0.0554,
             "top": 0.66,
             "right": 0.2759,
             "bottom": 0.84
         },
-        "confidence": 0.7819
+        "confidence": 0.6979
     },
     {
         "text": "рпн/",

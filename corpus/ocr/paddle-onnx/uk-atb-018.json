@@ -17,7 +17,7 @@
             "right": 0.4336,
             "bottom": 0.3453
         },
-        "confidence": 0.9871
+        "confidence": 0.9869
     },
     {
         "text": "90",
@@ -27,7 +27,7 @@
             "right": 0.9844,
             "bottom": 0.4316
         },
-        "confidence": 0.9988
+        "confidence": 0.999
     },
     {
         "text": "\"Миколаївхліб\"",
@@ -37,7 +37,7 @@
             "right": 0.5521,
             "bottom": 0.4714
         },
-        "confidence": 0.9417
+        "confidence": 0.9355
     },
     {
         "text": "рпн",
@@ -50,14 +50,14 @@
         "confidence": 0.5411
     },
     {
-        "text": "3ryщене",
+        "text": "3rущене",
         "box": {
             "left": 0.071,
             "top": 0.4502,
             "right": 0.3229,
             "bottom": 0.587
         },
-        "confidence": 0.6532
+        "confidence": 0.6597
     },
     {
         "text": "МОЛОКО",

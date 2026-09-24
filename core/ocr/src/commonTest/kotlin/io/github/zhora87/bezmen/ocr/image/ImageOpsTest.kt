@@ -67,4 +67,15 @@ class ImageOpsTest {
         assertEquals(RgbImage.green(p), RgbImage.blue(p))
         assertEquals(130, RgbImage.red(p), "expected mid grey, got ${RgbImage.red(p)}") // (128-16)*1192>>10
     }
+
+    @Test
+    fun `strong downscale averages fine stripes instead of aliasing them`() {
+        // One-pixel black and white stripes shrunk 3x must come out grey, not black or white.
+        val src = image(300, 6) { x, _ -> if (x % 2 == 0) 0 else RgbImage.rgb(255, 255, 255) }
+
+        val out = ImageOps.resize(src, 100, 2)
+
+        val values = (0 until out.width).map { RgbImage.red(out[it, 0]) }
+        kotlin.test.assertTrue(values.all { it in 60..195 }, "not averaged: ${values.distinct()}")
+    }
 }

@@ -17,7 +17,7 @@
             "right": 0.7763,
             "bottom": 0.2812
         },
-        "confidence": 0.684
+        "confidence": 0.6739
     },
     {
         "text": "Код:27205",
@@ -47,7 +47,7 @@
             "right": 0.7895,
             "bottom": 0.3863
         },
-        "confidence": 0.9809
+        "confidence": 0.9155
     },
     {
         "text": "3нижка",
@@ -67,7 +67,7 @@
             "right": 0.8142,
             "bottom": 0.511
         },
-        "confidence": 0.9039
+        "confidence": 0.8959
     },
     {
         "text": "36%",
@@ -77,7 +77,7 @@
             "right": 0.3793,
             "bottom": 0.599
         },
-        "confidence": 0.9977
+        "confidence": 0.9972
     },
     {
         "text": "світле",
@@ -97,7 +97,7 @@
             "right": 0.7601,
             "bottom": 0.8374
         },
-        "confidence": 0.9993
+        "confidence": 0.9994
     },
     {
         "text": "90",
@@ -110,14 +110,14 @@
         "confidence": 0.999
     },
     {
-        "text": "4850",
+        "text": "486",
         "box": {
             "left": 0.1385,
             "top": 0.6039,
             "right": 0.4118,
             "bottom": 0.8374
         },
-        "confidence": 0.7086
+        "confidence": 0.7537
     },
     {
         "text": "рпн/",

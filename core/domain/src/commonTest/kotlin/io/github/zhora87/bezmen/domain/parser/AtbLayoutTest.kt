@@ -300,6 +300,45 @@ class AtbLayoutTest {
         assertNull(tag?.oldPrice, "the percentage under \"Знижка\" is not a former price")
     }
 
+    /** An orange discount tag: date, article code and the discount block sit left of and above the name. */
+    @Test
+    fun `article code and dates are never the product name`() {
+        val tag = uk.parse(
+            listOf(
+                OcrLine("Код:128718", Box(0.12f, 0.15f, 0.29f, 0.21f), 0.9f),
+                OcrLine("21.09.25", Box(0.01f, 0.15f, 0.12f, 0.21f), 0.99f),
+                OcrLine("Macno", Box(0.54f, 0.16f, 0.74f, 0.27f), 0.66f),
+                OcrLine("\"Білоцерківське\"", Box(0.38f, 0.27f, 0.89f, 0.40f), 0.97f),
+                OcrLine("-50", Box(0.06f, 0.31f, 0.23f, 0.49f), 1f),
+                OcrLine("солодковершкове", Box(0.38f, 0.40f, 0.89f, 0.51f), 0.98f),
+                OcrLine("27.09.25p", Box(0.07f, 0.56f, 0.25f, 0.64f), 0.98f),
+                OcrLine("99", Box(0.47f, 0.57f, 0.71f, 0.88f), 1f),
+                OcrLine("90", Box(0.68f, 0.60f, 0.81f, 0.76f), 1f),
+                OcrLine("рпн/", Box(0.70f, 0.74f, 0.79f, 0.82f), 0.5f),
+                OcrLine("180 г", Box(0.70f, 0.79f, 0.79f, 0.86f), 0.82f),
+            ),
+        ).tagOrNull()
+
+        assertEquals("Macno \"Білоцерківське\" солодковершкове", tag?.name?.value)
+    }
+
+    @Test
+    fun `tag labels, a lone currency and weighted labels are never the product name`() {
+        val tag = uk.parse(
+            listOf(
+                line("цей товар ваговий- вартисть вказана за100", 0.00f, 0.13f),
+                OcrLine("ЦИНА", Box(0.51f, 0.14f, 0.65f, 0.25f), 0.68f),
+                OcrLine("при скануванні", Box(0.14f, 0.14f, 0.48f, 0.24f), 0.96f),
+                OcrLine("ррн", Box(0.67f, 0.26f, 0.72f, 0.30f), 0.6f),
+                line("Вироби фаршеві", 0.44f, 0.13f, left = 0.21f, right = 0.58f),
+                OcrLine("23", Box(0.69f, 0.66f, 0.81f, 0.85f), 1f),
+                OcrLine("88", Box(0.80f, 0.67f, 0.86f, 0.77f), 0.99f),
+            ),
+        ).tagOrNull()
+
+        assertEquals("Вироби фаршеві", tag?.name?.value)
+    }
+
     private fun ParseResult.tagOrNull() = when (this) {
         is ParseResult.Success -> tag
         is ParseResult.NeedsInput -> tag

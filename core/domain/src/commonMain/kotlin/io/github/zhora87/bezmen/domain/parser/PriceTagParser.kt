@@ -132,12 +132,14 @@ private object NameDetector {
     private const val NAME_CONFIDENCE = 0.5f
     private const val GAP_FACTOR = 0.6f
     private const val HEIGHT_RATIO = 1.5f
+    private const val EDGE = 0.005f
     private val SPACES = Regex("\\s+")
 
     fun detect(ctx: TagContext, markers: MarkerDetector.Result, quantity: QuantityCandidate?): Field<String>? {
+        val excluded = markers.markerLines + markers.labelLines
         val candidates = ctx.lines.indices
-            .filter { ctx.lines[it].box.top < MAX_TOP && it !in markers.markerLines && !markers.flags[it].any }
-            .filter { ctx.normalized[it].count(Char::isLetter) >= MIN_LETTERS }
+            .filter { ctx.lines[it].box.top < MAX_TOP && it !in excluded && !markers.flags[it].any }
+            .filter { isWordy(ctx.normalized[it]) && !onlyLabelWords(ctx, it) && !cutByEdge(ctx.lines[it].box) }
             .sortedBy { ctx.lines[it].box.top }
         val first = candidates.firstOrNull() ?: return null
         val chosen = mutableListOf(first)
@@ -149,6 +151,21 @@ private object NameDetector {
         if (text.isEmpty()) return null
         val confidence = NAME_CONFIDENCE * chosen.map(ctx::confidence).average().toFloat()
         return Field(text, confidence, emptyList(), chosen)
+    }
+
+    /** "ЦІНА", "при", "АТБ", a lone "грн": the tag's own labels and currency. */
+    private fun onlyLabelWords(ctx: TagContext, line: Int): Boolean {
+        val words = ctx.tokens[line].filter { it.kind == TokenKind.CURRENCY || it.text.any(Char::isLetter) }
+        return words.isNotEmpty() && words.all { it.kind == TokenKind.CURRENCY || ctx.pack.isLabelWord(it.text) }
+    }
+
+    /** Text running into the left or right edge of the frame is packaging behind the tag. */
+    private fun cutByEdge(box: Box): Boolean = box.left <= EDGE || box.right >= 1f - EDGE
+
+    /** Enough letters, and more letters than digits: "Код: 128718", dates and barcodes are not names. */
+    private fun isWordy(text: String): Boolean {
+        val letters = text.count(Char::isLetter)
+        return letters >= MIN_LETTERS && letters > text.count(Char::isDigit)
     }
 
     private fun continues(ctx: TagContext, previous: Int, next: Int): Boolean {

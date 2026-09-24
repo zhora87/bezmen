@@ -1,47 +1,16 @@
 package io.github.zhora87.bezmen.ocr.image
 
-import kotlin.math.roundToInt
-
 /** Pure-Kotlin image operations: enough for OCR preprocessing, no platform bitmaps involved. */
 object ImageOps {
     private const val BYTE_MAX = 255
     private const val MAX_BYTE_F = 255f
     private const val CHANNELS = 3
 
-    /** Bilinear resize. */
-    fun resize(src: RgbImage, width: Int, height: Int): RgbImage {
-        if (width == src.width && height == src.height) return src
-        val out = IntArray(width * height)
-        val scaleX = src.width.toFloat() / width
-        val scaleY = src.height.toFloat() / height
-        for (y in 0 until height) {
-            val sy = ((y + HALF) * scaleY - HALF).coerceIn(0f, (src.height - 1).toFloat())
-            val y0 = sy.toInt()
-            val y1 = minOf(y0 + 1, src.height - 1)
-            val fy = sy - y0
-            for (x in 0 until width) {
-                val sx = ((x + HALF) * scaleX - HALF).coerceIn(0f, (src.width - 1).toFloat())
-                val x0 = sx.toInt()
-                val x1 = minOf(x0 + 1, src.width - 1)
-                val fx = sx - x0
-                out[y * width + x] = blend(src[x0, y0], src[x1, y0], src[x0, y1], src[x1, y1], fx, fy)
-            }
-        }
-        return RgbImage(width, height, out)
-    }
-
-    private fun blend(p00: Int, p10: Int, p01: Int, p11: Int, fx: Float, fy: Float): Int {
-        fun channel(shift: Int): Int {
-            val c00 = (p00 shr shift) and BYTE_MAX
-            val c10 = (p10 shr shift) and BYTE_MAX
-            val c01 = (p01 shr shift) and BYTE_MAX
-            val c11 = (p11 shr shift) and BYTE_MAX
-            val top = c00 + (c10 - c00) * fx
-            val bottom = c01 + (c11 - c01) * fx
-            return (top + (bottom - top) * fy).roundToInt().coerceIn(0, BYTE_MAX)
-        }
-        return RgbImage.rgb(channel(RgbImage.RED_SHIFT), channel(RgbImage.GREEN_SHIFT), channel(RgbImage.BLUE_SHIFT))
-    }
+    /**
+     * Bilinear resize. Shrinking by more than 2x first averages whole blocks of pixels: plain bilinear
+     * sampling skips pixels there, which aliases thin strokes and makes the detector merge lines.
+     */
+    fun resize(src: RgbImage, width: Int, height: Int): RgbImage = Resampling.resize(src, width, height)
 
     /** Axis-aligned crop; the rectangle is clamped to the image. */
     fun crop(src: RgbImage, left: Int, top: Int, right: Int, bottom: Int): RgbImage? {
@@ -122,7 +91,6 @@ object ImageOps {
         return RgbImage(width, height, out)
     }
 
-    private const val HALF = 0.5f
     private const val FULL_TURN = 360
     private const val QUARTER_TURN = 90
     private const val HALF_TURN = 180

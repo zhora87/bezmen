@@ -220,16 +220,6 @@
         "confidence": 0.4765
     },
     {
-        "text": "P",
-        "box": {
-            "left": 0.1043,
-            "top": 0.6108,
-            "right": 0.1429,
-            "bottom": 0.8045
-        },
-        "confidence": 0.4632
-    },
-    {
         "text": "Старбар",
         "box": {
             "left": 0.3195,
@@ -247,7 +237,7 @@
             "right": 0.7669,
             "bottom": 0.8547
         },
-        "confidence": 0.9995
+        "confidence": 0.9994
     },
     {
         "text": "90",

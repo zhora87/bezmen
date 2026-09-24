@@ -1,30 +1,16 @@
 package io.github.zhora87.bezmen.ui
 
 import androidx.compose.foundation.isSystemInDarkTheme
-import androidx.compose.foundation.layout.Box
-import androidx.compose.foundation.layout.fillMaxSize
 import androidx.compose.material3.MaterialTheme
-import androidx.compose.material3.Surface
-import androidx.compose.material3.Text
 import androidx.compose.material3.darkColorScheme
 import androidx.compose.material3.lightColorScheme
 import androidx.compose.runtime.Composable
-import androidx.compose.ui.Alignment
-import androidx.compose.ui.Modifier
 
-/**
- * Root composable. Phase 0 placeholder: proves the module wiring and the flavor plumbing.
- * The camera screen replaces the content in phase 3.
- */
+/** App theme: Material 3 defaults, following the system dark mode. */
 @Composable
-fun App(distribution: String) {
+fun BezmenTheme(content: @Composable () -> Unit) {
     MaterialTheme(
         colorScheme = if (isSystemInDarkTheme()) darkColorScheme() else lightColorScheme(),
-    ) {
-        Surface(modifier = Modifier.fillMaxSize()) {
-            Box(contentAlignment = Alignment.Center) {
-                Text(text = "Bezmen ($distribution)", style = MaterialTheme.typography.headlineMedium)
-            }
-        }
-    }
+        content = content,
+    )
 }

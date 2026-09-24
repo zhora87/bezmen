@@ -41,6 +41,7 @@ internal object TestPacks {
           "loyaltyMarkers": ["з карткою", "за карткою", "скануванн", "додатка"],
           "weightedMarkers": ["ваговий", "вартість вказана за", "вказана за"],
           "codeMarkers": ["код:", "код "],
+          "labelWords": ["ціна", "цина", "при", "атб"],
           "charFixes": { "O": "0", "О": "0", "З": "3", "І": "1" }
         }
         """.trimIndent(),

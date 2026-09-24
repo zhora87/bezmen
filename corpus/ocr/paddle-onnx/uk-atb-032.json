@@ -77,7 +77,7 @@
             "right": 0.6471,
             "bottom": 0.3849
         },
-        "confidence": 0.9995
+        "confidence": 0.9996
     },
     {
         "text": "76",
@@ -87,7 +87,7 @@
             "right": 0.6908,
             "bottom": 0.3708
         },
-        "confidence": 0.6825
+        "confidence": 0.7522
     },
     {
         "text": "10",
@@ -97,7 +97,7 @@
             "right": 0.8333,
             "bottom": 0.3939
         },
-        "confidence": 0.9981
+        "confidence": 0.9984
     },
     {
         "text": "ol",
@@ -177,7 +177,7 @@
             "right": 0.7936,
             "bottom": 0.711
         },
-        "confidence": 0.9997
+        "confidence": 0.9998
     },
     {
         "text": "90",
@@ -197,7 +197,7 @@
             "right": 0.5482,
             "bottom": 0.7046
         },
-        "confidence": 0.9827
+        "confidence": 0.9876
     },
     {
         "text": "50",

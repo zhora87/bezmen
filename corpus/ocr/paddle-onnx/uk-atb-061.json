@@ -7,7 +7,7 @@
             "right": 0.3451,
             "bottom": 0.0957
         },
-        "confidence": 0.7029
+        "confidence": 0.6582
     },
     {
         "text": "(ДОВГОЗЕРНИСТИЙ)",
@@ -17,7 +17,7 @@
             "right": 0.7109,
             "bottom": 0.0623
         },
-        "confidence": 0.9961
+        "confidence": 0.9959
     },
     {
         "text": "T8",
@@ -30,14 +30,14 @@
         "confidence": 0.4672
     },
     {
-        "text": "ГАТНОКВИЩИЙ",
+        "text": "ТАТУНОКВИЩИЙ",
         "box": {
             "left": 0.196,
             "top": 0.0378,
             "right": 0.5195,
             "bottom": 0.1278
         },
-        "confidence": 0.5311
+        "confidence": 0.5221
     },
     {
         "text": "40",
@@ -77,7 +77,7 @@
             "right": 0.502,
             "bottom": 0.2122
         },
-        "confidence": 0.9861
+        "confidence": 0.9814
     },
     {
         "text": "Rice",
@@ -87,7 +87,7 @@
             "right": 0.2793,
             "bottom": 0.2065
         },
-        "confidence": 0.9987
+        "confidence": 0.998
     },
     {
         "text": "1 кг (kg)",
@@ -97,7 +97,7 @@
             "right": 0.763,
             "bottom": 0.3457
         },
-        "confidence": 0.8654
+        "confidence": 0.8682
     },
     {
         "text": "OHO",
@@ -127,7 +127,7 @@
             "right": 0.7943,
             "bottom": 0.653
         },
-        "confidence": 0.9979
+        "confidence": 0.998
     },
     {
         "text": "99",
@@ -137,7 +137,7 @@
             "right": 0.696,
             "bottom": 0.7248
         },
-        "confidence": 0.9989
+        "confidence": 0.9991
     },
     {
         "text": "довгозернистий",

@@ -7,7 +7,7 @@
             "right": 0.3887,
             "bottom": 0.3514
         },
-        "confidence": 0.9768
+        "confidence": 0.9781
     },
     {
         "text": "13",
@@ -17,7 +17,7 @@
             "right": 0.8659,
             "bottom": 0.5896
         },
-        "confidence": 0.999
+        "confidence": 0.9992
     },
     {
         "text": "90",
@@ -27,7 +27,7 @@
             "right": 0.9928,
             "bottom": 0.421
         },
-        "confidence": 0.9987
+        "confidence": 0.9988
     },
     {
         "text": "\"Лакомка\"",
@@ -37,7 +37,7 @@
             "right": 0.4408,
             "bottom": 0.4517
         },
-        "confidence": 0.9644
+        "confidence": 0.9702
     },
     {
         "text": "рпн/",
@@ -57,17 +57,17 @@
             "right": 0.2676,
             "bottom": 0.5531
         },
-        "confidence": 0.9021
+        "confidence": 0.9066
     },
     {
-        "text": "ґатунок",
+        "text": "гатунок",
         "box": {
             "left": 0.2585,
             "top": 0.4375,
             "right": 0.5065,
             "bottom": 0.5814
         },
-        "confidence": 0.8614
+        "confidence": 0.8688
     },
     {
         "text": "130r",

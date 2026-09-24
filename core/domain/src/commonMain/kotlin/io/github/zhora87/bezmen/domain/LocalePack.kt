@@ -44,6 +44,8 @@ data class LocalePack(
     val weightedMarkers: List<String> = emptyList(),
     /** Labels of article codes and similar numbers that are never prices ("Код:"). */
     val codeMarkers: List<String> = emptyList(),
+    /** Service words printed on tags ("ціна", "тільки", the chain's name); a line of only these is never a name. */
+    val labelWords: List<String> = emptyList(),
     /** OCR look-alike characters to fix inside numbers: O to 0, З to 3. */
     val charFixes: Map<String, String> = emptyMap(),
     val priceHints: PriceHints = PriceHints(),
@@ -67,6 +69,10 @@ data class LocalePack(
     fun isCurrency(token: String): Boolean = normalizeToken(token) in currencySymbols
 
     fun isMultipack(token: String): Boolean = normalizeToken(token) in multipackTokens
+
+    private val labelTokens: Set<String> by lazy { labelWords.map(::normalizeToken).toSet() }
+
+    fun isLabelWord(token: String): Boolean = normalizeToken(token) in labelTokens
 
     /** Problems that make the pack unusable. Empty list means valid. */
     fun validate(): List<String> {

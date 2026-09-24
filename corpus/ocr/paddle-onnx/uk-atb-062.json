@@ -7,7 +7,7 @@
             "right": 0.5664,
             "bottom": 0.1054
         },
-        "confidence": 0.8614
+        "confidence": 0.8534
     },
     {
         "text": "a",
@@ -30,14 +30,14 @@
         "confidence": 0.3503
     },
     {
-        "text": "ЛОВНИЙ(ГРНИСТ",
+        "text": "ЛОВНИЙГЕРНИСТ",
         "box": {
             "left": 0.0326,
             "top": 0.0602,
             "right": 0.6719,
             "bottom": 0.1708
         },
-        "confidence": 0.6249
+        "confidence": 0.6189
     },
     {
         "text": "P3",
@@ -87,7 +87,7 @@
             "right": 0.4805,
             "bottom": 0.1976
         },
-        "confidence": 0.9174
+        "confidence": 0.9012
     },
     {
         "text": "0,m.1",
@@ -177,7 +177,7 @@
             "right": 0.6999,
             "bottom": 0.3698
         },
-        "confidence": 0.8181
+        "confidence": 0.7983
     },
     {
         "text": "0",
@@ -207,7 +207,7 @@
             "right": 0.819,
             "bottom": 0.7415
         },
-        "confidence": 0.9989
+        "confidence": 0.9987
     },
     {
         "text": "90",
@@ -217,7 +217,7 @@
             "right": 0.8997,
             "bottom": 0.6688
         },
-        "confidence": 0.998
+        "confidence": 0.9984
     },
     {
         "text": "\"De Luxe F&G\"",

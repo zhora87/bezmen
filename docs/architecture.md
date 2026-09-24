@@ -15,30 +15,34 @@ Bezmen reads a shelf price tag with the phone camera and turns it into a price p
 ## Pipeline
 
 ```
-CameraX ImageAnalysis
-   │
+CameraX Preview + ImageCapture (4:3), autofocus and exposure metered on the viewfinder frame
+   │  shutter: refocus on the frame, take a full-resolution still
    ▼
-crop to the viewfinder, fix orientation
-   │
+crop to the viewfinder frame, turn upright, check sharpness (FrameOps)
+   │  too blurred ──► "hold steady" hint, no OCR
    ▼
 OcrEngine.recognize(image) ──► List<OcrLine>(text, box, confidence)
    │        ├─ PaddleOnnxOcrEngine   (all flavors; detection + recognition via ONNX Runtime)
-   │        └─ MlKitOcrEngine        (play flavor only; Latin scripts only; optional)
+   │        └─ MlKitOcrEngine        (play flavor only; Latin scripts only; not built yet)
    ▼
 PriceTagParser.parse(lines, localePack) ──► ParseResult
    │
    ▼
-stabiliser: a result counts once it repeats across frames
+ScanController ──► TagDraft: price, quantity, name as editable text; unit price recomputed on edit
    │
    ▼
-UnitPriceCalculator ──► price per 100 g / 100 ml / piece
-   │
-   ▼
-UI: result card with editable fields, comparison list
+UI: result card (per 100 g / 100 ml / piece), comparison list
    │
    ▼
 local storage: comparison sessions (Room), settings (DataStore)
 ```
+
+The shot is taken on demand, not from a live stream: recognition takes 0.5 s on a recent phone and
+3 to 5 s on a 2019 budget phone, far too slow for per-frame analysis. A still is used instead of an
+analysis frame because the small print under the price ("грн / 180 г") is only a few dozen pixels
+tall even at full resolution; preview-sized frames make it unreadable. The recognition pack follows
+the country of the mobile network, then the SIM, then the locale, not the interface language: a
+Russian-language phone in Ukraine reads Ukrainian tags.
 
 Everything above the UI is platform-independent Kotlin and is tested on the JVM. Camera, OCR
 engines and storage drivers are Android code.

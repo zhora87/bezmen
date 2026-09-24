@@ -77,7 +77,7 @@
             "right": 0.6824,
             "bottom": 0.2781
         },
-        "confidence": 0.7231
+        "confidence": 0.6396
     },
     {
         "text": "17",
@@ -140,14 +140,14 @@
         "confidence": 0.5019
     },
     {
-        "text": "Булгuр",
+        "text": "Булгур",
         "box": {
             "left": 0.3689,
             "top": 0.2912,
             "right": 0.5564,
             "bottom": 0.374
         },
-        "confidence": 0.6946
+        "confidence": 0.6985
     },
     {
         "text": "UA",
@@ -197,7 +197,7 @@
             "right": 0.8616,
             "bottom": 0.4168
         },
-        "confidence": 0.5734
+        "confidence": 0.5499
     },
     {
         "text": "крупний",
@@ -217,7 +217,7 @@
             "right": 0.5467,
             "bottom": 0.4771
         },
-        "confidence": 0.8747
+        "confidence": 0.8767
     },
     {
         "text": "35",
@@ -227,7 +227,7 @@
             "right": 0.782,
             "bottom": 0.5418
         },
-        "confidence": 0.9996
+        "confidence": 0.8288
     },
     {
         "text": "90",

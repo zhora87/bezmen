@@ -27,7 +27,7 @@
             "right": 0.2448,
             "bottom": 0.2174
         },
-        "confidence": 0.9627
+        "confidence": 0.9609
     },
     {
         "text": "GRAPEFRU",
@@ -37,7 +37,17 @@
             "right": 0.707,
             "bottom": 0.1997
         },
-        "confidence": 0.9758
+        "confidence": 0.9759
+    },
+    {
+        "text": "E",
+        "box": {
+            "left": 0.7467,
+            "top": 0.1856,
+            "right": 1.0,
+            "bottom": 0.2682
+        },
+        "confidence": 0.3574
     },
     {
         "text": "EP",
@@ -67,7 +77,7 @@
             "right": 1.0,
             "bottom": 0.3225
         },
-        "confidence": 0.4078
+        "confidence": 0.3872
     },
     {
         "text": "UА ПиВО",
@@ -97,7 +107,7 @@
             "right": 0.7396,
             "bottom": 0.7001
         },
-        "confidence": 0.9989
+        "confidence": 0.9992
     },
     {
         "text": "90",
@@ -107,7 +117,7 @@
             "right": 0.8346,
             "bottom": 0.6175
         },
-        "confidence": 0.9989
+        "confidence": 0.9988
     },
     {
         "text": "\"Zibert\"",

@@ -7,17 +7,17 @@
             "right": 0.7627,
             "bottom": 0.2678
         },
-        "confidence": 0.9055
+        "confidence": 0.9387
     },
     {
-        "text": "ПИЛЬКИ В",
+        "text": "ГИЛЬКИ В",
         "box": {
             "left": 0.0,
             "top": 0.1612,
             "right": 0.5115,
             "bottom": 0.3231
         },
-        "confidence": 0.7823
+        "confidence": 0.7912
     },
     {
         "text": "vol.]",
@@ -57,7 +57,7 @@
             "right": 0.9428,
             "bottom": 0.7107
         },
-        "confidence": 0.9704
+        "confidence": 0.9619
     },
     {
         "text": "Пиво",

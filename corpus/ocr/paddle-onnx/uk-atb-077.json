@@ -10,14 +10,14 @@
         "confidence": 0.996
     },
     {
-        "text": "3XACTNE",
+        "text": "3XACTME",
         "box": {
             "left": 0.4401,
             "top": 0.1386,
             "right": 0.597,
             "bottom": 0.2
         },
-        "confidence": 0.581
+        "confidence": 0.6226
     },
     {
         "text": "21159291",
@@ -57,7 +57,7 @@
             "right": 0.7826,
             "bottom": 0.7209
         },
-        "confidence": 0.9988
+        "confidence": 0.9989
     },
     {
         "text": "00",
@@ -67,7 +67,7 @@
             "right": 0.8678,
             "bottom": 0.6708
         },
-        "confidence": 0.9718
+        "confidence": 0.9619
     },
     {
         "text": "Old Spice\"",
@@ -77,7 +77,7 @@
             "right": 0.4063,
             "bottom": 0.6543
         },
-        "confidence": 0.9774
+        "confidence": 0.9725
     },
     {
         "text": "Bearglove",

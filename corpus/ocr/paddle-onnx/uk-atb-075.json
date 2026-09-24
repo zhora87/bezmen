@@ -27,7 +27,7 @@
             "right": 0.6577,
             "bottom": 0.1124
         },
-        "confidence": 0.9799
+        "confidence": 0.9807
     },
     {
         "text": "WITH SMOKED VANILLA SCENT",
@@ -127,17 +127,17 @@
             "right": 0.4049,
             "bottom": 0.6644
         },
-        "confidence": 0.9908
+        "confidence": 0.9897
     },
     {
-        "text": "11400",
+        "text": "1140",
         "box": {
             "left": 0.6037,
             "top": 0.6936,
             "right": 0.846,
             "bottom": 0.7883
         },
-        "confidence": 0.6573
+        "confidence": 0.6824
     },
     {
         "text": "Дезодорант",
