@@ -128,7 +128,7 @@ private class PriceSelector(private val ctx: TagContext, private val flags: List
 private object NameDetector {
     private const val MAX_TOP = 0.55f
     private const val MIN_LETTERS = 3
-    private const val MAX_LINES = 3
+    private const val MAX_LINES = 4
     private const val NAME_CONFIDENCE = 0.5f
     private const val GAP_FACTOR = 0.6f
     private const val HEIGHT_RATIO = 1.5f
