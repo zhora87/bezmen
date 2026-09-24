@@ -1,0 +1,14 @@
+{
+  "pack": "uk",
+  "price": {
+    "minor": 5380,
+    "currency": "UAH"
+  },
+  "oldPrice": null,
+  "quantity": {
+    "value": 60.0,
+    "unit": "GRAM"
+  },
+  "isWeighted": false,
+  "note": "Таврія В 2026-09-24 own photo; Чипси Lays 60 г сметана та зелень"
+}

@@ -1,0 +1,42 @@
+[
+    {
+        "text": "A",
+        "box": {
+            "left": 0.2852,
+            "top": 0.1487,
+            "right": 0.4063,
+            "bottom": 0.1891
+        },
+        "confidence": 0.2202
+    },
+    {
+        "text": "6",
+        "box": {
+            "left": 0.0488,
+            "top": 0.1511,
+            "right": 0.0951,
+            "bottom": 0.1859
+        },
+        "confidence": 0.2415
+    },
+    {
+        "text": "3490",
+        "box": {
+            "left": 0.3555,
+            "top": 0.3884,
+            "right": 0.6855,
+            "bottom": 0.6036
+        },
+        "confidence": 0.8284
+    },
+    {
+        "text": "3-17%",
+        "box": {
+            "left": 0.0573,
+            "top": 0.4161,
+            "right": 0.2552,
+            "bottom": 0.5435
+        },
+        "confidence": 0.8611
+    }
+]

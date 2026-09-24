@@ -1,0 +1,132 @@
+[
+    {
+        "text": "Нов.-СИВЕр. 825% 180 г",
+        "box": {
+            "left": 0.1992,
+            "top": 0.1454,
+            "right": 0.7689,
+            "bottom": 0.2517
+        },
+        "confidence": 0.8021
+    },
+    {
+        "text": "Масло",
+        "box": {
+            "left": 0.0482,
+            "top": 0.1521,
+            "right": 0.2122,
+            "bottom": 0.2371
+        },
+        "confidence": 0.7053
+    },
+    {
+        "text": "Селянське",
+        "box": {
+            "left": 0.0436,
+            "top": 0.2293,
+            "right": 0.3073,
+            "bottom": 0.3322
+        },
+        "confidence": 0.9905
+    },
+    {
+        "text": "Украіна",
+        "box": {
+            "left": 0.7826,
+            "top": 0.3199,
+            "right": 0.8874,
+            "bottom": 0.3736
+        },
+        "confidence": 0.9194
+    },
+    {
+        "text": "країна",
+        "box": {
+            "left": 0.8939,
+            "top": 0.3579,
+            "right": 0.9792,
+            "bottom": 0.4116
+        },
+        "confidence": 0.8492
+    },
+    {
+        "text": "Ціну Знижено",
+        "box": {
+            "left": 0.7272,
+            "top": 0.3602,
+            "right": 0.8887,
+            "bottom": 0.4116
+        },
+        "confidence": 0.6313
+    },
+    {
+        "text": "318.09.26",
+        "box": {
+            "left": 0.7695,
+            "top": 0.4027,
+            "right": 0.8854,
+            "bottom": 0.4508
+        },
+        "confidence": 0.9427
+    },
+    {
+        "text": ".08.26",
+        "box": {
+            "left": 0.9023,
+            "top": 0.4094,
+            "right": 0.9779,
+            "bottom": 0.4664
+        },
+        "confidence": 0.9797
+    },
+    {
+        "text": "no 15.10.26",
+        "box": {
+            "left": 0.7591,
+            "top": 0.4396,
+            "right": 0.8854,
+            "bottom": 0.4922
+        },
+        "confidence": 0.9477
+    },
+    {
+        "text": "11740",
+        "box": {
+            "left": 0.5501,
+            "top": 0.4687,
+            "right": 0.7155,
+            "bottom": 0.6141
+        },
+        "confidence": 0.8714
+    },
+    {
+        "text": "9490",
+        "box": {
+            "left": 0.3711,
+            "top": 0.5179,
+            "right": 0.7344,
+            "bottom": 0.8691
+        },
+        "confidence": 0.8999
+    },
+    {
+        "text": "-19%",
+        "box": {
+            "left": 0.071,
+            "top": 0.5391,
+            "right": 0.2773,
+            "bottom": 0.7662
+        },
+        "confidence": 0.8729
+    },
+    {
+        "text": "о",
+        "box": {
+            "left": 0.054,
+            "top": 0.774,
+            "right": 0.069,
+            "bottom": 0.7908
+        },
+        "confidence": 0.2743
+    }
+]

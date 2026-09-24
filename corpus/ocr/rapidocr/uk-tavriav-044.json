@@ -1,0 +1,182 @@
+[
+  {
+    "text": "Маслo",
+    "box": {
+      "left": 0.8724,
+      "top": 0.1443,
+      "right": 0.9961,
+      "bottom": 0.2396
+    },
+    "confidence": 0.5307
+  },
+  {
+    "text": "Масло Українська зірка 180 г 73%",
+    "box": {
+      "left": 0.1465,
+      "top": 0.1458,
+      "right": 0.8034,
+      "bottom": 0.3318
+    },
+    "confidence": 0.9738
+  },
+  {
+    "text": "Tpa",
+    "box": {
+      "left": 0.0,
+      "top": 0.2188,
+      "right": 0.0664,
+      "bottom": 0.317
+    },
+    "confidence": 0.5821
+  },
+  {
+    "text": "82,5%",
+    "box": {
+      "left": 0.8704,
+      "top": 0.2262,
+      "right": 0.9993,
+      "bottom": 0.3348
+    },
+    "confidence": 0.9897
+  },
+  {
+    "text": "Селянське",
+    "box": {
+      "left": 0.1621,
+      "top": 0.2902,
+      "right": 0.3633,
+      "bottom": 0.3765
+    },
+    "confidence": 0.9849
+  },
+  {
+    "text": "НАША МАPK",
+    "box": {
+      "left": 0.8704,
+      "top": 0.3676,
+      "right": 0.9993,
+      "bottom": 0.4524
+    },
+    "confidence": 0.5907
+  },
+  {
+    "text": "ВласHа Марка",
+    "box": {
+      "left": 0.6816,
+      "top": 0.381,
+      "right": 0.8171,
+      "bottom": 0.433
+    },
+    "confidence": 0.6065
+  },
+  {
+    "text": "національний",
+    "box": {
+      "left": 0.3965,
+      "top": 0.3973,
+      "right": 0.5221,
+      "bottom": 0.4509
+    },
+    "confidence": 0.9569
+  },
+  {
+    "text": "Україна",
+    "box": {
+      "left": 0.0514,
+      "top": 0.4167,
+      "right": 0.1328,
+      "bottom": 0.4732
+    },
+    "confidence": 0.8155
+  },
+  {
+    "text": "318.09.26",
+    "box": {
+      "left": 0.7266,
+      "top": 0.4196,
+      "right": 0.8158,
+      "bottom": 0.4717
+    },
+    "confidence": 0.9145
+  },
+  {
+    "text": "НАША МАРКА",
+    "box": {
+      "left": 0.1712,
+      "top": 0.4256,
+      "right": 0.3236,
+      "bottom": 0.5104
+    },
+    "confidence": 0.8792
+  },
+  {
+    "text": "кешбек",
+    "box": {
+      "left": 0.3958,
+      "top": 0.4345,
+      "right": 0.5234,
+      "bottom": 0.5089
+    },
+    "confidence": 0.9454
+  },
+  {
+    "text": "no24.09.26",
+    "box": {
+      "left": 0.7122,
+      "top": 0.4598,
+      "right": 0.8158,
+      "bottom": 0.5104
+    },
+    "confidence": 0.9229
+  },
+  {
+    "text": "28.08.26",
+    "box": {
+      "left": 0.0521,
+      "top": 0.4717,
+      "right": 0.1348,
+      "bottom": 0.5268
+    },
+    "confidence": 0.9994
+  },
+  {
+    "text": "10340",
+    "box": {
+      "left": 0.5404,
+      "top": 0.497,
+      "right": 0.6836,
+      "bottom": 0.6443
+    },
+    "confidence": 0.881
+  },
+  {
+    "text": "92",
+    "box": {
+      "left": 0.4329,
+      "top": 0.5848,
+      "right": 0.6048,
+      "bottom": 0.8646
+    },
+    "confidence": 0.9937
+  },
+  {
+    "text": "50",
+    "box": {
+      "left": 0.5846,
+      "top": 0.5952,
+      "right": 0.6745,
+      "bottom": 0.7336
+    },
+    "confidence": 0.9997
+  },
+  {
+    "text": "-11%",
+    "box": {
+      "left": 0.2064,
+      "top": 0.6324,
+      "right": 0.3177,
+      "bottom": 0.7753
+    },
+    "confidence": 0.9771
+  }
+]

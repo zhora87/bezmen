@@ -1,0 +1,202 @@
+[
+    {
+        "text": "242",
+        "box": {
+            "left": 0.5229,
+            "top": 0.1187,
+            "right": 0.7521,
+            "bottom": 0.2295
+        },
+        "confidence": 0.9991
+    },
+    {
+        "text": "40",
+        "box": {
+            "left": 0.7479,
+            "top": 0.1321,
+            "right": 0.805,
+            "bottom": 0.1716
+        },
+        "confidence": 0.9991
+    },
+    {
+        "text": "-50%",
+        "box": {
+            "left": 0.215,
+            "top": 0.1509,
+            "right": 0.4364,
+            "bottom": 0.2258
+        },
+        "confidence": 0.9973
+    },
+    {
+        "text": "120",
+        "box": {
+            "left": 0.275,
+            "top": 0.2897,
+            "right": 0.72,
+            "bottom": 0.4991
+        },
+        "confidence": 0.9978
+    },
+    {
+        "text": "00",
+        "box": {
+            "left": 0.7129,
+            "top": 0.3049,
+            "right": 0.8279,
+            "bottom": 0.3822
+        },
+        "confidence": 0.9263
+    },
+    {
+        "text": "002.",
+        "box": {
+            "left": 0.0,
+            "top": 0.3987,
+            "right": 0.0507,
+            "bottom": 0.4242
+        },
+        "confidence": 0.8379
+    },
+    {
+        "text": "1um.",
+        "box": {
+            "left": 0.7343,
+            "top": 0.4029,
+            "right": 0.82,
+            "bottom": 0.4315
+        },
+        "confidence": 0.8349
+    },
+    {
+        "text": "8/r",
+        "box": {
+            "left": 0.0,
+            "top": 0.4644,
+            "right": 0.0543,
+            "bottom": 0.4936
+        },
+        "confidence": 0.7309
+    },
+    {
+        "text": "8а2.",
+        "box": {
+            "left": 0.0,
+            "top": 0.496,
+            "right": 0.0479,
+            "bottom": 0.5216
+        },
+        "confidence": 0.6429
+    },
+    {
+        "text": "д/солянки Алан",
+        "box": {
+            "left": 0.3693,
+            "top": 0.504,
+            "right": 0.7021,
+            "bottom": 0.5581
+        },
+        "confidence": 0.7764
+    },
+    {
+        "text": "Ha6ip",
+        "box": {
+            "left": 0.2514,
+            "top": 0.5125,
+            "right": 0.3786,
+            "bottom": 0.5581
+        },
+        "confidence": 0.9051
+    },
+    {
+        "text": "500",
+        "box": {
+            "left": 0.2586,
+            "top": 0.5612,
+            "right": 0.3729,
+            "bottom": 0.5977
+        },
+        "confidence": 0.9808
+    },
+    {
+        "text": "2",
+        "box": {
+            "left": 0.3736,
+            "top": 0.5685,
+            "right": 0.4,
+            "bottom": 0.5898
+        },
+        "confidence": 0.7581
+    },
+    {
+        "text": "неш 5%",
+        "box": {
+            "left": 0.2329,
+            "top": 0.6659,
+            "right": 0.3657,
+            "bottom": 0.6926
+        },
+        "confidence": 0.4542
+    },
+    {
+        "text": "3 21.08.26",
+        "box": {
+            "left": 0.4771,
+            "top": 0.7645,
+            "right": 0.5879,
+            "bottom": 0.7961
+        },
+        "confidence": 0.9743
+    },
+    {
+        "text": "по 28.09.26",
+        "box": {
+            "left": 0.4907,
+            "top": 0.7851,
+            "right": 0.6179,
+            "bottom": 0.8186
+        },
+        "confidence": 0.8977
+    },
+    {
+        "text": "Таврія в",
+        "box": {
+            "left": 0.6879,
+            "top": 0.7888,
+            "right": 0.7814,
+            "bottom": 0.8198
+        },
+        "confidence": 0.8165
+    },
+    {
+        "text": "СПЕКОТНИ",
+        "box": {
+            "left": 0.2593,
+            "top": 0.7918,
+            "right": 0.445,
+            "bottom": 0.8363
+        },
+        "confidence": 0.7443
+    },
+    {
+        "text": "Ціну Знакан",
+        "box": {
+            "left": 0.7164,
+            "top": 0.8113,
+            "right": 0.7586,
+            "bottom": 0.8247
+        },
+        "confidence": 0.6794
+    },
+    {
+        "text": "3HИЖKИ",
+        "box": {
+            "left": 0.2657,
+            "top": 0.8284,
+            "right": 0.4386,
+            "bottom": 0.8509
+        },
+        "confidence": 0.6701
+    }
+]

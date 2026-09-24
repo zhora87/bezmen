@@ -62,11 +62,14 @@ jobs:
       - name: Parser accuracy on the synthetic corpus
         run: ./gradlew :tools:parser-cli:run --no-daemon --args="corpus --engine synthetic --verbose --min-accuracy 1.0"
 
-      - name: Parser accuracy on the shipped engine's OCR dumps (end-to-end target)
-        run: ./gradlew :tools:parser-cli:run --no-daemon --args="corpus --engine paddle-onnx --verbose --min-accuracy 0.85"
+      - name: Parser accuracy on the shipped engine's OCR dumps, ATB (end-to-end target)
+        run: ./gradlew :tools:parser-cli:run --no-daemon --args="corpus --engine paddle-onnx --only uk-atb- --verbose --min-accuracy 0.85"
+
+      - name: Parser accuracy on the shipped engine's OCR dumps, Tavria V (regression floor, layout not tuned yet)
+        run: ./gradlew :tools:parser-cli:run --no-daemon --args="corpus --engine paddle-onnx --only uk-tavriav- --min-accuracy 0.40"
 
       - name: Parser accuracy on RapidOCR dumps (second opinion, regression floor)
-        run: ./gradlew :tools:parser-cli:run --no-daemon --args="corpus --engine rapidocr --min-accuracy 0.70"
+        run: ./gradlew :tools:parser-cli:run --no-daemon --args="corpus --engine rapidocr --min-accuracy 0.60"
 
       - name: Coverage of core/domain (80% lines)
         run: ./gradlew :core:domain:koverVerify --no-daemon

@@ -1,0 +1,102 @@
+[
+  {
+    "text": "4990",
+    "box": {
+      "left": 0.4597,
+      "top": 0.1405,
+      "right": 0.8026,
+      "bottom": 0.2721
+    },
+    "confidence": 0.8611
+  },
+  {
+    "text": "-5%",
+    "box": {
+      "left": 0.1673,
+      "top": 0.1998,
+      "right": 0.3442,
+      "bottom": 0.2656
+    },
+    "confidence": 0.9264
+  },
+  {
+    "text": "47",
+    "box": {
+      "left": 0.2527,
+      "top": 0.2998,
+      "right": 0.6462,
+      "bottom": 0.511
+    },
+    "confidence": 0.9998
+  },
+  {
+    "text": "50",
+    "box": {
+      "left": 0.6089,
+      "top": 0.3095,
+      "right": 0.8412,
+      "bottom": 0.4354
+    },
+    "confidence": 0.9998
+  },
+  {
+    "text": "1кe.",
+    "box": {
+      "left": 0.6968,
+      "top": 0.4184,
+      "right": 0.7894,
+      "bottom": 0.4525
+    },
+    "confidence": 0.6619
+  },
+  {
+    "text": "Груша (Україна) Вага",
+    "box": {
+      "left": 0.1673,
+      "top": 0.5313,
+      "right": 0.704,
+      "bottom": 0.5914
+    },
+    "confidence": 0.9638
+  },
+  {
+    "text": "326",
+    "box": {
+      "left": 0.1408,
+      "top": 0.6548,
+      "right": 0.3081,
+      "bottom": 0.7084
+    },
+    "confidence": 0.999
+  },
+  {
+    "text": "9 22.09.26",
+    "box": {
+      "left": 0.4452,
+      "top": 0.7855,
+      "right": 0.5897,
+      "bottom": 0.8107
+    },
+    "confidence": 0.9094
+  },
+  {
+    "text": "пo 28.09.26",
+    "box": {
+      "left": 0.4669,
+      "top": 0.8115,
+      "right": 0.6282,
+      "bottom": 0.8375
+    },
+    "confidence": 0.7849
+  },
+  {
+    "text": "Табрия В",
+    "box": {
+      "left": 0.7292,
+      "top": 0.831,
+      "right": 0.858,
+      "bottom": 0.857
+    },
+    "confidence": 0.7186
+  }
+]

@@ -1,0 +1,112 @@
+[
+  {
+    "text": "Паприка Мрия 20 г солодка",
+    "box": {
+      "left": 0.1439,
+      "top": 0.4451,
+      "right": 0.7122,
+      "bottom": 0.5394
+    },
+    "confidence": 0.9442
+  },
+  {
+    "text": "неH.",
+    "box": {
+      "left": 0.7659,
+      "top": 0.4942,
+      "right": 0.8497,
+      "bottom": 0.5355
+    },
+    "confidence": 0.5696
+  },
+  {
+    "text": "национальний",
+    "box": {
+      "left": 0.2069,
+      "top": 0.5651,
+      "right": 0.3422,
+      "bottom": 0.597
+    },
+    "confidence": 0.9353
+  },
+  {
+    "text": "від 6 шт.10",
+    "box": {
+      "left": 0.5455,
+      "top": 0.5838,
+      "right": 0.7309,
+      "bottom": 0.6547
+    },
+    "confidence": 0.7384
+  },
+  {
+    "text": "кешбек",
+    "box": {
+      "left": 0.2047,
+      "top": 0.5846,
+      "right": 0.3443,
+      "bottom": 0.6282
+    },
+    "confidence": 0.9064
+  },
+  {
+    "text": "Україна",
+    "box": {
+      "left": 0.7695,
+      "top": 0.5947,
+      "right": 0.8611,
+      "bottom": 0.6313
+    },
+    "confidence": 0.6763
+  },
+  {
+    "text": "70",
+    "box": {
+      "left": 0.7237,
+      "top": 0.5955,
+      "right": 0.7645,
+      "bottom": 0.6298
+    },
+    "confidence": 0.9987
+  },
+  {
+    "text": "18.09.26",
+    "box": {
+      "left": 0.7659,
+      "top": 0.6282,
+      "right": 0.8568,
+      "bottom": 0.6586
+    },
+    "confidence": 0.9975
+  },
+  {
+    "text": "11",
+    "box": {
+      "left": 0.4281,
+      "top": 0.6578,
+      "right": 0.6063,
+      "bottom": 0.841
+    },
+    "confidence": 0.9987
+  },
+  {
+    "text": "20",
+    "box": {
+      "left": 0.5662,
+      "top": 0.6703,
+      "right": 0.6958,
+      "bottom": 0.7631
+    },
+    "confidence": 0.8149
+  },
+  {
+    "text": "20",
+    "box": {
+      "left": 0.146,
+      "top": 0.7716,
+      "right": 0.1747,
+      "bottom": 0.7973
+    },
+    "confidence": 0.9995
+  }
+]

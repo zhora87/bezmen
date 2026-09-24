@@ -1,0 +1,17 @@
+{
+  "pack": "uk",
+  "price": {
+    "minor": 56550,
+    "currency": "UAH"
+  },
+  "oldPrice": {
+    "minor": 77950,
+    "currency": "UAH"
+  },
+  "quantity": {
+    "value": 180.0,
+    "unit": "GRAM"
+  },
+  "isWeighted": false,
+  "note": "Таврія В 2026-09-24 own photo; same as 032, another shot"
+}

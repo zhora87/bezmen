@@ -1,0 +1,292 @@
+[
+  {
+    "text": "Масло Біло 72,6% 180 г Селянське",
+    "box": {
+      "left": 0.2428,
+      "top": 0.0074,
+      "right": 0.9993,
+      "bottom": 0.0711
+    },
+    "confidence": 0.9459
+  },
+  {
+    "text": "or",
+    "box": {
+      "left": 0.0,
+      "top": 0.0295,
+      "right": 0.0566,
+      "bottom": 0.0865
+    },
+    "confidence": 0.6925
+  },
+  {
+    "text": "6/лактозне",
+    "box": {
+      "left": 0.2487,
+      "top": 0.0617,
+      "right": 0.5052,
+      "bottom": 0.1167
+    },
+    "confidence": 0.9103
+  },
+  {
+    "text": "Україн",
+    "box": {
+      "left": 0.9212,
+      "top": 0.1288,
+      "right": 0.9993,
+      "bottom": 0.165
+    },
+    "confidence": 0.6821
+  },
+  {
+    "text": "национальний",
+    "box": {
+      "left": 0.3125,
+      "top": 0.1335,
+      "right": 0.4622,
+      "bottom": 0.1623
+    },
+    "confidence": 0.9347
+  },
+  {
+    "text": "YкpaHa",
+    "box": {
+      "left": 0.1191,
+      "top": 0.1422,
+      "right": 0.2181,
+      "bottom": 0.1818
+    },
+    "confidence": 0.5806
+  },
+  {
+    "text": "40",
+    "box": {
+      "left": 0.0,
+      "top": 0.1449,
+      "right": 0.084,
+      "bottom": 0.2166
+    },
+    "confidence": 0.9989
+  },
+  {
+    "text": "70",
+    "box": {
+      "left": 0.0684,
+      "top": 0.1489,
+      "right": 0.1126,
+      "bottom": 0.1891
+    },
+    "confidence": 0.9984
+  },
+  {
+    "text": "кешбек",
+    "box": {
+      "left": 0.3138,
+      "top": 0.159,
+      "right": 0.4648,
+      "bottom": 0.1938
+    },
+    "confidence": 0.951
+  },
+  {
+    "text": "23.09.2",
+    "box": {
+      "left": 0.918,
+      "top": 0.163,
+      "right": 0.9993,
+      "bottom": 0.1925
+    },
+    "confidence": 0.9991
+  },
+  {
+    "text": "28.08.26",
+    "box": {
+      "left": 0.1198,
+      "top": 0.1757,
+      "right": 0.2181,
+      "bottom": 0.2106
+    },
+    "confidence": 0.9985
+  },
+  {
+    "text": "Mаслo E",
+    "box": {
+      "left": 0.8444,
+      "top": 0.4728,
+      "right": 0.9993,
+      "bottom": 0.5184
+    },
+    "confidence": 0.5458
+  },
+  {
+    "text": "Масло Українська зірка 180 г",
+    "box": {
+      "left": 0.0671,
+      "top": 0.4816,
+      "right": 0.6862,
+      "bottom": 0.5553
+    },
+    "confidence": 0.9505
+  },
+  {
+    "text": "Екстра",
+    "box": {
+      "left": 0.8431,
+      "top": 0.5158,
+      "right": 0.9909,
+      "bottom": 0.5641
+    },
+    "confidence": 0.581
+  },
+  {
+    "text": "82,5% Екстра",
+    "box": {
+      "left": 0.0749,
+      "top": 0.5359,
+      "right": 0.3704,
+      "bottom": 0.5915
+    },
+    "confidence": 0.7475
+  },
+  {
+    "text": "национальн",
+    "box": {
+      "left": 0.8939,
+      "top": 0.5775,
+      "right": 0.9993,
+      "bottom": 0.6016
+    },
+    "confidence": 0.9115
+  },
+  {
+    "text": "Україна",
+    "box": {
+      "left": 0.7155,
+      "top": 0.5862,
+      "right": 0.8073,
+      "bottom": 0.6204
+    },
+    "confidence": 0.6252
+  },
+  {
+    "text": "від 2 шт. 116",
+    "box": {
+      "left": 0.4674,
+      "top": 0.5875,
+      "right": 0.6784,
+      "bottom": 0.6566
+    },
+    "confidence": 0.7873
+  },
+  {
+    "text": "00",
+    "box": {
+      "left": 0.6621,
+      "top": 0.5915,
+      "right": 0.7077,
+      "bottom": 0.6271
+    },
+    "confidence": 0.9823
+  },
+  {
+    "text": "нa",
+    "box": {
+      "left": 0.0,
+      "top": 0.5936,
+      "right": 0.0234,
+      "bottom": 0.619
+    },
+    "confidence": 0.538
+  },
+  {
+    "text": "кешбе",
+    "box": {
+      "left": 0.8919,
+      "top": 0.5942,
+      "right": 0.9993,
+      "bottom": 0.6311
+    },
+    "confidence": 0.95
+  },
+  {
+    "text": "НАША МАРКА",
+    "box": {
+      "left": 0.0859,
+      "top": 0.6063,
+      "right": 0.2585,
+      "bottom": 0.6519
+    },
+    "confidence": 0.846
+  },
+  {
+    "text": "KO",
+    "box": {
+      "left": 0.0,
+      "top": 0.6157,
+      "right": 0.0254,
+      "bottom": 0.6372
+    },
+    "confidence": 0.5163
+  },
+  {
+    "text": "06.08.26",
+    "box": {
+      "left": 0.7129,
+      "top": 0.6177,
+      "right": 0.8053,
+      "bottom": 0.6465
+    },
+    "confidence": 0.9993
+  },
+  {
+    "text": "26",
+    "box": {
+      "left": 0.0,
+      "top": 0.6331,
+      "right": 0.0267,
+      "bottom": 0.6579
+    },
+    "confidence": 0.9988
+  },
+  {
+    "text": "26",
+    "box": {
+      "left": 0.0,
+      "top": 0.6539,
+      "right": 0.0286,
+      "bottom": 0.6781
+    },
+    "confidence": 0.9988
+  },
+  {
+    "text": "119",
+    "box": {
+      "left": 0.2565,
+      "top": 0.6539,
+      "right": 0.5618,
+      "bottom": 0.8578
+    },
+    "confidence": 0.9988
+  },
+  {
+    "text": "50",
+    "box": {
+      "left": 0.5254,
+      "top": 0.6714,
+      "right": 0.6426,
+      "bottom": 0.7579
+    },
+    "confidence": 0.9998
+  },
+  {
+    "text": "10",
+    "box": {
+      "left": 0.0931,
+      "top": 0.8062,
+      "right": 0.1217,
+      "bottom": 0.8296
+    },
+    "confidence": 0.9997
+  }
+]

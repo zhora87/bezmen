@@ -1,0 +1,17 @@
+{
+  "pack": "uk",
+  "price": {
+    "minor": 9250,
+    "currency": "UAH"
+  },
+  "oldPrice": {
+    "minor": 10340,
+    "currency": "UAH"
+  },
+  "quantity": {
+    "value": 180.0,
+    "unit": "GRAM"
+  },
+  "isWeighted": false,
+  "note": "Таврія В 2026-09-24 own photo; yellow sale: Масло Українська зірка 180 г 73% Селянське; -11%; neighbours in frame"
+}

@@ -1,0 +1,62 @@
+[
+    {
+        "text": "90",
+        "box": {
+            "left": 0.661,
+            "top": 0.1941,
+            "right": 0.8532,
+            "bottom": 0.3428
+        },
+        "confidence": 0.9967
+    },
+    {
+        "text": "1K2.",
+        "box": {
+            "left": 0.7088,
+            "top": 0.3428,
+            "right": 0.7918,
+            "bottom": 0.3848
+        },
+        "confidence": 0.8764
+    },
+    {
+        "text": "Вільямс(Україна)",
+        "box": {
+            "left": 0.3333,
+            "top": 0.5812,
+            "right": 0.7611,
+            "bottom": 0.6617
+        },
+        "confidence": 0.7317
+    },
+    {
+        "text": "Груша",
+        "box": {
+            "left": 0.1854,
+            "top": 0.5948,
+            "right": 0.3561,
+            "bottom": 0.6652
+        },
+        "confidence": 0.9335
+    },
+    {
+        "text": "6a2a",
+        "box": {
+            "left": 0.1889,
+            "top": 0.6583,
+            "right": 0.3094,
+            "bottom": 0.7117
+        },
+        "confidence": 0.5844
+    },
+    {
+        "text": "327",
+        "box": {
+            "left": 0.1513,
+            "top": 0.7991,
+            "right": 0.2548,
+            "bottom": 0.8502
+        },
+        "confidence": 0.999
+    }
+]

@@ -1,0 +1,62 @@
+[
+  {
+    "text": "79",
+    "box": {
+      "left": 0.1559,
+      "top": 0.1373,
+      "right": 0.7338,
+      "bottom": 0.6005
+    },
+    "confidence": 0.989
+  },
+  {
+    "text": "0b",
+    "box": {
+      "left": 0.6485,
+      "top": 0.1805,
+      "right": 0.8578,
+      "bottom": 0.3485
+    },
+    "confidence": 0.666
+  },
+  {
+    "text": "1K2.",
+    "box": {
+      "left": 0.7053,
+      "top": 0.3394,
+      "right": 0.7952,
+      "bottom": 0.3882
+    },
+    "confidence": 0.7422
+  },
+  {
+    "text": "Груша Вільямс (Україна)",
+    "box": {
+      "left": 0.1752,
+      "top": 0.5766,
+      "right": 0.7668,
+      "bottom": 0.6776
+    },
+    "confidence": 0.9355
+  },
+  {
+    "text": "Baga",
+    "box": {
+      "left": 0.1866,
+      "top": 0.6572,
+      "right": 0.3129,
+      "bottom": 0.7128
+    },
+    "confidence": 0.5599
+  },
+  {
+    "text": "327",
+    "box": {
+      "left": 0.1433,
+      "top": 0.79,
+      "right": 0.2628,
+      "bottom": 0.8558
+    },
+    "confidence": 0.999
+  }
+]

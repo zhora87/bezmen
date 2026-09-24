@@ -1,0 +1,142 @@
+[
+  {
+    "text": "PUP",
+    "box": {
+      "left": 0.8561,
+      "top": 0.0478,
+      "right": 0.8919,
+      "bottom": 0.0812
+    },
+    "confidence": 0.6752
+  },
+  {
+    "text": "Mhesstt 0,",
+    "box": {
+      "left": 0.8607,
+      "top": 0.1043,
+      "right": 0.9258,
+      "bottom": 0.1681
+    },
+    "confidence": 0.7233
+  },
+  {
+    "text": "оpганичHa",
+    "box": {
+      "left": 0.2533,
+      "top": 0.1486,
+      "right": 0.6914,
+      "bottom": 0.337
+    },
+    "confidence": 0.5162
+  },
+  {
+    "text": "продукция",
+    "box": {
+      "left": 0.2617,
+      "top": 0.2717,
+      "right": 0.6895,
+      "bottom": 0.4514
+    },
+    "confidence": 0.839
+  },
+  {
+    "text": "Sune",
+    "box": {
+      "left": 0.9349,
+      "top": 0.321,
+      "right": 0.9993,
+      "bottom": 0.3572
+    },
+    "confidence": 0.933
+  },
+  {
+    "text": "Борошно Екород в/г 0,8/1 кг",
+    "box": {
+      "left": 0.0612,
+      "top": 0.4268,
+      "right": 0.7318,
+      "bottom": 0.5188
+    },
+    "confidence": 0.921
+  },
+  {
+    "text": "органичне",
+    "box": {
+      "left": 0.0677,
+      "top": 0.4884,
+      "right": 0.2969,
+      "bottom": 0.5478
+    },
+    "confidence": 0.8583
+  },
+  {
+    "text": "100% OPГAHIK",
+    "box": {
+      "left": 0.0846,
+      "top": 0.5696,
+      "right": 0.2956,
+      "bottom": 0.6254
+    },
+    "confidence": 0.8024
+  },
+  {
+    "text": "від 3 шт.86",
+    "box": {
+      "left": 0.5065,
+      "top": 0.5768,
+      "right": 0.7174,
+      "bottom": 0.6449
+    },
+    "confidence": 0.8181
+  },
+  {
+    "text": "Україна",
+    "box": {
+      "left": 0.7695,
+      "top": 0.5783,
+      "right": 0.8659,
+      "bottom": 0.6188
+    },
+    "confidence": 0.6761
+  },
+  {
+    "text": "60",
+    "box": {
+      "left": 0.709,
+      "top": 0.5812,
+      "right": 0.7526,
+      "bottom": 0.6196
+    },
+    "confidence": 0.9935
+  },
+  {
+    "text": "03.02.26",
+    "box": {
+      "left": 0.765,
+      "top": 0.6138,
+      "right": 0.8613,
+      "bottom": 0.6493
+    },
+    "confidence": 0.9813
+  },
+  {
+    "text": "91",
+    "box": {
+      "left": 0.3893,
+      "top": 0.6514,
+      "right": 0.6523,
+      "bottom": 0.8623
+    },
+    "confidence": 0.9932
+  },
+  {
+    "text": "10",
+    "box": {
+      "left": 0.5827,
+      "top": 0.6739,
+      "right": 0.7038,
+      "bottom": 0.7841
+    },
+    "confidence": 0.999
+  }
+]

@@ -1,0 +1,32 @@
+[
+  {
+    "text": "317%",
+    "box": {
+      "left": 0.0436,
+      "top": 0.3536,
+      "right": 0.2656,
+      "bottom": 0.591
+    },
+    "confidence": 0.6583
+  },
+  {
+    "text": "40",
+    "box": {
+      "left": 0.5352,
+      "top": 0.356,
+      "right": 0.679,
+      "bottom": 0.5736
+    },
+    "confidence": 0.8635
+  },
+  {
+    "text": "34",
+    "box": {
+      "left": 0.362,
+      "top": 0.4059,
+      "right": 0.6009,
+      "bottom": 0.5957
+    },
+    "confidence": 0.9989
+  }
+]

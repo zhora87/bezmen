@@ -1,0 +1,112 @@
+[
+  {
+    "text": "b",
+    "box": {
+      "left": 0.0,
+      "top": 0.0,
+      "right": 0.1748,
+      "bottom": 0.1593
+    },
+    "confidence": 0.5755
+  },
+  {
+    "text": "1y",
+    "box": {
+      "left": 0.0071,
+      "top": 0.1465,
+      "right": 0.196,
+      "bottom": 0.2839
+    },
+    "confidence": 0.9043
+  },
+  {
+    "text": "101",
+    "box": {
+      "left": 0.2824,
+      "top": 0.257,
+      "right": 0.7035,
+      "bottom": 0.5122
+    },
+    "confidence": 0.9987
+  },
+  {
+    "text": "40",
+    "box": {
+      "left": 0.6943,
+      "top": 0.3095,
+      "right": 0.8344,
+      "bottom": 0.4029
+    },
+    "confidence": 0.9993
+  },
+  {
+    "text": "ни наведені в г",
+    "box": {
+      "left": 0.0,
+      "top": 0.3156,
+      "right": 0.1946,
+      "bottom": 0.3553
+    },
+    "confidence": 0.9976
+  },
+  {
+    "text": "1wm.",
+    "box": {
+      "left": 0.7148,
+      "top": 0.3968,
+      "right": 0.8047,
+      "bottom": 0.4341
+    },
+    "confidence": 0.8311
+  },
+  {
+    "text": "Чипси з гороху/вівсян.",
+    "box": {
+      "left": 0.2633,
+      "top": 0.5,
+      "right": 0.7063,
+      "bottom": 0.583
+    },
+    "confidence": 0.9382
+  },
+  {
+    "text": "NashChi 6Oг up Чеddep",
+    "box": {
+      "left": 0.2619,
+      "top": 0.533,
+      "right": 0.7325,
+      "bottom": 0.6282
+    },
+    "confidence": 0.732
+  },
+  {
+    "text": "И566(амвия)",
+    "box": {
+      "left": 0.2675,
+      "top": 0.5763,
+      "right": 0.552,
+      "bottom": 0.6392
+    },
+    "confidence": 0.7608
+  },
+  {
+    "text": "НАШ ИМПОРТ",
+    "box": {
+      "left": 0.2569,
+      "top": 0.6502,
+      "right": 0.3454,
+      "bottom": 0.6783
+    },
+    "confidence": 0.8529
+  },
+  {
+    "text": "TaBnia B",
+    "box": {
+      "left": 0.6341,
+      "top": 0.8107,
+      "right": 0.719,
+      "bottom": 0.8333
+    },
+    "confidence": 0.794
+  }
+]

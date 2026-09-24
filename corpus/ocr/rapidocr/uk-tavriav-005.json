@@ -1,0 +1,152 @@
+[
+  {
+    "text": "1,5лс/газ.",
+    "box": {
+      "left": 0.4726,
+      "top": 0.0306,
+      "right": 0.7803,
+      "bottom": 0.1663
+    },
+    "confidence": 0.742
+  },
+  {
+    "text": "Сврогруп",
+    "box": {
+      "left": 0.2039,
+      "top": 0.0465,
+      "right": 0.482,
+      "bottom": 0.1822
+    },
+    "confidence": 0.8549
+  },
+  {
+    "text": "Вода",
+    "box": {
+      "left": 0.067,
+      "top": 0.0562,
+      "right": 0.2125,
+      "bottom": 0.1748
+    },
+    "confidence": 0.841
+  },
+  {
+    "text": "Деренивська",
+    "box": {
+      "left": 0.0663,
+      "top": 0.1284,
+      "right": 0.4179,
+      "bottom": 0.2751
+    },
+    "confidence": 0.6681
+  },
+  {
+    "text": "Купиль",
+    "box": {
+      "left": 0.3948,
+      "top": 0.1504,
+      "right": 0.5994,
+      "bottom": 0.2494
+    },
+    "confidence": 0.7985
+  },
+  {
+    "text": "Укpаї",
+    "box": {
+      "left": 0.9157,
+      "top": 0.2347,
+      "right": 0.9993,
+      "bottom": 0.3081
+    },
+    "confidence": 0.5478
+  },
+  {
+    "text": "Вnаcнa Мар",
+    "box": {
+      "left": 0.8343,
+      "top": 0.2873,
+      "right": 0.9993,
+      "bottom": 0.3423
+    },
+    "confidence": 0.5628
+  },
+  {
+    "text": "националуний",
+    "box": {
+      "left": 0.4099,
+      "top": 0.2922,
+      "right": 0.5944,
+      "bottom": 0.3386
+    },
+    "confidence": 0.6567
+  },
+  {
+    "text": "НАША МАРКА",
+    "box": {
+      "left": 0.0829,
+      "top": 0.3056,
+      "right": 0.3026,
+      "bottom": 0.3998
+    },
+    "confidence": 0.7537
+  },
+  {
+    "text": "311.09",
+    "box": {
+      "left": 0.9063,
+      "top": 0.3325,
+      "right": 0.9993,
+      "bottom": 0.3863
+    },
+    "confidence": 0.8754
+  },
+  {
+    "text": "кешбек",
+    "box": {
+      "left": 0.4107,
+      "top": 0.3386,
+      "right": 0.598,
+      "bottom": 0.4071
+    },
+    "confidence": 0.9202
+  },
+  {
+    "text": "n0 0110",
+    "box": {
+      "left": 0.8862,
+      "top": 0.3802,
+      "right": 0.9986,
+      "bottom": 0.4364
+    },
+    "confidence": 0.7841
+  },
+  {
+    "text": "250",
+    "box": {
+      "left": 0.6513,
+      "top": 0.4156,
+      "right": 0.8307,
+      "bottom": 0.7005
+    },
+    "confidence": 0.5601
+  },
+  {
+    "text": "25",
+    "box": {
+      "left": 0.4481,
+      "top": 0.511,
+      "right": 0.7248,
+      "bottom": 0.8252
+    },
+    "confidence": 0.9955
+  },
+  {
+    "text": "12%",
+    "box": {
+      "left": 0.1383,
+      "top": 0.555,
+      "right": 0.2867,
+      "bottom": 0.6944
+    },
+    "confidence": 0.8372
+  }
+]

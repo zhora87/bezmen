@@ -1,0 +1,122 @@
+[
+    {
+        "text": "Борошно Сквирянка 800 г пак.",
+        "box": {
+            "left": 0.1012,
+            "top": 0.14,
+            "right": 0.7606,
+            "bottom": 0.2929
+        },
+        "confidence": 0.974
+    },
+    {
+        "text": "Кукурудзяне",
+        "box": {
+            "left": 0.1074,
+            "top": 0.2439,
+            "right": 0.3721,
+            "bottom": 0.3593
+        },
+        "confidence": 0.9729
+    },
+    {
+        "text": "наценальний",
+        "box": {
+            "left": 0.171,
+            "top": 0.3709,
+            "right": 0.3112,
+            "bottom": 0.4416
+        },
+        "confidence": 0.7239
+    },
+    {
+        "text": "Украна",
+        "box": {
+            "left": 0.7449,
+            "top": 0.3867,
+            "right": 0.8543,
+            "bottom": 0.4747
+        },
+        "confidence": 0.6832
+    },
+    {
+        "text": "50",
+        "box": {
+            "left": 0.6895,
+            "top": 0.3954,
+            "right": 0.7353,
+            "bottom": 0.4733
+        },
+        "confidence": 0.9995
+    },
+    {
+        "text": "від 3шT.",
+        "box": {
+            "left": 0.5041,
+            "top": 0.3997,
+            "right": 0.6293,
+            "bottom": 0.5152
+        },
+        "confidence": 0.7712
+    },
+    {
+        "text": "кешбек",
+        "box": {
+            "left": 0.1696,
+            "top": 0.4127,
+            "right": 0.3174,
+            "bottom": 0.5094
+        },
+        "confidence": 0.9104
+    },
+    {
+        "text": "4",
+        "box": {
+            "left": 0.6218,
+            "top": 0.4286,
+            "right": 0.6594,
+            "bottom": 0.4863
+        },
+        "confidence": 0.8516
+    },
+    {
+        "text": "22.05.26",
+        "box": {
+            "left": 0.7435,
+            "top": 0.4531,
+            "right": 0.8523,
+            "bottom": 0.5354
+        },
+        "confidence": 0.9982
+    },
+    {
+        "text": "80",
+        "box": {
+            "left": 0.5363,
+            "top": 0.5584,
+            "right": 0.6737,
+            "bottom": 0.7763
+        },
+        "confidence": 0.999
+    },
+    {
+        "text": "4",
+        "box": {
+            "left": 0.4576,
+            "top": 0.5931,
+            "right": 0.5513,
+            "bottom": 0.8571
+        },
+        "confidence": 0.9991
+    },
+    {
+        "text": "20",
+        "box": {
+            "left": 0.0917,
+            "top": 0.7994,
+            "right": 0.1279,
+            "bottom": 0.8644
+        },
+        "confidence": 0.998
+    }
+]

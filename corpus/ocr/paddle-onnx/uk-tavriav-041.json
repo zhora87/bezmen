@@ -1,0 +1,132 @@
+[
+    {
+        "text": "НАШ",
+        "box": {
+            "left": 0.3438,
+            "top": 0.142,
+            "right": 0.623,
+            "bottom": 0.2328
+        },
+        "confidence": 0.8627
+    },
+    {
+        "text": "ИМПОРТ",
+        "box": {
+            "left": 0.3438,
+            "top": 0.212,
+            "right": 0.6289,
+            "bottom": 0.3318
+        },
+        "confidence": 0.7802
+    },
+    {
+        "text": "OUR IMPORT",
+        "box": {
+            "left": 0.3021,
+            "top": 0.3203,
+            "right": 0.6784,
+            "bottom": 0.3836
+        },
+        "confidence": 0.9579
+    },
+    {
+        "text": "Цукерки Maitre Truffout 200",
+        "box": {
+            "left": 0.0833,
+            "top": 0.4475,
+            "right": 0.7949,
+            "bottom": 0.5451
+        },
+        "confidence": 0.9297
+    },
+    {
+        "text": "Мозаrт з марципаном кульки",
+        "box": {
+            "left": 0.0957,
+            "top": 0.5074,
+            "right": 0.7643,
+            "bottom": 0.5808
+        },
+        "confidence": 0.9028
+    },
+    {
+        "text": "від2шт.285",
+        "box": {
+            "left": 0.4987,
+            "top": 0.568,
+            "right": 0.7552,
+            "bottom": 0.6507
+        },
+        "confidence": 0.7279
+    },
+    {
+        "text": "Австрия",
+        "box": {
+            "left": 0.806,
+            "top": 0.5734,
+            "right": 0.9082,
+            "bottom": 0.6043
+        },
+        "confidence": 0.9187
+    },
+    {
+        "text": "80",
+        "box": {
+            "left": 0.7415,
+            "top": 0.5774,
+            "right": 0.7878,
+            "bottom": 0.609
+        },
+        "confidence": 0.9942
+    },
+    {
+        "text": "НАШ ИМПОРТ",
+        "box": {
+            "left": 0.1263,
+            "top": 0.5935,
+            "right": 0.2904,
+            "bottom": 0.6447
+        },
+        "confidence": 0.9418
+    },
+    {
+        "text": "31.03.26",
+        "box": {
+            "left": 0.8008,
+            "top": 0.6043,
+            "right": 0.9049,
+            "bottom": 0.6366
+        },
+        "confidence": 0.9894
+    },
+    {
+        "text": "300",
+        "box": {
+            "left": 0.2259,
+            "top": 0.6528,
+            "right": 0.6061,
+            "bottom": 0.8499
+        },
+        "confidence": 0.9991
+    },
+    {
+        "text": "80",
+        "box": {
+            "left": 0.5898,
+            "top": 0.6662,
+            "right": 0.7103,
+            "bottom": 0.753
+        },
+        "confidence": 0.9993
+    },
+    {
+        "text": "20",
+        "box": {
+            "left": 0.1406,
+            "top": 0.8028,
+            "right": 0.1654,
+            "bottom": 0.8223
+        },
+        "confidence": 0.9988
+    }
+]

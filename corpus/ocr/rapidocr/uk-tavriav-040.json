@@ -1,0 +1,92 @@
+[
+  {
+    "text": "HAШ",
+    "box": {
+      "left": 0.3535,
+      "top": 0.0878,
+      "right": 0.6276,
+      "bottom": 0.165
+    },
+    "confidence": 0.6869
+  },
+  {
+    "text": "ИМПОРТ",
+    "box": {
+      "left": 0.3431,
+      "top": 0.1473,
+      "right": 0.6354,
+      "bottom": 0.2665
+    },
+    "confidence": 0.7616
+  },
+  {
+    "text": "OUR IMPORT",
+    "box": {
+      "left": 0.3034,
+      "top": 0.2626,
+      "right": 0.6816,
+      "bottom": 0.3111
+    },
+    "confidence": 0.9773
+  },
+  {
+    "text": "Цукерки НАСIZАDЕ 250г полун. в",
+    "box": {
+      "left": 0.0833,
+      "top": 0.3955,
+      "right": 0.8971,
+      "bottom": 0.4754
+    },
+    "confidence": 0.8848
+  },
+  {
+    "text": "Typeч4uHa",
+    "box": {
+      "left": 0.7923,
+      "top": 0.5324,
+      "right": 0.9388,
+      "bottom": 0.5678
+    },
+    "confidence": 0.6257
+  },
+  {
+    "text": "НАШ ИМПОРТ",
+    "box": {
+      "left": 0.1042,
+      "top": 0.5377,
+      "right": 0.2799,
+      "bottom": 0.5868
+    },
+    "confidence": 0.7475
+  },
+  {
+    "text": "31.08.2ti",
+    "box": {
+      "left": 0.8249,
+      "top": 0.5671,
+      "right": 0.9349,
+      "bottom": 0.5966
+    },
+    "confidence": 0.9281
+  },
+  {
+    "text": "20570",
+    "box": {
+      "left": 0.1875,
+      "top": 0.575,
+      "right": 0.7865,
+      "bottom": 0.8481
+    },
+    "confidence": 0.9365
+  },
+  {
+    "text": "20",
+    "box": {
+      "left": 0.1061,
+      "top": 0.761,
+      "right": 0.1387,
+      "bottom": 0.7878
+    },
+    "confidence": 0.9993
+  }
+]

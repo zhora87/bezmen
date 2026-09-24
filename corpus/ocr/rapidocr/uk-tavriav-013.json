@@ -1,0 +1,112 @@
+[
+  {
+    "text": "Пиво Уманьпиво 0,5 л Віденське",
+    "box": {
+      "left": 0.0781,
+      "top": 0.2759,
+      "right": 0.877,
+      "bottom": 0.3518
+    },
+    "confidence": 0.9807
+  },
+  {
+    "text": "Україна",
+    "box": {
+      "left": 0.8366,
+      "top": 0.3574,
+      "right": 0.9421,
+      "bottom": 0.3866
+    },
+    "confidence": 0.6732
+  },
+  {
+    "text": "Октоберфест 26",
+    "box": {
+      "left": 0.7435,
+      "top": 0.3804,
+      "right": 0.9401,
+      "bottom": 0.4089
+    },
+    "confidence": 0.8892
+  },
+  {
+    "text": "015.09.26",
+    "box": {
+      "left": 0.8223,
+      "top": 0.4027,
+      "right": 0.9395,
+      "bottom": 0.4326
+    },
+    "confidence": 0.9337
+  },
+  {
+    "text": "a",
+    "box": {
+      "left": 0.9479,
+      "top": 0.4177,
+      "right": 0.9668,
+      "bottom": 0.4382
+    },
+    "confidence": 0.7782
+  },
+  {
+    "text": "n6 05.10.26",
+    "box": {
+      "left": 0.8047,
+      "top": 0.4282,
+      "right": 0.9375,
+      "bottom": 0.4556
+    },
+    "confidence": 0.7675
+  },
+  {
+    "text": "6",
+    "box": {
+      "left": 0.9486,
+      "top": 0.4487,
+      "right": 0.9635,
+      "bottom": 0.4686
+    },
+    "confidence": 0.984
+  },
+  {
+    "text": "4190",
+    "box": {
+      "left": 0.6211,
+      "top": 0.4767,
+      "right": 0.7578,
+      "bottom": 0.555
+    },
+    "confidence": 0.8164
+  },
+  {
+    "text": "34",
+    "box": {
+      "left": 0.4147,
+      "top": 0.5196,
+      "right": 0.6484,
+      "bottom": 0.6756
+    },
+    "confidence": 0.9995
+  },
+  {
+    "text": "90",
+    "box": {
+      "left": 0.6257,
+      "top": 0.5277,
+      "right": 0.7435,
+      "bottom": 0.6097
+    },
+    "confidence": 0.9682
+  },
+  {
+    "text": "17%",
+    "box": {
+      "left": 0.1387,
+      "top": 0.5308,
+      "right": 0.2786,
+      "bottom": 0.614
+    },
+    "confidence": 0.9685
+  }
+]

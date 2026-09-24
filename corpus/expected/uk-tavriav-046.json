@@ -1,0 +1,14 @@
+{
+  "pack": "uk",
+  "price": {
+    "minor": 6650,
+    "currency": "UAH"
+  },
+  "oldPrice": null,
+  "quantity": {
+    "value": 240.0,
+    "unit": "GRAM"
+  },
+  "isWeighted": false,
+  "note": "Таврія В 2026-09-24 own photo; Краб пал Єврогруп 240 г"
+}

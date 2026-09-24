@@ -1,0 +1,17 @@
+{
+  "pack": "uk",
+  "price": {
+    "minor": 4750,
+    "currency": "UAH"
+  },
+  "oldPrice": {
+    "minor": 4990,
+    "currency": "UAH"
+  },
+  "quantity": {
+    "value": 1.0,
+    "unit": "KILOGRAM"
+  },
+  "isWeighted": true,
+  "note": "Таврія В 2026-09-24 own photo; yellow frame: Груша (Україна) вага; per 1 кг., -5%"
+}

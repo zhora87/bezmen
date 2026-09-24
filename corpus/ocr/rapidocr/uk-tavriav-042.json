@@ -1,0 +1,142 @@
+[
+  {
+    "text": "Масло Миековitа 82% Польське 200 2",
+    "box": {
+      "left": 0.0475,
+      "top": 0.1395,
+      "right": 0.9993,
+      "bottom": 0.297
+    },
+    "confidence": 0.8605
+  },
+  {
+    "text": "г(Польща)",
+    "box": {
+      "left": 0.054,
+      "top": 0.2581,
+      "right": 0.3405,
+      "bottom": 0.3814
+    },
+    "confidence": 0.8686
+  },
+  {
+    "text": "нa",
+    "box": {
+      "left": 0.0,
+      "top": 0.3454,
+      "right": 0.0286,
+      "bottom": 0.3843
+    },
+    "confidence": 0.621
+  },
+  {
+    "text": "Польща",
+    "box": {
+      "left": 0.8411,
+      "top": 0.3463,
+      "right": 0.9603,
+      "bottom": 0.4061
+    },
+    "confidence": 0.9169
+  },
+  {
+    "text": "від 3 шт. 136",
+    "box": {
+      "left": 0.5234,
+      "top": 0.3501,
+      "right": 0.7975,
+      "bottom": 0.4734
+    },
+    "confidence": 0.8028
+  },
+  {
+    "text": "30",
+    "box": {
+      "left": 0.7832,
+      "top": 0.3567,
+      "right": 0.8379,
+      "bottom": 0.4175
+    },
+    "confidence": 0.9992
+  },
+  {
+    "text": "HO",
+    "box": {
+      "left": 0.0,
+      "top": 0.3814,
+      "right": 0.0299,
+      "bottom": 0.4156
+    },
+    "confidence": 0.8521
+  },
+  {
+    "text": "HAШIМПOPT",
+    "box": {
+      "left": 0.069,
+      "top": 0.3928,
+      "right": 0.2559,
+      "bottom": 0.4696
+    },
+    "confidence": 0.6212
+  },
+  {
+    "text": "25.08.26",
+    "box": {
+      "left": 0.8457,
+      "top": 0.4032,
+      "right": 0.9609,
+      "bottom": 0.4545
+    },
+    "confidence": 0.9992
+  },
+  {
+    "text": "26",
+    "box": {
+      "left": 0.0,
+      "top": 0.4108,
+      "right": 0.0319,
+      "bottom": 0.4535
+    },
+    "confidence": 0.9977
+  },
+  {
+    "text": "26",
+    "box": {
+      "left": 0.0,
+      "top": 0.4497,
+      "right": 0.0312,
+      "bottom": 0.4867
+    },
+    "confidence": 0.9792
+  },
+  {
+    "text": "151",
+    "box": {
+      "left": 0.265,
+      "top": 0.4592,
+      "right": 0.681,
+      "bottom": 0.8586
+    },
+    "confidence": 0.9994
+  },
+  {
+    "text": "40",
+    "box": {
+      "left": 0.5807,
+      "top": 0.4782,
+      "right": 0.778,
+      "bottom": 0.7173
+    },
+    "confidence": 0.998
+  },
+  {
+    "text": "10",
+    "box": {
+      "left": 0.069,
+      "top": 0.7533,
+      "right": 0.1016,
+      "bottom": 0.7922
+    },
+    "confidence": 0.9995
+  }
+]

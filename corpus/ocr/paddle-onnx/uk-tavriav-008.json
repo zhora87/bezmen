@@ -1,0 +1,92 @@
+[
+    {
+        "text": "Кривоозерська 1 л газ.",
+        "box": {
+            "left": 0.1751,
+            "top": 0.1625,
+            "right": 0.8854,
+            "bottom": 0.2795
+        },
+        "confidence": 0.9595
+    },
+    {
+        "text": "Вода",
+        "box": {
+            "left": 0.0137,
+            "top": 0.1645,
+            "right": 0.1895,
+            "bottom": 0.2844
+        },
+        "confidence": 0.9458
+    },
+    {
+        "text": "від6шr.16",
+        "box": {
+            "left": 0.556,
+            "top": 0.3558,
+            "right": 0.804,
+            "bottom": 0.4965
+        },
+        "confidence": 0.6726
+    },
+    {
+        "text": "Украина",
+        "box": {
+            "left": 0.8372,
+            "top": 0.3637,
+            "right": 0.9518,
+            "bottom": 0.4202
+        },
+        "confidence": 0.7912
+    },
+    {
+        "text": "10",
+        "box": {
+            "left": 0.7793,
+            "top": 0.3707,
+            "right": 0.832,
+            "bottom": 0.4371
+        },
+        "confidence": 0.9988
+    },
+    {
+        "text": "07.08.26",
+        "box": {
+            "left": 0.8333,
+            "top": 0.4172,
+            "right": 0.9499,
+            "bottom": 0.4747
+        },
+        "confidence": 0.9749
+    },
+    {
+        "text": "90",
+        "box": {
+            "left": 0.6126,
+            "top": 0.5263,
+            "right": 0.7533,
+            "bottom": 0.6779
+        },
+        "confidence": 0.9962
+    },
+    {
+        "text": "16",
+        "box": {
+            "left": 0.3802,
+            "top": 0.5282,
+            "right": 0.6185,
+            "bottom": 0.8295
+        },
+        "confidence": 0.9997
+    },
+    {
+        "text": "E",
+        "box": {
+            "left": 0.7865,
+            "top": 0.7691,
+            "right": 0.8366,
+            "bottom": 0.8048
+        },
+        "confidence": 0.2791
+    }
+]

@@ -40,6 +40,8 @@ data class Options(
     val verbose: Boolean,
     /** Print the OCR lines and the full parse result of this case instead of the report. */
     val explain: String?,
+    /** Only cases whose id starts with this, e.g. "uk-atb-": one store gets its own gate. */
+    val only: String? = null,
 )
 
 data class CaseResult(
@@ -75,6 +77,7 @@ usage: parser-cli <corpus-dir> [--engine <id>] [--packs-dir <dir>] [--min-accura
   --min-accuracy    exit with code 1 if the share of fully correct cases is below this
   --verbose         print every case, not only the failures
   --explain <id>    print the OCR lines and the parse result of one case
+  --only <prefix>   only cases whose id starts with the prefix (one store, one gate)
 """
 
 fun main(args: Array<String>) {
@@ -114,6 +117,7 @@ private fun parseArgs(args: Array<String>): Options {
         minAccuracy = reader.double("--min-accuracy") ?: 0.0,
         verbose = reader.flag("--verbose"),
         explain = reader.string("--explain"),
+        only = reader.string("--only"),
     )
     reader.rejectUnknown()
     return options
@@ -153,7 +157,9 @@ private fun runCorpus(options: Options): List<CaseResult> {
     val expectedDir = File(options.corpusDir, "expected")
     val ocrDir = File(options.corpusDir, "ocr/${options.engine}")
     val parsers = mutableMapOf<String, PriceTagParser>()
-    val files = expectedDir.listFiles { f -> f.extension == "json" }.orEmpty().sortedBy { it.name }
+    val files = expectedDir.listFiles { f -> f.extension == "json" }.orEmpty()
+        .filter { options.only == null || it.name.startsWith(options.only) }
+        .sortedBy { it.name }
     return files.mapNotNull { file ->
         val id = file.nameWithoutExtension
         val ocrFile = File(ocrDir, "$id.json")

@@ -1,0 +1,192 @@
+[
+  {
+    "text": "o portie (134",
+    "box": {
+      "left": 0.637,
+      "top": 0.0262,
+      "right": 0.766,
+      "bottom": 0.0539
+    },
+    "confidence": 0.9307
+  },
+  {
+    "text": "are",
+    "box": {
+      "left": 0.7899,
+      "top": 0.0333,
+      "right": 0.8278,
+      "bottom": 0.0524
+    },
+    "confidence": 0.9994
+  },
+  {
+    "text": "Valoar",
+    "box": {
+      "left": 0.6822,
+      "top": 0.0701,
+      "right": 0.756,
+      "bottom": 0.0998
+    },
+    "confidence": 0.9988
+  },
+  {
+    "text": "energet",
+    "box": {
+      "left": 0.6669,
+      "top": 0.0953,
+      "right": 0.7513,
+      "bottom": 0.1215
+    },
+    "confidence": 0.9989
+  },
+  {
+    "text": "1396 k.",
+    "box": {
+      "left": 0.6702,
+      "top": 0.1184,
+      "right": 0.7467,
+      "bottom": 0.1447
+    },
+    "confidence": 0.867
+  },
+  {
+    "text": "333 kc",
+    "box": {
+      "left": 0.6715,
+      "top": 0.1386,
+      "right": 0.744,
+      "bottom": 0.1633
+    },
+    "confidence": 0.9567
+  },
+  {
+    "text": "17%",
+    "box": {
+      "left": 0.6769,
+      "top": 0.1719,
+      "right": 0.736,
+      "bottom": 0.2011
+    },
+    "confidence": 0.999
+  },
+  {
+    "text": "Valoare energeti",
+    "box": {
+      "left": 0.6316,
+      "top": 0.2092,
+      "right": 0.7327,
+      "bottom": 0.2258
+    },
+    "confidence": 0.9964
+  },
+  {
+    "text": "bentru",
+    "box": {
+      "left": 0.7387,
+      "top": 0.2112,
+      "right": 0.7819,
+      "bottom": 0.2253
+    },
+    "confidence": 0.8878
+  },
+  {
+    "text": "100 g1042kJ",
+    "box": {
+      "left": 0.6316,
+      "top": 0.2223,
+      "right": 0.7427,
+      "bottom": 0.2404
+    },
+    "confidence": 0.8249
+  },
+  {
+    "text": "kcal",
+    "box": {
+      "left": 0.744,
+      "top": 0.2253,
+      "right": 0.7733,
+      "bottom": 0.2384
+    },
+    "confidence": 0.9899
+  },
+  {
+    "text": "*Consumul de ref  al unui",
+    "box": {
+      "left": 0.6097,
+      "top": 0.2379,
+      "right": 0.7959,
+      "bottom": 0.2566
+    },
+    "confidence": 0.9244
+  },
+  {
+    "text": "Сумиш д/млинців Dr.Oetkеr 190 р",
+    "box": {
+      "left": 0.0479,
+      "top": 0.3639,
+      "right": 0.744,
+      "bottom": 0.4073
+    },
+    "confidence": 0.9039
+  },
+  {
+    "text": "без глютену",
+    "box": {
+      "left": 0.0492,
+      "top": 0.3896,
+      "right": 0.3152,
+      "bottom": 0.4435
+    },
+    "confidence": 0.8818
+  },
+  {
+    "text": "БЕЗ ГЛЮТЕНУ",
+    "box": {
+      "left": 0.0751,
+      "top": 0.4501,
+      "right": 0.24,
+      "bottom": 0.4808
+    },
+    "confidence": 0.6833
+  },
+  {
+    "text": "03.03.26",
+    "box": {
+      "left": 0.7028,
+      "top": 0.4672,
+      "right": 0.7972,
+      "bottom": 0.4894
+    },
+    "confidence": 0.9993
+  },
+  {
+    "text": "9370",
+    "box": {
+      "left": 0.3025,
+      "top": 0.4864,
+      "right": 0.6749,
+      "bottom": 0.6285
+    },
+    "confidence": 0.9961
+  },
+  {
+    "text": "FOPOIL",
+    "box": {
+      "left": 0.7327,
+      "top": 0.8765,
+      "right": 0.9993,
+      "bottom": 0.9567
+    },
+    "confidence": 0.7553
+  },
+  {
+    "text": "ПШЕНИЧ",
+    "box": {
+      "left": 0.7227,
+      "top": 0.932,
+      "right": 0.9993,
+      "bottom": 0.9995
+    },
+    "confidence": 0.8153
+  }
+]

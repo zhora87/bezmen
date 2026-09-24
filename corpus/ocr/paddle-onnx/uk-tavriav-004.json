@@ -1,0 +1,92 @@
+[
+    {
+        "text": "Вода Єврогруп 0,5 л Миколінська",
+        "box": {
+            "left": 0.0638,
+            "top": 0.1477,
+            "right": 0.8893,
+            "bottom": 0.266
+        },
+        "confidence": 0.953
+    },
+    {
+        "text": "cnopт",
+        "box": {
+            "left": 0.0658,
+            "top": 0.2519,
+            "right": 0.2135,
+            "bottom": 0.3474
+        },
+        "confidence": 0.7648
+    },
+    {
+        "text": "вi6шт.1840",
+        "box": {
+            "left": 0.543,
+            "top": 0.3279,
+            "right": 0.8281,
+            "bottom": 0.4875
+        },
+        "confidence": 0.615
+    },
+    {
+        "text": "Україна",
+        "box": {
+            "left": 0.8229,
+            "top": 0.3507,
+            "right": 0.9375,
+            "bottom": 0.4202
+        },
+        "confidence": 0.8356
+    },
+    {
+        "text": "НАША МАРКА",
+        "box": {
+            "left": 0.082,
+            "top": 0.3702,
+            "right": 0.2884,
+            "bottom": 0.4669
+        },
+        "confidence": 0.9454
+    },
+    {
+        "text": "05.05.26",
+        "box": {
+            "left": 0.821,
+            "top": 0.4093,
+            "right": 0.9355,
+            "bottom": 0.4723
+        },
+        "confidence": 0.9891
+    },
+    {
+        "text": "19",
+        "box": {
+            "left": 0.3841,
+            "top": 0.5016,
+            "right": 0.6419,
+            "bottom": 0.8339
+        },
+        "confidence": 0.9979
+    },
+    {
+        "text": "30",
+        "box": {
+            "left": 0.5612,
+            "top": 0.5071,
+            "right": 0.7435,
+            "bottom": 0.7296
+        },
+        "confidence": 0.9986
+    },
+    {
+        "text": "20",
+        "box": {
+            "left": 0.0762,
+            "top": 0.7568,
+            "right": 0.1178,
+            "bottom": 0.8089
+        },
+        "confidence": 0.9983
+    }
+]

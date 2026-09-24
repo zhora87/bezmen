@@ -1,0 +1,122 @@
+[
+    {
+        "text": "49",
+        "box": {
+            "left": 0.4801,
+            "top": 0.1617,
+            "right": 0.6847,
+            "bottom": 0.2575
+        },
+        "confidence": 0.9978
+    },
+    {
+        "text": "90",
+        "box": {
+            "left": 0.6847,
+            "top": 0.1633,
+            "right": 0.7641,
+            "bottom": 0.2104
+        },
+        "confidence": 0.9826
+    },
+    {
+        "text": "-5%",
+        "box": {
+            "left": 0.1745,
+            "top": 0.1998,
+            "right": 0.3418,
+            "bottom": 0.2632
+        },
+        "confidence": 0.9816
+    },
+    {
+        "text": "47",
+        "box": {
+            "left": 0.272,
+            "top": 0.3087,
+            "right": 0.6282,
+            "bottom": 0.5053
+        },
+        "confidence": 0.9996
+    },
+    {
+        "text": "50",
+        "box": {
+            "left": 0.6197,
+            "top": 0.3136,
+            "right": 0.8363,
+            "bottom": 0.4314
+        },
+        "confidence": 0.9997
+    },
+    {
+        "text": "1 кe.",
+        "box": {
+            "left": 0.698,
+            "top": 0.4184,
+            "right": 0.7918,
+            "bottom": 0.4509
+        },
+        "confidence": 0.6701
+    },
+    {
+        "text": "Груша (Україна) Вага",
+        "box": {
+            "left": 0.1661,
+            "top": 0.5321,
+            "right": 0.7076,
+            "bottom": 0.5938
+        },
+        "confidence": 0.9642
+    },
+    {
+        "text": "326",
+        "box": {
+            "left": 0.1396,
+            "top": 0.6523,
+            "right": 0.3177,
+            "bottom": 0.7108
+        },
+        "confidence": 0.9936
+    },
+    {
+        "text": "9 22.09.26",
+        "box": {
+            "left": 0.4452,
+            "top": 0.7872,
+            "right": 0.5872,
+            "bottom": 0.8107
+        },
+        "confidence": 0.9384
+    },
+    {
+        "text": "по 28.09.26",
+        "box": {
+            "left": 0.4669,
+            "top": 0.8123,
+            "right": 0.6282,
+            "bottom": 0.8383
+        },
+        "confidence": 0.8804
+    },
+    {
+        "text": "Табрія в",
+        "box": {
+            "left": 0.728,
+            "top": 0.831,
+            "right": 0.858,
+            "bottom": 0.8587
+        },
+        "confidence": 0.9181
+    },
+    {
+        "text": "1",
+        "box": {
+            "left": 0.7894,
+            "top": 0.857,
+            "right": 0.8436,
+            "bottom": 0.8668
+        },
+        "confidence": 0.4711
+    }
+]

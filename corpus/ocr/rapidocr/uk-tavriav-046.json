@@ -1,0 +1,112 @@
+[
+  {
+    "text": "Краб пал Єврогруп 240 г",
+    "box": {
+      "left": 0.0938,
+      "top": 0.1456,
+      "right": 0.7923,
+      "bottom": 0.2952
+    },
+    "confidence": 0.9159
+  },
+  {
+    "text": "aїna",
+    "box": {
+      "left": 0.0,
+      "top": 0.3454,
+      "right": 0.0547,
+      "bottom": 0.3966
+    },
+    "confidence": 0.637
+  },
+  {
+    "text": "НАША МАРКА",
+    "box": {
+      "left": 0.1042,
+      "top": 0.3665,
+      "right": 0.2982,
+      "bottom": 0.4448
+    },
+    "confidence": 0.6544
+  },
+  {
+    "text": "национальний",
+    "box": {
+      "left": 0.3932,
+      "top": 0.3675,
+      "right": 0.5508,
+      "bottom": 0.4116
+    },
+    "confidence": 0.9376
+  },
+  {
+    "text": "Україна",
+    "box": {
+      "left": 0.8255,
+      "top": 0.3775,
+      "right": 0.9303,
+      "bottom": 0.4378
+    },
+    "confidence": 0.5869
+  },
+  {
+    "text": "09.26",
+    "box": {
+      "left": 0.0,
+      "top": 0.3936,
+      "right": 0.0553,
+      "bottom": 0.4458
+    },
+    "confidence": 0.9905
+  },
+  {
+    "text": "кешбек",
+    "box": {
+      "left": 0.3919,
+      "top": 0.4006,
+      "right": 0.5534,
+      "bottom": 0.4669
+    },
+    "confidence": 0.9228
+  },
+  {
+    "text": "17.09.26",
+    "box": {
+      "left": 0.8242,
+      "top": 0.4317,
+      "right": 0.9284,
+      "bottom": 0.4809
+    },
+    "confidence": 0.9994
+  },
+  {
+    "text": "6650",
+    "box": {
+      "left": 0.3249,
+      "top": 0.4478,
+      "right": 0.7871,
+      "bottom": 0.8524
+    },
+    "confidence": 0.8976
+  },
+  {
+    "text": "20",
+    "box": {
+      "left": 0.9635,
+      "top": 0.7108,
+      "right": 0.9967,
+      "bottom": 0.751
+    },
+    "confidence": 0.9993
+  },
+  {
+    "text": "10",
+    "box": {
+      "left": 0.0892,
+      "top": 0.7149,
+      "right": 0.1237,
+      "bottom": 0.756
+    },
+    "confidence": 0.9996
+  }
+]

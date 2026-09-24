@@ -1,0 +1,72 @@
+[
+    {
+        "text": "1y",
+        "box": {
+            "left": 0.0156,
+            "top": 0.1471,
+            "right": 0.1925,
+            "bottom": 0.2833
+        },
+        "confidence": 0.9055
+    },
+    {
+        "text": "101",
+        "box": {
+            "left": 0.3149,
+            "top": 0.2802,
+            "right": 0.6794,
+            "bottom": 0.4908
+        },
+        "confidence": 0.9988
+    },
+    {
+        "text": "ни наведенів г",
+        "box": {
+            "left": 0.0,
+            "top": 0.3071,
+            "right": 0.1982,
+            "bottom": 0.3626
+        },
+        "confidence": 0.8679
+    },
+    {
+        "text": "40",
+        "box": {
+            "left": 0.6957,
+            "top": 0.3168,
+            "right": 0.8259,
+            "bottom": 0.4011
+        },
+        "confidence": 0.9992
+    },
+    {
+        "text": "1um.",
+        "box": {
+            "left": 0.7113,
+            "top": 0.3956,
+            "right": 0.8054,
+            "bottom": 0.4353
+        },
+        "confidence": 0.7839
+    },
+    {
+        "text": "Иатя",
+        "box": {
+            "left": 0.2597,
+            "top": 0.5678,
+            "right": 0.5626,
+            "bottom": 0.649
+        },
+        "confidence": 0.3627
+    },
+    {
+        "text": "НАШ ИПЮРТ",
+        "box": {
+            "left": 0.2527,
+            "top": 0.6477,
+            "right": 0.3524,
+            "bottom": 0.6825
+        },
+        "confidence": 0.6779
+    }
+]

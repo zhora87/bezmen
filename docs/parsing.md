@@ -164,8 +164,10 @@ pending cases are skipped by the accuracy gate.
 - `ocr/synthetic/` holds hand-written dumps mirroring the unit tests; CI requires 100% on them.
 - `ocr/paddle-onnx/` holds dumps of the engine the app ships (`PaddleOnnxOcrEngine`, same code and
   models) produced on the desktop by `./gradlew :tools:ocr-dump:run --args="corpus --pack uk"`
-  from photos cropped to the tag by `tools/corpus/autocrop.py`. This is the reference set: CI
-  requires 85% of cases fully correct on it.
+  from photos cropped to the tag by `tools/corpus/autocrop.py`. This is the reference set, gated per
+  store chain with `--only <id prefix>`: 85% of cases fully correct for ATB, a regression floor for
+  Tavria V, whose tags (quantity inside the name, "від N шт." multi-buy prices, large italic digits)
+  the parser and engine are not tuned for yet.
 - `ocr/rapidocr/` holds dumps produced by `tools/ml/ocr_dump.py` (RapidOCR with the same models but
   its own detector post-processing). It is kept as a second opinion with a lower regression floor.
 - `./gradlew :tools:parser-cli:run --args="corpus --engine paddle-onnx --verbose"` prints a per-pack

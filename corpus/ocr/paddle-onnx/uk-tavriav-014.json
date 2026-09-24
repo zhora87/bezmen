@@ -1,0 +1,82 @@
+[
+    {
+        "text": "д",
+        "box": {
+            "left": 0.0885,
+            "top": 0.1023,
+            "right": 0.9876,
+            "bottom": 0.4407
+        },
+        "confidence": 0.3068
+    },
+    {
+        "text": "4.170",
+        "box": {
+            "left": 0.5612,
+            "top": 0.3384,
+            "right": 0.8451,
+            "bottom": 0.5386
+        },
+        "confidence": 0.5408
+    },
+    {
+        "text": "Украна",
+        "box": {
+            "left": 0.8281,
+            "top": 0.3558,
+            "right": 0.9414,
+            "bottom": 0.4255
+        },
+        "confidence": 0.7624
+    },
+    {
+        "text": "23.09.26",
+        "box": {
+            "left": 0.8242,
+            "top": 0.4059,
+            "right": 0.9408,
+            "bottom": 0.4831
+        },
+        "confidence": 0.977
+    },
+    {
+        "text": "нацонАльний",
+        "box": {
+            "left": 0.1999,
+            "top": 0.4233,
+            "right": 0.3529,
+            "bottom": 0.5103
+        },
+        "confidence": 0.5741
+    },
+    {
+        "text": "кешбек",
+        "box": {
+            "left": 0.2064,
+            "top": 0.4701,
+            "right": 0.3594,
+            "bottom": 0.5571
+        },
+        "confidence": 0.7443
+    },
+    {
+        "text": "70",
+        "box": {
+            "left": 0.6146,
+            "top": 0.531,
+            "right": 0.7552,
+            "bottom": 0.7018
+        },
+        "confidence": 0.9981
+    },
+    {
+        "text": "18",
+        "box": {
+            "left": 0.4375,
+            "top": 0.5332,
+            "right": 0.6615,
+            "bottom": 0.839
+        },
+        "confidence": 0.9989
+    }
+]

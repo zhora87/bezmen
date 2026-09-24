@@ -1,0 +1,482 @@
+[
+    {
+        "text": "\"По  а Зяе",
+        "box": {
+            "left": 0.2409,
+            "top": 0.0114,
+            "right": 0.5033,
+            "bottom": 0.0444
+        },
+        "confidence": 0.5057
+    },
+    {
+        "text": "у Прила аан иожуть бути отрина Учас",
+        "box": {
+            "left": 0.2116,
+            "top": 0.0307,
+            "right": 0.4238,
+            "bottom": 0.0592
+        },
+        "confidence": 0.5152
+    },
+    {
+        "text": "скзни при виксанй наини",
+        "box": {
+            "left": 0.418,
+            "top": 0.0387,
+            "right": 0.5273,
+            "bottom": 0.0592
+        },
+        "confidence": 0.5445
+    },
+    {
+        "text": "уно Ао Праот од",
+        "box": {
+            "left": 0.2207,
+            "top": 0.0455,
+            "right": 0.5228,
+            "bottom": 0.0842
+        },
+        "confidence": 0.4889
+    },
+    {
+        "text": "ножуть вдринатись вд оригиалу.",
+        "box": {
+            "left": 0.2982,
+            "top": 0.0683,
+            "right": 0.4447,
+            "bottom": 0.0956
+        },
+        "confidence": 0.5737
+    },
+    {
+        "text": "ПАРТНЕРИ:",
+        "box": {
+            "left": 0.2116,
+            "top": 0.1138,
+            "right": 0.2813,
+            "bottom": 0.1411
+        },
+        "confidence": 0.9975
+    },
+    {
+        "text": "Mika",
+        "box": {
+            "left": 0.0,
+            "top": 0.1559,
+            "right": 0.0501,
+            "bottom": 0.223
+        },
+        "confidence": 0.881
+    },
+    {
+        "text": "*",
+        "box": {
+            "left": 0.4303,
+            "top": 0.1604,
+            "right": 0.4492,
+            "bottom": 0.1877
+        },
+        "confidence": 0.2784
+    },
+    {
+        "text": "Mika",
+        "box": {
+            "left": 0.6999,
+            "top": 0.1695,
+            "right": 0.7741,
+            "bottom": 0.248
+        },
+        "confidence": 0.9208
+    },
+    {
+        "text": "MacCofiee",
+        "box": {
+            "left": 0.0853,
+            "top": 0.1729,
+            "right": 0.1549,
+            "bottom": 0.2082
+        },
+        "confidence": 0.8616
+    },
+    {
+        "text": "МACHA",
+        "box": {
+            "left": 0.4128,
+            "top": 0.182,
+            "right": 0.4668,
+            "bottom": 0.2093
+        },
+        "confidence": 0.6149
+    },
+    {
+        "text": "NORVEN",
+        "box": {
+            "left": 0.6126,
+            "top": 0.182,
+            "right": 0.6654,
+            "bottom": 0.2116
+        },
+        "confidence": 0.9986
+    },
+    {
+        "text": "PRÉSIDENT",
+        "box": {
+            "left": 0.5065,
+            "top": 0.1854,
+            "right": 0.5729,
+            "bottom": 0.2207
+        },
+        "confidence": 0.9826
+    },
+    {
+        "text": "MacCoffee",
+        "box": {
+            "left": 0.806,
+            "top": 0.1934,
+            "right": 0.875,
+            "bottom": 0.2275
+        },
+        "confidence": 0.888
+    },
+    {
+        "text": "ГИЛЬДІЯ",
+        "box": {
+            "left": 0.4115,
+            "top": 0.2025,
+            "right": 0.4688,
+            "bottom": 0.2298
+        },
+        "confidence": 0.6709
+    },
+    {
+        "text": "СМАН",
+        "box": {
+            "left": 0.2344,
+            "top": 0.2082,
+            "right": 0.2604,
+            "bottom": 0.2241
+        },
+        "confidence": 0.7272
+    },
+    {
+        "text": "Gerber",
+        "box": {
+            "left": 0.3301,
+            "top": 0.223,
+            "right": 0.3659,
+            "bottom": 0.2446
+        },
+        "confidence": 0.9184
+    },
+    {
+        "text": "felix",
+        "box": {
+            "left": 0.4102,
+            "top": 0.2719,
+            "right": 0.4727,
+            "bottom": 0.347
+        },
+        "confidence": 0.9927
+    },
+    {
+        "text": "Persil",
+        "box": {
+            "left": 0.0905,
+            "top": 0.2742,
+            "right": 0.1563,
+            "bottom": 0.3231
+        },
+        "confidence": 0.9984
+    },
+    {
+        "text": "always",
+        "box": {
+            "left": 0.5977,
+            "top": 0.2776,
+            "right": 0.6738,
+            "bottom": 0.347
+        },
+        "confidence": 0.9953
+    },
+    {
+        "text": "Kik",
+        "box": {
+            "left": 0.3262,
+            "top": 0.281,
+            "right": 0.3574,
+            "bottom": 0.3311
+        },
+        "confidence": 0.7132
+    },
+    {
+        "text": "FAIRY",
+        "box": {
+            "left": 0.002,
+            "top": 0.2833,
+            "right": 0.0417,
+            "bottom": 0.3288
+        },
+        "confidence": 0.9566
+    },
+    {
+        "text": "Man c",
+        "box": {
+            "left": 0.5065,
+            "top": 0.2833,
+            "right": 0.5716,
+            "bottom": 0.3185
+        },
+        "confidence": 0.4308
+    },
+    {
+        "text": "PONS",
+        "box": {
+            "left": 0.2292,
+            "top": 0.2844,
+            "right": 0.2728,
+            "bottom": 0.3367
+        },
+        "confidence": 0.3775
+    },
+    {
+        "text": "Ka",
+        "box": {
+            "left": 0.349,
+            "top": 0.2901,
+            "right": 0.3665,
+            "bottom": 0.3163
+        },
+        "confidence": 0.5933
+    },
+    {
+        "text": "Persill",
+        "box": {
+            "left": 0.8008,
+            "top": 0.2901,
+            "right": 0.8685,
+            "bottom": 0.3458
+        },
+        "confidence": 0.9674
+    },
+    {
+        "text": "FAIRY",
+        "box": {
+            "left": 0.7096,
+            "top": 0.2981,
+            "right": 0.7539,
+            "bottom": 0.3493
+        },
+        "confidence": 0.9546
+    },
+    {
+        "text": "Вівсянушка",
+        "box": {
+            "left": 0.502,
+            "top": 0.3049,
+            "right": 0.5762,
+            "bottom": 0.3402
+        },
+        "confidence": 0.8335
+    },
+    {
+        "text": "Ikpa",
+        "box": {
+            "left": 0.2539,
+            "top": 0.3732,
+            "right": 0.3522,
+            "bottom": 0.4562
+        },
+        "confidence": 0.7121
+    },
+    {
+        "text": "Форелі Norvеn 180 г с/м",
+        "box": {
+            "left": 0.3451,
+            "top": 0.3732,
+            "right": 0.8086,
+            "bottom": 0.4562
+        },
+        "confidence": 0.8818
+    },
+    {
+        "text": "/M",
+        "box": {
+            "left": 0.0,
+            "top": 0.3902,
+            "right": 0.0534,
+            "bottom": 0.4505
+        },
+        "confidence": 0.7768
+    },
+    {
+        "text": "сол.",
+        "box": {
+            "left": 0.0345,
+            "top": 0.3948,
+            "right": 0.123,
+            "bottom": 0.4653
+        },
+        "confidence": 0.7793
+    },
+    {
+        "text": "Україна",
+        "box": {
+            "left": 0.7643,
+            "top": 0.4471,
+            "right": 0.8385,
+            "bottom": 0.4869
+        },
+        "confidence": 0.9378
+    },
+    {
+        "text": "Україна",
+        "box": {
+            "left": 0.0866,
+            "top": 0.4664,
+            "right": 0.1634,
+            "bottom": 0.5245
+        },
+        "confidence": 0.8282
+    },
+    {
+        "text": "3HИЖКИ",
+        "box": {
+            "left": 0.7604,
+            "top": 0.4778,
+            "right": 0.8366,
+            "bottom": 0.5131
+        },
+        "confidence": 0.67
+    },
+    {
+        "text": "3HИЖКИ",
+        "box": {
+            "left": 0.0814,
+            "top": 0.496,
+            "right": 0.1634,
+            "bottom": 0.5518
+        },
+        "confidence": 0.6708
+    },
+    {
+        "text": "3 23.09.26",
+        "box": {
+            "left": 0.7539,
+            "top": 0.5051,
+            "right": 0.8353,
+            "bottom": 0.5404
+        },
+        "confidence": 0.9185
+    },
+    {
+        "text": "нацональний",
+        "box": {
+            "left": 0.3053,
+            "top": 0.5245,
+            "right": 0.4167,
+            "bottom": 0.5586
+        },
+        "confidence": 0.9927
+    },
+    {
+        "text": "5309.26",
+        "box": {
+            "left": 0.0768,
+            "top": 0.5256,
+            "right": 0.1634,
+            "bottom": 0.5791
+        },
+        "confidence": 0.8215
+    },
+    {
+        "text": "по 06.10.26",
+        "box": {
+            "left": 0.7448,
+            "top": 0.5336,
+            "right": 0.8346,
+            "bottom": 0.5677
+        },
+        "confidence": 0.9784
+    },
+    {
+        "text": "кешбек",
+        "box": {
+            "left": 0.304,
+            "top": 0.5461,
+            "right": 0.4199,
+            "bottom": 0.6052
+        },
+        "confidence": 0.8513
+    },
+    {
+        "text": "no 06.10.26",
+        "box": {
+            "left": 0.0677,
+            "top": 0.5518,
+            "right": 0.1628,
+            "bottom": 0.6064
+        },
+        "confidence": 0.9226
+    },
+    {
+        "text": "77020",
+        "box": {
+            "left": 0.597,
+            "top": 0.5973,
+            "right": 0.7148,
+            "bottom": 0.6951
+        },
+        "confidence": 0.7185
+    },
+    {
+        "text": "90",
+        "box": {
+            "left": 0.002,
+            "top": 0.6155,
+            "right": 0.0352,
+            "bottom": 0.6542
+        },
+        "confidence": 0.9723
+    },
+    {
+        "text": "-27%",
+        "box": {
+            "left": 0.2845,
+            "top": 0.6485,
+            "right": 0.418,
+            "bottom": 0.7907
+        },
+        "confidence": 0.9559
+    },
+    {
+        "text": "565",
+        "box": {
+            "left": 0.418,
+            "top": 0.6598,
+            "right": 0.6354,
+            "bottom": 0.8498
+        },
+        "confidence": 0.9998
+    },
+    {
+        "text": "50",
+        "box": {
+            "left": 0.6165,
+            "top": 0.6621,
+            "right": 0.7018,
+            "bottom": 0.7645
+        },
+        "confidence": 0.997
+    },
+    {
+        "text": "20",
+        "box": {
+            "left": 0.2604,
+            "top": 0.7975,
+            "right": 0.2832,
+            "bottom": 0.8305
+        },
+        "confidence": 0.9991
+    }
+]

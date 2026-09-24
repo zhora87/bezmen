@@ -1,0 +1,122 @@
+[
+    {
+        "text": "300",
+        "box": {
+            "left": 0.4303,
+            "top": 0.0243,
+            "right": 0.4479,
+            "bottom": 0.0346
+        },
+        "confidence": 0.2206
+    },
+    {
+        "text": "лення хліба,",
+        "box": {
+            "left": 0.123,
+            "top": 0.0671,
+            "right": 0.3529,
+            "bottom": 0.1238
+        },
+        "confidence": 0.8918
+    },
+    {
+        "text": "O",
+        "box": {
+            "left": 0.0749,
+            "top": 0.0936,
+            "right": 0.1003,
+            "bottom": 0.1091
+        },
+        "confidence": 0.3029
+    },
+    {
+        "text": "MΓ",
+        "box": {
+            "left": 0.0104,
+            "top": 0.0958,
+            "right": 0.0482,
+            "bottom": 0.1142
+        },
+        "confidence": 0.1941
+    },
+    {
+        "text": "h",
+        "box": {
+            "left": 0.0592,
+            "top": 0.0973,
+            "right": 0.0801,
+            "bottom": 0.1076
+        },
+        "confidence": 0.3056
+    },
+    {
+        "text": "обулоч",
+        "box": {
+            "left": 0.0013,
+            "top": 0.1201,
+            "right": 0.123,
+            "bottom": 0.1702
+        },
+        "confidence": 0.7272
+    },
+    {
+        "text": "Борошно МsТallу 800 г Вівсяне",
+        "box": {
+            "left": 0.1022,
+            "top": 0.3574,
+            "right": 0.8451,
+            "bottom": 0.4517
+        },
+        "confidence": 0.9155
+    },
+    {
+        "text": "Украна",
+        "box": {
+            "left": 0.832,
+            "top": 0.5011,
+            "right": 0.9323,
+            "bottom": 0.5394
+        },
+        "confidence": 0.965
+    },
+    {
+        "text": "БЕЗ ГЛЮТЕНУ",
+        "box": {
+            "left": 0.123,
+            "top": 0.5129,
+            "right": 0.3092,
+            "bottom": 0.5755
+        },
+        "confidence": 0.8637
+    },
+    {
+        "text": "27.06.26",
+        "box": {
+            "left": 0.8268,
+            "top": 0.538,
+            "right": 0.9284,
+            "bottom": 0.5726
+        },
+        "confidence": 0.9947
+    },
+    {
+        "text": "176",
+        "box": {
+            "left": 0.3001,
+            "top": 0.5962,
+            "right": 0.6335,
+            "bottom": 0.8091
+        },
+        "confidence": 0.9994
+    },
+    {
+        "text": "40",
+        "box": {
+            "left": 0.6146,
+            "top": 0.6043,
+            "right": 0.7383,
+            "bottom": 0.7082
+        },
+        "confidence": 0.9993
+    }
+]

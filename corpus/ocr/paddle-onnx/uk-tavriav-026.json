@@ -1,0 +1,172 @@
+[
+    {
+        "text": "ВИЩИ",
+        "box": {
+            "left": 0.0,
+            "top": 0.0891,
+            "right": 0.0938,
+            "bottom": 0.1471
+        },
+        "confidence": 0.4653
+    },
+    {
+        "text": "органична",
+        "box": {
+            "left": 0.2676,
+            "top": 0.1572,
+            "right": 0.6875,
+            "bottom": 0.3348
+        },
+        "confidence": 0.7886
+    },
+    {
+        "text": "i",
+        "box": {
+            "left": 0.1615,
+            "top": 0.2094,
+            "right": 0.168,
+            "bottom": 0.2283
+        },
+        "confidence": 0.3367
+    },
+    {
+        "text": "продукция",
+        "box": {
+            "left": 0.2741,
+            "top": 0.2942,
+            "right": 0.681,
+            "bottom": 0.4442
+        },
+        "confidence": 0.9046
+    },
+    {
+        "text": "tne",
+        "box": {
+            "left": 0.9512,
+            "top": 0.3275,
+            "right": 0.998,
+            "bottom": 0.3543
+        },
+        "confidence": 0.6279
+    },
+    {
+        "text": "Борошно",
+        "box": {
+            "left": 0.0638,
+            "top": 0.4283,
+            "right": 0.2845,
+            "bottom": 0.5022
+        },
+        "confidence": 0.9707
+    },
+    {
+        "text": "Екород",
+        "box": {
+            "left": 0.2813,
+            "top": 0.4355,
+            "right": 0.4707,
+            "bottom": 0.5101
+        },
+        "confidence": 0.974
+    },
+    {
+        "text": "B/r0.8/1",
+        "box": {
+            "left": 0.4583,
+            "top": 0.4413,
+            "right": 0.679,
+            "bottom": 0.5152
+        },
+        "confidence": 0.8614
+    },
+    {
+        "text": "Kr",
+        "box": {
+            "left": 0.6706,
+            "top": 0.4587,
+            "right": 0.7253,
+            "bottom": 0.5072
+        },
+        "confidence": 0.4151
+    },
+    {
+        "text": "органічне",
+        "box": {
+            "left": 0.0677,
+            "top": 0.487,
+            "right": 0.2982,
+            "bottom": 0.5486
+        },
+        "confidence": 0.9276
+    },
+    {
+        "text": "100% OPГАHIK",
+        "box": {
+            "left": 0.0794,
+            "top": 0.5645,
+            "right": 0.2988,
+            "bottom": 0.6297
+        },
+        "confidence": 0.765
+    },
+    {
+        "text": "Україна",
+        "box": {
+            "left": 0.7695,
+            "top": 0.579,
+            "right": 0.8678,
+            "bottom": 0.6167
+        },
+        "confidence": 0.8453
+    },
+    {
+        "text": "86",
+        "box": {
+            "left": 0.6315,
+            "top": 0.5797,
+            "right": 0.7096,
+            "bottom": 0.6399
+        },
+        "confidence": 0.9983
+    },
+    {
+        "text": "60",
+        "box": {
+            "left": 0.7103,
+            "top": 0.5797,
+            "right": 0.7533,
+            "bottom": 0.6159
+        },
+        "confidence": 0.9965
+    },
+    {
+        "text": "від 3 шт.",
+        "box": {
+            "left": 0.5091,
+            "top": 0.5812,
+            "right": 0.6393,
+            "bottom": 0.6413
+        },
+        "confidence": 0.888
+    },
+    {
+        "text": "03.02.26",
+        "box": {
+            "left": 0.7617,
+            "top": 0.6123,
+            "right": 0.8633,
+            "bottom": 0.6507
+        },
+        "confidence": 0.9809
+    },
+    {
+        "text": "9110",
+        "box": {
+            "left": 0.3887,
+            "top": 0.6507,
+            "right": 0.7227,
+            "bottom": 0.8601
+        },
+        "confidence": 0.9804
+    }
+]

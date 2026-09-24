@@ -1,0 +1,122 @@
+[
+  {
+    "text": "Цукерки Конті Белісімо",
+    "box": {
+      "left": 0.3392,
+      "top": 0.1432,
+      "right": 0.7858,
+      "bottom": 0.2219
+    },
+    "confidence": 0.9139
+  },
+  {
+    "text": "Крем-брюле ваг.",
+    "box": {
+      "left": 0.3398,
+      "top": 0.1911,
+      "right": 0.6608,
+      "bottom": 0.263
+    },
+    "confidence": 0.9792
+  },
+  {
+    "text": "Україна",
+    "box": {
+      "left": 0.9225,
+      "top": 0.2432,
+      "right": 0.9993,
+      "bottom": 0.274
+    },
+    "confidence": 0.7148
+  },
+  {
+    "text": "6064",
+    "box": {
+      "left": 0.3385,
+      "top": 0.2493,
+      "right": 0.5697,
+      "bottom": 0.3356
+    },
+    "confidence": 0.9994
+  },
+  {
+    "text": "04.08.26",
+    "box": {
+      "left": 0.9186,
+      "top": 0.2712,
+      "right": 0.9993,
+      "bottom": 0.3007
+    },
+    "confidence": 0.9978
+  },
+  {
+    "text": "28",
+    "box": {
+      "left": 0.5345,
+      "top": 0.3185,
+      "right": 0.7819,
+      "bottom": 0.4986
+    },
+    "confidence": 0.9978
+  },
+  {
+    "text": "94",
+    "box": {
+      "left": 0.7526,
+      "top": 0.3281,
+      "right": 0.8522,
+      "bottom": 0.4075
+    },
+    "confidence": 0.9995
+  },
+  {
+    "text": "100r.",
+    "box": {
+      "left": 0.7383,
+      "top": 0.4151,
+      "right": 0.8711,
+      "bottom": 0.4692
+    },
+    "confidence": 0.9737
+  },
+  {
+    "text": "20",
+    "box": {
+      "left": 0.3581,
+      "top": 0.4616,
+      "right": 0.3841,
+      "bottom": 0.4836
+    },
+    "confidence": 0.9997
+  },
+  {
+    "text": "BOB",
+    "box": {
+      "left": 0.6387,
+      "top": 0.7171,
+      "right": 0.793,
+      "bottom": 0.7932
+    },
+    "confidence": 0.9766
+  },
+  {
+    "text": "BOBNAL",
+    "box": {
+      "left": 0.3216,
+      "top": 0.7219,
+      "right": 0.5553,
+      "bottom": 0.8123
+    },
+    "confidence": 0.8475
+  },
+  {
+    "text": "BOB",
+    "box": {
+      "left": 0.0052,
+      "top": 0.7877,
+      "right": 0.2207,
+      "bottom": 0.8575
+    },
+    "confidence": 0.8932
+  }
+]

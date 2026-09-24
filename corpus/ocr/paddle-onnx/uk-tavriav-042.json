@@ -1,0 +1,132 @@
+[
+    {
+        "text": "МаСло МеКоviтaа 82% ПольСьке 200",
+        "box": {
+            "left": 0.0384,
+            "top": 0.1385,
+            "right": 0.9857,
+            "bottom": 0.3083
+        },
+        "confidence": 0.7286
+    },
+    {
+        "text": "г(Польща)",
+        "box": {
+            "left": 0.0534,
+            "top": 0.2638,
+            "right": 0.3385,
+            "bottom": 0.3672
+        },
+        "confidence": 0.8842
+    },
+    {
+        "text": "3.136",
+        "box": {
+            "left": 0.5143,
+            "top": 0.3245,
+            "right": 0.8594,
+            "bottom": 0.4877
+        },
+        "confidence": 0.8629
+    },
+    {
+        "text": "на",
+        "box": {
+            "left": 0.0,
+            "top": 0.3463,
+            "right": 0.028,
+            "bottom": 0.3871
+        },
+        "confidence": 0.7863
+    },
+    {
+        "text": "Польща",
+        "box": {
+            "left": 0.8366,
+            "top": 0.3501,
+            "right": 0.9635,
+            "bottom": 0.408
+        },
+        "confidence": 0.9331
+    },
+    {
+        "text": "26",
+        "box": {
+            "left": 0.0,
+            "top": 0.3691,
+            "right": 0.0352,
+            "bottom": 0.463
+        },
+        "confidence": 0.9046
+    },
+    {
+        "text": "НАШИМПОРТ",
+        "box": {
+            "left": 0.0638,
+            "top": 0.3795,
+            "right": 0.2591,
+            "bottom": 0.4763
+        },
+        "confidence": 0.8415
+    },
+    {
+        "text": "25.08.26",
+        "box": {
+            "left": 0.8438,
+            "top": 0.4004,
+            "right": 0.9635,
+            "bottom": 0.4554
+        },
+        "confidence": 0.9994
+    },
+    {
+        "text": "26",
+        "box": {
+            "left": 0.0,
+            "top": 0.4431,
+            "right": 0.0326,
+            "bottom": 0.4848
+        },
+        "confidence": 0.9953
+    },
+    {
+        "text": "151",
+        "box": {
+            "left": 0.2982,
+            "top": 0.5047,
+            "right": 0.6393,
+            "bottom": 0.814
+        },
+        "confidence": 0.9988
+    },
+    {
+        "text": "40",
+        "box": {
+            "left": 0.6042,
+            "top": 0.5133,
+            "right": 0.752,
+            "bottom": 0.6471
+        },
+        "confidence": 0.999
+    },
+    {
+        "text": "п",
+        "box": {
+            "left": 0.0104,
+            "top": 0.7324,
+            "right": 0.0241,
+            "bottom": 0.76
+        },
+        "confidence": 0.3272
+    },
+    {
+        "text": "10",
+        "box": {
+            "left": 0.069,
+            "top": 0.7562,
+            "right": 0.1009,
+            "bottom": 0.7884
+        },
+        "confidence": 0.9997
+    }
+]

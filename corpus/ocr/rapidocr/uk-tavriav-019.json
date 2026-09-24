@@ -1,0 +1,112 @@
+[
+  {
+    "text": "Виноград (Україна) темний вага",
+    "box": {
+      "left": 0.1436,
+      "top": 0.1441,
+      "right": 0.7922,
+      "bottom": 0.2778
+    },
+    "confidence": 0.9707
+  },
+  {
+    "text": "Україна",
+    "box": {
+      "left": 0.7677,
+      "top": 0.2656,
+      "right": 0.8564,
+      "bottom": 0.3177
+    },
+    "confidence": 0.7052
+  },
+  {
+    "text": "Овочи та фрукти",
+    "box": {
+      "left": 0.6943,
+      "top": 0.3125,
+      "right": 0.8581,
+      "bottom": 0.3611
+    },
+    "confidence": 0.879
+  },
+  {
+    "text": "298",
+    "box": {
+      "left": 0.1444,
+      "top": 0.3455,
+      "right": 0.3404,
+      "bottom": 0.4931
+    },
+    "confidence": 0.9955
+  },
+  {
+    "text": "322.09.26",
+    "box": {
+      "left": 0.7508,
+      "top": 0.3524,
+      "right": 0.8564,
+      "bottom": 0.3976
+    },
+    "confidence": 0.9284
+  },
+  {
+    "text": "no 2809.26",
+    "box": {
+      "left": 0.7399,
+      "top": 0.3906,
+      "right": 0.8556,
+      "bottom": 0.441
+    },
+    "confidence": 0.9015
+  },
+  {
+    "text": "1099",
+    "box": {
+      "left": 0.5861,
+      "top": 0.4774,
+      "right": 0.7052,
+      "bottom": 0.6024
+    },
+    "confidence": 0.9341
+  },
+  {
+    "text": "99",
+    "box": {
+      "left": 0.6106,
+      "top": 0.5712,
+      "right": 0.701,
+      "bottom": 0.6997
+    },
+    "confidence": 0.9923
+  },
+  {
+    "text": "-9%",
+    "box": {
+      "left": 0.1934,
+      "top": 0.5781,
+      "right": 0.3015,
+      "bottom": 0.7361
+    },
+    "confidence": 0.9951
+  },
+  {
+    "text": "9",
+    "box": {
+      "left": 0.5372,
+      "top": 0.5816,
+      "right": 0.6292,
+      "bottom": 0.8038
+    },
+    "confidence": 0.9119
+  },
+  {
+    "text": "100r.",
+    "box": {
+      "left": 0.5929,
+      "top": 0.7031,
+      "right": 0.7019,
+      "bottom": 0.7969
+    },
+    "confidence": 0.937
+  }
+]

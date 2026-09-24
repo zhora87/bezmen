@@ -1,0 +1,102 @@
+[
+  {
+    "text": "Єврогруп 0,5 л Миколінська",
+    "box": {
+      "left": 0.1868,
+      "top": 0.1433,
+      "right": 0.89,
+      "bottom": 0.2693
+    },
+    "confidence": 0.9436
+  },
+  {
+    "text": "Вода",
+    "box": {
+      "left": 0.0677,
+      "top": 0.1596,
+      "right": 0.2012,
+      "bottom": 0.2649
+    },
+    "confidence": 0.8253
+  },
+  {
+    "text": "cnopT",
+    "box": {
+      "left": 0.0703,
+      "top": 0.2562,
+      "right": 0.2122,
+      "bottom": 0.3474
+    },
+    "confidence": 0.8063
+  },
+  {
+    "text": "від бшт. 18",
+    "box": {
+      "left": 0.5456,
+      "top": 0.3496,
+      "right": 0.7767,
+      "bottom": 0.4897
+    },
+    "confidence": 0.7187
+  },
+  {
+    "text": "Укpаїнa",
+    "box": {
+      "left": 0.8275,
+      "top": 0.355,
+      "right": 0.9329,
+      "bottom": 0.4191
+    },
+    "confidence": 0.5334
+  },
+  {
+    "text": "40",
+    "box": {
+      "left": 0.7507,
+      "top": 0.3572,
+      "right": 0.8125,
+      "bottom": 0.4387
+    },
+    "confidence": 0.9908
+  },
+  {
+    "text": "HAШAMAPKA",
+    "box": {
+      "left": 0.0872,
+      "top": 0.3833,
+      "right": 0.2845,
+      "bottom": 0.4604
+    },
+    "confidence": 0.6246
+  },
+  {
+    "text": "05.05.26",
+    "box": {
+      "left": 0.8249,
+      "top": 0.4191,
+      "right": 0.931,
+      "bottom": 0.4669
+    },
+    "confidence": 0.9976
+  },
+  {
+    "text": "19",
+    "box": {
+      "left": 0.3659,
+      "top": 0.4864,
+      "right": 0.6471,
+      "bottom": 0.8567
+    },
+    "confidence": 0.9995
+  },
+  {
+    "text": "30",
+    "box": {
+      "left": 0.6003,
+      "top": 0.5168,
+      "right": 0.7428,
+      "bottom": 0.6873
+    },
+    "confidence": 0.9995
+  }
+]

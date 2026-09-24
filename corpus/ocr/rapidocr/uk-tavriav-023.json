@@ -1,0 +1,82 @@
+[
+  {
+    "text": "47",
+    "box": {
+      "left": 0.6055,
+      "top": 0.1105,
+      "right": 0.7604,
+      "bottom": 0.237
+    },
+    "confidence": 0.9997
+  },
+  {
+    "text": "6ia3wm.",
+    "box": {
+      "left": 0.2415,
+      "top": 0.1156,
+      "right": 0.4505,
+      "bottom": 0.1836
+    },
+    "confidence": 0.5848
+  },
+  {
+    "text": "50",
+    "box": {
+      "left": 0.7435,
+      "top": 0.1317,
+      "right": 0.8047,
+      "bottom": 0.1843
+    },
+    "confidence": 0.9998
+  },
+  {
+    "text": "Ob",
+    "box": {
+      "left": 0.6758,
+      "top": 0.2765,
+      "right": 0.8145,
+      "bottom": 0.4001
+    },
+    "confidence": 0.7657
+  },
+  {
+    "text": "1wm.",
+    "box": {
+      "left": 0.7103,
+      "top": 0.4162,
+      "right": 0.7871,
+      "bottom": 0.4499
+    },
+    "confidence": 0.8852
+  },
+  {
+    "text": "Борошно Амина 2 кг в/г",
+    "box": {
+      "left": 0.2578,
+      "top": 0.6547,
+      "right": 0.7467,
+      "bottom": 0.7579
+    },
+    "confidence": 0.9337
+  },
+  {
+    "text": "5%",
+    "box": {
+      "left": 0.3262,
+      "top": 0.8647,
+      "right": 0.3711,
+      "bottom": 0.8983
+    },
+    "confidence": 0.9998
+  },
+  {
+    "text": "национальний",
+    "box": {
+      "left": 0.2643,
+      "top": 0.8698,
+      "right": 0.3294,
+      "bottom": 0.8917
+    },
+    "confidence": 0.952
+  }
+]

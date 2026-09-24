@@ -1,0 +1,17 @@
+{
+  "pack": "uk",
+  "price": {
+    "minor": 1350,
+    "currency": "UAH"
+  },
+  "oldPrice": {
+    "minor": 1580,
+    "currency": "UAH"
+  },
+  "quantity": {
+    "value": 0.5,
+    "unit": "LITRE"
+  },
+  "isWeighted": false,
+  "note": "Таврія В 2026-09-24 own photo; pink sale: Вода Бон Буассон 0,5 л б/газ; -15%"
+}

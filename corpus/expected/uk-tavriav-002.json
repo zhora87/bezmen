@@ -1,0 +1,17 @@
+{
+  "pack": "uk",
+  "price": {
+    "minor": 27900,
+    "currency": "UAH"
+  },
+  "oldPrice": {
+    "minor": 38040,
+    "currency": "UAH"
+  },
+  "quantity": {
+    "value": 0.5,
+    "unit": "LITRE"
+  },
+  "isWeighted": false,
+  "note": "Таврія В 2026-09-24 own photo; pink sale: Горілка Фінляндія 0,5 л Лайм; -27%, old price small above"
+}

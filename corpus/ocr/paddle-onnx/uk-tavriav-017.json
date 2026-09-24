@@ -1,0 +1,132 @@
+[
+    {
+        "text": "в уп.",
+        "box": {
+            "left": 0.7076,
+            "top": 0.1556,
+            "right": 0.8229,
+            "bottom": 0.2719
+        },
+        "confidence": 0.8611
+    },
+    {
+        "text": "імпорт)",
+        "box": {
+            "left": 0.5263,
+            "top": 0.161,
+            "right": 0.7101,
+            "bottom": 0.2791
+        },
+        "confidence": 0.7431
+    },
+    {
+        "text": "(Haw",
+        "box": {
+            "left": 0.3977,
+            "top": 0.1628,
+            "right": 0.5322,
+            "bottom": 0.288
+        },
+        "confidence": 0.7173
+    },
+    {
+        "text": "Кукурудза",
+        "box": {
+            "left": 0.1504,
+            "top": 0.1717,
+            "right": 0.4002,
+            "bottom": 0.3041
+        },
+        "confidence": 0.982
+    },
+    {
+        "text": "Іспания",
+        "box": {
+            "left": 0.7736,
+            "top": 0.2522,
+            "right": 0.8605,
+            "bottom": 0.3166
+        },
+        "confidence": 0.8677
+    },
+    {
+        "text": "Овочи та фрукти",
+        "box": {
+            "left": 0.6967,
+            "top": 0.2987,
+            "right": 0.8596,
+            "bottom": 0.3631
+        },
+        "confidence": 0.9103
+    },
+    {
+        "text": "323.09.28",
+        "box": {
+            "left": 0.7527,
+            "top": 0.3345,
+            "right": 0.8571,
+            "bottom": 0.3989
+        },
+        "confidence": 0.8876
+    },
+    {
+        "text": "no 04.10.26",
+        "box": {
+            "left": 0.7435,
+            "top": 0.3775,
+            "right": 0.8563,
+            "bottom": 0.4419
+        },
+        "confidence": 0.9274
+    },
+    {
+        "text": "НАШ IМПОРТ",
+        "box": {
+            "left": 0.1604,
+            "top": 0.3882,
+            "right": 0.3233,
+            "bottom": 0.5152
+        },
+        "confidence": 0.8497
+    },
+    {
+        "text": "14990",
+        "box": {
+            "left": 0.5656,
+            "top": 0.4848,
+            "right": 0.7093,
+            "bottom": 0.6225
+        },
+        "confidence": 0.9573
+    },
+    {
+        "text": "-13%",
+        "box": {
+            "left": 0.1955,
+            "top": 0.5599,
+            "right": 0.3668,
+            "bottom": 0.805
+        },
+        "confidence": 0.8658
+    },
+    {
+        "text": "129",
+        "box": {
+            "left": 0.3835,
+            "top": 0.5689,
+            "right": 0.6174,
+            "bottom": 0.8569
+        },
+        "confidence": 0.9994
+    },
+    {
+        "text": "90",
+        "box": {
+            "left": 0.6032,
+            "top": 0.5778,
+            "right": 0.6959,
+            "bottom": 0.7227
+        },
+        "confidence": 0.929
+    }
+]

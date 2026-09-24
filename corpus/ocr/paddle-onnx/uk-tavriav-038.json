@@ -1,0 +1,142 @@
+[
+    {
+        "text": "Цукерки Конт Белсмо",
+        "box": {
+            "left": 0.3294,
+            "top": 0.1336,
+            "right": 0.7956,
+            "bottom": 0.2329
+        },
+        "confidence": 0.8122
+    },
+    {
+        "text": "Крем-брюле ваг.",
+        "box": {
+            "left": 0.3353,
+            "top": 0.1877,
+            "right": 0.668,
+            "bottom": 0.2692
+        },
+        "confidence": 0.9617
+    },
+    {
+        "text": "Україна",
+        "box": {
+            "left": 0.9219,
+            "top": 0.2411,
+            "right": 1.0,
+            "bottom": 0.274
+        },
+        "confidence": 0.9378
+    },
+    {
+        "text": "6064",
+        "box": {
+            "left": 0.3353,
+            "top": 0.2438,
+            "right": 0.5742,
+            "bottom": 0.3404
+        },
+        "confidence": 0.9973
+    },
+    {
+        "text": "04.08.26",
+        "box": {
+            "left": 0.9186,
+            "top": 0.2692,
+            "right": 1.0,
+            "bottom": 0.3021
+        },
+        "confidence": 0.9972
+    },
+    {
+        "text": "28",
+        "box": {
+            "left": 0.5469,
+            "top": 0.3199,
+            "right": 0.7708,
+            "bottom": 0.489
+        },
+        "confidence": 0.9989
+    },
+    {
+        "text": "94",
+        "box": {
+            "left": 0.748,
+            "top": 0.3253,
+            "right": 0.8509,
+            "bottom": 0.4178
+        },
+        "confidence": 0.9992
+    },
+    {
+        "text": "3",
+        "box": {
+            "left": 0.1426,
+            "top": 0.3555,
+            "right": 0.1543,
+            "bottom": 0.3705
+        },
+        "confidence": 0.2207
+    },
+    {
+        "text": "100r.",
+        "box": {
+            "left": 0.7383,
+            "top": 0.4062,
+            "right": 0.8646,
+            "bottom": 0.4712
+        },
+        "confidence": 0.9361
+    },
+    {
+        "text": "20",
+        "box": {
+            "left": 0.3574,
+            "top": 0.4603,
+            "right": 0.3854,
+            "bottom": 0.4836
+        },
+        "confidence": 0.9992
+    },
+    {
+        "text": "BOB",
+        "box": {
+            "left": 0.6374,
+            "top": 0.7164,
+            "right": 0.7917,
+            "bottom": 0.7918
+        },
+        "confidence": 0.9853
+    },
+    {
+        "text": "SNAIL",
+        "box": {
+            "left": 0.7832,
+            "top": 0.7178,
+            "right": 0.8737,
+            "bottom": 0.7616
+        },
+        "confidence": 0.9077
+    },
+    {
+        "text": "BOB",
+        "box": {
+            "left": 0.3229,
+            "top": 0.7274,
+            "right": 0.4779,
+            "bottom": 0.8068
+        },
+        "confidence": 0.9819
+    },
+    {
+        "text": "SNAJL",
+        "box": {
+            "left": 0.4622,
+            "top": 0.7295,
+            "right": 0.5488,
+            "bottom": 0.7705
+        },
+        "confidence": 0.8749
+    }
+]

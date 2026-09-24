@@ -1,0 +1,142 @@
+[
+  {
+    "text": "Масло Нов.-Сівер. 82,5% 180 г",
+    "box": {
+      "left": 0.0443,
+      "top": 0.1465,
+      "right": 0.7682,
+      "bottom": 0.2528
+    },
+    "confidence": 0.9229
+  },
+  {
+    "text": "Селянське",
+    "box": {
+      "left": 0.0501,
+      "top": 0.2327,
+      "right": 0.3047,
+      "bottom": 0.3255
+    },
+    "confidence": 0.987
+  },
+  {
+    "text": "Украіна",
+    "box": {
+      "left": 0.7819,
+      "top": 0.3188,
+      "right": 0.8854,
+      "bottom": 0.3747
+    },
+    "confidence": 0.789
+  },
+  {
+    "text": "yI",
+    "box": {
+      "left": 0.0,
+      "top": 0.3468,
+      "right": 0.0293,
+      "bottom": 0.3949
+    },
+    "confidence": 0.7138
+  },
+  {
+    "text": "країна",
+    "box": {
+      "left": 0.8926,
+      "top": 0.3602,
+      "right": 0.9772,
+      "bottom": 0.4105
+    },
+    "confidence": 0.7993
+  },
+  {
+    "text": "Цiну Знижено",
+    "box": {
+      "left": 0.7279,
+      "top": 0.3635,
+      "right": 0.8893,
+      "bottom": 0.4083
+    },
+    "confidence": 0.5284
+  },
+  {
+    "text": "10",
+    "box": {
+      "left": 0.0,
+      "top": 0.4004,
+      "right": 0.0293,
+      "bottom": 0.4541
+    },
+    "confidence": 0.9995
+  },
+  {
+    "text": "318.09.26",
+    "box": {
+      "left": 0.7708,
+      "top": 0.4004,
+      "right": 0.8848,
+      "bottom": 0.4497
+    },
+    "confidence": 0.9409
+  },
+  {
+    "text": ".08.26",
+    "box": {
+      "left": 0.8952,
+      "top": 0.4128,
+      "right": 0.9759,
+      "bottom": 0.4642
+    },
+    "confidence": 0.9433
+  },
+  {
+    "text": "no 15.10.26",
+    "box": {
+      "left": 0.7617,
+      "top": 0.4441,
+      "right": 0.8841,
+      "bottom": 0.4899
+    },
+    "confidence": 0.9477
+  },
+  {
+    "text": "11740",
+    "box": {
+      "left": 0.5547,
+      "top": 0.4821,
+      "right": 0.7077,
+      "bottom": 0.6096
+    },
+    "confidence": 0.9327
+  },
+  {
+    "text": "94",
+    "box": {
+      "left": 0.3809,
+      "top": 0.5559,
+      "right": 0.6113,
+      "bottom": 0.8546
+    },
+    "confidence": 0.9973
+  },
+  {
+    "text": "90",
+    "box": {
+      "left": 0.5905,
+      "top": 0.5749,
+      "right": 0.7031,
+      "bottom": 0.7103
+    },
+    "confidence": 0.9816
+  },
+  {
+    "text": "19%",
+    "box": {
+      "left": 0.0905,
+      "top": 0.5895,
+      "right": 0.2298,
+      "bottom": 0.7338
+    },
+    "confidence": 0.8627
+  }
+]

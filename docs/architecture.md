@@ -187,8 +187,9 @@ before installation, in a release that adds the network permission explicitly an
 - Gradle with a version catalog. `./gradlew build` assembles both flavors, runs unit tests and
   lint and verifies the manifests. `./gradlew detekt` runs static analysis and formatting rules.
 - `tools/parser-cli` measures parser accuracy on the corpus: `--engine synthetic` (hand-written
-  dumps, must stay at 100%), `--engine paddle-onnx` (dumps of the shipped engine, at least 85% of
-  cases fully correct) and `--engine rapidocr` (a second engine's dumps, lower regression floor).
+  dumps, must stay at 100%), `--engine paddle-onnx` (dumps of the shipped engine; gated per store
+  with `--only`: ATB at 85% of cases fully correct, Tavria V at a lower floor until its layout is
+  tuned) and `--engine rapidocr` (a second engine's dumps, lower regression floor).
   All three run in CI, together with `:core:domain:koverVerify` (80% line coverage).
 - Documentation and metadata changes do not trigger CI.
 - APKs are split per ABI (arm64-v8a, armeabi-v7a, x86_64): ONNX Runtime carries 22 to 38 MB of

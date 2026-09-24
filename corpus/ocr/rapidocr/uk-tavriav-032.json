@@ -1,0 +1,392 @@
+[
+  {
+    "text": "ПОДАРУНКІВ",
+    "box": {
+      "left": 0.2396,
+      "top": 0.0,
+      "right": 0.5527,
+      "bottom": 0.0792
+    },
+    "confidence": 0.9579
+  },
+  {
+    "text": "АКЦІЯ ДІЄ з 03.09.26 до 27.10.26",
+    "box": {
+      "left": 0.2617,
+      "top": 0.0776,
+      "right": 0.5365,
+      "bottom": 0.1156
+    },
+    "confidence": 0.9367
+  },
+  {
+    "text": "ПОДРОБИЦИ НА ТАVРИАV.ОРG",
+    "box": {
+      "left": 0.2734,
+      "top": 0.1029,
+      "right": 0.5241,
+      "bottom": 0.1378
+    },
+    "confidence": 0.874
+  },
+  {
+    "text": "tavriav.ua",
+    "box": {
+      "left": 0.3158,
+      "top": 0.1441,
+      "right": 0.4824,
+      "bottom": 0.1908
+    },
+    "confidence": 0.9919
+  },
+  {
+    "text": "y0sA.y",
+    "box": {
+      "left": 0.25,
+      "top": 0.2462,
+      "right": 0.3164,
+      "bottom": 0.2644
+    },
+    "confidence": 0.5635
+  },
+  {
+    "text": "ПАРТНЕРИ:",
+    "box": {
+      "left": 0.235,
+      "top": 0.2898,
+      "right": 0.3079,
+      "bottom": 0.3135
+    },
+    "confidence": 0.9625
+  },
+  {
+    "text": "Milka",
+    "box": {
+      "left": 0.7461,
+      "top": 0.3112,
+      "right": 0.8223,
+      "bottom": 0.3729
+    },
+    "confidence": 0.9524
+  },
+  {
+    "text": "Milka",
+    "box": {
+      "left": 0.0033,
+      "top": 0.3246,
+      "right": 0.0781,
+      "bottom": 0.3872
+    },
+    "confidence": 0.8057
+  },
+  {
+    "text": "NORVE",
+    "box": {
+      "left": 0.6569,
+      "top": 0.3286,
+      "right": 0.7005,
+      "bottom": 0.3452
+    },
+    "confidence": 0.9967
+  },
+  {
+    "text": "MacCoffee",
+    "box": {
+      "left": 0.8581,
+      "top": 0.3294,
+      "right": 0.9303,
+      "bottom": 0.3531
+    },
+    "confidence": 0.9865
+  },
+  {
+    "text": "PRÉSIDENT",
+    "box": {
+      "left": 0.543,
+      "top": 0.3317,
+      "right": 0.6113,
+      "bottom": 0.3563
+    },
+    "confidence": 0.9648
+  },
+  {
+    "text": "MACHA",
+    "box": {
+      "left": 0.4434,
+      "top": 0.3333,
+      "right": 0.4993,
+      "bottom": 0.3523
+    },
+    "confidence": 0.6668
+  },
+  {
+    "text": "MacCoftee",
+    "box": {
+      "left": 0.1107,
+      "top": 0.3405,
+      "right": 0.1784,
+      "bottom": 0.3642
+    },
+    "confidence": 0.9267
+  },
+  {
+    "text": "ПЛЬДІЯ",
+    "box": {
+      "left": 0.4427,
+      "top": 0.3492,
+      "right": 0.5,
+      "bottom": 0.3658
+    },
+    "confidence": 0.6324
+  },
+  {
+    "text": "always",
+    "box": {
+      "left": 0.6406,
+      "top": 0.3975,
+      "right": 0.7201,
+      "bottom": 0.4481
+    },
+    "confidence": 0.9981
+  },
+  {
+    "text": "felix",
+    "box": {
+      "left": 0.4375,
+      "top": 0.399,
+      "right": 0.5091,
+      "bottom": 0.4616
+    },
+    "confidence": 0.9899
+  },
+  {
+    "text": "Persil",
+    "box": {
+      "left": 0.8555,
+      "top": 0.4022,
+      "right": 0.9271,
+      "bottom": 0.4402
+    },
+    "confidence": 0.964
+  },
+  {
+    "text": "(FAIRY",
+    "box": {
+      "left": 0.7591,
+      "top": 0.4093,
+      "right": 0.8047,
+      "bottom": 0.4458
+    },
+    "confidence": 0.919
+  },
+  {
+    "text": "Persil",
+    "box": {
+      "left": 0.1126,
+      "top": 0.4117,
+      "right": 0.1803,
+      "bottom": 0.4489
+    },
+    "confidence": 0.9992
+  },
+  {
+    "text": "FAIRY",
+    "box": {
+      "left": 0.0247,
+      "top": 0.4228,
+      "right": 0.0632,
+      "bottom": 0.4545
+    },
+    "confidence": 0.9936
+  },
+  {
+    "text": "490r c/M",
+    "box": {
+      "left": 0.6725,
+      "top": 0.4656,
+      "right": 0.8626,
+      "bottom": 0.521
+    },
+    "confidence": 0.7811
+  },
+  {
+    "text": "Икра Форелі Norven",
+    "box": {
+      "left": 0.2793,
+      "top": 0.4663,
+      "right": 0.6777,
+      "bottom": 0.5424
+    },
+    "confidence": 0.8058
+  },
+  {
+    "text": "c/м сол.",
+    "box": {
+      "left": 0.0039,
+      "top": 0.4933,
+      "right": 0.1445,
+      "bottom": 0.5495
+    },
+    "confidence": 0.6449
+  },
+  {
+    "text": "Украіна",
+    "box": {
+      "left": 0.8223,
+      "top": 0.5218,
+      "right": 0.8984,
+      "bottom": 0.5479
+    },
+    "confidence": 0.8241
+  },
+  {
+    "text": "3HИЖКИ",
+    "box": {
+      "left": 0.8171,
+      "top": 0.5432,
+      "right": 0.8991,
+      "bottom": 0.5685
+    },
+    "confidence": 0.7096
+  },
+  {
+    "text": "323.09.26",
+    "box": {
+      "left": 0.8105,
+      "top": 0.5629,
+      "right": 0.8978,
+      "bottom": 0.5899
+    },
+    "confidence": 0.9381
+  },
+  {
+    "text": "3HИЖKИ",
+    "box": {
+      "left": 0.1042,
+      "top": 0.5772,
+      "right": 0.1862,
+      "bottom": 0.6112
+    },
+    "confidence": 0.7073
+  },
+  {
+    "text": "no 06.10.26",
+    "box": {
+      "left": 0.8008,
+      "top": 0.5835,
+      "right": 0.8978,
+      "bottom": 0.6105
+    },
+    "confidence": 0.9453
+  },
+  {
+    "text": "национальний",
+    "box": {
+      "left": 0.334,
+      "top": 0.5899,
+      "right": 0.4492,
+      "bottom": 0.6136
+    },
+    "confidence": 0.8271
+  },
+  {
+    "text": "23.09.26",
+    "box": {
+      "left": 0.0996,
+      "top": 0.5978,
+      "right": 0.1842,
+      "bottom": 0.6302
+    },
+    "confidence": 0.9921
+  },
+  {
+    "text": "кешбек",
+    "box": {
+      "left": 0.3327,
+      "top": 0.6073,
+      "right": 0.4531,
+      "bottom": 0.6453
+    },
+    "confidence": 0.9343
+  },
+  {
+    "text": "no 06.10.26",
+    "box": {
+      "left": 0.0898,
+      "top": 0.6176,
+      "right": 0.1849,
+      "bottom": 0.6508
+    },
+    "confidence": 0.9669
+  },
+  {
+    "text": "77020",
+    "box": {
+      "left": 0.64,
+      "top": 0.6374,
+      "right": 0.7715,
+      "bottom": 0.7094
+    },
+    "confidence": 0.824
+  },
+  {
+    "text": "990",
+    "box": {
+      "left": 0.0,
+      "top": 0.6572,
+      "right": 0.0638,
+      "bottom": 0.7189
+    },
+    "confidence": 0.6564
+  },
+  {
+    "text": "565",
+    "box": {
+      "left": 0.4486,
+      "top": 0.6762,
+      "right": 0.709,
+      "bottom": 0.8424
+    },
+    "confidence": 0.9993
+  },
+  {
+    "text": "50",
+    "box": {
+      "left": 0.6621,
+      "top": 0.6873,
+      "right": 0.7585,
+      "bottom": 0.7625
+    },
+    "confidence": 0.9978
+  },
+  {
+    "text": "0",
+    "box": {
+      "left": 0.0,
+      "top": 0.7015,
+      "right": 0.054,
+      "bottom": 0.7712
+    },
+    "confidence": 0.6407
+  },
+  {
+    "text": "-27%",
+    "box": {
+      "left": 0.321,
+      "top": 0.7031,
+      "right": 0.4245,
+      "bottom": 0.7831
+    },
+    "confidence": 0.8744
+  },
+  {
+    "text": "20",
+    "box": {
+      "left": 0.2884,
+      "top": 0.7989,
+      "right": 0.3118,
+      "bottom": 0.8226
+    },
+    "confidence": 0.9997
+  }
+]

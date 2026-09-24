@@ -1,0 +1,142 @@
+[
+    {
+        "text": "Краб пал",
+        "box": {
+            "left": 0.1133,
+            "top": 0.1526,
+            "right": 0.3424,
+            "bottom": 0.2586
+        },
+        "confidence": 0.8475
+    },
+    {
+        "text": "Водний",
+        "box": {
+            "left": 0.3346,
+            "top": 0.1682,
+            "right": 0.5247,
+            "bottom": 0.2669
+        },
+        "confidence": 0.987
+    },
+    {
+        "text": "CBit 250 г",
+        "box": {
+            "left": 0.5072,
+            "top": 0.1796,
+            "right": 0.7617,
+            "bottom": 0.2762
+        },
+        "confidence": 0.8394
+    },
+    {
+        "text": "Сніжний",
+        "box": {
+            "left": 0.1146,
+            "top": 0.2305,
+            "right": 0.3158,
+            "bottom": 0.3302
+        },
+        "confidence": 0.9513
+    },
+    {
+        "text": "кpаб",
+        "box": {
+            "left": 0.3086,
+            "top": 0.242,
+            "right": 0.4375,
+            "bottom": 0.3385
+        },
+        "confidence": 0.4885
+    },
+    {
+        "text": "національний",
+        "box": {
+            "left": 0.1771,
+            "top": 0.3416,
+            "right": 0.3366,
+            "bottom": 0.4008
+        },
+        "confidence": 0.9623
+    },
+    {
+        "text": "вд3шт.17040",
+        "box": {
+            "left": 0.5345,
+            "top": 0.3541,
+            "right": 0.8333,
+            "bottom": 0.487
+        },
+        "confidence": 0.7214
+    },
+    {
+        "text": "Україна",
+        "box": {
+            "left": 0.8268,
+            "top": 0.3718,
+            "right": 0.9303,
+            "bottom": 0.4372
+        },
+        "confidence": 0.8102
+    },
+    {
+        "text": "кешбек",
+        "box": {
+            "left": 0.1732,
+            "top": 0.3738,
+            "right": 0.3405,
+            "bottom": 0.46
+        },
+        "confidence": 0.6447
+    },
+    {
+        "text": "18.09.26",
+        "box": {
+            "left": 0.8242,
+            "top": 0.4278,
+            "right": 0.9258,
+            "bottom": 0.4818
+        },
+        "confidence": 0.9976
+    },
+    {
+        "text": "50",
+        "box": {
+            "left": 0.6003,
+            "top": 0.5182,
+            "right": 0.7331,
+            "bottom": 0.6698
+        },
+        "confidence": 0.9983
+    },
+    {
+        "text": "17",
+        "box": {
+            "left": 0.3125,
+            "top": 0.541,
+            "right": 0.4655,
+            "bottom": 0.7664
+        },
+        "confidence": 0.9307
+    },
+    {
+        "text": "10",
+        "box": {
+            "left": 0.1074,
+            "top": 0.7103,
+            "right": 0.1354,
+            "bottom": 0.7487
+        },
+        "confidence": 0.9986
+    },
+    {
+        "text": "10",
+        "box": {
+            "left": 0.9596,
+            "top": 0.7612,
+            "right": 0.9831,
+            "bottom": 0.7913
+        },
+        "confidence": 0.9416
+    }
+]

@@ -1,0 +1,92 @@
+[
+  {
+    "text": "Чипси Люкс 170/183 г сир",
+    "box": {
+      "left": 0.0801,
+      "top": 0.1525,
+      "right": 0.7565,
+      "bottom": 0.3157
+    },
+    "confidence": 0.9741
+  },
+  {
+    "text": "национальний",
+    "box": {
+      "left": 0.1497,
+      "top": 0.389,
+      "right": 0.2975,
+      "bottom": 0.437
+    },
+    "confidence": 0.9313
+  },
+  {
+    "text": "BIд 3 шт.102",
+    "box": {
+      "left": 0.4954,
+      "top": 0.4022,
+      "right": 0.7279,
+      "bottom": 0.5138
+    },
+    "confidence": 0.7636
+  },
+  {
+    "text": "70",
+    "box": {
+      "left": 0.722,
+      "top": 0.4058,
+      "right": 0.7669,
+      "bottom": 0.4682
+    },
+    "confidence": 0.9946
+  },
+  {
+    "text": "Укpаїна",
+    "box": {
+      "left": 0.776,
+      "top": 0.407,
+      "right": 0.8724,
+      "bottom": 0.4658
+    },
+    "confidence": 0.5941
+  },
+  {
+    "text": "кешбек",
+    "box": {
+      "left": 0.151,
+      "top": 0.4262,
+      "right": 0.3008,
+      "bottom": 0.491
+    },
+    "confidence": 0.8539
+  },
+  {
+    "text": "18.09.26",
+    "box": {
+      "left": 0.7721,
+      "top": 0.4658,
+      "right": 0.8672,
+      "bottom": 0.515
+    },
+    "confidence": 0.9991
+  },
+  {
+    "text": "108",
+    "box": {
+      "left": 0.248,
+      "top": 0.5042,
+      "right": 0.6048,
+      "bottom": 0.8559
+    },
+    "confidence": 0.9989
+  },
+  {
+    "text": "10",
+    "box": {
+      "left": 0.5742,
+      "top": 0.5486,
+      "right": 0.6868,
+      "bottom": 0.7143
+    },
+    "confidence": 0.9995
+  }
+]

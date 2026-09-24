@@ -1,0 +1,132 @@
+[
+  {
+    "text": "Вода Бон",
+    "box": {
+      "left": 0.1011,
+      "top": 0.1473,
+      "right": 0.3573,
+      "bottom": 0.276
+    },
+    "confidence": 0.8793
+  },
+  {
+    "text": "0,5л 6/газ.",
+    "box": {
+      "left": 0.5707,
+      "top": 0.1485,
+      "right": 0.8633,
+      "bottom": 0.2686
+    },
+    "confidence": 0.787
+  },
+  {
+    "text": "Byascon",
+    "box": {
+      "left": 0.3461,
+      "top": 0.1646,
+      "right": 0.574,
+      "bottom": 0.2599
+    },
+    "confidence": 0.6685
+  },
+  {
+    "text": "Україна",
+    "box": {
+      "left": 0.7913,
+      "top": 0.2649,
+      "right": 0.8884,
+      "bottom": 0.3218
+    },
+    "confidence": 0.6764
+  },
+  {
+    "text": "Свзон 3нижок2 /2026",
+    "box": {
+      "left": 0.648,
+      "top": 0.3119,
+      "right": 0.8884,
+      "bottom": 0.3577
+    },
+    "confidence": 0.8962
+  },
+  {
+    "text": "3 17.09.26",
+    "box": {
+      "left": 0.7794,
+      "top": 0.3552,
+      "right": 0.8884,
+      "bottom": 0.401
+    },
+    "confidence": 0.8839
+  },
+  {
+    "text": "национальний",
+    "box": {
+      "left": 0.1691,
+      "top": 0.3874,
+      "right": 0.3151,
+      "bottom": 0.4245
+    },
+    "confidence": 0.9263
+  },
+  {
+    "text": "ne 29.09.26",
+    "box": {
+      "left": 0.7649,
+      "top": 0.3985,
+      "right": 0.8871,
+      "bottom": 0.4418
+    },
+    "confidence": 0.8588
+  },
+  {
+    "text": "кешбек",
+    "box": {
+      "left": 0.1678,
+      "top": 0.4196,
+      "right": 0.3197,
+      "bottom": 0.4864
+    },
+    "confidence": 0.9442
+  },
+  {
+    "text": "1580",
+    "box": {
+      "left": 0.6017,
+      "top": 0.4963,
+      "right": 0.7266,
+      "bottom": 0.6386
+    },
+    "confidence": 0.9934
+  },
+  {
+    "text": "13",
+    "box": {
+      "left": 0.4478,
+      "top": 0.5792,
+      "right": 0.6301,
+      "bottom": 0.8564
+    },
+    "confidence": 0.999
+  },
+  {
+    "text": "50",
+    "box": {
+      "left": 0.6083,
+      "top": 0.5953,
+      "right": 0.7147,
+      "bottom": 0.7302
+    },
+    "confidence": 0.9995
+  },
+  {
+    "text": "15%",
+    "box": {
+      "left": 0.1539,
+      "top": 0.6101,
+      "right": 0.2827,
+      "bottom": 0.7574
+    },
+    "confidence": 0.9872
+  }
+]

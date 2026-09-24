@@ -1,0 +1,82 @@
+[
+    {
+        "text": "Порциї Тунця Tuna Yellin с/м ваг.",
+        "box": {
+            "left": 0.1394,
+            "top": 0.1308,
+            "right": 0.8622,
+            "bottom": 0.2791
+        },
+        "confidence": 0.7225
+    },
+    {
+        "text": "2 r.607",
+        "box": {
+            "left": 0.5394,
+            "top": 0.3078,
+            "right": 0.7721,
+            "bottom": 0.4817
+        },
+        "confidence": 0.7342
+    },
+    {
+        "text": "3078",
+        "box": {
+            "left": 0.1394,
+            "top": 0.327,
+            "right": 0.3857,
+            "bottom": 0.4976
+        },
+        "confidence": 0.9978
+    },
+    {
+        "text": "Китай",
+        "box": {
+            "left": 0.7833,
+            "top": 0.3381,
+            "right": 0.8542,
+            "bottom": 0.3939
+        },
+        "confidence": 0.9974
+    },
+    {
+        "text": "31.08.26",
+        "box": {
+            "left": 0.7625,
+            "top": 0.3892,
+            "right": 0.855,
+            "bottom": 0.4514
+        },
+        "confidence": 0.9982
+    },
+    {
+        "text": "67",
+        "box": {
+            "left": 0.3769,
+            "top": 0.4848,
+            "right": 0.596,
+            "bottom": 0.8437
+        },
+        "confidence": 1.0
+    },
+    {
+        "text": "48",
+        "box": {
+            "left": 0.5825,
+            "top": 0.4912,
+            "right": 0.7004,
+            "bottom": 0.6746
+        },
+        "confidence": 0.998
+    },
+    {
+        "text": "100",
+        "box": {
+            "left": 0.5857,
+            "top": 0.6794,
+            "right": 0.6972,
+            "bottom": 0.7735
+        },
+        "confidence": 0.9883
+    }
+]

@@ -1,0 +1,92 @@
+[
+  {
+    "text": "flavor",
+    "box": {
+      "left": 0.3599,
+      "top": 0.1138,
+      "right": 0.4482,
+      "bottom": 0.1903
+    },
+    "confidence": 0.9919
+  },
+  {
+    "text": "Тукерки к",
+    "box": {
+      "left": 0.1819,
+      "top": 0.4198,
+      "right": 0.3878,
+      "bottom": 0.4804
+    },
+    "confidence": 0.6463
+  },
+  {
+    "text": "апельсина ваг.",
+    "box": {
+      "left": 0.1627,
+      "top": 0.4823,
+      "right": 0.4834,
+      "bottom": 0.5448
+    },
+    "confidence": 0.9088
+  },
+  {
+    "text": "Украіна",
+    "box": {
+      "left": 0.828,
+      "top": 0.5205,
+      "right": 0.9183,
+      "bottom": 0.5578
+    },
+    "confidence": 0.8534
+  },
+  {
+    "text": "6232",
+    "box": {
+      "left": 0.1527,
+      "top": 0.5392,
+      "right": 0.4336,
+      "bottom": 0.6903
+    },
+    "confidence": 0.9968
+  },
+  {
+    "text": "3272026",
+    "box": {
+      "left": 0.7669,
+      "top": 0.5448,
+      "right": 0.9177,
+      "bottom": 0.5877
+    },
+    "confidence": 0.8318
+  },
+  {
+    "text": "317.09.26",
+    "box": {
+      "left": 0.8054,
+      "top": 0.5756,
+      "right": 0.9143,
+      "bottom": 0.6147
+    },
+    "confidence": 0.8828
+  },
+  {
+    "text": "no2909.26",
+    "box": {
+      "left": 0.7981,
+      "top": 0.6054,
+      "right": 0.911,
+      "bottom": 0.6455
+    },
+    "confidence": 0.8946
+  },
+  {
+    "text": "2-3.1%",
+    "box": {
+      "left": 0.1733,
+      "top": 0.6987,
+      "right": 0.3758,
+      "bottom": 0.8759
+    },
+    "confidence": 0.7838
+  }
+]

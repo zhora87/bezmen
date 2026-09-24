@@ -1,0 +1,82 @@
+[
+  {
+    "text": "Борошно Мs. Тallу 500 г гречане",
+    "box": {
+      "left": 0.043,
+      "top": 0.1471,
+      "right": 0.8099,
+      "bottom": 0.2859
+    },
+    "confidence": 0.9175
+  },
+  {
+    "text": "6/глютену",
+    "box": {
+      "left": 0.0508,
+      "top": 0.2588,
+      "right": 0.2956,
+      "bottom": 0.3612
+    },
+    "confidence": 0.7827
+  },
+  {
+    "text": "від 2 шт.94",
+    "box": {
+      "left": 0.5065,
+      "top": 0.3541,
+      "right": 0.7246,
+      "bottom": 0.4882
+    },
+    "confidence": 0.8081
+  },
+  {
+    "text": "Україна",
+    "box": {
+      "left": 0.7689,
+      "top": 0.3565,
+      "right": 0.8678,
+      "bottom": 0.4212
+    },
+    "confidence": 0.6439
+  },
+  {
+    "text": "90",
+    "box": {
+      "left": 0.7155,
+      "top": 0.3624,
+      "right": 0.7624,
+      "bottom": 0.4294
+    },
+    "confidence": 0.9969
+  },
+  {
+    "text": "24.08.26",
+    "box": {
+      "left": 0.7643,
+      "top": 0.4153,
+      "right": 0.8639,
+      "bottom": 0.4706
+    },
+    "confidence": 0.9985
+  },
+  {
+    "text": "99",
+    "box": {
+      "left": 0.3118,
+      "top": 0.4776,
+      "right": 0.6133,
+      "bottom": 0.8553
+    },
+    "confidence": 0.9133
+  },
+  {
+    "text": "80",
+    "box": {
+      "left": 0.5306,
+      "top": 0.5082,
+      "right": 0.6888,
+      "bottom": 0.6941
+    },
+    "confidence": 0.9986
+  }
+]

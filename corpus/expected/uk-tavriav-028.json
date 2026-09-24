@@ -1,0 +1,14 @@
+{
+  "pack": "uk",
+  "price": {
+    "minor": 17640,
+    "currency": "UAH"
+  },
+  "oldPrice": null,
+  "quantity": {
+    "value": 800.0,
+    "unit": "GRAM"
+  },
+  "isWeighted": false,
+  "note": "Таврія В 2026-09-24 own photo; Борошно MsTally 800 г Вівсяне"
+}

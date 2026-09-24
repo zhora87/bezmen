@@ -1,0 +1,112 @@
+[
+    {
+        "text": "рия",
+        "box": {
+            "left": 0.2978,
+            "top": 0.1473,
+            "right": 0.4918,
+            "bottom": 0.2954
+        },
+        "confidence": 0.4936
+    },
+    {
+        "text": "Папиаи.",
+        "box": {
+            "left": 0.1238,
+            "top": 0.4217,
+            "right": 0.8805,
+            "bottom": 0.569
+        },
+        "confidence": 0.5491
+    },
+    {
+        "text": "нацональний",
+        "box": {
+            "left": 0.2033,
+            "top": 0.5604,
+            "right": 0.3457,
+            "bottom": 0.6002
+        },
+        "confidence": 0.95
+    },
+    {
+        "text": "кешбе",
+        "box": {
+            "left": 0.1997,
+            "top": 0.5783,
+            "right": 0.3486,
+            "bottom": 0.6352
+        },
+        "confidence": 0.3783
+    },
+    {
+        "text": "відбшт.",
+        "box": {
+            "left": 0.544,
+            "top": 0.5838,
+            "right": 0.6722,
+            "bottom": 0.6493
+        },
+        "confidence": 0.7087
+    },
+    {
+        "text": "10",
+        "box": {
+            "left": 0.6543,
+            "top": 0.5885,
+            "right": 0.733,
+            "bottom": 0.6532
+        },
+        "confidence": 0.9951
+    },
+    {
+        "text": "Украна",
+        "box": {
+            "left": 0.7688,
+            "top": 0.5916,
+            "right": 0.8647,
+            "bottom": 0.6337
+        },
+        "confidence": 0.8781
+    },
+    {
+        "text": "70",
+        "box": {
+            "left": 0.7187,
+            "top": 0.5924,
+            "right": 0.7638,
+            "bottom": 0.6329
+        },
+        "confidence": 0.9978
+    },
+    {
+        "text": "18.09.26",
+        "box": {
+            "left": 0.7638,
+            "top": 0.6235,
+            "right": 0.8604,
+            "bottom": 0.6617
+        },
+        "confidence": 0.9985
+    },
+    {
+        "text": "1120",
+        "box": {
+            "left": 0.4216,
+            "top": 0.6438,
+            "right": 0.7187,
+            "bottom": 0.8472
+        },
+        "confidence": 0.7296
+    },
+    {
+        "text": "20",
+        "box": {
+            "left": 0.146,
+            "top": 0.7701,
+            "right": 0.1739,
+            "bottom": 0.7958
+        },
+        "confidence": 0.9989
+    }
+]

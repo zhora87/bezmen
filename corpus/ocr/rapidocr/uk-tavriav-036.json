@@ -1,0 +1,112 @@
+[
+  {
+    "text": "АКЦИЯ",
+    "box": {
+      "left": 0.161,
+      "top": 0.1444,
+      "right": 0.856,
+      "bottom": 0.4644
+    },
+    "confidence": 0.7666
+  },
+  {
+    "text": "Набір д/солянки Алан 500 г",
+    "box": {
+      "left": 0.1461,
+      "top": 0.4223,
+      "right": 0.7378,
+      "bottom": 0.521
+    },
+    "confidence": 0.9541
+  },
+  {
+    "text": "Україна",
+    "box": {
+      "left": 0.7024,
+      "top": 0.5137,
+      "right": 0.7792,
+      "bottom": 0.5448
+    },
+    "confidence": 0.9043
+  },
+  {
+    "text": "Ціну Знижено",
+    "box": {
+      "left": 0.6596,
+      "top": 0.5366,
+      "right": 0.7792,
+      "bottom": 0.5667
+    },
+    "confidence": 0.9167
+  },
+  {
+    "text": "нацональний",
+    "box": {
+      "left": 0.2011,
+      "top": 0.5585,
+      "right": 0.32,
+      "bottom": 0.5878
+    },
+    "confidence": 0.9012
+  },
+  {
+    "text": "3 21.08.26",
+    "box": {
+      "left": 0.6909,
+      "top": 0.5622,
+      "right": 0.7779,
+      "bottom": 0.5878
+    },
+    "confidence": 0.9431
+  },
+  {
+    "text": "нешбек",
+    "box": {
+      "left": 0.2004,
+      "top": 0.5777,
+      "right": 0.322,
+      "bottom": 0.6216
+    },
+    "confidence": 0.8998
+  },
+  {
+    "text": "24240",
+    "box": {
+      "left": 0.5041,
+      "top": 0.6344,
+      "right": 0.6495,
+      "bottom": 0.7139
+    },
+    "confidence": 0.951
+  },
+  {
+    "text": "120",
+    "box": {
+      "left": 0.3444,
+      "top": 0.6801,
+      "right": 0.5618,
+      "bottom": 0.8364
+    },
+    "confidence": 0.9977
+  },
+  {
+    "text": "50%",
+    "box": {
+      "left": 0.1861,
+      "top": 0.6856,
+      "right": 0.2887,
+      "bottom": 0.7687
+    },
+    "confidence": 0.9997
+  },
+  {
+    "text": "00",
+    "box": {
+      "left": 0.534,
+      "top": 0.6856,
+      "right": 0.6372,
+      "bottom": 0.7715
+    },
+    "confidence": 0.8569
+  }
+]

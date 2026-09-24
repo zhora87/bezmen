@@ -1,0 +1,112 @@
+[
+  {
+    "text": "Шок Рошен Lасти 200/260 р мол.",
+    "box": {
+      "left": 0.0599,
+      "top": 0.1414,
+      "right": 0.8678,
+      "bottom": 0.2621
+    },
+    "confidence": 0.8842
+  },
+  {
+    "text": "Big Bite",
+    "box": {
+      "left": 0.0599,
+      "top": 0.2345,
+      "right": 0.2572,
+      "bottom": 0.3529
+    },
+    "confidence": 0.9404
+  },
+  {
+    "text": "від2шт.207",
+    "box": {
+      "left": 0.4935,
+      "top": 0.3632,
+      "right": 0.7676,
+      "bottom": 0.5011
+    },
+    "confidence": 0.7661
+  },
+  {
+    "text": "60",
+    "box": {
+      "left": 0.752,
+      "top": 0.3736,
+      "right": 0.804,
+      "bottom": 0.4448
+    },
+    "confidence": 0.9374
+  },
+  {
+    "text": "Укpаїнa",
+    "box": {
+      "left": 0.8203,
+      "top": 0.3736,
+      "right": 0.9251,
+      "bottom": 0.4391
+    },
+    "confidence": 0.5326
+  },
+  {
+    "text": "националАний",
+    "box": {
+      "left": 0.1393,
+      "top": 0.3805,
+      "right": 0.3014,
+      "bottom": 0.4218
+    },
+    "confidence": 0.6439
+  },
+  {
+    "text": "нешбек",
+    "box": {
+      "left": 0.1374,
+      "top": 0.4184,
+      "right": 0.3047,
+      "bottom": 0.4839
+    },
+    "confidence": 0.8756
+  },
+  {
+    "text": "15.00.20",
+    "box": {
+      "left": 0.8197,
+      "top": 0.4368,
+      "right": 0.9232,
+      "bottom": 0.4874
+    },
+    "confidence": 0.8467
+  },
+  {
+    "text": "214",
+    "box": {
+      "left": 0.1986,
+      "top": 0.4908,
+      "right": 0.6263,
+      "bottom": 0.9356
+    },
+    "confidence": 0.998
+  },
+  {
+    "text": "00",
+    "box": {
+      "left": 0.5879,
+      "top": 0.5356,
+      "right": 0.7331,
+      "bottom": 0.7218
+    },
+    "confidence": 0.994
+  },
+  {
+    "text": "20",
+    "box": {
+      "left": 0.0436,
+      "top": 0.8103,
+      "right": 0.0814,
+      "bottom": 0.8609
+    },
+    "confidence": 0.9993
+  }
+]

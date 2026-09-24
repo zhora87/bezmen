@@ -1,0 +1,92 @@
+[
+  {
+    "text": "Порції Тунця Тиnа Yellоwfin с/м ваг.",
+    "box": {
+      "left": 0.145,
+      "top": 0.1467,
+      "right": 0.8566,
+      "bottom": 0.2679
+    },
+    "confidence": 0.8257
+  },
+  {
+    "text": "3078",
+    "box": {
+      "left": 0.1434,
+      "top": 0.3365,
+      "right": 0.3825,
+      "bottom": 0.4912
+    },
+    "confidence": 0.9991
+  },
+  {
+    "text": "від 2 нг. 60",
+    "box": {
+      "left": 0.5482,
+      "top": 0.3429,
+      "right": 0.7275,
+      "bottom": 0.4657
+    },
+    "confidence": 0.7734
+  },
+  {
+    "text": "Китай",
+    "box": {
+      "left": 0.7849,
+      "top": 0.3461,
+      "right": 0.8518,
+      "bottom": 0.3923
+    },
+    "confidence": 0.9786
+  },
+  {
+    "text": "73",
+    "box": {
+      "left": 0.7203,
+      "top": 0.3493,
+      "right": 0.7578,
+      "bottom": 0.4099
+    },
+    "confidence": 0.9998
+  },
+  {
+    "text": "31.08.26",
+    "box": {
+      "left": 0.7625,
+      "top": 0.3971,
+      "right": 0.851,
+      "bottom": 0.4498
+    },
+    "confidence": 0.9995
+  },
+  {
+    "text": "67",
+    "box": {
+      "left": 0.3713,
+      "top": 0.4689,
+      "right": 0.6335,
+      "bottom": 0.8565
+    },
+    "confidence": 0.9985
+  },
+  {
+    "text": "48",
+    "box": {
+      "left": 0.5729,
+      "top": 0.4912,
+      "right": 0.706,
+      "bottom": 0.6906
+    },
+    "confidence": 0.9985
+  },
+  {
+    "text": "100r.",
+    "box": {
+      "left": 0.5777,
+      "top": 0.6746,
+      "right": 0.7076,
+      "bottom": 0.7911
+    },
+    "confidence": 0.8947
+  }
+]

@@ -1,0 +1,112 @@
+[
+  {
+    "text": "4990",
+    "box": {
+      "left": 0.4911,
+      "top": 0.1489,
+      "right": 0.8083,
+      "bottom": 0.2514
+    },
+    "confidence": 0.9772
+  },
+  {
+    "text": "-5%",
+    "box": {
+      "left": 0.1858,
+      "top": 0.1899,
+      "right": 0.3621,
+      "bottom": 0.253
+    },
+    "confidence": 0.9193
+  },
+  {
+    "text": "47",
+    "box": {
+      "left": 0.2604,
+      "top": 0.2947,
+      "right": 0.6627,
+      "bottom": 0.502
+    },
+    "confidence": 0.9998
+  },
+  {
+    "text": "50",
+    "box": {
+      "left": 0.6249,
+      "top": 0.3073,
+      "right": 0.8521,
+      "bottom": 0.4247
+    },
+    "confidence": 0.9997
+  },
+  {
+    "text": "1K2.",
+    "box": {
+      "left": 0.7112,
+      "top": 0.4106,
+      "right": 0.8047,
+      "bottom": 0.4429
+    },
+    "confidence": 0.7987
+  },
+  {
+    "text": "Груша (Україна) вага",
+    "box": {
+      "left": 0.1704,
+      "top": 0.5217,
+      "right": 0.716,
+      "bottom": 0.5776
+    },
+    "confidence": 0.9415
+  },
+  {
+    "text": "326",
+    "box": {
+      "left": 0.142,
+      "top": 0.6454,
+      "right": 0.2982,
+      "bottom": 0.6895
+    },
+    "confidence": 0.9988
+  },
+  {
+    "text": "3 22.09.26",
+    "box": {
+      "left": 0.4426,
+      "top": 0.7746,
+      "right": 0.5893,
+      "bottom": 0.7975
+    },
+    "confidence": 0.9493
+  },
+  {
+    "text": "no 28.09.26",
+    "box": {
+      "left": 0.4663,
+      "top": 0.8014,
+      "right": 0.626,
+      "bottom": 0.8243
+    },
+    "confidence": 0.9137
+  },
+  {
+    "text": "Таврия B",
+    "box": {
+      "left": 0.7314,
+      "top": 0.8227,
+      "right": 0.8615,
+      "bottom": 0.8471
+    },
+    "confidence": 0.8149
+  },
+  {
+    "text": "Овоче та фрукти",
+    "box": {
+      "left": 0.7645,
+      "top": 0.8463,
+      "right": 0.8509,
+      "bottom": 0.8574
+    },
+    "confidence": 0.8324
+  }
+]

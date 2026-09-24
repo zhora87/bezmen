@@ -1,0 +1,17 @@
+{
+  "pack": "uk",
+  "price": {
+    "minor": 3490,
+    "currency": "UAH"
+  },
+  "oldPrice": {
+    "minor": 4190,
+    "currency": "UAH"
+  },
+  "quantity": {
+    "value": 0.5,
+    "unit": "LITRE"
+  },
+  "isWeighted": false,
+  "note": "Таврія В 2026-09-24 own photo; yellow sale: Пиво Уманьпиво 0,5 л Віденське; -17%"
+}

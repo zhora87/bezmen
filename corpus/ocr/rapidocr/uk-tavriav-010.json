@@ -1,0 +1,132 @@
+[
+  {
+    "text": "ФАБРИКА",
+    "box": {
+      "left": 0.3568,
+      "top": 0.0726,
+      "right": 0.541,
+      "bottom": 0.1841
+    },
+    "confidence": 0.9583
+  },
+  {
+    "text": "HKC",
+    "box": {
+      "left": 0.3763,
+      "top": 0.1299,
+      "right": 0.4993,
+      "bottom": 0.2078
+    },
+    "confidence": 0.6172
+  },
+  {
+    "text": "25",
+    "box": {
+      "left": 0.0221,
+      "top": 0.165,
+      "right": 0.0898,
+      "bottom": 0.2093
+    },
+    "confidence": 0.9977
+  },
+  {
+    "text": "531 k",
+    "box": {
+      "left": 0.0241,
+      "top": 0.1956,
+      "right": 0.1113,
+      "bottom": 0.233
+    },
+    "confidence": 0.8851
+  },
+  {
+    "text": "Чипси Люкс 125/133 г сир",
+    "box": {
+      "left": 0.0553,
+      "top": 0.3285,
+      "right": 0.7812,
+      "bottom": 0.4293
+    },
+    "confidence": 0.9801
+  },
+  {
+    "text": "від 3 шт. 76",
+    "box": {
+      "left": 0.526,
+      "top": 0.4828,
+      "right": 0.7611,
+      "bottom": 0.5806
+    },
+    "confidence": 0.7808
+  },
+  {
+    "text": "30",
+    "box": {
+      "left": 0.7324,
+      "top": 0.492,
+      "right": 0.7936,
+      "bottom": 0.547
+    },
+    "confidence": 0.9975
+  },
+  {
+    "text": "Україна",
+    "box": {
+      "left": 0.8001,
+      "top": 0.492,
+      "right": 0.9049,
+      "bottom": 0.5371
+    },
+    "confidence": 0.7479
+  },
+  {
+    "text": "национальний",
+    "box": {
+      "left": 0.1367,
+      "top": 0.5011,
+      "right": 0.293,
+      "bottom": 0.5355
+    },
+    "confidence": 0.8995
+  },
+  {
+    "text": "нешбек",
+    "box": {
+      "left": 0.1393,
+      "top": 0.5279,
+      "right": 0.2969,
+      "bottom": 0.573
+    },
+    "confidence": 0.9182
+  },
+  {
+    "text": "18.09.26",
+    "box": {
+      "left": 0.7975,
+      "top": 0.5355,
+      "right": 0.8997,
+      "bottom": 0.5691
+    },
+    "confidence": 0.9986
+  },
+  {
+    "text": "80",
+    "box": {
+      "left": 0.3177,
+      "top": 0.5775,
+      "right": 0.61,
+      "bottom": 0.8327
+    },
+    "confidence": 0.9995
+  },
+  {
+    "text": "30",
+    "box": {
+      "left": 0.571,
+      "top": 0.5951,
+      "right": 0.7148,
+      "bottom": 0.7189
+    },
+    "confidence": 0.9993
+  }
+]

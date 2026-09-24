@@ -1,0 +1,132 @@
+[
+    {
+        "text": "Вода Єврогруп 1,5 л с/газ.",
+        "box": {
+            "left": 0.0605,
+            "top": 0.0208,
+            "right": 0.781,
+            "bottom": 0.1785
+        },
+        "confidence": 0.9387
+    },
+    {
+        "text": "Деренівська Купиль",
+        "box": {
+            "left": 0.0656,
+            "top": 0.1333,
+            "right": 0.6059,
+            "bottom": 0.2763
+        },
+        "confidence": 0.8898
+    },
+    {
+        "text": "Укра",
+        "box": {
+            "left": 0.9157,
+            "top": 0.2347,
+            "right": 1.0,
+            "bottom": 0.3007
+        },
+        "confidence": 0.9643
+    },
+    {
+        "text": "НАША МАРКА",
+        "box": {
+            "left": 0.0778,
+            "top": 0.2812,
+            "right": 0.3076,
+            "bottom": 0.4095
+        },
+        "confidence": 0.9414
+    },
+    {
+        "text": "националрний",
+        "box": {
+            "left": 0.4085,
+            "top": 0.2848,
+            "right": 0.598,
+            "bottom": 0.3399
+        },
+        "confidence": 0.7296
+    },
+    {
+        "text": "Власна Мар",
+        "box": {
+            "left": 0.8357,
+            "top": 0.2848,
+            "right": 1.0,
+            "bottom": 0.3399
+        },
+        "confidence": 0.6675
+    },
+    {
+        "text": "кешбек",
+        "box": {
+            "left": 0.4042,
+            "top": 0.3154,
+            "right": 0.6081,
+            "bottom": 0.4267
+        },
+        "confidence": 0.753
+    },
+    {
+        "text": "31109",
+        "box": {
+            "left": 0.9035,
+            "top": 0.3301,
+            "right": 1.0,
+            "bottom": 0.3875
+        },
+        "confidence": 0.8806
+    },
+    {
+        "text": "no 0110",
+        "box": {
+            "left": 0.8854,
+            "top": 0.379,
+            "right": 1.0,
+            "bottom": 0.434
+        },
+        "confidence": 0.8704
+    },
+    {
+        "text": "2890",
+        "box": {
+            "left": 0.6643,
+            "top": 0.4144,
+            "right": 0.8314,
+            "bottom": 0.566
+        },
+        "confidence": 0.8161
+    },
+    {
+        "text": "50",
+        "box": {
+            "left": 0.6722,
+            "top": 0.5159,
+            "right": 0.817,
+            "bottom": 0.6809
+        },
+        "confidence": 0.9987
+    },
+    {
+        "text": "-12%",
+        "box": {
+            "left": 0.1124,
+            "top": 0.5465,
+            "right": 0.2961,
+            "bottom": 0.7017
+        },
+        "confidence": 0.8867
+    },
+    {
+        "text": "25",
+        "box": {
+            "left": 0.4856,
+            "top": 0.5746,
+            "right": 0.6916,
+            "bottom": 0.78
+        },
+        "confidence": 0.9988
+    }
+]

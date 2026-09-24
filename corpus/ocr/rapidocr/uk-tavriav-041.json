@@ -1,0 +1,122 @@
+[
+  {
+    "text": "HAШ",
+    "box": {
+      "left": 0.3444,
+      "top": 0.1427,
+      "right": 0.6237,
+      "bottom": 0.2335
+    },
+    "confidence": 0.7038
+  },
+  {
+    "text": "ИМПОРТ",
+    "box": {
+      "left": 0.3372,
+      "top": 0.2046,
+      "right": 0.6341,
+      "bottom": 0.3385
+    },
+    "confidence": 0.6929
+  },
+  {
+    "text": "OUR IMPORT",
+    "box": {
+      "left": 0.304,
+      "top": 0.3223,
+      "right": 0.6764,
+      "bottom": 0.3816
+    },
+    "confidence": 0.9468
+  },
+  {
+    "text": "Цукеpки Maitre Truffout 200 р",
+    "box": {
+      "left": 0.0898,
+      "top": 0.4509,
+      "right": 0.7871,
+      "bottom": 0.5417
+    },
+    "confidence": 0.9269
+  },
+  {
+    "text": "Мозarт з марципаном кульки",
+    "box": {
+      "left": 0.0964,
+      "top": 0.5108,
+      "right": 0.7624,
+      "bottom": 0.5841
+    },
+    "confidence": 0.8969
+  },
+  {
+    "text": "вiд2шт.285",
+    "box": {
+      "left": 0.4993,
+      "top": 0.572,
+      "right": 0.7552,
+      "bottom": 0.6501
+    },
+    "confidence": 0.7581
+  },
+  {
+    "text": "Австрия",
+    "box": {
+      "left": 0.804,
+      "top": 0.574,
+      "right": 0.9069,
+      "bottom": 0.6063
+    },
+    "confidence": 0.8619
+  },
+  {
+    "text": "80",
+    "box": {
+      "left": 0.7415,
+      "top": 0.5767,
+      "right": 0.7878,
+      "bottom": 0.611
+    },
+    "confidence": 0.99
+  },
+  {
+    "text": "HАШИМПОPТ",
+    "box": {
+      "left": 0.1276,
+      "top": 0.5976,
+      "right": 0.2904,
+      "bottom": 0.6433
+    },
+    "confidence": 0.6041
+  },
+  {
+    "text": "31.03.26",
+    "box": {
+      "left": 0.8014,
+      "top": 0.6057,
+      "right": 0.9017,
+      "bottom": 0.6346
+    },
+    "confidence": 0.9919
+  },
+  {
+    "text": "300",
+    "box": {
+      "left": 0.2168,
+      "top": 0.6514,
+      "right": 0.6081,
+      "bottom": 0.8546
+    },
+    "confidence": 0.9995
+  },
+  {
+    "text": "80",
+    "box": {
+      "left": 0.5892,
+      "top": 0.6629,
+      "right": 0.7168,
+      "bottom": 0.7517
+    },
+    "confidence": 0.9996
+  }
+]

@@ -1,0 +1,82 @@
+[
+  {
+    "text": "Борошно Аміна 1 кг в/г",
+    "box": {
+      "left": 0.0456,
+      "top": 0.1465,
+      "right": 0.6583,
+      "bottom": 0.3565
+    },
+    "confidence": 0.9121
+  },
+  {
+    "text": "Укpaїнa",
+    "box": {
+      "left": 0.7416,
+      "top": 0.432,
+      "right": 0.8414,
+      "bottom": 0.5272
+    },
+    "confidence": 0.5159
+  },
+  {
+    "text": "20",
+    "box": {
+      "left": 0.6861,
+      "top": 0.4381,
+      "right": 0.7436,
+      "bottom": 0.5393
+    },
+    "confidence": 0.9962
+  },
+  {
+    "text": "d3u.24",
+    "box": {
+      "left": 0.4937,
+      "top": 0.4441,
+      "right": 0.6993,
+      "bottom": 0.5997
+    },
+    "confidence": 0.7105
+  },
+  {
+    "text": "кацюнальний",
+    "box": {
+      "left": 0.121,
+      "top": 0.4713,
+      "right": 0.2716,
+      "bottom": 0.5378
+    },
+    "confidence": 0.7262
+  },
+  {
+    "text": "кешбек",
+    "box": {
+      "left": 0.121,
+      "top": 0.5181,
+      "right": 0.275,
+      "bottom": 0.6118
+    },
+    "confidence": 0.824
+  },
+  {
+    "text": "02.09.28",
+    "box": {
+      "left": 0.7409,
+      "top": 0.5196,
+      "right": 0.8381,
+      "bottom": 0.5876
+    },
+    "confidence": 0.9353
+  },
+  {
+    "text": "90",
+    "box": {
+      "left": 0.5393,
+      "top": 0.639,
+      "right": 0.6682,
+      "bottom": 0.8731
+    },
+    "confidence": 0.9966
+  }
+]

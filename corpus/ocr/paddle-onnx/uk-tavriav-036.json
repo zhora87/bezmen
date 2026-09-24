@@ -1,0 +1,152 @@
+[
+    {
+        "text": "АКЦИЯ",
+        "box": {
+            "left": 0.1793,
+            "top": 0.1718,
+            "right": 0.8336,
+            "bottom": 0.4333
+        },
+        "confidence": 0.9599
+    },
+    {
+        "text": "Ha6ip",
+        "box": {
+            "left": 0.1501,
+            "top": 0.4287,
+            "right": 0.2799,
+            "bottom": 0.5018
+        },
+        "confidence": 0.7819
+    },
+    {
+        "text": "д/солянки",
+        "box": {
+            "left": 0.2779,
+            "top": 0.4388,
+            "right": 0.5041,
+            "bottom": 0.5046
+        },
+        "confidence": 0.872
+    },
+    {
+        "text": "Алан",
+        "box": {
+            "left": 0.502,
+            "top": 0.4479,
+            "right": 0.6168,
+            "bottom": 0.5046
+        },
+        "confidence": 0.8994
+    },
+    {
+        "text": "500 р",
+        "box": {
+            "left": 0.6107,
+            "top": 0.4488,
+            "right": 0.731,
+            "bottom": 0.5101
+        },
+        "confidence": 0.8196
+    },
+    {
+        "text": "Україна",
+        "box": {
+            "left": 0.7018,
+            "top": 0.5101,
+            "right": 0.7813,
+            "bottom": 0.5466
+        },
+        "confidence": 0.8787
+    },
+    {
+        "text": "Ціну Знижено",
+        "box": {
+            "left": 0.6583,
+            "top": 0.5366,
+            "right": 0.7799,
+            "bottom": 0.5686
+        },
+        "confidence": 0.9049
+    },
+    {
+        "text": "нацональний",
+        "box": {
+            "left": 0.2031,
+            "top": 0.5594,
+            "right": 0.32,
+            "bottom": 0.5868
+        },
+        "confidence": 0.7967
+    },
+    {
+        "text": "3 21.08.26",
+        "box": {
+            "left": 0.6916,
+            "top": 0.5612,
+            "right": 0.7779,
+            "bottom": 0.5878
+        },
+        "confidence": 0.9607
+    },
+    {
+        "text": "нешбек",
+        "box": {
+            "left": 0.1977,
+            "top": 0.5722,
+            "right": 0.3261,
+            "bottom": 0.6289
+        },
+        "confidence": 0.792
+    },
+    {
+        "text": "nо 28.09.26",
+        "box": {
+            "left": 0.676,
+            "top": 0.5814,
+            "right": 0.7779,
+            "bottom": 0.6124
+        },
+        "confidence": 0.8363
+    },
+    {
+        "text": "24240",
+        "box": {
+            "left": 0.5075,
+            "top": 0.6325,
+            "right": 0.6467,
+            "bottom": 0.7102
+        },
+        "confidence": 0.8922
+    },
+    {
+        "text": "-50%",
+        "box": {
+            "left": 0.1821,
+            "top": 0.6609,
+            "right": 0.3139,
+            "bottom": 0.7797
+        },
+        "confidence": 0.9361
+    },
+    {
+        "text": "120",
+        "box": {
+            "left": 0.3417,
+            "top": 0.6746,
+            "right": 0.5686,
+            "bottom": 0.8391
+        },
+        "confidence": 0.9981
+    },
+    {
+        "text": "00",
+        "box": {
+            "left": 0.5367,
+            "top": 0.6901,
+            "right": 0.6325,
+            "bottom": 0.7815
+        },
+        "confidence": 0.9725
+    }
+]

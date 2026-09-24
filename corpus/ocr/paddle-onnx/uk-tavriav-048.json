@@ -1,0 +1,102 @@
+[
+    {
+        "text": "Шок Рошен Ласти 200/260 г мол.",
+        "box": {
+            "left": 0.0553,
+            "top": 0.131,
+            "right": 0.875,
+            "bottom": 0.2724
+        },
+        "confidence": 0.8791
+    },
+    {
+        "text": "Big Bite",
+        "box": {
+            "left": 0.0592,
+            "top": 0.2333,
+            "right": 0.2591,
+            "bottom": 0.3506
+        },
+        "confidence": 0.9859
+    },
+    {
+        "text": "від2шт.20760",
+        "box": {
+            "left": 0.4863,
+            "top": 0.3402,
+            "right": 0.821,
+            "bottom": 0.5069
+        },
+        "confidence": 0.7766
+    },
+    {
+        "text": "Украіна",
+        "box": {
+            "left": 0.8112,
+            "top": 0.3655,
+            "right": 0.9284,
+            "bottom": 0.4391
+        },
+        "confidence": 0.7426
+    },
+    {
+        "text": "нацональний",
+        "box": {
+            "left": 0.1354,
+            "top": 0.3678,
+            "right": 0.304,
+            "bottom": 0.4264
+        },
+        "confidence": 0.7569
+    },
+    {
+        "text": "кешбек",
+        "box": {
+            "left": 0.1335,
+            "top": 0.4057,
+            "right": 0.3086,
+            "bottom": 0.4943
+        },
+        "confidence": 0.9106
+    },
+    {
+        "text": "15.00.20",
+        "box": {
+            "left": 0.8138,
+            "top": 0.4287,
+            "right": 0.9284,
+            "bottom": 0.4966
+        },
+        "confidence": 0.9067
+    },
+    {
+        "text": "214",
+        "box": {
+            "left": 0.2188,
+            "top": 0.5368,
+            "right": 0.5924,
+            "bottom": 0.9023
+        },
+        "confidence": 0.9994
+    },
+    {
+        "text": "00",
+        "box": {
+            "left": 0.5885,
+            "top": 0.5368,
+            "right": 0.7311,
+            "bottom": 0.723
+        },
+        "confidence": 0.9622
+    },
+    {
+        "text": "20",
+        "box": {
+            "left": 0.0404,
+            "top": 0.8046,
+            "right": 0.0846,
+            "bottom": 0.8598
+        },
+        "confidence": 0.9977
+    }
+]

@@ -1,0 +1,62 @@
+[
+    {
+        "text": "Філе Tyнця Yellowfin 500 г c/м",
+        "box": {
+            "left": 0.1382,
+            "top": 0.1322,
+            "right": 0.8658,
+            "bottom": 0.3048
+        },
+        "confidence": 0.7797
+    },
+    {
+        "text": "В'етнам",
+        "box": {
+            "left": 0.7748,
+            "top": 0.3514,
+            "right": 0.8699,
+            "bottom": 0.4081
+        },
+        "confidence": 0.648
+    },
+    {
+        "text": "22.09.26",
+        "box": {
+            "left": 0.7761,
+            "top": 0.4043,
+            "right": 0.8699,
+            "bottom": 0.461
+        },
+        "confidence": 0.9767
+    },
+    {
+        "text": "291",
+        "box": {
+            "left": 0.3055,
+            "top": 0.4849,
+            "right": 0.6345,
+            "bottom": 0.8363
+        },
+        "confidence": 0.9994
+    },
+    {
+        "text": "10",
+        "box": {
+            "left": 0.5698,
+            "top": 0.5025,
+            "right": 0.7013,
+            "bottom": 0.6952
+        },
+        "confidence": 0.9965
+    },
+    {
+        "text": ".",
+        "box": {
+            "left": 0.6123,
+            "top": 0.6272,
+            "right": 0.6312,
+            "bottom": 0.6549
+        },
+        "confidence": 0.2286
+    }
+]

@@ -1,0 +1,182 @@
+[
+    {
+        "text": "НАШ",
+        "box": {
+            "left": 0.3574,
+            "top": 0.0897,
+            "right": 0.6263,
+            "bottom": 0.1591
+        },
+        "confidence": 0.7261
+    },
+    {
+        "text": "ИМПОРТ",
+        "box": {
+            "left": 0.349,
+            "top": 0.1532,
+            "right": 0.6315,
+            "bottom": 0.2606
+        },
+        "confidence": 0.8178
+    },
+    {
+        "text": "IMPORT",
+        "box": {
+            "left": 0.4427,
+            "top": 0.2633,
+            "right": 0.679,
+            "bottom": 0.3071
+        },
+        "confidence": 0.9894
+    },
+    {
+        "text": "OUR",
+        "box": {
+            "left": 0.306,
+            "top": 0.2659,
+            "right": 0.4492,
+            "bottom": 0.3071
+        },
+        "confidence": 0.9888
+    },
+    {
+        "text": "HACIZADE",
+        "box": {
+            "left": 0.2969,
+            "top": 0.4021,
+            "right": 0.5664,
+            "bottom": 0.4591
+        },
+        "confidence": 0.9857
+    },
+    {
+        "text": "Цукерки",
+        "box": {
+            "left": 0.0898,
+            "top": 0.4034,
+            "right": 0.3021,
+            "bottom": 0.4695
+        },
+        "confidence": 0.9122
+    },
+    {
+        "text": "250r",
+        "box": {
+            "left": 0.5605,
+            "top": 0.4034,
+            "right": 0.6927,
+            "bottom": 0.4604
+        },
+        "confidence": 0.9828
+    },
+    {
+        "text": "полун.в",
+        "box": {
+            "left": 0.6842,
+            "top": 0.4086,
+            "right": 0.8763,
+            "bottom": 0.4709
+        },
+        "confidence": 0.8817
+    },
+    {
+        "text": "8",
+        "box": {
+            "left": 0.8529,
+            "top": 0.427,
+            "right": 0.8789,
+            "bottom": 0.4551
+        },
+        "confidence": 0.7391
+    },
+    {
+        "text": "(TурeччиHa)",
+        "box": {
+            "left": 0.4512,
+            "top": 0.4519,
+            "right": 0.7552,
+            "bottom": 0.5239
+        },
+        "confidence": 0.628
+    },
+    {
+        "text": "И013",
+        "box": {
+            "left": 0.3125,
+            "top": 0.4545,
+            "right": 0.4492,
+            "bottom": 0.5167
+        },
+        "confidence": 0.7692
+    },
+    {
+        "text": "шоколаді",
+        "box": {
+            "left": 0.0898,
+            "top": 0.4571,
+            "right": 0.3216,
+            "bottom": 0.5154
+        },
+        "confidence": 0.9252
+    },
+    {
+        "text": "ТypeччиHa",
+        "box": {
+            "left": 0.793,
+            "top": 0.5311,
+            "right": 0.9395,
+            "bottom": 0.5678
+        },
+        "confidence": 0.633
+    },
+    {
+        "text": "НАШ ИМПОРТ",
+        "box": {
+            "left": 0.1029,
+            "top": 0.5377,
+            "right": 0.2793,
+            "bottom": 0.5855
+        },
+        "confidence": 0.9394
+    },
+    {
+        "text": "31.08.2t",
+        "box": {
+            "left": 0.8229,
+            "top": 0.5665,
+            "right": 0.9355,
+            "bottom": 0.5966
+        },
+        "confidence": 0.9509
+    },
+    {
+        "text": "205",
+        "box": {
+            "left": 0.2174,
+            "top": 0.6117,
+            "right": 0.6335,
+            "bottom": 0.8127
+        },
+        "confidence": 0.9998
+    },
+    {
+        "text": "70",
+        "box": {
+            "left": 0.5957,
+            "top": 0.6274,
+            "right": 0.7331,
+            "bottom": 0.7217
+        },
+        "confidence": 0.9959
+    },
+    {
+        "text": "20",
+        "box": {
+            "left": 0.1061,
+            "top": 0.7616,
+            "right": 0.1374,
+            "bottom": 0.7852
+        },
+        "confidence": 0.9987
+    }
+]

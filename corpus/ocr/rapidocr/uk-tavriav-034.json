@@ -1,0 +1,52 @@
+[
+  {
+    "text": "Філе Tунця Yellowfin 500 г c/м",
+    "box": {
+      "left": 0.147,
+      "top": 0.1474,
+      "right": 0.855,
+      "bottom": 0.2897
+    },
+    "confidence": 0.893
+  },
+  {
+    "text": "B'eTHaM",
+    "box": {
+      "left": 0.7761,
+      "top": 0.3577,
+      "right": 0.8678,
+      "bottom": 0.4055
+    },
+    "confidence": 0.7118
+  },
+  {
+    "text": "22.09.26",
+    "box": {
+      "left": 0.7755,
+      "top": 0.4068,
+      "right": 0.8685,
+      "bottom": 0.461
+    },
+    "confidence": 0.9889
+  },
+  {
+    "text": "291",
+    "box": {
+      "left": 0.2913,
+      "top": 0.4748,
+      "right": 0.6433,
+      "bottom": 0.8489
+    },
+    "confidence": 0.9995
+  },
+  {
+    "text": "10",
+    "box": {
+      "left": 0.5974,
+      "top": 0.5038,
+      "right": 0.7047,
+      "bottom": 0.6814
+    },
+    "confidence": 0.9992
+  }
+]

@@ -1,0 +1,112 @@
+[
+    {
+        "text": "Краб пал Єврогруп 240 г",
+        "box": {
+            "left": 0.0924,
+            "top": 0.1416,
+            "right": 0.7936,
+            "bottom": 0.2932
+        },
+        "confidence": 0.9408
+    },
+    {
+        "text": "aїна",
+        "box": {
+            "left": 0.0,
+            "top": 0.3484,
+            "right": 0.0534,
+            "bottom": 0.3946
+        },
+        "confidence": 0.5718
+    },
+    {
+        "text": "НАША МАРКА",
+        "box": {
+            "left": 0.1009,
+            "top": 0.3584,
+            "right": 0.3021,
+            "bottom": 0.4508
+        },
+        "confidence": 0.9859
+    },
+    {
+        "text": "нацональний",
+        "box": {
+            "left": 0.3906,
+            "top": 0.3635,
+            "right": 0.554,
+            "bottom": 0.4157
+        },
+        "confidence": 0.9692
+    },
+    {
+        "text": "Украна",
+        "box": {
+            "left": 0.8268,
+            "top": 0.3755,
+            "right": 0.9336,
+            "bottom": 0.4357
+        },
+        "confidence": 0.9336
+    },
+    {
+        "text": "09.26",
+        "box": {
+            "left": 0.0,
+            "top": 0.3936,
+            "right": 0.054,
+            "bottom": 0.4458
+        },
+        "confidence": 0.9609
+    },
+    {
+        "text": "кешбек",
+        "box": {
+            "left": 0.3893,
+            "top": 0.3946,
+            "right": 0.556,
+            "bottom": 0.4719
+        },
+        "confidence": 0.4902
+    },
+    {
+        "text": "17.09.26",
+        "box": {
+            "left": 0.8229,
+            "top": 0.4297,
+            "right": 0.931,
+            "bottom": 0.4839
+        },
+        "confidence": 0.999
+    },
+    {
+        "text": "6650",
+        "box": {
+            "left": 0.3353,
+            "top": 0.4568,
+            "right": 0.7741,
+            "bottom": 0.8303
+        },
+        "confidence": 0.9166
+    },
+    {
+        "text": "20",
+        "box": {
+            "left": 0.9616,
+            "top": 0.7068,
+            "right": 0.9967,
+            "bottom": 0.752
+        },
+        "confidence": 0.999
+    },
+    {
+        "text": "10",
+        "box": {
+            "left": 0.0924,
+            "top": 0.7159,
+            "right": 0.123,
+            "bottom": 0.753
+        },
+        "confidence": 0.9992
+    }
+]

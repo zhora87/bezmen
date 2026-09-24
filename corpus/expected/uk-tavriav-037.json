@@ -1,0 +1,17 @@
+{
+  "pack": "uk",
+  "price": {
+    "minor": 12000,
+    "currency": "UAH"
+  },
+  "oldPrice": {
+    "minor": 24240,
+    "currency": "UAH"
+  },
+  "quantity": {
+    "value": 500.0,
+    "unit": "GRAM"
+  },
+  "isWeighted": false,
+  "note": "Таврія В 2026-09-24 own photo; red frame: Набір д/солянки Алан 500 г; 120.00 per 1 шт., -50%"
+}

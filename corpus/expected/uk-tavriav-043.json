@@ -1,0 +1,17 @@
+{
+  "pack": "uk",
+  "price": {
+    "minor": 9490,
+    "currency": "UAH"
+  },
+  "oldPrice": {
+    "minor": 11740,
+    "currency": "UAH"
+  },
+  "quantity": {
+    "value": 180.0,
+    "unit": "GRAM"
+  },
+  "isWeighted": false,
+  "note": "Таврія В 2026-09-24 own photo; yellow sale: Масло Нов.-Сівер. 82,5% 180 г Селянське; -19%"
+}

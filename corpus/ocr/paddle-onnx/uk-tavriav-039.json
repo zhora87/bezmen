@@ -1,0 +1,132 @@
+[
+    {
+        "text": "ue",
+        "box": {
+            "left": 0.2988,
+            "top": 0.0,
+            "right": 0.3665,
+            "bottom": 0.0205
+        },
+        "confidence": 0.448
+    },
+    {
+        "text": "Цукерки Конти GaldenШy a eмаком",
+        "box": {
+            "left": 0.1467,
+            "top": 0.3825,
+            "right": 0.9376,
+            "bottom": 0.5075
+        },
+        "confidence": 0.7972
+    },
+    {
+        "text": "апельсина ваг.",
+        "box": {
+            "left": 0.158,
+            "top": 0.4729,
+            "right": 0.4927,
+            "bottom": 0.5504
+        },
+        "confidence": 0.9551
+    },
+    {
+        "text": "Украіна",
+        "box": {
+            "left": 0.828,
+            "top": 0.5196,
+            "right": 0.919,
+            "bottom": 0.5569
+        },
+        "confidence": 0.8862
+    },
+    {
+        "text": "6232",
+        "box": {
+            "left": 0.1574,
+            "top": 0.5429,
+            "right": 0.4309,
+            "bottom": 0.68
+        },
+        "confidence": 0.9719
+    },
+    {
+        "text": "Сезсн 3нинок 2 22026",
+        "box": {
+            "left": 0.6939,
+            "top": 0.5448,
+            "right": 0.921,
+            "bottom": 0.5924
+        },
+        "confidence": 0.6113
+    },
+    {
+        "text": "317.09.26",
+        "box": {
+            "left": 0.8167,
+            "top": 0.5774,
+            "right": 0.917,
+            "bottom": 0.6157
+        },
+        "confidence": 0.9137
+    },
+    {
+        "text": "no290926",
+        "box": {
+            "left": 0.7968,
+            "top": 0.6045,
+            "right": 0.9143,
+            "bottom": 0.6474
+        },
+        "confidence": 0.9266
+    },
+    {
+        "text": "3164",
+        "box": {
+            "left": 0.6534,
+            "top": 0.6418,
+            "right": 0.7583,
+            "bottom": 0.722
+        },
+        "confidence": 0.7919
+    },
+    {
+        "text": "-31%",
+        "box": {
+            "left": 0.168,
+            "top": 0.6875,
+            "right": 0.4011,
+            "bottom": 0.8703
+        },
+        "confidence": 0.9626
+    },
+    {
+        "text": "2100",
+        "box": {
+            "left": 0.5013,
+            "top": 0.6922,
+            "right": 0.7822,
+            "bottom": 0.9021
+        },
+        "confidence": 0.728
+    },
+    {
+        "text": "79",
+        "box": {
+            "left": 0.6448,
+            "top": 0.6996,
+            "right": 0.755,
+            "bottom": 0.8218
+        },
+        "confidence": 0.9944
+    },
+    {
+        "text": "20",
+        "box": {
+            "left": 0.1853,
+            "top": 0.8582,
+            "right": 0.2165,
+            "bottom": 0.8899
+        },
+        "confidence": 0.9973
+    }
+]

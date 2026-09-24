@@ -1,0 +1,17 @@
+{
+  "pack": "uk",
+  "price": {
+    "minor": 2550,
+    "currency": "UAH"
+  },
+  "oldPrice": {
+    "minor": 2890,
+    "currency": "UAH"
+  },
+  "quantity": {
+    "value": 1.5,
+    "unit": "LITRE"
+  },
+  "isWeighted": false,
+  "note": "Таврія В 2026-09-24 own photo; yellow sale: Вода Єврогруп 1,5 л с/газ Деренівська Купіль; -12%"
+}

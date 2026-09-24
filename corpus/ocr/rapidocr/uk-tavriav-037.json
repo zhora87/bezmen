@@ -1,0 +1,192 @@
+[
+  {
+    "text": "242",
+    "box": {
+      "left": 0.5121,
+      "top": 0.1083,
+      "right": 0.8336,
+      "bottom": 0.2349
+    },
+    "confidence": 0.9965
+  },
+  {
+    "text": "-50%",
+    "box": {
+      "left": 0.2164,
+      "top": 0.1509,
+      "right": 0.4329,
+      "bottom": 0.2252
+    },
+    "confidence": 0.995
+  },
+  {
+    "text": "120",
+    "box": {
+      "left": 0.2386,
+      "top": 0.2635,
+      "right": 0.7379,
+      "bottom": 0.5295
+    },
+    "confidence": 0.999
+  },
+  {
+    "text": "00",
+    "box": {
+      "left": 0.71,
+      "top": 0.3037,
+      "right": 0.8336,
+      "bottom": 0.3847
+    },
+    "confidence": 0.9972
+  },
+  {
+    "text": "O",
+    "box": {
+      "left": 0.0,
+      "top": 0.3281,
+      "right": 0.0571,
+      "bottom": 0.406
+    },
+    "confidence": 0.684
+  },
+  {
+    "text": "002.",
+    "box": {
+      "left": 0.0,
+      "top": 0.3993,
+      "right": 0.0529,
+      "bottom": 0.4242
+    },
+    "confidence": 0.7491
+  },
+  {
+    "text": "1wm.",
+    "box": {
+      "left": 0.7371,
+      "top": 0.4029,
+      "right": 0.82,
+      "bottom": 0.4315
+    },
+    "confidence": 0.8774
+  },
+  {
+    "text": "8/r",
+    "box": {
+      "left": 0.0,
+      "top": 0.4644,
+      "right": 0.0543,
+      "bottom": 0.4942
+    },
+    "confidence": 0.6626
+  },
+  {
+    "text": "8a2.",
+    "box": {
+      "left": 0.0,
+      "top": 0.4936,
+      "right": 0.0493,
+      "bottom": 0.5228
+    },
+    "confidence": 0.5852
+  },
+  {
+    "text": "5002",
+    "box": {
+      "left": 0.2564,
+      "top": 0.5569,
+      "right": 0.4093,
+      "bottom": 0.5983
+    },
+    "confidence": 0.9135
+  },
+  {
+    "text": "национальний",
+    "box": {
+      "left": 0.2579,
+      "top": 0.6677,
+      "right": 0.3214,
+      "bottom": 0.6792
+    },
+    "confidence": 0.9466
+  },
+  {
+    "text": "5%",
+    "box": {
+      "left": 0.3214,
+      "top": 0.6677,
+      "right": 0.3621,
+      "bottom": 0.6884
+    },
+    "confidence": 0.9999
+  },
+  {
+    "text": "кешбек",
+    "box": {
+      "left": 0.2593,
+      "top": 0.6738,
+      "right": 0.3243,
+      "bottom": 0.6902
+    },
+    "confidence": 0.8858
+  },
+  {
+    "text": "3 21.08.26",
+    "box": {
+      "left": 0.48,
+      "top": 0.7669,
+      "right": 0.5857,
+      "bottom": 0.7937
+    },
+    "confidence": 0.9727
+  },
+  {
+    "text": "no 28.09.26",
+    "box": {
+      "left": 0.4929,
+      "top": 0.787,
+      "right": 0.615,
+      "bottom": 0.8162
+    },
+    "confidence": 0.9141
+  },
+  {
+    "text": "Таврия B",
+    "box": {
+      "left": 0.6864,
+      "top": 0.7888,
+      "right": 0.7807,
+      "bottom": 0.8192
+    },
+    "confidence": 0.8026
+  },
+  {
+    "text": "СПЕКОТНИ",
+    "box": {
+      "left": 0.2586,
+      "top": 0.7912,
+      "right": 0.445,
+      "bottom": 0.8381
+    },
+    "confidence": 0.6254
+  },
+  {
+    "text": "Цiнy Зникано",
+    "box": {
+      "left": 0.7121,
+      "top": 0.8089,
+      "right": 0.7664,
+      "bottom": 0.8265
+    },
+    "confidence": 0.5689
+  },
+  {
+    "text": "3HИЖKИ",
+    "box": {
+      "left": 0.2643,
+      "top": 0.8271,
+      "right": 0.4393,
+      "bottom": 0.8515
+    },
+    "confidence": 0.6821
+  }
+]
