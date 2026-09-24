@@ -339,6 +339,25 @@ class AtbLayoutTest {
         assertEquals("Вироби фаршеві", tag?.name?.value)
     }
 
+    /** A white tag sets the name in four short lines; the last one runs below the middle of the tag. */
+    @Test
+    fun `name continues below the middle of the tag`() {
+        val tag = uk.parse(
+            listOf(
+                OcrLine("Крупа", Box(0.16f, 0.23f, 0.33f, 0.36f), 0.97f),
+                OcrLine("33", Box(0.50f, 0.20f, 0.80f, 0.62f), 1f),
+                OcrLine("\"Розумний", Box(0.10f, 0.33f, 0.38f, 0.47f), 0.98f),
+                OcrLine("60", Box(0.84f, 0.27f, 0.96f, 0.40f), 1f),
+                OcrLine("вибір\"", Box(0.16f, 0.44f, 0.32f, 0.57f), 0.9f),
+                OcrLine("ГРН.", Box(0.82f, 0.50f, 0.95f, 0.62f), 0.8f),
+                OcrLine("гречана", Box(0.15f, 0.56f, 0.35f, 0.66f), 0.82f),
+                OcrLine("1K", Box(0.88f, 0.65f, 0.95f, 0.72f), 0.82f),
+            ),
+        ).tagOrNull()
+
+        assertEquals("Крупа \"Розумний вибір\" гречана", tag?.name?.value)
+    }
+
     private fun ParseResult.tagOrNull() = when (this) {
         is ParseResult.Success -> tag
         is ParseResult.NeedsInput -> tag

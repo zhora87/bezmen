@@ -138,12 +138,13 @@ private object NameDetector {
     fun detect(ctx: TagContext, markers: MarkerDetector.Result, quantity: QuantityCandidate?): Field<String>? {
         val excluded = markers.markerLines + markers.labelLines
         val candidates = ctx.lines.indices
-            .filter { ctx.lines[it].box.top < MAX_TOP && it !in excluded && !markers.flags[it].any }
+            .filter { it !in excluded && !markers.flags[it].any }
             .filter { isWordy(ctx.normalized[it]) && !onlyLabelWords(ctx, it) && !cutByEdge(ctx.lines[it].box) }
             .sortedBy { ctx.lines[it].box.top }
-        val first = candidates.firstOrNull() ?: return null
+        // The name starts in the upper part of the tag; its continuation may run lower.
+        val first = candidates.firstOrNull { ctx.lines[it].box.top < MAX_TOP } ?: return null
         val chosen = mutableListOf(first)
-        for (next in candidates.drop(1)) {
+        for (next in candidates.dropWhile { it != first }.drop(1)) {
             if (chosen.size == MAX_LINES || !continues(ctx, chosen.last(), next)) break
             chosen += next
         }
