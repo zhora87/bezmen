@@ -1,0 +1,242 @@
+[
+    {
+        "text": "ЦИНА",
+        "box": {
+            "left": 0.5405,
+            "top": 0.2056,
+            "right": 0.6968,
+            "bottom": 0.3053
+        },
+        "confidence": 0.6115
+    },
+    {
+        "text": "npu",
+        "box": {
+            "left": 0.1436,
+            "top": 0.2073,
+            "right": 0.2573,
+            "bottom": 0.2808
+        },
+        "confidence": 0.629
+    },
+    {
+        "text": "скануванні",
+        "box": {
+            "left": 0.2363,
+            "top": 0.2073,
+            "right": 0.5146,
+            "bottom": 0.2905
+        },
+        "confidence": 0.959
+    },
+    {
+        "text": "3Hижка",
+        "box": {
+            "left": 0.7437,
+            "top": 0.2336,
+            "right": 0.9229,
+            "bottom": 0.3325
+        },
+        "confidence": 0.6158
+    },
+    {
+        "text": "АТБ",
+        "box": {
+            "left": 0.3779,
+            "top": 0.2808,
+            "right": 0.4717,
+            "bottom": 0.357
+        },
+        "confidence": 0.5623
+    },
+    {
+        "text": "додатка",
+        "box": {
+            "left": 0.1729,
+            "top": 0.2835,
+            "right": 0.377,
+            "bottom": 0.3657
+        },
+        "confidence": 0.9965
+    },
+    {
+        "text": "77",
+        "box": {
+            "left": 0.52,
+            "top": 0.2975,
+            "right": 0.6416,
+            "bottom": 0.4339
+        },
+        "confidence": 0.9988
+    },
+    {
+        "text": "04",
+        "box": {
+            "left": 0.6362,
+            "top": 0.3071,
+            "right": 0.6968,
+            "bottom": 0.4243
+        },
+        "confidence": 0.662
+    },
+    {
+        "text": "10",
+        "box": {
+            "left": 0.7456,
+            "top": 0.3141,
+            "right": 0.874,
+            "bottom": 0.4506
+        },
+        "confidence": 0.9982
+    },
+    {
+        "text": "%",
+        "box": {
+            "left": 0.8418,
+            "top": 0.3456,
+            "right": 0.9009,
+            "bottom": 0.4339
+        },
+        "confidence": 0.9909
+    },
+    {
+        "text": "кaci",
+        "box": {
+            "left": 0.3071,
+            "top": 0.3552,
+            "right": 0.4082,
+            "bottom": 0.4304
+        },
+        "confidence": 0.4865
+    },
+    {
+        "text": "Ha",
+        "box": {
+            "left": 0.2456,
+            "top": 0.3657,
+            "right": 0.3071,
+            "bottom": 0.4243
+        },
+        "confidence": 0.4831
+    },
+    {
+        "text": "Маршмеллоу",
+        "box": {
+            "left": 0.2886,
+            "top": 0.4926,
+            "right": 0.6094,
+            "bottom": 0.6142
+        },
+        "confidence": 0.9311
+    },
+    {
+        "text": "UA",
+        "box": {
+            "left": 0.2241,
+            "top": 0.5022,
+            "right": 0.2905,
+            "bottom": 0.5774
+        },
+        "confidence": 0.9831
+    },
+    {
+        "text": "9",
+        "box": {
+            "left": 0.1543,
+            "top": 0.5512,
+            "right": 0.1782,
+            "bottom": 0.636
+        },
+        "confidence": 0.5702
+    },
+    {
+        "text": "\"Своя",
+        "box": {
+            "left": 0.2886,
+            "top": 0.5792,
+            "right": 0.4155,
+            "bottom": 0.6597
+        },
+        "confidence": 0.8829
+    },
+    {
+        "text": "лінія\"",
+        "box": {
+            "left": 0.4116,
+            "top": 0.5844,
+            "right": 0.5449,
+            "bottom": 0.6632
+        },
+        "confidence": 0.8843
+    },
+    {
+        "text": "85",
+        "box": {
+            "left": 0.6772,
+            "top": 0.5897,
+            "right": 0.8071,
+            "bottom": 0.7445
+        },
+        "confidence": 0.9993
+    },
+    {
+        "text": "70",
+        "box": {
+            "left": 0.7915,
+            "top": 0.6028,
+            "right": 0.8584,
+            "bottom": 0.6859
+        },
+        "confidence": 0.9743
+    },
+    {
+        "text": "Барбекю",
+        "box": {
+            "left": 0.3145,
+            "top": 0.6492,
+            "right": 0.5103,
+            "bottom": 0.7515
+        },
+        "confidence": 0.9772
+    },
+    {
+        "text": "рпн",
+        "box": {
+            "left": 0.7915,
+            "top": 0.6728,
+            "right": 0.855,
+            "bottom": 0.7227
+        },
+        "confidence": 0.552
+    },
+    {
+        "text": "250г",
+        "box": {
+            "left": 0.7905,
+            "top": 0.706,
+            "right": 0.8511,
+            "bottom": 0.7533
+        },
+        "confidence": 0.8954
+    },
+    {
+        "text": "ванілі",
+        "box": {
+            "left": 0.4697,
+            "top": 0.7428,
+            "right": 0.5957,
+            "bottom": 0.8145
+        },
+        "confidence": 0.9433
+    },
+    {
+        "text": "з ароматом",
+        "box": {
+            "left": 0.228,
+            "top": 0.7445,
+            "right": 0.4731,
+            "bottom": 0.8145
+        },
+        "confidence": 0.9731
+    }
+]

@@ -64,7 +64,8 @@ class ScanViewModel(app: Application) : AndroidViewModel(app) {
 
     private fun logState(state: ScanState) {
         val detail = (state as? ScanState.Result)?.draft?.let {
-            " price=${it.priceText} qty=${it.quantityText} ${it.unit} check=${it.needsCheck}"
+            " price=${it.priceText} card=${it.cardPriceText} qty=${it.quantityText} ${it.unit} " +
+                "check=${it.needsCheck} name=${it.name}"
         }
         Log.d(TAG, "state ${state::class.simpleName}${detail.orEmpty()} pack=${pack.id}")
     }

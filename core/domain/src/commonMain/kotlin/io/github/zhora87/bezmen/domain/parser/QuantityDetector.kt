@@ -142,8 +142,24 @@ internal class QuantityDetector(private val pack: LocalePack) {
         return when {
             before.kind == TokenKind.NUMBER && beforeValue != null -> beforeValue to listOf(before.id, sep.id)
             isPieces && count != null && countValue != null -> countValue to listOf(count.id, before.id, sep.id)
-            else -> null
+            else -> gluedCount(tokens, i - 2, sep)
         }
+    }
+
+    /**
+     * "20ф/пх1,7г" (twenty filter bags of 1.7 g): a count, a short glued unit ("ф/п") and the
+     * multiplier, all without spaces. [end] is the last token before the multiplier.
+     */
+    private fun gluedCount(tokens: List<Token>, end: Int, sep: Token): Pair<Double, List<TokenId>>? {
+        var j = end
+        var skipped = 0
+        while (j >= 0 && tokens[j].kind != TokenKind.NUMBER && tokens[j].end == tokens[j + 1].start) {
+            skipped += tokens[j].text.length
+            j--
+        }
+        val count = tokens.getOrNull(j)?.takeIf { it.kind == TokenKind.NUMBER && it.end == tokens[j + 1].start }
+        val value = count?.number?.takeIf { it >= 1 && skipped in 1..MAX_GLUED_UNIT }
+        return value?.let { v -> v to (tokens.subList(j, end + 1).map { it.id } + sep.id) }
     }
 
     private companion object {
@@ -157,5 +173,8 @@ internal class QuantityDetector(private val pack: LocalePack) {
 
         /** Longest glued run tried as one alias ("на", "6", "-р"). */
         const val MAX_RUN = 3
+
+        /** Longest glued unit between a count and its multiplier ("ф/п", "шт"). */
+        const val MAX_GLUED_UNIT = 4
     }
 }

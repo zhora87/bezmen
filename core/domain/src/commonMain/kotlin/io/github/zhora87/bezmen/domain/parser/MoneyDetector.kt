@@ -83,7 +83,8 @@ internal class MoneyDetector(private val pack: LocalePack) {
         for (major in majors) {
             val majorBox = ctx.lines[major.lineIndex].box
             val cent = cents.firstOrNull {
-                it.lineIndex != major.lineIndex && looksLikeCents(majorBox, ctx.lines[it.lineIndex].box)
+                val centsBox = ctx.lines[it.lineIndex].box
+                it.lineIndex != major.lineIndex && looksLikeCents(majorBox, major.digitCount, centsBox)
             } ?: continue
             out += mergedCandidate(ctx, major, cent)
             used += ctx.tokens[major.lineIndex].map { it.id }
@@ -115,13 +116,21 @@ internal class MoneyDetector(private val pack: LocalePack) {
         return if (numbers.size == 1 && !others) numbers.single() else null
     }
 
-    private fun looksLikeCents(major: Box, cents: Box): Boolean {
+    /**
+     * Two digits right of the major part and inside its height band, set smaller. "Smaller" is read
+     * from the height, or from the digit width when the box also holds the "грн" printed under the
+     * kopecks and is as tall as the major part.
+     */
+    private fun looksLikeCents(major: Box, majorDigits: Int, cents: Box): Boolean {
         val h = major.height
-        return cents.left >= major.left + major.width * CENTS_MIN_START &&
+        val placed = cents.left >= major.left + major.width * CENTS_MIN_START &&
             cents.left <= major.right + h &&
             cents.top >= major.top - h * CENTS_VERTICAL_SLACK &&
-            cents.bottom <= major.bottom + h * CENTS_VERTICAL_SLACK &&
-            cents.height <= h * CENTS_MAX_HEIGHT_RATIO
+            cents.bottom <= major.bottom + h * CENTS_VERTICAL_SLACK
+        val shorter = cents.height <= h * CENTS_MAX_HEIGHT_RATIO
+        val narrower = cents.height <= h * (1 + CENTS_VERTICAL_SLACK) &&
+            cents.width / CENTS_DIGITS <= major.width / majorDigits * CENTS_MAX_WIDTH_RATIO
+        return placed && (shorter || narrower)
     }
 
     private fun isPriceLike(t: Token, next: Token?): Boolean =
@@ -167,5 +176,7 @@ internal class MoneyDetector(private val pack: LocalePack) {
         const val CENTS_MIN_START = 0.5f
         const val CENTS_VERTICAL_SLACK = 0.15f
         const val CENTS_MAX_HEIGHT_RATIO = 0.85f
+        const val CENTS_MAX_WIDTH_RATIO = 0.8f
+        const val CENTS_DIGITS = 2
     }
 }

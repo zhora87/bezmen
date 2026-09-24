@@ -1,0 +1,172 @@
+[
+  {
+    "text": "ЛИHA",
+    "box": {
+      "left": 0.5565,
+      "top": 0.1688,
+      "right": 0.7077,
+      "bottom": 0.275
+    },
+    "confidence": 0.582
+  },
+  {
+    "text": "при скануванны",
+    "box": {
+      "left": 0.1376,
+      "top": 0.1759,
+      "right": 0.5524,
+      "bottom": 0.2875
+    },
+    "confidence": 0.8924
+  },
+  {
+    "text": "3Hижкa",
+    "box": {
+      "left": 0.7626,
+      "top": 0.1884,
+      "right": 0.938,
+      "bottom": 0.2884
+    },
+    "confidence": 0.5516
+  },
+  {
+    "text": "додатка АТБ",
+    "box": {
+      "left": 0.1709,
+      "top": 0.2491,
+      "right": 0.4874,
+      "bottom": 0.367
+    },
+    "confidence": 0.9384
+  },
+  {
+    "text": "56",
+    "box": {
+      "left": 0.5312,
+      "top": 0.2625,
+      "right": 0.6593,
+      "bottom": 0.4214
+    },
+    "confidence": 0.9998
+  },
+  {
+    "text": "555",
+    "box": {
+      "left": 0.6442,
+      "top": 0.2634,
+      "right": 0.7172,
+      "bottom": 0.4107
+    },
+    "confidence": 0.7855
+  },
+  {
+    "text": "10%",
+    "box": {
+      "left": 0.7697,
+      "top": 0.2804,
+      "right": 0.9274,
+      "bottom": 0.4161
+    },
+    "confidence": 0.8771
+  },
+  {
+    "text": "на касі",
+    "box": {
+      "left": 0.244,
+      "top": 0.3384,
+      "right": 0.4199,
+      "bottom": 0.4312
+    },
+    "confidence": 0.7377
+  },
+  {
+    "text": "Чай\"Своя лінія\"",
+    "box": {
+      "left": 0.2253,
+      "top": 0.4598,
+      "right": 0.619,
+      "bottom": 0.5661
+    },
+    "confidence": 0.9488
+  },
+  {
+    "text": "Garden Pie,",
+    "box": {
+      "left": 0.2883,
+      "top": 0.55,
+      "right": 0.56,
+      "bottom": 0.6509
+    },
+    "confidence": 0.9952
+  },
+  {
+    "text": "62",
+    "box": {
+      "left": 0.7016,
+      "top": 0.5768,
+      "right": 0.8448,
+      "bottom": 0.7696
+    },
+    "confidence": 0.9985
+  },
+  {
+    "text": "900",
+    "box": {
+      "left": 0.8065,
+      "top": 0.5848,
+      "right": 0.8977,
+      "bottom": 0.7804
+    },
+    "confidence": 0.6906
+  },
+  {
+    "text": "зелений",
+    "box": {
+      "left": 0.3185,
+      "top": 0.6384,
+      "right": 0.5282,
+      "bottom": 0.7393
+    },
+    "confidence": 0.9737
+  },
+  {
+    "text": "KOд 195374",
+    "box": {
+      "left": 0.1472,
+      "top": 0.6937,
+      "right": 0.183,
+      "bottom": 0.9429
+    },
+    "confidence": 0.8312
+  },
+  {
+    "text": "з додаванням суміші",
+    "box": {
+      "left": 0.1885,
+      "top": 0.7196,
+      "right": 0.6573,
+      "bottom": 0.8589
+    },
+    "confidence": 0.9578
+  },
+  {
+    "text": "16.09.26",
+    "box": {
+      "left": 0.125,
+      "top": 0.7634,
+      "right": 0.1522,
+      "bottom": 0.9375
+    },
+    "confidence": 0.9921
+  },
+  {
+    "text": "плодів та ягід",
+    "box": {
+      "left": 0.2722,
+      "top": 0.8241,
+      "right": 0.5781,
+      "bottom": 0.9277
+    },
+    "confidence": 0.965
+  }
+]

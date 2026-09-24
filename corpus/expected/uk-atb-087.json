@@ -1,0 +1,21 @@
+{
+  "pack": "uk",
+  "price": {
+    "minor": 3130,
+    "currency": "UAH"
+  },
+  "oldPrice": {
+    "minor": 3790,
+    "currency": "UAH"
+  },
+  "quantity": {
+    "value": 30.0,
+    "unit": "GRAM"
+  },
+  "isWeighted": false,
+  "loyaltyPrice": {
+    "minor": 2817,
+    "currency": "UAH"
+  },
+  "note": "АТБ 2026-09-24 in-app shot; orange: UA Чай трав'яний Поліський чай; 20ф/пх1.5г = 20 x 1.5 g; app price 28.17"
+}

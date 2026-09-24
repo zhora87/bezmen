@@ -358,6 +358,121 @@ class AtbLayoutTest {
         assertEquals("Крупа \"Розумний вибір\" гречана", tag?.name?.value)
     }
 
+    /** Orange ATB tag: the app price sits in a dark block on top, the shelf price at the bottom right. */
+    @Test
+    fun `app price block on top is the card price, the bottom price is the shelf price`() {
+        val tag = uk.parse(
+            listOf(
+                OcrLine("скануванні", Box(0.24f, 0.17f, 0.52f, 0.27f), 0.97f),
+                OcrLine("ЦИНА", Box(0.55f, 0.17f, 0.72f, 0.29f), 0.69f),
+                OcrLine("npi", Box(0.14f, 0.17f, 0.24f, 0.25f), 0.38f),
+                OcrLine("3Hижка", Box(0.76f, 0.20f, 0.95f, 0.31f), 0.64f),
+                OcrLine("АТБ", Box(0.38f, 0.25f, 0.48f, 0.34f), 0.44f),
+                OcrLine("додатка", Box(0.17f, 0.26f, 0.38f, 0.34f), 1f),
+                OcrLine("85", Box(0.52f, 0.27f, 0.65f, 0.42f), 1f),
+                OcrLine("41", Box(0.64f, 0.28f, 0.71f, 0.42f), 0.78f),
+                OcrLine("129", Box(0.76f, 0.28f, 0.89f, 0.43f), 0.86f),
+                OcrLine("%", Box(0.86f, 0.31f, 0.93f, 0.43f), 1f),
+                OcrLine("kaci", Box(0.30f, 0.33f, 0.41f, 0.42f), 0.63f),
+                OcrLine("Баклажани", Box(0.25f, 0.51f, 0.58f, 0.64f), 0.99f),
+                OcrLine("108", Box(0.68f, 0.54f, 0.89f, 0.70f), 1f),
+                OcrLine("80", Box(0.88f, 0.54f, 0.95f, 0.63f), 0.87f),
+                OcrLine("\"Bepec\"", Box(0.30f, 0.61f, 0.53f, 0.76f), 0.8f),
+                OcrLine("рпн", Box(0.89f, 0.62f, 0.94f, 0.66f), 0.5f),
+                OcrLine("94", Box(0.69f, 0.73f, 0.84f, 0.92f), 1f),
+                OcrLine("90", Box(0.81f, 0.74f, 0.89f, 0.90f), 0.74f),
+                OcrLine("аджиці", Box(0.33f, 0.74f, 0.53f, 0.85f), 0.92f),
+                OcrLine("440r", Box(0.82f, 0.87f, 0.89f, 0.92f), 0.89f),
+            ),
+        ).tagOrNull()
+
+        assertEquals(Money.of(94, 90, "UAH"), tag?.price?.value)
+        assertEquals(Money.of(85, 41, "UAH"), tag?.loyaltyPrice?.value)
+        assertEquals(Money.of(108, 80, "UAH"), tag?.oldPrice?.value)
+        assertEquals("Баклажани \"Bepec\" аджиці", tag?.name?.value)
+    }
+
+    /** White tag with a card block: "Ціна при оплаті карткою АТБ -5%" read as broken pieces. */
+    @Test
+    fun `card price block on a white tag is not the shelf price`() {
+        val tag = uk.parse(
+            listOf(
+                OcrLine("Ціна при", Box(0.09f, 0.10f, 0.32f, 0.21f), 0.96f),
+                OcrLine("48", Box(0.56f, 0.12f, 0.75f, 0.36f), 1f),
+                OcrLine("59", Box(0.75f, 0.12f, 0.83f, 0.26f), 1f),
+                OcrLine("oП", Box(0.31f, 0.13f, 0.43f, 0.20f), 0.27f),
+                OcrLine("карткою", Box(0.13f, 0.18f, 0.35f, 0.28f), 0.98f),
+                OcrLine("ATB", Box(0.35f, 0.19f, 0.45f, 0.26f), 0.52f),
+                OcrLine("ррн", Box(0.76f, 0.23f, 0.82f, 0.30f), 0.66f),
+                OcrLine("-5", Box(0.23f, 0.25f, 0.31f, 0.38f), 0.99f),
+                OcrLine("%", Box(0.30f, 0.28f, 0.35f, 0.36f), 1f),
+                OcrLine("Трубочки", Box(0.11f, 0.37f, 0.34f, 0.49f), 0.98f),
+                OcrLine("мультизлакові", Box(0.17f, 0.46f, 0.52f, 0.58f), 0.96f),
+                OcrLine("51", Box(0.64f, 0.49f, 0.78f, 0.70f), 1f),
+                OcrLine("20", Box(0.77f, 0.51f, 0.85f, 0.62f), 0.99f),
+                OcrLine("ррн", Box(0.77f, 0.59f, 0.84f, 0.66f), 0.48f),
+                OcrLine("160р", Box(0.78f, 0.63f, 0.84f, 0.69f), 0.8f),
+            ),
+        ).tagOrNull()
+
+        assertEquals(Money.of(51, 20, "UAH"), tag?.price?.value)
+        assertEquals(Money.of(48, 59, "UAH"), tag?.loyaltyPrice?.value)
+        assertNull(tag?.oldPrice)
+        assertEquals("Трубочки мультизлакові", tag?.name?.value)
+    }
+
+    /** "20ф/пх1,7г": twenty filter bags of 1.7 g each, read by OCR as "20φ/nx1,7r". */
+    @Test
+    fun `tea bag count glued to the bag weight multiplies out`() {
+        val tag = uk.parse(
+            listOf(
+                line("Чай чорний", 0.10f, 0.10f, right = 0.50f),
+                OcrLine("51", Box(0.40f, 0.60f, 0.62f, 0.85f), 1f),
+                OcrLine("90", Box(0.62f, 0.62f, 0.72f, 0.74f), 1f),
+                OcrLine("20φ/nx1,7r", Box(0.62f, 0.86f, 0.80f, 0.92f), 0.8f),
+            ),
+        ).tagOrNull()
+
+        assertEquals(Quantity(34.0, MeasureUnit.GRAM), tag?.quantity?.value)
+    }
+
+    /** "грн /" and "1 л" split over lines with the "1" lost: a litre on its own is not goods sold by weight. */
+    @Test
+    fun `bare volume unit under the currency is not weighted goods`() {
+        val tag = uk.parse(
+            listOf(
+                line("Нектар", 0.40f, 0.11f, left = 0.37f, right = 0.57f),
+                OcrLine("52", Box(0.70f, 0.51f, 0.83f, 0.67f), 1f),
+                OcrLine("50", Box(0.81f, 0.53f, 0.88f, 0.61f), 1f),
+                OcrLine("ррн /", Box(0.82f, 0.60f, 0.87f, 0.65f), 0.62f),
+                OcrLine("л", Box(0.83f, 0.65f, 0.86f, 0.68f), 0.6f),
+            ),
+        ).tagOrNull()
+
+        assertEquals(Quantity(1.0, MeasureUnit.LITRE), tag?.quantity?.value)
+        assertEquals(false, tag?.isWeighted)
+    }
+
+    /** The detector cuts one printed line into pieces; a name reads left to right within a row. */
+    @Test
+    fun `name pieces on one row read left to right`() {
+        val tag = uk.parse(
+            listOf(
+                OcrLine("лінія\"", Box(0.47f, 0.47f, 0.61f, 0.56f), 0.84f),
+                OcrLine("Чай", Box(0.23f, 0.47f, 0.33f, 0.56f), 0.99f),
+                OcrLine("\"Своя", Box(0.34f, 0.47f, 0.48f, 0.56f), 0.96f),
+                OcrLine("Pie,", Box(0.47f, 0.55f, 0.56f, 0.65f), 0.99f),
+                OcrLine("Garden", Box(0.29f, 0.55f, 0.47f, 0.64f), 1f),
+                OcrLine("62", Box(0.70f, 0.58f, 0.84f, 0.76f), 1f),
+                OcrLine("90", Box(0.83f, 0.60f, 0.89f, 0.68f), 1f),
+                OcrLine("зелений", Box(0.32f, 0.64f, 0.53f, 0.74f), 0.99f),
+                OcrLine("80г", Box(0.83f, 0.71f, 0.88f, 0.77f), 0.54f),
+            ),
+        ).tagOrNull()
+
+        assertEquals("Чай \"Своя лінія\" Garden Pie, зелений", tag?.name?.value)
+    }
+
     private fun ParseResult.tagOrNull() = when (this) {
         is ParseResult.Success -> tag
         is ParseResult.NeedsInput -> tag

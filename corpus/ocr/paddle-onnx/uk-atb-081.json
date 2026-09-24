@@ -1,0 +1,192 @@
+[
+    {
+        "text": "ЦИНА",
+        "box": {
+            "left": 0.5581,
+            "top": 0.14,
+            "right": 0.7168,
+            "bottom": 0.252
+        },
+        "confidence": 0.6811
+    },
+    {
+        "text": "скануванні",
+        "box": {
+            "left": 0.2666,
+            "top": 0.1487,
+            "right": 0.5342,
+            "bottom": 0.2371
+        },
+        "confidence": 0.9637
+    },
+    {
+        "text": "npn",
+        "box": {
+            "left": 0.1719,
+            "top": 0.154,
+            "right": 0.272,
+            "bottom": 0.2371
+        },
+        "confidence": 0.3897
+    },
+    {
+        "text": "3Hижka",
+        "box": {
+            "left": 0.7593,
+            "top": 0.1802,
+            "right": 0.9365,
+            "bottom": 0.259
+        },
+        "confidence": 0.52
+    },
+    {
+        "text": "ATB",
+        "box": {
+            "left": 0.4009,
+            "top": 0.2222,
+            "right": 0.4946,
+            "bottom": 0.3123
+        },
+        "confidence": 0.5337
+    },
+    {
+        "text": "додатка",
+        "box": {
+            "left": 0.1958,
+            "top": 0.224,
+            "right": 0.3989,
+            "bottom": 0.329
+        },
+        "confidence": 0.9945
+    },
+    {
+        "text": "130",
+        "box": {
+            "left": 0.4834,
+            "top": 0.2257,
+            "right": 0.6626,
+            "bottom": 0.392
+        },
+        "confidence": 0.9991
+    },
+    {
+        "text": "10",
+        "box": {
+            "left": 0.7593,
+            "top": 0.2537,
+            "right": 0.877,
+            "bottom": 0.4024
+        },
+        "confidence": 0.9984
+    },
+    {
+        "text": "%",
+        "box": {
+            "left": 0.8657,
+            "top": 0.2852,
+            "right": 0.9248,
+            "bottom": 0.3736
+        },
+        "confidence": 0.9986
+    },
+    {
+        "text": "kaci",
+        "box": {
+            "left": 0.3262,
+            "top": 0.3036,
+            "right": 0.4312,
+            "bottom": 0.392
+        },
+        "confidence": 0.6857
+    },
+    {
+        "text": "нa",
+        "box": {
+            "left": 0.2666,
+            "top": 0.3202,
+            "right": 0.3291,
+            "bottom": 0.3841
+        },
+        "confidence": 0.4911
+    },
+    {
+        "text": "8",
+        "box": {
+            "left": 0.105,
+            "top": 0.3421,
+            "right": 0.1387,
+            "bottom": 0.5311
+        },
+        "confidence": 0.3611
+    },
+    {
+        "text": "N",
+        "box": {
+            "left": 0.3237,
+            "top": 0.3438,
+            "right": 0.3345,
+            "bottom": 0.364
+        },
+        "confidence": 0.1329
+    },
+    {
+        "text": "Огірки",
+        "box": {
+            "left": 0.3335,
+            "top": 0.4856,
+            "right": 0.5332,
+            "bottom": 0.6177
+        },
+        "confidence": 0.9169
+    },
+    {
+        "text": "2",
+        "box": {
+            "left": 0.1636,
+            "top": 0.5127,
+            "right": 0.1958,
+            "bottom": 0.6264
+        },
+        "confidence": 0.9554
+    },
+    {
+        "text": "14420",
+        "box": {
+            "left": 0.6729,
+            "top": 0.5276,
+            "right": 0.9561,
+            "bottom": 0.8031
+        },
+        "confidence": 0.826
+    },
+    {
+        "text": "мариновані",
+        "box": {
+            "left": 0.2627,
+            "top": 0.5976,
+            "right": 0.6011,
+            "bottom": 0.7165
+        },
+        "confidence": 0.9012
+    },
+    {
+        "text": "\"Urbanek\"",
+        "box": {
+            "left": 0.2876,
+            "top": 0.6859,
+            "right": 0.5762,
+            "bottom": 0.8066
+        },
+        "confidence": 0.9934
+    },
+    {
+        "text": "5",
+        "box": {
+            "left": 0.1104,
+            "top": 0.8583,
+            "right": 0.127,
+            "bottom": 0.8766
+        },
+        "confidence": 0.1291
+    }
+]

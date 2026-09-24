@@ -11,6 +11,7 @@ import io.github.zhora87.bezmen.domain.parser.PriceTagParser
 import kotlinx.serialization.Serializable
 import kotlinx.serialization.builtins.ListSerializer
 import kotlinx.serialization.json.Json
+import kotlinx.serialization.json.jsonObject
 import java.io.File
 import java.util.Locale
 import kotlin.math.abs
@@ -22,6 +23,8 @@ data class ExpectedTag(
     val pack: String,
     val price: Money? = null,
     val oldPrice: Money? = null,
+    /** Card or app price; only checked when the key is present in the file (null there means "no such block"). */
+    val loyaltyPrice: Money? = null,
     val quantity: Quantity? = null,
     val isWeighted: Boolean = false,
     val note: String = "",
@@ -45,11 +48,13 @@ data class CaseResult(
     val priceOk: Boolean,
     val quantityOk: Boolean,
     val weightedOk: Boolean,
+    /** Null when the expected file does not say anything about a card price. */
+    val loyaltyOk: Boolean?,
     val kind: String,
     /** "got ... / expected ..." for the report. */
     val detail: String,
 ) {
-    val allOk: Boolean get() = priceOk && quantityOk && weightedOk
+    val allOk: Boolean get() = priceOk && quantityOk && weightedOk && loyaltyOk != false
 }
 
 class UsageError(message: String) : IllegalArgumentException(message)
@@ -156,14 +161,16 @@ private fun runCorpus(options: Options): List<CaseResult> {
             System.err.println("skip $id: no OCR dump at $ocrFile")
             return@mapNotNull null
         }
-        val expected = json.decodeFromString(ExpectedTag.serializer(), file.readText())
+        val text = file.readText()
+        val expected = json.decodeFromString(ExpectedTag.serializer(), text)
+        val checksLoyalty = "loyaltyPrice" in json.parseToJsonElement(text).jsonObject
         if (expected.pending) {
             System.err.println("skip $id: expected values still pending")
             return@mapNotNull null
         }
         val parser = parsers.getOrPut(expected.pack) { PriceTagParser(loadPack(expected.pack, options.packsDir)) }
         val lines = json.decodeFromString(ListSerializer(OcrLine.serializer()), ocrFile.readText())
-        compare(id, expected, parser.parse(lines))
+        compare(id, expected, checksLoyalty, parser.parse(lines))
     }
 }
 
@@ -205,6 +212,7 @@ private fun ParsedTag.pretty(): String = buildString {
     }
     row("price", price) { it.format() }
     row("old", oldPrice) { it.format() }
+    row("card", loyaltyPrice) { it.format() }
     row("quantity", quantity) { "${it.value} ${it.unit.code}" }
     row("printedUnitPrice", printedUnitPrice) { "%.4f minor per base".format(Locale.ROOT, it.minorPerBaseUnit) }
     row("name", name) { it }
@@ -224,7 +232,7 @@ private fun loadPack(id: String, packsDir: File?): LocalePack {
     }
 }
 
-private fun compare(id: String, expected: ExpectedTag, result: ParseResult): CaseResult {
+private fun compare(id: String, expected: ExpectedTag, checksLoyalty: Boolean, result: ParseResult): CaseResult {
     val tag = when (result) {
         is ParseResult.Success -> result.tag
         is ParseResult.NeedsInput -> result.tag
@@ -233,9 +241,13 @@ private fun compare(id: String, expected: ExpectedTag, result: ParseResult): Cas
     val priceOk = tag?.price?.value == expected.price
     val quantityOk = sameQuantity(tag?.quantity?.value, expected.quantity)
     val weightedOk = (tag?.isWeighted ?: false) == expected.isWeighted
-    val detail = "got ${describe(tag?.price?.value, tag?.oldPrice?.value, tag?.quantity?.value)} / " +
-        "expected ${describe(expected.price, expected.oldPrice, expected.quantity)}"
-    return CaseResult(id, expected.pack, priceOk, quantityOk, weightedOk, result::class.simpleName ?: "?", detail)
+    val loyaltyOk = if (checksLoyalty) tag?.loyaltyPrice?.value == expected.loyaltyPrice else null
+    val card = { m: Money? -> m?.let { " card ${it.format()}" }.orEmpty() }
+    val detail = "got ${describe(tag?.price?.value, tag?.oldPrice?.value, tag?.quantity?.value)}" +
+        "${card(tag?.loyaltyPrice?.value)} / expected " +
+        "${describe(expected.price, expected.oldPrice, expected.quantity)}${card(expected.loyaltyPrice)}"
+    val kind = result::class.simpleName ?: "?"
+    return CaseResult(id, expected.pack, priceOk, quantityOk, weightedOk, loyaltyOk, kind, detail)
 }
 
 private fun describe(price: Money?, old: Money?, quantity: Quantity?): String {
@@ -253,17 +265,22 @@ private fun sameQuantity(actual: Quantity?, expected: Quantity?): Boolean {
 
 private fun printReport(results: List<CaseResult>, verbose: Boolean) {
     results.filter { verbose || !it.allOk }.forEach { r ->
-        val marks = listOf("price" to r.priceOk, "quantity" to r.quantityOk, "weighted" to r.weightedOk)
-            .joinToString(" ") { (name, ok) -> if (ok) "$name:ok" else "$name:FAIL" }
+        val checks = listOf("price" to r.priceOk, "quantity" to r.quantityOk, "weighted" to r.weightedOk) +
+            listOfNotNull(r.loyaltyOk?.let { "card" to it })
+        val marks = checks.joinToString(" ") { (name, ok) -> if (ok) "$name:ok" else "$name:FAIL" }
         val detail = if (r.allOk) "" else "  ${r.detail}"
         println("${if (r.allOk) "ok  " else "FAIL"} ${r.id} [${r.pack}] ${r.kind} $marks$detail")
     }
     println()
-    println("pack        cases  price   quantity  all")
+    println("pack        cases  price   quantity  card        all")
     (results.groupBy { it.pack } + ("TOTAL" to results)).forEach { (pack, rs) ->
         val price = rs.count { it.priceOk } * PERCENT / rs.size
         val quantity = rs.count { it.quantityOk } * PERCENT / rs.size
         val all = rs.count { it.allOk } * PERCENT / rs.size
-        println("%-11s %5d  %5.1f%%  %6.1f%%  %5.1f%%".format(Locale.ROOT, pack, rs.size, price, quantity, all))
+        val checked = rs.mapNotNull { it.loyaltyOk }
+        val passed = checked.count { it }
+        val card = if (checked.isEmpty()) "     -    " else "%3d/%-3d".format(Locale.ROOT, passed, checked.size)
+        val row = "%-11s %5d  %5.1f%%  %6.1f%%  %-10s  %5.1f%%"
+        println(row.format(Locale.ROOT, pack, rs.size, price, quantity, card, all))
     }
 }

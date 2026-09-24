@@ -27,9 +27,11 @@ import androidx.compose.ui.unit.dp
 import io.github.zhora87.bezmen.domain.parser.FieldKind
 import io.github.zhora87.bezmen.ui.resources.Res
 import io.github.zhora87.bezmen.ui.resources.action_retake
+import io.github.zhora87.bezmen.ui.resources.field_card_price
 import io.github.zhora87.bezmen.ui.resources.field_name
 import io.github.zhora87.bezmen.ui.resources.field_price
 import io.github.zhora87.bezmen.ui.resources.field_quantity
+import io.github.zhora87.bezmen.ui.resources.result_card_price
 import io.github.zhora87.bezmen.ui.resources.result_check
 import io.github.zhora87.bezmen.ui.resources.result_need_price
 import io.github.zhora87.bezmen.ui.resources.result_need_quantity
@@ -71,6 +73,17 @@ private fun UnitPriceHeader(draft: TagDraft, currencySymbol: String) {
         Text(shown.amount.withSymbol(currencySymbol), style = MaterialTheme.typography.displayMedium)
         Text(perReference(shown.reference), style = MaterialTheme.typography.titleLarge)
     }
+    draft.displayCardPrice()?.let { card ->
+        Text(
+            stringResource(
+                Res.string.result_card_price,
+                card.amount.withSymbol(currencySymbol),
+                perReference(card.reference),
+            ),
+            style = MaterialTheme.typography.titleMedium,
+            color = MaterialTheme.colorScheme.primary,
+        )
+    }
     if (draft.isWeighted) {
         Text(
             stringResource(
@@ -111,6 +124,17 @@ private fun Fields(draft: TagDraft, currencySymbol: String, onEdit: (TagDraft) -
         singleLine = true,
         modifier = Modifier.fillMaxWidth(),
     )
+    if (draft.cardPriceText.isNotEmpty()) {
+        OutlinedTextField(
+            value = draft.cardPriceText,
+            onValueChange = { onEdit(draft.copy(cardPriceText = it)) },
+            label = { Text(stringResource(Res.string.field_card_price)) },
+            suffix = { Text(currencySymbol) },
+            keyboardOptions = KeyboardOptions(keyboardType = KeyboardType.Decimal),
+            singleLine = true,
+            modifier = Modifier.fillMaxWidth(),
+        )
+    }
     OutlinedTextField(
         value = draft.quantityText,
         onValueChange = { onEdit(draft.copy(quantityText = it)) },

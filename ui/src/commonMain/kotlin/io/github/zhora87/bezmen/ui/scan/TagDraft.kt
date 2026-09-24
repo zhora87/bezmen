@@ -25,6 +25,8 @@ data class TagDraft(
     val isWeighted: Boolean,
     /** The parser was unsure; the card highlights the fields and asks to check them. */
     val needsCheck: Boolean,
+    /** Price with the store's card or app, empty when the tag has none. */
+    val cardPriceText: String = "",
 ) {
     val price: Money? get() = MoneyInput.parse(priceText, currency)
     val quantity: Quantity? get() = QuantityInput.parse(quantityText, unit)
@@ -35,9 +37,16 @@ data class TagDraft(
             if (quantity == null) add(FieldKind.QUANTITY)
         }
 
+    val cardPrice: Money? get() = MoneyInput.parse(cardPriceText, currency)
+
     /** Per 100 g, 100 ml or 1 piece; weighted goods keep the reference printed on the tag. */
-    fun displayPrice(): DisplayPrice? {
-        val p = price ?: return null
+    fun displayPrice(): DisplayPrice? = display(price)
+
+    /** The same for the card price, with the same quantity. */
+    fun displayCardPrice(): DisplayPrice? = display(cardPrice)
+
+    private fun display(amount: Money?): DisplayPrice? {
+        val p = amount ?: return null
         val q = quantity ?: return null
         if (isWeighted) return DisplayPrice(p, q)
         val reference = References.defaultFor(q.dimension)
@@ -61,6 +70,7 @@ data class TagDraft(
                 oldPrice = tag?.oldPrice?.value,
                 isWeighted = tag?.isWeighted ?: false,
                 needsCheck = !confident,
+                cardPriceText = tag?.loyaltyPrice?.value?.format().orEmpty(),
             )
         }
     }

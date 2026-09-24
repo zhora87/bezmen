@@ -37,7 +37,7 @@ class PriceTagParserTest {
         assertEquals(Money.of(249, 90, "RUB"), result.tag.price?.value)
         assertEquals(Quantity(900.0, MeasureUnit.MILLILITRE), result.tag.quantity?.value)
         assertEquals(Money.of(27, 77, "RUB"), result.unitPrice.per(References.PER_100_ML))
-        assertEquals("Молоко Простоквашино 2.5%", result.tag.name?.value)
+        assertEquals("Молоко Простоквашино 2,5%", result.tag.name?.value)
         assertFalse(result.tag.isWeighted)
         assertNull(result.tag.oldPrice)
         assertTrue(result.overall >= ParseResult.CONFIRM_THRESHOLD, "overall=${result.overall}")
@@ -170,7 +170,7 @@ class PriceTagParserTest {
     }
 
     @Test
-    fun `loyalty card price becomes an alternative`() {
+    fun `loyalty card price is reported separately from the shelf price`() {
         val result = parse(
             ru,
             line("Пельмени 800 г", 0.05f, 0.1f),
@@ -179,7 +179,8 @@ class PriceTagParserTest {
         )
 
         assertEquals(Money.of(249, 90, "RUB"), result.tag.price?.value)
-        assertEquals(listOf(Money.of(199, 90, "RUB")), result.tag.price?.alternatives)
+        assertEquals(Money.of(199, 90, "RUB"), result.tag.loyaltyPrice?.value)
+        assertEquals(emptyList(), result.tag.price?.alternatives)
     }
 
     @Test
@@ -268,7 +269,7 @@ class PriceTagParserTest {
 
         assertEquals(Money.of(323, 0, "UAH"), result.tag.price?.value)
         assertEquals(Money.of(461, 40, "UAH"), result.tag.oldPrice?.value)
-        assertEquals(listOf(Money.of(290, 70, "UAH")), result.tag.price?.alternatives)
+        assertEquals(Money.of(290, 70, "UAH"), result.tag.loyaltyPrice?.value)
         assertEquals(Quantity(1.0, MeasureUnit.PIECE), result.tag.quantity?.value)
     }
 

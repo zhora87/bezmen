@@ -1,0 +1,192 @@
+[
+  {
+    "text": "ЦИHA",
+    "box": {
+      "left": 0.5302,
+      "top": 0.058,
+      "right": 0.6794,
+      "bottom": 0.1786
+    },
+    "confidence": 0.584
+  },
+  {
+    "text": "3Hижкa",
+    "box": {
+      "left": 0.7298,
+      "top": 0.0625,
+      "right": 0.9083,
+      "bottom": 0.1696
+    },
+    "confidence": 0.5547
+  },
+  {
+    "text": "при скануванни",
+    "box": {
+      "left": 0.129,
+      "top": 0.0705,
+      "right": 0.5055,
+      "bottom": 0.2205
+    },
+    "confidence": 0.9178
+  },
+  {
+    "text": "1",
+    "box": {
+      "left": 0.6149,
+      "top": 0.1464,
+      "right": 0.692,
+      "bottom": 0.3089
+    },
+    "confidence": 0.685
+  },
+  {
+    "text": "17%",
+    "box": {
+      "left": 0.7359,
+      "top": 0.1464,
+      "right": 0.8931,
+      "bottom": 0.2804
+    },
+    "confidence": 0.997
+  },
+  {
+    "text": "додатка АТБ",
+    "box": {
+      "left": 0.1648,
+      "top": 0.1536,
+      "right": 0.4662,
+      "bottom": 0.2866
+    },
+    "confidence": 0.9692
+  },
+  {
+    "text": "28",
+    "box": {
+      "left": 0.5,
+      "top": 0.1536,
+      "right": 0.6341,
+      "bottom": 0.3196
+    },
+    "confidence": 0.9996
+  },
+  {
+    "text": "на касі",
+    "box": {
+      "left": 0.2354,
+      "top": 0.2482,
+      "right": 0.4027,
+      "bottom": 0.3429
+    },
+    "confidence": 0.6966
+  },
+  {
+    "text": "37",
+    "box": {
+      "left": 0.6673,
+      "top": 0.3759,
+      "right": 0.8463,
+      "bottom": 0.567
+    },
+    "confidence": 0.9978
+  },
+  {
+    "text": "UА Чай трав'яний",
+    "box": {
+      "left": 0.2061,
+      "top": 0.3839,
+      "right": 0.6184,
+      "bottom": 0.5232
+    },
+    "confidence": 0.7814
+  },
+  {
+    "text": "4.14.2",
+    "box": {
+      "left": 0.1512,
+      "top": 0.4482,
+      "right": 0.185,
+      "bottom": 0.5741
+    },
+    "confidence": 0.9573
+  },
+  {
+    "text": "\"Поліський чай\"",
+    "box": {
+      "left": 0.2273,
+      "top": 0.4723,
+      "right": 0.6033,
+      "bottom": 0.5938
+    },
+    "confidence": 0.9561
+  },
+  {
+    "text": "Мудрість природи",
+    "box": {
+      "left": 0.2218,
+      "top": 0.5687,
+      "right": 0.6179,
+      "bottom": 0.6848
+    },
+    "confidence": 0.988
+  },
+  {
+    "text": "31",
+    "box": {
+      "left": 0.6497,
+      "top": 0.5687,
+      "right": 0.7833,
+      "bottom": 0.7607
+    },
+    "confidence": 0.9998
+  },
+  {
+    "text": "30",
+    "box": {
+      "left": 0.8004,
+      "top": 0.575,
+      "right": 0.8745,
+      "bottom": 0.6795
+    },
+    "confidence": 0.9437
+  },
+  {
+    "text": "Код142180",
+    "box": {
+      "left": 0.1568,
+      "top": 0.5857,
+      "right": 0.2046,
+      "bottom": 0.817
+    },
+    "confidence": 0.846
+  },
+  {
+    "text": "М'ята та чебрець",
+    "box": {
+      "left": 0.2404,
+      "top": 0.6455,
+      "right": 0.6013,
+      "bottom": 0.7518
+    },
+    "confidence": 0.9553
+  },
+  {
+    "text": "22.09.26",
+    "box": {
+      "left": 0.1421,
+      "top": 0.658,
+      "right": 0.1754,
+      "bottom": 0.8134
+    },
+    "confidence": 0.9987
+  },
+  {
+    "text": "20φ/nx1.5r",
+    "box": {
+      "left": 0.7787,
+      "top": 0.692,
+      "right": 0.8972,
+      "bottom": 0.7455
+    },
+    "confidence": 0.8863
+  }
+]

@@ -1,0 +1,92 @@
+[
+  {
+    "text": "950мл/mle",
+    "box": {
+      "left": 0.557,
+      "top": 0.0045,
+      "right": 0.7863,
+      "bottom": 0.0991
+    },
+    "confidence": 0.8173
+  },
+  {
+    "text": "11740",
+    "box": {
+      "left": 0.437,
+      "top": 0.2411,
+      "right": 0.9259,
+      "bottom": 0.6545
+    },
+    "confidence": 0.9453
+  },
+  {
+    "text": "Hekta",
+    "box": {
+      "left": 0.1366,
+      "top": 0.3018,
+      "right": 0.318,
+      "bottom": 0.4214
+    },
+    "confidence": 0.7784
+  },
+  {
+    "text": "\"Jaffa\"",
+    "box": {
+      "left": 0.1502,
+      "top": 0.408,
+      "right": 0.3337,
+      "bottom": 0.5223
+    },
+    "confidence": 0.9907
+  },
+  {
+    "text": "Апельсин",
+    "box": {
+      "left": 0.1053,
+      "top": 0.5062,
+      "right": 0.379,
+      "bottom": 0.6357
+    },
+    "confidence": 0.9863
+  },
+  {
+    "text": "0,95л",
+    "box": {
+      "left": 0.7787,
+      "top": 0.5357,
+      "right": 0.8599,
+      "bottom": 0.592
+    },
+    "confidence": 0.8258
+  },
+  {
+    "text": "15.09.26 КОд:160",
+    "box": {
+      "left": 0.0383,
+      "top": 0.8482,
+      "right": 0.244,
+      "bottom": 0.9071
+    },
+    "confidence": 0.901
+  },
+  {
+    "text": "12.3",
+    "box": {
+      "left": 0.2989,
+      "top": 0.858,
+      "right": 0.3543,
+      "bottom": 0.9071
+    },
+    "confidence": 0.9558
+  },
+  {
+    "text": "4 820003\"689721",
+    "box": {
+      "left": 0.5595,
+      "top": 0.8714,
+      "right": 0.8503,
+      "bottom": 0.9411
+    },
+    "confidence": 0.9642
+  }
+]

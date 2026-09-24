@@ -1,0 +1,142 @@
+[
+  {
+    "text": "при скануванні",
+    "box": {
+      "left": 0.131,
+      "top": 0.1625,
+      "right": 0.5242,
+      "bottom": 0.2759
+    },
+    "confidence": 0.9425
+  },
+  {
+    "text": "ЦИHA",
+    "box": {
+      "left": 0.5544,
+      "top": 0.1652,
+      "right": 0.7177,
+      "bottom": 0.2884
+    },
+    "confidence": 0.5558
+  },
+  {
+    "text": "3Hижka",
+    "box": {
+      "left": 0.7631,
+      "top": 0.2009,
+      "right": 0.9501,
+      "bottom": 0.3125
+    },
+    "confidence": 0.5504
+  },
+  {
+    "text": "додатка АТБ",
+    "box": {
+      "left": 0.1648,
+      "top": 0.2482,
+      "right": 0.4803,
+      "bottom": 0.3438
+    },
+    "confidence": 0.9537
+  },
+  {
+    "text": "85",
+    "box": {
+      "left": 0.5171,
+      "top": 0.2652,
+      "right": 0.6507,
+      "bottom": 0.4277
+    },
+    "confidence": 0.9999
+  },
+  {
+    "text": "41",
+    "box": {
+      "left": 0.6391,
+      "top": 0.2705,
+      "right": 0.7172,
+      "bottom": 0.4348
+    },
+    "confidence": 0.6891
+  },
+  {
+    "text": "12%",
+    "box": {
+      "left": 0.7656,
+      "top": 0.2884,
+      "right": 0.9299,
+      "bottom": 0.4312
+    },
+    "confidence": 0.9988
+  },
+  {
+    "text": "на касі",
+    "box": {
+      "left": 0.2364,
+      "top": 0.3348,
+      "right": 0.4113,
+      "bottom": 0.417
+    },
+    "confidence": 0.6942
+  },
+  {
+    "text": "Баклажани",
+    "box": {
+      "left": 0.252,
+      "top": 0.5116,
+      "right": 0.5796,
+      "bottom": 0.6438
+    },
+    "confidence": 0.9906
+  },
+  {
+    "text": "108",
+    "box": {
+      "left": 0.6759,
+      "top": 0.5196,
+      "right": 0.9607,
+      "bottom": 0.7205
+    },
+    "confidence": 0.9943
+  },
+  {
+    "text": "7 3.42",
+    "box": {
+      "left": 0.1396,
+      "top": 0.5411,
+      "right": 0.1673,
+      "bottom": 0.6929
+    },
+    "confidence": 0.891
+  },
+  {
+    "text": "\"Bepec\"",
+    "box": {
+      "left": 0.2969,
+      "top": 0.6143,
+      "right": 0.5277,
+      "bottom": 0.758
+    },
+    "confidence": 0.906
+  },
+  {
+    "text": "9490",
+    "box": {
+      "left": 0.6835,
+      "top": 0.7161,
+      "right": 0.9032,
+      "bottom": 0.9268
+    },
+    "confidence": 0.9438
+  },
+  {
+    "text": "в аджиці",
+    "box": {
+      "left": 0.2949,
+      "top": 0.7348,
+      "right": 0.5287,
+      "bottom": 0.8473
+    },
+    "confidence": 0.8745
+  }
+]

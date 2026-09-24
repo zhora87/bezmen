@@ -20,6 +20,8 @@
     <string name="field_name">Название</string>
     <string name="field_price">Цена</string>
     <string name="field_quantity">Количество</string>
+    <string name="field_card_price">Цена с картой магазина</string>
+    <string name="result_card_price">С картой магазина: %1$s %2$s</string>
 
     <string name="permission_title">Нужна камера</string>
     <string name="permission_text">Безмен снимает ценник и считает цену за 100 г, 100 мл или штуку. Фото никуда не отправляются: распознавание работает на телефоне, у приложения нет доступа в интернет.</string>

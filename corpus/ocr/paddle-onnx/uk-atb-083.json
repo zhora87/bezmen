@@ -1,0 +1,112 @@
+[
+    {
+        "text": "950mл/mle",
+        "box": {
+            "left": 0.5562,
+            "top": 0.0017,
+            "right": 0.7856,
+            "bottom": 0.0989
+        },
+        "confidence": 0.825
+    },
+    {
+        "text": "117",
+        "box": {
+            "left": 0.4761,
+            "top": 0.2992,
+            "right": 0.7676,
+            "bottom": 0.5993
+        },
+        "confidence": 0.9997
+    },
+    {
+        "text": "Hekтa",
+        "box": {
+            "left": 0.1362,
+            "top": 0.3071,
+            "right": 0.3169,
+            "bottom": 0.4243
+        },
+        "confidence": 0.5747
+    },
+    {
+        "text": "40",
+        "box": {
+            "left": 0.7456,
+            "top": 0.3141,
+            "right": 0.8877,
+            "bottom": 0.5022
+        },
+        "confidence": 0.9989
+    },
+    {
+        "text": "\"Jaffa'",
+        "box": {
+            "left": 0.1479,
+            "top": 0.4059,
+            "right": 0.3169,
+            "bottom": 0.5258
+        },
+        "confidence": 0.8973
+    },
+    {
+        "text": "рпн",
+        "box": {
+            "left": 0.7769,
+            "top": 0.4794,
+            "right": 0.8623,
+            "bottom": 0.5477
+        },
+        "confidence": 0.6009
+    },
+    {
+        "text": "Апельсин",
+        "box": {
+            "left": 0.1064,
+            "top": 0.5188,
+            "right": 0.377,
+            "bottom": 0.6343
+        },
+        "confidence": 0.9959
+    },
+    {
+        "text": "0,95л",
+        "box": {
+            "left": 0.7769,
+            "top": 0.5311,
+            "right": 0.8613,
+            "bottom": 0.5941
+        },
+        "confidence": 0.9257
+    },
+    {
+        "text": "15.09.26 КОД:16",
+        "box": {
+            "left": 0.0396,
+            "top": 0.8495,
+            "right": 0.2666,
+            "bottom": 0.9064
+        },
+        "confidence": 0.9348
+    },
+    {
+        "text": "\"820003",
+        "box": {
+            "left": 0.5894,
+            "top": 0.8749,
+            "right": 0.7271,
+            "bottom": 0.9335
+        },
+        "confidence": 0.948
+    },
+    {
+        "text": "689721",
+        "box": {
+            "left": 0.7261,
+            "top": 0.8784,
+            "right": 0.853,
+            "bottom": 0.9396
+        },
+        "confidence": 0.9992
+    }
+]

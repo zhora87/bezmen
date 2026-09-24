@@ -1,0 +1,18 @@
+{
+  "pack": "uk",
+  "price": {
+    "minor": 5190,
+    "currency": "UAH"
+  },
+  "oldPrice": {
+    "minor": 7690,
+    "currency": "UAH"
+  },
+  "quantity": {
+    "value": 34.0,
+    "unit": "GRAM"
+  },
+  "isWeighted": false,
+  "loyaltyPrice": null,
+  "note": "АТБ 2026-09-24 in-app shot; orange: UA Чай чорний Tea Moments; 20ф/пх1,7г = 20 x 1.7 g; Знижка 32%"
+}

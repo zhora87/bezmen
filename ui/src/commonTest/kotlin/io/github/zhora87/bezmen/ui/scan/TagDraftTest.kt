@@ -102,4 +102,28 @@ class TagDraftTest {
         assertEquals(Money(3359, "UAH"), shown?.amount)
         assertEquals(Quantity(100.0, MeasureUnit.GRAM), shown?.reference)
     }
+
+    @Test
+    fun `card price gets its own unit price with the same quantity`() {
+        val tag = ParsedTag(
+            price = Field(Money.of(94, 90, "UAH"), 0.9f),
+            quantity = Field(Quantity(440.0, MeasureUnit.GRAM), 0.9f),
+            loyaltyPrice = Field(Money.of(85, 41, "UAH"), 0.8f),
+        )
+
+        val draft = TagDraft.from(success(tag, 0.9f), "UAH")
+
+        assertEquals("85,41", draft.cardPriceText)
+        assertEquals(Money(2157, "UAH"), draft.displayPrice()?.amount)
+        assertEquals(Money(1941, "UAH"), draft.displayCardPrice()?.amount)
+    }
+
+    @Test
+    fun `no card price, or an unreadable one, shows nothing extra`() {
+        val draft = TagDraft.from(success(milk, 0.9f), "UAH")
+
+        assertEquals("", draft.cardPriceText)
+        assertNull(draft.displayCardPrice())
+        assertNull(draft.copy(cardPriceText = "8541abc").displayCardPrice())
+    }
 }

@@ -1,0 +1,172 @@
+[
+  {
+    "text": "22.09.26",
+    "box": {
+      "left": 0.0237,
+      "top": 0.1571,
+      "right": 0.1361,
+      "bottom": 0.2143
+    },
+    "confidence": 0.9978
+  },
+  {
+    "text": "UА Чай чорний",
+    "box": {
+      "left": 0.3508,
+      "top": 0.1625,
+      "right": 0.8175,
+      "bottom": 0.3295
+    },
+    "confidence": 0.8086
+  },
+  {
+    "text": "Код; 173703",
+    "box": {
+      "left": 0.0262,
+      "top": 0.2062,
+      "right": 0.183,
+      "bottom": 0.2643
+    },
+    "confidence": 0.7819
+  },
+  {
+    "text": "3.22.1",
+    "box": {
+      "left": 0.0297,
+      "top": 0.2589,
+      "right": 0.1089,
+      "bottom": 0.3116
+    },
+    "confidence": 0.9983
+  },
+  {
+    "text": "\"Tea Moments\"",
+    "box": {
+      "left": 0.3629,
+      "top": 0.2768,
+      "right": 0.8014,
+      "bottom": 0.4116
+    },
+    "confidence": 0.9659
+  },
+  {
+    "text": "3нижка",
+    "box": {
+      "left": 0.06,
+      "top": 0.358,
+      "right": 0.2782,
+      "bottom": 0.4714
+    },
+    "confidence": 0.6776
+  },
+  {
+    "text": "Citrus Love,",
+    "box": {
+      "left": 0.4234,
+      "top": 0.383,
+      "right": 0.7354,
+      "bottom": 0.517
+    },
+    "confidence": 0.9963
+  },
+  {
+    "text": "32%",
+    "box": {
+      "left": 0.0806,
+      "top": 0.4482,
+      "right": 0.2873,
+      "bottom": 0.6188
+    },
+    "confidence": 0.995
+  },
+  {
+    "text": "Forest Fruit",
+    "box": {
+      "left": 0.4304,
+      "top": 0.492,
+      "right": 0.7288,
+      "bottom": 0.6071
+    },
+    "confidence": 0.9978
+  },
+  {
+    "text": "51",
+    "box": {
+      "left": 0.4133,
+      "top": 0.5732,
+      "right": 0.62,
+      "bottom": 0.8643
+    },
+    "confidence": 0.9998
+  },
+  {
+    "text": "HA",
+    "box": {
+      "left": 0.0,
+      "top": 0.5866,
+      "right": 0.0287,
+      "bottom": 0.6241
+    },
+    "confidence": 0.8993
+  },
+  {
+    "text": "90",
+    "box": {
+      "left": 0.6275,
+      "top": 0.6045,
+      "right": 0.7404,
+      "bottom": 0.7482
+    },
+    "confidence": 0.9995
+  },
+  {
+    "text": "769",
+    "box": {
+      "left": 0.0731,
+      "top": 0.6196,
+      "right": 0.3306,
+      "bottom": 0.8607
+    },
+    "confidence": 0.9507
+  },
+  {
+    "text": ", 3",
+    "box": {
+      "left": 0.0,
+      "top": 0.6375,
+      "right": 0.0312,
+      "bottom": 0.6652
+    },
+    "confidence": 0.5853
+  },
+  {
+    "text": "TEHA",
+    "box": {
+      "left": 0.0,
+      "top": 0.6634,
+      "right": 0.0307,
+      "bottom": 0.6884
+    },
+    "confidence": 0.6069
+  },
+  {
+    "text": "рpн/",
+    "box": {
+      "left": 0.6512,
+      "top": 0.7366,
+      "right": 0.7228,
+      "bottom": 0.7804
+    },
+    "confidence": 0.5396
+  },
+  {
+    "text": "20φ/nx1,7r",
+    "box": {
+      "left": 0.6099,
+      "top": 0.7777,
+      "right": 0.7545,
+      "bottom": 0.8321
+    },
+    "confidence": 0.8469
+  }
+]

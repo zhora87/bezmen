@@ -1,0 +1,252 @@
+[
+    {
+        "text": "Ціна при",
+        "box": {
+            "left": 0.0874,
+            "top": 0.1015,
+            "right": 0.3218,
+            "bottom": 0.21
+        },
+        "confidence": 0.9609
+    },
+    {
+        "text": "48",
+        "box": {
+            "left": 0.5605,
+            "top": 0.1234,
+            "right": 0.752,
+            "bottom": 0.364
+        },
+        "confidence": 0.9998
+    },
+    {
+        "text": "59",
+        "box": {
+            "left": 0.7471,
+            "top": 0.1234,
+            "right": 0.8345,
+            "bottom": 0.259
+        },
+        "confidence": 0.9997
+    },
+    {
+        "text": "oП",
+        "box": {
+            "left": 0.3125,
+            "top": 0.1269,
+            "right": 0.4272,
+            "bottom": 0.1951
+        },
+        "confidence": 0.2682
+    },
+    {
+        "text": "карткою",
+        "box": {
+            "left": 0.126,
+            "top": 0.1837,
+            "right": 0.3521,
+            "bottom": 0.2808
+        },
+        "confidence": 0.9831
+    },
+    {
+        "text": "ATB",
+        "box": {
+            "left": 0.3511,
+            "top": 0.1855,
+            "right": 0.4458,
+            "bottom": 0.2625
+        },
+        "confidence": 0.5246
+    },
+    {
+        "text": "ррн",
+        "box": {
+            "left": 0.7573,
+            "top": 0.2283,
+            "right": 0.8208,
+            "bottom": 0.3018
+        },
+        "confidence": 0.6587
+    },
+    {
+        "text": "-5",
+        "box": {
+            "left": 0.228,
+            "top": 0.2502,
+            "right": 0.3135,
+            "bottom": 0.3753
+        },
+        "confidence": 0.9909
+    },
+    {
+        "text": "%",
+        "box": {
+            "left": 0.3013,
+            "top": 0.2835,
+            "right": 0.3501,
+            "bottom": 0.3587
+        },
+        "confidence": 0.9999
+    },
+    {
+        "text": "\"Баm-Бuk\"",
+        "box": {
+            "left": 0.3428,
+            "top": 0.3692,
+            "right": 0.5811,
+            "bottom": 0.4724
+        },
+        "confidence": 0.6774
+    },
+    {
+        "text": "Трубочки",
+        "box": {
+            "left": 0.1104,
+            "top": 0.371,
+            "right": 0.3447,
+            "bottom": 0.4873
+        },
+        "confidence": 0.9777
+    },
+    {
+        "text": "мультизлакові",
+        "box": {
+            "left": 0.1675,
+            "top": 0.4611,
+            "right": 0.522,
+            "bottom": 0.5757
+        },
+        "confidence": 0.9583
+    },
+    {
+        "text": "51",
+        "box": {
+            "left": 0.6353,
+            "top": 0.4943,
+            "right": 0.7842,
+            "bottom": 0.6964
+        },
+        "confidence": 0.9982
+    },
+    {
+        "text": "20",
+        "box": {
+            "left": 0.772,
+            "top": 0.5092,
+            "right": 0.8467,
+            "bottom": 0.6229
+        },
+        "confidence": 0.9905
+    },
+    {
+        "text": "зryщeнoro",
+        "box": {
+            "left": 0.2813,
+            "top": 0.5608,
+            "right": 0.5186,
+            "bottom": 0.6509
+        },
+        "confidence": 0.683
+    },
+    {
+        "text": "cмak",
+        "box": {
+            "left": 0.1738,
+            "top": 0.5696,
+            "right": 0.2876,
+            "bottom": 0.643
+        },
+        "confidence": 0.5763
+    },
+    {
+        "text": "ррн",
+        "box": {
+            "left": 0.772,
+            "top": 0.5897,
+            "right": 0.8438,
+            "bottom": 0.6597
+        },
+        "confidence": 0.4779
+    },
+    {
+        "text": "160р",
+        "box": {
+            "left": 0.7783,
+            "top": 0.629,
+            "right": 0.8438,
+            "bottom": 0.6929
+        },
+        "confidence": 0.8016
+    },
+    {
+        "text": "молока",
+        "box": {
+            "left": 0.2637,
+            "top": 0.6448,
+            "right": 0.4321,
+            "bottom": 0.7297
+        },
+        "confidence": 0.977
+    },
+    {
+        "text": "фруктозі",
+        "box": {
+            "left": 0.2769,
+            "top": 0.7192,
+            "right": 0.48,
+            "bottom": 0.8364
+        },
+        "confidence": 0.9502
+    },
+    {
+        "text": "na",
+        "box": {
+            "left": 0.2207,
+            "top": 0.7393,
+            "right": 0.2803,
+            "bottom": 0.8163
+        },
+        "confidence": 0.5735
+    },
+    {
+        "text": "197281",
+        "box": {
+            "left": 0.251,
+            "top": 0.8233,
+            "right": 0.3384,
+            "bottom": 0.8845
+        },
+        "confidence": 0.9544
+    },
+    {
+        "text": "33",
+        "box": {
+            "left": 0.3638,
+            "top": 0.825,
+            "right": 0.4033,
+            "bottom": 0.8696
+        },
+        "confidence": 0.3577
+    },
+    {
+        "text": "01.00.28",
+        "box": {
+            "left": 0.104,
+            "top": 0.8268,
+            "right": 0.2021,
+            "bottom": 0.888
+        },
+        "confidence": 0.9543
+    },
+    {
+        "text": "Код:",
+        "box": {
+            "left": 0.2061,
+            "top": 0.8311,
+            "right": 0.2612,
+            "bottom": 0.8828
+        },
+        "confidence": 0.8014
+    }
+]

@@ -70,17 +70,22 @@ An `overall` below `ParseResult.CONFIRM_THRESHOLD` (0.75) means the UI shows the
    followed by `%` and numbers glued to a unit (`0,85л` on packaging behind the tag) are excluded,
    as is a lone 1..99 set at least as large as a discount word right above it (`Знижка` over a `10`
    that lost its `%`).
-7. **Current and old price.** Labels apply to a price when they share a line or overlap it
-   vertically. A price on an old-price label is the old price; a price on a loyalty label is an
-   alternative, not the current price. Without labels, two prices whose heights differ by more than
+7. **Current, old and card price.** Labels apply to a price when they share a line or overlap it
+   vertically. A price on an old-price label is the old price. A price on a loyalty label ("Ціна
+   при скануванні додатка АТБ", "Ціна при оплаті карткою") is reported as `loyaltyPrice`, never as
+   the current price, as long as the tag has a shelf price too. Kopecks next to such a price count
+   as kopecks when their digits are narrower than the major digits, even if the box also holds the
+   "грн" printed under them and is as tall. Without labels, two prices whose heights differ by more than
    30%, or any two prices when a discount marker (or a lone `-50%` / `29%`) is present, split into
    current (taller) and old (smaller). Two prices of similar height without a marker take the
    lower amount as current with reduced confidence.
 8. **Weighted goods.** A unit-price marker for 1 kg or 1 l and no package quantity: the price is per
    that reference and `isWeighted` is true.
-9. **Name.** The topmost wordy line in the upper part of the tag, joined with the wordy lines
-   directly beneath it in similar type. Marker and label lines are excluded; a quantity inside the
-   name line is cut out.
+9. **Name.** Pieces of text level with each other form a row, read left to right. The name is the
+   topmost wordy row in the upper part of the tag, joined with up to three rows directly beneath it
+   in similar type, taken as printed. Lines with more digits than letters, marker lines, rows made
+   only of the pack's `labelWords` or currency, text cut by the frame edge and anything inside the
+   card-price block are excluded; a quantity inside a name row is cut out.
 10. **Cross-check and derivation.** With price, quantity and a printed unit price, a mismatch above
     3% lowers `overall`. With price and printed unit price but no quantity, the quantity is derived
     (price ÷ unit price) at reduced confidence. With no price of its own, the marker's price is used
@@ -135,6 +140,7 @@ dimensions are not compared; such items are marked as not comparable in a compar
 | `discountMarkers`, `oldPriceMarkers`, `loyaltyMarkers` | promotion, crossed-out price and loyalty-card or app price labels |
 | `weightedMarkers` | phrases meaning the goods are sold by weight ("ваговий") |
 | `codeMarkers` | labels of article codes; nothing on such a line is a price or a quantity |
+| `labelWords` | service words printed on tags (price labels, the chain's name); a row made only of them is never the name |
 | `charFixes` | single-character look-alikes fixed inside numbers |
 
 Schema: `locale-packs/schema.json`. Every shipped pack is loaded and validated by a test.

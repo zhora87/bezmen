@@ -1,6 +1,7 @@
 package io.github.zhora87.bezmen.domain.parser
 
 import io.github.zhora87.bezmen.domain.Box
+import io.github.zhora87.bezmen.domain.Dimension
 import io.github.zhora87.bezmen.domain.LocalePack
 import io.github.zhora87.bezmen.domain.MeasureUnit
 import io.github.zhora87.bezmen.domain.Money
@@ -35,8 +36,10 @@ class PriceTagParser(private val pack: LocalePack) {
             Field(chosen.quantity, chosen.confidence, others, listOf(chosen.line))
         }
         val printed = markers.unitPrices.maxByOrNull { it.confidence }
-        val name = NameDetector.detect(ctx, markers, quantity)
-        val weightedByBareUnit = quantity != null && quantity.isBareUnit && quantity.quantity.isWholeUnit()
+        val name = NameDetector.detect(ctx, markers, quantity, prices.loyalty?.box)
+        // "грн/кг" means sold by weight; a bare litre or piece is just the package ("грн / 1 л" with the "1" lost).
+        val weightedByBareUnit = quantity != null && quantity.isBareUnit && quantity.quantity.isWholeUnit() &&
+            quantity.quantity.dimension == Dimension.MASS
         val weighted = markers.weightedByMarker || weightedByBareUnit
         return Assembler(prices, quantityField, printed, markers.weightedReference, name, weighted).assemble()
     }
@@ -49,6 +52,8 @@ private class PriceSelector(private val ctx: TagContext, private val flags: List
         val old: MoneyCandidate?,
         val alternatives: List<Money>,
         val confidenceFactor: Float,
+        /** The price inside a loyalty-card or app label, when the tag also has a shelf price. */
+        val loyalty: MoneyCandidate? = null,
     )
 
     fun select(moneys: List<MoneyCandidate>): Prices {
@@ -85,9 +90,10 @@ private class PriceSelector(private val ctx: TagContext, private val flags: List
         if (oldPrice != null && oldPrice.money.minor > current.money.minor * MAX_OLD_PRICE_RATIO) {
             oldPrice = null // a barcode fragment or a code, not a former price
         }
-        val taken = setOf(current.money, oldPrice?.money)
+        val cardPrice = if (regular.isNotEmpty()) loyalty.maxByOrNull(::score) else null
+        val taken = setOf(current.money, oldPrice?.money, cardPrice?.money)
         val alternatives = (pool + loyalty).map { it.money }.filter { it !in taken }.distinct()
-        return Prices(current, oldPrice, alternatives, factor)
+        return Prices(current, oldPrice, alternatives, factor, cardPrice)
     }
 
     /** A label flags a price when they share a line or overlap vertically (label to the left of the price). */
@@ -133,25 +139,61 @@ private object NameDetector {
     private const val GAP_FACTOR = 0.6f
     private const val HEIGHT_RATIO = 1.5f
     private const val EDGE = 0.005f
+    private const val BLOCK_OVERLAP = 0.25f
+    private const val ROW_OVERLAP = 0.6f
+    private const val SIDE_OVERLAP = 0.2f
     private val SPACES = Regex("\\s+")
 
-    fun detect(ctx: TagContext, markers: MarkerDetector.Result, quantity: QuantityCandidate?): Field<String>? {
+    /** [cardBlock] is the card price's box: the name is printed below that block, never inside it. */
+    fun detect(
+        ctx: TagContext,
+        markers: MarkerDetector.Result,
+        quantity: QuantityCandidate?,
+        cardBlock: Box?,
+    ): Field<String>? {
         val excluded = markers.markerLines + markers.labelLines
+        val below = cardBlock?.let { it.bottom - it.height * BLOCK_OVERLAP } ?: 0f
         val candidates = ctx.lines.indices
-            .filter { it !in excluded && !markers.flags[it].any }
+            .filter { it !in excluded && !markers.flags[it].any && ctx.lines[it].box.top >= below }
             .filter { isWordy(ctx.normalized[it]) && !onlyLabelWords(ctx, it) && !cutByEdge(ctx.lines[it].box) }
-            .sortedBy { ctx.lines[it].box.top }
+        val rows = rows(ctx, candidates)
         // The name starts in the upper part of the tag; its continuation may run lower.
-        val first = candidates.firstOrNull { ctx.lines[it].box.top < MAX_TOP } ?: return null
-        val chosen = mutableListOf(first)
-        for (next in candidates.dropWhile { it != first }.drop(1)) {
-            if (chosen.size == MAX_LINES || !continues(ctx, chosen.last(), next)) break
+        val first = rows.indexOfFirst { it.box.top < MAX_TOP }.takeIf { it >= 0 } ?: return null
+        val chosen = mutableListOf(rows[first])
+        for (next in rows.drop(first + 1)) {
+            if (chosen.size == MAX_LINES || !continues(chosen.last().box, next.box)) break
             chosen += next
         }
-        val text = chosen.joinToString(" ") { lineText(ctx, it, quantity) }.replace(SPACES, " ").trim()
+        val lines = chosen.flatMap { it.lines }
+        val text = lines.joinToString(" ") { lineText(ctx, it, quantity) }.replace(SPACES, " ").trim()
         if (text.isEmpty()) return null
-        val confidence = NAME_CONFIDENCE * chosen.map(ctx::confidence).average().toFloat()
-        return Field(text, confidence, emptyList(), chosen)
+        val confidence = NAME_CONFIDENCE * lines.map(ctx::confidence).average().toFloat()
+        return Field(text, confidence, emptyList(), lines)
+    }
+
+    /** OCR lines printed on one row of text, left to right, and the box around them. */
+    private class Row(val lines: List<Int>, val box: Box)
+
+    /** The detector cuts a printed line into pieces; pieces level with each other form one row. */
+    private fun rows(ctx: TagContext, candidates: List<Int>): List<Row> {
+        val groups = mutableListOf<MutableList<Int>>()
+        for (line in candidates.sortedBy { ctx.lines[it].box.top }) {
+            val box = ctx.lines[line].box
+            val row = groups.lastOrNull()?.takeIf { group -> group.all { level(ctx.lines[it].box, box) } }
+            if (row != null) row += line else groups += mutableListOf(line)
+        }
+        return groups.map { group ->
+            val ordered = group.sortedBy { ctx.lines[it].box.left }
+            Row(ordered, ordered.map { ctx.lines[it].box }.reduce(Box::union))
+        }
+    }
+
+    /** Same row: they overlap vertically by most of the smaller height and barely touch horizontally. */
+    private fun level(a: Box, b: Box): Boolean {
+        val vertical = minOf(a.bottom, b.bottom) - maxOf(a.top, b.top)
+        val horizontal = minOf(a.right, b.right) - maxOf(a.left, b.left)
+        return vertical >= minOf(a.height, b.height) * ROW_OVERLAP &&
+            horizontal <= minOf(a.width, b.width) * SIDE_OVERLAP
     }
 
     /** "ЦІНА", "при", "АТБ", a lone "грн": the tag's own labels and currency. */
@@ -169,17 +211,16 @@ private object NameDetector {
         return letters >= MIN_LETTERS && letters > text.count(Char::isDigit)
     }
 
-    private fun continues(ctx: TagContext, previous: Int, next: Int): Boolean {
-        val a = ctx.lines[previous].box
-        val b = ctx.lines[next].box
+    private fun continues(a: Box, b: Box): Boolean {
         val closeBelow = b.top <= a.bottom + a.height * GAP_FACTOR
         val similarType = b.height <= a.height * HEIGHT_RATIO && a.height <= b.height * HEIGHT_RATIO
         return closeBelow && similarType
     }
 
+    /** The text as printed; normalisation (decimal commas to dots) is for parsing, not for display. */
     private fun lineText(ctx: TagContext, line: Int, quantity: QuantityCandidate?): String {
+        if (quantity == null || quantity.line != line) return ctx.lines[line].text
         val text = ctx.normalized[line]
-        if (quantity == null || quantity.line != line) return text
         val tokens = ctx.tokens[line].filter { it.id in quantity.tokens }
         return text.removeRange(tokens.minOf { it.start }, tokens.maxOf { it.end })
     }
@@ -196,6 +237,8 @@ private class Assembler(
 ) {
     private class Resolved(val price: Field<Money>, val quantity: Field<Quantity>, val weighted: Boolean)
 
+    private val card: Field<Money>? = prices.loyalty?.let { Field(it.money, it.confidence, emptyList(), it.lines) }
+
     fun assemble(): ParseResult {
         val price = prices.current?.let { Field(it.money, it.confidence, prices.alternatives, it.lines) }
         val printedField = printed?.let { Field(it.unitPrice, it.confidence, emptyList(), it.lines) }
@@ -207,7 +250,7 @@ private class Assembler(
             overall *= MISMATCH_PENALTY
         }
         val weighted = resolved.weighted || weightedByMarker
-        val tag = ParsedTag(resolved.price, old, resolved.quantity, printedField, name, weighted)
+        val tag = ParsedTag(resolved.price, old, resolved.quantity, printedField, name, weighted, card)
         return ParseResult.Success(tag, unitPrice, overall)
     }
 
@@ -240,7 +283,7 @@ private class Assembler(
         Resolved(price, Field(reference, price.confidence * WEIGHTED_MARKER_CONFIDENCE, emptyList(), emptyList()), true)
 
     private fun incomplete(price: Field<Money>?, old: Field<Money>?, printedField: Field<UnitPrice>?): ParseResult {
-        val tag = ParsedTag(price, old, quantity, printedField, name, weightedByMarker)
+        val tag = ParsedTag(price, old, quantity, printedField, name, weightedByMarker, card)
         return when {
             price != null -> ParseResult.NeedsInput(tag, setOf(FieldKind.QUANTITY))
             quantity != null -> ParseResult.NeedsInput(tag, setOf(FieldKind.PRICE))

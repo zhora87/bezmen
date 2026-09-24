@@ -1,0 +1,142 @@
+[
+  {
+    "text": "ЦИHА",
+    "box": {
+      "left": 0.558,
+      "top": 0.1018,
+      "right": 0.7077,
+      "bottom": 0.2116
+    },
+    "confidence": 0.544
+  },
+  {
+    "text": "при скануванні",
+    "box": {
+      "left": 0.1573,
+      "top": 0.108,
+      "right": 0.5348,
+      "bottom": 0.2143
+    },
+    "confidence": 0.9191
+  },
+  {
+    "text": "3Hижка",
+    "box": {
+      "left": 0.7566,
+      "top": 0.125,
+      "right": 0.9289,
+      "bottom": 0.2241
+    },
+    "confidence": 0.5692
+  },
+  {
+    "text": "додатка АТБ",
+    "box": {
+      "left": 0.1895,
+      "top": 0.1821,
+      "right": 0.4934,
+      "bottom": 0.2857
+    },
+    "confidence": 0.9495
+  },
+  {
+    "text": "47 20",
+    "box": {
+      "left": 0.5287,
+      "top": 0.1857,
+      "right": 0.7218,
+      "bottom": 0.3545
+    },
+    "confidence": 0.8241
+  },
+  {
+    "text": "10%",
+    "box": {
+      "left": 0.7611,
+      "top": 0.2116,
+      "right": 0.9173,
+      "bottom": 0.3482
+    },
+    "confidence": 0.9991
+  },
+  {
+    "text": "накасі",
+    "box": {
+      "left": 0.2601,
+      "top": 0.2723,
+      "right": 0.4249,
+      "bottom": 0.3482
+    },
+    "confidence": 0.6124
+  },
+  {
+    "text": "UA Hektap",
+    "box": {
+      "left": 0.2802,
+      "top": 0.3839,
+      "right": 0.5781,
+      "bottom": 0.5232
+    },
+    "confidence": 0.72
+  },
+  {
+    "text": "\"День у День",
+    "box": {
+      "left": 0.249,
+      "top": 0.4643,
+      "right": 0.6038,
+      "bottom": 0.633
+    },
+    "confidence": 0.8907
+  },
+  {
+    "text": "52",
+    "box": {
+      "left": 0.7001,
+      "top": 0.5036,
+      "right": 0.8372,
+      "bottom": 0.6768
+    },
+    "confidence": 0.9987
+  },
+  {
+    "text": "50",
+    "box": {
+      "left": 0.8059,
+      "top": 0.5196,
+      "right": 0.88,
+      "bottom": 0.6268
+    },
+    "confidence": 0.9942
+  },
+  {
+    "text": "on 194332",
+    "box": {
+      "left": 0.1643,
+      "top": 0.5955,
+      "right": 0.2001,
+      "bottom": 0.8152
+    },
+    "confidence": 0.8501
+  },
+  {
+    "text": "1n",
+    "box": {
+      "left": 0.8266,
+      "top": 0.6375,
+      "right": 0.8634,
+      "bottom": 0.6795
+    },
+    "confidence": 0.8222
+  },
+  {
+    "text": "виноградний",
+    "box": {
+      "left": 0.2591,
+      "top": 0.7009,
+      "right": 0.5998,
+      "bottom": 0.8161
+    },
+    "confidence": 0.9967
+  }
+]

@@ -1,0 +1,21 @@
+{
+  "pack": "uk",
+  "price": {
+    "minor": 9490,
+    "currency": "UAH"
+  },
+  "oldPrice": {
+    "minor": 10880,
+    "currency": "UAH"
+  },
+  "quantity": {
+    "value": 440.0,
+    "unit": "GRAM"
+  },
+  "isWeighted": false,
+  "loyaltyPrice": {
+    "minor": 8541,
+    "currency": "UAH"
+  },
+  "note": "АТБ 2026-09-24 in-app shot; orange: Баклажани Верес в аджиці; app price 85.41 in the top block, Знижка 12%"
+}

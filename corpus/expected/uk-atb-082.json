@@ -1,0 +1,15 @@
+{
+  "pack": "uk",
+  "price": {
+    "minor": 6170,
+    "currency": "UAH"
+  },
+  "oldPrice": null,
+  "quantity": {
+    "value": 250.0,
+    "unit": "GRAM"
+  },
+  "isWeighted": false,
+  "loyaltyPrice": null,
+  "note": "АТБ 2026-09-24 in-app shot; white: Сироп Здорова родина Шипшина Ехінацея М'ята"
+}

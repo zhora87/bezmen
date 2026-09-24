@@ -1,0 +1,18 @@
+{
+  "pack": "uk",
+  "price": {
+    "minor": 8570,
+    "currency": "UAH"
+  },
+  "oldPrice": null,
+  "quantity": {
+    "value": 250.0,
+    "unit": "GRAM"
+  },
+  "isWeighted": false,
+  "loyaltyPrice": {
+    "minor": 7704,
+    "currency": "UAH"
+  },
+  "note": "АТБ 2026-09-24 in-app shot; orange: UA Маршмеллоу Своя лінія Барбекю; app price 77.04"
+}

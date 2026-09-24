@@ -1,0 +1,18 @@
+{
+  "pack": "uk",
+  "price": {
+    "minor": 5120,
+    "currency": "UAH"
+  },
+  "oldPrice": null,
+  "quantity": {
+    "value": 160.0,
+    "unit": "GRAM"
+  },
+  "isWeighted": false,
+  "loyaltyPrice": {
+    "minor": 4859,
+    "currency": "UAH"
+  },
+  "note": "АТБ 2026-09-24 in-app shot; white with card block: Трубочки Бам-Бук; card price 48.59 (-5%) in the top block"
+}

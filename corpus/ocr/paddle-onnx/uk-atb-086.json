@@ -1,0 +1,232 @@
+[
+    {
+        "text": "22.09.26",
+        "box": {
+            "left": 0.0239,
+            "top": 0.1584,
+            "right": 0.1362,
+            "bottom": 0.217
+        },
+        "confidence": 0.9989
+    },
+    {
+        "text": "UA",
+        "box": {
+            "left": 0.3623,
+            "top": 0.1855,
+            "right": 0.4468,
+            "bottom": 0.2791
+        },
+        "confidence": 0.9863
+    },
+    {
+        "text": "Чай",
+        "box": {
+            "left": 0.4551,
+            "top": 0.1872,
+            "right": 0.5771,
+            "bottom": 0.2922
+        },
+        "confidence": 0.9939
+    },
+    {
+        "text": "чорний",
+        "box": {
+            "left": 0.5752,
+            "top": 0.1969,
+            "right": 0.8096,
+            "bottom": 0.3123
+        },
+        "confidence": 0.9931
+    },
+    {
+        "text": "Код:",
+        "box": {
+            "left": 0.0269,
+            "top": 0.2056,
+            "right": 0.0928,
+            "bottom": 0.2607
+        },
+        "confidence": 0.8455
+    },
+    {
+        "text": "173703",
+        "box": {
+            "left": 0.0825,
+            "top": 0.21,
+            "right": 0.1831,
+            "bottom": 0.2625
+        },
+        "confidence": 0.9936
+    },
+    {
+        "text": "3.22.1",
+        "box": {
+            "left": 0.0283,
+            "top": 0.2555,
+            "right": 0.1094,
+            "bottom": 0.3158
+        },
+        "confidence": 0.9989
+    },
+    {
+        "text": "\"Tea",
+        "box": {
+            "left": 0.3657,
+            "top": 0.2852,
+            "right": 0.499,
+            "bottom": 0.3955
+        },
+        "confidence": 0.9959
+    },
+    {
+        "text": "Moments\"",
+        "box": {
+            "left": 0.498,
+            "top": 0.2905,
+            "right": 0.7979,
+            "bottom": 0.4059
+        },
+        "confidence": 0.9984
+    },
+    {
+        "text": "3нижка",
+        "box": {
+            "left": 0.0596,
+            "top": 0.3657,
+            "right": 0.2783,
+            "bottom": 0.4689
+        },
+        "confidence": 0.7368
+    },
+    {
+        "text": "Citrus",
+        "box": {
+            "left": 0.4292,
+            "top": 0.3955,
+            "right": 0.5908,
+            "bottom": 0.5022
+        },
+        "confidence": 0.9994
+    },
+    {
+        "text": "Love,",
+        "box": {
+            "left": 0.5874,
+            "top": 0.4042,
+            "right": 0.7334,
+            "bottom": 0.5127
+        },
+        "confidence": 0.9926
+    },
+    {
+        "text": "X",
+        "box": {
+            "left": 0.9199,
+            "top": 0.4243,
+            "right": 0.9365,
+            "bottom": 0.4759
+        },
+        "confidence": 0.4487
+    },
+    {
+        "text": "32",
+        "box": {
+            "left": 0.0771,
+            "top": 0.4488,
+            "right": 0.2178,
+            "bottom": 0.6142
+        },
+        "confidence": 0.9997
+    },
+    {
+        "text": "%",
+        "box": {
+            "left": 0.2041,
+            "top": 0.4908,
+            "right": 0.2793,
+            "bottom": 0.6045
+        },
+        "confidence": 0.9996
+    },
+    {
+        "text": "Forest",
+        "box": {
+            "left": 0.4331,
+            "top": 0.4978,
+            "right": 0.6021,
+            "bottom": 0.6028
+        },
+        "confidence": 0.9997
+    },
+    {
+        "text": "Fruit",
+        "box": {
+            "left": 0.6001,
+            "top": 0.5057,
+            "right": 0.7271,
+            "bottom": 0.601
+        },
+        "confidence": 0.9998
+    },
+    {
+        "text": "51",
+        "box": {
+            "left": 0.4219,
+            "top": 0.5958,
+            "right": 0.6104,
+            "bottom": 0.8416
+        },
+        "confidence": 0.9998
+    },
+    {
+        "text": "90",
+        "box": {
+            "left": 0.6313,
+            "top": 0.6107,
+            "right": 0.7397,
+            "bottom": 0.7428
+        },
+        "confidence": 0.9988
+    },
+    {
+        "text": "769",
+        "box": {
+            "left": 0.0771,
+            "top": 0.6343,
+            "right": 0.3281,
+            "bottom": 0.8416
+        },
+        "confidence": 0.9664
+    },
+    {
+        "text": "рпн/",
+        "box": {
+            "left": 0.6489,
+            "top": 0.7279,
+            "right": 0.7217,
+            "bottom": 0.783
+        },
+        "confidence": 0.6703
+    },
+    {
+        "text": "ррн",
+        "box": {
+            "left": 0.2427,
+            "top": 0.7629,
+            "right": 0.2969,
+            "bottom": 0.8066
+        },
+        "confidence": 0.6738
+    },
+    {
+        "text": "20φ/nx1,7r",
+        "box": {
+            "left": 0.6064,
+            "top": 0.7717,
+            "right": 0.7563,
+            "bottom": 0.8364
+        },
+        "confidence": 0.8112
+    }
+]

@@ -1,0 +1,172 @@
+[
+  {
+    "text": "прискануванни",
+    "box": {
+      "left": 0.1371,
+      "top": 0.1982,
+      "right": 0.5176,
+      "bottom": 0.3089
+    },
+    "confidence": 0.882
+  },
+  {
+    "text": "ЦИHA",
+    "box": {
+      "left": 0.5423,
+      "top": 0.2009,
+      "right": 0.6951,
+      "bottom": 0.3134
+    },
+    "confidence": 0.5632
+  },
+  {
+    "text": "3Hижka",
+    "box": {
+      "left": 0.747,
+      "top": 0.2339,
+      "right": 0.9234,
+      "bottom": 0.333
+    },
+    "confidence": 0.5522
+  },
+  {
+    "text": "додатка АТБ",
+    "box": {
+      "left": 0.1719,
+      "top": 0.2795,
+      "right": 0.4748,
+      "bottom": 0.3661
+    },
+    "confidence": 0.9679
+  },
+  {
+    "text": "77",
+    "box": {
+      "left": 0.5176,
+      "top": 0.2938,
+      "right": 0.6426,
+      "bottom": 0.4375
+    },
+    "confidence": 0.999
+  },
+  {
+    "text": "04",
+    "box": {
+      "left": 0.6361,
+      "top": 0.3107,
+      "right": 0.6961,
+      "bottom": 0.3929
+    },
+    "confidence": 0.9428
+  },
+  {
+    "text": "10%",
+    "box": {
+      "left": 0.752,
+      "top": 0.3187,
+      "right": 0.9068,
+      "bottom": 0.4482
+    },
+    "confidence": 0.9992
+  },
+  {
+    "text": "на касі",
+    "box": {
+      "left": 0.2429,
+      "top": 0.3563,
+      "right": 0.4083,
+      "bottom": 0.4286
+    },
+    "confidence": 0.7411
+  },
+  {
+    "text": "UA Маршмеллоу",
+    "box": {
+      "left": 0.2172,
+      "top": 0.4911,
+      "right": 0.6079,
+      "bottom": 0.6098
+    },
+    "confidence": 0.8971
+  },
+  {
+    "text": "1.9.1",
+    "box": {
+      "left": 0.1537,
+      "top": 0.5482,
+      "right": 0.1784,
+      "bottom": 0.6304
+    },
+    "confidence": 0.9139
+  },
+  {
+    "text": "\"Своя лінія\"",
+    "box": {
+      "left": 0.2757,
+      "top": 0.5759,
+      "right": 0.5499,
+      "bottom": 0.6643
+    },
+    "confidence": 0.9297
+  },
+  {
+    "text": "85",
+    "box": {
+      "left": 0.6759,
+      "top": 0.5848,
+      "right": 0.8125,
+      "bottom": 0.7438
+    },
+    "confidence": 0.9994
+  },
+  {
+    "text": "Z0",
+    "box": {
+      "left": 0.7777,
+      "top": 0.6018,
+      "right": 0.8594,
+      "bottom": 0.7045
+    },
+    "confidence": 0.5824
+  },
+  {
+    "text": "Kод 183334",
+    "box": {
+      "left": 0.1542,
+      "top": 0.6411,
+      "right": 0.192,
+      "bottom": 0.8536
+    },
+    "confidence": 0.8011
+  },
+  {
+    "text": "Барбекю",
+    "box": {
+      "left": 0.318,
+      "top": 0.6536,
+      "right": 0.5091,
+      "bottom": 0.7446
+    },
+    "confidence": 0.9748
+  },
+  {
+    "text": "250r",
+    "box": {
+      "left": 0.7913,
+      "top": 0.7107,
+      "right": 0.8493,
+      "bottom": 0.7509
+    },
+    "confidence": 0.8989
+  },
+  {
+    "text": "з ароматом ванілі",
+    "box": {
+      "left": 0.2288,
+      "top": 0.7402,
+      "right": 0.5958,
+      "bottom": 0.8179
+    },
+    "confidence": 0.9818
+  }
+]

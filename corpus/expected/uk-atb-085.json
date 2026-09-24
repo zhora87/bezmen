@@ -1,0 +1,18 @@
+{
+  "pack": "uk",
+  "price": {
+    "minor": 6290,
+    "currency": "UAH"
+  },
+  "oldPrice": null,
+  "quantity": {
+    "value": 80.0,
+    "unit": "GRAM"
+  },
+  "isWeighted": false,
+  "loyaltyPrice": {
+    "minor": 5655,
+    "currency": "UAH"
+  },
+  "note": "АТБ 2026-09-24 in-app shot; orange: Чай Своя лінія Garden Pie зелений; app price 56.55"
+}

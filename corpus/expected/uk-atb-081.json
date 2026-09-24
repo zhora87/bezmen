@@ -1,0 +1,18 @@
+{
+  "pack": "uk",
+  "price": {
+    "minor": 14490,
+    "currency": "UAH"
+  },
+  "oldPrice": null,
+  "quantity": {
+    "value": 920.0,
+    "unit": "GRAM"
+  },
+  "isWeighted": false,
+  "loyaltyPrice": {
+    "minor": 13041,
+    "currency": "UAH"
+  },
+  "note": "АТБ 2026-09-24 in-app shot; orange: Огірки мариновані Urbanek; app price under glare, 130.41 = 144.90 - 10%"
+}

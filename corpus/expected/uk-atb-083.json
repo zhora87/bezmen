@@ -1,0 +1,15 @@
+{
+  "pack": "uk",
+  "price": {
+    "minor": 11740,
+    "currency": "UAH"
+  },
+  "oldPrice": null,
+  "quantity": {
+    "value": 0.95,
+    "unit": "LITRE"
+  },
+  "isWeighted": false,
+  "loyaltyPrice": null,
+  "note": "АТБ 2026-09-24 in-app shot; white: Нектар Jaffa Апельсин; 950 мл on packaging above the tag"
+}

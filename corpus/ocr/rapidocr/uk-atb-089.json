@@ -1,0 +1,162 @@
+[
+  {
+    "text": "Ціна при оп",
+    "box": {
+      "left": 0.0852,
+      "top": 0.0973,
+      "right": 0.4143,
+      "bottom": 0.225
+    },
+    "confidence": 0.8777
+  },
+  {
+    "text": "48",
+    "box": {
+      "left": 0.5559,
+      "top": 0.1161,
+      "right": 0.7641,
+      "bottom": 0.3643
+    },
+    "confidence": 0.999
+  },
+  {
+    "text": "599",
+    "box": {
+      "left": 0.7324,
+      "top": 0.1187,
+      "right": 0.8392,
+      "bottom": 0.325
+    },
+    "confidence": 0.7304
+  },
+  {
+    "text": "карткою АТБ",
+    "box": {
+      "left": 0.1265,
+      "top": 0.1759,
+      "right": 0.4521,
+      "bottom": 0.2884
+    },
+    "confidence": 0.8876
+  },
+  {
+    "text": "-5%",
+    "box": {
+      "left": 0.2278,
+      "top": 0.2518,
+      "right": 0.3624,
+      "bottom": 0.3821
+    },
+    "confidence": 0.9924
+  },
+  {
+    "text": "Трубочки\"Бам-Бук\"",
+    "box": {
+      "left": 0.1053,
+      "top": 0.358,
+      "right": 0.5736,
+      "bottom": 0.492
+    },
+    "confidence": 0.9283
+  },
+  {
+    "text": "8",
+    "box": {
+      "left": 0.0585,
+      "top": 0.4125,
+      "right": 0.0882,
+      "bottom": 0.475
+    },
+    "confidence": 0.5152
+  },
+  {
+    "text": "82310581",
+    "box": {
+      "left": 0.0539,
+      "top": 0.4473,
+      "right": 0.0978,
+      "bottom": 0.8089
+    },
+    "confidence": 0.9986
+  },
+  {
+    "text": "мультизлакові",
+    "box": {
+      "left": 0.1719,
+      "top": 0.4723,
+      "right": 0.5212,
+      "bottom": 0.5687
+    },
+    "confidence": 0.9542
+  },
+  {
+    "text": "51",
+    "box": {
+      "left": 0.6361,
+      "top": 0.4893,
+      "right": 0.7913,
+      "bottom": 0.6973
+    },
+    "confidence": 0.9995
+  },
+  {
+    "text": "20",
+    "box": {
+      "left": 0.7566,
+      "top": 0.5054,
+      "right": 0.8493,
+      "bottom": 0.6232
+    },
+    "confidence": 0.9643
+  },
+  {
+    "text": "cмак згущеного",
+    "box": {
+      "left": 0.1724,
+      "top": 0.5625,
+      "right": 0.5207,
+      "bottom": 0.65
+    },
+    "confidence": 0.7537
+  },
+  {
+    "text": "160r",
+    "box": {
+      "left": 0.7747,
+      "top": 0.6348,
+      "right": 0.8417,
+      "bottom": 0.6911
+    },
+    "confidence": 0.886
+  },
+  {
+    "text": "молока",
+    "box": {
+      "left": 0.2641,
+      "top": 0.6536,
+      "right": 0.4299,
+      "bottom": 0.725
+    },
+    "confidence": 0.9798
+  },
+  {
+    "text": "на фруктозі",
+    "box": {
+      "left": 0.2127,
+      "top": 0.7089,
+      "right": 0.4824,
+      "bottom": 0.8339
+    },
+    "confidence": 0.9251
+  },
+  {
+    "text": " 01.00.26 KOR:197281 33",
+    "box": {
+      "left": 0.064,
+      "top": 0.8223,
+      "right": 0.4148,
+      "bottom": 0.8848
+    },
+    "confidence": 0.8367
+  }
+]

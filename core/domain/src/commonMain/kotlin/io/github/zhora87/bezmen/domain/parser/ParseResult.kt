@@ -22,6 +22,8 @@ data class ParsedTag(
     val name: Field<String>? = null,
     /** The price is already per kg or per litre and the tag carries no package quantity. */
     val isWeighted: Boolean = false,
+    /** Price with the store's card or app, printed in its own labelled block ("Ціна при скануванні додатка"). */
+    val loyaltyPrice: Field<Money>? = null,
 )
 
 sealed interface ParseResult {

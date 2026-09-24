@@ -1,0 +1,18 @@
+{
+  "pack": "uk",
+  "price": {
+    "minor": 5250,
+    "currency": "UAH"
+  },
+  "oldPrice": null,
+  "quantity": {
+    "value": 1.0,
+    "unit": "LITRE"
+  },
+  "isWeighted": false,
+  "loyaltyPrice": {
+    "minor": 4720,
+    "currency": "UAH"
+  },
+  "note": "АТБ 2026-09-24 in-app shot; orange: UA Нектар День у День Яблучно-виноградний; app price 47.20"
+}
