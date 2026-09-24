@@ -19,7 +19,7 @@ import kotlin.system.measureTimeMillis
  * Runs the shipped OCR engine (the same code and models as the app) over corpus photos and writes
  * `corpus/ocr/paddle-onnx/<id>.json`. The parser is then tuned on exactly what the app will see.
  *
- *     ./gradlew :tools:ocr-dump:run --args="corpus [--pack uk] [--ids uk-atb-003,uk-atb-010]"
+ *     ./gradlew :tools:ocr-dump:run --args="corpus [--pack uk] [--ids uk-atb-003,uk-atb-010] [--det-side 640]"
  */
 private const val ENGINE = "paddle-onnx"
 private const val RGB_MASK = 0xFFFFFF
@@ -31,11 +31,11 @@ private val json = Json {
     ignoreUnknownKeys = true
 }
 
-private class DumpOptions(val corpus: File, val pack: String?, val ids: Set<String>)
+private class DumpOptions(val corpus: File, val pack: String?, val ids: Set<String>, val detSide: Int?)
 
 fun main(args: Array<String>) {
     val options = parse(args) ?: run {
-        println("usage: ocr-dump <corpus-dir> [--pack <id>] [--ids <id,id,...>]")
+        println("usage: ocr-dump <corpus-dir> [--pack <id>] [--ids <id,id,...>] [--det-side <px>]")
         exitProcess(EXIT_USAGE)
     }
     val modelsDir = File(System.getProperty("bezmen.models.dir") ?: error("bezmen.models.dir is not set"))
@@ -44,12 +44,17 @@ fun main(args: Array<String>) {
         println("no photos with expected values under ${options.corpus}/images")
         exitProcess(EXIT_USAGE)
     }
-    val out = File(options.corpus, "ocr/$ENGINE").apply { mkdirs() }
+    // A non-default detector size writes to its own set, e.g. ocr/paddle-onnx-det640/.
+    val engineDir = options.detSide?.let { "$ENGINE-det$it" } ?: ENGINE
+    val out = File(options.corpus, "ocr/$engineDir").apply { mkdirs() }
     val engines = mutableMapOf<String, PaddleOnnxOcrEngine>()
     try {
         for ((id, packId, photo) in cases) {
             val engine = engines.getOrPut(packId) {
-                PaddleOnnxOcrEngine(FileModelStore(modelsDir), loadPack(packId).script)
+                val script = loadPack(packId).script
+                val store = FileModelStore(modelsDir)
+                options.detSide?.let { PaddleOnnxOcrEngine(store, script, detectionMaxSide = it) }
+                    ?: PaddleOnnxOcrEngine(store, script)
             }
             var lines: List<OcrLine> = emptyList()
             val ms = measureTimeMillis { lines = engine.recognize(ImageIO.read(photo).toRgb()).map(::rounded) }
@@ -61,21 +66,21 @@ fun main(args: Array<String>) {
     }
 }
 
+private val OPTIONS = setOf("--pack", "--ids", "--det-side")
+
+/** `<corpus> [--name value]...`; null on anything unknown, a missing value or a bad number. */
 private fun parse(args: Array<String>): DumpOptions? {
-    val corpus = args.firstOrNull()?.takeUnless { it.startsWith("--") } ?: return null
-    var pack: String? = null
-    var ids = emptySet<String>()
-    var i = 1
-    while (i < args.size) {
-        val value = args.getOrNull(i + 1) ?: return null
-        when (args[i]) {
-            "--pack" -> pack = value
-            "--ids" -> ids = value.split(',').map { it.trim() }.filter { it.isNotEmpty() }.toSet()
-            else -> return null
-        }
-        i += 2
+    val corpus = args.firstOrNull()?.takeUnless { it.startsWith("--") }
+    val pairs = args.drop(1).chunked(2)
+    val valid = corpus != null && pairs.all { it.size == 2 && it[0] in OPTIONS }
+    val values = pairs.associate { it[0] to it.getOrElse(1) { "" } }
+    val detSide = values["--det-side"]?.let { it.toIntOrNull() ?: 0 }
+    return if (!valid || (detSide != null && detSide <= 0)) {
+        null
+    } else {
+        val ids = values["--ids"].orEmpty().split(',').map { it.trim() }.filter { it.isNotEmpty() }.toSet()
+        DumpOptions(File(corpus), values["--pack"], ids, detSide)
     }
-    return DumpOptions(File(corpus), pack, ids)
 }
 
 private data class DumpCase(val id: String, val pack: String, val photo: File)

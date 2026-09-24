@@ -26,6 +26,8 @@ class PaddleOnnxOcrEngine(
     private val script: Script,
     threads: Int = defaultThreads(),
     accelerator: Accelerator = Accelerator.CPU,
+    /** Longest side of the detector input; the frame is scaled down to it. */
+    private val detectionMaxSide: Int = DET_MAX_SIDE,
     private val postProcessor: DbPostProcessor = DbPostProcessor(),
 ) : OcrEngine {
     /**
@@ -93,7 +95,7 @@ class PaddleOnnxOcrEngine(
     private class Detection(val boxes: List<DbPostProcessor.TextBox>, val scaleX: Float, val scaleY: Float)
 
     private fun detect(image: RgbImage): Detection {
-        val scale = minOf(1f, DET_MAX_SIDE / maxOf(image.width, image.height))
+        val scale = minOf(1f, detectionMaxSide.toFloat() / maxOf(image.width, image.height))
         val width = multipleOf32(image.width * scale)
         val height = multipleOf32(image.height * scale)
         val resized = ImageOps.resize(image, width, height)
@@ -173,7 +175,7 @@ class PaddleOnnxOcrEngine(
 
         const val CHANNELS = 3L
         const val MULTIPLE = 32
-        const val DET_MAX_SIDE = 960f
+        const val DET_MAX_SIDE = 960
         val DET_MEAN = floatArrayOf(0.485f, 0.456f, 0.406f)
         val DET_STD = floatArrayOf(0.229f, 0.224f, 0.225f)
         const val REC_HEIGHT = 48

@@ -104,17 +104,23 @@ ML Kit on Latin scripts, it is dropped and the flavors differ only in store meta
 ### Execution provider
 
 `PaddleOnnxOcrEngine` runs ONNX Runtime on its CPU execution provider with up to four intra-op
-threads. XNNPACK and NNAPI are selectable for measurements only. Median latency per corpus photo
-(2048 px on the long side, 79 photos) on an 8-core arm64 phone running Android 16:
+threads. XNNPACK and NNAPI are selectable for measurements only. Latency per corpus photo (tags
+cropped as the viewfinder frames them, 2048 px on the long side, 79 photos):
 
-| provider | threads | photo median | photo p90 | model load |
-|----------|---------|--------------|-----------|------------|
-| CPU      | 2       | 519 ms       | 759 ms    | 246 ms     |
-| CPU      | 4       | 450 ms       | 656 ms    | 212 ms     |
-| XNNPACK  | 4       | 764 ms       | 1158 ms   | 228 ms     |
+| device | provider | threads | photo median | photo p90 | model load |
+|--------|----------|---------|--------------|-----------|------------|
+| 2025 flagship, 8 cores, Android 16 | CPU     | 2 | 519 ms  | 759 ms  | 246 ms  |
+|                                    | CPU     | 4 | 450 ms  | 656 ms  | 212 ms  |
+|                                    | XNNPACK | 4 | 764 ms  | 1158 ms | 228 ms  |
+| 2019 budget, Snapdragon 439, 3 GB, Android 10 | CPU     | 2 | 3980 ms | 5654 ms | 1248 ms |
+|                                               | CPU     | 4 | 2949 ms | 4294 ms | 1172 ms |
+|                                               | XNNPACK | 4 | 6687 ms | 9455 ms | 1172 ms |
 
-NNAPI, checked on a five-photo sample and on a rendered tag, was no faster than CPU with four
-threads and slower to start; it is also deprecated since Android 15. The instrumented test
+Accuracy is identical on both phones and on the desktop JVM. NNAPI, checked on a five-photo sample
+and on a rendered tag, was no faster than CPU with four threads on either phone; it is also
+deprecated since Android 15. A smaller detector input (`detectionMaxSide` 640 or 736 instead of
+960) saves about a third of the time but loses the small print on two or three corpus tags, so 960
+stays the default. The instrumented test
 `OcrDeviceTest` in `androidApp` reproduces the table and rewrites its report after every
 configuration.
 
