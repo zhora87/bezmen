@@ -5,14 +5,41 @@ import io.github.zhora87.bezmen.domain.Dimension
 import io.github.zhora87.bezmen.domain.LocalePack
 import io.github.zhora87.bezmen.domain.MeasureUnit
 import io.github.zhora87.bezmen.domain.Quantity
+import kotlin.math.abs
 
 /** Step 3: "900 мл", "0.33 л", "1.5кг", "12 шт", "6 x 200 г", "2 шт по 90 г". */
 internal class QuantityDetector(private val pack: LocalePack) {
     fun detect(ctx: TagContext, consumed: Set<TokenId>): List<QuantityCandidate> =
         ctx.lines.indices.flatMap { line ->
             val tokens = ctx.tokensOf(line, consumed)
-            numberUnitPairs(ctx, tokens) + bareUnits(ctx, tokens)
+            numberUnitPairs(ctx, tokens) + bareUnits(ctx, tokens) + listOfNotNull(wrapped(ctx, line, consumed))
         }
+
+    /**
+     * A long name wraps its quantity: "Масло Mlekovita 82% Польське 200" / "г (Польща)". The unit opens
+     * [line], the number closes the line right above it, and both lines start at the same left edge.
+     */
+    private fun wrapped(ctx: TagContext, line: Int, consumed: Set<TokenId>): QuantityCandidate? {
+        val word = ctx.tokensOf(line, consumed).firstOrNull()?.takeIf { it.kind == TokenKind.WORD } ?: return null
+        val unit = pack.unitFor(word.text) ?: return null
+        // Only a name wraps: the line above has words, not just a big price, and starts at the same edge.
+        val above = ctx.lineAbove(line)
+            ?.takeIf { abs(ctx.lines[it].box.left - ctx.lines[line].box.left) <= WRAP_ALIGN }
+            ?.takeIf { ctx.normalized[it].count(Char::isLetter) >= WRAP_MIN_LETTERS }
+            ?: return null
+        val number = ctx.tokensOf(above, consumed).lastOrNull()?.takeIf { it.kind == TokenKind.NUMBER } ?: return null
+        val value = number.number?.takeIf { it > 0 } ?: return null
+        val quantity = Quantity(value, unit).takeIf { it.toBase().value >= MIN_BASE_VALUE } ?: return null
+        val confidence = minOf(ctx.confidence(above), ctx.confidence(line)) * WRAPPED_CONFIDENCE
+        return QuantityCandidate(
+            quantity = quantity,
+            confidence = confidence,
+            line = above,
+            box = number.box.union(word.box),
+            tokens = listOf(number.id, word.id),
+            isMultipack = false,
+        )
+    }
 
     private fun numberUnitPairs(ctx: TagContext, tokens: List<Token>): List<QuantityCandidate> {
         val out = mutableListOf<QuantityCandidate>()
@@ -169,6 +196,11 @@ internal class QuantityDetector(private val pack: LocalePack) {
         /** Nothing on a shelf is sold below one gram or one millilitre: "0,5 мг" is a misread "0,5 кг". */
         const val MIN_BASE_VALUE = 1.0
         const val SPACED_CONFIDENCE = 0.9f
+        const val WRAPPED_CONFIDENCE = 0.8f
+
+        /** Left edges of a wrapped name line and its continuation differ by at most this share of the tag. */
+        const val WRAP_ALIGN = 0.1f
+        const val WRAP_MIN_LETTERS = 3
         const val PIECES_COUNT_OFFSET = 3
 
         /** Longest glued run tried as one alias ("на", "6", "-р"). */

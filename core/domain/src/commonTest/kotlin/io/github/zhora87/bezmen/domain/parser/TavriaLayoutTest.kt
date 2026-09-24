@@ -47,4 +47,52 @@ class TavriaLayoutTest {
 
         assertEquals(Money.of(34, 90, "UAH"), tag?.price?.value)
     }
+
+    @Test
+    fun `quantity wrapped to the next line of the name is joined`() {
+        val tag = uk.parse(
+            listOf(
+                OcrLine("Масло Mlekovita 82% Польське 200", Box(0.04f, 0.14f, 0.99f, 0.31f), 0.73f),
+                OcrLine("г(Польща)", Box(0.05f, 0.26f, 0.34f, 0.37f), 0.88f),
+                OcrLine("151", Box(0.30f, 0.50f, 0.64f, 0.81f), 1f),
+                OcrLine("40", Box(0.60f, 0.51f, 0.75f, 0.65f), 1f),
+            ),
+        ).tagOrNull()
+
+        assertEquals(Quantity(200.0, MeasureUnit.GRAM), tag?.quantity?.value)
+        assertEquals(Money.of(151, 40, "UAH"), tag?.price?.value)
+        assertEquals("Масло Mlekovita 82% Польське", tag?.name?.value)
+    }
+
+    @Test
+    fun `a number above a unit elsewhere on the tag is not a wrapped quantity`() {
+        // "Код 53640" at the right edge, "г" of some other text far to the left below it.
+        val tag = uk.parse(
+            listOf(
+                OcrLine("Крупа гречана", Box(0.05f, 0.10f, 0.40f, 0.20f), 0.9f),
+                OcrLine("33", Box(0.45f, 0.20f, 0.75f, 0.60f), 1f),
+                OcrLine("60", Box(0.76f, 0.22f, 0.86f, 0.35f), 1f),
+                OcrLine("КОД 53640", Box(0.75f, 0.70f, 0.95f, 0.75f), 0.9f),
+                OcrLine("г", Box(0.30f, 0.76f, 0.33f, 0.80f), 0.5f),
+            ),
+        ).tagOrNull()
+
+        assertEquals(null, tag?.quantity)
+    }
+
+    @Test
+    fun `a stray unit letter under the price digits is not a wrapped quantity`() {
+        val tag = uk.parse(
+            listOf(
+                OcrLine("Яйце куряче", Box(0.14f, 0.13f, 0.47f, 0.29f), 0.96f),
+                OcrLine("79", Box(0.53f, 0.15f, 0.76f, 0.56f), 1f),
+                OcrLine("50", Box(0.74f, 0.16f, 0.86f, 0.38f), 1f),
+                OcrLine("ррн/", Box(0.76f, 0.35f, 0.83f, 0.44f), 0.56f),
+                OcrLine("10wT", Box(0.76f, 0.42f, 0.83f, 0.49f), 0.78f),
+                OcrLine("п", Box(0.61f, 0.80f, 0.61f, 0.82f), 0.16f),
+            ),
+        ).tagOrNull()
+
+        assertEquals(Quantity(10.0, MeasureUnit.PIECE), tag?.quantity?.value)
+    }
 }

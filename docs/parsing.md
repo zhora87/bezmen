@@ -54,6 +54,9 @@ An `overall` below `ParseResult.CONFIRM_THRESHOLD` (0.75) means the UI shows the
    the detector often cuts `грн /` and `шт` into two lines. A unit may be a run of glued tokens that
    only together form a pack alias: store fonts turn `кг` into `k7` and `наб-р` into `на6-р`, and
    packs list such misreads. A single letter wedged between digit runs (`82n214780361`) is a barcode.
+   A long name may wrap its quantity ("Масло Mlekovita 82% Польське 200" / "г (Польща)"): a unit
+   opening a line joins the number that closes the name line right above it, when both lines start
+   at the same left edge. Brackets split tokens, so "г(Польща)" starts with the unit.
    Percentages are never quantities, nor is anything below one gram or millilitre. When several
    candidates remain, the one closest to the price wins: package text in the background carries its
    own numbers.

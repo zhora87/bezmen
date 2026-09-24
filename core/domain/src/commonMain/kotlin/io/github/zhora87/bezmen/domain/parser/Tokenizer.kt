@@ -54,7 +54,7 @@ internal class Tokenizer(private val pack: LocalePack) {
             "(\\d{1,2}[./]\\d{1,2}[./]\\d{2,4})" + // date
                 "|(\\d+(?:[.:]\\d+){2,}|\\d{1,2}:\\d{2})" + // dotted code or time
                 "|(\\d+(?:\\.\\d+)?)" + // number
-                "|(%)|([/=])|([^\\s\\d%/=]+)", // percent, separators, word
+                "|(%)|([/=()])|([^\\s\\d%/=()]+)", // percent, separators (brackets too: "г(Польща)"), word
         )
         const val GROUP_DATE = 1
         const val GROUP_CODE = 2

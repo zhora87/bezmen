@@ -219,10 +219,10 @@ private object NameDetector {
 
     /** The text as printed; normalisation (decimal commas to dots) is for parsing, not for display. */
     private fun lineText(ctx: TagContext, line: Int, quantity: QuantityCandidate?): String {
-        if (quantity == null || quantity.line != line) return ctx.lines[line].text
-        val text = ctx.normalized[line]
-        val tokens = ctx.tokens[line].filter { it.id in quantity.tokens }
-        return text.removeRange(tokens.minOf { it.start }, tokens.maxOf { it.end })
+        // A wrapped quantity has its number on one line and its unit on the next: cut it from both.
+        val tokens = ctx.tokens[line].filter { quantity != null && it.id in quantity.tokens }
+        if (tokens.isEmpty()) return ctx.lines[line].text
+        return ctx.normalized[line].removeRange(tokens.minOf { it.start }, tokens.maxOf { it.end })
     }
 }
 
