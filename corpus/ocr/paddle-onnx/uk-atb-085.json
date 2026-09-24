@@ -60,26 +60,6 @@
         "confidence": 0.9958
     },
     {
-        "text": "56",
-        "box": {
-            "left": 0.5313,
-            "top": 0.2651,
-            "right": 0.6606,
-            "bottom": 0.4191
-        },
-        "confidence": 0.9999
-    },
-    {
-        "text": "5",
-        "box": {
-            "left": 0.6509,
-            "top": 0.2721,
-            "right": 0.7134,
-            "bottom": 0.4007
-        },
-        "confidence": 0.8076
-    },
-    {
         "text": "10",
         "box": {
             "left": 0.7593,
@@ -288,5 +268,15 @@
             "bottom": 0.9116
         },
         "confidence": 0.8246
+    },
+    {
+        "text": "5655",
+        "box": {
+            "left": 0.5293,
+            "top": 0.2458,
+            "right": 0.7251,
+            "bottom": 0.4261
+        },
+        "confidence": 0.9665
     }
 ]

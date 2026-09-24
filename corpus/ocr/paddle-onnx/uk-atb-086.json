@@ -190,16 +190,6 @@
         "confidence": 0.9988
     },
     {
-        "text": "769",
-        "box": {
-            "left": 0.0771,
-            "top": 0.6343,
-            "right": 0.3281,
-            "bottom": 0.8416
-        },
-        "confidence": 0.9664
-    },
-    {
         "text": "рпн/",
         "box": {
             "left": 0.6489,
@@ -210,16 +200,6 @@
         "confidence": 0.6703
     },
     {
-        "text": "ррн",
-        "box": {
-            "left": 0.2427,
-            "top": 0.7629,
-            "right": 0.2969,
-            "bottom": 0.8066
-        },
-        "confidence": 0.6738
-    },
-    {
         "text": "20φ/nx1,7r",
         "box": {
             "left": 0.6064,
@@ -228,5 +208,15 @@
             "bottom": 0.8364
         },
         "confidence": 0.8112
+    },
+    {
+        "text": "7690",
+        "box": {
+            "left": 0.0752,
+            "top": 0.629,
+            "right": 0.3252,
+            "bottom": 0.8434
+        },
+        "confidence": 0.9247
     }
 ]

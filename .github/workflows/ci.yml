@@ -66,7 +66,7 @@ jobs:
         run: ./gradlew :tools:parser-cli:run --no-daemon --args="corpus --engine paddle-onnx --only uk-atb- --verbose --min-accuracy 0.85"
 
       - name: Parser accuracy on the shipped engine's OCR dumps, Tavria V (regression floor, layout not tuned yet)
-        run: ./gradlew :tools:parser-cli:run --no-daemon --args="corpus --engine paddle-onnx --only uk-tavriav- --min-accuracy 0.40"
+        run: ./gradlew :tools:parser-cli:run --no-daemon --args="corpus --engine paddle-onnx --only uk-tavriav- --min-accuracy 0.50"
 
       - name: Parser accuracy on RapidOCR dumps (second opinion, regression floor)
         run: ./gradlew :tools:parser-cli:run --no-daemon --args="corpus --engine rapidocr --min-accuracy 0.60"

@@ -77,7 +77,7 @@ internal class MoneyDetector(private val pack: LocalePack) {
     private fun mergeSplitCents(ctx: TagContext, used: MutableSet<TokenId>): List<MoneyCandidate> {
         val out = mutableListOf<MoneyCandidate>()
         val majors = ctx.lines.indices.mapNotNull { line ->
-            soleNumber(ctx, line, used)?.takeIf { it.isInteger && it.digitCount <= MAX_MAJOR_DIGITS }
+            soleNumber(ctx, line, used)?.takeIf { it.isInteger && it.digitCount <= MAX_MAJOR_DIGITS && !merged(it) }
         }
         val cents = ctx.lines.indices.mapNotNull { line -> soleNumber(ctx, line, used)?.takeIf { isCents(it) } }
         for (major in majors) {
@@ -125,7 +125,7 @@ internal class MoneyDetector(private val pack: LocalePack) {
         val h = major.height
         val placed = cents.left >= major.left + major.width * CENTS_MIN_START &&
             cents.left <= major.right + h &&
-            cents.top >= major.top - h * CENTS_VERTICAL_SLACK &&
+            cents.top >= major.top - h * CENTS_RAISE &&
             cents.bottom <= major.bottom + h * CENTS_VERTICAL_SLACK
         val shorter = cents.height <= h * CENTS_MAX_HEIGHT_RATIO
         val narrower = cents.height <= h * (1 + CENTS_VERTICAL_SLACK) &&
@@ -176,6 +176,9 @@ internal class MoneyDetector(private val pack: LocalePack) {
         const val CENTS_MIN_START = 0.5f
         const val CENTS_VERTICAL_SLACK = 0.15f
         const val CENTS_MAX_HEIGHT_RATIO = 0.85f
+
+        /** Superscript kopecks may start this far above the major digits (italic Tavria V tags). */
+        const val CENTS_RAISE = 0.4f
         const val CENTS_MAX_WIDTH_RATIO = 0.8f
         const val CENTS_DIGITS = 2
     }

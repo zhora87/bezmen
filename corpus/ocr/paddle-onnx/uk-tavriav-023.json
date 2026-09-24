@@ -30,16 +30,6 @@
         "confidence": 0.9998
     },
     {
-        "text": "8",
-        "box": {
-            "left": 0.4759,
-            "top": 0.2641,
-            "right": 0.7064,
-            "bottom": 0.594
-        },
-        "confidence": 0.985
-    },
-    {
         "text": "90",
         "box": {
             "left": 0.6771,
@@ -78,5 +68,15 @@
             "bottom": 0.9166
         },
         "confidence": 0.7121
+    },
+    {
+        "text": "48",
+        "box": {
+            "left": 0.252,
+            "top": 0.2282,
+            "right": 0.7311,
+            "bottom": 0.632
+        },
+        "confidence": 0.9992
     }
 ]

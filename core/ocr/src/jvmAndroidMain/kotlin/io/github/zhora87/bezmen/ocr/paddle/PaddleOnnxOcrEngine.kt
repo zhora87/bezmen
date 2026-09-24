@@ -28,6 +28,8 @@ class PaddleOnnxOcrEngine(
     accelerator: Accelerator = Accelerator.CPU,
     /** Longest side of the detector input; the frame is scaled down to it. */
     private val detectionMaxSide: Int = DET_MAX_SIDE,
+    /** Second, coarse detector pass for price digits too large for the first one; 0 turns it off. */
+    private val coarseSide: Int = COARSE_SIDE,
     private val postProcessor: DbPostProcessor = DbPostProcessor(),
 ) : OcrEngine {
     /**
@@ -73,43 +75,48 @@ class PaddleOnnxOcrEngine(
     }
 
     /** Synchronous entry point for tests and tools. */
+    /**
+     * Lines of the fine detector pass; with [coarseSide] set, tall boxes of a coarse pass are read too
+     * and replace the fine lines where they read more digits (large price digits, see ScaleMerge).
+     */
     fun recognize(image: RgbImage): List<OcrLine> {
-        val detection = detect(image)
-        return detection.boxes.mapNotNull { box -> recognizeBox(image, detection, box) }
+        val fine = detectBoxes(image).mapNotNull { box -> recognizeBox(image, box) }
+        if (coarseSide <= 0 || coarseSide >= detectionMaxSide) return fine
+        val coarse = detect(image, coarseSide)
+            .filter { it.height >= image.height * COARSE_MIN_HEIGHT }
+            .mapNotNull { box -> recognizeBox(image, box) }
+        return ScaleMerge.merge(fine, coarse)
     }
 
-    /** Detection only, boxes in image pixels: for diagnostics and overlays. */
-    fun detectBoxes(image: RgbImage): List<DbPostProcessor.TextBox> {
-        val detection = detect(image)
-        return detection.boxes.map { box ->
-            DbPostProcessor.TextBox(
-                left = (box.left * detection.scaleX).roundToInt(),
-                top = (box.top * detection.scaleY).roundToInt(),
-                right = (box.right * detection.scaleX).roundToInt(),
-                bottom = (box.bottom * detection.scaleY).roundToInt(),
-                score = box.score,
-            )
-        }
-    }
+    /** Boxes of the fine detector pass, in image pixels: for diagnostics and overlays. */
+    fun detectBoxes(image: RgbImage): List<DbPostProcessor.TextBox> = detect(image, detectionMaxSide)
 
-    private class Detection(val boxes: List<DbPostProcessor.TextBox>, val scaleX: Float, val scaleY: Float)
-
-    private fun detect(image: RgbImage): Detection {
-        val scale = minOf(1f, detectionMaxSide.toFloat() / maxOf(image.width, image.height))
+    /** Boxes found with the image scaled to [maxSide], in image pixels. */
+    private fun detect(image: RgbImage, maxSide: Int): List<DbPostProcessor.TextBox> {
+        val scale = minOf(1f, maxSide.toFloat() / maxOf(image.width, image.height))
         val width = multipleOf32(image.width * scale)
         val height = multipleOf32(image.height * scale)
         val resized = ImageOps.resize(image, width, height)
         val input = ImageOps.toTensor(resized, DET_MEAN, DET_STD)
         val probabilities = run(detector, input, height, width)
-        val boxes = postProcessor.boxes(probabilities, width, height)
-        return Detection(boxes, image.width.toFloat() / width, image.height.toFloat() / height)
+        val sx = image.width.toFloat() / width
+        val sy = image.height.toFloat() / height
+        return postProcessor.boxes(probabilities, width, height).map { box ->
+            DbPostProcessor.TextBox(
+                left = (box.left * sx).roundToInt(),
+                top = (box.top * sy).roundToInt(),
+                right = (box.right * sx).roundToInt(),
+                bottom = (box.bottom * sy).roundToInt(),
+                score = box.score,
+            )
+        }
     }
 
-    private fun recognizeBox(image: RgbImage, detection: Detection, box: DbPostProcessor.TextBox): OcrLine? {
-        val left = (box.left * detection.scaleX).roundToInt()
-        val top = (box.top * detection.scaleY).roundToInt()
-        val right = (box.right * detection.scaleX).roundToInt()
-        val bottom = (box.bottom * detection.scaleY).roundToInt()
+    private fun recognizeBox(image: RgbImage, box: DbPostProcessor.TextBox): OcrLine? {
+        val left = box.left
+        val top = box.top
+        val right = box.right
+        val bottom = box.bottom
         val crop = ImageOps.crop(image, left, top, right, bottom) ?: return null
         val width = (REC_HEIGHT * crop.width.toFloat() / crop.height).roundToInt()
             .coerceIn(REC_MIN_WIDTH, REC_MAX_WIDTH)
@@ -165,23 +172,29 @@ class PaddleOnnxOcrEngine(
 
     private fun multipleOf32(value: Float): Int = maxOf(MULTIPLE, (value / MULTIPLE).roundToInt() * MULTIPLE)
 
-    private companion object {
-        const val DICTIONARY_KEY = "character"
+    companion object {
+        private const val DICTIONARY_KEY = "character"
 
         /** Four intra-op threads saturate a mobile SoC on the detector; more only adds scheduling noise. */
         const val MAX_DEFAULT_THREADS = 4
 
         fun defaultThreads(): Int = Runtime.getRuntime().availableProcessors().coerceIn(1, MAX_DEFAULT_THREADS)
 
-        const val CHANNELS = 3L
-        const val MULTIPLE = 32
+        private const val CHANNELS = 3L
+        private const val MULTIPLE = 32
         const val DET_MAX_SIDE = 960
-        val DET_MEAN = floatArrayOf(0.485f, 0.456f, 0.406f)
-        val DET_STD = floatArrayOf(0.229f, 0.224f, 0.225f)
-        const val REC_HEIGHT = 48
-        const val REC_MIN_WIDTH = 16
-        const val REC_MAX_WIDTH = 2048
-        val REC_MEAN = floatArrayOf(0.5f, 0.5f, 0.5f)
-        val REC_STD = floatArrayOf(0.5f, 0.5f, 0.5f)
+
+        /** Price digits half the tag tall are the size the detector knows at this input. */
+        const val COARSE_SIDE = 480
+
+        /** Only coarse boxes this tall (share of the image height) are read: they are the price digits. */
+        private const val COARSE_MIN_HEIGHT = 0.1f
+        private val DET_MEAN = floatArrayOf(0.485f, 0.456f, 0.406f)
+        private val DET_STD = floatArrayOf(0.229f, 0.224f, 0.225f)
+        private const val REC_HEIGHT = 48
+        private const val REC_MIN_WIDTH = 16
+        private const val REC_MAX_WIDTH = 2048
+        private val REC_MEAN = floatArrayOf(0.5f, 0.5f, 0.5f)
+        private val REC_STD = floatArrayOf(0.5f, 0.5f, 0.5f)
     }
 }

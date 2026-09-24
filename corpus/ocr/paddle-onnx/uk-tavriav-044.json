@@ -180,16 +180,6 @@
         "confidence": 0.9665
     },
     {
-        "text": "103",
-        "box": {
-            "left": 0.5436,
-            "top": 0.4911,
-            "right": 0.6842,
-            "bottom": 0.6414
-        },
-        "confidence": 0.9955
-    },
-    {
         "text": "-11%",
         "box": {
             "left": 0.1836,
@@ -218,5 +208,15 @@
             "bottom": 0.7307
         },
         "confidence": 0.9979
+    },
+    {
+        "text": "10340",
+        "box": {
+            "left": 0.5456,
+            "top": 0.4911,
+            "right": 0.6855,
+            "bottom": 0.6429
+        },
+        "confidence": 0.8961
     }
 ]

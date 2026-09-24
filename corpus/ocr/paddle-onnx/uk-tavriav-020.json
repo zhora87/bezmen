@@ -58,5 +58,15 @@
             "bottom": 0.8502
         },
         "confidence": 0.999
+    },
+    {
+        "text": "79",
+        "box": {
+            "left": 0.2002,
+            "top": 0.1544,
+            "right": 0.7122,
+            "bottom": 0.5585
+        },
+        "confidence": 0.9986
     }
 ]

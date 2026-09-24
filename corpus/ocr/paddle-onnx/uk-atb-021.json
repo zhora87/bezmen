@@ -110,16 +110,6 @@
         "confidence": 0.999
     },
     {
-        "text": "486",
-        "box": {
-            "left": 0.1385,
-            "top": 0.6039,
-            "right": 0.4118,
-            "bottom": 0.8374
-        },
-        "confidence": 0.7537
-    },
-    {
         "text": "рпн/",
         "box": {
             "left": 0.7531,
@@ -138,5 +128,15 @@
             "bottom": 0.8325
         },
         "confidence": 0.8555
+    },
+    {
+        "text": "4860",
+        "box": {
+            "left": 0.1455,
+            "top": 0.6002,
+            "right": 0.4063,
+            "bottom": 0.8191
+        },
+        "confidence": 0.9076
     }
 ]

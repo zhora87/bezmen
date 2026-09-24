@@ -31,7 +31,13 @@ private val json = Json {
     ignoreUnknownKeys = true
 }
 
-private class DumpOptions(val corpus: File, val pack: String?, val ids: Set<String>, val detSide: Int?)
+private class DumpOptions(
+    val corpus: File,
+    val pack: String?,
+    val ids: Set<String>,
+    val detSide: Int?,
+    val coarseSide: Int?,
+)
 
 fun main(args: Array<String>) {
     val options = parse(args) ?: run {
@@ -45,7 +51,8 @@ fun main(args: Array<String>) {
         exitProcess(EXIT_USAGE)
     }
     // A non-default detector size writes to its own set, e.g. ocr/paddle-onnx-det640/.
-    val engineDir = options.detSide?.let { "$ENGINE-det$it" } ?: ENGINE
+    val suffix = listOfNotNull(options.detSide?.let { "det$it" }, options.coarseSide?.let { "coarse$it" })
+    val engineDir = if (suffix.isEmpty()) ENGINE else "$ENGINE-${suffix.joinToString("-")}"
     val out = File(options.corpus, "ocr/$engineDir").apply { mkdirs() }
     val engines = mutableMapOf<String, PaddleOnnxOcrEngine>()
     try {
@@ -53,8 +60,12 @@ fun main(args: Array<String>) {
             val engine = engines.getOrPut(packId) {
                 val script = loadPack(packId).script
                 val store = FileModelStore(modelsDir)
-                options.detSide?.let { PaddleOnnxOcrEngine(store, script, detectionMaxSide = it) }
-                    ?: PaddleOnnxOcrEngine(store, script)
+                PaddleOnnxOcrEngine(
+                    store,
+                    script,
+                    detectionMaxSide = options.detSide ?: PaddleOnnxOcrEngine.DET_MAX_SIDE,
+                    coarseSide = options.coarseSide ?: PaddleOnnxOcrEngine.COARSE_SIDE,
+                )
             }
             var lines: List<OcrLine> = emptyList()
             val ms = measureTimeMillis { lines = engine.recognize(ImageIO.read(photo).toRgb()).map(::rounded) }
@@ -66,7 +77,7 @@ fun main(args: Array<String>) {
     }
 }
 
-private val OPTIONS = setOf("--pack", "--ids", "--det-side")
+private val OPTIONS = setOf("--pack", "--ids", "--det-side", "--coarse-side")
 
 /** `<corpus> [--name value]...`; null on anything unknown, a missing value or a bad number. */
 private fun parse(args: Array<String>): DumpOptions? {
@@ -75,11 +86,13 @@ private fun parse(args: Array<String>): DumpOptions? {
     val valid = corpus != null && pairs.all { it.size == 2 && it[0] in OPTIONS }
     val values = pairs.associate { it[0] to it.getOrElse(1) { "" } }
     val detSide = values["--det-side"]?.let { it.toIntOrNull() ?: 0 }
-    return if (!valid || (detSide != null && detSide <= 0)) {
+    val coarseSide = values["--coarse-side"]?.let { it.toIntOrNull() ?: -1 }
+    val sizesOk = (detSide == null || detSide > 0) && (coarseSide == null || coarseSide >= 0)
+    return if (!valid || !sizesOk) {
         null
     } else {
         val ids = values["--ids"].orEmpty().split(',').map { it.trim() }.filter { it.isNotEmpty() }.toSet()
-        DumpOptions(File(corpus), values["--pack"], ids, detSide)
+        DumpOptions(File(corpus), values["--pack"], ids, detSide, coarseSide)
     }
 }
 

@@ -128,6 +128,16 @@ stays the default. The instrumented test
 `OcrDeviceTest` in `androidApp` reproduces the table and rewrites its report after every
 configuration.
 
+### Two detector scales
+
+The detector was trained on text of ordinary size. Price digits half the tag tall, above all the
+italic ones of Tavria V tags, are found in pieces or not at all at the 960 px input ("48" as "8",
+"177" as "17"), and a larger input makes it worse. The engine therefore runs the detector a second
+time at 480 px and reads only the tall boxes of that pass. `ScaleMerge` puts a coarse line in place
+of the fine lines it overlaps only when it reads more digits than they do, or when the fine pass
+found nothing there; small print stays with the fine pass. The coarse pass costs about a quarter of
+the fine one.
+
 ### Reading the recognition dictionary
 
 The character dictionary lives in the recognition model's ONNX metadata (`character`). The engine
