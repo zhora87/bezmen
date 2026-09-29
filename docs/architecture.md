@@ -211,8 +211,8 @@ before installation, in a release that adds the network permission explicitly an
 - APKs are split per ABI (arm64-v8a, armeabi-v7a, x86_64): ONNX Runtime carries 22 to 38 MB of
   native code per architecture, the models add about 20 MB. A release APK for arm64-v8a is
   about 50 MB.
-- Releases: a tag builds release variants, signing happens outside CI, APKs and checksums are
-  attached to GitHub Releases. `fastlane/metadata` carries store listings for F-Droid and Play.
+- Releases: a tag builds unsigned release APKs of both flavors, signing happens on the
+  maintainer's machine, signed APKs and checksums are attached to GitHub Releases (docs/release.md).
 - `:androidApp:connectedFossDebugAndroidTest` runs `OcrDeviceTest` on an attached phone: the
   models load from the APK, execution providers are benchmarked and, when `corpus/images/` is
   present locally, the whole pipeline is scored over the corpus. It is not part of CI.

@@ -1,5 +1,6 @@
 import com.android.build.api.artifact.SingleArtifact
 import org.jetbrains.kotlin.gradle.dsl.JvmTarget
+import java.util.Properties
 import javax.inject.Inject
 
 plugins {
@@ -38,8 +39,9 @@ android {
         applicationId = "io.github.zhora87.bezmen"
         minSdk = libs.versions.android.minSdk.get().toInt()
         targetSdk = libs.versions.android.targetSdk.get().toInt()
-        versionCode = 1
-        versionName = "0.1.0-dev"
+        // Set by the release workflow from the tag: -Pbezmen.versionName=0.1.0 -Pbezmen.versionCode=100.
+        versionCode = (findProperty("bezmen.versionCode") as String?)?.toInt() ?: 1
+        versionName = findProperty("bezmen.versionName") as String? ?: "0.1.0-dev"
         testInstrumentationRunner = "androidx.test.runner.AndroidJUnitRunner"
     }
 
@@ -71,11 +73,28 @@ android {
         }
     }
 
+    // Release signing is optional and local: keystore.properties (git-ignored) next to this file
+    // with storeFile, storePassword, keyAlias, keyPassword. CI has no keystore and builds unsigned
+    // APKs; tools/release/sign.sh signs them afterwards (docs/release.md).
+    val keystoreProperties = file("keystore.properties")
+    if (keystoreProperties.isFile) {
+        val props = Properties().apply { keystoreProperties.inputStream().use { load(it) } }
+        signingConfigs {
+            create("release") {
+                storeFile = file(props.getProperty("storeFile"))
+                storePassword = props.getProperty("storePassword")
+                keyAlias = props.getProperty("keyAlias")
+                keyPassword = props.getProperty("keyPassword")
+            }
+        }
+    }
+
     buildTypes {
         getByName("release") {
             isMinifyEnabled = true
             isShrinkResources = true
             proguardFiles(getDefaultProguardFile("proguard-android-optimize.txt"), "proguard-rules.pro")
+            if (keystoreProperties.isFile) signingConfig = signingConfigs.getByName("release")
         }
     }
 

@@ -3,7 +3,7 @@
 Offline price tag scanner for Android. Point the camera at a shelf tag, get the honest price per
 100 g / 100 ml / piece, and compare several products side by side.
 
-**Status:** early development. Nothing to install yet.
+**Status:** early development, first release in preparation. Nothing to install yet.
 
 ## Principles
 
@@ -30,6 +30,7 @@ listed in `models.lock` and verifies their checksums. See [CONTRIBUTING.md](CONT
 
 ## Documentation
 
+- [docs/release.md](docs/release.md): how a version is built, signed and published.
 - [docs/architecture.md](docs/architecture.md): pipeline, modules, engines and flavors, models and
   licences, permissions, build and CI, design decisions.
 - [docs/parsing.md](docs/parsing.md): how OCR lines become a price per unit, locale pack format,

@@ -1,0 +1,5 @@
+Bezmen reads a shelf price tag with the camera and shows the honest price per kilogram, litre or piece. Shoot a few tags of the same product and see which pack is really cheaper.
+
+Everything runs on the phone. The app has no internet access, no ads and no accounts; photos never leave the device.
+
+Ukrainian and Russian price tags are supported. Whatever recognition gets wrong is a tap away from being fixed.
