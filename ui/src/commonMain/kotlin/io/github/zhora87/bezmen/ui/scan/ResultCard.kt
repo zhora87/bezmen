@@ -1,5 +1,6 @@
 package io.github.zhora87.bezmen.ui.scan
 
+import androidx.compose.foundation.horizontalScroll
 import androidx.compose.foundation.layout.Arrangement
 import androidx.compose.foundation.layout.Column
 import androidx.compose.foundation.layout.Row
@@ -17,10 +18,15 @@ import androidx.compose.material3.FilterChip
 import androidx.compose.material3.MaterialTheme
 import androidx.compose.material3.OutlinedButton
 import androidx.compose.material3.OutlinedTextField
+import androidx.compose.material3.SuggestionChip
 import androidx.compose.material3.Surface
 import androidx.compose.material3.Text
 import androidx.compose.runtime.Composable
+import androidx.compose.runtime.LaunchedEffect
+import androidx.compose.runtime.remember
 import androidx.compose.ui.Modifier
+import androidx.compose.ui.focus.FocusRequester
+import androidx.compose.ui.focus.focusRequester
 import androidx.compose.ui.semantics.heading
 import androidx.compose.ui.semantics.semantics
 import androidx.compose.ui.text.input.KeyboardType
@@ -150,6 +156,17 @@ private fun Fields(draft: TagDraft, currencySymbol: String, onEdit: (TagDraft) -
             modifier = Modifier.fillMaxWidth(),
         )
     }
+    QuantityFields(draft, onEdit)
+}
+
+/** Quantity, one-tap package sizes and the unit picker. */
+@Composable
+private fun QuantityFields(draft: TagDraft, onEdit: (TagDraft) -> Unit) {
+    // A missed quantity is the common case to fix by hand: the field gets the focus and the keyboard at once.
+    val quantityFocus = remember { FocusRequester() }
+    LaunchedEffect(Unit) {
+        if (draft.quantity == null && draft.price != null) quantityFocus.requestFocus()
+    }
     OutlinedTextField(
         value = draft.quantityText,
         onValueChange = { onEdit(draft.copy(quantityText = it)) },
@@ -157,8 +174,19 @@ private fun Fields(draft: TagDraft, currencySymbol: String, onEdit: (TagDraft) -
         isError = FieldKind.QUANTITY in draft.missing,
         keyboardOptions = KeyboardOptions(keyboardType = KeyboardType.Decimal),
         singleLine = true,
-        modifier = Modifier.fillMaxWidth(),
+        modifier = Modifier.fillMaxWidth().focusRequester(quantityFocus),
     )
+    Row(
+        modifier = Modifier.fillMaxWidth().horizontalScroll(rememberScrollState()),
+        horizontalArrangement = Arrangement.spacedBy(8.dp),
+    ) {
+        QuantitySuggestions.forDraft(draft).forEach { suggestion ->
+            SuggestionChip(
+                onClick = { onEdit(draft.withQuantity(suggestion)) },
+                label = { Text(QuantityInput.format(suggestion.value) + " " + unitLabel(suggestion.unit)) },
+            )
+        }
+    }
     Row(horizontalArrangement = Arrangement.spacedBy(8.dp)) {
         PICKER_UNITS.forEach { unit ->
             FilterChip(
