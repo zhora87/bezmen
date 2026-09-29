@@ -14,6 +14,9 @@ import io.github.zhora87.bezmen.ocr.image.FrameOps
 import io.github.zhora87.bezmen.ocr.image.ViewfinderFrame
 import io.github.zhora87.bezmen.ocr.paddle.AssetModelStore
 import io.github.zhora87.bezmen.ocr.paddle.PaddleOnnxOcrEngine
+import io.github.zhora87.bezmen.ui.AppScreen
+import io.github.zhora87.bezmen.ui.compare.ComparisonController
+import io.github.zhora87.bezmen.ui.compare.JsonComparisonStore
 import io.github.zhora87.bezmen.ui.scan.CaptureOutcome
 import io.github.zhora87.bezmen.ui.scan.ScanController
 import io.github.zhora87.bezmen.ui.scan.ScanState
@@ -21,8 +24,12 @@ import kotlinx.coroutines.CancellationException
 import kotlinx.coroutines.Dispatchers
 import kotlinx.coroutines.ExperimentalCoroutinesApi
 import kotlinx.coroutines.async
+import kotlinx.coroutines.flow.MutableStateFlow
+import kotlinx.coroutines.flow.StateFlow
+import kotlinx.coroutines.flow.asStateFlow
 import kotlinx.coroutines.launch
 import kotlinx.coroutines.withContext
+import java.io.File
 
 /**
  * Owns the scan pipeline for the activity's lifetime: the locale pack, the OCR engine (loaded in the
@@ -39,6 +46,28 @@ class ScanViewModel(app: Application) : AndroidViewModel(app) {
     }
 
     val controller = ScanController(viewModelScope, PriceTagParser(pack), pack.currency.code, ::capture)
+
+    private val comparisonFile = File(app.filesDir, "comparison.json")
+    val comparison = ComparisonController(
+        viewModelScope,
+        JsonComparisonStore(
+            read = { withContext(Dispatchers.IO) { comparisonFile.takeIf { it.isFile }?.readText() } },
+            write = { text -> withContext(Dispatchers.IO) { comparisonFile.writeText(text) } },
+        ),
+    )
+
+    private val mutableScreen = MutableStateFlow(AppScreen.SCAN)
+    val screen: StateFlow<AppScreen> = mutableScreen.asStateFlow()
+
+    fun open(screen: AppScreen) {
+        mutableScreen.value = screen
+    }
+
+    /** Puts the reviewed tag into the comparison list and returns to the viewfinder for the next one. */
+    fun addToComparison() {
+        val draft = (controller.state.value as? ScanState.Result)?.draft ?: return
+        if (comparison.add(draft)) controller.onRetake()
+    }
 
     init {
         if (BuildConfig.DEBUG) {

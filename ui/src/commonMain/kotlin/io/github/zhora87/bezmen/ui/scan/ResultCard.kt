@@ -15,6 +15,7 @@ import androidx.compose.material3.Card
 import androidx.compose.material3.CardDefaults
 import androidx.compose.material3.FilterChip
 import androidx.compose.material3.MaterialTheme
+import androidx.compose.material3.OutlinedButton
 import androidx.compose.material3.OutlinedTextField
 import androidx.compose.material3.Surface
 import androidx.compose.material3.Text
@@ -26,6 +27,7 @@ import androidx.compose.ui.text.input.KeyboardType
 import androidx.compose.ui.unit.dp
 import io.github.zhora87.bezmen.domain.parser.FieldKind
 import io.github.zhora87.bezmen.ui.resources.Res
+import io.github.zhora87.bezmen.ui.resources.action_add_to_compare
 import io.github.zhora87.bezmen.ui.resources.action_retake
 import io.github.zhora87.bezmen.ui.resources.field_card_price
 import io.github.zhora87.bezmen.ui.resources.field_name
@@ -41,7 +43,13 @@ import org.jetbrains.compose.resources.stringResource
 
 /** The recognised tag: the unit price in large type, then every field editable in place. */
 @Composable
-fun ResultCard(draft: TagDraft, currencySymbol: String, onEdit: (TagDraft) -> Unit, onRetake: () -> Unit) {
+fun ResultCard(
+    draft: TagDraft,
+    currencySymbol: String,
+    onEdit: (TagDraft) -> Unit,
+    onRetake: () -> Unit,
+    onAddToComparison: () -> Unit,
+) {
     Surface(Modifier.fillMaxSize()) {
         Column(
             modifier = Modifier.safeDrawingPadding().verticalScroll(rememberScrollState()).padding(20.dp),
@@ -51,7 +59,14 @@ fun ResultCard(draft: TagDraft, currencySymbol: String, onEdit: (TagDraft) -> Un
             if (draft.needsCheck) CheckBanner()
             draft.oldPrice?.let { Text(stringResource(Res.string.result_old_price, it.withSymbol(currencySymbol))) }
             Fields(draft, currencySymbol, onEdit)
-            Button(onClick = onRetake, modifier = Modifier.fillMaxWidth()) {
+            Button(
+                onClick = onAddToComparison,
+                enabled = draft.displayPrice() != null,
+                modifier = Modifier.fillMaxWidth(),
+            ) {
+                Text(stringResource(Res.string.action_add_to_compare))
+            }
+            OutlinedButton(onClick = onRetake, modifier = Modifier.fillMaxWidth()) {
                 Text(stringResource(Res.string.action_retake))
             }
         }

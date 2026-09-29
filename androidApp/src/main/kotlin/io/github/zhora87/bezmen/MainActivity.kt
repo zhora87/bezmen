@@ -7,6 +7,7 @@ import android.net.Uri
 import android.os.Bundle
 import android.provider.Settings
 import androidx.activity.ComponentActivity
+import androidx.activity.compose.BackHandler
 import androidx.activity.compose.setContent
 import androidx.activity.enableEdgeToEdge
 import androidx.activity.result.contract.ActivityResultContracts
@@ -22,10 +23,14 @@ import androidx.compose.runtime.setValue
 import androidx.compose.ui.viewinterop.AndroidView
 import androidx.core.content.ContextCompat
 import androidx.lifecycle.compose.LocalLifecycleOwner
+import io.github.zhora87.bezmen.ui.AppScreen
 import io.github.zhora87.bezmen.ui.BezmenTheme
 import io.github.zhora87.bezmen.ui.PermissionScreen
+import io.github.zhora87.bezmen.ui.compare.ComparisonActions
+import io.github.zhora87.bezmen.ui.compare.ComparisonScreen
 import io.github.zhora87.bezmen.ui.scan.ScanActions
 import io.github.zhora87.bezmen.ui.scan.ScanScreen
+import io.github.zhora87.bezmen.ui.scan.Viewfinder
 
 class MainActivity : ComponentActivity() {
     private val viewModel: ScanViewModel by viewModels()
@@ -68,14 +73,36 @@ class MainActivity : ComponentActivity() {
 
 @Composable
 private fun ScanRoute(viewModel: ScanViewModel) {
+    val screen by viewModel.screen.collectAsState()
+    val comparison by viewModel.comparison.state.collectAsState()
+    if (screen == AppScreen.COMPARE) {
+        BackHandler { viewModel.open(AppScreen.SCAN) }
+        val actions = remember(viewModel) {
+            ComparisonActions(
+                onRemove = viewModel.comparison::remove,
+                onClear = viewModel.comparison::clear,
+                onShootMore = { viewModel.open(AppScreen.SCAN) },
+            )
+        }
+        ComparisonScreen(comparison, viewModel.currencySymbol, actions)
+        return
+    }
     val state by viewModel.controller.state.collectAsState()
     val controller = viewModel.controller
-    val actions = remember(controller) { ScanActions(controller::onShutter, controller::onRetake, controller::onEdit) }
+    val actions = remember(viewModel) {
+        ScanActions(
+            onShutter = controller::onShutter,
+            onRetake = controller::onRetake,
+            onEdit = controller::onEdit,
+            onAddToComparison = viewModel::addToComparison,
+            onOpenComparison = { viewModel.open(AppScreen.COMPARE) },
+        )
+    }
     ScanScreen(
         state = state,
-        frameWidth = viewModel.frame.widthFraction,
-        frameHeight = viewModel.frame.heightFraction,
+        frame = Viewfinder(viewModel.frame.widthFraction, viewModel.frame.heightFraction),
         currencySymbol = viewModel.currencySymbol,
+        comparisonCount = comparison.items.size,
         actions = actions,
     ) { modifier ->
         val owner = LocalLifecycleOwner.current

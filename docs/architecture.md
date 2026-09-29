@@ -31,10 +31,13 @@ PriceTagParser.parse(lines, localePack) ──► ParseResult
 ScanController ──► TagDraft: price, quantity, name as editable text; unit price recomputed on edit
    │
    ▼
-UI: result card (per 100 g / 100 ml / piece), comparison list
+UI: result card (per 100 g / 100 ml / piece) ──► "add to comparison"
    │
    ▼
-local storage: comparison sessions (Room), settings (DataStore)
+ComparisonController ──► Comparison.rank: cheapest per unit first, other dimensions marked
+   │
+   ▼
+local storage: the comparison list as one JSON file in app-private storage; settings (DataStore) later
 ```
 
 The shot is taken on demand, not from a live stream: recognition takes 0.5 s on a recent phone and
@@ -54,7 +57,6 @@ androidApp/      Android application: product flavors, manifest, CameraX, depend
 ui/              Compose Multiplatform UI (Kotlin Multiplatform library)
 core/domain/     pure Kotlin: models, PriceTagParser, units, unit price, locale packs, comparison
 core/ocr/        OcrEngine contract and implementations
-core/data/       Room and DataStore (added with the app screens)
 locale-packs/    JSON packs and their schema
 corpus/          OCR dumps and expected values used as a regression corpus
 tools/parser-cli JVM runner: parser accuracy over the corpus
@@ -227,6 +229,9 @@ before installation, in a release that adds the network permission explicitly an
   of the interface language.
 - Corpus photos are not versioned; the repository keeps OCR dumps and expected values, which is
   all the parser and CI need.
+- The comparison list is one JSON document in app-private storage, not a database: it holds a
+  handful of items from one shopping trip and is rewritten whole on every change. A database comes
+  with saved sessions, if they turn out to be wanted.
 
 ## Not in scope yet
 

@@ -28,6 +28,22 @@
     <string name="permission_grant">Разрешить камеру</string>
     <string name="permission_settings">Открыть настройки</string>
 
+    <string name="compare_title">Сравнение</string>
+    <string name="compare_count">Сравнение: %1$d</string>
+    <string name="compare_empty">Пока пусто. Снимите два ценника и добавьте их в сравнение.</string>
+    <string name="compare_unnamed">Без названия</string>
+    <string name="compare_cheapest">дешевле всех</string>
+    <string name="compare_dearer">дороже на %1$d %%</string>
+    <string name="compare_not_comparable">не сравнить: другая единица</string>
+    <string name="compare_clear_title">Очистить список?</string>
+    <string name="compare_clear_text">Все позиции будут удалены.</string>
+    <string name="action_add_to_compare">В сравнение</string>
+    <string name="action_shoot_more">Снять ещё</string>
+    <string name="action_clear">Очистить</string>
+    <string name="action_delete">Удалить</string>
+    <string name="action_cancel">Отмена</string>
+    <string name="action_back">Назад</string>
+
     <string name="unit_mg">мг</string>
     <string name="unit_g">г</string>
     <string name="unit_kg">кг</string>

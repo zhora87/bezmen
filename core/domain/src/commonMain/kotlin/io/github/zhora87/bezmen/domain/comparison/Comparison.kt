@@ -5,8 +5,10 @@ import io.github.zhora87.bezmen.domain.Money
 import io.github.zhora87.bezmen.domain.Quantity
 import io.github.zhora87.bezmen.domain.UnitPrice
 import io.github.zhora87.bezmen.domain.UnitPriceCalculator
+import kotlinx.serialization.Serializable
 
 /** One scanned product in a comparison session. */
+@Serializable
 data class ComparisonItem(val id: String, val name: String?, val price: Money, val quantity: Quantity) {
     val unitPrice: UnitPrice get() = UnitPriceCalculator.calculate(price, quantity)
 }
