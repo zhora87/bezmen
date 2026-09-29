@@ -37,7 +37,7 @@ class TagDraftTest {
         assertEquals(MeasureUnit.MILLILITRE, draft.unit)
         assertEquals("Молоко 2,5%", draft.name)
         assertFalse(draft.needsCheck)
-        assertEquals(Money(554, "UAH"), draft.displayPrice()?.amount)
+        assertEquals(Money(5544, "UAH"), draft.displayPrice()?.amount)
     }
 
     @Test
@@ -65,8 +65,8 @@ class TagDraftTest {
         val draft = TagDraft.from(result, "UAH").copy(quantityText = "1", unit = MeasureUnit.LITRE)
 
         assertEquals(emptySet(), draft.missing)
-        assertEquals(Money(499, "UAH"), draft.displayPrice()?.amount)
-        assertEquals(Quantity(100.0, MeasureUnit.MILLILITRE), draft.displayPrice()?.reference)
+        assertEquals(Money(4990, "UAH"), draft.displayPrice()?.amount)
+        assertEquals(Quantity(1.0, MeasureUnit.LITRE), draft.displayPrice()?.reference)
     }
 
     @Test
@@ -114,8 +114,8 @@ class TagDraftTest {
         val draft = TagDraft.from(success(tag, 0.9f), "UAH")
 
         assertEquals("85,41", draft.cardPriceText)
-        assertEquals(Money(2157, "UAH"), draft.displayPrice()?.amount)
-        assertEquals(Money(1941, "UAH"), draft.displayCardPrice()?.amount)
+        assertEquals(Money(21568, "UAH"), draft.displayPrice()?.amount)
+        assertEquals(Money(19411, "UAH"), draft.displayCardPrice()?.amount)
     }
 
     @Test

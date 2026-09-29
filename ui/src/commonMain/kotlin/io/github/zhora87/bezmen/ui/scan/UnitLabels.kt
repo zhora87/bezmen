@@ -39,7 +39,7 @@ private fun MeasureUnit.label(): StringResource = when (this) {
 @Composable
 fun unitLabel(unit: MeasureUnit): String = stringResource(unit.label())
 
-/** "за 100 г", "за 1 шт". */
+/** "за 1 кг", "за 1 шт". */
 @Composable
 fun perReference(reference: Quantity): String =
     stringResource(Res.string.result_per, QuantityInput.format(reference.value), unitLabel(reference.unit))

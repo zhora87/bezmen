@@ -104,7 +104,8 @@ An `overall` below `ParseResult.CONFIRM_THRESHOLD` (0.75) means the UI shows the
 | VOLUME | ml | ml 1; cl 10; l 1000 |
 | COUNT | piece | piece 1; pair 2; dozen 12 |
 
-Display defaults: 100 g, 100 ml, 1 piece; settings switch to 1 kg and 1 l. Quantities of different
+Display defaults: 1 kg, 1 l, 1 piece, the amounts people price goods by; a settings switch to
+100 g and 100 ml is planned. Weighted goods keep the reference printed on the tag. Quantities of different
 dimensions are not compared; such items are marked as not comparable in a comparison list.
 
 ## Locale pack format

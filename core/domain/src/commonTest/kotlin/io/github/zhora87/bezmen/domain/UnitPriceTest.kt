@@ -47,8 +47,8 @@ class UnitPriceTest {
 
     @Test
     fun `default display references per dimension`() {
-        assertEquals(References.PER_100_G, References.defaultFor(Dimension.MASS))
-        assertEquals(References.PER_100_ML, References.defaultFor(Dimension.VOLUME))
+        assertEquals(References.PER_1_KG, References.defaultFor(Dimension.MASS))
+        assertEquals(References.PER_1_L, References.defaultFor(Dimension.VOLUME))
         assertEquals(References.PER_PIECE, References.defaultFor(Dimension.COUNT))
     }
 }

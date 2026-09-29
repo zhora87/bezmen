@@ -1,7 +1,7 @@
 # Architecture
 
-Bezmen reads a shelf price tag with the phone camera and turns it into a price per 100 g,
-100 ml or piece, entirely on the device. This document describes how the pieces fit together.
+Bezmen reads a shelf price tag with the phone camera and turns it into a price per 1 kg,
+1 l or piece, entirely on the device. This document describes how the pieces fit together.
 
 ## Principles
 
@@ -31,7 +31,7 @@ PriceTagParser.parse(lines, localePack) ──► ParseResult
 ScanController ──► TagDraft: price, quantity, name as editable text; unit price recomputed on edit
    │
    ▼
-UI: result card (per 100 g / 100 ml / piece) ──► "add to comparison"
+UI: result card (per 1 kg / 1 l / piece) ──► "add to comparison"
    │
    ▼
 ComparisonController ──► Comparison.rank: cheapest per unit first, other dimensions marked

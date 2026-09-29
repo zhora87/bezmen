@@ -40,10 +40,13 @@ object References {
     val PER_1_L = Quantity(1.0, MeasureUnit.LITRE)
     val PER_PIECE = Quantity(1.0, MeasureUnit.PIECE)
 
-    /** The default display reference for a dimension: 100 g, 100 ml, 1 piece. */
+    /**
+     * The default display reference for a dimension: 1 kg, 1 l, 1 piece, the amounts people price
+     * goods by. 100 g and 100 ml stay available for a settings switch.
+     */
     fun defaultFor(dimension: Dimension): Quantity = when (dimension) {
-        Dimension.MASS -> PER_100_G
-        Dimension.VOLUME -> PER_100_ML
+        Dimension.MASS -> PER_1_KG
+        Dimension.VOLUME -> PER_1_L
         Dimension.COUNT -> PER_PIECE
     }
 }
