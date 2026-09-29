@@ -12,7 +12,7 @@ import java.io.File
  * Nothing leaves the phone; the directory is removed with the app.
  */
 internal object DebugShots {
-    private const val MAX_SHOTS = 50
+    private const val MAX_SHOTS = 150
     private const val JPEG_QUALITY = 92
     private const val OPAQUE = 0xFF000000.toInt()
 
