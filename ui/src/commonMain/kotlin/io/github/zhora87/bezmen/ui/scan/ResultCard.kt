@@ -31,6 +31,7 @@ import androidx.compose.ui.semantics.heading
 import androidx.compose.ui.semantics.semantics
 import androidx.compose.ui.text.input.KeyboardType
 import androidx.compose.ui.unit.dp
+import io.github.zhora87.bezmen.domain.DisplayUnits
 import io.github.zhora87.bezmen.domain.parser.FieldKind
 import io.github.zhora87.bezmen.ui.resources.Res
 import io.github.zhora87.bezmen.ui.resources.action_add_to_compare
@@ -52,6 +53,7 @@ import org.jetbrains.compose.resources.stringResource
 fun ResultCard(
     draft: TagDraft,
     currencySymbol: String,
+    units: DisplayUnits,
     onEdit: (TagDraft) -> Unit,
     onRetake: () -> Unit,
     onAddToComparison: () -> Unit,
@@ -61,7 +63,7 @@ fun ResultCard(
             modifier = Modifier.safeDrawingPadding().verticalScroll(rememberScrollState()).padding(20.dp),
             verticalArrangement = Arrangement.spacedBy(14.dp),
         ) {
-            UnitPriceHeader(draft, currencySymbol)
+            UnitPriceHeader(draft, currencySymbol, units)
             if (draft.needsCheck) CheckBanner()
             draft.oldPrice?.let { Text(stringResource(Res.string.result_old_price, it.withSymbol(currencySymbol))) }
             Fields(draft, currencySymbol, onEdit)
@@ -80,8 +82,8 @@ fun ResultCard(
 }
 
 @Composable
-private fun UnitPriceHeader(draft: TagDraft, currencySymbol: String) {
-    val shown = draft.displayPrice()
+private fun UnitPriceHeader(draft: TagDraft, currencySymbol: String, units: DisplayUnits) {
+    val shown = draft.displayPrice(units)
     if (shown == null) {
         val hint = when (FieldKind.PRICE) {
             in draft.missing -> Res.string.result_need_price
@@ -94,7 +96,7 @@ private fun UnitPriceHeader(draft: TagDraft, currencySymbol: String) {
         Text(shown.amount.withSymbol(currencySymbol), style = MaterialTheme.typography.displayMedium)
         Text(perReference(shown.reference), style = MaterialTheme.typography.titleLarge)
     }
-    draft.displayCardPrice()?.let { card ->
+    draft.displayCardPrice(units)?.let { card ->
         Text(
             stringResource(
                 Res.string.result_card_price,

@@ -9,6 +9,7 @@ import androidx.lifecycle.viewModelScope
 import io.github.zhora87.bezmen.camera.SharpFrame
 import io.github.zhora87.bezmen.camera.TagCamera
 import io.github.zhora87.bezmen.domain.LocalePack
+import io.github.zhora87.bezmen.domain.Script
 import io.github.zhora87.bezmen.domain.parser.PriceTagParser
 import io.github.zhora87.bezmen.ocr.image.FrameOps
 import io.github.zhora87.bezmen.ocr.image.ViewfinderFrame
@@ -20,13 +21,20 @@ import io.github.zhora87.bezmen.ui.compare.JsonComparisonStore
 import io.github.zhora87.bezmen.ui.scan.CaptureOutcome
 import io.github.zhora87.bezmen.ui.scan.ScanController
 import io.github.zhora87.bezmen.ui.scan.ScanState
+import io.github.zhora87.bezmen.ui.settings.JsonSettingsStore
+import io.github.zhora87.bezmen.ui.settings.SettingsController
 import kotlinx.coroutines.CancellationException
+import kotlinx.coroutines.Deferred
 import kotlinx.coroutines.Dispatchers
 import kotlinx.coroutines.ExperimentalCoroutinesApi
 import kotlinx.coroutines.async
 import kotlinx.coroutines.flow.MutableStateFlow
+import kotlinx.coroutines.flow.SharingStarted
 import kotlinx.coroutines.flow.StateFlow
 import kotlinx.coroutines.flow.asStateFlow
+import kotlinx.coroutines.flow.distinctUntilChanged
+import kotlinx.coroutines.flow.map
+import kotlinx.coroutines.flow.stateIn
 import kotlinx.coroutines.launch
 import kotlinx.coroutines.withContext
 import java.io.File
@@ -37,23 +45,38 @@ import java.io.File
  */
 class ScanViewModel(app: Application) : AndroidViewModel(app) {
     val frame = ViewfinderFrame.PRICE_TAG
-    val pack: LocalePack = LocalePacks.load(app.assets, LocalePacks.defaultId(app))
-    val currencySymbol: String = pack.currency.symbols.first()
     val camera = TagCamera(app, frame)
 
-    private val engine = viewModelScope.async(Dispatchers.Default) {
-        PaddleOnnxOcrEngine(AssetModelStore(app.assets), pack.script)
-    }
+    /** The pack the phone's country picks; settings may override it. */
+    val autoPackId: String = LocalePacks.defaultId(app)
 
-    val controller = ScanController(viewModelScope, PriceTagParser(pack), pack.currency.code, ::capture)
+    val settings = SettingsController(
+        viewModelScope,
+        JsonSettingsStore(fileReader("settings.json"), fileWriter("settings.json"))
+    )
 
-    private val comparisonFile = File(app.filesDir, "comparison.json")
+    /** Packs are small JSON assets, so the current one is simply reloaded when settings change it. */
+    val pack: StateFlow<LocalePack> = settings.state
+        .map { it.packId ?: autoPackId }
+        .distinctUntilChanged()
+        .map { LocalePacks.load(app.assets, it) }
+        .stateIn(viewModelScope, SharingStarted.Eagerly, LocalePacks.load(app.assets, autoPackId))
+
+    private val models = AssetModelStore(app.assets)
+
+    /** One engine per script, loaded on first use; the current pack's script is loaded right away. */
+    private val engines = mutableMapOf<Script, Deferred<PaddleOnnxOcrEngine>>()
+
+    val controller = ScanController(
+        viewModelScope,
+        parser = { PriceTagParser(pack.value) },
+        currency = { pack.value.currency.code },
+        capture = ::capture,
+    )
+
     val comparison = ComparisonController(
         viewModelScope,
-        JsonComparisonStore(
-            read = { withContext(Dispatchers.IO) { comparisonFile.takeIf { it.isFile }?.readText() } },
-            write = { text -> withContext(Dispatchers.IO) { comparisonFile.writeText(text) } },
-        ),
+        JsonComparisonStore(fileReader("comparison.json"), fileWriter("comparison.json")),
     )
 
     private val mutableScreen = MutableStateFlow(AppScreen.SCAN)
@@ -77,7 +100,7 @@ class ScanViewModel(app: Application) : AndroidViewModel(app) {
         }
         viewModelScope.launch {
             try {
-                engine.await()
+                engineFor(pack.value.script).await()
                 controller.onEngineReady()
             } catch (e: CancellationException) {
                 throw e
@@ -96,7 +119,7 @@ class ScanViewModel(app: Application) : AndroidViewModel(app) {
             " price=${it.priceText} card=${it.cardPriceText} qty=${it.quantityText} ${it.unit} " +
                 "check=${it.needsCheck} name=${it.name}"
         }
-        Log.d(TAG, "state ${state::class.simpleName}${detail.orEmpty()} pack=${pack.id}")
+        Log.d(TAG, "state ${state::class.simpleName}${detail.orEmpty()} pack=${pack.value.id}")
     }
 
     private suspend fun capture(): CaptureOutcome = try {
@@ -121,6 +144,7 @@ class ScanViewModel(app: Application) : AndroidViewModel(app) {
 
     private suspend fun recognize(frame: SharpFrame): CaptureOutcome {
         val started = System.nanoTime()
+        val engine = engineFor(pack.value.script)
         val lines = withContext(Dispatchers.Default) { engine.await().recognize(frame.image) }
         if (BuildConfig.DEBUG) {
             DebugShots.save(getApplication(), frame.image)
@@ -131,11 +155,27 @@ class ScanViewModel(app: Application) : AndroidViewModel(app) {
         return CaptureOutcome.Recognized(lines)
     }
 
-    /** viewModelScope is already cancelled here, so a loaded engine is closed synchronously. */
+    private fun engineFor(script: Script): Deferred<PaddleOnnxOcrEngine> = engines.getOrPut(script) {
+        viewModelScope.async(Dispatchers.Default) { PaddleOnnxOcrEngine(models, script) }
+    }
+
+    private fun fileReader(name: String): suspend () -> String? = {
+        withContext(
+            Dispatchers.IO
+        ) { File(getApplication<Application>().filesDir, name).takeIf { it.isFile }?.readText() }
+    }
+
+    private fun fileWriter(name: String): suspend (String) -> Unit = { text ->
+        withContext(Dispatchers.IO) { File(getApplication<Application>().filesDir, name).writeText(text) }
+    }
+
+    /** viewModelScope is already cancelled here, so loaded engines are closed synchronously. */
     @OptIn(ExperimentalCoroutinesApi::class)
     override fun onCleared() {
         camera.shutdown()
-        if (engine.isCompleted && !engine.isCancelled) runCatching { engine.getCompleted() }.getOrNull()?.close()
+        engines.values.filter {
+            it.isCompleted && !it.isCancelled
+        }.forEach { runCatching { it.getCompleted() }.getOrNull()?.close() }
     }
 
     private companion object {

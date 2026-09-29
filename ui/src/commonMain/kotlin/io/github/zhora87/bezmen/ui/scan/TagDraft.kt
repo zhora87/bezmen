@@ -1,9 +1,9 @@
 package io.github.zhora87.bezmen.ui.scan
 
+import io.github.zhora87.bezmen.domain.DisplayUnits
 import io.github.zhora87.bezmen.domain.MeasureUnit
 import io.github.zhora87.bezmen.domain.Money
 import io.github.zhora87.bezmen.domain.Quantity
-import io.github.zhora87.bezmen.domain.References
 import io.github.zhora87.bezmen.domain.UnitPriceCalculator
 import io.github.zhora87.bezmen.domain.parser.FieldKind
 import io.github.zhora87.bezmen.domain.parser.ParseResult
@@ -39,17 +39,17 @@ data class TagDraft(
 
     val cardPrice: Money? get() = MoneyInput.parse(cardPriceText, currency)
 
-    /** Per 100 g, 100 ml or 1 piece; weighted goods keep the reference printed on the tag. */
-    fun displayPrice(): DisplayPrice? = display(price)
+    /** Per kilogram, litre or piece by default; weighted goods keep the reference printed on the tag. */
+    fun displayPrice(units: DisplayUnits = DisplayUnits.STANDARD): DisplayPrice? = display(price, units)
 
     /** The same for the card price, with the same quantity. */
-    fun displayCardPrice(): DisplayPrice? = display(cardPrice)
+    fun displayCardPrice(units: DisplayUnits = DisplayUnits.STANDARD): DisplayPrice? = display(cardPrice, units)
 
-    private fun display(amount: Money?): DisplayPrice? {
+    private fun display(amount: Money?, units: DisplayUnits): DisplayPrice? {
         val p = amount ?: return null
         val q = quantity ?: return null
         if (isWeighted) return DisplayPrice(p, q)
-        val reference = References.defaultFor(q.dimension)
+        val reference = units.referenceFor(q.dimension)
         return DisplayPrice(UnitPriceCalculator.calculate(p, q).per(reference), reference)
     }
 

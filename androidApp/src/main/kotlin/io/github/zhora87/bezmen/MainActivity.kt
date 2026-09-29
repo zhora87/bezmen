@@ -29,8 +29,11 @@ import io.github.zhora87.bezmen.ui.PermissionScreen
 import io.github.zhora87.bezmen.ui.compare.ComparisonActions
 import io.github.zhora87.bezmen.ui.compare.ComparisonScreen
 import io.github.zhora87.bezmen.ui.scan.ScanActions
+import io.github.zhora87.bezmen.ui.scan.ScanDisplay
 import io.github.zhora87.bezmen.ui.scan.ScanScreen
 import io.github.zhora87.bezmen.ui.scan.Viewfinder
+import io.github.zhora87.bezmen.ui.settings.SettingsActions
+import io.github.zhora87.bezmen.ui.settings.SettingsScreen
 
 class MainActivity : ComponentActivity() {
     private val viewModel: ScanViewModel by viewModels()
@@ -75,6 +78,21 @@ class MainActivity : ComponentActivity() {
 private fun ScanRoute(viewModel: ScanViewModel) {
     val screen by viewModel.screen.collectAsState()
     val comparison by viewModel.comparison.state.collectAsState()
+    val settings by viewModel.settings.state.collectAsState()
+    val pack by viewModel.pack.collectAsState()
+    val currencySymbol = pack.currency.symbols.first()
+    if (screen == AppScreen.SETTINGS) {
+        BackHandler { viewModel.open(AppScreen.SCAN) }
+        val actions = remember(viewModel) {
+            SettingsActions(
+                onUnits = viewModel.settings::setUnits,
+                onPack = viewModel.settings::setPack,
+                onBack = { viewModel.open(AppScreen.SCAN) },
+            )
+        }
+        SettingsScreen(settings, viewModel.autoPackId, actions)
+        return
+    }
     if (screen == AppScreen.COMPARE) {
         BackHandler { viewModel.open(AppScreen.SCAN) }
         val actions = remember(viewModel) {
@@ -84,7 +102,7 @@ private fun ScanRoute(viewModel: ScanViewModel) {
                 onShootMore = { viewModel.open(AppScreen.SCAN) },
             )
         }
-        ComparisonScreen(comparison, viewModel.currencySymbol, actions)
+        ComparisonScreen(comparison, currencySymbol, settings.units, actions)
         return
     }
     val state by viewModel.controller.state.collectAsState()
@@ -96,13 +114,17 @@ private fun ScanRoute(viewModel: ScanViewModel) {
             onEdit = controller::onEdit,
             onAddToComparison = viewModel::addToComparison,
             onOpenComparison = { viewModel.open(AppScreen.COMPARE) },
+            onOpenSettings = { viewModel.open(AppScreen.SETTINGS) },
         )
     }
     ScanScreen(
         state = state,
-        frame = Viewfinder(viewModel.frame.widthFraction, viewModel.frame.heightFraction),
-        currencySymbol = viewModel.currencySymbol,
-        comparisonCount = comparison.items.size,
+        display = ScanDisplay(
+            frame = Viewfinder(viewModel.frame.widthFraction, viewModel.frame.heightFraction),
+            currencySymbol = currencySymbol,
+            units = settings.units,
+            comparisonCount = comparison.items.size,
+        ),
         actions = actions,
     ) { modifier ->
         val owner = LocalLifecycleOwner.current

@@ -32,8 +32,10 @@ import androidx.compose.ui.semantics.contentDescription
 import androidx.compose.ui.semantics.semantics
 import androidx.compose.ui.text.style.TextAlign
 import androidx.compose.ui.unit.dp
+import io.github.zhora87.bezmen.domain.DisplayUnits
 import io.github.zhora87.bezmen.ui.resources.Res
 import io.github.zhora87.bezmen.ui.resources.action_retry
+import io.github.zhora87.bezmen.ui.resources.action_settings
 import io.github.zhora87.bezmen.ui.resources.action_shoot
 import io.github.zhora87.bezmen.ui.resources.compare_count
 import io.github.zhora87.bezmen.ui.resources.compare_title
@@ -54,23 +56,30 @@ private val SHUTTER_SIZE = 76.dp
 /** The tag frame's share of the camera image, centred; the preview shows the whole image. */
 class Viewfinder(val widthFraction: Float, val heightFraction: Float)
 
+/** What the scan screen shows besides the scan state: frame shape, currency, units, list size. */
+class ScanDisplay(
+    val frame: Viewfinder,
+    val currencySymbol: String,
+    val units: DisplayUnits,
+    val comparisonCount: Int,
+)
+
 /**
  * Viewfinder with the tag frame, a status line and the shutter. [preview] is the platform camera
- * view; [frame] is the frame's share of the camera image.
+ * view; [display] carries the frame's share of the camera image and the display settings.
  */
 @Composable
 fun ScanScreen(
     state: ScanState,
-    frame: Viewfinder,
-    currencySymbol: String,
-    comparisonCount: Int,
+    display: ScanDisplay,
     actions: ScanActions,
     preview: @Composable (Modifier) -> Unit,
 ) {
     if (state is ScanState.Result) {
         ResultCard(
             state.draft,
-            currencySymbol,
+            display.currencySymbol,
+            display.units,
             onEdit = actions.onEdit,
             onRetake = actions.onRetake,
             onAddToComparison = actions.onAddToComparison,
@@ -84,12 +93,18 @@ fun ScanScreen(
     ) {
         Box(modifier = Modifier.fillMaxWidth().aspectRatio(PREVIEW_ASPECT)) {
             preview(Modifier.fillMaxSize())
-            FrameOverlay(frame.widthFraction, frame.heightFraction, Modifier.fillMaxSize())
+            FrameOverlay(display.frame.widthFraction, display.frame.heightFraction, Modifier.fillMaxSize())
             ComparisonChip(
-                count = comparisonCount,
+                count = display.comparisonCount,
                 onClick = actions.onOpenComparison,
                 modifier = Modifier.align(Alignment.TopEnd).padding(12.dp),
             )
+            FilledTonalButton(
+                onClick = actions.onOpenSettings,
+                modifier = Modifier.align(Alignment.TopStart).padding(12.dp),
+            ) {
+                Text(stringResource(Res.string.action_settings))
+            }
         }
         StatusLine(state, Modifier.padding(horizontal = 24.dp))
         BottomAction(state, actions, Modifier.padding(bottom = 24.dp))
@@ -103,6 +118,7 @@ class ScanActions(
     val onEdit: (TagDraft) -> Unit,
     val onAddToComparison: () -> Unit,
     val onOpenComparison: () -> Unit,
+    val onOpenSettings: () -> Unit,
 )
 
 /** Opens the comparison list; shows how many products are in it. */

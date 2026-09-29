@@ -37,8 +37,12 @@ UI: result card (per 1 kg / 1 l / piece) ──► "add to comparison"
 ComparisonController ──► Comparison.rank: cheapest per unit first, other dimensions marked
    │
    ▼
-local storage: the comparison list as one JSON file in app-private storage; settings (DataStore) later
+local storage: the comparison list and the settings, each one JSON file in app-private storage
 ```
+
+Settings hold the display unit (per 1 kg / 1 l by default, per 100 g / 100 ml as an option) and the
+recognition pack, which otherwise follows the phone's country. Changing the pack swaps the parser
+and, if the script differs, loads the other recognition model on first use.
 
 The shot is taken on demand, not from a live stream: recognition takes 0.5 s on a recent phone and
 3 to 5 s on a 2019 budget phone, far too slow for per-frame analysis. A still is used instead of an

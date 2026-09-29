@@ -44,6 +44,17 @@
     <string name="action_cancel">Отмена</string>
     <string name="action_back">Назад</string>
 
+    <string name="settings_title">Настройки</string>
+    <string name="settings_units">Цена за единицу</string>
+    <string name="units_standard">за 1 кг, 1 л, 1 шт</string>
+    <string name="units_per_hundred">за 100 г, 100 мл, 1 шт</string>
+    <string name="settings_pack">Ценники какой страны</string>
+    <string name="pack_auto">Автоматически, по стране: %1$s</string>
+    <string name="pack_uk">Украина, гривни</string>
+    <string name="pack_ru">Россия и Беларусь, рубли</string>
+    <string name="pack_en_generic">Другие страны, латиница</string>
+    <string name="action_settings">Настройки</string>
+
     <string name="unit_mg">мг</string>
     <string name="unit_g">г</string>
     <string name="unit_kg">кг</string>

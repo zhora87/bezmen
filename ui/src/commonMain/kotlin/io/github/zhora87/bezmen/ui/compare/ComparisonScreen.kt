@@ -29,7 +29,7 @@ import androidx.compose.ui.Modifier
 import androidx.compose.ui.semantics.heading
 import androidx.compose.ui.semantics.semantics
 import androidx.compose.ui.unit.dp
-import io.github.zhora87.bezmen.domain.References
+import io.github.zhora87.bezmen.domain.DisplayUnits
 import io.github.zhora87.bezmen.domain.comparison.RankedItem
 import io.github.zhora87.bezmen.ui.resources.Res
 import io.github.zhora87.bezmen.ui.resources.action_cancel
@@ -53,7 +53,12 @@ import kotlin.math.roundToInt
 
 /** Scanned products ranked by unit price, cheapest first; items of another dimension at the end. */
 @Composable
-fun ComparisonScreen(state: ComparisonState, currencySymbol: String, actions: ComparisonActions) {
+fun ComparisonScreen(
+    state: ComparisonState,
+    currencySymbol: String,
+    units: DisplayUnits,
+    actions: ComparisonActions,
+) {
     var confirmClear by remember { mutableStateOf(false) }
     Surface(Modifier.fillMaxSize()) {
         Column(Modifier.safeDrawingPadding().padding(horizontal = 16.dp)) {
@@ -69,7 +74,7 @@ fun ComparisonScreen(state: ComparisonState, currencySymbol: String, actions: Co
             } else {
                 LazyColumn(Modifier.weight(1f), verticalArrangement = Arrangement.spacedBy(10.dp)) {
                     items(state.ranked, key = { it.item.id }) { row ->
-                        ItemRow(row, currencySymbol, onRemove = { actions.onRemove(row.item.id) })
+                        ItemRow(row, currencySymbol, units, onRemove = { actions.onRemove(row.item.id) })
                     }
                 }
             }
@@ -106,9 +111,9 @@ private fun Header(count: Int, onClear: () -> Unit) {
 }
 
 @Composable
-private fun ItemRow(row: RankedItem, currencySymbol: String, onRemove: () -> Unit) {
+private fun ItemRow(row: RankedItem, currencySymbol: String, units: DisplayUnits, onRemove: () -> Unit) {
     val item = row.item
-    val reference = References.defaultFor(item.quantity.dimension)
+    val reference = units.referenceFor(item.quantity.dimension)
     val colors = if (row.rank == 1) {
         CardDefaults.cardColors(containerColor = MaterialTheme.colorScheme.primaryContainer)
     } else {

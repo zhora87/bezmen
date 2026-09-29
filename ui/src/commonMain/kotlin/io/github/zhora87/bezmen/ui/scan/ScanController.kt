@@ -42,8 +42,9 @@ sealed interface ScanState {
  */
 class ScanController(
     private val scope: CoroutineScope,
-    private val parser: PriceTagParser,
-    private val currency: String,
+    /** Parser and currency follow the current recognition pack, which settings may change. */
+    private val parser: () -> PriceTagParser,
+    private val currency: () -> String,
     private val capture: suspend () -> CaptureOutcome,
 ) {
     private val mutable = MutableStateFlow<ScanState>(ScanState.LoadingModels)
@@ -77,9 +78,9 @@ class ScanController(
     private fun toState(outcome: CaptureOutcome): ScanState = when (outcome) {
         CaptureOutcome.Blurry -> ScanState.Blurry
         is CaptureOutcome.Failed -> ScanState.Error(ScanError.CAMERA)
-        is CaptureOutcome.Recognized -> when (val result = parser.parse(outcome.lines)) {
+        is CaptureOutcome.Recognized -> when (val result = parser().parse(outcome.lines)) {
             ParseResult.Nothing -> ScanState.NothingFound
-            else -> ScanState.Result(TagDraft.from(result, currency))
+            else -> ScanState.Result(TagDraft.from(result, currency()))
         }
     }
 }

@@ -1,5 +1,6 @@
 package io.github.zhora87.bezmen.ui.scan
 
+import io.github.zhora87.bezmen.domain.DisplayUnits
 import io.github.zhora87.bezmen.domain.MeasureUnit
 import io.github.zhora87.bezmen.domain.Money
 import io.github.zhora87.bezmen.domain.Quantity
@@ -125,5 +126,13 @@ class TagDraftTest {
         assertEquals("", draft.cardPriceText)
         assertNull(draft.displayCardPrice())
         assertNull(draft.copy(cardPriceText = "8541abc").displayCardPrice())
+    }
+
+    @Test
+    fun `per-hundred units show the price per 100 g or 100 ml`() {
+        val draft = TagDraft.from(success(milk, 0.9f), "UAH")
+
+        assertEquals(Money(554, "UAH"), draft.displayPrice(DisplayUnits.PER_HUNDRED)?.amount)
+        assertEquals(Quantity(100.0, MeasureUnit.MILLILITRE), draft.displayPrice(DisplayUnits.PER_HUNDRED)?.reference)
     }
 }

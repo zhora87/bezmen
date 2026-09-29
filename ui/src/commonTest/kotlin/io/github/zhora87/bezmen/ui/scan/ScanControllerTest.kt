@@ -28,7 +28,7 @@ class ScanControllerTest {
     )
 
     private fun TestScope.controller(capture: suspend () -> CaptureOutcome) =
-        ScanController(this, PriceTagParser(pack), pack.currency.code, capture)
+        ScanController(this, { PriceTagParser(pack) }, { pack.currency.code }, capture)
 
     @Test
     fun `starts loading models and becomes ready`() = runTest {
