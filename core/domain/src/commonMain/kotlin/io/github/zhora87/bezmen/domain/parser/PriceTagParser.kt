@@ -61,10 +61,21 @@ private class PriceSelector(private val ctx: TagContext, private val flags: List
         val loyalty = moneys.filter { flagged(it) { f -> f.loyalty } && it !in old }
         val regular = (moneys - old.toSet() - loyalty.toSet()).sortedByDescending(::score)
         val pool = if (regular.isNotEmpty()) regular else loyalty.sortedByDescending(::score)
-        var current = pool.firstOrNull() ?: return Prices(null, null, emptyList(), 1f)
-        var oldPrice = old.maxByOrNull(::score)
+        val first = pool.firstOrNull() ?: return Prices(null, null, emptyList(), 1f)
+        val (current, oldPrice, factor) = resolve(first, pool.getOrNull(1), old.maxByOrNull(::score))
+        val cardPrice = if (regular.isNotEmpty()) loyalty.maxByOrNull(::score) else null
+        val taken = setOf(current.money, oldPrice?.money, cardPrice?.money)
+        val alternatives = (pool + loyalty).map { it.money }.filter { it !in taken }.distinct()
+        return Prices(current, oldPrice, alternatives, factor, cardPrice)
+    }
+
+    private data class Pair(val current: MoneyCandidate, val old: MoneyCandidate?, val factor: Float)
+
+    /** Current and old price from the best unlabelled candidate, the runner-up and a labelled old price. */
+    private fun resolve(first: MoneyCandidate, second: MoneyCandidate?, labelledOld: MoneyCandidate?): Pair {
+        var current = first
+        var oldPrice = labelledOld
         var factor = 1f
-        val second = pool.getOrNull(1)
         if (oldPrice == null && second != null) {
             val clearlyTaller = current.box.height > second.box.height * (1 + HEIGHT_GAP)
             if (clearlyTaller || flags.any { it.discount }) {
@@ -78,8 +89,8 @@ private class PriceSelector(private val ctx: TagContext, private val flags: List
         if (oldPrice != null && oldPrice.money.minor < current.money.minor) {
             // A crossed-out price is never lower than the current one. If the cheaper candidate is set
             // in bigger type it is the real price and the roles are swapped; otherwise it is a card or
-            // app price that escaped its label and only an alternative.
-            if (oldPrice.box.height > current.box.height) {
+            // app price that escaped its label and only an alternative. A doubtful tall glyph never swaps.
+            if (oldPrice.box.height > current.box.height && oldPrice.confidence >= MIN_SWAP_CONFIDENCE) {
                 val swapped = current
                 current = oldPrice
                 oldPrice = swapped
@@ -90,15 +101,23 @@ private class PriceSelector(private val ctx: TagContext, private val flags: List
         if (oldPrice != null && oldPrice.money.minor > current.money.minor * MAX_OLD_PRICE_RATIO) {
             oldPrice = null // a barcode fragment or a code, not a former price
         }
-        val cardPrice = if (regular.isNotEmpty()) loyalty.maxByOrNull(::score) else null
-        val taken = setOf(current.money, oldPrice?.money, cardPrice?.money)
-        val alternatives = (pool + loyalty).map { it.money }.filter { it !in taken }.distinct()
-        return Prices(current, oldPrice, alternatives, factor, cardPrice)
+        return Pair(current, oldPrice, factor)
     }
 
-    /** A label flags a price when they share a line or overlap vertically (label to the left of the price). */
+    /**
+     * A label flags a price when they share a line, overlap vertically (label to the left of the
+     * price) or the label is printed right under the price in the same column (a price block).
+     */
     private fun flagged(c: MoneyCandidate, pick: (LineFlags) -> Boolean): Boolean = flags.indices.any { line ->
-        pick(flags[line]) && (line in c.lines || overlapsVertically(ctx.lines[line].box, c.box))
+        val label = ctx.lines[line].box
+        pick(flags[line]) && (line in c.lines || overlapsVertically(label, c.box) || stackedBelow(label, c.box))
+    }
+
+    private fun stackedBelow(label: Box, price: Box): Boolean {
+        val gap = label.top - price.bottom
+        val horizontal = minOf(label.right, price.right) - maxOf(label.left, price.left)
+        return gap >= -price.height * STACK_SLACK && gap <= label.height * STACK_GAP &&
+            horizontal >= minOf(label.width, price.width) * BAND_OVERLAP
     }
 
     private fun overlapsVertically(a: Box, b: Box): Boolean {
@@ -123,6 +142,11 @@ private class PriceSelector(private val ctx: TagContext, private val flags: List
         const val LOWER_HALF = 0.5f
         const val BAND_OVERLAP = 0.5f
         const val MAX_OLD_PRICE_RATIO = 5
+        const val STACK_SLACK = 0.25f
+        const val STACK_GAP = 1.5f
+
+        /** A taller but doubtful candidate (a stray tall glyph) never takes the price's place. */
+        const val MIN_SWAP_CONFIDENCE = 0.5f
     }
 }
 
@@ -139,12 +163,11 @@ private object NameDetector {
     private const val GAP_FACTOR = 0.6f
     private const val HEIGHT_RATIO = 1.5f
     private const val EDGE = 0.005f
-    private const val BLOCK_OVERLAP = 0.25f
     private const val ROW_OVERLAP = 0.6f
     private const val SIDE_OVERLAP = 0.2f
     private val SPACES = Regex("\\s+")
 
-    /** [cardBlock] is the card price's box: the name is printed below that block, never inside it. */
+    /** [cardBlock] is the card price's box: nothing printed over it is the name. */
     fun detect(
         ctx: TagContext,
         markers: MarkerDetector.Result,
@@ -152,9 +175,8 @@ private object NameDetector {
         cardBlock: Box?,
     ): Field<String>? {
         val excluded = markers.markerLines + markers.labelLines
-        val below = cardBlock?.let { it.bottom - it.height * BLOCK_OVERLAP } ?: 0f
         val candidates = ctx.lines.indices
-            .filter { it !in excluded && !markers.flags[it].any && ctx.lines[it].box.top >= below }
+            .filter { it !in excluded && !markers.flags[it].any && !intersects(ctx.lines[it].box, cardBlock) }
             .filter { isWordy(ctx.normalized[it]) && !onlyLabelWords(ctx, it) && !cutByEdge(ctx.lines[it].box) }
         val rows = rows(ctx, candidates)
         // The name starts in the upper part of the tag; its continuation may run lower.
@@ -201,6 +223,9 @@ private object NameDetector {
         val words = ctx.tokens[line].filter { it.kind == TokenKind.CURRENCY || it.text.any(Char::isLetter) }
         return words.isNotEmpty() && words.all { it.kind == TokenKind.CURRENCY || ctx.pack.isLabelWord(it.text) }
     }
+
+    private fun intersects(a: Box, b: Box?): Boolean = b != null &&
+        minOf(a.right, b.right) > maxOf(a.left, b.left) && minOf(a.bottom, b.bottom) > maxOf(a.top, b.top)
 
     /** Text running into the left or right edge of the frame is packaging behind the tag. */
     private fun cutByEdge(box: Box): Boolean = box.left <= EDGE || box.right >= 1f - EDGE

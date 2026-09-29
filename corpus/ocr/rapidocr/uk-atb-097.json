@@ -1,0 +1,82 @@
+[
+  {
+    "text": "Розпушувач",
+    "box": {
+      "left": 0.0988,
+      "top": 0.1411,
+      "right": 0.5141,
+      "bottom": 0.3411
+    },
+    "confidence": 0.9129
+  },
+  {
+    "text": "70",
+    "box": {
+      "left": 0.8397,
+      "top": 0.2241,
+      "right": 0.996,
+      "bottom": 0.4563
+    },
+    "confidence": 0.8311
+  },
+  {
+    "text": "Ticta",
+    "box": {
+      "left": 0.2233,
+      "top": 0.2911,
+      "right": 0.3851,
+      "bottom": 0.4161
+    },
+    "confidence": 0.8454
+  },
+  {
+    "text": "\"Розумний",
+    "box": {
+      "left": 0.124,
+      "top": 0.3937,
+      "right": 0.4844,
+      "bottom": 0.558
+    },
+    "confidence": 0.9437
+  },
+  {
+    "text": "rpн/",
+    "box": {
+      "left": 0.8725,
+      "top": 0.4259,
+      "right": 0.9632,
+      "bottom": 0.5036
+    },
+    "confidence": 0.5184
+  },
+  {
+    "text": "18r",
+    "box": {
+      "left": 0.8861,
+      "top": 0.4884,
+      "right": 0.9491,
+      "bottom": 0.5509
+    },
+    "confidence": 0.8468
+  },
+  {
+    "text": "12.09.26 Код: 111781 2.10.1",
+    "box": {
+      "left": 0.061,
+      "top": 0.8259,
+      "right": 0.4062,
+      "bottom": 0.8804
+    },
+    "confidence": 0.9384
+  },
+  {
+    "text": "022424",
+    "box": {
+      "left": 0.818,
+      "top": 0.8518,
+      "right": 0.9506,
+      "bottom": 0.9036
+    },
+    "confidence": 0.9878
+  }
+]

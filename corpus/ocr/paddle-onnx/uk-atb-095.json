@@ -1,0 +1,112 @@
+[
+    {
+        "text": "55",
+        "box": {
+            "left": 0.521,
+            "top": 0.1951,
+            "right": 0.8457,
+            "bottom": 0.6264
+        },
+        "confidence": 1.0
+    },
+    {
+        "text": "50",
+        "box": {
+            "left": 0.8145,
+            "top": 0.2135,
+            "right": 0.9761,
+            "bottom": 0.4322
+        },
+        "confidence": 0.9999
+    },
+    {
+        "text": "Крупа",
+        "box": {
+            "left": 0.0864,
+            "top": 0.217,
+            "right": 0.3218,
+            "bottom": 0.3823
+        },
+        "confidence": 0.9555
+    },
+    {
+        "text": "\"Своя",
+        "box": {
+            "left": 0.0,
+            "top": 0.3438,
+            "right": 0.2114,
+            "bottom": 0.4759
+        },
+        "confidence": 0.9405
+    },
+    {
+        "text": "лінія\"",
+        "box": {
+            "left": 0.2051,
+            "top": 0.3491,
+            "right": 0.4106,
+            "bottom": 0.4742
+        },
+        "confidence": 0.8616
+    },
+    {
+        "text": "рпн/",
+        "box": {
+            "left": 0.8408,
+            "top": 0.4208,
+            "right": 0.9448,
+            "bottom": 0.5022
+        },
+        "confidence": 0.6517
+    },
+    {
+        "text": "Булгuр",
+        "box": {
+            "left": 0.0894,
+            "top": 0.4672,
+            "right": 0.3301,
+            "bottom": 0.6378
+        },
+        "confidence": 0.7443
+    },
+    {
+        "text": "1Kr",
+        "box": {
+            "left": 0.8564,
+            "top": 0.4926,
+            "right": 0.9219,
+            "bottom": 0.5573
+        },
+        "confidence": 0.6699
+    },
+    {
+        "text": "09.26",
+        "box": {
+            "left": 0.0,
+            "top": 0.8583,
+            "right": 0.0698,
+            "bottom": 0.9151
+        },
+        "confidence": 0.9798
+    },
+    {
+        "text": "Код: 157069 2.2.3",
+        "box": {
+            "left": 0.0718,
+            "top": 0.8583,
+            "right": 0.3125,
+            "bottom": 0.9169
+        },
+        "confidence": 0.9544
+    },
+    {
+        "text": "999300074980",
+        "box": {
+            "left": 0.6001,
+            "top": 0.8644,
+            "right": 0.9219,
+            "bottom": 0.9335
+        },
+        "confidence": 0.9925
+    }
+]

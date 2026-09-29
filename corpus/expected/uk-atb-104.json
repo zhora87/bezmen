@@ -1,0 +1,18 @@
+{
+  "pack": "uk",
+  "price": {
+    "minor": 10550,
+    "currency": "UAH"
+  },
+  "oldPrice": null,
+  "quantity": {
+    "value": 180.0,
+    "unit": "GRAM"
+  },
+  "isWeighted": false,
+  "loyaltyPrice": {
+    "minor": 9484,
+    "currency": "UAH"
+  },
+  "note": "АТБ 2026-09-29 in-app shot; orange, NEW layout: app price block on the right (ЦІНА 94.84 / при скануванні додатка АТБ на касі), shelf price 105.50 small bottom right, Знижка 10%; UA Масло Своя лінія солодковершкове екстра"
+}

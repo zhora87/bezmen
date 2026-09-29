@@ -1,0 +1,182 @@
+[
+  {
+    "text": "ЛИHA",
+    "box": {
+      "left": 0.5575,
+      "top": 0.1571,
+      "right": 0.6976,
+      "bottom": 0.258
+    },
+    "confidence": 0.5305
+  },
+  {
+    "text": "прискануванни",
+    "box": {
+      "left": 0.1653,
+      "top": 0.1607,
+      "right": 0.5282,
+      "bottom": 0.2545
+    },
+    "confidence": 0.9244
+  },
+  {
+    "text": "3Huжka",
+    "box": {
+      "left": 0.7475,
+      "top": 0.1759,
+      "right": 0.9143,
+      "bottom": 0.267
+    },
+    "confidence": 0.5856
+  },
+  {
+    "text": "додатка АТБ",
+    "box": {
+      "left": 0.1946,
+      "top": 0.225,
+      "right": 0.4889,
+      "bottom": 0.3259
+    },
+    "confidence": 0.9629
+  },
+  {
+    "text": "14",
+    "box": {
+      "left": 0.5302,
+      "top": 0.242,
+      "right": 0.6442,
+      "bottom": 0.3857
+    },
+    "confidence": 0.9997
+  },
+  {
+    "text": "6Z",
+    "box": {
+      "left": 0.6396,
+      "top": 0.2482,
+      "right": 0.6996,
+      "bottom": 0.3304
+    },
+    "confidence": 0.8216
+  },
+  {
+    "text": "11%",
+    "box": {
+      "left": 0.7485,
+      "top": 0.2491,
+      "right": 0.8967,
+      "bottom": 0.3795
+    },
+    "confidence": 0.9945
+  },
+  {
+    "text": "на касi",
+    "box": {
+      "left": 0.2621,
+      "top": 0.3063,
+      "right": 0.4254,
+      "bottom": 0.3875
+    },
+    "confidence": 0.6891
+  },
+  {
+    "text": "рпн",
+    "box": {
+      "left": 0.6457,
+      "top": 0.325,
+      "right": 0.693,
+      "bottom": 0.3714
+    },
+    "confidence": 0.5452
+  },
+  {
+    "text": "185",
+    "box": {
+      "left": 0.6673,
+      "top": 0.4509,
+      "right": 0.9173,
+      "bottom": 0.6438
+    },
+    "confidence": 0.8539
+  },
+  {
+    "text": "UAЖелатин",
+    "box": {
+      "left": 0.2823,
+      "top": 0.4536,
+      "right": 0.5761,
+      "bottom": 0.5464
+    },
+    "confidence": 0.8986
+  },
+  {
+    "text": "Код: 192202 3.2.1",
+    "box": {
+      "left": 0.1694,
+      "top": 0.5071,
+      "right": 0.2087,
+      "bottom": 0.8384
+    },
+    "confidence": 0.9003
+  },
+  {
+    "text": "\"Своя лінія'",
+    "box": {
+      "left": 0.2848,
+      "top": 0.533,
+      "right": 0.5549,
+      "bottom": 0.6259
+    },
+    "confidence": 0.9453
+  },
+  {
+    "text": "харчовий",
+    "box": {
+      "left": 0.317,
+      "top": 0.6304,
+      "right": 0.5373,
+      "bottom": 0.7179
+    },
+    "confidence": 0.9964
+  },
+  {
+    "text": "1630",
+    "box": {
+      "left": 0.6809,
+      "top": 0.6339,
+      "right": 0.877,
+      "bottom": 0.8241
+    },
+    "confidence": 0.801
+  },
+  {
+    "text": "22.09.26",
+    "box": {
+      "left": 0.1517,
+      "top": 0.683,
+      "right": 0.1815,
+      "bottom": 0.8375
+    },
+    "confidence": 0.9974
+  },
+  {
+    "text": "швидкорозчинний",
+    "box": {
+      "left": 0.2198,
+      "top": 0.692,
+      "right": 0.6336,
+      "bottom": 0.8134
+    },
+    "confidence": 0.9908
+  },
+  {
+    "text": "25r",
+    "box": {
+      "left": 0.807,
+      "top": 0.7679,
+      "right": 0.8508,
+      "bottom": 0.8071
+    },
+    "confidence": 0.8734
+  }
+]

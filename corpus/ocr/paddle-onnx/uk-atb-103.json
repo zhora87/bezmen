@@ -1,0 +1,122 @@
+[
+    {
+        "text": "PROFESSONAL",
+        "box": {
+            "left": 0.1763,
+            "top": 0.0367,
+            "right": 0.4634,
+            "bottom": 0.112
+        },
+        "confidence": 0.9943
+    },
+    {
+        "text": "19",
+        "box": {
+            "left": 0.5425,
+            "top": 0.287,
+            "right": 0.7915,
+            "bottom": 0.6378
+        },
+        "confidence": 0.9983
+    },
+    {
+        "text": "90",
+        "box": {
+            "left": 0.7656,
+            "top": 0.3123,
+            "right": 0.896,
+            "bottom": 0.4856
+        },
+        "confidence": 0.9993
+    },
+    {
+        "text": "Желатин",
+        "box": {
+            "left": 0.1572,
+            "top": 0.3176,
+            "right": 0.3979,
+            "bottom": 0.4261
+        },
+        "confidence": 0.975
+    },
+    {
+        "text": "\"Мрия\"",
+        "box": {
+            "left": 0.1846,
+            "top": 0.4042,
+            "right": 0.3721,
+            "bottom": 0.5223
+        },
+        "confidence": 0.8133
+    },
+    {
+        "text": "ррн",
+        "box": {
+            "left": 0.7896,
+            "top": 0.4856,
+            "right": 0.8467,
+            "bottom": 0.5293
+        },
+        "confidence": 0.6971
+    },
+    {
+        "text": "швидкорозчинний",
+        "box": {
+            "left": 0.0581,
+            "top": 0.5109,
+            "right": 0.502,
+            "bottom": 0.6045
+        },
+        "confidence": 0.9696
+    },
+    {
+        "text": "25 р",
+        "box": {
+            "left": 0.7949,
+            "top": 0.5258,
+            "right": 0.854,
+            "bottom": 0.5827
+        },
+        "confidence": 0.7465
+    },
+    {
+        "text": "15.09.26",
+        "box": {
+            "left": 0.0728,
+            "top": 0.811,
+            "right": 0.1719,
+            "bottom": 0.8583
+        },
+        "confidence": 0.9969
+    },
+    {
+        "text": "Код:30083 3.1.1",
+        "box": {
+            "left": 0.1655,
+            "top": 0.811,
+            "right": 0.3501,
+            "bottom": 0.8618
+        },
+        "confidence": 0.9714
+    },
+    {
+        "text": "820154830232",
+        "box": {
+            "left": 0.6001,
+            "top": 0.8163,
+            "right": 0.8501,
+            "bottom": 0.8985
+        },
+        "confidence": 0.9953
+    },
+    {
+        "text": "4",
+        "box": {
+            "left": 0.5771,
+            "top": 0.8399,
+            "right": 0.5864,
+            "bottom": 0.8644
+        },
+        "confidence": 0.96
+    }
+]

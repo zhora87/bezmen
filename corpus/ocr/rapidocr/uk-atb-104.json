@@ -1,0 +1,162 @@
+[
+  {
+    "text": "ЦИHА",
+    "box": {
+      "left": 0.6184,
+      "top": 0.1634,
+      "right": 0.7828,
+      "bottom": 0.2857
+    },
+    "confidence": 0.5638
+  },
+  {
+    "text": "\"999300\"103253",
+    "box": {
+      "left": 0.1431,
+      "top": 0.2116,
+      "right": 0.4869,
+      "bottom": 0.2857
+    },
+    "confidence": 0.9625
+  },
+  {
+    "text": "9484",
+    "box": {
+      "left": 0.5771,
+      "top": 0.2536,
+      "right": 0.8054,
+      "bottom": 0.4536
+    },
+    "confidence": 0.9399
+  },
+  {
+    "text": "UA Масло \"Своя",
+    "box": {
+      "left": 0.1391,
+      "top": 0.2804,
+      "right": 0.5025,
+      "bottom": 0.3696
+    },
+    "confidence": 0.9002
+  },
+  {
+    "text": "лінія",
+    "box": {
+      "left": 0.2505,
+      "top": 0.3589,
+      "right": 0.3745,
+      "bottom": 0.45
+    },
+    "confidence": 0.557
+  },
+  {
+    "text": "солодковершкове",
+    "box": {
+      "left": 0.1124,
+      "top": 0.4616,
+      "right": 0.5287,
+      "bottom": 0.5411
+    },
+    "confidence": 0.9758
+  },
+  {
+    "text": "при скануванни",
+    "box": {
+      "left": 0.56,
+      "top": 0.4696,
+      "right": 0.816,
+      "bottom": 0.5339
+    },
+    "confidence": 0.8424
+  },
+  {
+    "text": "додатка АТБ",
+    "box": {
+      "left": 0.5862,
+      "top": 0.5196,
+      "right": 0.7933,
+      "bottom": 0.5848
+    },
+    "confidence": 0.9205
+  },
+  {
+    "text": "екстра",
+    "box": {
+      "left": 0.2465,
+      "top": 0.5473,
+      "right": 0.3936,
+      "bottom": 0.6241
+    },
+    "confidence": 0.5586
+  },
+  {
+    "text": "Hаkaci",
+    "box": {
+      "left": 0.6321,
+      "top": 0.5857,
+      "right": 0.7465,
+      "bottom": 0.6312
+    },
+    "confidence": 0.5129
+  },
+  {
+    "text": "*.82%",
+    "box": {
+      "left": 0.251,
+      "top": 0.6107,
+      "right": 0.3896,
+      "bottom": 0.6946
+    },
+    "confidence": 0.8899
+  },
+  {
+    "text": "1058",
+    "box": {
+      "left": 0.5433,
+      "top": 0.6946,
+      "right": 0.8039,
+      "bottom": 0.8929
+    },
+    "confidence": 0.7855
+  },
+  {
+    "text": "3Hижка",
+    "box": {
+      "left": 0.3896,
+      "top": 0.7464,
+      "right": 0.503,
+      "bottom": 0.7857
+    },
+    "confidence": 0.5698
+  },
+  {
+    "text": "10",
+    "box": {
+      "left": 0.3947,
+      "top": 0.7821,
+      "right": 0.4602,
+      "bottom": 0.8554
+    },
+    "confidence": 0.9995
+  },
+  {
+    "text": "27.09.26 1.16.8",
+    "box": {
+      "left": 0.1195,
+      "top": 0.7857,
+      "right": 0.3085,
+      "bottom": 0.8339
+    },
+    "confidence": 0.983
+  },
+  {
+    "text": "Код 180974",
+    "box": {
+      "left": 0.1215,
+      "top": 0.8304,
+      "right": 0.2676,
+      "bottom": 0.8732
+    },
+    "confidence": 0.8719
+  }
+]

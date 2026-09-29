@@ -1,0 +1,82 @@
+[
+  {
+    "text": "Макаронні",
+    "box": {
+      "left": 0.0741,
+      "top": 0.1491,
+      "right": 0.4546,
+      "bottom": 0.3304
+    },
+    "confidence": 0.8462
+  },
+  {
+    "text": "20",
+    "box": {
+      "left": 0.8236,
+      "top": 0.2286,
+      "right": 0.9718,
+      "bottom": 0.425
+    },
+    "confidence": 0.9994
+  },
+  {
+    "text": "вироби",
+    "box": {
+      "left": 0.1305,
+      "top": 0.2839,
+      "right": 0.3992,
+      "bottom": 0.4455
+    },
+    "confidence": 0.9384
+  },
+  {
+    "text": "\"De Luxe F&G\"",
+    "box": {
+      "left": 0.0418,
+      "top": 0.4062,
+      "right": 0.4919,
+      "bottom": 0.5375
+    },
+    "confidence": 0.9733
+  },
+  {
+    "text": "0,5Kr",
+    "box": {
+      "left": 0.8508,
+      "top": 0.4804,
+      "right": 0.9375,
+      "bottom": 0.5491
+    },
+    "confidence": 0.7441
+  },
+  {
+    "text": "Витки Amorosi",
+    "box": {
+      "left": 0.0474,
+      "top": 0.508,
+      "right": 0.4899,
+      "bottom": 0.6562
+    },
+    "confidence": 0.9179
+  },
+  {
+    "text": "08.09.2",
+    "box": {
+      "left": 0.0272,
+      "top": 0.8357,
+      "right": 0.1215,
+      "bottom": 0.8777
+    },
+    "confidence": 0.9924
+  },
+  {
+    "text": "\"013",
+    "box": {
+      "left": 0.7747,
+      "top": 0.8491,
+      "right": 0.8619,
+      "bottom": 0.8955
+    },
+    "confidence": 0.9334
+  }
+]

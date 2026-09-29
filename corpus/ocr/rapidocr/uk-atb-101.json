@@ -1,0 +1,92 @@
+[
+  {
+    "text": "UA Сіль рожева",
+    "box": {
+      "left": 0.062,
+      "top": 0.1607,
+      "right": 0.5761,
+      "bottom": 0.3536
+    },
+    "confidence": 0.9255
+  },
+  {
+    "text": "37",
+    "box": {
+      "left": 0.5902,
+      "top": 0.2196,
+      "right": 0.8977,
+      "bottom": 0.6438
+    },
+    "confidence": 0.9997
+  },
+  {
+    "text": "80",
+    "box": {
+      "left": 0.8579,
+      "top": 0.2402,
+      "right": 0.9995,
+      "bottom": 0.4616
+    },
+    "confidence": 0.9993
+  },
+  {
+    "text": "мелена",
+    "box": {
+      "left": 0.1981,
+      "top": 0.3277,
+      "right": 0.4395,
+      "bottom": 0.4232
+    },
+    "confidence": 0.6677
+  },
+  {
+    "text": "\"Приправка\"",
+    "box": {
+      "left": 0.1079,
+      "top": 0.4098,
+      "right": 0.5096,
+      "bottom": 0.5786
+    },
+    "confidence": 0.8328
+  },
+  {
+    "text": "rpH/",
+    "box": {
+      "left": 0.8952,
+      "top": 0.4446,
+      "right": 0.9854,
+      "bottom": 0.5214
+    },
+    "confidence": 0.5062
+  },
+  {
+    "text": "200r",
+    "box": {
+      "left": 0.9007,
+      "top": 0.5098,
+      "right": 0.9778,
+      "bottom": 0.567
+    },
+    "confidence": 0.9467
+  },
+  {
+    "text": "Гімалайська",
+    "box": {
+      "left": 0.1331,
+      "top": 0.5295,
+      "right": 0.5005,
+      "bottom": 0.6661
+    },
+    "confidence": 0.9495
+  },
+  {
+    "text": "11.09.26 Код: 130460 1.6.1",
+    "box": {
+      "left": 0.0731,
+      "top": 0.8402,
+      "right": 0.4068,
+      "bottom": 0.9018
+    },
+    "confidence": 0.9374
+  }
+]

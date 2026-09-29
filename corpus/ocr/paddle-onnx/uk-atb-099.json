@@ -1,0 +1,92 @@
+[
+    {
+        "text": "50",
+        "box": {
+            "left": 0.8062,
+            "top": 0.1934,
+            "right": 0.9551,
+            "bottom": 0.4077
+        },
+        "confidence": 0.9997
+    },
+    {
+        "text": "Розпушувач",
+        "box": {
+            "left": 0.0332,
+            "top": 0.2668,
+            "right": 0.3877,
+            "bottom": 0.3876
+        },
+        "confidence": 0.9796
+    },
+    {
+        "text": "Ticta",
+        "box": {
+            "left": 0.3794,
+            "top": 0.2808,
+            "right": 0.5166,
+            "bottom": 0.3753
+        },
+        "confidence": 0.5721
+    },
+    {
+        "text": "Dr. Oekter",
+        "box": {
+            "left": 0.1362,
+            "top": 0.3692,
+            "right": 0.4175,
+            "bottom": 0.4838
+        },
+        "confidence": 0.9398
+    },
+    {
+        "text": "рпн",
+        "box": {
+            "left": 0.8374,
+            "top": 0.3858,
+            "right": 0.9292,
+            "bottom": 0.4611
+        },
+        "confidence": 0.544
+    },
+    {
+        "text": "10r",
+        "box": {
+            "left": 0.8511,
+            "top": 0.4471,
+            "right": 0.9146,
+            "bottom": 0.5109
+        },
+        "confidence": 0.9148
+    },
+    {
+        "text": "10.09.25 Код: 113678 2.11.1",
+        "box": {
+            "left": 0.0469,
+            "top": 0.7629,
+            "right": 0.3823,
+            "bottom": 0.8381
+        },
+        "confidence": 0.891
+    },
+    {
+        "text": "1132",
+        "box": {
+            "left": 0.6772,
+            "top": 0.7997,
+            "right": 0.771,
+            "bottom": 0.8329
+        },
+        "confidence": 0.9581
+    },
+    {
+        "text": "6",
+        "box": {
+            "left": 0.6875,
+            "top": 0.2152,
+            "right": 0.8418,
+            "bottom": 0.5547
+        },
+        "confidence": 0.9978
+    }
+]

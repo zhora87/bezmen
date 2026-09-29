@@ -1,0 +1,21 @@
+{
+  "pack": "uk",
+  "price": {
+    "minor": 14090,
+    "currency": "UAH"
+  },
+  "oldPrice": {
+    "minor": 15830,
+    "currency": "UAH"
+  },
+  "quantity": {
+    "value": 200.0,
+    "unit": "GRAM"
+  },
+  "isWeighted": false,
+  "loyaltyPrice": {
+    "minor": 12681,
+    "currency": "UAH"
+  },
+  "note": "АТБ 2026-09-29 in-app shot; orange, NEW layout: app block right 126.81; crossed 158.30, shelf 140.90 / 200 г; Масло De Luxe F&G Selected"
+}

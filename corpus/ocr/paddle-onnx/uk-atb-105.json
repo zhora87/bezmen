@@ -1,0 +1,332 @@
+[
+    {
+        "text": "ЦИНА",
+        "box": {
+            "left": 0.6748,
+            "top": 0.1321,
+            "right": 0.8301,
+            "bottom": 0.2485
+        },
+        "confidence": 0.771
+    },
+    {
+        "text": "299920",
+        "box": {
+            "left": 0.2031,
+            "top": 0.1636,
+            "right": 0.3574,
+            "bottom": 0.2301
+        },
+        "confidence": 0.9598
+    },
+    {
+        "text": "017773",
+        "box": {
+            "left": 0.3779,
+            "top": 0.1654,
+            "right": 0.5513,
+            "bottom": 0.2371
+        },
+        "confidence": 0.9375
+    },
+    {
+        "text": "0",
+        "box": {
+            "left": 0.3408,
+            "top": 0.1732,
+            "right": 0.375,
+            "bottom": 0.2222
+        },
+        "confidence": 0.8369
+    },
+    {
+        "text": "0",
+        "box": {
+            "left": 0.3623,
+            "top": 0.175,
+            "right": 0.397,
+            "bottom": 0.224
+        },
+        "confidence": 0.9831
+    },
+    {
+        "text": "Macno",
+        "box": {
+            "left": 0.1978,
+            "top": 0.2283,
+            "right": 0.3623,
+            "bottom": 0.3141
+        },
+        "confidence": 0.6908
+    },
+    {
+        "text": "\"De",
+        "box": {
+            "left": 0.3677,
+            "top": 0.2353,
+            "right": 0.4604,
+            "bottom": 0.3202
+        },
+        "confidence": 0.9754
+    },
+    {
+        "text": "126",
+        "box": {
+            "left": 0.6177,
+            "top": 0.2353,
+            "right": 0.8032,
+            "bottom": 0.4007
+        },
+        "confidence": 0.9994
+    },
+    {
+        "text": "Luxe",
+        "box": {
+            "left": 0.4585,
+            "top": 0.2388,
+            "right": 0.5811,
+            "bottom": 0.3255
+        },
+        "confidence": 0.9992
+    },
+    {
+        "text": "81",
+        "box": {
+            "left": 0.8052,
+            "top": 0.2485,
+            "right": 0.8574,
+            "bottom": 0.3176
+        },
+        "confidence": 0.9988
+    },
+    {
+        "text": "11",
+        "box": {
+            "left": 0.5781,
+            "top": 0.2502,
+            "right": 0.5947,
+            "bottom": 0.2791
+        },
+        "confidence": 0.92
+    },
+    {
+        "text": "F&G",
+        "box": {
+            "left": 0.2407,
+            "top": 0.3202,
+            "right": 0.3647,
+            "bottom": 0.4059
+        },
+        "confidence": 0.9952
+    },
+    {
+        "text": "Selected",
+        "box": {
+            "left": 0.3408,
+            "top": 0.3202,
+            "right": 0.5596,
+            "bottom": 0.4156
+        },
+        "confidence": 0.9994
+    },
+    {
+        "text": "ррн",
+        "box": {
+            "left": 0.8042,
+            "top": 0.3237,
+            "right": 0.8594,
+            "bottom": 0.3736
+        },
+        "confidence": 0.6779
+    },
+    {
+        "text": "солодковершкове",
+        "box": {
+            "left": 0.1831,
+            "top": 0.4243,
+            "right": 0.6123,
+            "bottom": 0.5188
+        },
+        "confidence": 0.9525
+    },
+    {
+        "text": "npu",
+        "box": {
+            "left": 0.6138,
+            "top": 0.4287,
+            "right": 0.6821,
+            "bottom": 0.4838
+        },
+        "confidence": 0.4482
+    },
+    {
+        "text": "скануванні",
+        "box": {
+            "left": 0.6738,
+            "top": 0.4287,
+            "right": 0.8574,
+            "bottom": 0.4794
+        },
+        "confidence": 0.9436
+    },
+    {
+        "text": "ATB",
+        "box": {
+            "left": 0.7686,
+            "top": 0.4759,
+            "right": 0.8364,
+            "bottom": 0.5311
+        },
+        "confidence": 0.6695
+    },
+    {
+        "text": "додатка",
+        "box": {
+            "left": 0.6377,
+            "top": 0.4777,
+            "right": 0.7822,
+            "bottom": 0.5372
+        },
+        "confidence": 0.9763
+    },
+    {
+        "text": "ж.82%",
+        "box": {
+            "left": 0.3198,
+            "top": 0.5074,
+            "right": 0.4741,
+            "bottom": 0.5993
+        },
+        "confidence": 0.8919
+    },
+    {
+        "text": "на касі",
+        "box": {
+            "left": 0.6802,
+            "top": 0.5346,
+            "right": 0.7905,
+            "bottom": 0.5827
+        },
+        "confidence": 0.7222
+    },
+    {
+        "text": "3Hижка",
+        "box": {
+            "left": 0.2114,
+            "top": 0.629,
+            "right": 0.3281,
+            "bottom": 0.6947
+        },
+        "confidence": 0.6157
+    },
+    {
+        "text": "158",
+        "box": {
+            "left": 0.3374,
+            "top": 0.629,
+            "right": 0.5054,
+            "bottom": 0.7883
+        },
+        "confidence": 0.9998
+    },
+    {
+        "text": "30",
+        "box": {
+            "left": 0.5054,
+            "top": 0.636,
+            "right": 0.5596,
+            "bottom": 0.6964
+        },
+        "confidence": 0.976
+    },
+    {
+        "text": "90",
+        "box": {
+            "left": 0.7676,
+            "top": 0.6675,
+            "right": 0.8311,
+            "bottom": 0.7629
+        },
+        "confidence": 0.9937
+    },
+    {
+        "text": "140",
+        "box": {
+            "left": 0.5947,
+            "top": 0.6745,
+            "right": 0.7793,
+            "bottom": 0.8548
+        },
+        "confidence": 0.985
+    },
+    {
+        "text": "10%",
+        "box": {
+            "left": 0.2134,
+            "top": 0.6763,
+            "right": 0.3125,
+            "bottom": 0.7743
+        },
+        "confidence": 0.9947
+    },
+    {
+        "text": "ррн",
+        "box": {
+            "left": 0.5,
+            "top": 0.6982,
+            "right": 0.5522,
+            "bottom": 0.7498
+        },
+        "confidence": 0.6007
+    },
+    {
+        "text": "рпн",
+        "box": {
+            "left": 0.7646,
+            "top": 0.7515,
+            "right": 0.8281,
+            "bottom": 0.8014
+        },
+        "confidence": 0.4121
+    },
+    {
+        "text": "15.09.26",
+        "box": {
+            "left": 0.1929,
+            "top": 0.7813,
+            "right": 0.2915,
+            "bottom": 0.8416
+        },
+        "confidence": 0.9965
+    },
+    {
+        "text": "200р",
+        "box": {
+            "left": 0.7656,
+            "top": 0.7865,
+            "right": 0.8291,
+            "bottom": 0.8346
+        },
+        "confidence": 0.9069
+    },
+    {
+        "text": "Код: 162655",
+        "box": {
+            "left": 0.1875,
+            "top": 0.8215,
+            "right": 0.3325,
+            "bottom": 0.8863
+        },
+        "confidence": 0.9372
+    },
+    {
+        "text": "1.12.6",
+        "box": {
+            "left": 0.3501,
+            "top": 0.8294,
+            "right": 0.4248,
+            "bottom": 0.8863
+        },
+        "confidence": 0.958
+    }
+]

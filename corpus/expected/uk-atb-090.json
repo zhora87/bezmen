@@ -1,0 +1,21 @@
+{
+  "pack": "uk",
+  "price": {
+    "minor": 1640,
+    "currency": "UAH"
+  },
+  "oldPrice": {
+    "minor": 2090,
+    "currency": "UAH"
+  },
+  "quantity": {
+    "value": 80.0,
+    "unit": "GRAM"
+  },
+  "isWeighted": false,
+  "loyaltyPrice": {
+    "minor": 1476,
+    "currency": "UAH"
+  },
+  "note": "АТБ 2026-09-29 in-app shot; orange: UA Пластівці Своя Лінія кукурудзяні; app block top"
+}

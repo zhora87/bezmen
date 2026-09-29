@@ -1,0 +1,182 @@
+[
+    {
+        "text": "Йогурт",
+        "box": {
+            "left": 0.1748,
+            "top": 0.2686,
+            "right": 0.3843,
+            "bottom": 0.4077
+        },
+        "confidence": 0.9828
+    },
+    {
+        "text": "89",
+        "box": {
+            "left": 0.5479,
+            "top": 0.2738,
+            "right": 0.8252,
+            "bottom": 0.6562
+        },
+        "confidence": 0.9996
+    },
+    {
+        "text": "80",
+        "box": {
+            "left": 0.8032,
+            "top": 0.2773,
+            "right": 0.9429,
+            "bottom": 0.4672
+        },
+        "confidence": 0.9983
+    },
+    {
+        "text": "\"Галич",
+        "box": {
+            "left": 0.124,
+            "top": 0.3823,
+            "right": 0.2915,
+            "bottom": 0.4891
+        },
+        "confidence": 0.9053
+    },
+    {
+        "text": "Ha",
+        "box": {
+            "left": 0.2637,
+            "top": 0.3841,
+            "right": 0.4116,
+            "bottom": 0.4838
+        },
+        "confidence": 0.594
+    },
+    {
+        "text": "ррн/",
+        "box": {
+            "left": 0.8262,
+            "top": 0.4593,
+            "right": 0.9199,
+            "bottom": 0.5372
+        },
+        "confidence": 0.6709
+    },
+    {
+        "text": "-cyниця",
+        "box": {
+            "left": 0.3115,
+            "top": 0.4978,
+            "right": 0.5029,
+            "bottom": 0.5976
+        },
+        "confidence": 0.6766
+    },
+    {
+        "text": "Полуниця",
+        "box": {
+            "left": 0.0562,
+            "top": 0.5004,
+            "right": 0.3188,
+            "bottom": 0.6028
+        },
+        "confidence": 0.9711
+    },
+    {
+        "text": "0,8кГ",
+        "box": {
+            "left": 0.8301,
+            "top": 0.5276,
+            "right": 0.9146,
+            "bottom": 0.5879
+        },
+        "confidence": 0.6919
+    },
+    {
+        "text": "ж.2,2%",
+        "box": {
+            "left": 0.1855,
+            "top": 0.5713,
+            "right": 0.377,
+            "bottom": 0.6982
+        },
+        "confidence": 0.9162
+    },
+    {
+        "text": "63967",
+        "box": {
+            "left": 0.8013,
+            "top": 0.8714,
+            "right": 0.9209,
+            "bottom": 0.9396
+        },
+        "confidence": 0.9619
+    },
+    {
+        "text": "4820222",
+        "box": {
+            "left": 0.603,
+            "top": 0.8731,
+            "right": 0.7793,
+            "bottom": 0.9449
+        },
+        "confidence": 0.992
+    },
+    {
+        "text": "7",
+        "box": {
+            "left": 0.7842,
+            "top": 0.8828,
+            "right": 0.8115,
+            "bottom": 0.9283
+        },
+        "confidence": 0.9751
+    },
+    {
+        "text": "8.9.1",
+        "box": {
+            "left": 0.3096,
+            "top": 0.888,
+            "right": 0.3696,
+            "bottom": 0.9379
+        },
+        "confidence": 0.9979
+    },
+    {
+        "text": "197516",
+        "box": {
+            "left": 0.2095,
+            "top": 0.8898,
+            "right": 0.3105,
+            "bottom": 0.9431
+        },
+        "confidence": 0.9983
+    },
+    {
+        "text": "15.09.26",
+        "box": {
+            "left": 0.0513,
+            "top": 0.8933,
+            "right": 0.1563,
+            "bottom": 0.9466
+        },
+        "confidence": 0.9979
+    },
+    {
+        "text": "Код:",
+        "box": {
+            "left": 0.1572,
+            "top": 0.895,
+            "right": 0.2217,
+            "bottom": 0.9431
+        },
+        "confidence": 0.9865
+    },
+    {
+        "text": "c",
+        "box": {
+            "left": 0.2134,
+            "top": 0.9099,
+            "right": 0.2197,
+            "bottom": 0.923
+        },
+        "confidence": 0.3047
+    }
+]

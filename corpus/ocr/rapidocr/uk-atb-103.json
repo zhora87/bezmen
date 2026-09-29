@@ -1,0 +1,92 @@
+[
+  {
+    "text": "PROFESSONAL",
+    "box": {
+      "left": 0.1769,
+      "top": 0.0357,
+      "right": 0.4637,
+      "bottom": 0.1107
+    },
+    "confidence": 0.992
+  },
+  {
+    "text": "19",
+    "box": {
+      "left": 0.5207,
+      "top": 0.258,
+      "right": 0.8059,
+      "bottom": 0.6687
+    },
+    "confidence": 0.9992
+  },
+  {
+    "text": "90",
+    "box": {
+      "left": 0.746,
+      "top": 0.2902,
+      "right": 0.9042,
+      "bottom": 0.5134
+    },
+    "confidence": 0.9905
+  },
+  {
+    "text": "Желатин",
+    "box": {
+      "left": 0.1573,
+      "top": 0.3187,
+      "right": 0.3977,
+      "bottom": 0.4241
+    },
+    "confidence": 0.9147
+  },
+  {
+    "text": "\"Мрія\"",
+    "box": {
+      "left": 0.186,
+      "top": 0.408,
+      "right": 0.3735,
+      "bottom": 0.5259
+    },
+    "confidence": 0.7664
+  },
+  {
+    "text": "швидкорозчинний",
+    "box": {
+      "left": 0.0524,
+      "top": 0.4893,
+      "right": 0.5055,
+      "bottom": 0.6232
+    },
+    "confidence": 0.9397
+  },
+  {
+    "text": "25r",
+    "box": {
+      "left": 0.7964,
+      "top": 0.5295,
+      "right": 0.8533,
+      "bottom": 0.5821
+    },
+    "confidence": 0.8426
+  },
+  {
+    "text": "15.09.26 Код: 30083 3.1.1",
+    "box": {
+      "left": 0.0736,
+      "top": 0.8098,
+      "right": 0.3498,
+      "bottom": 0.8616
+    },
+    "confidence": 0.9443
+  },
+  {
+    "text": "820154830232",
+    "box": {
+      "left": 0.5857,
+      "top": 0.8286,
+      "right": 0.8463,
+      "bottom": 0.8875
+    },
+    "confidence": 0.998
+  }
+]

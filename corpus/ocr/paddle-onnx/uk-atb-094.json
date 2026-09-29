@@ -1,0 +1,242 @@
+[
+    {
+        "text": "ЛИНА",
+        "box": {
+            "left": 0.5459,
+            "top": 0.1155,
+            "right": 0.7104,
+            "bottom": 0.2283
+        },
+        "confidence": 0.651
+    },
+    {
+        "text": "ванн",
+        "box": {
+            "left": 0.373,
+            "top": 0.1304,
+            "right": 0.5166,
+            "bottom": 0.2222
+        },
+        "confidence": 0.665
+    },
+    {
+        "text": "npn",
+        "box": {
+            "left": 0.1499,
+            "top": 0.1417,
+            "right": 0.248,
+            "bottom": 0.2257
+        },
+        "confidence": 0.5349
+    },
+    {
+        "text": "скану",
+        "box": {
+            "left": 0.25,
+            "top": 0.1417,
+            "right": 0.397,
+            "bottom": 0.2205
+        },
+        "confidence": 0.747
+    },
+    {
+        "text": "3нижка",
+        "box": {
+            "left": 0.7397,
+            "top": 0.147,
+            "right": 0.9189,
+            "bottom": 0.2388
+        },
+        "confidence": 0.6081
+    },
+    {
+        "text": "додатка",
+        "box": {
+            "left": 0.1748,
+            "top": 0.2056,
+            "right": 0.3833,
+            "bottom": 0.3176
+        },
+        "confidence": 0.9854
+    },
+    {
+        "text": "ATB",
+        "box": {
+            "left": 0.3813,
+            "top": 0.2056,
+            "right": 0.4771,
+            "bottom": 0.2905
+        },
+        "confidence": 0.5882
+    },
+    {
+        "text": "32",
+        "box": {
+            "left": 0.521,
+            "top": 0.2152,
+            "right": 0.6499,
+            "bottom": 0.3657
+        },
+        "confidence": 0.9997
+    },
+    {
+        "text": "17",
+        "box": {
+            "left": 0.7437,
+            "top": 0.217,
+            "right": 0.8667,
+            "bottom": 0.3622
+        },
+        "confidence": 0.9989
+    },
+    {
+        "text": "31",
+        "box": {
+            "left": 0.645,
+            "top": 0.2301,
+            "right": 0.6885,
+            "bottom": 0.3307
+        },
+        "confidence": 0.9967
+    },
+    {
+        "text": "%",
+        "box": {
+            "left": 0.8394,
+            "top": 0.2423,
+            "right": 0.9072,
+            "bottom": 0.3473
+        },
+        "confidence": 0.9986
+    },
+    {
+        "text": "kасi",
+        "box": {
+            "left": 0.3105,
+            "top": 0.2922,
+            "right": 0.4136,
+            "bottom": 0.3736
+        },
+        "confidence": 0.5136
+    },
+    {
+        "text": "на",
+        "box": {
+            "left": 0.249,
+            "top": 0.3036,
+            "right": 0.3081,
+            "bottom": 0.371
+        },
+        "confidence": 0.4875
+    },
+    {
+        "text": "Булгур",
+        "box": {
+            "left": 0.3623,
+            "top": 0.4173,
+            "right": 0.5625,
+            "bottom": 0.5573
+        },
+        "confidence": 0.8309
+    },
+    {
+        "text": "UA",
+        "box": {
+            "left": 0.2783,
+            "top": 0.4243,
+            "right": 0.3594,
+            "bottom": 0.5223
+        },
+        "confidence": 0.9883
+    },
+    {
+        "text": "43",
+        "box": {
+            "left": 0.6748,
+            "top": 0.4322,
+            "right": 0.9292,
+            "bottom": 0.6343
+        },
+        "confidence": 0.9733
+    },
+    {
+        "text": "OC",
+        "box": {
+            "left": 0.1001,
+            "top": 0.4576,
+            "right": 0.1147,
+            "bottom": 0.4926
+        },
+        "confidence": 0.3295
+    },
+    {
+        "text": "крупний",
+        "box": {
+            "left": 0.2949,
+            "top": 0.5241,
+            "right": 0.5449,
+            "bottom": 0.6448
+        },
+        "confidence": 0.9911
+    },
+    {
+        "text": "\"Trapeza\"",
+        "box": {
+            "left": 0.2866,
+            "top": 0.5993,
+            "right": 0.5581,
+            "bottom": 0.7349
+        },
+        "confidence": 0.9253
+    },
+    {
+        "text": "35",
+        "box": {
+            "left": 0.6875,
+            "top": 0.643,
+            "right": 0.8228,
+            "bottom": 0.8128
+        },
+        "confidence": 0.9996
+    },
+    {
+        "text": "90",
+        "box": {
+            "left": 0.8125,
+            "top": 0.6474,
+            "right": 0.8823,
+            "bottom": 0.7813
+        },
+        "confidence": 0.9829
+    },
+    {
+        "text": "плову",
+        "box": {
+            "left": 0.3936,
+            "top": 0.7279,
+            "right": 0.5513,
+            "bottom": 0.8198
+        },
+        "confidence": 0.9404
+    },
+    {
+        "text": "ДЛя",
+        "box": {
+            "left": 0.2959,
+            "top": 0.7332,
+            "right": 0.3936,
+            "bottom": 0.8233
+        },
+        "confidence": 0.5883
+    },
+    {
+        "text": "Suore",
+        "box": {
+            "left": 0.8125,
+            "top": 0.7612,
+            "right": 0.8813,
+            "bottom": 0.811
+        },
+        "confidence": 0.6696
+    }
+]

@@ -1,0 +1,21 @@
+{
+  "pack": "uk",
+  "price": {
+    "minor": 6530,
+    "currency": "UAH"
+  },
+  "oldPrice": {
+    "minor": 9230,
+    "currency": "UAH"
+  },
+  "quantity": {
+    "value": 400.0,
+    "unit": "GRAM"
+  },
+  "isWeighted": false,
+  "loyaltyPrice": {
+    "minor": 5877,
+    "currency": "UAH"
+  },
+  "note": "АТБ 2026-09-29 in-app shot; orange: UA Фігурні вироби Своя лінія Мікс; app block top"
+}

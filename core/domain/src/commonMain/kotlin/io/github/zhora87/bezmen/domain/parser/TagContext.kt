@@ -14,9 +14,13 @@ internal class TagContext(
     /** Lower-cased and script-folded copy of every line, for marker matching only. */
     val lower: List<String> = normalized.map { ScriptFolding.fold(it.lowercase(), pack.script) }
 
-    /** Text printed sideways (codes, barcodes): tall narrow boxes with several characters. */
+    /**
+     * Text printed sideways (codes, barcodes): tall narrow boxes with several characters, or a single
+     * character far taller than any upright glyph (a digit of the barcode number up the tag's edge).
+     */
     val vertical: List<Boolean> = lines.map {
-        it.box.height > it.box.width * VERTICAL_RATIO && it.text.length >= VERTICAL_MIN_CHARS
+        val narrow = it.box.height > it.box.width * VERTICAL_RATIO
+        narrow && (it.text.length >= VERTICAL_MIN_CHARS || it.box.height > it.box.width * TALL_GLYPH_RATIO)
     }
     private val maxHeight: Float = lines.indices
         .filterNot { vertical[it] }
@@ -54,6 +58,9 @@ internal class TagContext(
         private const val MIN_HEIGHT = 1e-6f
         private const val VERTICAL_RATIO = 2f
         private const val VERTICAL_MIN_CHARS = 4
+
+        /** An upright digit is about twice as tall as wide; beyond this it is rotated text or a stroke. */
+        private const val TALL_GLYPH_RATIO = 3.5f
         private const val MAX_STACK_OVERLAP = 0.5f
 
         fun build(

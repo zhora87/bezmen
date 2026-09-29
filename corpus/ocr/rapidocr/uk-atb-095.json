@@ -1,0 +1,92 @@
+[
+  {
+    "text": "5550",
+    "box": {
+      "left": 0.4773,
+      "top": 0.0946,
+      "right": 0.9995,
+      "bottom": 0.7134
+    },
+    "confidence": 0.8527
+  },
+  {
+    "text": "Крупа",
+    "box": {
+      "left": 0.0827,
+      "top": 0.2071,
+      "right": 0.3271,
+      "bottom": 0.3848
+    },
+    "confidence": 0.8331
+  },
+  {
+    "text": "\"Своя лінія\"",
+    "box": {
+      "left": 0.0,
+      "top": 0.333,
+      "right": 0.4158,
+      "bottom": 0.4893
+    },
+    "confidence": 0.9255
+  },
+  {
+    "text": "рpн/",
+    "box": {
+      "left": 0.8417,
+      "top": 0.4196,
+      "right": 0.9425,
+      "bottom": 0.5071
+    },
+    "confidence": 0.5066
+  },
+  {
+    "text": "Булгур",
+    "box": {
+      "left": 0.0917,
+      "top": 0.467,
+      "right": 0.3291,
+      "bottom": 0.6268
+    },
+    "confidence": 0.6895
+  },
+  {
+    "text": "1Kr",
+    "box": {
+      "left": 0.8564,
+      "top": 0.4902,
+      "right": 0.9214,
+      "bottom": 0.5554
+    },
+    "confidence": 0.7812
+  },
+  {
+    "text": "09.26 Код: 157069 2.2.3",
+    "box": {
+      "left": 0.0,
+      "top": 0.8545,
+      "right": 0.315,
+      "bottom": 0.9179
+    },
+    "confidence": 0.9165
+  },
+  {
+    "text": "666",
+    "box": {
+      "left": 0.6023,
+      "top": 0.8741,
+      "right": 0.7026,
+      "bottom": 0.9259
+    },
+    "confidence": 0.9768
+  },
+  {
+    "text": "300\"074980",
+    "box": {
+      "left": 0.6905,
+      "top": 0.8741,
+      "right": 0.9163,
+      "bottom": 0.9277
+    },
+    "confidence": 0.975
+  }
+]

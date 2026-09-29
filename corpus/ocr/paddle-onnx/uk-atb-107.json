@@ -1,0 +1,122 @@
+[
+    {
+        "text": "Йогурт",
+        "box": {
+            "left": 0.1304,
+            "top": 0.1435,
+            "right": 0.3667,
+            "bottom": 0.3158
+        },
+        "confidence": 0.9786
+    },
+    {
+        "text": "89",
+        "box": {
+            "left": 0.5479,
+            "top": 0.1767,
+            "right": 0.8721,
+            "bottom": 0.6063
+        },
+        "confidence": 0.9997
+    },
+    {
+        "text": "80",
+        "box": {
+            "left": 0.8447,
+            "top": 0.1916,
+            "right": 0.998,
+            "bottom": 0.3937
+        },
+        "confidence": 0.9992
+    },
+    {
+        "text": "\"Галичина",
+        "box": {
+            "left": 0.0752,
+            "top": 0.2738,
+            "right": 0.3979,
+            "bottom": 0.4007
+        },
+        "confidence": 0.8089
+    },
+    {
+        "text": "Полуниця-суниця",
+        "box": {
+            "left": 0.0,
+            "top": 0.3937,
+            "right": 0.5029,
+            "bottom": 0.5311
+        },
+        "confidence": 0.9915
+    },
+    {
+        "text": "рпн/",
+        "box": {
+            "left": 0.8706,
+            "top": 0.3937,
+            "right": 0.9761,
+            "bottom": 0.4838
+        },
+        "confidence": 0.6253
+    },
+    {
+        "text": "0,8кг",
+        "box": {
+            "left": 0.875,
+            "top": 0.4724,
+            "right": 0.9697,
+            "bottom": 0.5407
+        },
+        "confidence": 0.69
+    },
+    {
+        "text": "ж.2,2%",
+        "box": {
+            "left": 0.1436,
+            "top": 0.5022,
+            "right": 0.3491,
+            "bottom": 0.6264
+        },
+        "confidence": 0.917
+    },
+    {
+        "text": "5.09.26",
+        "box": {
+            "left": 0.001,
+            "top": 0.8478,
+            "right": 0.103,
+            "bottom": 0.9029
+        },
+        "confidence": 0.9975
+    },
+    {
+        "text": "Код: 197516",
+        "box": {
+            "left": 0.103,
+            "top": 0.8478,
+            "right": 0.2749,
+            "bottom": 0.9116
+        },
+        "confidence": 0.9685
+    },
+    {
+        "text": "8.9.1",
+        "box": {
+            "left": 0.2759,
+            "top": 0.8565,
+            "right": 0.3408,
+            "bottom": 0.9064
+        },
+        "confidence": 0.9982
+    },
+    {
+        "text": "820222\"763967",
+        "box": {
+            "left": 0.6519,
+            "top": 0.8679,
+            "right": 0.9688,
+            "bottom": 0.9379
+        },
+        "confidence": 0.9525
+    }
+]

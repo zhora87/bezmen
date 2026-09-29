@@ -14,9 +14,9 @@ object ScaleMerge {
     /** Share of the smaller box that must overlap the other one to count as the same text. */
     private const val INSIDE = 0.6f
 
-    /** A coarse line fills a gap only when confident and mostly digits, i.e. a price. */
+    /** A coarse line fills a gap only when confident and mostly digits, i.e. a price; "6" of "6,50" counts. */
     private const val MIN_CONFIDENCE = 0.8f
-    private const val MIN_DIGITS = 2
+    private const val MIN_DIGITS = 1
 
     fun merge(fine: List<OcrLine>, coarse: List<OcrLine>): List<OcrLine> {
         var result = fine

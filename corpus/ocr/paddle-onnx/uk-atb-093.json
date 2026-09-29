@@ -1,0 +1,132 @@
+[
+    {
+        "text": "Макаронні",
+        "box": {
+            "left": 0.0835,
+            "top": 0.1689,
+            "right": 0.4478,
+            "bottom": 0.3141
+        },
+        "confidence": 0.9652
+    },
+    {
+        "text": "61",
+        "box": {
+            "left": 0.5552,
+            "top": 0.217,
+            "right": 0.8291,
+            "bottom": 0.6063
+        },
+        "confidence": 0.9997
+    },
+    {
+        "text": "20",
+        "box": {
+            "left": 0.8262,
+            "top": 0.2283,
+            "right": 0.9731,
+            "bottom": 0.4322
+        },
+        "confidence": 0.9987
+    },
+    {
+        "text": "вироби",
+        "box": {
+            "left": 0.1387,
+            "top": 0.2922,
+            "right": 0.3926,
+            "bottom": 0.4287
+        },
+        "confidence": 0.9886
+    },
+    {
+        "text": "F&G\"",
+        "box": {
+            "left": 0.3237,
+            "top": 0.4059,
+            "right": 0.4937,
+            "bottom": 0.5258
+        },
+        "confidence": 0.9924
+    },
+    {
+        "text": "\"De",
+        "box": {
+            "left": 0.0396,
+            "top": 0.4077,
+            "right": 0.1675,
+            "bottom": 0.5258
+        },
+        "confidence": 0.9034
+    },
+    {
+        "text": "рпн/",
+        "box": {
+            "left": 0.8501,
+            "top": 0.4191,
+            "right": 0.9448,
+            "bottom": 0.4961
+        },
+        "confidence": 0.6343
+    },
+    {
+        "text": "Luxe",
+        "box": {
+            "left": 0.1719,
+            "top": 0.4226,
+            "right": 0.3179,
+            "bottom": 0.5241
+        },
+        "confidence": 0.9992
+    },
+    {
+        "text": "0,5Kг",
+        "box": {
+            "left": 0.8521,
+            "top": 0.4856,
+            "right": 0.9375,
+            "bottom": 0.5477
+        },
+        "confidence": 0.6533
+    },
+    {
+        "text": "Витки",
+        "box": {
+            "left": 0.0562,
+            "top": 0.5346,
+            "right": 0.2344,
+            "bottom": 0.6343
+        },
+        "confidence": 0.7104
+    },
+    {
+        "text": "Amorosi",
+        "box": {
+            "left": 0.2407,
+            "top": 0.5389,
+            "right": 0.479,
+            "bottom": 0.636
+        },
+        "confidence": 0.9397
+    },
+    {
+        "text": "08.00.26 Koa:147484 3.5.4",
+        "box": {
+            "left": 0.0249,
+            "top": 0.8294,
+            "right": 0.3613,
+            "bottom": 0.8801
+        },
+        "confidence": 0.9195
+    },
+    {
+        "text": "2999200013089",
+        "box": {
+            "left": 0.603,
+            "top": 0.8381,
+            "right": 0.9282,
+            "bottom": 0.9029
+        },
+        "confidence": 0.9866
+    }
+]

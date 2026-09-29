@@ -1,0 +1,262 @@
+[
+    {
+        "text": "ЦИНА",
+        "box": {
+            "left": 0.5259,
+            "top": 0.0971,
+            "right": 0.6904,
+            "bottom": 0.2257
+        },
+        "confidence": 0.7503
+    },
+    {
+        "text": "скануванні",
+        "box": {
+            "left": 0.2104,
+            "top": 0.1172,
+            "right": 0.501,
+            "bottom": 0.2388
+        },
+        "confidence": 0.965
+    },
+    {
+        "text": "3Hижка",
+        "box": {
+            "left": 0.7314,
+            "top": 0.1304,
+            "right": 0.9116,
+            "bottom": 0.2152
+        },
+        "confidence": 0.6366
+    },
+    {
+        "text": "npn",
+        "box": {
+            "left": 0.1113,
+            "top": 0.1452,
+            "right": 0.2188,
+            "bottom": 0.2353
+        },
+        "confidence": 0.4157
+    },
+    {
+        "text": "66",
+        "box": {
+            "left": 0.5044,
+            "top": 0.2038,
+            "right": 0.6343,
+            "bottom": 0.364
+        },
+        "confidence": 0.9997
+    },
+    {
+        "text": "додатка",
+        "box": {
+            "left": 0.1387,
+            "top": 0.2056,
+            "right": 0.3604,
+            "bottom": 0.329
+        },
+        "confidence": 0.9901
+    },
+    {
+        "text": "ATB",
+        "box": {
+            "left": 0.3574,
+            "top": 0.2056,
+            "right": 0.4561,
+            "bottom": 0.2905
+        },
+        "confidence": 0.5217
+    },
+    {
+        "text": "10",
+        "box": {
+            "left": 0.7334,
+            "top": 0.2056,
+            "right": 0.8574,
+            "bottom": 0.3491
+        },
+        "confidence": 0.9987
+    },
+    {
+        "text": "26",
+        "box": {
+            "left": 0.6279,
+            "top": 0.2117,
+            "right": 0.6885,
+            "bottom": 0.3088
+        },
+        "confidence": 0.9892
+    },
+    {
+        "text": "%",
+        "box": {
+            "left": 0.8218,
+            "top": 0.2222,
+            "right": 0.9009,
+            "bottom": 0.3307
+        },
+        "confidence": 0.9927
+    },
+    {
+        "text": "грн",
+        "box": {
+            "left": 0.6323,
+            "top": 0.2756,
+            "right": 0.6812,
+            "bottom": 0.329
+        },
+        "confidence": 0.6617
+    },
+    {
+        "text": "kaci",
+        "box": {
+            "left": 0.2832,
+            "top": 0.2887,
+            "right": 0.3926,
+            "bottom": 0.3841
+        },
+        "confidence": 0.5883
+    },
+    {
+        "text": "на",
+        "box": {
+            "left": 0.2188,
+            "top": 0.3071,
+            "right": 0.2832,
+            "bottom": 0.3806
+        },
+        "confidence": 0.5641
+    },
+    {
+        "text": "Йогурт",
+        "box": {
+            "left": 0.3345,
+            "top": 0.4173,
+            "right": 0.5522,
+            "bottom": 0.5556
+        },
+        "confidence": 0.9653
+    },
+    {
+        "text": "UA",
+        "box": {
+            "left": 0.249,
+            "top": 0.4287,
+            "right": 0.3394,
+            "bottom": 0.5389
+        },
+        "confidence": 0.9906
+    },
+    {
+        "text": "73",
+        "box": {
+            "left": 0.6875,
+            "top": 0.5162,
+            "right": 0.8228,
+            "bottom": 0.6982
+        },
+        "confidence": 0.9993
+    },
+    {
+        "text": "2",
+        "box": {
+            "left": 0.1157,
+            "top": 0.5188,
+            "right": 0.1509,
+            "bottom": 0.671
+        },
+        "confidence": 0.339
+    },
+    {
+        "text": "лінія",
+        "box": {
+            "left": 0.3989,
+            "top": 0.5223,
+            "right": 0.5532,
+            "bottom": 0.636
+        },
+        "confidence": 0.6472
+    },
+    {
+        "text": "70",
+        "box": {
+            "left": 0.8032,
+            "top": 0.5258,
+            "right": 0.8779,
+            "bottom": 0.6343
+        },
+        "confidence": 0.9947
+    },
+    {
+        "text": "\"",
+        "box": {
+            "left": 0.5356,
+            "top": 0.5372,
+            "right": 0.5605,
+            "bottom": 0.5827
+        },
+        "confidence": 0.2796
+    },
+    {
+        "text": "\"Своя",
+        "box": {
+            "left": 0.2407,
+            "top": 0.5424,
+            "right": 0.3999,
+            "bottom": 0.636
+        },
+        "confidence": 0.9099
+    },
+    {
+        "text": "рпн",
+        "box": {
+            "left": 0.8081,
+            "top": 0.608,
+            "right": 0.8677,
+            "bottom": 0.6658
+        },
+        "confidence": 0.6503
+    },
+    {
+        "text": "1",
+        "box": {
+            "left": 0.8594,
+            "top": 0.6194,
+            "right": 0.8696,
+            "bottom": 0.6448
+        },
+        "confidence": 0.3056
+    },
+    {
+        "text": "persik-mango",
+        "box": {
+            "left": 0.2085,
+            "top": 0.6325,
+            "right": 0.5957,
+            "bottom": 0.7795
+        },
+        "confidence": 0.6667
+    },
+    {
+        "text": "0,8 кг",
+        "box": {
+            "left": 0.8081,
+            "top": 0.6492,
+            "right": 0.8779,
+            "bottom": 0.7043
+        },
+        "confidence": 0.6459
+    },
+    {
+        "text": "ж.1,2%",
+        "box": {
+            "left": 0.3052,
+            "top": 0.7349,
+            "right": 0.502,
+            "bottom": 0.8679
+        },
+        "confidence": 0.9536
+    }
+]

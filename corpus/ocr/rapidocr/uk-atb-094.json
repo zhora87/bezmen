@@ -1,0 +1,132 @@
+[
+  {
+    "text": "ЦИHA",
+    "box": {
+      "left": 0.5323,
+      "top": 0.1232,
+      "right": 0.6981,
+      "bottom": 0.2366
+    },
+    "confidence": 0.509
+  },
+  {
+    "text": "при скануванни",
+    "box": {
+      "left": 0.1472,
+      "top": 0.1348,
+      "right": 0.5207,
+      "bottom": 0.2438
+    },
+    "confidence": 0.9121
+  },
+  {
+    "text": "3нижка",
+    "box": {
+      "left": 0.749,
+      "top": 0.1554,
+      "right": 0.9178,
+      "bottom": 0.2402
+    },
+    "confidence": 0.6062
+  },
+  {
+    "text": "додатка АТБ",
+    "box": {
+      "left": 0.1739,
+      "top": 0.2027,
+      "right": 0.4798,
+      "bottom": 0.3143
+    },
+    "confidence": 0.9303
+  },
+  {
+    "text": "3231",
+    "box": {
+      "left": 0.5136,
+      "top": 0.2054,
+      "right": 0.7182,
+      "bottom": 0.3777
+    },
+    "confidence": 0.813
+  },
+  {
+    "text": "17%",
+    "box": {
+      "left": 0.7505,
+      "top": 0.2134,
+      "right": 0.9103,
+      "bottom": 0.3607
+    },
+    "confidence": 0.9979
+  },
+  {
+    "text": "на касi",
+    "box": {
+      "left": 0.2445,
+      "top": 0.2929,
+      "right": 0.4128,
+      "bottom": 0.3723
+    },
+    "confidence": 0.5632
+  },
+  {
+    "text": "UA Булгуr",
+    "box": {
+      "left": 0.2671,
+      "top": 0.3955,
+      "right": 0.5675,
+      "bottom": 0.5545
+    },
+    "confidence": 0.6444
+  },
+  {
+    "text": "43",
+    "box": {
+      "left": 0.6769,
+      "top": 0.433,
+      "right": 0.932,
+      "bottom": 0.6348
+    },
+    "confidence": 0.9875
+  },
+  {
+    "text": "крупний",
+    "box": {
+      "left": 0.2964,
+      "top": 0.5277,
+      "right": 0.5439,
+      "bottom": 0.6366
+    },
+    "confidence": 0.9835
+  },
+  {
+    "text": "\"Trapeza\"",
+    "box": {
+      "left": 0.2868,
+      "top": 0.5991,
+      "right": 0.5565,
+      "bottom": 0.7348
+    },
+    "confidence": 0.9285
+  },
+  {
+    "text": "3590",
+    "box": {
+      "left": 0.6809,
+      "top": 0.6312,
+      "right": 0.8911,
+      "bottom": 0.8223
+    },
+    "confidence": 0.7082
+  },
+  {
+    "text": "для плову",
+    "box": {
+      "left": 0.2928,
+      "top": 0.7223,
+      "right": 0.5529,
+      "bottom": 0.8304
+    },
+    "confidence": 0.9589
+  }
+]

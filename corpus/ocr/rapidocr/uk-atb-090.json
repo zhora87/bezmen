@@ -1,0 +1,162 @@
+[
+  {
+    "text": "ЦИHА",
+    "box": {
+      "left": 0.5932,
+      "top": 0.1571,
+      "right": 0.756,
+      "bottom": 0.2705
+    },
+    "confidence": 0.5882
+  },
+  {
+    "text": "прискануванни",
+    "box": {
+      "left": 0.1376,
+      "top": 0.1616,
+      "right": 0.5565,
+      "bottom": 0.2607
+    },
+    "confidence": 0.9156
+  },
+  {
+    "text": "3HижKa",
+    "box": {
+      "left": 0.8175,
+      "top": 0.1866,
+      "right": 0.9995,
+      "bottom": 0.283
+    },
+    "confidence": 0.5417
+  },
+  {
+    "text": "додаткаАТБ",
+    "box": {
+      "left": 0.1719,
+      "top": 0.2384,
+      "right": 0.5116,
+      "bottom": 0.3473
+    },
+    "confidence": 0.9822
+  },
+  {
+    "text": "7",
+    "box": {
+      "left": 0.683,
+      "top": 0.2518,
+      "right": 0.7626,
+      "bottom": 0.4188
+    },
+    "confidence": 0.5117
+  },
+  {
+    "text": "14",
+    "box": {
+      "left": 0.564,
+      "top": 0.2562,
+      "right": 0.693,
+      "bottom": 0.4179
+    },
+    "confidence": 0.9998
+  },
+  {
+    "text": "21%",
+    "box": {
+      "left": 0.8095,
+      "top": 0.2616,
+      "right": 0.9995,
+      "bottom": 0.417
+    },
+    "confidence": 0.9964
+  },
+  {
+    "text": "на касі",
+    "box": {
+      "left": 0.252,
+      "top": 0.3366,
+      "right": 0.4365,
+      "bottom": 0.4143
+    },
+    "confidence": 0.7359
+  },
+  {
+    "text": "UA Пластівці",
+    "box": {
+      "left": 0.2742,
+      "top": 0.4955,
+      "right": 0.6094,
+      "bottom": 0.6089
+    },
+    "confidence": 0.7883
+  },
+  {
+    "text": "200",
+    "box": {
+      "left": 0.7243,
+      "top": 0.5045,
+      "right": 0.9874,
+      "bottom": 0.7054
+    },
+    "confidence": 0.7705
+  },
+  {
+    "text": "2.6.2",
+    "box": {
+      "left": 0.1497,
+      "top": 0.5509,
+      "right": 0.1815,
+      "bottom": 0.658
+    },
+    "confidence": 0.9622
+  },
+  {
+    "text": "\"Своя Лінія\"",
+    "box": {
+      "left": 0.2853,
+      "top": 0.5884,
+      "right": 0.5983,
+      "bottom": 0.683
+    },
+    "confidence": 0.9324
+  },
+  {
+    "text": "111697",
+    "box": {
+      "left": 0.1522,
+      "top": 0.6696,
+      "right": 0.1875,
+      "bottom": 0.8321
+    },
+    "confidence": 0.9935
+  },
+  {
+    "text": "кукурудзяні",
+    "box": {
+      "left": 0.2974,
+      "top": 0.6804,
+      "right": 0.5857,
+      "bottom": 0.783
+    },
+    "confidence": 0.9434
+  },
+  {
+    "text": "1640",
+    "box": {
+      "left": 0.7334,
+      "top": 0.7009,
+      "right": 0.9531,
+      "bottom": 0.9009
+    },
+    "confidence": 0.9122
+  },
+  {
+    "text": "s0r",
+    "box": {
+      "left": 0.876,
+      "top": 0.8446,
+      "right": 0.9229,
+      "bottom": 0.8875
+    },
+    "confidence": 0.6162
+  }
+]

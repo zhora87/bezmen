@@ -141,7 +141,7 @@ italic ones of Tavria V tags, are found in pieces or not at all at the 960 px in
 "177" as "17"), and a larger input makes it worse. The engine therefore runs the detector a second
 time at 480 px and reads only the tall boxes of that pass. `ScaleMerge` puts a coarse line in place
 of the fine lines it overlaps only when it reads more digits than they do, or when the fine pass
-found nothing there; small print stays with the fine pass. The coarse pass costs about a quarter of
+found nothing there (a lone huge "6" of "6,50" included); small print stays with the fine pass. The coarse pass costs about a quarter of
 the fine one.
 
 ### Reading the recognition dictionary

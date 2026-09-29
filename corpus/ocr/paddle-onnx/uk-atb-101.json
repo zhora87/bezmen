@@ -1,0 +1,142 @@
+[
+    {
+        "text": "Сіль",
+        "box": {
+            "left": 0.1665,
+            "top": 0.1872,
+            "right": 0.3228,
+            "bottom": 0.3237
+        },
+        "confidence": 0.8972
+    },
+    {
+        "text": "UA",
+        "box": {
+            "left": 0.0718,
+            "top": 0.189,
+            "right": 0.1709,
+            "bottom": 0.2975
+        },
+        "confidence": 0.9866
+    },
+    {
+        "text": "рожева",
+        "box": {
+            "left": 0.3188,
+            "top": 0.21,
+            "right": 0.5635,
+            "bottom": 0.3255
+        },
+        "confidence": 0.9923
+    },
+    {
+        "text": "37",
+        "box": {
+            "left": 0.5991,
+            "top": 0.2371,
+            "right": 0.8823,
+            "bottom": 0.6264
+        },
+        "confidence": 0.9999
+    },
+    {
+        "text": "80",
+        "box": {
+            "left": 0.8687,
+            "top": 0.2537,
+            "right": 1.0,
+            "bottom": 0.4444
+        },
+        "confidence": 0.9979
+    },
+    {
+        "text": "мелена",
+        "box": {
+            "left": 0.1968,
+            "top": 0.3237,
+            "right": 0.4395,
+            "bottom": 0.4261
+        },
+        "confidence": 0.821
+    },
+    {
+        "text": "\"Приправка\"",
+        "box": {
+            "left": 0.1084,
+            "top": 0.4208,
+            "right": 0.5054,
+            "bottom": 0.5713
+        },
+        "confidence": 0.9036
+    },
+    {
+        "text": "рпн",
+        "box": {
+            "left": 0.8926,
+            "top": 0.4392,
+            "right": 0.9873,
+            "bottom": 0.5241
+        },
+        "confidence": 0.4603
+    },
+    {
+        "text": "200р",
+        "box": {
+            "left": 0.8999,
+            "top": 0.5074,
+            "right": 0.98,
+            "bottom": 0.5678
+        },
+        "confidence": 0.8362
+    },
+    {
+        "text": "Гімалайська",
+        "box": {
+            "left": 0.1323,
+            "top": 0.5372,
+            "right": 0.5,
+            "bottom": 0.6632
+        },
+        "confidence": 0.9538
+    },
+    {
+        "text": "11.09.26 КОд: 130460 1.6.1",
+        "box": {
+            "left": 0.0728,
+            "top": 0.8381,
+            "right": 0.4063,
+            "bottom": 0.9029
+        },
+        "confidence": 0.9293
+    },
+    {
+        "text": "820030",
+        "box": {
+            "left": 0.6948,
+            "top": 0.8661,
+            "right": 0.8237,
+            "bottom": 0.8985
+        },
+        "confidence": 0.7718
+    },
+    {
+        "text": "0405",
+        "box": {
+            "left": 0.853,
+            "top": 0.8714,
+            "right": 0.9419,
+            "bottom": 0.8985
+        },
+        "confidence": 0.8642
+    },
+    {
+        "text": "2",
+        "box": {
+            "left": 0.8428,
+            "top": 0.8749,
+            "right": 0.8564,
+            "bottom": 0.8933
+        },
+        "confidence": 0.7922
+    }
+]

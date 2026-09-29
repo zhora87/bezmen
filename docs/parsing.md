@@ -69,12 +69,14 @@ An `overall` below `ParseResult.CONFIRM_THRESHOLD` (0.75) means the UI shows the
 6. **Money candidates.** `249.90`; `249 90`; a two-digit box to the right of a large integer box,
    smaller and vertically inside it; `249 ₽`; and, only on the tallest lines, a bare integer. On
    packs with superscript kopecks a bare integer of four or more digits is the price glued to its
-   kopecks (`29480` is 294.80). Barcodes (8+ digits), dates, codes, sideways text, numbers
+   kopecks (`29480` is 294.80). Barcodes (8+ digits), dates, codes, sideways text (tall narrow
+   boxes with several characters, or a single glyph over 3.5 times taller than wide), numbers
    followed by `%` and numbers glued to a unit (`0,85л` on packaging behind the tag) are excluded,
    as is a lone 1..99 set at least as large as a discount word right above it (`Знижка` over a `10`
    that lost its `%`).
-7. **Current, old and card price.** Labels apply to a price when they share a line or overlap it
-   vertically. A price on an old-price label is the old price. A price on a loyalty label ("Ціна
+7. **Current, old and card price.** Labels apply to a price when they share a line, overlap it
+   vertically, or are printed right under it in the same column (a price block with "ЦІНА" above
+   the digits and "при скануванні додатка" below). A price on an old-price label is the old price. A price on a loyalty label ("Ціна
    при скануванні додатка АТБ", "Ціна при оплаті карткою") is reported as `loyaltyPrice`, never as
    the current price, as long as the tag has a shelf price too. Kopecks next to such a price count
    as kopecks when their digits are narrower than the major digits, even if the box also holds the
@@ -87,8 +89,8 @@ An `overall` below `ParseResult.CONFIRM_THRESHOLD` (0.75) means the UI shows the
 9. **Name.** Pieces of text level with each other form a row, read left to right. The name is the
    topmost wordy row in the upper part of the tag, joined with up to three rows directly beneath it
    in similar type, taken as printed. Lines with more digits than letters, marker lines, rows made
-   only of the pack's `labelWords` or currency, text cut by the frame edge and anything inside the
-   card-price block are excluded; a quantity inside a name row is cut out.
+   only of the pack's `labelWords` or currency, text cut by the frame edge and anything printed over
+   the card price's box are excluded; a quantity inside a name row is cut out.
 10. **Cross-check and derivation.** With price, quantity and a printed unit price, a mismatch above
     3% lowers `overall`. With price and printed unit price but no quantity, the quantity is derived
     (price ÷ unit price) at reduced confidence. With no price of its own, the marker's price is used

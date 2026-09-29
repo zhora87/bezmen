@@ -1,0 +1,112 @@
+[
+    {
+        "text": "Макаронні",
+        "box": {
+            "left": 0.1553,
+            "top": 0.1916,
+            "right": 0.4863,
+            "bottom": 0.3255
+        },
+        "confidence": 0.904
+    },
+    {
+        "text": "52",
+        "box": {
+            "left": 0.5811,
+            "top": 0.2257,
+            "right": 0.854,
+            "bottom": 0.5923
+        },
+        "confidence": 0.9998
+    },
+    {
+        "text": "70",
+        "box": {
+            "left": 0.8271,
+            "top": 0.252,
+            "right": 0.9575,
+            "bottom": 0.4226
+        },
+        "confidence": 0.9993
+    },
+    {
+        "text": "вироби",
+        "box": {
+            "left": 0.2012,
+            "top": 0.3018,
+            "right": 0.4429,
+            "bottom": 0.4304
+        },
+        "confidence": 0.9907
+    },
+    {
+        "text": "\"La Pasta\"",
+        "box": {
+            "left": 0.1729,
+            "top": 0.4042,
+            "right": 0.4678,
+            "bottom": 0.5328
+        },
+        "confidence": 0.9649
+    },
+    {
+        "text": "рпн/",
+        "box": {
+            "left": 0.8457,
+            "top": 0.4191,
+            "right": 0.9321,
+            "bottom": 0.4961
+        },
+        "confidence": 0.4239
+    },
+    {
+        "text": "420r",
+        "box": {
+            "left": 0.8511,
+            "top": 0.4838,
+            "right": 0.9263,
+            "bottom": 0.5407
+        },
+        "confidence": 0.8926
+    },
+    {
+        "text": "Ріжки",
+        "box": {
+            "left": 0.2407,
+            "top": 0.5223,
+            "right": 0.4053,
+            "bottom": 0.629
+        },
+        "confidence": 0.8748
+    },
+    {
+        "text": "15.09.26 КОд:157466 1.4.5",
+        "box": {
+            "left": 0.104,
+            "top": 0.7883,
+            "right": 0.4082,
+            "bottom": 0.853
+        },
+        "confidence": 0.9317
+    },
+    {
+        "text": "662707",
+        "box": {
+            "left": 0.7886,
+            "top": 0.7997,
+            "right": 0.9165,
+            "bottom": 0.86
+        },
+        "confidence": 0.9941
+    },
+    {
+        "text": "820211",
+        "box": {
+            "left": 0.6626,
+            "top": 0.811,
+            "right": 0.7842,
+            "bottom": 0.8565
+        },
+        "confidence": 0.9979
+    }
+]

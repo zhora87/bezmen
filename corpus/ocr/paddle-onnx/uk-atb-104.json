@@ -1,0 +1,212 @@
+[
+    {
+        "text": "ЦИНА",
+        "box": {
+            "left": 0.6157,
+            "top": 0.1619,
+            "right": 0.7866,
+            "bottom": 0.2887
+        },
+        "confidence": 0.7724
+    },
+    {
+        "text": "999300103253",
+        "box": {
+            "left": 0.1665,
+            "top": 0.2117,
+            "right": 0.4937,
+            "bottom": 0.2887
+        },
+        "confidence": 0.9984
+    },
+    {
+        "text": "94",
+        "box": {
+            "left": 0.5825,
+            "top": 0.2651,
+            "right": 0.7446,
+            "bottom": 0.4506
+        },
+        "confidence": 0.9992
+    },
+    {
+        "text": "84",
+        "box": {
+            "left": 0.7104,
+            "top": 0.2738,
+            "right": 0.7915,
+            "bottom": 0.4226
+        },
+        "confidence": 0.9325
+    },
+    {
+        "text": "UA Маcлo",
+        "box": {
+            "left": 0.1406,
+            "top": 0.2808,
+            "right": 0.3687,
+            "bottom": 0.3657
+        },
+        "confidence": 0.6396
+    },
+    {
+        "text": "'Своя",
+        "box": {
+            "left": 0.3804,
+            "top": 0.287,
+            "right": 0.501,
+            "bottom": 0.3675
+        },
+        "confidence": 0.883
+    },
+    {
+        "text": "лінія",
+        "box": {
+            "left": 0.251,
+            "top": 0.3622,
+            "right": 0.377,
+            "bottom": 0.4488
+        },
+        "confidence": 0.7327
+    },
+    {
+        "text": "солодковершкове",
+        "box": {
+            "left": 0.1123,
+            "top": 0.4593,
+            "right": 0.5283,
+            "bottom": 0.5407
+        },
+        "confidence": 0.9785
+    },
+    {
+        "text": "при скануванни",
+        "box": {
+            "left": 0.5571,
+            "top": 0.4654,
+            "right": 0.8188,
+            "bottom": 0.5346
+        },
+        "confidence": 0.9198
+    },
+    {
+        "text": "додатка АТБ",
+        "box": {
+            "left": 0.5835,
+            "top": 0.5109,
+            "right": 0.7998,
+            "bottom": 0.5941
+        },
+        "confidence": 0.8778
+    },
+    {
+        "text": "екстра",
+        "box": {
+            "left": 0.2471,
+            "top": 0.5477,
+            "right": 0.3926,
+            "bottom": 0.6212
+        },
+        "confidence": 0.9324
+    },
+    {
+        "text": "накасі",
+        "box": {
+            "left": 0.6304,
+            "top": 0.5792,
+            "right": 0.75,
+            "bottom": 0.6378
+        },
+        "confidence": 0.6019
+    },
+    {
+        "text": "ж.82%",
+        "box": {
+            "left": 0.25,
+            "top": 0.6107,
+            "right": 0.3906,
+            "bottom": 0.6964
+        },
+        "confidence": 0.8954
+    },
+    {
+        "text": "50",
+        "box": {
+            "left": 0.7271,
+            "top": 0.7209,
+            "right": 0.7886,
+            "bottom": 0.8049
+        },
+        "confidence": 0.9991
+    },
+    {
+        "text": "105",
+        "box": {
+            "left": 0.5532,
+            "top": 0.7244,
+            "right": 0.7334,
+            "bottom": 0.8801
+        },
+        "confidence": 0.9995
+    },
+    {
+        "text": "3нижка",
+        "box": {
+            "left": 0.3877,
+            "top": 0.7375,
+            "right": 0.5029,
+            "bottom": 0.79
+        },
+        "confidence": 0.635
+    },
+    {
+        "text": "10%",
+        "box": {
+            "left": 0.3877,
+            "top": 0.7795,
+            "right": 0.4897,
+            "bottom": 0.8618
+        },
+        "confidence": 0.9797
+    },
+    {
+        "text": "180",
+        "box": {
+            "left": 0.7241,
+            "top": 0.7795,
+            "right": 0.7876,
+            "bottom": 0.8661
+        },
+        "confidence": 0.1825
+    },
+    {
+        "text": "1.16.8",
+        "box": {
+            "left": 0.228,
+            "top": 0.783,
+            "right": 0.3096,
+            "bottom": 0.8311
+        },
+        "confidence": 0.9374
+    },
+    {
+        "text": "27.09.26",
+        "box": {
+            "left": 0.1187,
+            "top": 0.7848,
+            "right": 0.2231,
+            "bottom": 0.8329
+        },
+        "confidence": 0.9978
+    },
+    {
+        "text": "Код: 180974",
+        "box": {
+            "left": 0.1196,
+            "top": 0.825,
+            "right": 0.2686,
+            "bottom": 0.8766
+        },
+        "confidence": 0.8501
+    }
+]

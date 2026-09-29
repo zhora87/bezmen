@@ -1,0 +1,182 @@
+[
+  {
+    "text": "ЦИHA",
+    "box": {
+      "left": 0.5292,
+      "top": 0.1062,
+      "right": 0.682,
+      "bottom": 0.2241
+    },
+    "confidence": 0.5819
+  },
+  {
+    "text": "при скануванні",
+    "box": {
+      "left": 0.1053,
+      "top": 0.1125,
+      "right": 0.503,
+      "bottom": 0.2571
+    },
+    "confidence": 0.9308
+  },
+  {
+    "text": "3Hижка",
+    "box": {
+      "left": 0.7339,
+      "top": 0.1134,
+      "right": 0.9148,
+      "bottom": 0.2232
+    },
+    "confidence": 0.5615
+  },
+  {
+    "text": "додатка АТБ",
+    "box": {
+      "left": 0.1381,
+      "top": 0.1911,
+      "right": 0.4617,
+      "bottom": 0.3259
+    },
+    "confidence": 0.9293
+  },
+  {
+    "text": "26",
+    "box": {
+      "left": 0.6053,
+      "top": 0.1991,
+      "right": 0.6951,
+      "bottom": 0.3545
+    },
+    "confidence": 0.8171
+  },
+  {
+    "text": "66",
+    "box": {
+      "left": 0.5005,
+      "top": 0.2018,
+      "right": 0.6482,
+      "bottom": 0.3661
+    },
+    "confidence": 0.9986
+  },
+  {
+    "text": "10%",
+    "box": {
+      "left": 0.7429,
+      "top": 0.2054,
+      "right": 0.9062,
+      "bottom": 0.3473
+    },
+    "confidence": 0.9987
+  },
+  {
+    "text": "на касі",
+    "box": {
+      "left": 0.2152,
+      "top": 0.2902,
+      "right": 0.3916,
+      "bottom": 0.3848
+    },
+    "confidence": 0.7721
+  },
+  {
+    "text": "UА ЙогУрт",
+    "box": {
+      "left": 0.2394,
+      "top": 0.4027,
+      "right": 0.5575,
+      "bottom": 0.5598
+    },
+    "confidence": 0.6993
+  },
+  {
+    "text": "\"Своя лінія'",
+    "box": {
+      "left": 0.2228,
+      "top": 0.508,
+      "right": 0.559,
+      "bottom": 0.6527
+    },
+    "confidence": 0.8872
+  },
+  {
+    "text": "73",
+    "box": {
+      "left": 0.685,
+      "top": 0.5134,
+      "right": 0.8296,
+      "bottom": 0.7027
+    },
+    "confidence": 0.9993
+  },
+  {
+    "text": "822",
+    "box": {
+      "left": 0.119,
+      "top": 0.5241,
+      "right": 0.1487,
+      "bottom": 0.6741
+    },
+    "confidence": 0.9964
+  },
+  {
+    "text": "70",
+    "box": {
+      "left": 0.8029,
+      "top": 0.5277,
+      "right": 0.8755,
+      "bottom": 0.6357
+    },
+    "confidence": 0.9931
+  },
+  {
+    "text": "persik-mango",
+    "box": {
+      "left": 0.2147,
+      "top": 0.6384,
+      "right": 0.5917,
+      "bottom": 0.7732
+    },
+    "confidence": 0.9441
+  },
+  {
+    "text": "Код: 180749",
+    "box": {
+      "left": 0.119,
+      "top": 0.6518,
+      "right": 0.1593,
+      "bottom": 0.8991
+    },
+    "confidence": 0.8591
+  },
+  {
+    "text": "0,8Kr",
+    "box": {
+      "left": 0.8115,
+      "top": 0.6562,
+      "right": 0.8745,
+      "bottom": 0.6964
+    },
+    "confidence": 0.6513
+  },
+  {
+    "text": "09.09.26",
+    "box": {
+      "left": 0.0993,
+      "top": 0.7348,
+      "right": 0.1255,
+      "bottom": 0.8964
+    },
+    "confidence": 0.9892
+  },
+  {
+    "text": "ж.1,2%",
+    "box": {
+      "left": 0.307,
+      "top": 0.7411,
+      "right": 0.5005,
+      "bottom": 0.8607
+    },
+    "confidence": 0.9166
+  }
+]

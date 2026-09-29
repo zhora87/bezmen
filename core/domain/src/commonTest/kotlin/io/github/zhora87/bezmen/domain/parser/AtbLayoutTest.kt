@@ -473,6 +473,53 @@ class AtbLayoutTest {
         assertEquals("Чай \"Своя лінія\" Garden Pie, зелений", tag?.name?.value)
     }
 
+    /** Newer orange layout: the app price sits in a dark block on the right, its label under the digits. */
+    @Test
+    fun `app price with its label stacked below it in a block is the card price`() {
+        val tag = TestPacks.ukWithAtbLabels.let(::PriceTagParser).parse(
+            listOf(
+                OcrLine("ЦИНА", Box(0.62f, 0.16f, 0.79f, 0.29f), 0.76f),
+                OcrLine("94", Box(0.58f, 0.27f, 0.74f, 0.45f), 1f),
+                OcrLine("84", Box(0.71f, 0.27f, 0.79f, 0.42f), 0.99f),
+                OcrLine("UA Масло", Box(0.14f, 0.28f, 0.37f, 0.37f), 0.71f),
+                OcrLine("Своя", Box(0.38f, 0.29f, 0.50f, 0.37f), 0.98f),
+                OcrLine("лінія", Box(0.25f, 0.36f, 0.38f, 0.45f), 0.84f),
+                OcrLine("солодковершкове", Box(0.11f, 0.46f, 0.53f, 0.54f), 0.97f),
+                OcrLine("при скануванни", Box(0.56f, 0.47f, 0.82f, 0.53f), 0.87f),
+                OcrLine("додатка АТБ", Box(0.58f, 0.51f, 0.80f, 0.59f), 0.88f),
+                OcrLine("на касі", Box(0.63f, 0.58f, 0.75f, 0.64f), 0.42f),
+                OcrLine("50", Box(0.73f, 0.72f, 0.79f, 0.81f), 1f),
+                OcrLine("105", Box(0.55f, 0.73f, 0.73f, 0.88f), 1f),
+                OcrLine("Знижка", Box(0.39f, 0.74f, 0.50f, 0.79f), 0.78f),
+                OcrLine("10%", Box(0.39f, 0.78f, 0.49f, 0.86f), 0.98f),
+            ),
+        ).tagOrNull()
+
+        assertEquals(Money.of(105, 50, "UAH"), tag?.price?.value)
+        assertEquals(Money.of(94, 84, "UAH"), tag?.loyaltyPrice?.value)
+        assertNull(tag?.oldPrice)
+        assertEquals("UA Масло Своя лінія солодковершкове", tag?.name?.value)
+    }
+
+    /** The tag's own barcode number runs up the left edge; one of its digits comes back as a tall box. */
+    @Test
+    fun `a tall narrow single digit at the edge is sideways text, not a price`() {
+        val tag = uk.parse(
+            listOf(
+                OcrLine("Йогурт", Box(0.33f, 0.42f, 0.55f, 0.56f), 0.96f),
+                OcrLine("73", Box(0.69f, 0.52f, 0.82f, 0.70f), 1f),
+                OcrLine("70", Box(0.80f, 0.53f, 0.88f, 0.64f), 1f),
+                OcrLine("ррн", Box(0.81f, 0.61f, 0.86f, 0.66f), 0.64f),
+                OcrLine("0,8 кг", Box(0.81f, 0.65f, 0.88f, 0.70f), 0.62f),
+                OcrLine("8", Box(0.05f, 0.57f, 0.09f, 0.81f), 0.37f),
+                OcrLine("2", Box(0.12f, 0.52f, 0.15f, 0.66f), 0.37f),
+            ),
+        ).tagOrNull()
+
+        assertEquals(Money.of(73, 70, "UAH"), tag?.price?.value)
+        assertEquals(Quantity(0.8, MeasureUnit.KILOGRAM), tag?.quantity?.value)
+    }
+
     private fun ParseResult.tagOrNull() = when (this) {
         is ParseResult.Success -> tag
         is ParseResult.NeedsInput -> tag

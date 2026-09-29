@@ -64,4 +64,13 @@ class ScaleMergeTest {
 
         assertEquals(setOf("9490"), ScaleMerge.merge(fine, coarse).texts())
     }
+
+    @Test
+    fun `a lone big digit found only by the coarse pass is added`() {
+        // "6,50": the fine pass saw the kopecks and the small print, the huge "6" only the coarse pass.
+        val fine = listOf(line("50", 0.80f, 0.21f, 0.95f, 0.41f), line("10r", 0.84f, 0.45f, 0.91f, 0.51f))
+        val coarse = listOf(line("6", 0.60f, 0.18f, 0.80f, 0.60f))
+
+        assertEquals(setOf("50", "10r", "6"), ScaleMerge.merge(fine, coarse).texts())
+    }
 }

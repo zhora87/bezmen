@@ -1,0 +1,72 @@
+[
+    {
+        "text": "50",
+        "box": {
+            "left": 0.8013,
+            "top": 0.2073,
+            "right": 0.9468,
+            "bottom": 0.4059
+        },
+        "confidence": 0.9997
+    },
+    {
+        "text": "Розпушувач тіста",
+        "box": {
+            "left": 0.0513,
+            "top": 0.2485,
+            "right": 0.5332,
+            "bottom": 0.3858
+        },
+        "confidence": 0.9631
+    },
+    {
+        "text": "Dr. Oekter",
+        "box": {
+            "left": 0.1543,
+            "top": 0.3552,
+            "right": 0.4312,
+            "bottom": 0.4759
+        },
+        "confidence": 0.9543
+    },
+    {
+        "text": "рпн",
+        "box": {
+            "left": 0.8311,
+            "top": 0.392,
+            "right": 0.9229,
+            "bottom": 0.4611
+        },
+        "confidence": 0.5413
+    },
+    {
+        "text": "10r",
+        "box": {
+            "left": 0.8438,
+            "top": 0.4488,
+            "right": 0.9072,
+            "bottom": 0.5144
+        },
+        "confidence": 0.9185
+    },
+    {
+        "text": "19.00265 Код: 113678 2.11.1",
+        "box": {
+            "left": 0.0635,
+            "top": 0.7297,
+            "right": 0.395,
+            "bottom": 0.8198
+        },
+        "confidence": 0.8308
+    },
+    {
+        "text": "6",
+        "box": {
+            "left": 0.6812,
+            "top": 0.2152,
+            "right": 0.8438,
+            "bottom": 0.5582
+        },
+        "confidence": 0.999
+    }
+]

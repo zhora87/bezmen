@@ -1,0 +1,202 @@
+[
+  {
+    "text": "при скануванни",
+    "box": {
+      "left": 0.1416,
+      "top": 0.1134,
+      "right": 0.5368,
+      "bottom": 0.2339
+    },
+    "confidence": 0.9026
+  },
+  {
+    "text": "ЦИHA",
+    "box": {
+      "left": 0.5675,
+      "top": 0.1259,
+      "right": 0.7233,
+      "bottom": 0.2393
+    },
+    "confidence": 0.5618
+  },
+  {
+    "text": "3Hижka",
+    "box": {
+      "left": 0.7767,
+      "top": 0.1643,
+      "right": 0.9602,
+      "bottom": 0.2616
+    },
+    "confidence": 0.5219
+  },
+  {
+    "text": "додатка АТБ",
+    "box": {
+      "left": 0.1734,
+      "top": 0.2,
+      "right": 0.4904,
+      "bottom": 0.2964
+    },
+    "confidence": 0.9661
+  },
+  {
+    "text": "58",
+    "box": {
+      "left": 0.5323,
+      "top": 0.2205,
+      "right": 0.6689,
+      "bottom": 0.3777
+    },
+    "confidence": 0.9999
+  },
+  {
+    "text": "77",
+    "box": {
+      "left": 0.6593,
+      "top": 0.2339,
+      "right": 0.7228,
+      "bottom": 0.325
+    },
+    "confidence": 0.7047
+  },
+  {
+    "text": "29%",
+    "box": {
+      "left": 0.7717,
+      "top": 0.2384,
+      "right": 0.9415,
+      "bottom": 0.3839
+    },
+    "confidence": 0.9987
+  },
+  {
+    "text": "на касі",
+    "box": {
+      "left": 0.2455,
+      "top": 0.2875,
+      "right": 0.4209,
+      "bottom": 0.3661
+    },
+    "confidence": 0.6814
+  },
+  {
+    "text": "рпн",
+    "box": {
+      "left": 0.6628,
+      "top": 0.3125,
+      "right": 0.7157,
+      "bottom": 0.3661
+    },
+    "confidence": 0.5275
+  },
+  {
+    "text": "UА Фігурні вироби",
+    "box": {
+      "left": 0.2011,
+      "top": 0.4045,
+      "right": 0.6452,
+      "bottom": 0.5446
+    },
+    "confidence": 0.8879
+  },
+  {
+    "text": "26",
+    "box": {
+      "left": 0.6865,
+      "top": 0.4652,
+      "right": 0.9491,
+      "bottom": 0.6714
+    },
+    "confidence": 0.6337
+  },
+  {
+    "text": "\"Своя лінія\"",
+    "box": {
+      "left": 0.2828,
+      "top": 0.4973,
+      "right": 0.563,
+      "bottom": 0.5973
+    },
+    "confidence": 0.9343
+  },
+  {
+    "text": "Мікс зі смаком",
+    "box": {
+      "left": 0.2671,
+      "top": 0.5813,
+      "right": 0.5796,
+      "bottom": 0.6813
+    },
+    "confidence": 0.9085
+  },
+  {
+    "text": "Kод198321",
+    "box": {
+      "left": 0.1472,
+      "top": 0.6143,
+      "right": 0.1845,
+      "bottom": 0.8429
+    },
+    "confidence": 0.8082
+  },
+  {
+    "text": "білий та молочний",
+    "box": {
+      "left": 0.2273,
+      "top": 0.6571,
+      "right": 0.6174,
+      "bottom": 0.7571
+    },
+    "confidence": 0.9587
+  },
+  {
+    "text": "65",
+    "box": {
+      "left": 0.6946,
+      "top": 0.667,
+      "right": 0.8463,
+      "bottom": 0.8509
+    },
+    "confidence": 0.9987
+  },
+  {
+    "text": "3.0",
+    "box": {
+      "left": 0.814,
+      "top": 0.6813,
+      "right": 0.8977,
+      "bottom": 0.8295
+    },
+    "confidence": 0.6325
+  },
+  {
+    "text": "22.09.26",
+    "box": {
+      "left": 0.1265,
+      "top": 0.6821,
+      "right": 0.1562,
+      "bottom": 0.8375
+    },
+    "confidence": 0.9921
+  },
+  {
+    "text": "шоколад",
+    "box": {
+      "left": 0.3286,
+      "top": 0.7527,
+      "right": 0.5151,
+      "bottom": 0.8304
+    },
+    "confidence": 0.9854
+  },
+  {
+    "text": "400r",
+    "box": {
+      "left": 0.8281,
+      "top": 0.8054,
+      "right": 0.8871,
+      "bottom": 0.8518
+    },
+    "confidence": 0.9652
+  }
+]

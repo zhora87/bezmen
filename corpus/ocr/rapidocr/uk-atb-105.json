@@ -1,0 +1,202 @@
+[
+  {
+    "text": "ЦИHА",
+    "box": {
+      "left": 0.6744,
+      "top": 0.1339,
+      "right": 0.8311,
+      "bottom": 0.2482
+    },
+    "confidence": 0.5715
+  },
+  {
+    "text": "2\"999200017773",
+    "box": {
+      "left": 0.2001,
+      "top": 0.1616,
+      "right": 0.5489,
+      "bottom": 0.2393
+    },
+    "confidence": 0.9663
+  },
+  {
+    "text": "Macno\"De Luxe",
+    "box": {
+      "left": 0.1941,
+      "top": 0.2188,
+      "right": 0.5852,
+      "bottom": 0.3312
+    },
+    "confidence": 0.7744
+  },
+  {
+    "text": "126",
+    "box": {
+      "left": 0.6144,
+      "top": 0.2286,
+      "right": 0.808,
+      "bottom": 0.4054
+    },
+    "confidence": 0.9996
+  },
+  {
+    "text": "81",
+    "box": {
+      "left": 0.7969,
+      "top": 0.2446,
+      "right": 0.8624,
+      "bottom": 0.3357
+    },
+    "confidence": 0.9996
+  },
+  {
+    "text": "F&G Selected",
+    "box": {
+      "left": 0.2349,
+      "top": 0.3125,
+      "right": 0.5615,
+      "bottom": 0.4205
+    },
+    "confidence": 0.9876
+  },
+  {
+    "text": "солодковершкове",
+    "box": {
+      "left": 0.1809,
+      "top": 0.4196,
+      "right": 0.62,
+      "bottom": 0.5295
+    },
+    "confidence": 0.8825
+  },
+  {
+    "text": "при скануванни",
+    "box": {
+      "left": 0.6119,
+      "top": 0.4241,
+      "right": 0.8548,
+      "bottom": 0.4857
+    },
+    "confidence": 0.9335
+  },
+  {
+    "text": "додатка АТБ",
+    "box": {
+      "left": 0.6366,
+      "top": 0.4741,
+      "right": 0.8352,
+      "bottom": 0.5339
+    },
+    "confidence": 0.944
+  },
+  {
+    "text": "ж.82%",
+    "box": {
+      "left": 0.3185,
+      "top": 0.5036,
+      "right": 0.4748,
+      "bottom": 0.6027
+    },
+    "confidence": 0.8709
+  },
+  {
+    "text": "на касi",
+    "box": {
+      "left": 0.6804,
+      "top": 0.533,
+      "right": 0.7898,
+      "bottom": 0.5804
+    },
+    "confidence": 0.5914
+  },
+  {
+    "text": "158",
+    "box": {
+      "left": 0.3291,
+      "top": 0.6062,
+      "right": 0.5736,
+      "bottom": 0.8045
+    },
+    "confidence": 0.995
+  },
+  {
+    "text": "3Hижка",
+    "box": {
+      "left": 0.2142,
+      "top": 0.6312,
+      "right": 0.3266,
+      "bottom": 0.6884
+    },
+    "confidence": 0.5349
+  },
+  {
+    "text": "140",
+    "box": {
+      "left": 0.5953,
+      "top": 0.667,
+      "right": 0.7807,
+      "bottom": 0.8536
+    },
+    "confidence": 0.9983
+  },
+  {
+    "text": "90",
+    "box": {
+      "left": 0.7626,
+      "top": 0.6679,
+      "right": 0.8317,
+      "bottom": 0.7661
+    },
+    "confidence": 0.9748
+  },
+  {
+    "text": "10%",
+    "box": {
+      "left": 0.2182,
+      "top": 0.6839,
+      "right": 0.31,
+      "bottom": 0.7652
+    },
+    "confidence": 0.9988
+  },
+  {
+    "text": "200р",
+    "box": {
+      "left": 0.7651,
+      "top": 0.7857,
+      "right": 0.8271,
+      "bottom": 0.833
+    },
+    "confidence": 0.8592
+  },
+  {
+    "text": "15.09.26",
+    "box": {
+      "left": 0.192,
+      "top": 0.7875,
+      "right": 0.2898,
+      "bottom": 0.8366
+    },
+    "confidence": 0.9397
+  },
+  {
+    "text": "Код: 162655",
+    "box": {
+      "left": 0.19,
+      "top": 0.8286,
+      "right": 0.3311,
+      "bottom": 0.8795
+    },
+    "confidence": 0.9269
+  },
+  {
+    "text": "1.12.6",
+    "box": {
+      "left": 0.3498,
+      "top": 0.8312,
+      "right": 0.4224,
+      "bottom": 0.8804
+    },
+    "confidence": 0.9529
+  }
+]

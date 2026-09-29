@@ -1,0 +1,132 @@
+[
+    {
+        "text": "Булгur",
+        "box": {
+            "left": 0.1362,
+            "top": 0.1969,
+            "right": 0.3687,
+            "bottom": 0.371
+        },
+        "confidence": 0.5789
+    },
+    {
+        "text": "45",
+        "box": {
+            "left": 0.5229,
+            "top": 0.2117,
+            "right": 0.8032,
+            "bottom": 0.5827
+        },
+        "confidence": 0.9998
+    },
+    {
+        "text": "90",
+        "box": {
+            "left": 0.7783,
+            "top": 0.224,
+            "right": 0.9209,
+            "bottom": 0.4208
+        },
+        "confidence": 0.9986
+    },
+    {
+        "text": "\"Своя",
+        "box": {
+            "left": 0.0625,
+            "top": 0.3071,
+            "right": 0.2603,
+            "bottom": 0.4444
+        },
+        "confidence": 0.9504
+    },
+    {
+        "text": "лінія\"",
+        "box": {
+            "left": 0.2563,
+            "top": 0.3325,
+            "right": 0.4312,
+            "bottom": 0.4392
+        },
+        "confidence": 0.9218
+    },
+    {
+        "text": "рпн/",
+        "box": {
+            "left": 0.8013,
+            "top": 0.4077,
+            "right": 0.8916,
+            "bottom": 0.4777
+        },
+        "confidence": 0.6773
+    },
+    {
+        "text": "4x125r",
+        "box": {
+            "left": 0.1323,
+            "top": 0.4287,
+            "right": 0.374,
+            "bottom": 0.5459
+        },
+        "confidence": 0.8793
+    },
+    {
+        "text": "0,5КГ",
+        "box": {
+            "left": 0.8022,
+            "top": 0.4689,
+            "right": 0.8853,
+            "bottom": 0.5311
+        },
+        "confidence": 0.7287
+    },
+    {
+        "text": "15.09.26",
+        "box": {
+            "left": 0.0259,
+            "top": 0.7577,
+            "right": 0.1323,
+            "bottom": 0.818
+        },
+        "confidence": 0.9974
+    },
+    {
+        "text": "Код: 99008",
+        "box": {
+            "left": 0.1279,
+            "top": 0.7629,
+            "right": 0.2676,
+            "bottom": 0.8215
+        },
+        "confidence": 0.9407
+    },
+    {
+        "text": "2.5.3",
+        "box": {
+            "left": 0.2676,
+            "top": 0.7717,
+            "right": 0.3281,
+            "bottom": 0.8198
+        },
+        "confidence": 0.9927
+    },
+    {
+        "text": "999200006951",
+        "box": {
+            "left": 0.5991,
+            "top": 0.7848,
+            "right": 0.876,
+            "bottom": 0.8548
+        },
+        "confidence": 0.9908
+    },
+    {
+        "text": "2",
+        "box": {
+            "left": 0.5718,
+            "top": 0.7997,
+            "right": 0.5864,
+            "bottom": 0.8329
+        },
+        "confidence": 0.9995
+    }
+]

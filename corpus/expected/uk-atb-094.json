@@ -1,0 +1,21 @@
+{
+  "pack": "uk",
+  "price": {
+    "minor": 3590,
+    "currency": "UAH"
+  },
+  "oldPrice": {
+    "minor": 4350,
+    "currency": "UAH"
+  },
+  "quantity": {
+    "value": 500.0,
+    "unit": "GRAM"
+  },
+  "isWeighted": false,
+  "loyaltyPrice": {
+    "minor": 3231,
+    "currency": "UAH"
+  },
+  "note": "АТБ 2026-09-29 in-app shot; orange: UA Булгур крупний Trapeza для плову; app block top"
+}

@@ -1,0 +1,15 @@
+{
+  "pack": "uk",
+  "price": {
+    "minor": 4590,
+    "currency": "UAH"
+  },
+  "oldPrice": null,
+  "quantity": {
+    "value": 0.5,
+    "unit": "KILOGRAM"
+  },
+  "isWeighted": false,
+  "loyaltyPrice": null,
+  "note": "АТБ 2026-09-29 in-app shot; white: Булгур Своя лінія 4 x 125 г; грн / 0,5 кг"
+}

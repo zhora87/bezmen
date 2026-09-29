@@ -1,0 +1,18 @@
+{
+  "pack": "uk",
+  "price": {
+    "minor": 7370,
+    "currency": "UAH"
+  },
+  "oldPrice": null,
+  "quantity": {
+    "value": 0.8,
+    "unit": "KILOGRAM"
+  },
+  "isWeighted": false,
+  "loyaltyPrice": {
+    "minor": 6626,
+    "currency": "UAH"
+  },
+  "note": "АТБ 2026-09-29 in-app shot; orange: UA Йогурт Своя лінія персик-манго, second shot"
+}

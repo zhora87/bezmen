@@ -1,0 +1,62 @@
+[
+  {
+    "text": "50",
+    "box": {
+      "left": 0.8029,
+      "top": 0.1866,
+      "right": 0.9587,
+      "bottom": 0.3982
+    },
+    "confidence": 0.9998
+  },
+  {
+    "text": "Розпушувач тиста",
+    "box": {
+      "left": 0.0267,
+      "top": 0.2536,
+      "right": 0.5247,
+      "bottom": 0.4027
+    },
+    "confidence": 0.9367
+  },
+  {
+    "text": "Dr. Oekter",
+    "box": {
+      "left": 0.1381,
+      "top": 0.3732,
+      "right": 0.4173,
+      "bottom": 0.4812
+    },
+    "confidence": 0.9506
+  },
+  {
+    "text": "rpH/",
+    "box": {
+      "left": 0.8382,
+      "top": 0.3857,
+      "right": 0.9289,
+      "bottom": 0.4634
+    },
+    "confidence": 0.6106
+  },
+  {
+    "text": "10r",
+    "box": {
+      "left": 0.8523,
+      "top": 0.4491,
+      "right": 0.9133,
+      "bottom": 0.508
+    },
+    "confidence": 0.9087
+  },
+  {
+    "text": "19.09.26 Код: 113678 2.11.1",
+    "box": {
+      "left": 0.0499,
+      "top": 0.775,
+      "right": 0.3795,
+      "bottom": 0.8304
+    },
+    "confidence": 0.9322
+  }
+]
