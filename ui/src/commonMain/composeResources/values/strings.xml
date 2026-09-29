@@ -4,6 +4,7 @@
     <string name="status_ready">Наведите рамку на ценник</string>
     <string name="status_recognizing">Распознаю…</string>
     <string name="status_blurry">Снимок размыт. Держите телефон ровнее и снимите ещё раз</string>
+    <string name="status_dark">Слишком темно. Подойдите ближе к свету и снимите ещё раз</string>
     <string name="status_nothing">Цену не нашёл. Наведите рамку на ценник целиком</string>
     <string name="error_camera">Камера не ответила. Попробуйте ещё раз</string>
     <string name="error_models">Не удалось загрузить распознавание. Переустановите приложение</string>

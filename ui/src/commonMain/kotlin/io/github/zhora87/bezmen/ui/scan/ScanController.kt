@@ -15,6 +15,8 @@ sealed interface CaptureOutcome {
 
     data object Blurry : CaptureOutcome
 
+    data object Dark : CaptureOutcome
+
     data class Failed(val reason: String) : CaptureOutcome
 }
 
@@ -28,6 +30,8 @@ sealed interface ScanState {
     data object Recognizing : ScanState
 
     data object Blurry : ScanState
+
+    data object Dark : ScanState
 
     data object NothingFound : ScanState
 
@@ -58,9 +62,15 @@ class ScanController(
         mutable.value = ScanState.Error(ScanError.MODELS)
     }
 
+    /** The camera could not be opened or bound; retake tries again. */
+    fun onCameraFailed() {
+        if (mutable.value != ScanState.Error(ScanError.MODELS)) mutable.value = ScanState.Error(ScanError.CAMERA)
+    }
+
     fun onShutter() {
         val current = mutable.value
-        val canShoot = current == ScanState.Ready || current == ScanState.Blurry || current == ScanState.NothingFound
+        val canShoot = current == ScanState.Ready || current == ScanState.Blurry || current == ScanState.Dark ||
+            current == ScanState.NothingFound
         if (!canShoot) return
         mutable.value = ScanState.Recognizing
         scope.launch { mutable.value = toState(capture()) }
@@ -77,6 +87,7 @@ class ScanController(
 
     private fun toState(outcome: CaptureOutcome): ScanState = when (outcome) {
         CaptureOutcome.Blurry -> ScanState.Blurry
+        CaptureOutcome.Dark -> ScanState.Dark
         is CaptureOutcome.Failed -> ScanState.Error(ScanError.CAMERA)
         is CaptureOutcome.Recognized -> when (val result = parser().parse(outcome.lines)) {
             ParseResult.Nothing -> ScanState.NothingFound

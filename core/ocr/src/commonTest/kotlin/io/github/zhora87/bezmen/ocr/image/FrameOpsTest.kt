@@ -2,6 +2,7 @@ package io.github.zhora87.bezmen.ocr.image
 
 import kotlin.test.Test
 import kotlin.test.assertEquals
+import kotlin.test.assertFalse
 import kotlin.test.assertTrue
 
 class FrameOpsTest {
@@ -56,5 +57,19 @@ class FrameOpsTest {
         assertEquals(800, out.width)
         assertEquals(500, out.height)
         assertEquals(src[100, 750], out[0, 0])
+    }
+
+    @Test
+    fun `brightness is the mean luma, black to white`() {
+        assertEquals(0f, FrameOps.brightness(image(64, 32) { _, _ -> 0 }))
+        assertEquals(255f, FrameOps.brightness(image(64, 32) { _, _ -> RgbImage.rgb(255, 255, 255) }))
+        val grey = FrameOps.brightness(image(64, 32) { _, _ -> RgbImage.rgb(100, 100, 100) })
+        assertTrue(grey in 99f..101f, "grey $grey")
+    }
+
+    @Test
+    fun `a dim shelf shot is dark, a lit one is not`() {
+        assertTrue(FrameOps.isDark(image(64, 32) { _, _ -> RgbImage.rgb(20, 18, 15) }))
+        assertFalse(FrameOps.isDark(image(64, 32) { _, _ -> RgbImage.rgb(120, 110, 100) }))
     }
 }

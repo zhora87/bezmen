@@ -139,4 +139,32 @@ class ScanControllerTest {
 
         assertEquals("45,00", assertIs<ScanState.Result>(c.state.value).draft.priceText)
     }
+
+    @Test
+    fun `dark frame asks for light and allows another shot`() = runTest {
+        var outcome: CaptureOutcome = CaptureOutcome.Dark
+        val c = controller { outcome }
+        c.onEngineReady()
+
+        c.onShutter()
+        advanceUntilIdle()
+        assertEquals(ScanState.Dark, c.state.value)
+
+        outcome = CaptureOutcome.Recognized(tagLines)
+        c.onShutter()
+        advanceUntilIdle()
+        assertIs<ScanState.Result>(c.state.value)
+    }
+
+    @Test
+    fun `camera failing to open is a camera error that retake clears`() = runTest {
+        val c = controller { CaptureOutcome.Recognized(tagLines) }
+        c.onEngineReady()
+
+        c.onCameraFailed()
+        assertEquals(ScanState.Error(ScanError.CAMERA), c.state.value)
+
+        c.onRetake()
+        assertEquals(ScanState.Ready, c.state.value)
+    }
 }

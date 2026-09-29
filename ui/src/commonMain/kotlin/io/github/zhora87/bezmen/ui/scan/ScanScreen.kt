@@ -28,7 +28,9 @@ import androidx.compose.ui.graphics.Color
 import androidx.compose.ui.graphics.Path
 import androidx.compose.ui.graphics.drawscope.Stroke
 import androidx.compose.ui.graphics.drawscope.clipPath
+import androidx.compose.ui.semantics.LiveRegionMode
 import androidx.compose.ui.semantics.contentDescription
+import androidx.compose.ui.semantics.liveRegion
 import androidx.compose.ui.semantics.semantics
 import androidx.compose.ui.text.style.TextAlign
 import androidx.compose.ui.unit.dp
@@ -42,6 +44,7 @@ import io.github.zhora87.bezmen.ui.resources.compare_title
 import io.github.zhora87.bezmen.ui.resources.error_camera
 import io.github.zhora87.bezmen.ui.resources.error_models
 import io.github.zhora87.bezmen.ui.resources.status_blurry
+import io.github.zhora87.bezmen.ui.resources.status_dark
 import io.github.zhora87.bezmen.ui.resources.status_loading
 import io.github.zhora87.bezmen.ui.resources.status_nothing
 import io.github.zhora87.bezmen.ui.resources.status_ready
@@ -156,6 +159,7 @@ private fun StatusLine(state: ScanState, modifier: Modifier) {
         ScanState.Ready -> stringResource(Res.string.status_ready)
         ScanState.Recognizing -> stringResource(Res.string.status_recognizing)
         ScanState.Blurry -> stringResource(Res.string.status_blurry)
+        ScanState.Dark -> stringResource(Res.string.status_dark)
         ScanState.NothingFound -> stringResource(Res.string.status_nothing)
         is ScanState.Error -> when (state.error) {
             ScanError.CAMERA -> stringResource(Res.string.error_camera)
@@ -163,9 +167,10 @@ private fun StatusLine(state: ScanState, modifier: Modifier) {
         }
         is ScanState.Result -> ""
     }
+    // A live region: TalkBack announces every change of the status without the person hunting for it.
     Text(
         text,
-        modifier,
+        modifier.semantics { liveRegion = LiveRegionMode.Polite },
         color = Color.White,
         style = MaterialTheme.typography.titleMedium,
         textAlign = TextAlign.Center

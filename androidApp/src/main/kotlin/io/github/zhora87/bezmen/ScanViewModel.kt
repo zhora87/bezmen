@@ -4,7 +4,9 @@ import ai.onnxruntime.OrtException
 import android.app.Application
 import android.util.Log
 import androidx.camera.core.ImageCaptureException
+import androidx.camera.view.PreviewView
 import androidx.lifecycle.AndroidViewModel
+import androidx.lifecycle.LifecycleOwner
 import androidx.lifecycle.viewModelScope
 import io.github.zhora87.bezmen.camera.SharpFrame
 import io.github.zhora87.bezmen.camera.TagCamera
@@ -20,6 +22,7 @@ import io.github.zhora87.bezmen.ui.compare.ComparisonController
 import io.github.zhora87.bezmen.ui.compare.JsonComparisonStore
 import io.github.zhora87.bezmen.ui.scan.CaptureOutcome
 import io.github.zhora87.bezmen.ui.scan.ScanController
+import io.github.zhora87.bezmen.ui.scan.ScanError
 import io.github.zhora87.bezmen.ui.scan.ScanState
 import io.github.zhora87.bezmen.ui.settings.JsonSettingsStore
 import io.github.zhora87.bezmen.ui.settings.SettingsController
@@ -86,6 +89,31 @@ class ScanViewModel(app: Application) : AndroidViewModel(app) {
         mutableScreen.value = screen
     }
 
+    /** Counts camera binding attempts; the preview rebinds when it changes. */
+    private val mutableCameraAttempt = MutableStateFlow(0)
+    val cameraAttempt: StateFlow<Int> = mutableCameraAttempt.asStateFlow()
+
+    /** Binds the camera to the preview; a failure shows the camera error and the retry button rebinds. */
+    suspend fun bindCamera(owner: LifecycleOwner, view: PreviewView) {
+        try {
+            camera.bind(owner, view)
+        } catch (e: CancellationException) {
+            throw e
+        } catch (e: IllegalStateException) {
+            Log.e(TAG, "camera failed to bind", e)
+            controller.onCameraFailed()
+        } catch (e: IllegalArgumentException) {
+            Log.e(TAG, "no usable camera", e)
+            controller.onCameraFailed()
+        }
+    }
+
+    /** Back to the viewfinder; after a camera error this also rebinds the camera. */
+    fun retake() {
+        if (controller.state.value == ScanState.Error(ScanError.CAMERA)) mutableCameraAttempt.value++
+        controller.onRetake()
+    }
+
     /** Puts the reviewed tag into the comparison list and returns to the viewfinder for the next one. */
     fun addToComparison() {
         val draft = (controller.state.value as? ScanState.Result)?.draft ?: return
@@ -126,6 +154,7 @@ class ScanViewModel(app: Application) : AndroidViewModel(app) {
         val best = camera.captureSharpest()
         when {
             best == null -> CaptureOutcome.Failed("no frames from the camera")
+            FrameOps.isDark(best.image) -> CaptureOutcome.Dark
             best.sharpness < FrameOps.BLUR_THRESHOLD -> CaptureOutcome.Blurry
             else -> recognize(best)
         }

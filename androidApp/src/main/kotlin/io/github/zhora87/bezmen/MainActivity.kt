@@ -77,40 +77,54 @@ class MainActivity : ComponentActivity() {
 @Composable
 private fun ScanRoute(viewModel: ScanViewModel) {
     val screen by viewModel.screen.collectAsState()
-    val comparison by viewModel.comparison.state.collectAsState()
-    val settings by viewModel.settings.state.collectAsState()
     val pack by viewModel.pack.collectAsState()
     val currencySymbol = pack.currency.symbols.first()
-    if (screen == AppScreen.SETTINGS) {
-        BackHandler { viewModel.open(AppScreen.SCAN) }
-        val actions = remember(viewModel) {
-            SettingsActions(
-                onUnits = viewModel.settings::setUnits,
-                onPack = viewModel.settings::setPack,
-                onBack = { viewModel.open(AppScreen.SCAN) },
-            )
-        }
-        SettingsScreen(settings, viewModel.autoPackId, actions)
-        return
+    when (screen) {
+        AppScreen.SETTINGS -> SettingsRoute(viewModel)
+        AppScreen.COMPARE -> ComparisonRoute(viewModel, currencySymbol)
+        AppScreen.SCAN -> CameraRoute(viewModel, currencySymbol)
     }
-    if (screen == AppScreen.COMPARE) {
-        BackHandler { viewModel.open(AppScreen.SCAN) }
-        val actions = remember(viewModel) {
-            ComparisonActions(
-                onRemove = viewModel.comparison::remove,
-                onClear = viewModel.comparison::clear,
-                onShootMore = { viewModel.open(AppScreen.SCAN) },
-            )
-        }
-        ComparisonScreen(comparison, currencySymbol, settings.units, actions)
-        return
+}
+
+@Composable
+private fun SettingsRoute(viewModel: ScanViewModel) {
+    BackHandler { viewModel.open(AppScreen.SCAN) }
+    val settings by viewModel.settings.state.collectAsState()
+    val actions = remember(viewModel) {
+        SettingsActions(
+            onUnits = viewModel.settings::setUnits,
+            onPack = viewModel.settings::setPack,
+            onBack = { viewModel.open(AppScreen.SCAN) },
+        )
     }
+    SettingsScreen(settings, viewModel.autoPackId, actions)
+}
+
+@Composable
+private fun ComparisonRoute(viewModel: ScanViewModel, currencySymbol: String) {
+    BackHandler { viewModel.open(AppScreen.SCAN) }
+    val comparison by viewModel.comparison.state.collectAsState()
+    val settings by viewModel.settings.state.collectAsState()
+    val actions = remember(viewModel) {
+        ComparisonActions(
+            onRemove = viewModel.comparison::remove,
+            onClear = viewModel.comparison::clear,
+            onShootMore = { viewModel.open(AppScreen.SCAN) },
+        )
+    }
+    ComparisonScreen(comparison, currencySymbol, settings.units, actions)
+}
+
+@Composable
+private fun CameraRoute(viewModel: ScanViewModel, currencySymbol: String) {
     val state by viewModel.controller.state.collectAsState()
+    val comparison by viewModel.comparison.state.collectAsState()
+    val settings by viewModel.settings.state.collectAsState()
     val controller = viewModel.controller
     val actions = remember(viewModel) {
         ScanActions(
             onShutter = controller::onShutter,
-            onRetake = controller::onRetake,
+            onRetake = viewModel::retake,
             onEdit = controller::onEdit,
             onAddToComparison = viewModel::addToComparison,
             onOpenComparison = { viewModel.open(AppScreen.COMPARE) },
@@ -130,7 +144,8 @@ private fun ScanRoute(viewModel: ScanViewModel) {
         val owner = LocalLifecycleOwner.current
         val context = androidx.compose.ui.platform.LocalContext.current
         val view = remember { PreviewView(context).apply { scaleType = PreviewView.ScaleType.FILL_CENTER } }
-        LaunchedEffect(view, owner) { viewModel.camera.bind(owner, view) }
+        val attempt by viewModel.cameraAttempt.collectAsState()
+        LaunchedEffect(view, owner, attempt) { viewModel.bindCamera(owner, view) }
         AndroidView(factory = { view }, modifier = modifier)
     }
 }

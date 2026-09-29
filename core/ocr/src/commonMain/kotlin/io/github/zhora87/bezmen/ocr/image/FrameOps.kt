@@ -41,6 +41,18 @@ object FrameOps {
     /** The Laplacian needs a pixel on every side. */
     private const val MIN_SIDE = 3
 
+    /** Below this mean luma (0..255) the shot is too dark to read; shelves in shops are far brighter. */
+    const val DARK_THRESHOLD = 40f
+
+    /** Mean luma of the image, 0 (black) to 255 (white). */
+    fun brightness(image: RgbImage): Float {
+        var sum = 0L
+        for (p in image.pixels) sum += luma(p)
+        return sum.toFloat() / image.pixels.size
+    }
+
+    fun isDark(image: RgbImage): Boolean = brightness(image) < DARK_THRESHOLD
+
     fun cropToFrame(image: RgbImage, frame: ViewfinderFrame): RgbImage {
         val w = (image.width * frame.widthFraction).roundToInt().coerceIn(1, image.width)
         val h = (image.height * frame.heightFraction).roundToInt().coerceIn(1, image.height)
