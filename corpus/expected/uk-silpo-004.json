@@ -1,0 +1,15 @@
+{
+  "pack": "uk",
+  "price": {
+    "minor": 3199,
+    "currency": "UAH"
+  },
+  "oldPrice": null,
+  "quantity": {
+    "value": 10.0,
+    "unit": "GRAM"
+  },
+  "isWeighted": false,
+  "loyaltyPrice": null,
+  "note": "Сільпо 2026-10-01 own photo; yellow multi-buy: Базилік Премія, 10г; До 2 шт. 31.99, Від 3 шт. 27.19 (conditional, ignored)"
+}

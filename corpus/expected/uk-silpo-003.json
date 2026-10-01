@@ -1,0 +1,15 @@
+{
+  "pack": "uk",
+  "price": {
+    "minor": 13900,
+    "currency": "UAH"
+  },
+  "oldPrice": null,
+  "quantity": {
+    "value": 400.0,
+    "unit": "MILLILITRE"
+  },
+  "isWeighted": false,
+  "loyaltyPrice": null,
+  "note": "Сільпо 2026-10-01 own photo; white: Молоко кокосове 17% органічне; 400мл on its own line"
+}

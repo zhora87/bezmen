@@ -1,0 +1,18 @@
+{
+  "pack": "uk",
+  "price": {
+    "minor": 13900,
+    "currency": "UAH"
+  },
+  "oldPrice": {
+    "minor": 16400,
+    "currency": "UAH"
+  },
+  "quantity": {
+    "value": 100.0,
+    "unit": "GRAM"
+  },
+  "isWeighted": false,
+  "loyaltyPrice": null,
+  "note": "Сільпо 2026-10-01 own photo; yellow sale: Кеш'ю Winway смажений, 100г; знижка -15%, crossed 164.00"
+}

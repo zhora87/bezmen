@@ -72,9 +72,16 @@ An `overall` below `ParseResult.CONFIRM_THRESHOLD` (0.75) means the UI shows the
    kopecks (`29480` is 294.80). Barcodes (8+ digits), dates, codes, sideways text (tall narrow
    boxes with several characters, or a single glyph over 3.5 times taller than wide), numbers
    followed by `%` and numbers glued to a unit (`0,85л` on packaging behind the tag) are excluded,
-   as is a lone 1..99 set at least as large as a discount word right above it (`Знижка` over a `10`
-   that lost its `%`).
-7. **Current, old and card price.** Labels apply to a price when they share a line, overlap it
+   as is a lone 1..99 set at least as large as a bare discount word right above it (`Знижка` over a
+   `10` that lost its `%`; a label that carries its own percentage, `знижка -15%`, has lost nothing,
+   and `00` under it are kopecks). When several two-digit boxes could be the kopecks of a price, the
+   nearest one is taken.
+7. **Multi-buy prices.** "Від 3 шт." (the pack's `multiBuyFrom` words before a count) marks a price
+   that applies only from that many items; "До 2 шт." (`multiBuyUpTo`) labels the regular price next
+   to it. The count is a purchase threshold, never the package size. The conditional price is the
+   one on the label's own line or row; only when that row has no other number is it the price
+   printed right under the label. A conditional price is never the tag's price, only an alternative.
+8. **Current, old and card price.** Labels apply to a price when they share a line, overlap it
    vertically, or are printed right under it in the same column (a price block with "ЦІНА" above
    the digits and "при скануванні додатка" below). A price on an old-price label is the old price. A price on a loyalty label ("Ціна
    при скануванні додатка АТБ", "Ціна при оплаті карткою") is reported as `loyaltyPrice`, never as
@@ -84,18 +91,18 @@ An `overall` below `ParseResult.CONFIRM_THRESHOLD` (0.75) means the UI shows the
    30%, or any two prices when a discount marker (or a lone `-50%` / `29%`) is present, split into
    current (taller) and old (smaller). Two prices of similar height without a marker take the
    lower amount as current with reduced confidence.
-8. **Weighted goods.** A unit-price marker for 1 kg or 1 l and no package quantity: the price is per
+9. **Weighted goods.** A unit-price marker for 1 kg or 1 l and no package quantity: the price is per
    that reference and `isWeighted` is true.
-9. **Name.** Pieces of text level with each other form a row, read left to right. The name is the
+10. **Name.** Pieces of text level with each other form a row, read left to right. The name is the
    topmost wordy row in the upper part of the tag, joined with up to three rows directly beneath it
    in similar type, taken as printed. Lines with more digits than letters, marker lines, rows made
    only of the pack's `labelWords` or currency, text cut by the frame edge and anything printed over
    the card price's box are excluded; a quantity inside a name row is cut out.
-10. **Cross-check and derivation.** With price, quantity and a printed unit price, a mismatch above
+11. **Cross-check and derivation.** With price, quantity and a printed unit price, a mismatch above
     3% lowers `overall`. With price and printed unit price but no quantity, the quantity is derived
     (price ÷ unit price) at reduced confidence. With no price of its own, the marker's price is used
     and the goods are weighted.
-11. **Result.** Price and quantity present → `Success` with the computed unit price; one of them
+12. **Result.** Price and quantity present → `Success` with the computed unit price; one of them
     missing → `NeedsInput`; nothing usable → `Nothing`.
 
 ## Units
@@ -145,7 +152,8 @@ dimensions are not compared; such items are marked as not comparable in a compar
 | `unitPriceMarkers` | phrases introducing a printed price per unit |
 | `discountMarkers`, `oldPriceMarkers`, `loyaltyMarkers` | promotion, crossed-out price and loyalty-card or app price labels |
 | `weightedMarkers` | phrases meaning the goods are sold by weight ("ваговий") |
-| `codeMarkers` | labels of article codes; nothing on such a line is a price or a quantity |
+| `codeMarkers` | labels of lines that carry no price, quantity or name: article codes, validity dates, cashback banners |
+| `multiBuyFrom`, `multiBuyUpTo` | words before a count in multi-buy labels ("від 3 шт", "до 2 шт") |
 | `labelWords` | service words printed on tags (price labels, the chain's name); a row made only of them is never the name |
 | `charFixes` | single-character look-alikes fixed inside numbers |
 

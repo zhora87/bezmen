@@ -1,0 +1,122 @@
+[
+  {
+    "text": "Молоко кокосове Rаnге 17%",
+    "box": {
+      "left": 0.0898,
+      "top": 0.1451,
+      "right": 0.7103,
+      "bottom": 0.2463
+    },
+    "confidence": 0.7888
+  },
+  {
+    "text": "органічне",
+    "box": {
+      "left": 0.0924,
+      "top": 0.2288,
+      "right": 0.3099,
+      "bottom": 0.3165
+    },
+    "confidence": 0.9294
+  },
+  {
+    "text": "Шри-Ланка",
+    "box": {
+      "left": 0.5443,
+      "top": 0.3885,
+      "right": 0.7305,
+      "bottom": 0.4576
+    },
+    "confidence": 0.8537
+  },
+  {
+    "text": "OPГAHIK",
+    "box": {
+      "left": 0.7773,
+      "top": 0.4041,
+      "right": 0.8809,
+      "bottom": 0.4508
+    },
+    "confidence": 0.7034
+  },
+  {
+    "text": "400мл",
+    "box": {
+      "left": 0.0977,
+      "top": 0.406,
+      "right": 0.2331,
+      "bottom": 0.4703
+    },
+    "confidence": 0.767
+  },
+  {
+    "text": "139",
+    "box": {
+      "left": 0.0768,
+      "top": 0.481,
+      "right": 0.4499,
+      "bottom": 0.8101
+    },
+    "confidence": 0.9996
+  },
+  {
+    "text": "00",
+    "box": {
+      "left": 0.4173,
+      "top": 0.5365,
+      "right": 0.5182,
+      "bottom": 0.6504
+    },
+    "confidence": 0.9978
+  },
+  {
+    "text": "BETAH",
+    "box": {
+      "left": 0.7982,
+      "top": 0.6193,
+      "right": 0.8704,
+      "bottom": 0.6641
+    },
+    "confidence": 0.7991
+  },
+  {
+    "text": "рпн",
+    "box": {
+      "left": 0.4258,
+      "top": 0.6407,
+      "right": 0.5189,
+      "bottom": 0.7283
+    },
+    "confidence": 0.5718
+  },
+  {
+    "text": "20.07",
+    "box": {
+      "left": 0.6602,
+      "top": 0.8053,
+      "right": 0.735,
+      "bottom": 0.85
+    },
+    "confidence": 0.9997
+  },
+  {
+    "text": "4796029920059",
+    "box": {
+      "left": 0.3105,
+      "top": 0.813,
+      "right": 0.5065,
+      "bottom": 0.852
+    },
+    "confidence": 0.992
+  },
+  {
+    "text": "931670",
+    "box": {
+      "left": 0.1035,
+      "top": 0.8179,
+      "right": 0.1966,
+      "bottom": 0.8588
+    },
+    "confidence": 0.9711
+  }
+]

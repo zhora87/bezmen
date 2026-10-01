@@ -46,6 +46,10 @@ data class LocalePack(
     val codeMarkers: List<String> = emptyList(),
     /** Service words printed on tags ("ціна", "тільки", the chain's name); a line of only these is never a name. */
     val labelWords: List<String> = emptyList(),
+    /** Words before a count that make the price under them apply from that many items: "від 3 шт". */
+    val multiBuyFrom: List<String> = emptyList(),
+    /** Words before a count that label the regular price next to a multi-buy one: "до 2 шт". */
+    val multiBuyUpTo: List<String> = emptyList(),
     /** OCR look-alike characters to fix inside numbers: O to 0, З to 3. */
     val charFixes: Map<String, String> = emptyMap(),
     val priceHints: PriceHints = PriceHints(),
@@ -73,6 +77,13 @@ data class LocalePack(
     private val labelTokens: Set<String> by lazy { labelWords.map(::normalizeToken).toSet() }
 
     fun isLabelWord(token: String): Boolean = normalizeToken(token) in labelTokens
+
+    private val multiBuyFromTokens: Set<String> by lazy { multiBuyFrom.map(::normalizeToken).toSet() }
+    private val multiBuyUpToTokens: Set<String> by lazy { multiBuyUpTo.map(::normalizeToken).toSet() }
+
+    fun isMultiBuyFrom(token: String): Boolean = normalizeToken(token) in multiBuyFromTokens
+
+    fun isMultiBuyUpTo(token: String): Boolean = normalizeToken(token) in multiBuyUpToTokens
 
     /** Problems that make the pack unusable. Empty list means valid. */
     fun validate(): List<String> {

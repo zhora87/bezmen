@@ -1,0 +1,132 @@
+[
+  {
+    "text": "Базилік Премія,",
+    "box": {
+      "left": 0.1152,
+      "top": 0.1464,
+      "right": 0.6764,
+      "bottom": 0.3122
+    },
+    "confidence": 0.8912
+  },
+  {
+    "text": "10r",
+    "box": {
+      "left": 0.1283,
+      "top": 0.2788,
+      "right": 0.2474,
+      "bottom": 0.3972
+    },
+    "confidence": 0.9716
+  },
+  {
+    "text": "Від 3 шт.",
+    "box": {
+      "left": 0.599,
+      "top": 0.4995,
+      "right": 0.8079,
+      "bottom": 0.5963
+    },
+    "confidence": 0.8043
+  },
+  {
+    "text": "До 2 шт.",
+    "box": {
+      "left": 0.2188,
+      "top": 0.507,
+      "right": 0.4186,
+      "bottom": 0.6071
+    },
+    "confidence": 0.7553
+  },
+  {
+    "text": "27",
+    "box": {
+      "left": 0.5918,
+      "top": 0.5694,
+      "right": 0.7956,
+      "bottom": 0.8256
+    },
+    "confidence": 0.9993
+  },
+  {
+    "text": "31",
+    "box": {
+      "left": 0.2559,
+      "top": 0.606,
+      "right": 0.4095,
+      "bottom": 0.8084
+    },
+    "confidence": 0.9997
+  },
+  {
+    "text": "19",
+    "box": {
+      "left": 0.7917,
+      "top": 0.6071,
+      "right": 0.8815,
+      "bottom": 0.7266
+    },
+    "confidence": 0.9999
+  },
+  {
+    "text": "99",
+    "box": {
+      "left": 0.4141,
+      "top": 0.6179,
+      "right": 0.4987,
+      "bottom": 0.7298
+    },
+    "confidence": 0.9998
+  },
+  {
+    "text": "ГPH",
+    "box": {
+      "left": 0.4199,
+      "top": 0.7395,
+      "right": 0.5039,
+      "bottom": 0.8095
+    },
+    "confidence": 0.5808
+  },
+  {
+    "text": "ГПH",
+    "box": {
+      "left": 0.7897,
+      "top": 0.7427,
+      "right": 0.8757,
+      "bottom": 0.817
+    },
+    "confidence": 0.5193
+  },
+  {
+    "text": "482402400050329.09",
+    "box": {
+      "left": 0.6185,
+      "top": 0.8127,
+      "right": 0.8743,
+      "bottom": 0.8547
+    },
+    "confidence": 0.8887
+  },
+  {
+    "text": "nie s 28 10 2028 n0 31 12 2026",
+    "box": {
+      "left": 0.1543,
+      "top": 0.8138,
+      "right": 0.4909,
+      "bottom": 0.8568
+    },
+    "confidence": 0.824
+  },
+  {
+    "text": "30092",
+    "box": {
+      "left": 0.5163,
+      "top": 0.817,
+      "right": 0.6003,
+      "bottom": 0.8504
+    },
+    "confidence": 0.5987
+  }
+]

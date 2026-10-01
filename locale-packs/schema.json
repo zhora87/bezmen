@@ -162,7 +162,7 @@
         "type": "string",
         "minLength": 1
       },
-      "description": "Labels of article codes; nothing on such a line is a price or quantity."
+      "description": "Labels of lines that carry no price, quantity or name: article codes, validity dates, cashback banners."
     },
     "labelWords": {
       "type": "array",
@@ -171,6 +171,22 @@
         "minLength": 1
       },
       "description": "Service words printed on tags (price labels, the chain's name); a line made only of them is never the product name."
+    },
+    "multiBuyFrom": {
+      "type": "array",
+      "items": {
+        "type": "string",
+        "minLength": 1
+      },
+      "description": "Words before a count that make the price under them apply from that many items (\"від 3 шт\")."
+    },
+    "multiBuyUpTo": {
+      "type": "array",
+      "items": {
+        "type": "string",
+        "minLength": 1
+      },
+      "description": "Words before a count that label the regular price next to a multi-buy one (\"до 2 шт\")."
     }
   }
 }

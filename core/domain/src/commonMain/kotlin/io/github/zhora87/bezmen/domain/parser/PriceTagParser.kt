@@ -57,15 +57,18 @@ private class PriceSelector(private val ctx: TagContext, private val flags: List
     )
 
     fun select(moneys: List<MoneyCandidate>): Prices {
-        val old = moneys.filter { flagged(it) { f -> f.oldPrice } }
-        val loyalty = moneys.filter { flagged(it) { f -> f.loyalty } && it !in old }
-        val regular = (moneys - old.toSet() - loyalty.toSet()).sortedByDescending(::score)
+        // A price that applies only from N items is not the tag's price; it stays an alternative.
+        val conditional = moneys.filter { multiBuy(it, moneys) }
+        val unconditional = moneys - conditional.toSet()
+        val old = unconditional.filter { flagged(it) { f -> f.oldPrice } }
+        val loyalty = unconditional.filter { flagged(it) { f -> f.loyalty } && it !in old }
+        val regular = (unconditional - old.toSet() - loyalty.toSet()).sortedByDescending(::score)
         val pool = if (regular.isNotEmpty()) regular else loyalty.sortedByDescending(::score)
         val first = pool.firstOrNull() ?: return Prices(null, null, emptyList(), 1f)
         val (current, oldPrice, factor) = resolve(first, pool.getOrNull(1), old.maxByOrNull(::score))
         val cardPrice = if (regular.isNotEmpty()) loyalty.maxByOrNull(::score) else null
         val taken = setOf(current.money, oldPrice?.money, cardPrice?.money)
-        val alternatives = (pool + loyalty).map { it.money }.filter { it !in taken }.distinct()
+        val alternatives = (pool + loyalty + conditional).map { it.money }.filter { it !in taken }.distinct()
         return Prices(current, oldPrice, alternatives, factor, cardPrice)
     }
 
@@ -111,6 +114,24 @@ private class PriceSelector(private val ctx: TagContext, private val flags: List
     private fun flagged(c: MoneyCandidate, pick: (LineFlags) -> Boolean): Boolean = flags.indices.any { line ->
         val label = ctx.lines[line].box
         pick(flags[line]) && (line in c.lines || overlapsVertically(label, c.box) || stackedBelow(label, c.box))
+    }
+
+    /**
+     * The multi-buy label has its price on its own line or row ("від 3 шт. 43,50"); only when that
+     * row carries no price does the label apply to the price printed right under it.
+     */
+    private fun multiBuy(c: MoneyCandidate, all: List<MoneyCandidate>): Boolean = flags.indices.any { line ->
+        val label = ctx.lines[line].box
+        val onRow = { m: MoneyCandidate -> line in m.lines || overlapsVertically(label, m.box) }
+        val under = flags[line].multiBuyStacked && all.none(onRow) && stackedAbove(label, c.box)
+        flags[line].multiBuy && (onRow(c) || under)
+    }
+
+    private fun stackedAbove(label: Box, price: Box): Boolean {
+        val gap = price.top - label.bottom
+        val horizontal = minOf(label.right, price.right) - maxOf(label.left, price.left)
+        return gap >= -label.height * BAND_OVERLAP && gap <= label.height &&
+            horizontal >= minOf(label.width, price.width) * BAND_OVERLAP
     }
 
     private fun stackedBelow(label: Box, price: Box): Boolean {

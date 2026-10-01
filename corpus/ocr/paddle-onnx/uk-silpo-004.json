@@ -1,0 +1,162 @@
+[
+    {
+        "text": "Премія,",
+        "box": {
+            "left": 0.3958,
+            "top": 0.1582,
+            "right": 0.6634,
+            "bottom": 0.2939
+        },
+        "confidence": 0.9075
+    },
+    {
+        "text": "Базилік",
+        "box": {
+            "left": 0.1289,
+            "top": 0.1668,
+            "right": 0.3991,
+            "bottom": 0.2756
+        },
+        "confidence": 0.9075
+    },
+    {
+        "text": "10r",
+        "box": {
+            "left": 0.1302,
+            "top": 0.2809,
+            "right": 0.2461,
+            "bottom": 0.394
+        },
+        "confidence": 0.882
+    },
+    {
+        "text": "Від 3 шт.",
+        "box": {
+            "left": 0.5977,
+            "top": 0.4876,
+            "right": 0.8112,
+            "bottom": 0.5974
+        },
+        "confidence": 0.9172
+    },
+    {
+        "text": "2ШТ.",
+        "box": {
+            "left": 0.2721,
+            "top": 0.507,
+            "right": 0.418,
+            "bottom": 0.5942
+        },
+        "confidence": 0.6904
+    },
+    {
+        "text": "До",
+        "box": {
+            "left": 0.2188,
+            "top": 0.5102,
+            "right": 0.3001,
+            "bottom": 0.5985
+        },
+        "confidence": 0.7713
+    },
+    {
+        "text": "27",
+        "box": {
+            "left": 0.597,
+            "top": 0.5748,
+            "right": 0.7956,
+            "bottom": 0.8192
+        },
+        "confidence": 0.9989
+    },
+    {
+        "text": "31",
+        "box": {
+            "left": 0.2539,
+            "top": 0.606,
+            "right": 0.4206,
+            "bottom": 0.8073
+        },
+        "confidence": 0.9999
+    },
+    {
+        "text": "19",
+        "box": {
+            "left": 0.7956,
+            "top": 0.6114,
+            "right": 0.8783,
+            "bottom": 0.7223
+        },
+        "confidence": 0.9992
+    },
+    {
+        "text": "99",
+        "box": {
+            "left": 0.4167,
+            "top": 0.6233,
+            "right": 0.4961,
+            "bottom": 0.7255
+        },
+        "confidence": 0.9996
+    },
+    {
+        "text": "ГРН",
+        "box": {
+            "left": 0.4186,
+            "top": 0.7395,
+            "right": 0.5039,
+            "bottom": 0.8105
+        },
+        "confidence": 0.6037
+    },
+    {
+        "text": "ГРН",
+        "box": {
+            "left": 0.7904,
+            "top": 0.7449,
+            "right": 0.877,
+            "bottom": 0.8159
+        },
+        "confidence": 0.6302
+    },
+    {
+        "text": "Die s 28 10 2028 no 31.12.2026",
+        "box": {
+            "left": 0.1523,
+            "top": 0.8095,
+            "right": 0.4935,
+            "bottom": 0.8644
+        },
+        "confidence": 0.795
+    },
+    {
+        "text": "220492",
+        "box": {
+            "left": 0.5137,
+            "top": 0.8095,
+            "right": 0.6009,
+            "bottom": 0.859
+        },
+        "confidence": 0.742
+    },
+    {
+        "text": "4824024000503",
+        "box": {
+            "left": 0.6185,
+            "top": 0.8095,
+            "right": 0.7969,
+            "bottom": 0.859
+        },
+        "confidence": 0.9409
+    },
+    {
+        "text": "29.09",
+        "box": {
+            "left": 0.8092,
+            "top": 0.8105,
+            "right": 0.8763,
+            "bottom": 0.8558
+        },
+        "confidence": 0.8567
+    }
+]

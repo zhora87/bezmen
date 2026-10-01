@@ -82,10 +82,14 @@ internal class MoneyDetector(private val pack: LocalePack) {
         val cents = ctx.lines.indices.mapNotNull { line -> soleNumber(ctx, line, used)?.takeIf { isCents(it) } }
         for (major in majors) {
             val majorBox = ctx.lines[major.lineIndex].box
-            val cent = cents.firstOrNull {
-                val centsBox = ctx.lines[it.lineIndex].box
-                it.lineIndex != major.lineIndex && looksLikeCents(majorBox, major.digitCount, centsBox)
-            } ?: continue
+            // Several two-digit boxes may qualify (a multi-buy price's kopecks sit just above): take the nearest.
+            val cent = cents
+                .filter {
+                    val centsBox = ctx.lines[it.lineIndex].box
+                    it.lineIndex != major.lineIndex && looksLikeCents(majorBox, major.digitCount, centsBox)
+                }
+                .minByOrNull { gap(majorBox, ctx.lines[it.lineIndex].box) }
+                ?: continue
             out += mergedCandidate(ctx, major, cent)
             used += ctx.tokens[major.lineIndex].map { it.id }
             used += ctx.tokens[cent.lineIndex].map { it.id }
@@ -114,6 +118,13 @@ internal class MoneyDetector(private val pack: LocalePack) {
         val numbers = tokens.filter { it.kind == TokenKind.NUMBER }
         val others = tokens.any { it.kind != TokenKind.NUMBER && it.kind != TokenKind.CURRENCY }
         return if (numbers.size == 1 && !others) numbers.single() else null
+    }
+
+    /** Free space between two boxes, horizontal plus vertical; zero when they touch or overlap. */
+    private fun gap(a: Box, b: Box): Float {
+        val dx = maxOf(0f, maxOf(a.left, b.left) - minOf(a.right, b.right))
+        val dy = maxOf(0f, maxOf(a.top, b.top) - minOf(a.bottom, b.bottom))
+        return dx + dy
     }
 
     /**

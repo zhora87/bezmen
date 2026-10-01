@@ -33,6 +33,14 @@ internal data class UnitPriceCandidate(
     val lines: List<Int>,
 )
 
-internal data class LineFlags(val discount: Boolean, val oldPrice: Boolean, val loyalty: Boolean) {
-    val any: Boolean get() = discount || oldPrice || loyalty
+internal data class LineFlags(
+    val discount: Boolean,
+    val oldPrice: Boolean,
+    val loyalty: Boolean,
+    /** A "from N items" label: its price applies only when buying that many. */
+    val multiBuy: Boolean = false,
+    /** The multi-buy label carries no number of its own, so its price is the one printed under it. */
+    val multiBuyStacked: Boolean = false,
+) {
+    val any: Boolean get() = discount || oldPrice || loyalty || multiBuy
 }

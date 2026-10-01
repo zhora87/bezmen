@@ -1,5 +1,6 @@
 package io.github.zhora87.bezmen.domain.parser
 
+import io.github.zhora87.bezmen.domain.Dimension
 import io.github.zhora87.bezmen.domain.LocalePack
 import io.github.zhora87.bezmen.domain.MeasureUnit
 import io.github.zhora87.bezmen.domain.Quantity
@@ -44,14 +45,18 @@ internal class MarkerDetector(
     private val codes = pack.codeMarkers.prepared()
 
     fun detect(ctx: TagContext): Result {
+        val multiBuy = multiBuyLabels(ctx)
         val flags = ctx.lower.mapIndexed { line, text ->
             LineFlags(
                 discount = discount.any(text::contains) || isPercentOnlyLine(ctx.tokens[line]),
                 oldPrice = oldPrice.any(text::contains),
                 loyalty = loyalty.any(text::contains),
+                multiBuy = line in multiBuy.conditionalLines,
+                multiBuyStacked = line in multiBuy.stackedLines,
             )
         }
         val consumed = mutableSetOf<TokenId>()
+        consumed += multiBuy.consumed
         // Article codes and barcodes: nothing on such a line is a price or a quantity.
         ctx.lines.indices.filter { line -> codes.any(ctx.lower[line]::contains) }.forEach { line ->
             consumed += ctx.tokens[line].map { it.id }
@@ -128,11 +133,72 @@ internal class MarkerDetector(
                 ?: return@mapNotNull null
             val label = ctx.lines[above].box
             val box = ctx.lines[line].box
-            val underLabel = discount.any(ctx.lower[above]::contains) &&
+            // A label that already carries its percentage ("знижка -15%") lost nothing; "00" are kopecks.
+            val bareLabel = ctx.tokens[above].none { it.kind == TokenKind.NUMBER || it.kind == TokenKind.PERCENT }
+            val underLabel = bareLabel && sole.text.toInt() > 0 && discount.any(ctx.lower[above]::contains) &&
                 box.centerX in label.left..label.right &&
                 box.height >= label.height
             sole.id.takeIf { underLabel }
         }
+
+    private class MultiBuy(
+        val consumed: List<TokenId>,
+        val conditionalLines: Set<Int>,
+        /** Conditional labels with no number after the count: the price is printed under them. */
+        val stackedLines: Set<Int>,
+    )
+
+    /**
+     * "Від 3 шт." over a lower price, "До 2 шт." over the regular one: the count is a purchase
+     * threshold, never a package size, and the price under a "from" label is conditional. The word
+     * and its count may come back as two boxes of one row.
+     */
+    private fun multiBuyLabels(ctx: TagContext): MultiBuy {
+        val labels = ctx.lines.indices.mapNotNull { multiBuyLabel(ctx, it) }
+        val consumed = labels.flatMap { it.consumed }.toSet()
+        // "від 6 шт. 17,50" has its price on its own row; "Від 3 шт." alone has it underneath.
+        val stacked = labels.filter { label -> label.lines.none { rowHasNumber(ctx, it, consumed) } }
+        return MultiBuy(
+            consumed = consumed.toList(),
+            conditionalLines = labels.flatMap { it.lines }.toSet(),
+            stackedLines = stacked.flatMap { it.lines }.toSet(),
+        )
+    }
+
+    /** One multi-buy label: the tokens it uses up and, for a "from" label, the lines it occupies. */
+    private class Label(val consumed: List<TokenId>, val lines: List<Int>)
+
+    private fun multiBuyLabel(ctx: TagContext, line: Int): Label? {
+        val tokens = ctx.tokens[line]
+        val index = tokens.indexOfFirst { it.kind == TokenKind.WORD && isMultiBuyWord(it.text) }
+        val word = tokens.getOrNull(index) ?: return null
+        val neighbour = ctx.rowNeighbourRight(line).takeIf { index == tokens.lastIndex }
+        val count = threshold(tokens.drop(index + 1)) ?: neighbour?.let { threshold(ctx.tokens[it]) } ?: return null
+        val lines = if (pack.isMultiBuyFrom(word.text)) listOfNotNull(line, neighbour) else emptyList()
+        return Label(listOf(word.id) + count.map { it.id }, lines)
+    }
+
+    /** A number, not part of any multi-buy count, on [line] or on another line of the same printed row. */
+    private fun rowHasNumber(ctx: TagContext, line: Int, consumed: Set<TokenId>): Boolean {
+        val box = ctx.lines[line].box
+        return ctx.lines.indices.any { other ->
+            val o = ctx.lines[other].box
+            val overlap = minOf(o.bottom, box.bottom) - maxOf(o.top, box.top)
+            val sameRow = other == line || overlap >= minOf(o.height, box.height) * ROW_OVERLAP
+            sameRow && ctx.tokens[other].any { it.kind == TokenKind.NUMBER && it.id !in consumed }
+        }
+    }
+
+    private fun isMultiBuyWord(text: String): Boolean = pack.isMultiBuyFrom(text) || pack.isMultiBuyUpTo(text)
+
+    /** A whole number followed by a count unit at the start of [tokens], else null. */
+    private fun threshold(tokens: List<Token>): List<Token>? {
+        val number = tokens.getOrNull(0)?.takeIf { it.isInteger }
+        val unit = tokens.getOrNull(1)?.takeIf {
+            it.kind == TokenKind.WORD && pack.unitFor(it.text)?.dimension == Dimension.COUNT
+        }
+        return if (number != null && unit != null) listOf(number, unit) else null
+    }
 
     /**
      * "вартість вказана за 100 г" with the unit lost to OCR ("... за100"). Weighed goods are priced by
@@ -180,6 +246,7 @@ internal class MarkerDetector(
 
     private companion object {
         const val MIN_GRAMS_REFERENCE = 10.0
+        const val ROW_OVERLAP = 0.5f
         const val MAX_PERCENT_DIGITS = 2
         const val MARKER_CONFIDENCE = 0.9f
         const val SMALL_PRINT_MAX_REL_HEIGHT = 0.6f

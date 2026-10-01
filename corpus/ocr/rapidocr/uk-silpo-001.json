@@ -1,0 +1,122 @@
+[
+  {
+    "text": "Кеш'ю Winway",
+    "box": {
+      "left": 0.1651,
+      "top": 0.1551,
+      "right": 0.5644,
+      "bottom": 0.2686
+    },
+    "confidence": 0.9533
+  },
+  {
+    "text": "смажений, 100г",
+    "box": {
+      "left": 0.1665,
+      "top": 0.2515,
+      "right": 0.5907,
+      "bottom": 0.3614
+    },
+    "confidence": 0.953
+  },
+  {
+    "text": "3Hижka -15%",
+    "box": {
+      "left": 0.6235,
+      "top": 0.4212,
+      "right": 0.8534,
+      "bottom": 0.4896
+    },
+    "confidence": 0.7364
+  },
+  {
+    "text": "139",
+    "box": {
+      "left": 0.4605,
+      "top": 0.4554,
+      "right": 0.7801,
+      "bottom": 0.7399
+    },
+    "confidence": 0.9986
+  },
+  {
+    "text": "00",
+    "box": {
+      "left": 0.753,
+      "top": 0.4933,
+      "right": 0.8555,
+      "bottom": 0.6313
+    },
+    "confidence": 0.9965
+  },
+  {
+    "text": "164",
+    "box": {
+      "left": 0.1637,
+      "top": 0.4994,
+      "right": 0.3872,
+      "bottom": 0.735
+    },
+    "confidence": 0.9992
+  },
+  {
+    "text": "ГPH",
+    "box": {
+      "left": 0.3616,
+      "top": 0.619,
+      "right": 0.4434,
+      "bottom": 0.7094
+    },
+    "confidence": 0.5346
+  },
+  {
+    "text": "ФПH",
+    "box": {
+      "left": 0.7594,
+      "top": 0.652,
+      "right": 0.8413,
+      "bottom": 0.7216
+    },
+    "confidence": 0.5654
+  },
+  {
+    "text": "Діє з 22.09.2026 до 05.10.2026",
+    "box": {
+      "left": 0.1758,
+      "top": 0.7179,
+      "right": 0.6413,
+      "bottom": 0.7875
+    },
+    "confidence": 0.9186
+  },
+  {
+    "text": "769976",
+    "box": {
+      "left": 0.1786,
+      "top": 0.7851,
+      "right": 0.2925,
+      "bottom": 0.8425
+    },
+    "confidence": 0.9998
+  },
+  {
+    "text": "4821912900037",
+    "box": {
+      "left": 0.3388,
+      "top": 0.7863,
+      "right": 0.5751,
+      "bottom": 0.8486
+    },
+    "confidence": 0.9993
+  },
+  {
+    "text": "22.09",
+    "box": {
+      "left": 0.7495,
+      "top": 0.7985,
+      "right": 0.8384,
+      "bottom": 0.8584
+    },
+    "confidence": 0.9992
+  }
+]

@@ -40,8 +40,9 @@ internal object TestPacks {
           "oldPriceMarkers": ["стара ціна"],
           "loyaltyMarkers": ["з карткою", "за карткою", "скануванн", "додатка", "карткою", "ціна при", "касі"],
           "weightedMarkers": ["ваговий", "вартість вказана за", "вказана за"],
-          "codeMarkers": ["код:", "код "],
+          "codeMarkers": ["код:", "код ", "кешбек"],
           "labelWords": ["ціна", "цина", "при", "npi", "атб", "atb"],
+          "multiBuyFrom": ["від"], "multiBuyUpTo": ["до"],
           "charFixes": { "O": "0", "О": "0", "З": "3", "І": "1" }
         }
         """.trimIndent(),

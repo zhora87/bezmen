@@ -51,6 +51,20 @@ internal class TagContext(
             .maxByOrNull { lines[it].box.bottom }
     }
 
+    /** The nearest line to the right of [line] on the same printed row, touching or close to it. */
+    fun rowNeighbourRight(line: Int): Int? {
+        val box = lines[line].box
+        return lines.indices
+            .filter { it != line && !vertical[it] }
+            .filter { other ->
+                val o = lines[other].box
+                val overlap = minOf(o.bottom, box.bottom) - maxOf(o.top, box.top)
+                overlap >= minOf(o.height, box.height) * ROW_OVERLAP &&
+                    o.centerX > box.centerX && o.left - box.right <= box.height * ROW_GAP
+            }
+            .minByOrNull { lines[it].box.left }
+    }
+
     fun tokensOf(line: Int, excluding: Set<TokenId>): List<Token> =
         if (vertical[line]) emptyList() else tokens[line].filter { it.id !in excluding }
 
@@ -62,6 +76,8 @@ internal class TagContext(
         /** An upright digit is about twice as tall as wide; beyond this it is rotated text or a stroke. */
         private const val TALL_GLYPH_RATIO = 3.5f
         private const val MAX_STACK_OVERLAP = 0.5f
+        private const val ROW_OVERLAP = 0.6f
+        private const val ROW_GAP = 2f
 
         fun build(
             lines: List<OcrLine>,

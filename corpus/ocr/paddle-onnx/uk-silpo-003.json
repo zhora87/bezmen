@@ -1,0 +1,122 @@
+[
+    {
+        "text": "МОЛоко кокосОве Rаnге 17%",
+        "box": {
+            "left": 0.0814,
+            "top": 0.1285,
+            "right": 0.7201,
+            "bottom": 0.261
+        },
+        "confidence": 0.6192
+    },
+    {
+        "text": "органічне",
+        "box": {
+            "left": 0.0898,
+            "top": 0.2278,
+            "right": 0.3112,
+            "bottom": 0.3174
+        },
+        "confidence": 0.9512
+    },
+    {
+        "text": "Шри-Ланка",
+        "box": {
+            "left": 0.5436,
+            "top": 0.3856,
+            "right": 0.7331,
+            "bottom": 0.4576
+        },
+        "confidence": 0.9068
+    },
+    {
+        "text": "ОРГАНИК",
+        "box": {
+            "left": 0.7773,
+            "top": 0.4002,
+            "right": 0.8815,
+            "bottom": 0.4518
+        },
+        "confidence": 0.8909
+    },
+    {
+        "text": "400мл",
+        "box": {
+            "left": 0.0977,
+            "top": 0.4031,
+            "right": 0.2331,
+            "bottom": 0.4722
+        },
+        "confidence": 0.8516
+    },
+    {
+        "text": "139",
+        "box": {
+            "left": 0.0977,
+            "top": 0.4917,
+            "right": 0.4362,
+            "bottom": 0.7955
+        },
+        "confidence": 0.9993
+    },
+    {
+        "text": "00",
+        "box": {
+            "left": 0.4167,
+            "top": 0.5268,
+            "right": 0.5208,
+            "bottom": 0.6592
+        },
+        "confidence": 0.9824
+    },
+    {
+        "text": "BEGAH",
+        "box": {
+            "left": 0.7988,
+            "top": 0.6173,
+            "right": 0.873,
+            "bottom": 0.666
+        },
+        "confidence": 0.7989
+    },
+    {
+        "text": "грн",
+        "box": {
+            "left": 0.4258,
+            "top": 0.6407,
+            "right": 0.5195,
+            "bottom": 0.7254
+        },
+        "confidence": 0.7701
+    },
+    {
+        "text": "20.07",
+        "box": {
+            "left": 0.6602,
+            "top": 0.8033,
+            "right": 0.7363,
+            "bottom": 0.852
+        },
+        "confidence": 0.999
+    },
+    {
+        "text": "4796029920069",
+        "box": {
+            "left": 0.3073,
+            "top": 0.8043,
+            "right": 0.5104,
+            "bottom": 0.8598
+        },
+        "confidence": 0.9594
+    },
+    {
+        "text": "931670",
+        "box": {
+            "left": 0.1022,
+            "top": 0.816,
+            "right": 0.1966,
+            "bottom": 0.8627
+        },
+        "confidence": 0.9703
+    }
+]

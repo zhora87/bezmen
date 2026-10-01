@@ -95,4 +95,21 @@ class TavriaLayoutTest {
 
         assertEquals(Quantity(10.0, MeasureUnit.PIECE), tag?.quantity?.value)
     }
+
+    @Test
+    fun `kopecks next to the price win over a multi-buy price's kopecks further up`() {
+        val tag = uk.parse(
+            listOf(
+                OcrLine("Борошно Сквирянка 800 г пак.", Box(0.10f, 0.14f, 0.76f, 0.29f), 0.97f),
+                OcrLine("50", Box(0.69f, 0.40f, 0.74f, 0.47f), 1f),
+                OcrLine("від 3шT.", Box(0.50f, 0.40f, 0.63f, 0.52f), 0.77f),
+                OcrLine("4", Box(0.62f, 0.43f, 0.66f, 0.49f), 0.85f),
+                OcrLine("80", Box(0.54f, 0.56f, 0.67f, 0.78f), 1f),
+                OcrLine("44", Box(0.32f, 0.53f, 0.58f, 0.92f), 1f),
+            ),
+        ).tagOrNull()
+
+        assertEquals(Money.of(44, 80, "UAH"), tag?.price?.value)
+        assertEquals(Quantity(800.0, MeasureUnit.GRAM), tag?.quantity?.value)
+    }
 }

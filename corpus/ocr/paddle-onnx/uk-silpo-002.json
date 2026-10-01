@@ -1,0 +1,122 @@
+[
+    {
+        "text": "СНАОВННАЛЬНИИ КЕШБЕК",
+        "box": {
+            "left": 0.1782,
+            "top": 0.0,
+            "right": 0.7977,
+            "bottom": 0.1638
+        },
+        "confidence": 0.7979
+    },
+    {
+        "text": "Чипси Повна",
+        "box": {
+            "left": 0.0915,
+            "top": 0.0542,
+            "right": 0.3718,
+            "bottom": 0.186
+        },
+        "confidence": 0.9797
+    },
+    {
+        "text": "Чаша",
+        "box": {
+            "left": 0.3638,
+            "top": 0.0973,
+            "right": 0.5,
+            "bottom": 0.1835
+        },
+        "confidence": 0.9687
+    },
+    {
+        "text": "бананові",
+        "box": {
+            "left": 0.4773,
+            "top": 0.1034,
+            "right": 0.6749,
+            "bottom": 0.2069
+        },
+        "confidence": 0.8266
+    },
+    {
+        "text": "смажені,",
+        "box": {
+            "left": 0.0961,
+            "top": 0.1564,
+            "right": 0.2784,
+            "bottom": 0.2401
+        },
+        "confidence": 0.8986
+    },
+    {
+        "text": "200р",
+        "box": {
+            "left": 0.2657,
+            "top": 0.1576,
+            "right": 0.3698,
+            "bottom": 0.2525
+        },
+        "confidence": 0.8365
+    },
+    {
+        "text": "82",
+        "box": {
+            "left": 0.4232,
+            "top": 0.3498,
+            "right": 0.725,
+            "bottom": 0.7857
+        },
+        "confidence": 0.9993
+    },
+    {
+        "text": "49",
+        "box": {
+            "left": 0.725,
+            "top": 0.447,
+            "right": 0.8445,
+            "bottom": 0.6158
+        },
+        "confidence": 0.9998
+    },
+    {
+        "text": "ГРН",
+        "box": {
+            "left": 0.719,
+            "top": 0.6601,
+            "right": 0.8385,
+            "bottom": 0.7697
+        },
+        "confidence": 0.7932
+    },
+    {
+        "text": "934210",
+        "box": {
+            "left": 0.1021,
+            "top": 0.7106,
+            "right": 0.229,
+            "bottom": 0.7968
+        },
+        "confidence": 0.9992
+    },
+    {
+        "text": "4823096426273",
+        "box": {
+            "left": 0.2664,
+            "top": 0.7229,
+            "right": 0.5447,
+            "bottom": 0.8436
+        },
+        "confidence": 0.9999
+    },
+    {
+        "text": "01.10",
+        "box": {
+            "left": 0.7343,
+            "top": 0.7808,
+            "right": 0.8364,
+            "bottom": 0.8596
+        },
+        "confidence": 0.9984
+    }
+]
