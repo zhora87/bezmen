@@ -96,8 +96,10 @@ An `overall` below `ParseResult.CONFIRM_THRESHOLD` (0.75) means the UI shows the
 10. **Name.** Pieces of text level with each other form a row, read left to right. The name is the
    topmost wordy row in the upper part of the tag, joined with up to three rows directly beneath it
    in similar type, taken as printed. Lines with more digits than letters, marker lines, rows made
-   only of the pack's `labelWords` or currency, text cut by the frame edge and anything printed over
-   the card price's box are excluded; a quantity inside a name row is cut out.
+   only of the pack's `labelWords` or currency, single words cut by the frame edge (packaging behind
+   the tag; a whole line of words reaching the edge is a tag wider than the viewfinder) and anything
+   printed over the card price's box are excluded; a quantity inside a name row is cut out. Label
+   words of six letters or more also match with up to two OCR errors ("нац!ональний").
 11. **Cross-check and derivation.** With price, quantity and a printed unit price, a mismatch above
     3% lowers `overall`. With price and printed unit price but no quantity, the quantity is derived
     (price ÷ unit price) at reduced confidence. With no price of its own, the marker's price is used

@@ -1,0 +1,122 @@
+[
+    {
+        "text": "700 г",
+        "box": {
+            "left": 0.7373,
+            "top": 0.1216,
+            "right": 0.8877,
+            "bottom": 0.2301
+        },
+        "confidence": 0.8935
+    },
+    {
+        "text": "2,9%",
+        "box": {
+            "left": 0.5991,
+            "top": 0.1269,
+            "right": 0.749,
+            "bottom": 0.2555
+        },
+        "confidence": 0.9891
+    },
+    {
+        "text": "Ряжанка Простонаше",
+        "box": {
+            "left": 0.0313,
+            "top": 0.1321,
+            "right": 0.6138,
+            "bottom": 0.2957
+        },
+        "confidence": 0.9671
+    },
+    {
+        "text": "Kypara",
+        "box": {
+            "left": 0.0439,
+            "top": 0.2703,
+            "right": 0.2354,
+            "bottom": 0.3876
+        },
+        "confidence": 0.809
+    },
+    {
+        "text": "від 3 шт.90",
+        "box": {
+            "left": 0.5396,
+            "top": 0.3421,
+            "right": 0.7876,
+            "bottom": 0.5074
+        },
+        "confidence": 0.7151
+    },
+    {
+        "text": "Україна",
+        "box": {
+            "left": 0.8335,
+            "top": 0.3438,
+            "right": 0.9487,
+            "bottom": 0.4121
+        },
+        "confidence": 0.8613
+    },
+    {
+        "text": "00",
+        "box": {
+            "left": 0.7749,
+            "top": 0.357,
+            "right": 0.8252,
+            "bottom": 0.4191
+        },
+        "confidence": 0.976
+    },
+    {
+        "text": "нацональний",
+        "box": {
+            "left": 0.1147,
+            "top": 0.3841,
+            "right": 0.2998,
+            "bottom": 0.4742
+        },
+        "confidence": 0.9606
+    },
+    {
+        "text": "02.10.26",
+        "box": {
+            "left": 0.8291,
+            "top": 0.399,
+            "right": 0.9512,
+            "bottom": 0.4777
+        },
+        "confidence": 0.9992
+    },
+    {
+        "text": "кешбек",
+        "box": {
+            "left": 0.1196,
+            "top": 0.4409,
+            "right": 0.2998,
+            "bottom": 0.5258
+        },
+        "confidence": 0.86
+    },
+    {
+        "text": "92",
+        "box": {
+            "left": 0.3394,
+            "top": 0.5188,
+            "right": 0.6333,
+            "bottom": 0.923
+        },
+        "confidence": 0.9981
+    },
+    {
+        "text": "70",
+        "box": {
+            "left": 0.6177,
+            "top": 0.5389,
+            "right": 0.7446,
+            "bottom": 0.7113
+        },
+        "confidence": 0.9963
+    }
+]

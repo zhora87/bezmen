@@ -1,0 +1,162 @@
+[
+    {
+        "text": "Молоко",
+        "box": {
+            "left": 0.0054,
+            "top": 0.147,
+            "right": 0.228,
+            "bottom": 0.2651
+        },
+        "confidence": 0.9486
+    },
+    {
+        "text": "Полтавський",
+        "box": {
+            "left": 0.373,
+            "top": 0.154,
+            "right": 0.7407,
+            "bottom": 0.2686
+        },
+        "confidence": 0.9811
+    },
+    {
+        "text": "3ryw.",
+        "box": {
+            "left": 0.2207,
+            "top": 0.1636,
+            "right": 0.3833,
+            "bottom": 0.2773
+        },
+        "confidence": 0.7533
+    },
+    {
+        "text": "cMak",
+        "box": {
+            "left": 0.7427,
+            "top": 0.1689,
+            "right": 0.8887,
+            "bottom": 0.2607
+        },
+        "confidence": 0.5776
+    },
+    {
+        "text": "8,5%",
+        "box": {
+            "left": 0.0093,
+            "top": 0.2406,
+            "right": 0.1553,
+            "bottom": 0.364
+        },
+        "confidence": 0.9706
+    },
+    {
+        "text": "290",
+        "box": {
+            "left": 0.1543,
+            "top": 0.2441,
+            "right": 0.2759,
+            "bottom": 0.3552
+        },
+        "confidence": 0.9984
+    },
+    {
+        "text": "д/нак.3",
+        "box": {
+            "left": 0.3071,
+            "top": 0.2555,
+            "right": 0.5396,
+            "bottom": 0.3657
+        },
+        "confidence": 0.7117
+    },
+    {
+        "text": "цукром",
+        "box": {
+            "left": 0.5376,
+            "top": 0.2651,
+            "right": 0.7437,
+            "bottom": 0.3753
+        },
+        "confidence": 0.9628
+    },
+    {
+        "text": "Україна",
+        "box": {
+            "left": 0.8511,
+            "top": 0.3893,
+            "right": 0.9761,
+            "bottom": 0.4628
+        },
+        "confidence": 0.8151
+    },
+    {
+        "text": "56",
+        "box": {
+            "left": 0.6738,
+            "top": 0.392,
+            "right": 0.7886,
+            "bottom": 0.5241
+        },
+        "confidence": 0.9994
+    },
+    {
+        "text": "национальний",
+        "box": {
+            "left": 0.1021,
+            "top": 0.3955,
+            "right": 0.2856,
+            "bottom": 0.4488
+        },
+        "confidence": 0.9481
+    },
+    {
+        "text": "90",
+        "box": {
+            "left": 0.7759,
+            "top": 0.3955,
+            "right": 0.8325,
+            "bottom": 0.4724
+        },
+        "confidence": 0.994
+    },
+    {
+        "text": "від 3шт.",
+        "box": {
+            "left": 0.5386,
+            "top": 0.4042,
+            "right": 0.6968,
+            "bottom": 0.5241
+        },
+        "confidence": 0.7977
+    },
+    {
+        "text": "кешбек",
+        "box": {
+            "left": 0.0991,
+            "top": 0.4304,
+            "right": 0.2915,
+            "bottom": 0.5223
+        },
+        "confidence": 0.9234
+    },
+    {
+        "text": "04.05.26",
+        "box": {
+            "left": 0.8481,
+            "top": 0.4576,
+            "right": 0.9707,
+            "bottom": 0.5241
+        },
+        "confidence": 0.9994
+    },
+    {
+        "text": "5980",
+        "box": {
+            "left": 0.3032,
+            "top": 0.5127,
+            "right": 0.7842,
+            "bottom": 0.9396
+        },
+        "confidence": 0.9983
+    }
+]

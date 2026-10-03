@@ -1,0 +1,122 @@
+[
+  {
+    "text": "Ряжанка Простонаше 2,9% 700 г",
+    "box": {
+      "left": 0.0272,
+      "top": 0.0964,
+      "right": 0.9012,
+      "bottom": 0.317
+    },
+    "confidence": 0.9822
+  },
+  {
+    "text": "Kypara",
+    "box": {
+      "left": 0.0408,
+      "top": 0.2571,
+      "right": 0.2384,
+      "bottom": 0.392
+    },
+    "confidence": 0.9456
+  },
+  {
+    "text": "вIд 3 шт. 90 00",
+    "box": {
+      "left": 0.5393,
+      "top": 0.3312,
+      "right": 0.8407,
+      "bottom": 0.5205
+    },
+    "confidence": 0.6894
+  },
+  {
+    "text": "ykpaHa",
+    "box": {
+      "left": 0.8322,
+      "top": 0.3348,
+      "right": 0.9491,
+      "bottom": 0.4196
+    },
+    "confidence": 0.5918
+  },
+  {
+    "text": "національний",
+    "box": {
+      "left": 0.122,
+      "top": 0.3982,
+      "right": 0.2933,
+      "bottom": 0.4634
+    },
+    "confidence": 0.9283
+  },
+  {
+    "text": "02.10.26",
+    "box": {
+      "left": 0.8322,
+      "top": 0.4054,
+      "right": 0.9466,
+      "bottom": 0.4732
+    },
+    "confidence": 0.9952
+  },
+  {
+    "text": "кешбек",
+    "box": {
+      "left": 0.1235,
+      "top": 0.4411,
+      "right": 0.2974,
+      "bottom": 0.5241
+    },
+    "confidence": 0.8977
+  },
+  {
+    "text": "92",
+    "box": {
+      "left": 0.3352,
+      "top": 0.5179,
+      "right": 0.6492,
+      "bottom": 0.9446
+    },
+    "confidence": 0.9986
+  },
+  {
+    "text": "70",
+    "box": {
+      "left": 0.6079,
+      "top": 0.525,
+      "right": 0.7535,
+      "bottom": 0.7277
+    },
+    "confidence": 0.9995
+  },
+  {
+    "text": "0",
+    "box": {
+      "left": 0.0005,
+      "top": 0.8143,
+      "right": 0.0328,
+      "bottom": 0.8902
+    },
+    "confidence": 0.6855
+  },
+  {
+    "text": "oOn",
+    "box": {
+      "left": 0.9269,
+      "top": 0.8518,
+      "right": 0.9995,
+      "bottom": 0.9286
+    },
+    "confidence": 0.6809
+  },
+  {
+    "text": "3",
+    "box": {
+      "left": 0.0605,
+      "top": 0.8688,
+      "right": 0.0781,
+      "bottom": 0.9116
+    },
+    "confidence": 0.9977
+  }
+]

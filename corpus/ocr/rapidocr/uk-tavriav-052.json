@@ -1,0 +1,102 @@
+[
+  {
+    "text": "Ряжанка Яготинський 2,9% 750 г",
+    "box": {
+      "left": 0.0,
+      "top": 0.0732,
+      "right": 0.9995,
+      "bottom": 0.2491
+    },
+    "confidence": 0.9483
+  },
+  {
+    "text": "Kypara",
+    "box": {
+      "left": 0.0066,
+      "top": 0.2027,
+      "right": 0.2324,
+      "bottom": 0.3527
+    },
+    "confidence": 0.9585
+  },
+  {
+    "text": "Ykpa",
+    "box": {
+      "left": 0.9239,
+      "top": 0.3464,
+      "right": 0.9995,
+      "bottom": 0.4527
+    },
+    "confidence": 0.7191
+  },
+  {
+    "text": "вiд 3 шт. 80",
+    "box": {
+      "left": 0.5822,
+      "top": 0.3527,
+      "right": 0.873,
+      "bottom": 0.5295
+    },
+    "confidence": 0.7289
+  },
+  {
+    "text": "50",
+    "box": {
+      "left": 0.8508,
+      "top": 0.3696,
+      "right": 0.9153,
+      "bottom": 0.4545
+    },
+    "confidence": 0.9995
+  },
+  {
+    "text": "нац!ональний",
+    "box": {
+      "left": 0.0953,
+      "top": 0.3741,
+      "right": 0.2933,
+      "bottom": 0.4366
+    },
+    "confidence": 0.9269
+  },
+  {
+    "text": "кешбек",
+    "box": {
+      "left": 0.0922,
+      "top": 0.4143,
+      "right": 0.2979,
+      "bottom": 0.5188
+    },
+    "confidence": 0.8203
+  },
+  {
+    "text": "28.0",
+    "box": {
+      "left": 0.9239,
+      "top": 0.442,
+      "right": 0.9995,
+      "bottom": 0.5089
+    },
+    "confidence": 0.9973
+  },
+  {
+    "text": "90",
+    "box": {
+      "left": 0.6562,
+      "top": 0.5661,
+      "right": 0.8206,
+      "bottom": 0.7786
+    },
+    "confidence": 0.9983
+  },
+  {
+    "text": "3",
+    "box": {
+      "left": 0.0116,
+      "top": 0.9018,
+      "right": 0.0318,
+      "bottom": 0.9464
+    },
+    "confidence": 0.9986
+  }
+]

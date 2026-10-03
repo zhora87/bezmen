@@ -2,6 +2,7 @@ package io.github.zhora87.bezmen.domain
 
 import kotlin.test.Test
 import kotlin.test.assertEquals
+import kotlin.test.assertFalse
 import kotlin.test.assertNull
 import kotlin.test.assertTrue
 
@@ -68,5 +69,18 @@ class LocalePackTest {
         assertTrue(problems.any { "id 'Bad'" in it }, problems.toString())
         assertTrue(problems.any { "currency.code" in it }, problems.toString())
         assertTrue(problems.any { "decimal separator" in it }, problems.toString())
+    }
+
+    @Test
+    fun `long label words match with up to two OCR errors, short ones only exactly`() {
+        val labelled = pack.copy(labelWords = listOf("національний", "україна", "при"))
+
+        assertTrue(labelled.isLabelWord("Національний"))
+        assertTrue(labelled.isLabelWord("национальний"))
+        assertTrue(labelled.isLabelWord("нац!ональний"))
+        assertTrue(labelled.isLabelWord("Украна"))
+        assertFalse(labelled.isLabelWord("Яготинський"))
+        assertFalse(labelled.isLabelWord("Курага"))
+        assertFalse(labelled.isLabelWord("пра"))
     }
 }

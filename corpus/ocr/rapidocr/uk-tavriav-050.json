@@ -1,0 +1,112 @@
+[
+  {
+    "text": "т ЯГОТИНСЬКИЙ 1,5% 750 г",
+    "box": {
+      "left": 0.2061,
+      "top": 0.0696,
+      "right": 0.8654,
+      "bottom": 0.2241
+    },
+    "confidence": 0.8617
+  },
+  {
+    "text": "Йогурт",
+    "box": {
+      "left": 0.0393,
+      "top": 0.0741,
+      "right": 0.2465,
+      "bottom": 0.2107
+    },
+    "confidence": 0.8144
+  },
+  {
+    "text": "Персик",
+    "box": {
+      "left": 0.0408,
+      "top": 0.1723,
+      "right": 0.2566,
+      "bottom": 0.3116
+    },
+    "confidence": 0.6709
+  },
+  {
+    "text": "від 3 шт. 83",
+    "box": {
+      "left": 0.5645,
+      "top": 0.3223,
+      "right": 0.815,
+      "bottom": 0.4714
+    },
+    "confidence": 0.7649
+  },
+  {
+    "text": "Укpаїнa",
+    "box": {
+      "left": 0.8664,
+      "top": 0.3277,
+      "right": 0.9839,
+      "bottom": 0.3991
+    },
+    "confidence": 0.5378
+  },
+  {
+    "text": "національний",
+    "box": {
+      "left": 0.1174,
+      "top": 0.3295,
+      "right": 0.2979,
+      "bottom": 0.3848
+    },
+    "confidence": 0.9441
+  },
+  {
+    "text": "90",
+    "box": {
+      "left": 0.8039,
+      "top": 0.3321,
+      "right": 0.8569,
+      "bottom": 0.4036
+    },
+    "confidence": 0.9966
+  },
+  {
+    "text": "кешбек",
+    "box": {
+      "left": 0.1159,
+      "top": 0.3768,
+      "right": 0.2999,
+      "bottom": 0.4527
+    },
+    "confidence": 0.9381
+  },
+  {
+    "text": "28.09.26",
+    "box": {
+      "left": 0.8649,
+      "top": 0.4027,
+      "right": 0.9819,
+      "bottom": 0.4571
+    },
+    "confidence": 0.9987
+  },
+  {
+    "text": "40",
+    "box": {
+      "left": 0.6119,
+      "top": 0.5071,
+      "right": 0.7772,
+      "bottom": 0.7054
+    },
+    "confidence": 0.999
+  },
+  {
+    "text": "3",
+    "box": {
+      "left": 0.0257,
+      "top": 0.8161,
+      "right": 0.0439,
+      "bottom": 0.8616
+    },
+    "confidence": 0.9972
+  }
+]

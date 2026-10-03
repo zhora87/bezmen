@@ -1,0 +1,132 @@
+[
+    {
+        "text": "Йогурт",
+        "box": {
+            "left": 0.0396,
+            "top": 0.07,
+            "right": 0.2446,
+            "bottom": 0.21
+        },
+        "confidence": 0.9759
+    },
+    {
+        "text": "ЯготинсЬкий 1,5%",
+        "box": {
+            "left": 0.2334,
+            "top": 0.0831,
+            "right": 0.7207,
+            "bottom": 0.2152
+        },
+        "confidence": 0.7984
+    },
+    {
+        "text": "750 г",
+        "box": {
+            "left": 0.7075,
+            "top": 0.0936,
+            "right": 0.8564,
+            "bottom": 0.2021
+        },
+        "confidence": 0.8066
+    },
+    {
+        "text": "Персик",
+        "box": {
+            "left": 0.0396,
+            "top": 0.1767,
+            "right": 0.2529,
+            "bottom": 0.3071
+        },
+        "confidence": 0.9194
+    },
+    {
+        "text": "від 3 шт. 83",
+        "box": {
+            "left": 0.5654,
+            "top": 0.3202,
+            "right": 0.8169,
+            "bottom": 0.4707
+        },
+        "confidence": 0.8188
+    },
+    {
+        "text": "национальний",
+        "box": {
+            "left": 0.1167,
+            "top": 0.3272,
+            "right": 0.2988,
+            "bottom": 0.3858
+        },
+        "confidence": 0.9406
+    },
+    {
+        "text": "Україна",
+        "box": {
+            "left": 0.8623,
+            "top": 0.329,
+            "right": 0.9854,
+            "bottom": 0.3955
+        },
+        "confidence": 0.6649
+    },
+    {
+        "text": "90",
+        "box": {
+            "left": 0.8081,
+            "top": 0.3342,
+            "right": 0.855,
+            "bottom": 0.3972
+        },
+        "confidence": 0.9985
+    },
+    {
+        "text": "кешбек",
+        "box": {
+            "left": 0.1138,
+            "top": 0.3675,
+            "right": 0.3042,
+            "bottom": 0.4593
+        },
+        "confidence": 0.9563
+    },
+    {
+        "text": "28.09.26",
+        "box": {
+            "left": 0.8623,
+            "top": 0.3955,
+            "right": 0.9854,
+            "bottom": 0.4611
+        },
+        "confidence": 0.999
+    },
+    {
+        "text": "86",
+        "box": {
+            "left": 0.3188,
+            "top": 0.4926,
+            "right": 0.6479,
+            "bottom": 0.9116
+        },
+        "confidence": 0.9998
+    },
+    {
+        "text": "40",
+        "box": {
+            "left": 0.6196,
+            "top": 0.5188,
+            "right": 0.771,
+            "bottom": 0.6982
+        },
+        "confidence": 0.9994
+    },
+    {
+        "text": "3",
+        "box": {
+            "left": 0.0259,
+            "top": 0.8198,
+            "right": 0.0405,
+            "bottom": 0.8565
+        },
+        "confidence": 0.6889
+    }
+]

@@ -1,0 +1,122 @@
+[
+    {
+        "text": "ЯгОТИнСЬкИЙ 2,9% 750 г",
+        "box": {
+            "left": 0.2612,
+            "top": 0.0805,
+            "right": 0.998,
+            "bottom": 0.2353
+        },
+        "confidence": 0.7955
+    },
+    {
+        "text": "Ряжанка",
+        "box": {
+            "left": 0.0093,
+            "top": 0.0989,
+            "right": 0.2803,
+            "bottom": 0.2152
+        },
+        "confidence": 0.9669
+    },
+    {
+        "text": "Kypara",
+        "box": {
+            "left": 0.0044,
+            "top": 0.2003,
+            "right": 0.23,
+            "bottom": 0.3508
+        },
+        "confidence": 0.7626
+    },
+    {
+        "text": "від 3 шт.80",
+        "box": {
+            "left": 0.5845,
+            "top": 0.3473,
+            "right": 0.8667,
+            "bottom": 0.5241
+        },
+        "confidence": 0.7275
+    },
+    {
+        "text": "Укр",
+        "box": {
+            "left": 0.9263,
+            "top": 0.3587,
+            "right": 1.0,
+            "bottom": 0.4488
+        },
+        "confidence": 0.5165
+    },
+    {
+        "text": "50",
+        "box": {
+            "left": 0.8574,
+            "top": 0.3657,
+            "right": 0.9146,
+            "bottom": 0.4444
+        },
+        "confidence": 0.9998
+    },
+    {
+        "text": "нац!ональний",
+        "box": {
+            "left": 0.0938,
+            "top": 0.3675,
+            "right": 0.2949,
+            "bottom": 0.4374
+        },
+        "confidence": 0.9163
+    },
+    {
+        "text": "кешбек",
+        "box": {
+            "left": 0.0928,
+            "top": 0.4226,
+            "right": 0.2988,
+            "bottom": 0.5144
+        },
+        "confidence": 0.9242
+    },
+    {
+        "text": "28.0",
+        "box": {
+            "left": 0.9219,
+            "top": 0.4357,
+            "right": 1.0,
+            "bottom": 0.5127
+        },
+        "confidence": 0.9983
+    },
+    {
+        "text": "82",
+        "box": {
+            "left": 0.3237,
+            "top": 0.5424,
+            "right": 0.6772,
+            "bottom": 0.9983
+        },
+        "confidence": 0.9996
+    },
+    {
+        "text": "90",
+        "box": {
+            "left": 0.6616,
+            "top": 0.5678,
+            "right": 0.8188,
+            "bottom": 0.7778
+        },
+        "confidence": 0.9936
+    },
+    {
+        "text": "3",
+        "box": {
+            "left": 0.0083,
+            "top": 0.895,
+            "right": 0.0356,
+            "bottom": 0.9519
+        },
+        "confidence": 0.999
+    }
+]

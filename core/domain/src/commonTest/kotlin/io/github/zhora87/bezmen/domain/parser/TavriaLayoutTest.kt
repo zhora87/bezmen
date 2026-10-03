@@ -112,4 +112,59 @@ class TavriaLayoutTest {
         assertEquals(Money.of(44, 80, "UAH"), tag?.price?.value)
         assertEquals(Quantity(800.0, MeasureUnit.GRAM), tag?.quantity?.value)
     }
+
+    @Test
+    fun `multi-buy word misread by OCR still hides its count`() {
+        // "від 3 шт." read as "вд 3шт."; the package size is in the name.
+        val tag = uk.parse(
+            listOf(
+                OcrLine("700г", Box(0.77f, 0.09f, 0.92f, 0.21f), 0.92f),
+                OcrLine("2,9%", Box(0.62f, 0.10f, 0.77f, 0.23f), 0.99f),
+                OcrLine("Простонаше", Box(0.28f, 0.11f, 0.63f, 0.26f), 1f),
+                OcrLine("Ряжанка", Box(0.05f, 0.14f, 0.29f, 0.25f), 0.97f),
+                OcrLine("90", Box(0.70f, 0.33f, 0.82f, 0.47f), 0.99f),
+                OcrLine("00", Box(0.79f, 0.33f, 0.85f, 0.41f), 0.98f),
+                OcrLine("вд 3шт.", Box(0.56f, 0.35f, 0.72f, 0.48f), 0.68f),
+                OcrLine("92", Box(0.35f, 0.51f, 0.65f, 0.90f), 1f),
+                OcrLine("70", Box(0.64f, 0.52f, 0.77f, 0.70f), 1f),
+            ),
+        ).tagOrNull()
+
+        assertEquals(Money.of(92, 70, "UAH"), tag?.price?.value)
+        assertEquals(Quantity(700.0, MeasureUnit.GRAM), tag?.quantity?.value)
+    }
+
+    @Test
+    fun `cashback logo and country of origin misread by OCR are not the name`() {
+        val tag = uk.parse(
+            listOf(
+                OcrLine("Біфідойогурт Данон Активіа 1,5%", Box(0.04f, 0.10f, 0.80f, 0.22f), 0.95f),
+                OcrLine("800 г бут. Класичний", Box(0.04f, 0.21f, 0.55f, 0.33f), 0.95f),
+                OcrLine("нац!ональний", Box(0.09f, 0.34f, 0.29f, 0.44f), 0.91f),
+                OcrLine("Украна", Box(0.80f, 0.34f, 0.92f, 0.44f), 0.9f),
+                OcrLine("98", Box(0.32f, 0.54f, 0.68f, 0.95f), 1f),
+                OcrLine("30", Box(0.66f, 0.57f, 0.82f, 0.78f), 0.99f),
+            ),
+        ).tagOrNull()
+
+        assertEquals("Біфідойогурт Данон Активіа 1,5% бут. Класичний", tag?.name?.value)
+        assertEquals(Quantity(800.0, MeasureUnit.GRAM), tag?.quantity?.value)
+    }
+
+    @Test
+    fun `a full name line that reaches both edges of the frame is still the name`() {
+        // The tag is wider than the viewfinder; packaging fragments cut by an edge are single words.
+        val tag = uk.parse(
+            listOf(
+                OcrLine("shing&", Box(0.00f, 0.00f, 0.20f, 0.07f), 0.8f),
+                OcrLine("Ряжанка Яготинський 2,9% 750 г", Box(0.00f, 0.08f, 1.00f, 0.24f), 0.91f),
+                OcrLine("Курага", Box(0.01f, 0.20f, 0.23f, 0.35f), 0.78f),
+                OcrLine("82", Box(0.32f, 0.54f, 0.68f, 1.00f), 1f),
+                OcrLine("90", Box(0.66f, 0.57f, 0.82f, 0.78f), 0.99f),
+            ),
+        ).tagOrNull()
+
+        assertEquals("Ряжанка Яготинський 2,9% Курага", tag?.name?.value)
+        assertEquals(Quantity(750.0, MeasureUnit.GRAM), tag?.quantity?.value)
+    }
 }

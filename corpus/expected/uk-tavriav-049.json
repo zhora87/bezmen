@@ -1,0 +1,15 @@
+{
+  "pack": "uk",
+  "price": {
+    "minor": 5980,
+    "currency": "UAH"
+  },
+  "oldPrice": null,
+  "quantity": {
+    "value": 290.0,
+    "unit": "GRAM"
+  },
+  "isWeighted": false,
+  "loyaltyPrice": null,
+  "note": "Таврія В 2026-10-02 in-app shot; Молоко згущ. Полтавський смак 8,5% 290 г д/пак. з цукром; від 3 шт. 56.90; the г after 290 is lost by OCR"
+}

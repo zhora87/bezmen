@@ -76,7 +76,16 @@ data class LocalePack(
 
     private val labelTokens: Set<String> by lazy { labelWords.map(::normalizeToken).toSet() }
 
-    fun isLabelWord(token: String): Boolean = normalizeToken(token) in labelTokens
+    /**
+     * Exact for short words; long ones ("національний", "україна") also match with a couple of OCR
+     * errors, because small label print comes back mangled in a new way on every tag.
+     */
+    fun isLabelWord(token: String): Boolean {
+        val word = normalizeToken(token)
+        if (word in labelTokens) return true
+        return word.length >= FUZZY_MIN_LENGTH &&
+            labelTokens.any { it.length >= FUZZY_MIN_LENGTH && editDistanceWithin(word, it, FUZZY_DISTANCE) }
+    }
 
     private val multiBuyFromTokens: Set<String> by lazy { multiBuyFrom.map(::normalizeToken).toSet() }
     private val multiBuyUpToTokens: Set<String> by lazy { multiBuyUpTo.map(::normalizeToken).toSet() }
@@ -134,5 +143,24 @@ data class LocalePack(
         fun fromJson(text: String): LocalePack = json.decodeFromString(serializer(), text)
 
         fun normalizeAlias(text: String): String = text.trim().trimEnd('.').lowercase()
+
+        private const val FUZZY_MIN_LENGTH = 6
+        private const val FUZZY_DISTANCE = 2
+
+        /** True when [a] turns into [b] with at most [limit] single-character edits. */
+        internal fun editDistanceWithin(a: String, b: String, limit: Int): Boolean {
+            if (kotlin.math.abs(a.length - b.length) > limit) return false
+            var previous = IntArray(b.length + 1) { it }
+            for (i in 1..a.length) {
+                val current = IntArray(b.length + 1)
+                current[0] = i
+                for (j in 1..b.length) {
+                    val substitution = previous[j - 1] + if (a[i - 1] == b[j - 1]) 0 else 1
+                    current[j] = minOf(substitution, previous[j] + 1, current[j - 1] + 1)
+                }
+                previous = current
+            }
+            return previous[b.length] <= limit
+        }
     }
 }

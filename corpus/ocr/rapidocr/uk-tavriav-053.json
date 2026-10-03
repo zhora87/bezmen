@@ -1,0 +1,72 @@
+[
+  {
+    "text": "Ряжанка Простонаше 2,9% 700 г",
+    "box": {
+      "left": 0.0383,
+      "top": 0.0714,
+      "right": 0.9284,
+      "bottom": 0.2884
+    },
+    "confidence": 0.9733
+  },
+  {
+    "text": "Kypara",
+    "box": {
+      "left": 0.0499,
+      "top": 0.2357,
+      "right": 0.2505,
+      "bottom": 0.3661
+    },
+    "confidence": 0.9665
+  },
+  {
+    "text": "вla 3 wr.9000",
+    "box": {
+      "left": 0.5539,
+      "top": 0.3071,
+      "right": 0.874,
+      "bottom": 0.5054
+    },
+    "confidence": 0.6629
+  },
+  {
+    "text": "ykpaiнa",
+    "box": {
+      "left": 0.8553,
+      "top": 0.3116,
+      "right": 0.9788,
+      "bottom": 0.4071
+    },
+    "confidence": 0.564
+  },
+  {
+    "text": "02.10.26",
+    "box": {
+      "left": 0.8569,
+      "top": 0.3857,
+      "right": 0.9758,
+      "bottom": 0.4598
+    },
+    "confidence": 0.9957
+  },
+  {
+    "text": "кешбек",
+    "box": {
+      "left": 0.1265,
+      "top": 0.4018,
+      "right": 0.316,
+      "bottom": 0.5062
+    },
+    "confidence": 0.5573
+  },
+  {
+    "text": "70",
+    "box": {
+      "left": 0.627,
+      "top": 0.5116,
+      "right": 0.7757,
+      "bottom": 0.7143
+    },
+    "confidence": 0.9994
+  }
+]

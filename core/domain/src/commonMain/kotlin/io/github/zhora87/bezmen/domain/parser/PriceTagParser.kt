@@ -184,6 +184,8 @@ private object NameDetector {
     private const val GAP_FACTOR = 0.6f
     private const val HEIGHT_RATIO = 1.5f
     private const val EDGE = 0.005f
+    private const val LONG_WORD = 4
+    private const val FULL_LINE_WORDS = 2
     private const val ROW_OVERLAP = 0.6f
     private const val SIDE_OVERLAP = 0.2f
     private val SPACES = Regex("\\s+")
@@ -198,7 +200,7 @@ private object NameDetector {
         val excluded = markers.markerLines + markers.labelLines
         val candidates = ctx.lines.indices
             .filter { it !in excluded && !markers.flags[it].any && !intersects(ctx.lines[it].box, cardBlock) }
-            .filter { isWordy(ctx.normalized[it]) && !onlyLabelWords(ctx, it) && !cutByEdge(ctx.lines[it].box) }
+            .filter { isWordy(ctx.normalized[it]) && !onlyLabelWords(ctx, it) && !cutByEdge(ctx, it) }
         val rows = rows(ctx, candidates)
         // The name starts in the upper part of the tag; its continuation may run lower.
         val first = rows.indexOfFirst { it.box.top < MAX_TOP }.takeIf { it >= 0 } ?: return null
@@ -248,8 +250,16 @@ private object NameDetector {
     private fun intersects(a: Box, b: Box?): Boolean = b != null &&
         minOf(a.right, b.right) > maxOf(a.left, b.left) && minOf(a.bottom, b.bottom) > maxOf(a.top, b.top)
 
-    /** Text running into the left or right edge of the frame is packaging behind the tag. */
-    private fun cutByEdge(box: Box): Boolean = box.left <= EDGE || box.right >= 1f - EDGE
+    /**
+     * Text running into the left or right edge of the frame is packaging behind the tag, unless it is
+     * a whole line of words: then the tag is simply wider than the viewfinder.
+     */
+    private fun cutByEdge(ctx: TagContext, line: Int): Boolean {
+        val box = ctx.lines[line].box
+        val touches = box.left <= EDGE || box.right >= 1f - EDGE
+        val words = ctx.tokens[line].count { it.kind == TokenKind.WORD && it.text.count(Char::isLetter) >= LONG_WORD }
+        return touches && words < FULL_LINE_WORDS
+    }
 
     /** Enough letters, and more letters than digits: "Код: 128718", dates and barcodes are not names. */
     private fun isWordy(text: String): Boolean {
@@ -267,8 +277,11 @@ private object NameDetector {
     private fun lineText(ctx: TagContext, line: Int, quantity: QuantityCandidate?): String {
         // A wrapped quantity has its number on one line and its unit on the next: cut it from both.
         val tokens = ctx.tokens[line].filter { quantity != null && it.id in quantity.tokens }
-        if (tokens.isEmpty()) return ctx.lines[line].text
-        return ctx.normalized[line].removeRange(tokens.minOf { it.start }, tokens.maxOf { it.end })
+        val raw = ctx.lines[line].text
+        if (tokens.isEmpty()) return raw
+        // Token offsets are in the normalised text; it nearly always has the length of the printed one.
+        val printed = raw.takeIf { it.length == ctx.normalized[line].length } ?: ctx.normalized[line]
+        return printed.removeRange(tokens.minOf { it.start }, tokens.maxOf { it.end })
     }
 }
 
